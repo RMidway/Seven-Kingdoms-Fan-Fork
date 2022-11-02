@@ -1,0 +1,40 @@
+# c_the_arbor
+
+# County Title
+title = c_the_arbor
+
+# Settlements
+max_settlements = 7
+
+b_arbor_keep = castle
+b_arbor = city
+b_ryamsport = city
+b_mermaids_palace = castle
+#b_vinetown = city
+#b_grapevyne = temple
+#b_starfish_harbor = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	
+
+
+
+
+
+
+
+
+
+
+
+
+}
+6566.1.1 = {
+	culture = wynelander
+	religion = the_seven
+}

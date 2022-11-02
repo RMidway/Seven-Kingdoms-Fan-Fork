@@ -1,0 +1,21 @@
+# c_bevagna
+
+# County Title
+title = c_bevagna
+
+# Settlements
+max_settlements = 3
+
+b_bevagna = city
+#b_bevagna_2 = city
+#b_bevagna_3 = temple
+#b_bevagna_4 = castle
+#b_bevagna_5 = city
+#b_bevagna_6 = temple
+#b_bevagna_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

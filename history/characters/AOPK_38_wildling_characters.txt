@@ -1,0 +1,3007 @@
+##############
+# ID RANGE   #
+# 3800-3999  #
+##############
+
+######################
+### Clan Nightvalley ####
+######################
+
+3800={
+	name=Dorren
+	dynasty=10100
+	dna="dmeipiallie"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	6500.3.5={ birth=yes }
+	6520.1.1={ add_spouse=3812 }
+	6561.4.15={ death=yes }
+}
+3801={
+	name=Ygritte
+	female=yes
+	dynasty=10100
+	dna="cfeipbaflll"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3800	#Dorren
+	mother=3812	#Harma
+	6521.11.2={ birth=yes }
+	6580.11.23={ death=yes }
+}
+3802={
+	name=Gerrick
+	dynasty=10100
+	dna="nngilibpfig"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=7 
+	learning=4
+	trait=detached_priest 
+	trait=brave 
+	trait=just 
+	trait=stressed 
+	trait=dueling_legend
+	father=3800	#Dorren
+	mother=3812	#Harma
+	6525.4.3={ birth=yes }
+	6545.1.1= { add_spouse=3813 }
+	6575.5.28={ death=yes }
+}
+3803={
+	name=Larra
+	female=yes
+	dynasty=10100
+	dna="oabboiollig"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3800	#Dorren
+	mother=3812	#Harma
+	6527.12.21={ birth=yes }
+	6581.11.25={ death=yes }
+}
+3804={
+	name=Wayn
+	dynasty=10100
+	dna="kgacmlallic"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=5 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=content 
+	trait=brave 
+	trait=humble 
+	trait=stutter 
+	trait=short
+	father=3800	#Dorren
+	mother=3812	#Harma
+	6531.7.14={ birth=yes }
+	6561.10.5={ death=yes }
+}
+3805={
+	name=Owen
+	dynasty=10100
+	dna="jngedlbpnbl"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=tough_soldier 
+	trait=hunter
+	trait=patient 
+	trait=trusting 
+	trait=cynical 
+	trait=envious 
+	trait=ambitious 
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6545.6.12={ birth=yes }
+	6600.4.6={ death=yes }
+}
+3806={
+	name=Eyron
+	dynasty=10100
+	dna="jngolibcfib"
+	culture=nightrunners 
+	religion=old_gods_beyond 
+	martial=4 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=8 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=cruel 
+	trait=deceitful 
+	trait=craven 
+	trait=temperate 
+	trait=wroth 
+	trait=charitable 
+	trait=dueling_legend
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6549.8.12={ birth=yes }
+	6619.12.21={ death=yes }
+}
+3807={
+	name=Morna
+	female=yes
+	dynasty=10100
+	dna="fnfaadpnflg"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6552.12.1={ birth=yes }
+	6624.6.20={ death=yes }
+}
+3808={
+	name=Artos
+	dynasty=10100
+	dna="angihgbdfig"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	trait=content
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6555.8.8={ birth=yes }
+	6608.11.6={ death=yes }
+}
+3809={
+	name=Brogg
+	dynasty=10100
+	dna="jbjclibchig"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6558.10.5={ birth=yes }
+	6625.5.6={ death=yes }
+}
+3810={
+	name=Erena
+	female=yes
+	dynasty=10100
+	dna="nnkilddpbdg"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6560.3.1={ birth=yes }
+	6628.6.9={ death=yes }
+}
+3811={
+	name=Harlon
+	dynasty=10100
+	dna="nneeeipjfig"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3802	#Gerrick
+	mother=3813 #Gilly
+	6564.8.7={ birth=yes }
+	6634.6.4={ death=yes }
+}
+3812={
+	name=Harma
+	female=yes
+	culture=nightrunners
+	religion=old_gods_beyond
+	6500.1.1={ birth=yes }
+	6561.1.1={ death=yes }
+}
+3813={
+	name=Gilly
+	female=yes
+	culture=nightrunners
+	religion=old_gods_beyond
+	6525.1.1={ birth=yes }
+	6575.1.1={ death=yes }
+}
+
+######################
+### Clan Whitefork ####
+######################
+
+3814={
+	name=Alfyn
+	dynasty=10101
+	dna="mfhmceoobeo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=6 
+	learning=7
+	trait=midas_touched 
+	trait=hedonist 
+	trait=envious 
+	trait=temperate 
+	trait=cruel 
+	trait=dueling_legend
+	6500.3.2={ birth=yes }
+	6521.1.1={ add_spouse=3825 }
+	6566.6.13={ death=yes }
+}
+3815={
+	name=Alfyn
+	dynasty=10101
+	dna="mfhmcfcobbo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	trait=grey_eminence 
+	trait=trusting 
+	trait=envious 
+	trait=gluttonous 
+	trait=zealous 
+	trait=just 
+	trait=stressed 
+	trait=possessed 
+	father=3814	#Alfyn
+	mother=3825 #Brella
+	6524.12.12={ birth=yes }
+	6545.1.1={ add_spouse=3826 }
+	6565.1.1 = { give_nickname=nick_the_gravedigger }
+	6573.7.23={ death=yes }
+}
+3816={
+	name=Brogg
+	dynasty=10101
+	dna="mahdchoobkh"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=5 
+	learning=4
+	trait=misguided_warrior 
+	trait=zealous 
+	trait=slothful 
+	trait=wroth 
+	trait=lustful 
+	father=3814	#Alfyn
+	mother=3825 #Brella
+	6528.10.8={ birth=yes }
+	6590.8.5={ death=yes }
+}
+3817={
+	name=Gilly
+	female=yes
+	dynasty=10101
+	dna="ckhkdaooioo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3814	#Alfyn
+	mother=3825 #Brella
+	6531.9.22={ birth=yes }
+	6599.11.9={ death=yes }
+}
+3818={
+	name=Byam
+	dynasty=10101
+	dna="mfbmepjabhp"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=mystic 
+	trait=zealous 
+	trait=shy 
+	trait=deceitful 
+	trait=depressed 
+	trait=dueling_master
+	father=3814	#Alfyn
+	mother=3825 #Brella
+	6534.4.19={ birth=yes }
+	6585.3.16={ death=yes }
+}
+3819={
+	name=Gendel
+	dynasty=10101
+	dna="mckikebigeo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=hedonist 
+	trait=arbitrary 
+	trait=charitable 
+	trait=cruel 
+	trait=envious 
+	trait=dueling_legend
+	father=3814	#Alfyn
+	mother=3825 #Brella
+	6539.7.2={ birth=yes }
+	6585.8.24={ death=yes }
+}
+3820={
+	name=Cayn
+	dynasty=10101
+	dna="bnpmcknfaog"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	trait=kind 
+	trait=gregarious
+	trait=just
+	trait=dueling_master
+	father=3815	#Alfyn
+	mother=3826 #Briar
+	6552.1.25={ birth=yes }
+	6611.8.30={ death=yes }
+}
+3821={
+	name=Varamyr
+	dynasty=10101
+	dna="mahaofapbdo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	trait=impaler 
+	trait=slothful
+	trait=gregarious
+	trait=dueling_skilled
+	father=3815	#Alfyn
+	mother=3826 #Briar
+	6556.2.19={ birth=yes }
+	6617.5.11={ death=yes }
+}
+3822={
+	name=Raymun
+	dynasty=10101
+	dna="afhmccdjbbl"
+	culture=nightrunners 
+	religion=old_gods_beyond 
+	trait=kind
+	father=3815	#Alfyn
+	mother=3826 #Briar
+	6558.11.22={ birth=yes }
+	6612.12.2={ death=yes }
+}
+3823={
+	name=Quort
+	dynasty=10101
+	dna="afhmmnlkbeo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3815	#Alfyn
+	mother=3826 #Briar
+	6563.7.6={ birth=yes }
+	6635.12.9={ death=yes }
+}
+3824={
+	name=Dan
+	dynasty=10101
+	dna="hfpacfcoebo"
+	culture=nightrunners 
+	religion=old_gods_beyond
+	father=3815	#Alfyn
+	mother=3826 #Briar
+	6564.11.13={ birth=yes }
+	6638.8.29={ death=yes }
+}
+3825={
+	name=Brella
+	female=yes
+	culture=nightrunners
+	religion=old_gods_beyond
+	6500.1.1={ birth=yes }
+	6566.1.1={ death=yes }
+}
+3826={
+	name=Briar
+	female=yes
+	culture=nightrunners
+	religion=old_gods_beyond
+	6524.1.1={ birth=yes }
+	6573.1.1={ death=yes }
+}
+
+######################
+### Clan Wightkeep ####
+######################
+
+3827={
+	name=Varamyr
+	dynasty=10102
+	dna="nenmiglbbep"
+	culture=gildlic 
+	religion=old_gods_beyond
+	6499.4.13={ birth=yes }
+	6520.1.1={ add_spouse=3839 }
+	6562.1.5={ death=yes }
+}
+3828={
+	name=Kyra
+	female=yes
+	dynasty=10102
+	dna="heekiglngap"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6527.4.26={ birth=yes }
+	6590.3.20={ death=yes }
+}
+3829={
+	name=Alfyn
+	dynasty=10102
+	dna="jafcigmoeen"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=7 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=mystic 
+	trait=zealous 
+	trait=charitable 
+	trait=just 
+	trait=wroth 
+	trait=stressed
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6530.11.21={ birth=yes }
+	6551.1.1={ add_spouse=3840 }
+	6600.6.28={ death=yes }
+}
+3830={
+	name=Jonnela
+	female=yes
+	dynasty=10102
+	dna="noeaogabjel"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6532.9.11={ birth=yes }
+	6581.3.3={ death=yes }
+}
+3831={
+	name=Hallis
+	dynasty=10102
+	dna="ndophoeboml"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=7 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=just 
+	trait=cruel 
+	trait=paranoid 
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6535.10.14={ birth=yes }
+	6604.12.6={ death=yes }
+}
+3832={
+	name=Borroq
+	dynasty=10102
+	dna="demmlgaibep"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=misguided_warrior 
+	trait=trusting 
+	trait=cruel 
+	trait=lustful 
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6536.1.19={ birth=yes }
+	6591.8.15={ death=yes }
+}
+3833={
+	name=Jonella
+	female=yes
+	dynasty=10102
+	dna="ogkbnelnefp"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6540.6.8={ birth=yes }
+	6588.10.21={ death=yes }
+}
+3834={
+	name=Jonnela
+	female=yes
+	dynasty=10102
+	dna="cenegcgjaep"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3827	#Varamyr
+	mother=3839 #Willow
+	6543.8.24={ birth=yes }
+	6611.11.25={ death=yes }
+}
+3835={
+	name=Jorelle
+	female=yes
+	dynasty=10102
+	dna="jligigmoemm"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3829	#Alfyn
+	mother=3840 #Gilly
+	6555.12.20={ birth=yes }
+	6594.6.30={ death=yes }
+}
+3836={
+	name=Morra
+	female=yes
+	dynasty=10102
+	dna="jafdigdefec"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3829	#Alfyn
+	mother=3840 #Gilly
+	6559.11.4={ birth=yes }
+	6627.6.26={ death=yes }
+}
+3837={
+	name=Gariss
+	dynasty=10102
+	dna="jdcckjmjmen"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3829	#Alfyn
+	mother=3840 #Gilly
+	6561.2.16={ birth=yes }
+	6625.2.26={ death=yes }
+}
+3838={
+	name=Brogg
+	dynasty=10102
+	dna="lajclkmocjn"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3829	#Alfyn
+	mother=3840 #Gilly
+	6563.1.20={ birth=yes }
+	6609.5.16={ death=yes }
+}
+3839={
+	name=Willow
+	female=yes
+	culture=gildlic
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6562.1.1={ death=yes }
+}
+3840={
+	name=Gilly
+	female=yes
+	culture=gildlic
+	religion=old_gods_beyond
+	6530.1.1={ birth=yes }
+	6600.1.1={ death=yes }
+}
+
+######################
+### Clan Stagwood ####
+######################
+
+3841={
+	name=Henk
+	dynasty=10103
+	dna="pkofokdnjbn"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=misguided_warrior 
+	trait=diligent 
+	trait=ambitious 
+	trait=shy 
+	trait=paranoid 
+	trait=charitable 
+	trait=dueling_expert
+	6499.8.7={ birth=yes }
+	6520.1.1={ add_spouse=3852 }
+	6567.11.15={ death=yes }
+}
+3842={
+	name=Ondrew
+	dynasty=10103
+	dna="kkpfokgkbcc"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4 
+	learning=7
+	trait=naive_appeaser 
+	trait=slothful 
+	trait=kind 
+	trait=zealous 
+	father=3841	#Henk
+	mother=3852 #Maege
+	6526.11.8={ birth=yes }
+	6547.1.1={ add_spouse=3853 }
+	6595.7.21={ death=yes }
+}
+3843={
+	name=Orell
+	dynasty=10103
+	dna="jkafpkpajbh"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=6 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=hedonist 
+	trait=honest 
+	trait=gluttonous 
+	trait=cruel 
+	trait=shy 
+	father=3841	#Henk
+	mother=3852 #Maege
+	6528.2.3={ birth=yes }
+	6588.11.19={ death=yes }
+}
+3844={
+	name=Jonella
+	female=yes
+	dynasty=10103
+	dna="pkofokhlkbc"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3841	#Henk
+	mother=3852 #Maege
+	6532.1.22={ birth=yes }
+	6576.11.2={ death=yes }
+}
+3845={
+	name=Meera
+	female=yes
+	dynasty=10103
+	dna="pkofomindbj"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3841	#Henk
+	mother=3852 #Maege
+	6534.6.23={ birth=yes }
+	6599.11.18={ death=yes }
+}
+3846={
+	name=Frynne
+	female=yes
+	dynasty=10103
+	dna="edofokdnibg"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3841	#Henk
+	mother=3852 #Maege
+	6537.1.18={ birth=yes }
+	6595.2.27={ death=yes }
+}
+3847={
+	name=Holly
+	female=yes
+	dynasty=10103
+	dna="okofjomimbn"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3841	#Henk
+	mother=3852 #Maege
+	6542.2.20={ birth=yes }
+	6626.12.21={ death=yes }
+}
+3848={
+	name=Cregan
+	dynasty=10103
+	dna="cafpocdcjbc"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=5 
+	learning=4
+	trait=thrifty_clerk 
+	trait=slothful 
+	trait=humble 
+	trait=lustful 
+	trait=content 
+	trait=honest 
+	father=3841	#Henk
+	mother=3852 #Maege
+	6544.12.10={ birth=yes }
+	6597.6.2={ death=yes }
+}
+3849={
+	name=Errok
+	dynasty=10103
+	dna="kpphokhgpkj"
+	culture=gildlic 
+	religion=old_gods_beyond
+	trait=wroth 
+	trait=paranoid
+	trait=content 
+	father=3842	#Ondrew
+	mother=3853 #Morna
+	6551.9.4={ birth=yes }
+	6608.5.16={ death=yes }
+}
+3850={
+	name=Ragwyle
+	female=yes
+	dynasty=10103
+	dna="kklfokdobic"
+	culture=gildlic 
+	religion=old_gods_beyond
+	trait=cruel 
+	trait=deceitful
+	trait=wroth 
+	father=3842	#Ondrew
+	mother=3853 #Morna
+	6554.3.2={ birth=yes }
+	6628.3.19={ death=yes }
+}
+3851={
+	name=Harmond
+	dynasty=10103
+	dna="kcpaomgkdcc"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3842	#Ondrew
+	mother=3853 #Morna
+	6559.12.2={ birth=yes }
+	6611.1.26={ death=yes }
+}
+3852={
+	name=Maege
+	female=yes
+	culture=gildlic
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6567.1.1={ death=yes }
+}
+3853={
+	name=Morna
+	female=yes
+	culture=gildlic
+	religion=old_gods_beyond
+	6526.1.1={ birth=yes }
+	6594.1.1={ death=yes }
+}
+
+######################
+### Clan Winterward ####
+######################
+
+3854={
+	name=Brogg
+	dynasty=10104
+	dna="ajlkmjalmmd"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=6 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=trusting 
+	trait=kind 
+	trait=short
+	6499.12.23={ birth=yes }
+	6520.1.1={ add_spouse=7694 }
+	6578.12.25={ death=yes }
+}
+3855={
+	name=Jonnela
+	female=yes
+	dynasty=10104
+	dna="ajlabjbpmmd"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3854	#Brogg
+	mother=7694 #Willow
+	6528.7.21={ birth=yes }
+	6573.12.7={ death=yes }
+}
+3856={
+	name=Jonella
+	female=yes
+	dynasty=10104
+	dna="djlkkkllime"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3854	#Brogg
+	mother=7694 #Willow
+	6532.4.20={ birth=yes }
+	6610.7.7={ death=yes }
+}
+3857={
+	name=Zia
+	female=yes
+	dynasty=10104
+	dna="kjlkmjalmhd"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3854	#Brogg
+	mother=7694 #Willow
+	6534.9.9={ birth=yes }
+	6599.4.4={ death=yes }
+}
+3858={
+	name=Ygon
+	dynasty=10104
+	dna="aebemjdapdd"
+	culture=gildlic 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=misguided_warrior 
+	trait=mystic 
+	trait=proud 
+	trait=craven 
+	trait=patient
+	father=3854	#Brogg
+	mother=7694 #Willow
+	6538.5.4={ birth=yes }
+	6559.1.1={ add_spouse=3863 }
+	6593.9.29={ death=yes }
+}
+3859={
+	name=Yoren
+	dynasty=10104
+	dna="aebeljndidb"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3858	#Ygon
+	mother=3863 #Dalla
+	6560.3.27={ birth=yes }
+	6618.12.6={ death=yes }
+}
+3860={
+	name=Dywen
+	dynasty=10104
+	dna="aebepjdagkd"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3858	#Ygon
+	mother=3863 #Dalla
+	6562.5.15={ birth=yes }
+	6627.2.16={ death=yes }
+}
+3861={
+	name=Briar
+	dynasty=10104
+	dna="aabgkfkjada"
+	culture=gildlic 
+	religion=old_gods_beyond
+	father=3858	#Ygon
+	mother=3863 #Dalla
+	6565.1.25={ birth=yes }
+	6631.8.3={ death=yes }
+}
+7694={
+	name=Willow
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6572.1.1={ death=yes }
+}
+3863={
+	name=Dalla
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6525.1.1={ birth=yes }
+	6574.1.1={ death=yes }
+}
+
+######################
+### Clan Frozenhold ####
+######################
+
+3864={
+	name=Wallen
+	dynasty=10105
+	dna="bcbjefoocni"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=paranoid 
+	trait=cruel 
+	trait=zealous 
+	trait=dueling_master
+	6499.3.3={ birth=yes }
+	6520.1.1={ add_spouse=7695 }
+	6572.2.7={ death=yes }
+}
+3865={
+	name=Styr
+	dynasty=10105
+	dna="kbbjefddjep"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=5 
+	learning=7
+	trait=midas_touched 
+	trait=paranoid 
+	trait=brave 
+	trait=dueling_expert
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6525.8.20={ birth=yes }
+	6546.1.1={ add_spouse=7696 }
+	6574.5.4={ death=yes }
+}
+3866={
+	name=Lyra
+	female=yes
+	dynasty=10105
+	dna="hciocfnocni"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6526.7.20={ birth=yes }
+	6580.2.15={ death=yes }
+}
+3867={
+	name=Joramun
+	dynasty=10105
+	dna="bcbfjaookli"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=arbitrary 
+	trait=proud 
+	trait=honest 
+	trait=lunatic 
+	trait=slow 
+	trait=dueling_expert
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6530.6.20={ birth=yes }
+	6591.7.30={ death=yes }
+}
+3868={
+	name=Walton
+	dynasty=10105
+	dna="bcijbjoannd"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=intricate_webweaver 
+	trait=celibate 
+	trait=content 
+	trait=slothful 
+	trait=deceitful 
+	trait=chaste 
+	trait=short
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6533.7.21={ birth=yes }
+	6583.8.28={ death=yes }
+}
+3869={
+	name=Meha
+	female=yes
+	dynasty=10105
+	dna="ecbjefmojnb"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6536.12.26={ birth=yes }
+	6603.4.10={ death=yes }
+}
+3870={
+	name=Hareth
+	dynasty=10105
+	dna="bgneefpohji"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	trait=scholarly_theologian 
+	trait=duelist 
+	trait=cynical 
+	trait=ambitious 
+	trait=wroth 
+	trait=paranoid
+	trait=gluttonous 
+	trait=kind 
+	trait=wounded 
+	trait=dueling_skilled
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6541.11.2={ birth=yes }
+	6613.12.21={ death=yes }
+}
+3871={
+	name=Morna
+	female=yes
+	dynasty=10105
+	dna="dcbjdfoocnf"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3864	#Wallen
+	mother=7695 #Frynne
+	6543.11.17={ birth=yes }
+	6609.10.31={ death=yes }
+}
+3872={
+	name=Hareth
+	dynasty=10105
+	dna="opbjepedjlh"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=elusive_shadow 
+	trait=temperate 
+	trait=kind 
+	father=3865	#Styr
+	mother=7696	#Harra
+	6547.11.18={ birth=yes }
+	6616.1.4={ death=yes }
+}
+3873={
+	name=Kyleg
+	dynasty=10105
+	dna="gbbiefdgjal"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=4 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=shy 
+	trait=craven 
+	trait=content 
+	trait=deceitful 
+	trait=dueling_skilled
+	father=3865	#Styr
+	mother=7696	#Harra
+	6549.12.25={ birth=yes }
+	6610.10.14={ death=yes }
+}
+3874={
+	name=Munda
+	female=yes
+	dynasty=10105
+	dna="jfnkblipjeh"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3865	#Styr
+	mother=7696	#Harra
+	6554.11.12={ birth=yes }
+	6605.11.23={ death=yes }
+}
+7695={
+	name=Frynne
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6572.1.1={ death=yes }
+}
+7696={
+	name=Harra
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6525.1.1={ birth=yes }
+	6574.1.1={ death=yes }
+}
+
+######################
+### Clan Sealfork ####
+######################
+
+3875={
+	name=Mance
+	dynasty=10106
+	dna="nhakdkhbccj"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=scholarly_theologian 
+	trait=honest 
+	trait=wroth 
+	trait=ambitious 
+	trait=gluttonous 
+	trait=ill 
+	trait=dueling_legend
+	6500.8.5={ birth=yes }
+	6521.1.1={ add_spouse=3887 }
+	6570.4.18={ death=yes }
+}
+3876={
+	name=Hallis
+	dynasty=10106
+	dna="dldcdkhbkaa"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=4 
+	learning=8
+	trait=tough_soldier 
+	trait=shy 
+	trait=paranoid 
+	trait=content 
+	trait=cruel 
+	trait=honest 
+	trait=patient 
+	trait=drunkard 
+	trait=dueling_adept
+	father=3875	#Mance
+	mother=3887 #Brella
+	6521.4.27={ birth=yes }
+	6542.1.1={ add_spouse=3888 }
+	6589.12.28={ death=yes }
+}
+3877={
+	name=Brella
+	female=yes
+	dynasty=10106
+	dna="nbkkgklboco"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3875	#Mance
+	mother=3887 #Brella
+	6525.10.3={ birth=yes }
+	6572.1.9={ death=yes }
+}
+3878={
+	name=Ygritte
+	female=yes
+	dynasty=10106
+	dna="nhakbekofkj"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3875	#Mance
+	mother=3887 #Brella
+	6527.9.20={ birth=yes }
+	6580.10.8={ death=yes }
+}
+3879={
+	name=Holly
+	female=yes
+	dynasty=10106
+	dna="eaabcahboja"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3875	#Mance
+	mother=3887 #Brella
+	6532.11.25={ birth=yes }
+	6581.10.12={ death=yes }
+}
+3880={
+	name=Frynne
+	female=yes
+	dynasty=10106
+	dna="nhakfambnhj"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3875	#Mance
+	mother=3887 #Brella
+	6535.3.17={ birth=yes }
+	6601.10.17={ death=yes }
+}
+3881={
+	name=Halys
+	dynasty=10106
+	dna="kldjekhcibg"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=7 
+	learning=4
+	trait=detached_priest 
+	trait=wroth 
+	trait=chaste 
+	trait=trusting 
+	trait=dueling_adept
+	father=3876	#Hallis
+	mother=3888 #Ferny
+	6544.4.2={ birth=yes }
+	6565.1.1={ add_spouse=3889 }
+	6589.5.16={ death=yes }
+}
+3882={
+	name=Bodger
+	dynasty=10106
+	dna="dlacnahbocc"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=humble 
+	trait=patient 
+	trait=dueling_novice
+	father=3876	#Hallis
+	mother=3888 #Ferny
+	6547.11.2={ birth=yes }
+	6619.1.25={ death=yes }
+}
+3883={
+	name=Holly
+	female=yes
+	dynasty=10106
+	dna="dldjdiebkim"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3876	#Hallis
+	mother=3888 #Ferny
+	6549.11.18={ birth=yes }
+	6606.8.3={ death=yes }
+}
+3884={
+	name=Lenyl
+	dynasty=10106
+	dna="fldakkhgkaa"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	trait=mystic 
+	trait=envious
+	father=3876	#Hallis
+	mother=3888 #Ferny
+	6553.4.15={ birth=yes }
+	6624.1.23={ death=yes }
+}
+3885={
+	name=Toregg
+	dynasty=10106
+	dna="dldjdkhbcog"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	trait=slothful
+	trait=paranoid 
+	trait=dueling_expert
+	father=3876	#Hallis
+	mother=3888 #Ferny
+	6556.10.25={ birth=yes }
+	6607.4.24={ death=yes }
+}
+3886={
+	name=Gariss
+	dynasty=10106
+	dna="pldamkbijlg"
+	culture=ice_rivermen 
+	religion=old_gods_beyond
+	father=3881	#Halys
+	mother=3889 #Lyra
+	6565.8.14={ birth=yes }
+	6622.11.1={ death=yes }
+}
+3887={
+	name=Brella
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6500.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+3888={
+	name=Ferny
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6521.1.1={ birth=yes }
+	6599.1.1={ death=yes }
+}
+3889={
+	name=Lyra
+	female=yes
+	culture=ice_rivermen
+	religion=old_gods_beyond
+	6544.1.1={ birth=yes }
+	6589.1.1={ death=yes }
+}
+
+######################
+### Clan Shadowmen ####
+######################
+
+3890={
+	name=Haggon
+	dynasty=10107
+	dna="ldojlkfbbgl"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	6499.11.11={ birth=yes }
+	6520.1.1={ add_spouse=3896 }
+	6557.12.10={ death=yes }
+}
+3891={
+	name=Jarl
+	dynasty=10107
+	dna="lecnlkffdob"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=5 
+	learning=7
+	trait=martial_cleric 
+	trait=humble 
+	trait=temperate 
+	trait=kind 
+	trait=patient 
+	trait=slothful 
+	trait=dueling_legend
+	father=3890	#Haggon
+	mother=3896 #Lyra
+	6525.9.20={ birth=yes }
+	6546.1.1={ add_spouse=3897 }
+	6588.8.30={ death=yes }
+}
+3892={
+	name=Erena
+	female=yes
+	dynasty=10107
+	dna="hdojlofbejj"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	father=3890	#Haggon
+	mother=3896 #Lyra
+	6528.4.10={ birth=yes }
+	6584.1.15={ death=yes }
+}
+3893={
+	name=Gretchel
+	female=yes
+	dynasty=10107
+	dna="ekcjchcibgl"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	father=3890	#Haggon
+	mother=3896 #Lyra
+	6531.6.3={ birth=yes }
+	6594.3.14={ death=yes }
+}
+3894={
+	name=Quort
+	dynasty=10107
+	dna="oicnlkaejbb"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=7 
+	learning=7
+	trait=tough_soldier 
+	trait=paranoid 
+	trait=greedy 
+	trait=slothful 
+	trait=cruel 
+	father=3891	#Jarl
+	mother=3897 #Ferny
+	6550.3.6={ birth=yes }
+	6622.1.14={ death=yes }
+}
+3895={
+	name=Toregg
+	dynasty=10107
+	dna="aecplkfjlpb"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	trait=temperate
+	trait=dueling_novice
+	father=3891	#Jarl
+	mother=3897 #Ferny
+	6554.3.24={ birth=yes }
+	6620.4.25={ death=yes }
+}
+3896={
+	name=Lyra
+	female=yes
+	culture=hornfoots
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6557.1.1={ death=yes }
+}
+3897={
+	name=Ferny
+	female=yes
+	culture=hornfoots
+	religion=old_gods_beyond
+	6525.1.1={ birth=yes }
+	6588.1.1={ death=yes }
+}
+
+######################
+### Clan Giantshorn ####
+######################
+
+3898={
+	name=Halleck
+	dynasty=10108
+	dna="dhiaehpckog"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=hunter 
+	trait=trusting 
+	trait=charitable 
+	trait=slothful 
+	trait=brave 
+	trait=lustful 
+	trait=proud 
+	trait=dueling_master
+	6500.2.12={ birth=yes }
+	6521.1.1={ add_spouse=3907 }
+	6569.7.31={ death=yes }
+}
+3899={
+	name=Jeor
+	dynasty=10108
+	dna="dheckmjcklg"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=6 
+	learning=6
+	trait=detached_priest 
+	trait=temperate 
+	trait=arbitrary 
+	trait=humble 
+	trait=cruel 
+	father=3898	#Halleck
+	mother=3907 #Helya
+	6522.9.2={ birth=yes }
+	6541.1.1={ add_spouse=3908 }
+	6571.1.27={ death=yes }
+}
+3900={
+	name=Medger
+	dynasty=10108
+	dna="chjggipjkhp"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=4 
+	learning=5
+	trait=intricate_webweaver 
+	trait=greedy 
+	trait=brave 
+	trait=humble 
+	trait=dueling_master
+	father=3898	#Halleck
+	mother=3907 #Helya
+	6523.10.9={ birth=yes }
+	6580.10.11={ death=yes }
+}
+3901={
+	name=Lyra
+	female=yes
+	dynasty=10108
+	dna="dhepcaonido"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	father=3899	#Jeor
+	mother=3908 #Morna
+	6542.10.14={ birth=yes }
+	6614.10.29={ death=yes }
+}
+3902={
+	name=Torghen
+	dynasty=10108
+	dna="ibockmjjkco"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=6 
+	learning=6
+	trait=naive_appeaser 
+	trait=just 
+	trait=cruel 
+	trait=temperate 
+	trait=drunkard 
+	trait=dueling_legend
+	father=3899	#Jeor
+	mother=3908 #Morna
+	6545.8.4={ birth=yes }
+	6563.1.1={ add_spouse=3909 }
+	6594.12.6={ death=yes }
+}
+3903={
+	name=Gilly
+	female=yes
+	dynasty=10108
+	dna="bpecopjigjh"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	father=3899	#Jeor
+	mother=3908 #Morna
+	6548.4.22={ birth=yes }
+	6584.7.31={ death=yes }
+}
+3904={
+	name=Val
+	female=yes
+	dynasty=10108
+	dna="bhekkmimkim"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	father=3899	#Jeor
+	mother=3908 #Morna
+	6551.8.10={ birth=yes }
+	6616.4.22={ death=yes }
+}
+3905={
+	name=Ondrew
+	dynasty=10108
+	dna="dhegaickcla"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	trait=zealous
+	father=3899	#Jeor
+	mother=3908 #Morna
+	6555.8.19={ birth=yes }
+	6605.4.26={ death=yes }
+}
+3906={
+	name=Larra
+	female=yes
+	dynasty=10108
+	dna="ibocnnlggco"
+	culture=hornfoots 
+	religion=old_gods_beyond
+	father=3902	#Torghen
+	mother=3909 #Ysilla
+	6565.1.4={ birth=yes }
+	6629.11.30={ death=yes }
+}
+3907={
+	name=Helya
+	female=yes
+	culture=hornfoots
+	religion=old_gods_beyond
+	6500.1.1={ birth=yes }
+	6569.1.1={ death=yes }
+}
+3908={
+	name=Morna
+	female=yes
+	culture=hornfoots
+	religion=old_gods_beyond
+	6522.1.1={ birth=yes }
+	6571.1.1={ death=yes }
+}
+3909={
+	name=Ysilla
+	female=yes
+	culture=hornfoots
+	religion=old_gods_beyond
+	6545.1.1={ birth=yes }
+	6594.1.1={ death=yes }
+}
+
+######################
+### Clan Ghostbane ####
+######################
+
+3910={
+	name=Jarl
+	dynasty=10109
+	dna="baegfopcccp"
+	culture=dumhic 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=4
+	trait=midas_touched 
+	trait=gluttonous 
+	trait=just 
+	trait=kind 
+	trait=ambitious 
+	trait=brave 
+	6500.12.22={ birth=yes }
+	6521.1.1={ add_spouse=3920 }
+	6574.6.18={ death=yes }
+}
+3911={
+	name=Larra
+	female=yes
+	dynasty=10109
+	dna="mahgfbpcccp"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6526.11.25={ birth=yes }
+	6575.9.26={ death=yes }
+}
+3912={
+	name=Harmond
+	dynasty=10109
+	dna="becehoeicdp"
+	culture=dumhic 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=4 
+	learning=8
+	trait=detached_priest 
+	trait=charitable 
+	trait=kind 
+	trait=lustful 
+	trait=patient 
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6528.7.7={ birth=yes }
+	6549.1.1={ add_spouse=3921 }
+	6591.9.1={ death=yes }
+}
+3913={
+	name=Harma
+	female=yes
+	dynasty=10109
+	dna="babggopicao"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6531.6.17={ birth=yes }
+	6590.10.11={ death=yes }
+}
+3914={
+	name=Halleck
+	dynasty=10109
+	dna="bcenfopccfp"
+	culture=dumhic 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=7 
+	learning=7
+	trait=tough_soldier 
+	trait=mystic 
+	trait=craven 
+	trait=wroth 
+	trait=charitable 
+	trait=honest 
+	trait=stressed 
+	trait=dueling_adept
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6533.7.9={ birth=yes }
+	6574.4.3={ death=yes }
+}
+3915={
+	name=Jonella
+	female=yes
+	dynasty=10109
+	dna="gdegfomhgah"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6536.5.23={ birth=yes }
+	6606.11.29={ death=yes }
+}
+3916={
+	name=Vayon
+	dynasty=10109
+	dna="oaegfhoccci"
+	culture=dumhic 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=7 
+	learning=6
+	trait=intricate_webweaver 
+	trait=scholar 
+	trait=lustful 
+	trait=wroth 
+	trait=paranoid 
+	trait=diligent 
+	trait=kind 
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6540.5.25={ birth=yes }
+	6605.10.19={ death=yes }
+}
+3917={
+	name=Nella
+	female=yes
+	dynasty=10109
+	dna="oapimncccan"
+	culture=dumhic 
+	religion=old_gods_beyond
+	trait=short
+	father=3910	#Jarl
+	mother=3920 #Palla
+	6543.10.4={ birth=yes }
+	6598.2.11={ death=yes }
+}
+3918={
+	name=Toregg
+	dynasty=10109
+	dna="belehodollo"
+	culture=dumhic 
+	religion=old_gods_beyond
+	trait=cruel 
+	trait=trusting
+	trait=gluttonous 
+	father=3912	#Harmond
+	mother=3921 #Brella
+	6550.9.14={ birth=yes }
+	6603.7.9={ death=yes }
+}
+3919={
+	name=Jonella
+	female=yes
+	dynasty=10109
+	dna="belmhoffekk"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3912	#Harmond
+	mother=3921 #Brella
+	6553.6.3={ birth=yes }
+	6611.1.26={ death=yes }
+}
+3920={
+	name=Palla
+	female=yes
+	culture=dumhic
+	religion=old_gods_beyond
+	6500.1.1={ birth=yes }
+	6574.1.1={ death=yes }
+}
+3921={
+	name=Brella
+	female=yes
+	culture=dumhic
+	religion=old_gods_beyond
+	6528.1.1={ birth=yes }
+	6591.1.1={ death=yes }
+}
+
+######################
+### Clan Bearhall ####
+######################
+
+3922={
+	name=Beron
+	dynasty=10110
+	dna="hainjdnggaf"
+	culture=dumhic 
+	religion=old_gods_beyond
+	6499.8.1={ birth=yes }
+	6520.1.1={ add_spouse=3930 }
+	6547.2.7={ death=yes }
+}
+3923={
+	name=Frynne
+	female=yes
+	dynasty=10110
+	dna="hgijocnhnff"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3922	#Beron
+	mother=3930 #Grisella
+	6525.10.18={ birth=yes }
+	6596.5.5={ death=yes }
+}
+3924={
+	name=Cregan
+	dynasty=10110
+	dna="kaidjhnggef"
+	culture=dumhic 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=4 
+	learning=5
+	trait=mastermind_theologian 
+	trait=celibate 
+	trait=ambitious 
+	trait=proud 
+	trait=short
+	father=3922	#Beron
+	mother=3930 #Grisella
+	6528.5.3={ birth=yes }
+	6549.1.1={ add_spouse=3931 }
+	6565.1.1 = { give_nickname=nick_the_foaming_bear }
+	6601.5.15={ death=yes }
+}
+3925={
+	name=Zia
+	female=yes
+	dynasty=10110
+	dna="caaojdnagaf"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3922	#Beron
+	mother=3930 #Grisella
+	6532.5.21={ birth=yes }
+	6600.3.2={ death=yes }
+}
+3926={
+	name=Munda
+	female=yes
+	dynasty=10110
+	dna="hlinjdciapp"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3922	#Beron
+	mother=3930 #Grisella
+	6534.8.12={ birth=yes }
+	6580.2.16={ death=yes }
+}
+3927={
+	name=Arnolf
+	dynasty=10110
+	dna="kajdookggjk"
+	culture=dumhic 
+	religion=old_gods_beyond
+	trait=charitable
+	father=3924	#Cregan
+	mother=3931 #Frynne
+	6556.11.7={ birth=yes }
+	6610.11.30={ death=yes }
+}
+3928={
+	name=Arthor
+	dynasty=10110
+	dna="baldjknncdf"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3924	#Cregan
+	mother=3931 #Frynne
+	6559.3.2={ birth=yes }
+	6619.2.19={ death=yes }
+}
+3929={
+	name=Sigorn
+	dynasty=10110
+	dna="ecidjhnjgef"
+	culture=dumhic 
+	religion=old_gods_beyond
+	father=3924	#Cregan
+	mother=3931 #Frynne
+	6564.1.5={ birth=yes }
+	6633.7.17={ death=yes }
+}
+3930={
+	name=Grisella
+	female=yes
+	culture=dumhic
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6547.1.1={ death=yes }
+}
+3931={
+	name=Frynne
+	female=yes
+	culture=dumhic
+	religion=old_gods_beyond
+	trait=pregnant
+	6528.1.1={ birth=yes }
+	6601.1.1={ death=yes }
+}
+
+######################
+### Clan Shivercave ####
+######################
+
+3932={
+	name=Ryk
+	dynasty=10111
+	dna="oahfnbenchc"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=6
+	trait=intricate_webweaver 
+	trait=kind 
+	trait=diligent 
+	trait=humble 
+	6499.9.11={ birth=yes }
+	6520.1.1={ add_spouse=3941 }
+	6569.12.16={ death=yes }
+}
+3933={
+	name=Bernarr
+	dynasty=10111
+	dna="opiglbalcmc"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=5 
+	learning=4
+	trait=naive_appeaser 
+	trait=humble 
+	trait=chaste 
+	trait=trusting 
+	trait=dueling_skilled
+	father=3932	#Ryk
+	mother=3941 #Osha
+	6526.1.19={ birth=yes }
+	6547.1.1={ add_spouse=3942 }
+	6583.12.23={ death=yes }
+}
+3934={
+	name=Brella
+	female=yes
+	dynasty=10111
+	dna="kabfjcakchc"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	father=3932	#Ryk
+	mother=3941 #Osha
+	6530.7.1={ birth=yes }
+	6575.11.6={ death=yes }
+}
+3935={
+	name=Gretchel
+	female=yes
+	dynasty=10111
+	dna="lahfhbenghe"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	father=3932	#Ryk
+	mother=3941 #Osha
+	6533.6.9={ birth=yes }
+	6584.8.8={ death=yes }
+}
+3936={
+	name=Dan
+	dynasty=10111
+	dna="fpinbbplbob"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	martial=5 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=naive_appeaser 
+	trait=diligent 
+	trait=patient 
+	trait=humble 
+	trait=ambitious 
+	trait=envious 
+	father=3933	#Bernarr
+	mother=3942 #Kyra
+	6551.12.7={ birth=yes }
+	6601.6.14={ death=yes }
+}
+3937={
+	name=Karlon
+	dynasty=10111
+	dna="iplglnahclc"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	trait=diligent 
+	trait=gregarious
+	trait=wounded 
+	trait=dueling_expert
+	father=3933	#Bernarr
+	mother=3942 #Kyra
+	6553.9.19={ birth=yes }
+	6628.3.17={ death=yes }
+}
+3938={
+	name=Mikken
+	dynasty=10111
+	dna="opbinmalcph"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	trait=charitable 
+	father=3933	#Bernarr
+	mother=3942 #Kyra
+	6555.3.23={ birth=yes }
+	6613.3.17={ death=yes }
+}
+3939={
+	name=Bump
+	dynasty=10111
+	dna="ofahlbagcmk"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	father=3933	#Bernarr
+	mother=3942 #Kyra
+	6559.8.1={ birth=yes }
+	6609.9.14={ death=yes }
+}
+3940={
+	name=Gretchel
+	female=yes
+	dynasty=10111
+	dna="gpahlbnlcmc"
+	culture=cavemen 
+	religion=old_gods_beyond_white
+	father=3933	#Bernarr
+	mother=3942 #Kyra
+	6561.9.8={ birth=yes }
+	6619.5.27={ death=yes }
+}
+3941={
+	name=Osha
+	female=yes
+	culture=cavemen
+	religion=old_gods_beyond_white
+	6499.1.1={ birth=yes }
+	6569.1.1={ death=yes }
+}
+3942={
+	name=Kyra
+	female=yes
+	culture=cavemen
+	religion=old_gods_beyond_white
+	6526.1.1={ birth=yes }
+	6583.1.1={ death=yes }
+}
+
+######################
+### Clan Coldfast ####
+######################
+
+3943={
+	name=Quort
+	dynasty=10112
+	dna="hgogccjfion"
+	culture=cavemen 
+	religion=old_gods_beyond
+	6499.2.4={ birth=yes }
+	6520.1.1={ add_spouse=3953 }
+	6546.7.30={ death=yes }
+}
+3944={
+	name=Val
+	female=yes
+	dynasty=10112
+	dna="hfogcejaion"
+	culture=cavemen 
+	religion=old_gods_beyond
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6525.3.9={ birth=yes }
+	6596.12.22={ death=yes }
+}
+3945={
+	name=Cayn
+	dynasty=10112
+	dna="lgfgdchmioc"
+	culture=cavemen 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=midas_touched 
+	trait=chaste 
+	trait=gregarious 
+	trait=arbitrary 
+	trait=dueling_skilled
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6529.6.2={ birth=yes }
+	6550.1.1={ add_spouse=3954 }
+	6565.1.1 = { give_nickname=nick_the_black }
+	6581.4.29={ death=yes }
+}
+3946={
+	name=Wayn
+	dynasty=10112
+	dna="ggogcclflfn"
+	culture=cavemen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=5 
+	learning=4
+	trait=naive_appeaser 
+	trait=content 
+	trait=zealous 
+	trait=lustful 
+	trait=just 
+	trait=dueling_skilled
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6532.1.22={ birth=yes }
+	6581.3.18={ death=yes }
+}
+3947={
+	name=Jonnela
+	female=yes
+	dynasty=10112
+	dna="hpopdhmfmon"
+	culture=cavemen 
+	religion=old_gods_beyond
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6534.5.8={ birth=yes }
+	6587.8.8={ death=yes }
+}
+3948={
+	name=Torwynd
+	dynasty=10112
+	dna="dapgccffpon"
+	culture=cavemen 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=intricate_webweaver 
+	trait=paranoid 
+	trait=cruel 
+	trait=craven 
+	trait=content 
+	trait=proud 
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6537.9.8={ birth=yes }
+	6598.11.27={ death=yes }
+}
+3949={
+	name=Palla
+	female=yes
+	dynasty=10112
+	dna="bnogccomion"
+	culture=cavemen 
+	religion=old_gods_beyond
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6538.3.11={ birth=yes }
+	6590.2.19={ death=yes }
+}
+3950={
+	name=Gilly
+	female=yes
+	dynasty=10112
+	dna="mgmgcddiiob"
+	culture=cavemen 
+	religion=old_gods_beyond
+	father=3943	#Quort
+	mother=3953 #Jyana
+	6542.9.3={ birth=yes }
+	6585.10.31={ death=yes }
+}
+3951={
+	name=Toregg
+	dynasty=10112
+	dna="lgfgachdmbb"
+	culture=cavemen 
+	religion=old_gods_beyond
+	trait=humble
+	trait=gregarious
+	trait=dueling_novice
+	father=3945	#Cayn
+	mother=3954 #Erena
+	6556.12.26={ birth=yes }
+	6611.8.20={ death=yes }
+}
+3952={
+	name=Stiv
+	dynasty=10112
+	dna="lgngjcemloc"
+	culture=cavemen 
+	religion=old_gods_beyond
+	trait=gluttonous
+	trait=paranoid
+	trait=dueling_novice
+	father=3945	#Cayn
+	mother=3954 #Erena
+	6557.10.16={ birth=yes }
+	6634.12.12={ death=yes }
+}
+3953={
+	name=Jyana
+	female=yes
+	culture=cavemen
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6546.1.1={ death=yes }
+}
+3954={
+	name=Erena
+	female=yes
+	culture=cavemen
+	religion=old_gods_beyond
+	6529.1.1={ birth=yes }
+	6581.1.1={ death=yes }
+}
+
+######################
+### Clan Icefort ####
+######################
+
+3955={
+	name=Halleck
+	dynasty=10113
+	dna="onfofedkjcd"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	6500.2.26={ birth=yes }
+	6521.1.1={ add_spouse=3964 }
+	6544.7.5={ death=yes }
+}
+3956={
+	name=Tormund
+	dynasty=10113
+	dna="cffjpbbcjch"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=grey_eminence 
+	trait=kind 
+	trait=brave 
+	trait=diligent 
+	trait=dueling_novice
+	father=3955	#Halleck
+	mother=3964 #Ysilla
+	6524.9.9={ birth=yes }
+	6545.1.1={ add_spouse=3965 }
+	6583.1.14={ death=yes }
+}
+3957={
+	name=Meera
+	female=yes
+	dynasty=10113
+	dna="gdfojfgkjch"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	father=3955	#Halleck
+	mother=3964 #Ysilla
+	6527.9.4={ birth=yes }
+	6596.10.6={ death=yes }
+}
+3958={
+	name=Jorelle
+	female=yes
+	dynasty=10113
+	dna="kcoeeiekjcj"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	father=3955	#Halleck
+	mother=3964 #Ysilla
+	6528.5.8={ birth=yes }
+	6574.6.20={ death=yes }
+}
+3959={
+	name=Bernarr
+	dynasty=10113
+	dna="kldkfeeajcd"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=misguided_warrior 
+	trait=envious 
+	trait=cruel 
+	trait=chaste 
+	trait=charitable 
+	trait=just 
+	trait=wounded
+	trait=dueling_adept	
+	father=3955	#Halleck
+	mother=3964 #Ysilla
+	6532.10.6={ birth=yes }
+	6584.9.28={ death=yes }
+}
+3960={
+	name=Stiv
+	dynasty=10113
+	dna="ophofgdkjad"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=detached_priest 
+	trait=ambitious 
+	trait=brave 
+	trait=slothful 
+	father=3955	#Halleck
+	mother=3964 #Ysilla
+	6535.6.24={ birth=yes }
+	6605.11.2={ death=yes }
+}
+3961={
+	name=Ondrew
+	dynasty=10113
+	dna="cffomjococh"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=7 
+	learning=4
+	trait=skilled_tactician 
+	trait=charitable 
+	trait=arbitrary 
+	trait=lustful 
+	trait=humble 
+	trait=cruel 
+	trait=dueling_master
+	father=3956	#Tormund
+	mother=3965 #Briar
+	6550.7.6={ birth=yes }
+	6612.5.18={ death=yes }
+}
+3962={
+	name=Brella
+	female=yes
+	dynasty=10113
+	dna="iffkpcimjci"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	father=3956	#Tormund
+	mother=3965 #Briar
+	6553.7.14={ birth=yes }
+	6617.6.12={ death=yes }
+}
+3963={
+	name=Kyra
+	female=yes
+	dynasty=10113
+	dna="ifnjpcdajgd"
+	culture=frozen_shore 
+	religion=old_gods_beyond
+	father=3956	#Tormund
+	mother=3965 #Briar
+	6555.5.5={ birth=yes }
+	6638.1.12={ death=yes }
+}
+3964={
+	name=Ysilla
+	female=yes
+	culture=frozen_shore
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6544.1.1={ death=yes }
+}
+3965={
+	name=Briar
+	female=yes
+	culture=frozen_shore
+	religion=old_gods_beyond
+	6524.1.1={ birth=yes }
+	6583.1.1={ death=yes }
+}
+
+######################
+### Clan Bayguard ####
+######################
+
+3966={
+	name=Torwynd
+	dynasty=10114
+	dna="omibbfihkmc"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	6500.6.17={ birth=yes }
+	6521.1.1={ add_spouse=3979 }
+	6557.7.22={ death=yes }
+}
+3967={
+	name=Cregan
+	dynasty=10114
+	dna="omdbbhihkmk"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	martial=7 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	trait=martial_cleric 
+	trait=cynical 
+	trait=shy 
+	trait=arbitrary 
+	trait=dueling_master
+	father=3966	#Torwynd
+	mother=3979 #Willow
+	6522.11.15={ birth=yes }
+	6543.1.1={ add_spouse=3980 }
+	6577.1.27={ death=yes }
+}
+3968={
+	name=Varamyr
+	dynasty=10114
+	dna="omicbfnhohb"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=7 
+	learning=5
+	trait=tough_soldier 
+	trait=envious 
+	trait=slothful 
+	trait=lustful 
+	trait=patient 
+	trait=just 
+	trait=dueling_novice
+	father=3966	#Torwynd
+	mother=3979 #Willow
+	6525.11.2={ birth=yes }
+	6595.1.23={ death=yes }
+}
+3969={
+	name=Sigorn
+	dynasty=10114
+	dna="khibjfiglmp"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	martial=6 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	trait=grey_eminence
+	trait=lustful 
+	trait=just 
+	trait=paranoid 
+	trait=kind 
+	trait=temperate 
+	trait=zealous 
+	father=3966	#Torwynd
+	mother=3979 #Willow
+	6528.5.18={ birth=yes }
+	6573.3.15={ death=yes }
+}
+3970={
+	name=Morra
+	female=yes
+	dynasty=10114
+	dna="nacbbfbadmj"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	father=3966	#Torwynd
+	mother=3979 #Willow
+	6530.6.3={ birth=yes }
+	6593.6.28={ death=yes }
+}
+3971={
+	name=Munda
+	female=yes
+	dynasty=10114
+	dna="liebhfiabmc"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	father=3966	#Torwynd
+	mother=3979 #Willow
+	6533.7.23={ birth=yes }
+	6588.7.20={ death=yes }
+}
+3972={
+	name=Gariss
+	dynasty=10114
+	dna="ocdebhjkkje"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	martial=7 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=5 
+	learning=8
+	trait=tough_soldier 
+	trait=gluttonous 
+	trait=zealous 
+	trait=deceitful 
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6544.1.2={ birth=yes }
+	6601.12.7={ death=yes }
+}
+3973={
+	name=Bael
+	dynasty=10114
+	dna="opdbbhgcggk"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	martial=8 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=8 
+	learning=5
+	trait=midas_touched 
+	trait=lustful 
+	trait=proud 
+	trait=charitable 
+	trait=kind 
+	trait=dueling_legend
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6548.6.9={ birth=yes }
+	6620.3.15={ death=yes }
+}
+3974={
+	name=Munda
+	female=yes
+	dynasty=10114
+	dna="pdjkbhipkmk"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6549.6.4={ birth=yes }
+	6602.5.16={ death=yes }
+}
+3975={
+	name=Gariss
+	dynasty=10114
+	dna="nmgaphehmmh"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	trait=gregarious
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6553.2.26={ birth=yes }
+	6608.5.11={ death=yes }
+}
+3976={
+	name=Mikken
+	dynasty=10114
+	dna="pmdobhghcmk"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	trait=wroth
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6555.3.8={ birth=yes }
+	6607.3.26={ death=yes }
+}
+3977={
+	name=Styr
+	dynasty=10114
+	dna="ofdhbibhehk"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6559.4.17={ birth=yes }
+	6603.9.9={ death=yes }
+}
+3978={
+	name=Munda
+	female=yes
+	dynasty=10114
+	dna="omfpcopecin"
+	culture=frozen_shore 
+	religion=old_gods_beyond_white
+	father=3967	#Cregan
+	mother=3980 #Jonella
+	6562.9.25={ birth=yes }
+	6613.4.24={ death=yes }
+}
+3979={
+	name=Willow
+	female=yes
+	culture=frozen_shore
+	religion=old_gods_beyond_white
+	6499.1.1={ birth=yes }
+	6557.1.1={ death=yes }
+}
+3980={
+	name=Jonella
+	female=yes
+	culture=frozen_shore
+	religion=old_gods_beyond_white
+	6522.1.1={ birth=yes }
+	6577.1.1={ death=yes }
+}
+
+######################
+### Clan Storr ####
+######################
+
+3981={
+	name=Toregg
+	dynasty=10115
+	dna="aecijnenlhc"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=5 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=6 
+	learning=8
+	trait=midas_touched 
+	trait=cruel 
+	trait=temperate 
+	trait=diligent 
+	trait=charitable 
+	trait=dueling_skilled
+	6500.1.25={ birth=yes }
+	6521.1.1={ add_spouse=3990 }
+	6573.4.26={ death=yes }
+}
+3982={
+	name=Meha
+	female=yes
+	dynasty=10115
+	dna="iajbjneghbb"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3981	#Toregg
+	mother=3990 #Meha
+	6526.2.12={ birth=yes }
+	6588.8.20={ death=yes }
+}
+3983={
+	name=Errok
+	dynasty=10115
+	dna="mekijcnnnhk"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=5 
+	learning=5
+	trait=detached_priest 
+	trait=content 
+	trait=trusting 
+	trait=patient 
+	trait=honest 
+	trait=chaste 
+	trait=humble 
+	trait=wounded 
+	father=3981	#Toregg
+	mother=3990 #Meha
+	6529.4.14={ birth=yes }
+	6550.1.1={ add_spouse=3991 }
+	6597.2.8={ death=yes }
+}
+3984={
+	name=Morna
+	female=yes
+	dynasty=10115
+	dna="bkcjgnlnafo"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3981	#Toregg
+	mother=3990 #Meha
+	6532.5.1={ birth=yes }
+	6585.4.20={ death=yes }
+}
+3985={
+	name=Qhorin
+	dynasty=10115
+	dna="amfijnaaghc"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=6 
+	learning=5
+	trait=elusive_shadow 
+	trait=cruel 
+	trait=arbitrary 
+	trait=gregarious 
+	trait=patient 
+	trait=dueling_skilled
+	father=3981	#Toregg
+	mother=3990 #Meha
+	6538.9.23={ birth=yes }
+	6584.6.24={ death=yes }
+}
+3986={
+	name=Styr
+	dynasty=10115
+	dna="meniccbphik"
+	culture=hartenn 
+	religion=old_gods_beyond
+	trait=wroth
+	trait=gluttonous 
+	trait=dueling_adept
+	father=3983	#Errok
+	mother=3991 #Myrtle
+	6556.12.12={ birth=yes }
+	6615.3.15={ death=yes }
+}
+3987={
+	name=Dan
+	dynasty=10115
+	dna="jelikcnnpkg"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3983	#Errok
+	mother=3991 #Myrtle
+	6559.7.12={ birth=yes }
+	6607.6.10={ death=yes }
+}
+3988={
+	name=Thistle
+	female=yes
+	dynasty=10115
+	dna="aegijaknnhb"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3983	#Errok
+	mother=3991 #Myrtle
+	6563.5.11={ birth=yes }
+	6645.8.18={ death=yes }
+}
+3989={
+	name=Galbart
+	dynasty=10115
+	dna="eoefjpninhb"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3983	#Errok
+	mother=3991 #Myrtle
+	6564.9.23={ birth=yes }
+	6611.6.20={ death=yes }
+}
+3990={
+	name=Meha
+	female=yes
+	culture=hartenn
+	religion=old_gods_beyond
+	6499.1.1={ birth=yes }
+	6573.1.1={ death=yes }
+}
+3991={
+	name=Myrtle
+	female=yes
+	culture=hartenn
+	religion=old_gods_beyond
+	6529.1.1={ birth=yes }
+	6597.1.1={ death=yes }
+}
+
+######################
+### Clan Wytewood ####
+######################
+
+3992={
+	name=Raymun
+	dynasty=10116
+	dna="pmdnepkknpm"
+	culture=hartenn 
+	religion=old_gods_beyond
+	6499.8.7={ birth=yes }
+	6520.1.1={ add_spouse=7605 }
+	6552.10.1={ death=yes }
+}
+3993={
+	name=Arnolf
+	dynasty=10116
+	dna="nmfghpchfpl"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=arbitrary 
+	trait=cynical 
+	trait=craven 
+	trait=envious 
+	trait=honest 
+	trait=proud 
+	father=3992	#Raymun
+	mother=7605	#Helya
+	6526.6.8={ birth=yes }
+	6547.1.1={ add_spouse=7606 }
+	6585.4.26={ death=yes }
+}
+3994={
+	name=Arthor
+	dynasty=10116
+	dna="ploajgkkihm"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=7 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4
+	learning=7
+	trait=charismatic_negotiator 
+	trait=ambitious 
+	trait=temperate 
+	trait=paranoid 
+	trait=cruel 
+	trait=dueling_expert
+	father=3992	#Raymun
+	mother=7605	#Helya
+	6529.6.17={ birth=yes }
+	6569.8.4={ death=yes }
+}
+3995={
+	name=Frenya
+	female=yes
+	dynasty=10116
+	dna="eiknepmmnpm"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3992	#Raymun
+	mother=7605	#Helya
+	6533.12.24={ birth=yes }
+	6605.10.29={ death=yes }
+}
+3996={
+	name=Henk
+	dynasty=10116
+	dna="ffdnepkkfac"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=5
+	trait=mastermind_theologian 
+	trait=impaler 
+	trait=deceitful 
+	trait=gregarious 
+	trait=patient 
+	trait=envious 
+	trait=paranoid 
+	father=3992	#Raymun
+	mother=7605	#Helya
+	6537.3.5={ birth=yes }
+	6591.3.17={ death=yes }
+}
+3997={
+	name=Calon
+	dynasty=10116
+	dna="pmdeepejjem"
+	culture=hartenn 
+	religion=old_gods_beyond
+	martial=6 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=6 
+	learning=8
+	trait=martial_cleric 
+	trait=celibate 
+	trait=craven 
+	trait=charitable 
+	trait=drunkard 
+	trait=possessed 
+	father=3992	#Raymun
+	mother=7605	#Helya
+	6540.3.26={ birth=yes }
+	6597.3.8={ death=yes }
+}
+3998={
+	name=Meha
+	female=yes
+	dynasty=10116
+	dna="lmealphknlm"
+	culture=hartenn 
+	religion=old_gods_beyond
+	father=3992	#Raymun
+	mother=7605	#Helya
+	6543.1.17={ birth=yes }
+	6625.4.17={ death=yes }
+}
+3999={
+	name=Calon
+	dynasty=10116
+	dna="nmeaobehfpk"
+	culture=hartenn 
+	religion=old_gods_beyond
+	trait=paranoid 
+	trait=diligent 
+	trait=drunkard 
+	father=3993	#Arnolf
+	mother=7606	#Jorelle
+	6553.5.7={ birth=yes }
+	6601.12.11={ death=yes }
+}

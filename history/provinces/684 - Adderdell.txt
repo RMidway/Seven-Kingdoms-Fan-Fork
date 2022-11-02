@@ -1,0 +1,26 @@
+# c_adderdell
+
+# County Title
+title = c_adderdell
+
+# Settlements
+max_settlements = 5
+
+b_adderdell = castle
+b_woxdorf = city
+#b_sprinzenberg = temple
+#b_garmissen = castle
+#b_adderdell_2 = city
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = hills
+#History
+6200.1.1 = {
+	culture = rainlander
+}
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

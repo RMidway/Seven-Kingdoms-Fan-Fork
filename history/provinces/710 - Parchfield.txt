@@ -1,0 +1,21 @@
+# c_parchfield
+
+# County Title
+title = c_parchfield
+
+# Settlements
+max_settlements = 3
+
+b_parchfield = castle
+b_parchfield_2 = city
+#b_parchfield_3 = temple
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

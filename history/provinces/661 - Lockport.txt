@@ -1,0 +1,23 @@
+# c_lockport
+
+# County Title
+title = c_lockport
+
+# Settlements
+max_settlements = 5
+
+b_lockport = castle
+b_kraheck = city
+b_obererbach = temple
+#b_hoikenhagen = castle
+#b_lockport_2 = city
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = woods
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

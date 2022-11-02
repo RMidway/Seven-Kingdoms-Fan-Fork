@@ -1,0 +1,36 @@
+# c_braavos
+
+# County Title
+title = c_braavos
+
+# Settlements
+max_settlements = 7
+
+b_braavos = city
+b_titan_di_braavos = castle
+b_braavos_2 = temple
+b_porto_viola = city
+b_porto_di_ragia = castle
+b_pasubio = temple
+b_braavosia = city
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History
+6500.1.1 = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

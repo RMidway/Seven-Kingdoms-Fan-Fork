@@ -1,0 +1,16 @@
+# c_quiet_isle
+
+# County Title
+title = c_quiet_isle
+
+# Settlements
+max_settlements = 2
+
+b_quiet_sept = temple
+b_quiet_tower = castle
+
+# Misc
+culture = crackclawmen
+religion = the_seven
+terrain = plains
+#History

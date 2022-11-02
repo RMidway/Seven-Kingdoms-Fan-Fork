@@ -1,0 +1,21 @@
+# c_blackrush
+
+# County Title
+title = c_blackrush
+
+# Settlements
+max_settlements = 3
+
+b_blackrush = castle
+#b_champlin = city
+#b_blackrush_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

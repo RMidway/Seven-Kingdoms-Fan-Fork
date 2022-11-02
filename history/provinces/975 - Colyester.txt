@@ -1,0 +1,21 @@
+# c_colyester
+
+# County Title
+title = c_colyester
+
+# Settlements
+max_settlements = 3
+
+b_colyester = castle
+#b_baget = city
+#b_colyester_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}

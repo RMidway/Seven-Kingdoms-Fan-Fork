@@ -1,0 +1,25 @@
+# c_yohnstown
+
+# County Title
+title = c_yohnstown
+
+# Settlements
+max_settlements = 4
+
+b_yohnstown = castle
+#b_montevarchi = city
+#b_bousson = temple
+#b_yohnstown_2 = castle
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

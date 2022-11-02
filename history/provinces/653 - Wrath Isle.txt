@@ -1,0 +1,21 @@
+# c_wrath_isle
+
+# County Title
+title = c_wrath_isle
+
+# Settlements
+max_settlements = 3
+
+b_wrath_isle = castle
+#b_rengersfeld = city
+#b_wrath_isle_2 = temple
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+	religion = the_seven 
+	culture = wrathlander
+}

@@ -1,0 +1,22 @@
+# c_yellshire
+
+# County Title
+title = c_yellshire
+
+# Settlements
+max_settlements = 4
+
+b_yellshire = castle
+b_loudgap = city
+#b_rossom = temple
+#b_roien = castle
+
+# Misc
+culture = marchmen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = marcher
+    religion = the_seven 
+}

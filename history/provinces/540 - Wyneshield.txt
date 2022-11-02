@@ -1,0 +1,21 @@
+# c_wyneshield
+
+# County Title
+title = c_wyneshield
+
+# Settlements
+max_settlements = 3
+
+b_wyneshield = castle
+b_eibei = castle
+b_hek = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+	religion = the_seven
+}

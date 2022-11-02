@@ -1,0 +1,21 @@
+# c_battered_isle
+
+# County Title
+title = c_battered_isle
+
+# Settlements
+max_settlements = 7
+
+b_bukori = castle
+#b_bukori_2 = city
+#b_bukori_3 = temple
+#b_bukori_4 = castle
+#b_bukori_5 = city
+#b_bukori_6 = temple
+#b_bukori_7 = castle
+
+# Misc
+culture = lorathi
+religion = boashi
+terrain = plains
+#History

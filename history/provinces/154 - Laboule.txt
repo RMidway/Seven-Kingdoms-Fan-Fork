@@ -1,0 +1,21 @@
+# c_laboule
+
+# County Title
+title = c_laboule
+
+# Settlements
+max_settlements = 3
+
+b_laboule = castle
+#b_laboule_2 = city
+#b_laboule_3 = temple
+#b_laboule_4 = castle
+#b_laboule_5 = city
+#b_laboule_6 = temple
+#b_laboule_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = plains
+#History

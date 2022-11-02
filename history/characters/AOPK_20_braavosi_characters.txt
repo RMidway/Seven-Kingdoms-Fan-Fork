@@ -1,0 +1,1112 @@
+##############
+# ID RANGE   #
+# 2000-2199  #
+##############
+
+# Start Date is 6566
+
+####################
+### MAJOR HOUSES ###
+####################
+################################
+##### Head of House Fregar #####
+################################
+
+2000 = {
+    name = Faro
+    dynasty = 400 # Fregar
+    religion = moonsingers
+    culture = braavosi
+	father=2028	#Flavio
+	mother=2036	#Tiziana
+    6543.3.1 = { birth=yes }
+    6614.3.7 = { death=yes }
+}
+
+########################################################
+##### The Sealord of Braavos, Head of House Zalyne #####
+########################################################
+
+2001 = {
+    name = Uthero
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    father = 2009
+    trait = midas_touched
+    trait = temperate
+    trait = just
+    trait = diligent
+    trait = patient
+    trait = charitable
+    6538.3.14 = { birth=yes }
+    6612.9.3 = { death=yes }
+}
+
+##################################
+##### The Sealord's Children #####
+##################################
+
+2007 = {
+    name = Syrio
+    dynasty = 401 # Zalyne
+    father = 2001
+    religion = moonsingers
+    culture = braavosi
+
+    6560.3.14 = { birth=yes }
+    6621.9.3 = { death=yes }
+}
+
+2008 = {
+    name = Styria
+    dynasty = 401 # Zalyne
+    father = 2001
+    female = yes 
+    religion = moonsingers
+    culture = braavosi
+
+    6561.3.14 = { birth=yes }
+    6621.9.3 = { death=yes }
+}
+
+##################################
+##### Head of House Lepanton #####
+##################################
+
+2002 = {
+    name = Landar
+    dynasty = 402 # Lepanton
+    religion = moonsingers
+    culture = braavosi
+
+    6551.1.4 = { birth=yes }
+    6632.11.2 = { death=yes }
+}
+
+##################################
+##### Head of House Antaryon #####
+##################################
+
+2003 = {
+    name = Zotto
+    dynasty = 403 # Antaryon
+    religion = moonsingers
+    culture = braavosi
+	father=2039	#Elio
+	mother=2045	#Nunzia
+    6539.3.13 = { birth=yes }
+    6613.4.7 = { death=yes }
+}
+
+#################################
+##### Head of House Orseolo #####
+#################################
+
+2004 = {
+    name = Odilo
+    dynasty = 404 # Orseolo
+    religion = moonsingers
+    culture = braavosi
+
+    6538.3.14 = { birth=yes }
+    6612.9.3 = { death=yes }
+}
+
+########################
+### MINOR CHARACTERS ###
+########################
+
+##################################
+##### First Sword of Braavos #####
+##################################
+
+2005 = {
+    name = Berin
+    dynasty = 405 # Volentin
+    religion = moonsingers
+    culture = braavosi
+    employer = 2001
+    trait = dueling_legend
+    trait = quick
+    6543.2.9 = { birth=yes }
+	6559.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = shrewd
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = quick
+			}
+		}
+	}
+    6610.8.6 = { death=yes }
+}
+
+###############################
+##### Marshall of Braavos #####
+###############################
+
+2006 = {
+    name = Syrio
+    dynasty = 406 # Forel
+    religion = moonsingers
+    culture = braavosi
+    employer = 2001
+    martial = 6
+    trait = skilled_tactician
+    trait = dueling_master
+    trait = brave
+    trait = patient
+    trait = diligent
+    trait = quick
+    6564.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+#########################
+#####  House Zalyne #####
+#########################
+# THE SEALORDS FATHER #
+2009 = {
+    name = Jaquen
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    father = 2010
+    6502.1.1 = { birth=yes }
+    6561.1.1 = { death=yes }
+}
+# SLAVE/FOUNDERS OF BRAAVOS
+2010 = {
+    name = Rothero
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    father = 2011
+    6474.1.1 = { birth=yes }
+    6535.1.1 = { death=yes }
+}
+
+2011 = {
+    name = Niander
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    father = 2012
+    trait = former_slave
+    6450.1.1 = { birth=yes }
+    6507.1.1 = { death=yes }
+}
+
+2012 = {
+    name = Uthero
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    trait = former_slave
+    father = 2013
+    6429.1.1 = { birth=yes }
+    6486.1.1 = { death=yes }
+}
+
+2013 = {
+    name = Adrelmach
+    religion = moonsingers
+    culture = braavosi
+    trait = slave
+    6400.1.1 = { birth=yes }
+    6443.1.1 = { death=yes }
+}
+# BROTHERS OF THE SEALORD
+2014 = {
+    name = Tycho
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    father = 2009
+    6540.3.14 = { birth=yes }
+    6608.9.3 = { death=yes }
+}
+
+2015 = {
+    name = Niander
+    dynasty = 401 # Zalyne
+    religion = moonsingers
+    culture = braavosi
+    father = 2009
+    6542.3.14 = { birth=yes }
+    6615.9.3 = { death=yes }
+}
+
+# House Conti #
+
+2016={
+	name=Chiano
+	dynasty=407
+	dna="lhdndngabib"
+	culture=braavosi 
+	religion=moonsingers
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=5
+	trait=scholarly_theologian 
+	trait=patient 
+	trait=kind 
+	trait=stressed 
+	6520.8.26={ birth=yes }
+	6541.1.1={ add_spouse=2021 }
+	6591.6.14={ death=yes }
+}
+2017={
+	name=Marco
+	dynasty=407
+	dna="lhaobngcbie"
+	culture=braavosi 
+	religion=moonsingers
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=8 
+	learning=8
+	trait=grey_eminence 
+	trait=celibate 
+	trait=slothful 
+	trait=arbitrary 
+	trait=cruel 
+	trait=craven 
+	trait=wroth 
+	trait=content 
+	trait=lisp 
+	father=2016	#Chiano
+	mother=2021	#Orios
+	6546.9.12={ birth=yes }
+	6600.1.23={ death=yes }
+}
+2018={
+	name=Argentina
+	female=yes
+	dynasty=407
+	dna="ohdnjngabik"
+	culture=braavosi 
+	religion=moonsingers
+	father=2016	#Chiano
+	mother=2021	#Orios
+	6550.3.10={ birth=yes }
+	6606.2.13={ death=yes }
+}
+2019={
+	name=Lucinetta
+	female=yes
+	dynasty=407
+	dna="dooadhgbkgb"
+	culture=braavosi 
+	religion=moonsingers
+	father=2016	#Chiano
+	mother=2021	#Orios
+	6553.7.26={ birth=yes }
+	6614.5.31={ death=yes }
+}
+2020={
+	name=Elena
+	female=yes
+	dynasty=407
+	dna="kkdndpkapib"
+	culture=braavosi 
+	religion=moonsingers
+	father=2016	#Chiano
+	mother=2021	#Orios
+	6557.6.5={ birth=yes }
+	6608.5.1={ death=yes }
+}
+2021={
+	name=Orios
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6520.7.21={ birth=yes }
+	6591.5.16={ death=yes }
+}
+
+# House Donato #
+
+2022={
+	name=Callisto
+	dynasty=408
+	dna="kkiadoiamgj"
+	culture=braavosi 
+	religion=moonsingers
+	martial=8 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4 
+	learning=4
+	trait=tough_soldier 
+	trait=diligent 
+	trait=cynical 
+	6522.7.8={ birth=yes }
+	6543.1.1={ add_spouse=2027 }
+	6591.7.26={ death=yes }
+}
+2023={
+	name=Lucia
+	female=yes
+	dynasty=408
+	dna="hnacdoiabnj"
+	culture=braavosi 
+	religion=moonsingers
+	father=2022	#Callisto
+	mother=2027	#Valentina
+	6547.10.20={ birth=yes }
+	6592.11.6={ death=yes }
+}
+2024={
+	name=Anselmo
+	dynasty=408
+	dna="kaiamjhamde"
+	culture=braavosi 
+	religion=moonsingers
+	martial=5 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=6 
+	learning=8
+	trait=slothful 
+	trait=just 
+	trait=humble 
+	father=2022	#Callisto
+	mother=2027	#Valentina
+	6552.3.25={ birth=yes }
+	6604.5.12={ death=yes }
+}
+2025={
+	name=Vittorio
+	dynasty=408
+	dna="kkiadomamej"
+	culture=braavosi 
+	religion=moonsingers
+	trait=charitable 
+	trait=honest
+	father=2022	#Callisto
+	mother=2027	#Valentina
+	6556.1.17={ birth=yes }
+	6607.12.31={ death=yes }
+}
+2026={
+	name=Cassio
+	dynasty=408
+	dna="kkckdcdamjj"
+	culture=braavosi 
+	religion=moonsingers
+	trait=arbitrary
+	father=2022	#Callisto
+	mother=2027	#Valentina
+	6560.8.2={ birth=yes }
+	6610.4.28={ death=yes }
+}
+2027={
+	name=Valentina
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6522.7.21={ birth=yes }
+	6591.5.16={ death=yes }
+}
+
+# House Fregar family #
+
+2028={
+	name=Flavio
+	dynasty=400
+	dna="dpcpnapldao"
+	culture=braavosi 
+	religion=moonsingers
+	6518.1.16={ birth=yes }
+	6539.1.1={ add_spouse=2036 }
+	6560.1.1={ death=yes }
+}
+2029={
+	name=Letizia
+	female=yes
+	dynasty=400
+	dna="hlnggmlejee"
+	culture=braavosi 
+	religion=moonsingers
+	father=2028	#Flavio
+	mother=2036	#Tiziana
+	6540.7.1={ birth=yes }
+	6610.6.1={ death=yes }
+}
+2030={
+	name=Agostina
+	female=yes
+	dynasty=400
+	dna="dpcpndplhlg"
+	culture=braavosi 
+	religion=moonsingers
+	father=2028	#Flavio
+	mother=2036	#Tiziana
+	6542.3.12={ birth=yes }
+	6581.6.1={ death=yes }
+}
+2031={
+	name=Amalia
+	female=yes
+	dynasty=400
+	dna="dpifnbpjdad"
+	culture=braavosi 
+	religion=moonsingers
+	father=2028	#Flavio
+	mother=2036	#Tiziana
+	6544.1.19={ birth=yes }
+	6591.11.27={ death=yes }
+}
+2032={
+	name=Lothea
+	female=yes
+	dynasty=400
+	dna="jdpinaffbad"
+	culture=braavosi 
+	religion=moonsingers
+	father=2028	#Flavio
+	mother=2036	#Tiziana
+	6548.2.21={ birth=yes }
+	6610.4.8={ death=yes }
+}
+2033={
+	name=Alvise
+	dynasty=400
+	dna="dpapdjplieo"
+	culture=braavosi 
+	religion=moonsingers
+	martial=6 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=6 
+	learning=8
+	trait=cruel 
+	trait=honest 
+	trait=charitable 
+	father=2028	#Flavio
+	mother=2036	#Tiziana
+	6551.9.21={ birth=yes }
+	6616.4.8={ death=yes }
+}
+2034={
+	name=Benedetto
+	dynasty=400
+	dna="dpohiahkjeb"
+	culture=braavosi 
+	religion=moonsingers
+	trait=genius 
+	father=2000 #Faro
+	6559.12.27={ birth=yes }
+	6615.5.16={ death=yes }
+}
+2035={
+	name=Carlo
+	dynasty=400
+	dna="dcgpglpojgb"
+	culture=braavosi 
+	religion=moonsingers
+	father=2000 #Faro
+	6561.6.1={ birth=yes }
+	6623.9.13={ death=yes }
+}
+2036={
+	name=Tiziana
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6518.7.21={ birth=yes }
+	6560.5.16={ death=yes }
+}
+
+# House Esposito #
+
+2037={
+	name=Cangrande
+	dynasty=409
+	dna="kobdfdkadcg"
+	culture=braavosi 
+	religion=moonsingers
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=grey_eminence 
+	trait=hunter 
+	trait=wroth 
+	trait=content 
+	trait=diligent 
+	trait=shy 
+	trait=envious 
+	6540.12.5={ birth=yes }
+	6598.6.10={ death=yes }
+}
+2038={
+	name=Bernardo
+	dynasty=409
+	dna="kebdidkaohl"
+	culture=braavosi 
+	religion=moonsingers
+	father=2037	#Cangrande
+	6565.6.1={ birth=yes }
+	6616.8.29={ death=yes }
+}
+
+# House Antaryon family #
+
+2039={
+	name=Elio
+	dynasty=403
+	dna="plncgmlkjde"
+	culture=braavosi 
+	religion=moonsingers
+	6518.11.27={ birth=yes }
+	6539.1.1={ add_spouse=2045 }
+	6560.1.1={ death=yes }
+}
+2040={
+	name=Flavia
+	female=yes
+	dynasty=403
+	dna="pdccgfckkde"
+	culture=braavosi 
+	religion=moonsingers
+	father=2039	#Elio
+	mother=2045	#Nunzia
+	6542.9.17={ birth=yes }
+	6597.11.21={ death=yes }
+}
+2041={
+	name=Manuele
+	dynasty=403
+	dna="bldcoplkdai"
+	culture=braavosi 
+	religion=moonsingers
+	martial=5 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=gluttonous 
+	trait=zealous 
+	trait=content 
+	trait=deceitful 
+	father=2039	#Elio
+	mother=2045	#Nunzia
+	6546.10.23={ birth=yes }
+	6596.11.2={ death=yes }
+}
+2042={
+	name=Letizia
+	female=yes
+	dynasty=403
+	dna="hlnggmlejee"
+	culture=braavosi 
+	religion=moonsingers
+	father=2039	#Elio
+	mother=2045	#Nunzia
+	6551.2.4={ birth=yes }
+	6596.3.14={ death=yes }
+}
+2043={
+	name=Giberto
+	dynasty=403
+	dna="jlfcgelkede"
+	culture=braavosi 
+	religion=moonsingers
+	trait=humble
+	trait=zealous
+	trait=gregarious
+	father=2039	#Elio
+	mother=2045	#Nunzia
+	6553.9.11={ birth=yes }
+	6607.3.31={ death=yes }
+}
+2044={
+	name=Buonconte
+	dynasty=403
+	dna="pgongechkde"
+	culture=braavosi 
+	religion=moonsingers
+	father=2003	#Zotto
+	6563.1.14={ birth=yes }
+	6633.11.10={ death=yes }
+}
+2045={
+	name=Nunzia
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6518.7.21={ birth=yes }
+	6569.5.16={ death=yes }
+}
+
+# House Gallo #
+
+2046={
+	name=Angelo
+	dynasty=410
+	dna="kijlgbpbfli"
+	culture=braavosi 
+	religion=moonsingers
+	martial=7 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=scholarly_theologian 
+	trait=wroth 
+	trait=trusting 
+	trait=content 
+	trait=zealous 
+	trait=temperate 
+	trait=envious 
+	6531.8.22={ birth=yes }
+	6552.1.1={ add_spouse=2049 }
+	6595.1.26={ death=yes }
+}
+2047={
+	name=Alda
+	female=yes
+	dynasty=410
+	dna="kijogkiifdi"
+	culture=braavosi 
+	religion=moonsingers
+	father=2046	#Angelo
+	mother=2049	#Ermenegilda
+	6553.8.5={ birth=yes }
+	6616.10.19={ death=yes }
+}
+2048={
+	name=Arnolfo
+	dynasty=410
+	dna="bigiglfbnli"
+	culture=braavosi 
+	religion=moonsingers
+	trait=cruel
+	trait=drunkard 
+	father=2046	#Angelo
+	mother=2049	#Ermenegilda
+	6556.4.1={ birth=yes }
+	6627.7.21={ death=yes }
+}
+2049={
+	name=Ermenegilda
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6531.7.21={ birth=yes }
+	6595.5.16={ death=yes }
+}
+
+# Giordano #
+
+2050={
+	name=Jacopo
+	dynasty=411
+	dna="mhpjdacmnda"
+	culture=braavosi 
+	religion=moonsingers
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=7 
+	learning=7
+	trait=scholarly_theologian 
+	trait=slothful 
+	trait=gluttonous 
+	trait=humble 
+	trait=depressed 
+	6543.10.11={ birth=yes }
+	6605.11.6={ death=yes }
+}
+2051={
+	name=Leonide
+	female=yes
+	dynasty=411
+	dna="mmbanacmgbj"
+	culture=braavosi 
+	religion=moonsingers
+	father=2050	#Jacopo
+	6565.7.23={ birth=yes }
+	6636.1.22={ death=yes }
+}
+
+# Lettiere #
+
+2052={
+	name=Guglielmo
+	dynasty=412
+	dna="odennnkhgne"
+	culture=braavosi 
+	religion=moonsingers
+	martial=8 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=7 
+	learning=4
+	trait=naive_appeaser 
+	trait=content 
+	trait=gregarious 
+	trait=diligent 
+	trait=trusting 
+	6526.10.3={ birth=yes }
+	6546.1.1={ add_spouse=2058 }
+	6572.1.9={ death=yes }
+}
+2053={
+	name=Augusta
+	female=yes
+	dynasty=412
+	dna="odebogehgne"
+	culture=braavosi 
+	religion=moonsingers
+	father=2052	#Guglielmo
+	mother=2058	#Eleonora
+	6551.4.4={ birth=yes }
+	6600.8.19={ death=yes }
+}
+2054={
+	name=Riccardo
+	dynasty=412
+	dna="oaennaklone"
+	culture=braavosi 
+	religion=moonsingers
+	trait=lustful
+	trait=diligent 
+	trait=ill 
+	father=2052	#Guglielmo
+	mother=2058	#Eleonora
+	6554.2.20={ birth=yes }
+	6605.9.21={ death=yes }
+}
+2055={
+	name=Denia
+	female=yes
+	dynasty=412
+	dna="coehdndfgde"
+	culture=braavosi 
+	religion=moonsingers
+	father=2052	#Guglielmo
+	mother=2058	#Eleonora
+	6557.7.9={ birth=yes }
+	6629.4.8={ death=yes }
+}
+2056={
+	name=Rodolfo
+	dynasty=412
+	dna="odinikkcgne"
+	culture=braavosi 
+	religion=moonsingers
+	trait=ambitious 
+	father=2052	#Guglielmo
+	mother=2058	#Eleonora
+	6560.7.9={ birth=yes }
+	6615.7.26={ death=yes }
+}
+2057={
+	name=Filomena
+	female=yes
+	dynasty=412
+	dna="inelfnnngne"
+	culture=braavosi 
+	religion=moonsingers
+	father=2052	#Guglielmo
+	mother=2058	#Eleonora
+	6563.11.13={ birth=yes }
+	6638.5.15={ death=yes }
+}
+2058={
+	name=Eleonora
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6526.7.21={ birth=yes }
+	6572.5.16={ death=yes }
+}
+
+# Lori #
+
+2059={
+	name=Torquato
+	dynasty=413
+	dna="obbenlocjpc"
+	culture=braavosi 
+	religion=moonsingers
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5 
+	learning=8
+	trait=midas_touched 
+	trait=paranoid 
+	trait=just 
+	trait=diligent 
+	trait=deceitful 
+	trait=content 
+	6505.12.11={ birth=yes }
+	6525.1.1={ add_spouse=2065 }
+	6568.6.25={ death=yes }
+}
+2060={
+	name=Lothea
+	female=yes
+	dynasty=413
+	dna="cbifnfoljpc"
+	culture=braavosi 
+	religion=moonsingers
+	father=2059	#Torquato
+	mother=2065	#Serala
+	6530.11.15={ birth=yes }
+	6587.5.14={ death=yes }
+}
+2061={
+	name=Yna
+	female=yes
+	dynasty=413
+	dna="obbpalocppc"
+	culture=braavosi 
+	religion=moonsingers
+	father=2059	#Torquato
+	mother=2065	#Serala
+	6536.11.8={ birth=yes }
+	6568.5.11={ death=yes }
+}
+2062={
+	name=Fausta
+	female=yes
+	dynasty=413
+	dna="aibeilbkjpl"
+	culture=braavosi 
+	religion=moonsingers
+	father=2059	#Torquato
+	mother=2065	#Serala
+	6541.2.2={ birth=yes }
+	6610.7.13={ death=yes }
+}
+2063={
+	name=Jacopo
+	dynasty=413
+	dna="flcpnhohnpd"
+	culture=braavosi 
+	religion=moonsingers
+	martial=4 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=scholarly_theologian 
+	trait=content 
+	trait=cruel 
+	father=2059	#Torquato
+	mother=2065	#Serala
+	6542.8.21={ birth=yes }
+	6588.7.23={ death=yes }
+}
+2064={
+	name=Svrone
+	female=yes
+	dynasty=413
+	dna="dlmaamipnpd"
+	culture=braavosi 
+	religion=moonsingers
+	father=2063	#Jacopo
+	6563.7.8={ birth=yes }
+	6637.1.23={ death=yes }
+}
+2065={
+	name=Serala
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6505.7.21={ birth=yes }
+	6568.5.16={ death=yes }
+}
+
+# Mancini #
+
+2066={
+	name=Gregorio
+	dynasty=414
+	dna="pmkmfgffcgc"
+	culture=braavosi 
+	religion=moonsingers
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=martial_cleric 
+	trait=diligent 
+	trait=brave 
+	trait=charitable 
+	trait=honest 
+	trait=content 
+	trait=ill 
+	6525.4.2={ birth=yes }
+	6545.1.1={ add_spouse=2071 }
+	6577.1.7={ death=yes }
+}
+2067={
+	name=Delinda
+	female=yes
+	dynasty=414
+	dna="pokgmgdfcgc"
+	culture=braavosi 
+	religion=moonsingers
+	father=2066	#Gregorio
+	mother=2071	#Beatrice
+	6551.1.27={ birth=yes }
+	6613.7.2={ death=yes }
+}
+2068={
+	name=Bianca
+	female=yes
+	dynasty=414
+	dna="ickmdabdcgg"
+	culture=braavosi 
+	religion=moonsingers
+	father=2066	#Gregorio
+	mother=2071	#Beatrice
+	6554.4.21={ birth=yes }
+	6605.2.4={ death=yes }
+}
+2069={
+	name=Salassor
+	dynasty=414
+	dna="pmkiodpfjfh"
+	culture=braavosi 
+	religion=moonsingers
+	trait=lustful 
+	father=2066	#Gregorio
+	mother=2071	#Beatrice
+	6558.8.14={ birth=yes }
+	6604.12.29={ death=yes }
+}
+2070={
+	name=Lothea
+	female=yes
+	dynasty=414
+	dna="celnhgfflol"
+	culture=braavosi 
+	religion=moonsingers
+	father=2066	#Gregorio
+	mother=2071	#Beatrice
+	6561.11.19={ birth=yes }
+	6621.9.13={ death=yes }
+}
+2071={
+	name=Beatrice
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6525.7.21={ birth=yes }
+	6577.5.16={ death=yes }
+}
+
+# Mele #
+
+2072={
+	name=Pio
+	dynasty=415
+	dna="opjcfieioko"
+	culture=braavosi 
+	religion=moonsingers
+	martial=4 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=6 
+	learning=8
+	trait=misguided_warrior 
+	trait=arbitrary 
+	trait=content 
+	trait=gluttonous 
+	trait=trusting 
+	6546.3.1={ birth=yes }
+	6612.7.12={ death=yes }
+}
+
+# Onio #
+
+2073={
+	name=Arnolfo
+	dynasty=416
+	dna="bccdgncocdp"
+	culture=braavosi 
+	religion=moonsingers
+	martial=6 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=5 
+	learning=8
+	trait=naive_appeaser 
+	trait=paranoid 
+	trait=deceitful 
+	trait=wroth 
+	trait=humble 
+	6517.3.15={ birth=yes }
+	6537.1.1={ add_spouse=2077 }
+	6590.11.2={ death=yes }
+}
+2074={
+	name=Ezzere
+	female=yes
+	dynasty=416
+	dna="bcddgocoamp"
+	culture=braavosi 
+	religion=moonsingers
+	father=2073	#Arnolfo
+	mother=2077	#Anna
+	6544.6.11={ birth=yes }
+	6606.7.2={ death=yes }
+}
+2075={
+	name=Benedetto
+	dynasty=416
+	dna="bcidknhjbdk"
+	culture=braavosi 
+	religion=moonsingers
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=6 
+	learning=7
+	trait=midas_touched 
+	trait=lustful 
+	trait=gluttonous 
+	trait=content 
+	trait=charitable 
+	father=2073	#Arnolfo
+	mother=2077	#Anna
+	6549.5.6={ birth=yes }
+	6622.6.12={ death=yes }
+}
+2076={
+	name=Cossoma
+	female=yes
+	dynasty=416
+	dna="bbjcgncodda"
+	culture=braavosi 
+	religion=moonsingers
+	father=2073	#Arnolfo
+	mother=2077	#Anna
+	6554.2.2={ birth=yes }
+	6618.2.11={ death=yes }
+}
+2077={
+	name=Anna
+	female=yes
+	culture=braavosi 
+	religion=moonsingers
+	6517.7.21={ birth=yes }
+	6590.5.16={ death=yes }
+}

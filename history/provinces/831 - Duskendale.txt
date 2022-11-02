@@ -1,0 +1,40 @@
+# c_duskendale
+
+# County Title
+title = c_duskendale
+
+# Settlements
+max_settlements = 6
+
+b_duskendale = city
+#b_sberoaia = city
+#b_volkovo = temple
+#b_kuznetsovo = castle
+#b_nita = city
+#b_basoal = temple
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = farmlands
+#History
+1.1.1 = {
+    religion = old_gods 
+}
+6300.1.1 = {
+    religion = the_seven
+}
+6500.1.1 = {
+
+
+
+
+
+
+
+
+
+}
+7200.1.1 = {
+    culture = blackwatermen
+}

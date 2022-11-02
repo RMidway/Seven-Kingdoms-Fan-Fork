@@ -1,0 +1,21 @@
+# c_rotto
+
+# County Title
+title = c_rotto
+
+# Settlements
+max_settlements = 7
+
+b_rotto = city
+#b_rotto_2 = city
+#b_rotto_3 = temple
+#b_rotto_4 = castle
+#b_rotto_5 = city
+#b_rotto_6 = temple
+#b_rotto_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History

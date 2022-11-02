@@ -1,0 +1,23 @@
+# c_lord_harroways_town
+
+# County Title
+title = c_lord_harroways_town
+
+# Settlements
+max_settlements = 5
+
+b_lord_harroways_keep = castle
+b_lord_harroways_town = city
+#b_avanne = temple
+#b_orchamps = castle
+#b_coatviller = city
+
+# Misc
+culture = crabmen
+religion = old_gods
+terrain = plains
+#History
+6600.1.1 = {
+   religion = the_seven
+	culture = riverlander
+}

@@ -1,0 +1,23 @@
+# c_moorham
+
+# County Title
+title = c_moorham
+
+# Settlements
+max_settlements = 3
+
+b_moorham = castle
+#b_cazaci = city
+#b_moorham_2 = temple
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+	religion = the_seven
+}
+7200.1.1 = {
+    culture = blackwatermen
+}

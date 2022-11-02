@@ -1,0 +1,18 @@
+# c_oxenos
+
+# County Title
+title = c_oxenos
+
+# Settlements
+max_settlements = 4
+
+b_oxenos = tribal
+#b_oxenos_2 = city
+#b_oxenos_3 = temple
+#b_oxenos_4 = castle
+
+# Misc
+culture = hill_clansmen
+religion = old_gods
+terrain = hills
+#History

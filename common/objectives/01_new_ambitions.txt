@@ -1,0 +1,1031 @@
+obj_train_dueling = {
+	type = character
+	
+	potential = {
+        is_adult = yes
+        is_playable = yes
+        
+        NOR = {
+            has_character_flag = improved_combat_skills
+            
+            age = 40
+            trait = dueling_master
+			trait = dueling_legend
+            
+            is_maimed_trigger = yes
+            has_severe_disability_trigger = yes
+            has_medium_disability_trigger = yes
+            has_disease_trigger = yes
+        }
+    }
+    
+    allow = {
+		is_adult = yes
+        is_ruler = yes
+        NOT = { trait = incapable }
+    }
+	
+	chance = {
+		factor = 100
+		modifier = { 
+			is_female = yes
+			factor = 0.5
+		}
+	}
+    
+	success = { 
+		has_character_flag = improved_combat_skills
+	}
+    
+	abort = {
+		OR = {
+			is_maimed_trigger = yes
+            has_severe_disability_trigger = yes
+            has_medium_disability_trigger = yes
+            has_disease_trigger = yes
+            
+			age = 40
+		}
+	}
+    
+	abort_effect = {
+	}
+    
+	effect = {
+		prestige = 20
+	}
+}
+
+#### HIGH KINGDOM AMBITIONS ####
+
+# Become the King Beyond the Wall
+obj_become_high_king_beyond_the_wall = {
+	type = character
+	
+	can_cancel = no
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_beyond_the_wall }
+		e_beyond_the_wall = { has_holder = no }
+	}
+
+		#has_landed_title = k_winterhold
+		#has_landed_title = k_frostfangs
+		#has_landed_title = k_haunted_lands
+		#has_landed_title = k_frozen_lands
+		#has_landed_title = k_the_hartlands
+		#has_landed_title = k_northern_highlands
+
+	
+	allow = {
+		capital_scope = { region = world_beyond_the_wall }
+	}
+	
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_beyond_the_wall = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_beyond_the_wall
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of Dorne
+obj_become_high_king_dorne = {
+	type = character
+	
+	can_cancel = no
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_dorne }
+		e_dorne = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_dorne }
+	}
+	
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_dorne = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_dorne
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of the Dusklands
+obj_become_high_king_dusklands = {
+	type = character
+	
+	can_cancel = no
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9	
+		capital_scope = { region = world_the_blackwater }
+		e_the_dusklands = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_blackwater }
+	}
+	
+	chance = {
+		factor = 100
+		
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_the_dusklands = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_dusklands
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become King of the Iron Islands
+obj_become_high_king_iron_islands = {
+	type = character
+	
+	can_cancel = no
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_the_iron_islands }
+		e_the_iron_islands = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_iron_islands }
+	}
+	
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_the_iron_islands = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		OR = {
+			AND = {
+				has_landed_title = k_seastone_isles
+				has_landed_title = k_orkmont
+				has_landed_title = k_great_wyk
+				has_landed_title = k_harlaw
+			}
+			has_landed_title = k_the_iron_islands
+			has_landed_title = e_the_iron_islands
+		}
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of the North
+obj_become_high_king_north = {
+	type = character
+	
+	can_cancel = no
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_the_north }
+		e_the_north = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_north }
+	}
+	
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			has_landed_title = k_winterfell
+		}
+		modifier = {
+			factor = 4.0
+			e_the_north = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_north 
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of the Reach
+obj_become_high_king_reach = {
+	type = character
+	
+	can_cancel = no
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_the_reach }
+		e_the_reach = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_reach }
+	}
+	
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		#modifier = {
+		#	factor = 4.0
+		#	has_landed_title = k_winterfell
+		#}
+		modifier = {
+			factor = 4.0
+			e_the_north = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_reach
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of the Riverlands
+obj_become_high_king_riverlands = {
+	type = character
+	
+	can_cancel = no
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_the_riverlands }		
+		e_the_riverlands = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_riverlands }	
+	}
+	
+	chance = {
+		factor = 100
+		
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_the_riverlands = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_riverlands
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of the Stormlands
+obj_become_high_king_stormlands = {
+	type = character
+	
+	can_cancel = no
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_the_stormlands }		
+		e_the_stormlands = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_stormlands }	
+	}
+	
+	chance = {
+		factor = 100
+		
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_the_stormlands = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_stormlands
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+# Become High King of the Vale
+obj_become_high_king_vale = {
+	type = character
+	
+	can_cancel = no
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9
+		capital_scope = { region = world_the_vale }
+		e_the_vale = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_vale }
+	}
+	
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			e_dorne = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_vale
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+#Become High King of the Westerlands
+obj_become_high_king_westerlands = { 
+	type = character
+	
+	can_cancel = no
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		tier = KING
+		independent = yes
+		trait = ambitious
+		NOT = { trait = incapable }
+		martial = 12
+		stewardship = 10
+		diplomacy = 9	
+		capital_scope = { region = world_the_westerlands }
+		e_the_westerlands = { has_holder = no }
+	}
+	
+	allow = {
+		capital_scope = { region = world_the_westerlands }
+	}
+	
+	chance = {
+		factor = 100
+		
+		modifier = {
+			factor = 3.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			has_landed_title = k_the_rock
+		}
+		modifier = {
+			factor = 4.0
+			e_the_westerlands = { has_holder = no }
+		}
+		modifier = {
+			factor = 2.0
+			trait = brave
+		}
+		modifier = {
+			factor = 0.1
+			trait = craven
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+	}
+	
+	success = {
+		hidden_tooltip = { has_flag = claims_high_kingdom_obj }
+		has_landed_title = e_the_westerlands
+	}
+	
+	abort = {
+		OR = {
+			trait = incapable
+			is_playable = no
+			is_landed = no
+			higher_tier_than = KING
+			any_heir_title = {
+				higher_tier_than = KING
+				temporary = no
+			}
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		clr_flag = claims_high_kingdom_obj
+		prestige = 2000
+	}
+}
+
+obj_peace_10_year = {
+	type = character
+	
+	allow = {
+		independent = yes
+		is_ruler = yes
+		higher_tier_than = baron
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		check_variable = { which = "years_of_peace" value = 0.5 }
+		NOT = { check_variable = { which = "years_of_peace" value = 9.5 } }
+		war = no
+	}
+	chance = {
+		factor = 0
+	}
+	
+	success = {
+		custom_tooltip = {  
+			text = 10_years_peace_TT
+			hidden_tooltip = { 
+				check_variable = { which = "years_of_peace" value = 9.5 }
+			}
+		}	
+	}
+	
+	abort = {
+		war = yes
+	}
+	
+	effect = {
+		change_stewardship = 1
+		change_diplomacy = 1
+		piety = 50
+	}
+}
+
+obj_reign_20_years = {
+	type = character
+	
+	allow = {
+		NOT = { ruled_years = 20 }
+		ruled_years = 5
+		is_ruler = yes
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		independent = yes
+	}
+	chance = {
+		factor = 5
+		
+		modifier = {
+			factor = 2.0
+			ruled_years = 10
+		}
+		
+		modifier = {
+			factor = 2.0
+			ruled_years = 15
+		}
+		
+		modifier = {
+			factor = 5.0
+			ruled_years = 18
+		}
+		
+	}
+	success = {
+		ruled_years = 20
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			independent = no
+			is_ruler = no
+			prisoner = yes
+		}
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		change_stewardship = 1
+		change_diplomacy = 1
+		prestige = 100
+	}
+}

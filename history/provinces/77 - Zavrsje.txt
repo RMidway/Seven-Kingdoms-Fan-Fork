@@ -1,0 +1,21 @@
+# c_zavrsje
+
+# County Title
+title = c_zavrsje
+
+# Settlements
+max_settlements = 7
+
+b_zavrsje = city
+#b_zavrsje_2 = city
+#b_zavrsje_3 = temple
+#b_zavrsje_4 = castle
+#b_zavrsje_5 = city
+#b_zavrsje_6 = temple
+#b_zavrsje_7 = castle
+
+# Misc
+culture = lorathi
+religion = rhllor
+terrain = farmlands
+#History

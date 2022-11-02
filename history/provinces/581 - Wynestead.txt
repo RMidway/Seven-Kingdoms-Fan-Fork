@@ -1,0 +1,20 @@
+# c_wynestead
+
+# County Title
+title = c_wynestead
+
+# Settlements
+max_settlements = 2
+
+b_wynestead = castle
+#b_greenleaf = city
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

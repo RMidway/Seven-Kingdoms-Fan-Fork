@@ -1,0 +1,24 @@
+# c_tribunal
+
+# County Title
+title = c_tribunal
+
+# Settlements
+max_settlements = 3
+
+b_tribunal = castle
+#b_tribunal_2 = city
+#b_tribunal_3 = temple
+#b_tribunal_4 = castle
+#b_tribunal_5 = city
+#b_tribunal_6 = temple
+#b_tribunal_7 = castle
+
+# Misc
+culture = spearmen
+religion = old_gods
+
+#History
+6800.1.1 = {
+    religion = the_seven 
+}

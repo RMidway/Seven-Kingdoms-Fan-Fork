@@ -1,0 +1,24 @@
+# c_chemy
+
+# County Title
+title = c_chemy
+
+# Settlements
+max_settlements = 3
+
+b_chemy = castle
+#b_neiderkorn = city
+#b_chemy_2 = temple
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = farmlands
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

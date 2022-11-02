@@ -1,0 +1,22 @@
+# c_greentown
+
+# County Title
+title = c_greentown
+
+# Settlements
+max_settlements = 4
+
+b_greentown = castle
+b_oleta = city
+#b_pivot = temple
+#b_nimelette = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

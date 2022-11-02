@@ -1,0 +1,38 @@
+# c_riverrun
+
+# County Title
+title = c_riverrun
+
+# Settlements
+max_settlements = 7
+
+b_riverrun = castle
+b_tumblestone = city
+b_minisas_sept = temple
+b_wheel_tower = castle
+b_water_gate = city
+#b_tully_hall = temple
+#b_hosters_hold = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+
+
+
+
+
+
+
+
+
+}
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+    b_riverrun = ca_riverrun
+}
+

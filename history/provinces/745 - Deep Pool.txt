@@ -1,0 +1,24 @@
+# c_deep_pool
+
+# County Title
+title = c_deep_pool
+
+# Settlements
+max_settlements = 4
+
+b_deep_pool = castle
+b_inningen = city
+#b_kloster = temple
+#b_deep_pool_2 = castle
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = farmlands
+#History
+6300.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

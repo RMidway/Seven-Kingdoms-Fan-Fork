@@ -1,0 +1,25 @@
+# c_puycalvel
+
+# County Title
+title = c_puycalvel
+
+# Settlements
+max_settlements = 4
+
+b_puycalvel = castle
+b_menfi = city
+#b_roeser = temple
+#b_puycalvel_2 = castle
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

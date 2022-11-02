@@ -1,0 +1,21 @@
+# c_alfergemil
+
+# County Title
+title = c_alfergemil
+
+# Settlements
+max_settlements = 2
+
+b_alfergemil = castle
+#b_alfergemil_2 = city
+#b_alfergemil_3 = temple
+#b_alfergemil_4 = castle
+#b_alfergemil_5 = city
+#b_alfergemil_6 = temple
+#b_alfergemil_7 = castle
+
+# Misc
+culture = lysene
+religion = rhllor
+terrain = farmlands
+#History

@@ -1,0 +1,78 @@
+# tsk_generic_event.1 - AOPK introduction, 
+
+namespace = AOPK
+
+# The Age of Petty Kings, Introduction
+narrative_event = {
+    id = AOPK.1
+    title = EVTTITLE_AOPK.1
+    desc = EVTDESC_AOPK.1
+    picture = GFX_evt_large_army
+    
+    
+    is_triggered_only = yes
+    
+    trigger = {
+		year = 6500
+		NOT = { year = 6800 }
+        ai = no
+        NOT = { has_global_flag = introduction_complete }
+    }
+    
+    # For various versions of the event, depending on culture.
+    desc = {
+        text = EVTDESC_AOPK.1
+        
+        trigger = {
+            capital_scope = {
+                region = world_westeros_north_south
+            }
+        }
+    }
+    desc = {
+        text = EVTDESC_AOPK.2
+        
+        trigger = {
+            capital_scope = {
+                region = world_beyond_the_wall
+            }
+        }
+    }
+    desc = {
+        text = EVTDESC_AOPK.3
+        
+        trigger = {
+            capital_scope = {
+                region = world_the_iron_islands
+            }
+        }
+    }
+    desc = {
+        text = EVTDESC_AOPK.4
+        
+        trigger = {
+            capital_scope = {
+                region = world_the_wall
+            }
+        }
+    }
+    desc = {
+        text = EVTDESC_AOPK.5
+        
+        trigger = {
+            capital_scope = {
+                region = world_essos
+            }
+        }
+    }
+    
+    immediate = {
+      set_global_flag = introduction_complete
+    }
+    
+    option = {
+        name = "EVTOPTAOPK.0"
+		
+		character_event = { id = TSK.1 days = 60 tooltip = "" }
+    }
+}

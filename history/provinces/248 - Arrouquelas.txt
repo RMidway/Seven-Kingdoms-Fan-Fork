@@ -1,0 +1,21 @@
+# c_arrouquelas
+
+# County Title
+title = c_arrouquelas
+
+# Settlements
+max_settlements = 2
+
+b_arrouquelas = city
+#b_arrouquelas_2 = city
+#b_arrouquelas_3 = temple
+#b_arrouquelas_4 = castle
+#b_arrouquelas_5 = city
+#b_arrouquelas_6 = temple
+#b_arrouquelas_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = farmlands
+#History

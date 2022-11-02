@@ -1,0 +1,22 @@
+# c_nolwood
+
+# County Title
+title = c_nolwood
+
+# Settlements
+max_settlements = 4
+
+b_nolwood = castle
+#b_westermurr = city
+#b_benterode = temple
+#b_nolwood_2 = castle
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = forest
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

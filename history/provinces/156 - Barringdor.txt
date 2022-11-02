@@ -1,0 +1,21 @@
+# c_barringdor
+
+# County Title
+title = c_barringdor
+
+# Settlements
+max_settlements = 3
+
+b_barringdor = castle
+b_barringdor_2 = city
+#b_barringdor_3 = temple
+#b_barringdor_4 = castle
+#b_barringdor_5 = city
+#b_barringdor_6 = temple
+#b_barringdor_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = farmlands
+#History

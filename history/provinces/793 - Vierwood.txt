@@ -1,0 +1,22 @@
+# c_vierwood
+
+# County Title
+title = c_vierwood
+
+# Settlements
+max_settlements = 4
+
+b_vierwood = castle
+b_ebhegy = city
+b_baracska = temple
+#b_kisstag = castle
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

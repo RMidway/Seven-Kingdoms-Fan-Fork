@@ -1,0 +1,22 @@
+# c_olmo
+
+# County Title
+title = c_olmo
+
+# Settlements
+max_settlements = 7
+
+b_olmo = city
+#b_olmo_2 = city
+#b_olmo_3 = temple
+#b_olmo_4 = castle
+#b_olmo_5 = city
+#b_olmo_6 = temple
+#b_olmo_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History
+6566.1.1={b_olmo=castle}

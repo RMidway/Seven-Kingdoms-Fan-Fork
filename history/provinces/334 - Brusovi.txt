@@ -1,0 +1,21 @@
+# c_brusovi
+
+# County Title
+title = c_brusovi
+
+# Settlements
+max_settlements = 3
+
+b_brusovi = castle
+#b_brusovi_2 = city
+#b_brusovi_3 = temple
+#b_brusovi_4 = castle
+#b_brusovi_5 = city
+#b_brusovi_6 = temple
+#b_brusovi_7 = castle
+
+# Misc
+culture = tyroshi
+religion = trios
+terrain = farmlands
+#History

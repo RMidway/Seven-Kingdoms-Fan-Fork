@@ -1,0 +1,21 @@
+# c_redsun
+
+# County Title
+title = c_redsun
+
+# Settlements
+max_settlements = 3
+
+b_redsun = castle
+b_scorchedhand = city
+#b_aarschot = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+
+#History
+6500.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

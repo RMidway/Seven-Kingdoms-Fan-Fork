@@ -1,0 +1,25 @@
+# c_watersmeet
+
+# County Title
+title = c_watersmeet
+
+# Settlements
+max_settlements = 4
+
+b_watersmeet = castle
+b_groundflow = city
+#b_buais = temple
+#b_watersmeet_2 = castle
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7400.1.1 = {
+	culture = sand_dornish
+}

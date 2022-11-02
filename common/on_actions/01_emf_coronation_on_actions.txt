@@ -1,0 +1,41 @@
+# -*- ck2.on_actions -*-
+
+#character
+on_startup = {
+	events = {
+		#emf_coronation.1100	# Add Crowned traits
+	}
+	
+	effect = {
+		#random_character = {
+		#	character_event = { id = emf_coronation.1100 } #Now moved to tsk_startup
+		#}
+	}
+}
+
+on_death = {
+	events = {
+		emf_coronation.1213 # Ruler dies, the coronation must be canceled
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		emf_coronation.1101 # Handle crown-tier title flip re: coronation traits
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+		emf_coronation.1101 # Handle crown-tier title flip re: coronation traits
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		emf_coronation.1101 # Handle crown-tier title flip re: coronation traits
+	}
+}

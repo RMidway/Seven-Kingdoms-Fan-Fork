@@ -1,0 +1,21 @@
+# c_endltanya
+
+# County Title
+title = c_endltanya
+
+# Settlements
+max_settlements = 4
+
+b_endltanya = city
+b_endltanya_2 = city
+#b_endltanya_3 = temple
+#b_endltanya_4 = castle
+#b_endltanya_5 = city
+#b_endltanya_6 = temple
+#b_endltanya_7 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

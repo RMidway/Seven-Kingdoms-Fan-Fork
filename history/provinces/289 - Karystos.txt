@@ -1,0 +1,21 @@
+# c_karystos
+
+# County Title
+title = c_karystos
+
+# Settlements
+max_settlements = 3
+
+b_karystos = castle
+#b_karystos_2 = city
+#b_karystos_3 = temple
+#b_karystos_4 = castle
+#b_karystos_5 = city
+#b_karystos_6 = temple
+#b_karystos_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = farmlands
+#History

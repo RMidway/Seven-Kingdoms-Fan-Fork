@@ -1,0 +1,21 @@
+# c_capribad
+
+# County Title
+title = c_capribad
+
+# Settlements
+max_settlements = 3
+
+b_capribad = castle
+b_fraipont = city
+#b_vurst_2 = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

@@ -1,0 +1,21 @@
+# c_woodvale
+
+# County Title
+title = c_woodvale
+
+# Settlements
+max_settlements = 3
+
+b_woodvale = castle
+#b_hoerchen = city
+#b_woodvale_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = woods
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

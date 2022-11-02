@@ -1,0 +1,21 @@
+# c_rim
+
+# County Title
+title = c_rim
+
+# Settlements
+max_settlements = 7
+
+b_rim = castle
+#b_rim_2 = city
+#b_rim_3 = temple
+#b_rim_4 = castle
+#b_rim_5 = city
+#b_rim_6 = temple
+#b_rim_7 = castle
+
+# Misc
+culture = lorathi
+religion = rhllor
+terrain = hills
+#History

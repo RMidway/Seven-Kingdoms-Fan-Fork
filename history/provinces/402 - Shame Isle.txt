@@ -1,0 +1,21 @@
+# c_shame_isle
+
+# County Title
+title = c_shame_isle
+
+# Settlements
+max_settlements = 2
+
+b_shame_isle = castle
+#b_shame_isle_2 = city
+#b_shame_isle_3 = temple
+#b_shame_isle_4 = castle
+#b_shame_isle_5 = city
+#b_shame_isle_6 = temple
+#b_shame_isle_7 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

@@ -1,0 +1,26 @@
+# c_redfort
+
+# County Title
+title = c_redfort
+
+# Settlements
+max_settlements = 5
+
+b_redfort = castle
+b_sandweiler = city
+#b_vogorno = temple
+#b_gingins = castle
+#b_redfort_2 = city
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

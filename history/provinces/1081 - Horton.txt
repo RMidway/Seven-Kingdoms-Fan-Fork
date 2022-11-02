@@ -1,0 +1,24 @@
+# c_horton
+
+# County Title
+title = c_horton
+
+# Settlements
+max_settlements = 3
+
+b_horton = castle
+b_charmeil = city
+#b_horton_2 = temple
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

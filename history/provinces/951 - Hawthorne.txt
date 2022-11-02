@@ -1,0 +1,25 @@
+# c_hawthorne
+
+# County Title
+title = c_hawthorne
+
+# Settlements
+max_settlements = 7
+
+b_hawthorne = castle
+b_ripon = city
+#b_holywell = temple
+#b_bewcastle = castle
+#b_kingsbridge = city
+#b_hawthorne_2 = temple
+#b_hawthorne_3 = castle
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = cornlander
+}

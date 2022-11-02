@@ -1,0 +1,111 @@
+march = {
+  tributary_name = MARCH_PERMANENT_NAME
+  tributary_plural = MARCH_PERMANENT_PLURAL
+  suzerain_name = MARCH_SUZERAIN_PERMANENT_NAME
+  tribute_name = MARCH_DEFAULT_TRIBUTE
+  breaks_at_suzerain_death = no
+  breaks_at_tributary_death = no  
+  suzerain_must_defend = yes
+  suzerain_can_join_infighting = no
+  tributary_can_be_summoned = no
+  tributary_must_defend = yes
+  tributaries_can_unite = yes
+  breaks_on_realm_change = yes
+  icon = 10
+  cbs_against_suzerain = {
+    free_tributary_cb
+  }
+  income_tribute_percentage = {
+    value = 0.15
+  }
+  reinforce_tribute_percentage = {
+    value = 0.25
+  }
+  prestige_to_suzerain = {
+    value = 0
+  }
+  prestige_to_tributary = {
+    value = 0
+  }
+  piety_to_suzerain = {
+    value = 0
+  }
+  piety_to_tributary = {
+    value = 0
+  }
+}
+
+confederation = {
+  tributary_name = CONFEDERATION_NAME
+  tributary_plural = CONFEDERATION_PLURAL
+  suzerain_name = CONFEDERATION_SUZERAIN_NAME
+  tribute_name = CONFEDERATION_DEFAULT_TRIBUTE
+  breaks_at_suzerain_death = no
+  breaks_at_tributary_death = no  
+  suzerain_must_defend = no
+  suzerain_can_join_infighting = no
+  tributary_can_be_summoned = yes
+  tributary_must_defend = no
+  tributaries_can_unite = yes
+  breaks_on_realm_change = yes
+  icon = 10
+  cbs_against_suzerain = {
+    free_tributary_cb
+  }
+  income_tribute_percentage = {
+    value = 0
+  }
+  reinforce_tribute_percentage = {
+    value = 0
+  }
+  prestige_to_suzerain = {
+    value = 0
+  }
+  prestige_to_tributary = {
+    value = 0
+  }
+  piety_to_suzerain = {
+    value = 0
+  }
+  piety_to_tributary = {
+    value = 0
+  }
+}
+
+china_tributary = {
+  tributary_name = CHINA_TRIBUTARY_NAME
+  tributary_plural = CHINA_TRIBUTARY_PLURAL
+  suzerain_name = CHINA_TRIBUTARY_SUZERAIN_NAME
+  tribute_name = CHINA_TRIBUTARY_DEFAULT_TRIBUTE
+  breaks_at_suzerain_death = no
+  breaks_at_tributary_death = no
+  suzerain_can_be_called = no
+  suzerain_must_defend = no
+  suzerain_can_join_infighting = no
+  tributary_can_be_summoned = yes
+  tributary_must_defend = yes
+  tributaries_can_unite = yes
+  breaks_on_realm_change = yes
+  icon = 10
+  cbs_against_suzerain = {
+    free_tributary_cb
+  }
+  income_tribute_percentage = {
+    value = 0.25
+  }
+  reinforce_tribute_percentage = {
+    value = 0.25
+  }
+  prestige_to_suzerain = {
+    value = 0.3
+  }
+  prestige_to_tributary = {
+    value = 0.1
+  }
+  piety_to_suzerain = {
+    value = 0
+  }
+  piety_to_tributary = {
+    value = 0
+  }
+}

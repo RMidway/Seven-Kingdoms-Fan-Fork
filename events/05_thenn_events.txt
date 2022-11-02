@@ -1,0 +1,38 @@
+namespace = thenn
+
+character_event = {
+	id = thenn.1
+	desc = "EVTDESCTHENN1"
+	picture = GFX_evt_comet
+
+	hide_window = yes
+	culture = thenn
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { trait = thenn }
+	}
+
+	immediate = {
+		add_trait = thenn
+	}
+}
+character_event = { #on_character_convert_culture
+	id = thenn.2
+	desc = "EVTDESCTHENN2"
+	picture = GFX_evt_throne_room
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		trait = thenn
+		NOT = { culture = thenn }
+	}
+
+	immediate = {
+		remove_trait = thenn
+	}
+}

@@ -1,0 +1,22 @@
+# c_greengold
+
+# County Title
+title = c_greengold
+
+# Settlements
+max_settlements = 4
+
+b_greengold = castle
+#b_manfield_2 = city
+#b_bosgold = temple
+#b_greengold_2 = castle
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = westerlander
+}

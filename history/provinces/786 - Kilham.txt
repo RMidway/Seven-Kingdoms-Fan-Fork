@@ -1,0 +1,24 @@
+# c_kilham
+
+# County Title
+title = c_kilham
+
+# Settlements
+max_settlements = 4
+
+b_kilham = castle
+#b_schoenficht = city
+#b_zelenov = temple
+#b_kilham_2 = castle
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+	religion = the_seven
+}
+6700.1.1 = {
+	culture = blackwatermen
+}

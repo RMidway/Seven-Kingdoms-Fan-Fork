@@ -1,0 +1,24 @@
+# c_riverspring
+
+# County Title
+title = c_riverspring
+
+# Settlements
+max_settlements = 6
+
+b_riverspring = castle
+b_rhuddlan = city
+#b_fountains = temple
+#b_basingstoke = castle
+#b_abinriver = city
+#b_riverspring_2 = temple
+
+# Misc
+culture = copperlander
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+	culture = goldmen
+    religion = the_seven
+}

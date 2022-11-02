@@ -1,0 +1,8 @@
+# k_beyond_the_wall
+5.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+	liege=d_hardhome
+}
+6524.1.1={holder=3922} #Beron[10110]
+6547.02.07={holder=3924} #Cregan[10110]

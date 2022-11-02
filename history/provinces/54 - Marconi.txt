@@ -1,0 +1,25 @@
+# c_marconi
+
+# County Title
+title = c_marconi
+
+# Settlements
+max_settlements = 7
+
+b_marconi = castle
+#b_marconi_2 = city
+b_marconi_3 = temple
+#b_marconi_4 = castle
+#b_marconi_5 = city
+#b_marconi_6 = temple
+#b_marconi_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History
+6400.1.1 = {	
+    religion = the_seven 
+    culture = andal
+}

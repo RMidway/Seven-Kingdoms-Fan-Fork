@@ -1,0 +1,25 @@
+################
+#    ID RANGE  #
+#  5601 - 5700 #
+################
+
+################
+# ROSEGUARD    #
+################
+
+###############
+# Stormguard  #
+###############
+
+5601={
+name="Robert"
+
+culture=stormlander
+religion=the_seven
+trait="skilled_tactician"
+trait="dueling_expert"
+trait="stormguard"
+6546.5.2={birth=yes}
+6560.1.1={employer=1800}
+6593.5.2={death=yes}
+}

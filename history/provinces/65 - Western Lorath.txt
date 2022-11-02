@@ -1,0 +1,21 @@
+# c_western_lorath
+
+# County Title
+title = c_western_lorath
+
+# Settlements
+max_settlements = 7
+
+b_lorkotin = castle
+b_lorkotin_2 = city
+b_lorkotin_3 = temple
+#b_lorkotin_4 = castle
+#b_lorkotin_5 = city
+#b_lorkotin_6 = temple
+#b_lorkotin_7 = castle
+
+# Misc
+culture = lorathi
+religion = boashi
+terrain = plains
+#History

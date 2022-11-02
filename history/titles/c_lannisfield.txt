@@ -1,0 +1,20 @@
+# e_westeros
+5.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+31.1.1={holder=9607} # Lann Lannister
+78.1.1={holder=9606} # Line of Lann the Clever
+420.1.1={holder=9605} # Loreon I the Lion
+450.1.1={holder=9604} # Line of the Lion
+800.1.1={
+	liege=k_the_rock
+}
+6560.1.1={holder=553}
+6668.1.1={holder=16005} # Cerion I
+6688.1.1={holder=16006} # Tommen I
+6720.1.1={holder=16007} # Loreon I (Westerlands)
+6731.1.1={holder=16008} # Loreon II (Westerlands)
+7231.1.1={holder=16010} # Tywell I
+7257.1.1={holder=16011} # Tywell II
+7293.1.1={holder=16012} # Lancel I

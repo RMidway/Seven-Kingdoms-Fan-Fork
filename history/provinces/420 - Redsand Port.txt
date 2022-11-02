@@ -1,0 +1,21 @@
+# c_redsand_port
+
+# County Title
+title = c_redsand_port
+
+# Settlements
+max_settlements = 1
+
+b_redsand_port = castle
+#b_redsand_port_2 = city
+#b_redsand_port_3 = temple
+#b_redsand_port_4 = castle
+#b_redsand_port_5 = city
+#b_redsand_port_6 = temple
+#b_redsand_port_7 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

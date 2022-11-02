@@ -1,0 +1,21 @@
+# c_pazin
+
+# County Title
+title = c_pazin
+
+# Settlements
+max_settlements = 7
+
+b_pazin = castle
+#b_pazin_2 = city
+b_pazin_3 = temple
+#b_pazin_4 = castle
+#b_pazin_5 = city
+#b_pazin_6 = temple
+#b_pazin_7 = castle
+
+# Misc
+culture = lorathi
+religion = boashi
+terrain = hills
+#History

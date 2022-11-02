@@ -1,0 +1,21 @@
+# c_porrais
+
+# County Title
+title = c_porrais
+
+# Settlements
+max_settlements = 3
+
+b_porrais = city
+#b_porrais_2 = city
+#b_porrais_3 = temple
+#b_porrais_4 = castle
+#b_porrais_5 = city
+#b_porrais_6 = temple
+#b_porrais_7 = castle
+
+# Misc
+culture = tyroshi
+religion = trios
+terrain = farmlands
+#History

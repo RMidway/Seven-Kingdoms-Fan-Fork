@@ -1,0 +1,21 @@
+# c_gardners_beach
+
+# County Title
+title = c_gardners_beach
+
+# Settlements
+max_settlements = 3
+
+b_gardners_beach = castle
+#b_fatstock = city
+#b_ursene = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

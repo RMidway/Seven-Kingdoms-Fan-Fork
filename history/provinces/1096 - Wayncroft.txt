@@ -1,0 +1,24 @@
+# c_wayncroft
+
+# County Title
+title = c_wayncroft
+
+# Settlements
+max_settlements = 3
+
+b_wayncroft = castle
+#b_exorbepy = city
+#b_wayncroft_2 = temple
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = forest
+#History
+6500.1.1 = {
+}
+
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

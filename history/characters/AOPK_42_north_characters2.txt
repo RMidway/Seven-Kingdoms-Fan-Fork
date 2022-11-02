@@ -1,0 +1,2175 @@
+################
+#   ID RANGE   #
+#  4200 - 4399 #
+################
+
+# Second range, request of Viercuck
+
+##################
+### House Wull ###
+##################
+
+4200={
+name="Harrion"
+dynasty=43
+dna="fpnjdgheoam"
+culture=hill_clansmen
+religion=old_gods
+martial=3
+diplomacy=0
+stewardship=4
+intrigue=2
+learning=5
+trait="flamboyant_schemer"
+trait="patient"
+trait="brave"
+trait="diligent"
+trait="gregarious"
+trait="chaste"
+6526.5.1={birth=yes}
+6543.7.3 = {add_spouse=4201}
+6577.6.6={death=yes}
+}
+
+4201={
+name="Larra"
+female=yes
+dna="cfdndkfojef"
+culture=hill_clansmen
+religion=old_gods
+martial=1
+diplomacy=3
+stewardship=2
+intrigue=4
+learning=6
+trait="thrifty_clerk"
+trait="paranoid"
+trait="shy"
+trait="brave"
+trait="humble"
+trait="wroth"
+trait="temperate"
+6528.1.3={birth=yes}
+6543.7.3 = {add_spouse=4200}
+6596.9.5={death=yes}
+}
+
+4202={
+name="Bowen"
+dynasty=43
+dna="lffjdkfojam"
+culture=hill_clansmen
+religion=old_gods
+martial=2
+diplomacy=5
+stewardship=2
+intrigue=2
+learning=2
+trait="underhanded_rogue"
+trait="gregarious"
+trait="diligent"
+trait="brave"
+trait="charitable"
+trait="patient"
+father=4200
+mother=4201
+6549.2.3={birth=yes}
+6614.10.11={death=yes}
+}
+
+4203={
+name="Helman"
+dynasty=43
+dna="cddndghejaf"
+culture=hill_clansmen
+religion=old_gods
+martial=4
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=1
+trait="naive_appeaser"
+trait="impaler"
+trait="greedy"
+trait="honest"
+trait="craven"
+trait="patient"
+trait="lustful"
+father=4200
+mother=4201
+6552.3.27={birth=yes}
+6614.7.10={death=yes}
+}
+
+#######################
+### House Lightfoot ###
+#######################
+
+4204={
+name="Rickon"
+dynasty=44
+dna="ibckiddlpoc"
+culture=hill_clansmen
+religion=old_gods
+martial=4
+diplomacy=7
+stewardship=2
+intrigue=1
+learning=3
+trait="brilliant_strategist"
+trait="kind"
+trait="brave"
+trait="slothful"
+trait="temperate"
+trait="patient"
+trait="lustful"
+6530.1.1={birth=yes}
+6550.6.21 = {add_spouse=4205}
+6580.12.11={death=yes}
+}
+
+4205={
+name="Beth"
+female=yes
+dna="lfkmnmofgba"
+culture=hill_clansmen
+religion=old_gods
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=5
+learning=4
+trait="tough_soldier"
+trait="slothful"
+trait="wroth"
+trait="deceitful"
+trait="proud"
+trait="cruel"
+trait="just"
+6529.8.5={birth=yes}
+6550.6.21 = {add_spouse=4204}
+6594.7.9={death=yes}
+}
+
+4206={
+name="Mylessa"
+female=yes
+dynasty=44
+dna="ibkkiddfpoc"
+culture=hill_clansmen
+religion=old_gods
+martial=5
+diplomacy=8
+stewardship=3
+intrigue=3
+learning=4
+trait="charismatic_negotiator"
+trait="shy"
+trait="cynical"
+trait="just"
+trait="content"
+father=4204
+mother=4205
+6553.5.15={birth=yes}
+6618.8.11={death=yes}
+}
+
+4207={
+name="Raya"
+female=yes
+dynasty=44
+dna="hbcmimdlpba"
+culture=hill_clansmen
+religion=old_gods
+martial=7
+diplomacy=0
+stewardship=7
+intrigue=5
+learning=6
+trait="skilled_tactician"
+trait="craven"
+trait="lustful"
+trait="cruel"
+trait="proud"
+father=4204
+mother=4205
+6558.8.10={birth=yes}
+6584.1.21={death=yes}
+}
+
+4208={
+name="Donnel"
+dynasty=44
+dna="ibcmidolpnc"
+culture=hill_clansmen
+religion=old_gods
+martial=1
+diplomacy=6
+stewardship=3
+intrigue=1
+learning=5
+trait="charismatic_negotiator"
+trait="cruel"
+trait="envious"
+trait="slothful"
+trait="greedy"
+trait="chaste"
+father=4204
+mother=4205
+6561.12.17={birth=yes}
+6615.1.11={death=yes}
+}
+
+####################
+### House Burley ###
+####################
+
+4209={
+name="Robard"
+dynasty=45
+dna="mfibioeekcc"
+culture=hill_clansmen
+religion=old_gods
+martial=1
+diplomacy=6
+stewardship=2
+intrigue=5
+learning=1
+trait="midas_touched"
+trait="slothful"
+trait="deceitful"
+trait="charitable"
+6534.9.1={birth=yes}
+6557.7.12 = {add_spouse=4210}
+6598.7.28={death=yes}
+}
+
+4210={
+name="Cassana"
+female=yes
+dna="amhmeginkkb"
+culture=hill_clansmen
+religion=old_gods
+martial=7
+diplomacy=4
+stewardship=1
+intrigue=0
+learning=0
+trait="detached_priest"
+trait="cynical"
+trait="patient"
+trait="arbitrary"
+trait="temperate"
+trait="trusting"
+trait="lustful"
+trait="kind"
+6534.11.10={birth=yes}
+6557.7.12 = {add_spouse=4209}
+6584.8.19={death=yes}
+}
+
+4211={
+name="Morra"
+female=yes
+dynasty=45
+dna="mmhmioeekcb"
+culture=hill_clansmen
+religion=old_gods
+martial=5
+diplomacy=5
+stewardship=7
+intrigue=3
+learning=7
+trait="tough_soldier"
+trait="diligent"
+trait="ambitious"
+trait="charitable"
+trait="brave"
+trait="kind"
+father=4209
+mother=4210
+6562.4.2={birth=yes}
+6604.7.12={death=yes}
+}
+
+4212={
+name="Benjen"
+dynasty=45
+dna="amhbigdnkkb"
+culture=hill_clansmen
+religion=old_gods
+martial=1
+diplomacy=4
+stewardship=6
+intrigue=4
+learning=0
+trait="fortune_builder"
+trait="wroth"
+trait="trusting"
+trait="zealous"
+trait="envious"
+trait="just"
+trait="slothful"
+father=4209
+mother=4210
+6564.1.25={birth=yes}
+6594.1.30={death=yes}
+}
+
+#######################
+### House Forrester ###
+#######################
+
+4213={
+name="Forest"
+dynasty=46
+dna="eldafanjhph"
+culture=northmen
+religion=old_gods
+martial=6
+trait="tough_soldier"
+trait="strong"
+trait="brave"
+trait="just"
+trait="zealous"
+trait="diligent"
+trait="honest"
+trait="trusting"
+trait="kind"
+6540.1.1={birth=yes}
+6562.9.20 = {add_spouse=4214}
+6606.5.3={death=yes}
+}
+
+4214={
+name="Leona"
+female=yes
+dna="hlohkkjcogj"
+culture=northmen
+religion=old_gods
+martial=8
+diplomacy=5
+stewardship=6
+intrigue=4
+learning=4
+trait="charismatic_negotiator"
+trait="trusting"
+trait="ambitious"
+trait="humble"
+trait="chaste"
+trait="cruel"
+6540.3.20={birth=yes}
+6562.9.20 = {add_spouse=4213}
+6601.11.10={death=yes}
+}
+
+4215={
+name="Lyessa"
+female=yes
+dynasty=46
+dna="hldafknjhgh"
+culture=northmen
+religion=old_gods
+martial=2
+diplomacy=2
+stewardship=0
+intrigue=2
+learning=3
+trait="thrifty_clerk"
+trait="cruel"
+trait="greedy"
+trait="craven"
+trait="slothful"
+trait="ambitious"
+trait="deceitful"
+father=4213
+mother=4214
+6563.1.11={birth=yes}
+6628.3.6={death=yes}
+}
+
+4216={
+name="Arthor"
+dynasty=46
+dna="elohkkjjhgh"
+culture=northmen
+religion=old_gods
+martial=8
+trait="strong"
+trait="tall"
+father=4213
+mother=4214
+6565.3.4={birth=yes}
+6618.11.23={death=yes}
+}
+
+#######################
+### House Whitehill ###
+#######################
+
+4217={
+name="Donnis"
+dynasty=47
+dna="dpibacfmohl"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=1
+learning=6
+trait="detached_priest"
+trait="hunter"
+trait="greedy"
+trait="diligent"
+trait="content"
+trait="deceitful"
+trait="humble"
+trait="just"
+6530.11.1={birth=yes}
+6551.5.28 = {add_spouse=4218}
+6583.11.10={death=yes}
+}
+
+4218={
+name="Serena"
+female=yes
+dna="dpikbgdfjoj"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=4
+stewardship=6
+intrigue=2
+learning=1
+trait="thrifty_clerk"
+trait="patient"
+trait="deceitful"
+trait="charitable"
+trait="trusting"
+trait="just"
+6532.1.2={birth=yes}
+6551.5.28 = {add_spouse=4217}
+6601.6.26={death=yes}
+}
+
+4219={
+name="Harra"
+female=yes
+dynasty=47
+dna="dpikagdoiaj"
+culture=northmen
+religion=old_gods
+martial=2
+diplomacy=4
+stewardship=7
+intrigue=0
+learning=5
+trait="underhanded_rogue"
+trait="wroth"
+trait="humble"
+trait="chaste"
+trait="gluttonous"
+father=4217
+mother=4218
+6565.2.18={birth=yes}
+6617.2.10={death=yes}
+}
+
+4220={
+name="Eddard"
+dynasty=47
+dna="dpibbcdmool"
+culture=northmen
+religion=old_gods
+martial=5
+diplomacy=2
+stewardship=5
+intrigue=4
+learning=4
+trait="intricate_webweaver"
+trait="zealous"
+trait="ambitious"
+trait="slothful"
+trait="shy"
+father=4217
+mother=4218
+6562.1.11={birth=yes}
+6604.3.20={death=yes}
+}
+
+######################
+### House Woodfoot ###
+######################
+
+4221={
+name="Hugo"
+dynasty=48
+dna="jieogfmljig"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=6
+stewardship=7
+intrigue=7
+learning=4
+trait="tough_soldier"
+trait="cruel"
+trait="deceitful"
+trait="slothful"
+trait="craven"
+trait="humble"
+6537.9.1={birth=yes}
+6556.9.19 = {add_spouse=4222}
+6585.7.25={death=yes}
+}
+
+4222={
+name="Erena"
+female=yes
+dna="ohdajabhjph"
+culture=northmen
+religion=old_gods
+martial=1
+diplomacy=0
+stewardship=4
+intrigue=7
+learning=7
+trait="charismatic_negotiator"
+trait="cruel"
+trait="lustful"
+trait="diligent"
+trait="wroth"
+6537.8.15={birth=yes}
+6556.9.19 = {add_spouse=4221}
+6583.9.6={death=yes}
+}
+
+4223={
+name="Danelle"
+female=yes
+dynasty=48
+dna="jieogfmljpg"
+culture=northmen
+religion=old_gods
+martial=3
+diplomacy=7
+stewardship=5
+intrigue=5
+learning=7
+trait="midas_touched"
+trait="humble"
+trait="cruel"
+trait="craven"
+trait="honest"
+trait="shy"
+trait="just"
+father=4221
+mother=4222
+6558.11.14={birth=yes}
+6615.7.9={death=yes}
+}
+
+4224={
+name="Pate"
+dynasty=48
+dna="eheajopljig"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=4
+stewardship=2
+intrigue=1
+learning=4
+trait="flamboyant_schemer"
+trait="craven"
+trait="humble"
+trait="charitable"
+trait="content"
+trait="lustful"
+trait="trusting"
+trait="patient"
+father=4221
+mother=4222
+6564.9.19={birth=yes}
+6604.6.30={death=yes}
+}
+
+####################
+### House Condon ###
+####################
+
+4225={
+name="Harwood "
+dynasty=49
+dna="ckhhemcjeji"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=3
+stewardship=6
+intrigue=0
+learning=1
+trait="tough_soldier"
+trait="just"
+trait="kind"
+trait="trusting"
+trait="chaste"
+trait="charitable"
+trait="shy"
+6536.3.1={birth=yes}
+6553.11.14 = {add_spouse=4226}
+6607.5.19={death=yes}
+}
+
+4226={
+name="Bethany "
+female=yes
+dna="mamhikafank"
+culture=northmen
+religion=old_gods
+martial=5
+diplomacy=8
+stewardship=0
+intrigue=8
+learning=5
+trait="misguided_warrior"
+trait="hunter"
+trait="brave"
+trait="greedy"
+trait="deceitful"
+trait="paranoid"
+trait="arbitrary"
+trait="temperate"
+trait="ambitious"
+6536.8.20={birth=yes}
+6553.11.14 = {add_spouse=4225}
+6587.10.25={death=yes}
+}
+
+4227={
+name="Bellena "
+female=yes
+dynasty=49
+dna="ckmhemcfajf"
+culture=northmen
+religion=old_gods
+martial=5
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=5
+trait="midas_touched"
+trait="slothful"
+trait="chaste"
+trait="cruel"
+trait="trusting"
+father=4225
+mother=4226
+6557.3.20={birth=yes}
+6602.5.3={death=yes}
+}
+
+4228={
+name="Brandon"
+dynasty=49
+dna="mkmhimcjank"
+culture=northmen
+religion=old_gods
+martial=5
+diplomacy=7
+stewardship=2
+intrigue=1
+learning=3
+trait="charismatic_negotiator"
+trait="content"
+trait="trusting"
+trait="humble"
+trait="chaste"
+trait="zealous"
+trait="deceitful"
+father=4225
+mother=4226
+6558.5.17={birth=yes}
+6626.4.10={death=yes}
+}
+
+###################
+### House Ryder ###
+###################
+
+4229={
+name="Torrhen"
+dynasty=50
+dna="hnldeafchlb"
+culture=northmen
+religion=old_gods
+martial=2
+diplomacy=3
+stewardship=2
+intrigue=2
+learning=6
+trait="naive_appeaser"
+trait="lustful"
+trait="envious"
+trait="zealous"
+6525.1.1={birth=yes}
+6546.12.21 = {add_spouse=4230}
+6570.3.21={death=yes}
+}
+
+4230={
+name="Alyx "
+female=yes
+dna="oplbgnkdobo"
+culture=northmen
+religion=old_gods
+martial=5
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=2
+trait="misguided_warrior"
+trait="humble"
+trait="just"
+trait="temperate"
+trait="greedy"
+trait="chaste"
+trait="slothful"
+trait="wounded"
+6525.2.25={birth=yes}
+6546.12.21 = {add_spouse=4229}
+6575.11.30={death=yes}
+}
+
+4231={
+name="Hullen"
+dynasty=50
+dna="opldgakdolb"
+culture=northmen
+religion=old_gods
+martial=5
+diplomacy=2
+stewardship=7
+intrigue=5
+learning=4
+trait="indulgent_wastrel"
+trait="wroth"
+trait="just"
+trait="chaste"
+trait="brave"
+trait="cruel"
+father=4229
+mother=4230
+6550.5.27={birth=yes}
+6590.12.7={death=yes}
+}
+
+4232={
+name="Bellena "
+female=yes
+dynasty=50
+dna="hnldeakdokl"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=3
+learning=3
+trait="flamboyant_schemer"
+trait="trusting"
+trait="ambitious"
+trait="slothful"
+trait="patient"
+trait="craven"
+trait="proud"
+father=4229
+mother=4230
+6553.7.26={birth=yes}
+6588.6.21={death=yes}
+}
+
+#####################
+### House Ryswell ###
+#####################
+
+4233={
+name="Eyron "
+dynasty=51
+dna="makdddboigo"
+culture=northmen
+religion=old_gods
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=6
+learning=3
+trait="intricate_webweaver"
+trait="cruel"
+trait="slothful"
+trait="proud"
+trait="temperate"
+trait="zealous"
+trait="patient"
+trait="craven"
+6524.9.1={birth=yes}
+6543.8.12 = {add_spouse=4234}
+6577.9.2={death=yes}
+}
+
+4234={
+name="Jonnela "
+female=yes
+dna="kjmgplkmfgb"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=2
+stewardship=6
+intrigue=7
+learning=4
+trait="midas_touched"
+trait="celibate"
+trait="charitable"
+trait="content"
+trait="deceitful"
+trait="slothful"
+trait="craven"
+trait="paranoid"
+6524.8.28={birth=yes}
+6543.8.12 = {add_spouse=4233}
+6599.1.7={death=yes}
+}
+
+4235={
+name="Brandon "
+dynasty=51
+dna="kjkgplboigb"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=1
+stewardship=2
+intrigue=2
+learning=3
+trait="tough_soldier"
+trait="kind"
+trait="paranoid"
+trait="humble"
+trait="shy"
+trait="charitable"
+trait="cynical"
+father=4233
+mother=4234
+6545.6.26={birth=yes}
+6610.3.14={death=yes}
+}
+
+4236={
+name="Barbara "
+female=yes
+dynasty=51
+dna="kamgdlbmigb"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=7
+stewardship=5
+intrigue=7
+learning=7
+trait="naive_appeaser"
+trait="honest"
+trait="gluttonous"
+trait="lustful"
+trait="shy"
+trait="depressed"
+father=4233
+mother=4234
+6548.6.6={birth=yes}
+6600.2.18={death=yes}
+}
+
+######################
+### House Eastedge ###
+######################
+
+4237={
+name="Walder "
+dynasty=52
+dna="cacjjaoinoa"
+culture=northmen
+religion=old_gods
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=6
+learning=7
+trait="flamboyant_schemer"
+trait="gardener"
+trait="patient"
+trait="content"
+trait="zealous"
+trait="greedy"
+trait="gluttonous"
+6526.7.1={birth=yes}
+6548.6.9 = {add_spouse=4238}
+6587.10.27={death=yes}
+}
+
+4238={
+name="Sarra "
+female=yes
+dna="cmoaaeanlli"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=2
+trait="charismatic_negotiator"
+trait="diligent"
+trait="gluttonous"
+trait="kind"
+trait="content"
+trait="zealous"
+trait="trusting"
+6526.2.2={birth=yes}
+6548.6.9 = {add_spouse=4237}
+6577.9.22={death=yes}
+}
+
+4239={
+name="Domeric "
+dynasty=52
+dna="cmoaaaoikhi"
+culture=northmen
+religion=old_gods
+martial=2
+diplomacy=2
+stewardship=5
+intrigue=2
+learning=4
+trait="grey_eminence"
+trait="paranoid"
+trait="ambitious"
+trait="slothful"
+trait="honest"
+trait="cruel"
+father=4237
+mother=4238
+6552.10.17={birth=yes}
+6615.3.6={death=yes}
+}
+
+4240={
+name="Wylis "
+dynasty=52
+dna="caoljpannli"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=4
+learning=3
+trait="tough_soldier"
+trait="just"
+trait="proud"
+trait="temperate"
+trait="envious"
+trait="diligent"
+trait="honest"
+trait="charitable"
+father=4237
+mother=4238
+6558.3.8={birth=yes}
+6612.2.5={death=yes}
+}
+
+########################
+### House Southwayne ###
+########################
+
+4241={
+name="Arthor "
+dynasty=53
+dna="lghbkhalcck"
+culture=northmen
+religion=old_gods
+martial=2
+diplomacy=4
+stewardship=7
+intrigue=3
+learning=4
+trait="underhanded_rogue"
+trait="honest"
+trait="gregarious"
+trait="trusting"
+trait="greedy"
+trait="chaste"
+trait="temperate"
+trait="cynical"
+trait="possessed"
+6526.9.1={birth=yes}
+6547.7.27 = {add_spouse=4242}
+6580.12.1={death=yes}
+}
+
+4242={
+name="Serra "
+female=yes
+dna="hcmbbabkcgh"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=5
+stewardship=3
+intrigue=3
+learning=6
+trait="intricate_webweaver"
+trait="lustful"
+trait="kind"
+trait="honest"
+trait="cynical"
+trait="content"
+trait="greedy"
+trait="gregarious"
+6525.10.15={birth=yes}
+6547.7.27 = {add_spouse=4241}
+6573.8.11={death=yes}
+}
+
+4243={
+name="Cregan "
+dynasty=53
+dna="lgmbbablcgk"
+culture=northmen
+religion=old_gods
+martial=10
+diplomacy=4
+stewardship=7
+intrigue=4
+learning=3
+trait="tough_soldier"
+trait="cruel"
+trait="envious"
+trait="gregarious"
+trait="diligent"
+trait="paranoid"
+trait="deceitful"
+trait="maimed"
+father=4241
+mother=4242
+6550.12.1={birth=yes}
+6614.11.14={death=yes}
+}
+
+4244={
+name="Bowen "
+dynasty=53
+dna="hghbbaakcck"
+culture=northmen
+religion=old_gods
+martial=10
+diplomacy=3
+stewardship=4
+intrigue=5
+learning=2
+trait="brilliant_strategist"
+trait="cruel"
+trait="gregarious"
+trait="humble"
+trait="honest"
+trait="chaste"
+trait="arbitrary"
+trait="drunkard"
+father=4241
+mother=4242
+6552.7.12={birth=yes}
+6596.5.5={death=yes}
+}
+
+######################
+### House Henslake ###
+######################
+
+4245={
+name="Cayn "
+dynasty=54
+dna="fmeceplmdlp"
+culture=northmen
+religion=old_gods
+martial=1
+diplomacy=4
+stewardship=3
+intrigue=1
+learning=3
+trait="fortune_builder"
+trait="ambitious"
+trait="trusting"
+trait="lustful"
+trait="greedy"
+trait="proud"
+trait="patient"
+trait="just"
+trait="honest"
+6537.1.1={birth=yes}
+6559.5.10 = {add_spouse=4246}
+6598.9.1={death=yes}
+}
+
+4246={
+name="Branda"
+female=yes
+dna="hcnihmpkiio"
+culture=northmen
+religion=old_gods
+martial=2
+diplomacy=2
+stewardship=3
+intrigue=8
+learning=3
+trait="flamboyant_schemer"
+trait="content"
+trait="wroth"
+trait="cruel"
+trait="arbitrary"
+trait="trusting"
+6537.7.27={birth=yes}
+6559.5.10 = {add_spouse=4245}
+6594.7.8={death=yes}
+}
+
+4247={
+name="Robb"
+dynasty=54
+dna="hmnihmpailp"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=3
+learning=1
+trait="underhanded_rogue"
+trait="scholar"
+trait="temperate"
+trait="greedy"
+trait="lustful"
+trait="ambitious"
+father=4245
+mother=4246
+6560.4.3={birth=yes}
+6615.8.1={death=yes}
+}
+
+4248={
+name="Edard"
+dynasty=54
+dna="hcniemlkiio"
+culture=northmen
+religion=old_gods
+martial=6
+diplomacy=6
+stewardship=7
+intrigue=2
+learning=2
+trait="flamboyant_schemer"
+trait="duelist"
+trait="kind"
+trait="gluttonous"
+trait="craven"
+trait="gregarious"
+father=4245
+mother=4246
+6561.9.24={birth=yes}
+6619.4.18={death=yes}
+}
+
+4249={
+name="Lyra "
+female=yes
+dynasty=54
+dna="fmechplkdip"
+culture=northmen
+religion=old_gods
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=7
+learning=3
+trait="flamboyant_schemer"
+trait="lustful"
+trait="envious"
+trait="trusting"
+trait="greedy"
+trait="gregarious"
+father=4245
+mother=4246
+6564.6.20={birth=yes}
+6614.1.21={death=yes}
+}
+
+###################
+### House Stout ###
+###################
+
+4250={
+name="Benjicot "
+dynasty=55
+dna="hbiklemldfa"
+culture=barrowmen
+religion=old_gods
+martial=6
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=5
+trait="underhanded_rogue"
+trait="gluttonous"
+trait="honest"
+trait="humble"
+trait="arbitrary"
+6533.11.1={birth=yes}
+6553.10.22 = {add_spouse=4251}
+6577.8.8={death=yes}
+}
+
+4251={
+name="Harra"
+female=yes
+dna="jfjdjflijhg"
+culture=barrowmen
+religion=old_gods
+martial=6
+diplomacy=0
+stewardship=3
+intrigue=4
+learning=2
+trait="charismatic_negotiator"
+trait="temperate"
+trait="deceitful"
+trait="craven"
+trait="envious"
+trait="wroth"
+trait="zealous"
+trait="arbitrary"
+6533.12.5={birth=yes}
+6553.10.22 = {add_spouse=4250}
+6583.9.13={death=yes}
+}
+
+4252={
+name="Lyanna "
+female=yes
+dynasty=55
+dna="hbidjflldha"
+culture=barrowmen
+religion=old_gods
+martial=0
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=8
+trait="intricate_webweaver"
+trait="honest"
+trait="craven"
+trait="temperate"
+trait="greedy"
+trait="slothful"
+trait="humble"
+father=4250
+mother=4251
+6554.8.24={birth=yes}
+6604.1.30={death=yes}
+}
+
+4253={
+name="Beron "
+dynasty=55
+dna="hfjdlbmnjfg"
+culture=barrowmen
+religion=old_gods
+martial=3
+diplomacy=4
+stewardship=5
+intrigue=6
+learning=7
+trait="charismatic_negotiator"
+trait="brave"
+trait="content"
+trait="gluttonous"
+trait="shy"
+trait="diligent"
+trait="patient"
+trait="arbitrary"
+father=4250
+mother=4251
+6558.6.1={birth=yes}
+6638.1.10={death=yes}
+}
+
+#####################
+### House Harhill ###
+#####################
+
+4254={
+name="Jonnel "
+dynasty=56
+dna="kjkeoniniio"
+culture=barrowmen
+religion=old_gods
+martial=6
+diplomacy=5
+stewardship=2
+intrigue=5
+learning=2
+trait="intricate_webweaver"
+trait="diligent"
+trait="charitable"
+trait="shy"
+trait="patient"
+trait="gluttonous"
+6533.11.1={birth=yes}
+6554.10.3 = {add_spouse=4255}
+6585.3.25={death=yes}
+}
+
+4255={
+name="Lyanna "
+female=yes
+dna="cnnebacbcmp"
+culture=barrowmen
+religion=old_gods
+martial=2
+diplomacy=6
+stewardship=4
+intrigue=5
+learning=6
+trait="intricate_webweaver"
+trait="hedonist"
+trait="cruel"
+trait="gregarious"
+trait="content"
+trait="chaste"
+trait="slothful"
+trait="deceitful"
+6533.3.30={birth=yes}
+6554.10.3 = {add_spouse=4254}
+6589.6.11={death=yes}
+}
+
+4256={
+name="Maegelle"
+female=yes
+dynasty=56
+dna="cnkeoainiip"
+culture=barrowmen
+religion=old_gods
+martial=7
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=6
+trait="tough_soldier"
+trait="gluttonous"
+trait="arbitrary"
+trait="deceitful"
+father=4254
+mother=4255
+6559.2.14={birth=yes}
+6612.7.22={death=yes}
+}
+
+4257={
+name="Harrion"
+dynasty=56
+dna="knkkgfcncmo"
+culture=barrowmen
+religion=old_gods
+martial=2
+diplomacy=5
+stewardship=7
+intrigue=5
+learning=5
+trait="intricate_webweaver"
+trait="cruel"
+trait="gluttonous"
+trait="zealous"
+trait="proud"
+trait="lustful"
+father=4254
+mother=4255
+6562.10.31={birth=yes}
+6633.5.21={death=yes}
+}
+
+#####################
+### House Bentmud ###
+#####################
+
+4258={
+name="Hugo "
+dynasty=57
+dna="jefojejafbg"
+culture=crannogmen
+religion=old_gods
+martial=7
+diplomacy=7
+stewardship=5
+intrigue=4
+learning=0
+trait="skilled_tactician"
+trait="brave"
+trait="cynical"
+trait="arbitrary"
+trait="trusting"
+trait="lustful"
+6538.7.1={birth=yes}
+6560.7.13 = {add_spouse=4259}
+6592.2.28={death=yes}
+}
+
+4259={
+name="Shyra "
+female=yes
+dna="gbajjmcenjc"
+culture=crannogmen
+religion=old_gods
+martial=5
+diplomacy=4
+stewardship=1
+intrigue=0
+learning=3
+trait="underhanded_rogue"
+trait="hunter"
+trait="trusting"
+trait="cynical"
+trait="humble"
+trait="cruel"
+6537.10.20={birth=yes}
+6560.7.13 = {add_spouse=4258}
+6597.3.24={death=yes}
+}
+
+4260={
+name="Brenett "
+dynasty=57
+dna="gbfjjmjlnbg"
+culture=crannogmen
+religion=old_gods
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=3
+learning=1
+trait="flamboyant_schemer"
+trait="envious"
+trait="diligent"
+trait="lustful"
+trait="brave"
+trait="arbitrary"
+trait="cynical"
+trait="ambitious"
+father=4258
+mother=4259
+6562.10.23={birth=yes}
+6631.3.16={death=yes}
+}
+
+4261={
+name="Melantha "
+female=yes
+dynasty=57
+dna="jdfogechfbg"
+culture=crannogmen
+religion=old_gods
+martial=6
+diplomacy=5
+stewardship=8
+intrigue=2
+learning=5
+trait="tough_soldier"
+trait="gluttonous"
+trait="gregarious"
+trait="brave"
+trait="lustful"
+trait="trusting"
+trait="diligent"
+father=4258
+mother=4259
+6564.5.4={birth=yes}
+6638.5.25={death=yes}
+}
+
+##################
+### House Fenn ###
+##################
+
+4262={
+name="Leobald "
+dynasty=58
+dna="epefmbiplpg"
+culture=crannogmen
+religion=old_gods
+martial=5
+diplomacy=4
+stewardship=7
+intrigue=5
+learning=4
+trait="naive_appeaser"
+trait="lustful"
+trait="greedy"
+trait="deceitful"
+trait="ambitious"
+trait="cruel"
+6539.5.1={birth=yes}
+6563.2.13 = {add_spouse=4263}
+6610.10.3={death=yes}
+}
+
+4263={
+name="Lyra "
+female=yes
+dna="hbophkjngeb"
+culture=crannogmen
+religion=old_gods
+martial=3
+diplomacy=7
+stewardship=5
+intrigue=6
+learning=5
+trait="tough_soldier"
+trait="hedonist"
+trait="cynical"
+trait="arbitrary"
+trait="paranoid"
+trait="diligent"
+trait="humble"
+trait="kind"
+6539.9.29={birth=yes}
+6563.2.13 = {add_spouse=4262}
+6587.10.7={death=yes}
+}
+
+4264={
+name="RayaRyon"
+dynasty=58
+dna="ebefhbioleg"
+culture=crannogmen
+religion=old_gods
+martial=6
+diplomacy=2
+stewardship=7
+intrigue=3
+learning=1
+trait="skilled_tactician"
+trait="cynical"
+trait="shy"
+trait="temperate"
+trait="cruel"
+trait="content"
+trait="chaste"
+father=4262
+mother=4263
+6563.11.26={birth=yes}
+6601.1.27={death=yes}
+}
+
+4265={
+name="Meliana "
+female=yes
+dynasty=58
+dna="ephfmkjngeb"
+culture=crannogmen
+religion=old_gods
+martial=4
+diplomacy=8
+stewardship=7
+intrigue=3
+learning=7
+trait="charismatic_negotiator"
+trait="patient"
+trait="humble"
+trait="deceitful"
+trait="slothful"
+trait="just"
+father=4262
+mother=4263
+6565.5.1={birth=yes}
+6610.3.24={death=yes}
+}
+
+#####################
+### House Harclay ###
+#####################
+
+4266={
+name="Vayon"
+dynasty=59
+dna="lolelaempnk"
+culture=northmen
+religion=old_gods
+martial=9
+diplomacy=2
+stewardship=6
+intrigue=0
+learning=5
+trait="skilled_tactician"
+trait="brave"
+trait="ambitious"
+trait="zealous"
+trait="temperate"
+trait="honest"
+trait="trusting"
+6548.11.1={birth=yes}
+6606.11.12={death=yes}
+}
+
+# House Caw #
+
+4267={
+	name=Rodrik
+	dynasty=60
+	dna="jijcijbinjg"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=grey_eminence 
+	trait=kind 
+	trait=paranoid 
+	trait=deceitful 
+	trait=ambitious 
+	6506.11.27={ birth=yes }
+	6527.1.1={ add_spouse=4275 }
+	6578.9.1={ death=yes }
+}
+4268={
+	name=Gariss
+	dynasty=60
+	dna="bkjhijaiphg"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=7 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=deceitful 
+	trait=shy 
+	trait=lustful 
+	trait=brave 
+	trait=just 
+	trait=humble 
+	father=4267	#Rodrik
+	mother=4275	#Lacey
+	6529.1.2={ birth=yes }
+	6550.1.1={ add_spouse=4276 }
+	6595.12.30={ death=yes }
+}
+4269={
+	name=Donella
+	female=yes
+	dynasty=60
+	dna="jmbjimeinij"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4267	#Rodrik
+	mother=4275	#Lacey
+	6532.7.18={ birth=yes }
+	6579.3.25={ death=yes }
+}
+4270={
+	name=Danny
+	female=yes
+	dynasty=60
+	dna="mihedbbgegg"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4267	#Rodrik
+	mother=4275	#Lacey
+	6535.7.5={ birth=yes }
+	6603.8.29={ death=yes }
+}
+4271={
+	name=Calon
+	dynasty=60
+	dna="oiccikbinjn"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=7
+	trait=indulgent_wastrel 
+	trait=gardener 
+	trait=gluttonous 
+	trait=ambitious 
+	trait=greedy 
+	trait=chaste 
+	trait=cruel 
+	trait=cynical 
+	father=4267	#Rodrik
+	mother=4275	#Lacey
+	6539.5.26={ birth=yes }
+	6590.9.21={ death=yes }
+}
+4272={
+	name=Larence
+	dynasty=60
+	dna="clhhkjaiaaj"
+	culture=hill_clansmen 
+	religion=old_gods
+	trait=scholar
+	trait=brave 
+	father=4268	#Gariss
+	mother=4276	#Darlessa
+	6553.12.24={ birth=yes }
+	6617.10.7={ death=yes }
+}
+4273={
+	name=Ronnel
+	dynasty=60
+	dna="bkjgihblppg"
+	culture=hill_clansmen 
+	religion=old_gods
+	trait=brave 
+	father=4268	#Gariss
+	mother=4276	#Darlessa
+	6559.5.18={ birth=yes }
+	6618.10.27={ death=yes }
+}
+4274={
+	name=Heward
+	dynasty=60
+	dna="bajkilaihag"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4268	#Gariss
+	mother=4276	#Darlessa
+	6562.3.8={ birth=yes }
+	6613.3.11={ death=yes }
+}
+4275={
+	name=Lacey
+	female=yes
+	culture=hill_clansmen 
+	religion=old_gods
+	6506.11.27={ birth=yes }
+	6578.9.1={ death=yes }
+}
+4276={
+	name=Darlessa
+	female=yes
+	culture=hill_clansmen 
+	religion=old_gods
+	6529.11.27={ birth=yes }
+	6595.9.1={ death=yes }
+}
+
+# House Knott #
+
+4277={
+	name=Leobald
+	dynasty=61
+	dna="hejjhgfjcnh"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=proud 
+	trait=craven 
+	trait=envious 
+	trait=trusting 
+	6512.10.16={ birth=yes }
+	6533.1.1={ add_spouse=4282 }
+	6574.9.9={ death=yes }
+}
+4278={
+	name=Cayn
+	dynasty=61
+	dna="ofjkpgfhnfh"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=6 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	trait=naive_appeaser 
+	trait=patient 
+	trait=gluttonous 
+	trait=shy 
+	trait=cruel 
+	trait=possessed 
+	father=4277	#Leobald
+	mother=4282	#Bethany
+	6535.7.9={ birth=yes }
+	6587.3.3={ death=yes }
+}
+4279={
+	name=Bowen
+	dynasty=61
+	dna="hejjhgfjcnp"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=6 
+	learning=5
+	trait=midas_touched 
+	trait=impaler 
+	trait=deceitful 
+	trait=cruel 
+	trait=chaste 
+	trait=drunkard 
+	father=4277	#Leobald
+	mother=4282	#Bethany
+	6539.5.9={ birth=yes }
+	6597.6.29={ death=yes }
+}
+4280={
+	name=Daryn
+	dynasty=61
+	dna="fgjjcjfemni"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=7 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=mastermind_theologian 
+	trait=temperate 
+	trait=patient 
+	trait=ambitious 
+	trait=arbitrary 
+	trait=honest 
+	trait=lunatic 
+	father=4277	#Leobald
+	mother=4282	#Bethany
+	6541.8.6={ birth=yes }
+	6609.7.24={ death=yes }
+}
+4281={
+	name=Hareth
+	dynasty=61
+	dna="ofdhppfijpi"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4278	#Cayn
+	6563.7.27={ birth=yes }
+	6612.8.25={ death=yes }
+}
+4282={
+	name=Bethany
+	female=yes
+	culture=hill_clansmen 
+	religion=old_gods
+	6512.11.27={ birth=yes }
+	6574.9.1={ death=yes }
+}
+
+# House Crow #
+
+4283={
+	name=Hullen
+	dynasty=62
+	dna="haelagphdji"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=5 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=5 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=gluttonous 
+	trait=content 
+	6546.1.22={ birth=yes }
+	6602.1.18={ death=yes }
+}
+
+# House Norrey #
+
+4284={
+	name=Donnis
+	dynasty=63
+	dna="jpimnnomknf"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=scholarly_theologian 
+	trait=lustful 
+	trait=wroth 
+	trait=craven 
+	trait=possessed 
+	6503.12.7={ birth=yes }
+	6524.1.1={ add_spouse=4296 }
+	6574.2.1={ death=yes }
+}
+4285={
+	name=Jorah
+	dynasty=63
+	dna="jpimjnomcnf"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=4 
+	learning=7
+	trait=midas_touched 
+	trait=gregarious 
+	trait=chaste 
+	trait=greedy 
+	trait=trusting 
+	trait=deceitful 
+	trait=wounded 
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6531.3.11={ birth=yes }
+	6552.1.1={ add_spouse=4297 }
+	6587.3.10={ death=yes }
+}
+4286={
+	name=Robb
+	dynasty=63
+	dna="jpkmhnomkkf"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=6 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=7 
+	learning=7
+	trait=detached_priest 
+	trait=ambitious 
+	trait=gregarious 
+	trait=craven 
+	trait=diligent 
+	trait=lustful trait=ill 
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6533.8.6={ birth=yes }
+	6621.2.22={ death=yes }
+}
+4287={
+	name=Roose
+	dynasty=63
+	dna="jpbmnaomknf"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	trait=skilled_tactician 
+	trait=temperate 
+	trait=just 
+	trait=cynical 
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6535.2.22={ birth=yes }
+	6586.10.6={ death=yes }
+}
+4288={
+	name=Joseth
+	dynasty=63
+	dna="kpimnaocgij"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=7 
+	learning=8
+	trait=intricate_webweaver 
+	trait=proud 
+	trait=greedy 
+	trait=craven 
+	trait=envious 
+	trait=cynical 
+	trait=ill 
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6539.6.5={ birth=yes }
+	6602.2.22={ death=yes }
+}
+4289={
+	name=Chayle
+	dynasty=63
+	dna="ddimanbmdho"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=4 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=5 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=shy 
+	trait=trusting 
+	trait=proud 
+	trait=cruel 
+	trait=brave 
+	trait=wroth 
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6541.10.8={ birth=yes }
+	6588.11.17={ death=yes }
+}
+4290={
+	name=Kyra
+	female=yes
+	dynasty=63
+	dna="jpidnhhmkef"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6543.5.5={ birth=yes }
+	6578.9.23={ death=yes }
+}
+4291={
+	name=Beth
+	female=yes
+	dynasty=63
+	dna="nfbflkhmile"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4284	#Donnis
+	mother=4296	#Shyra
+	6547.4.17={ birth=yes }
+	6618.5.25={ death=yes }
+}
+4292={
+	name=Cayn
+	dynasty=63
+	dna="lpimjnjomnf"
+	culture=hill_clansmen 
+	religion=old_gods
+	trait=cruel 
+	trait=charitable 
+	trait=temperate 
+	trait=humble 
+	father=4285	#Jorah
+	mother=4297	#Rowena
+	6554.5.20={ birth=yes }
+	6603.6.30={ death=yes }
+}
+4293={
+	name=Jonnela
+	female=yes
+	dynasty=63
+	dna="mppmmnlmgng"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4285	#Jorah
+	mother=4297	#Rowena
+	6557.10.12={ birth=yes }
+	6617.12.30={ death=yes }
+}
+4294={
+	name=Harwood
+	dynasty=63
+	dna="jcimjncafhf"
+	culture=hill_clansmen 
+	religion=old_gods
+	trait=slothful 
+	trait=wounded 
+	father=4285	#Jorah
+	mother=4297	#Rowena
+	6558.4.19={ birth=yes }
+	6605.1.27={ death=yes }
+}
+4295={
+	name=Mylessa
+	female=yes
+	dynasty=63
+	dna="jpiejnomcnn"
+	culture=hill_clansmen 
+	religion=old_gods
+	father=4285	#Jorah
+	mother=4297	#Rowena
+	6562.11.21={ birth=yes }
+	6626.1.19={ death=yes }
+}
+4296={
+	name=Shyra
+	female=yes
+	culture=hill_clansmen 
+	religion=old_gods
+	6503.11.27={ birth=yes }
+	6574.9.1={ death=yes }
+}
+4297={
+	name=Rowena
+	female=yes
+	culture=hill_clansmen 
+	religion=old_gods
+	6531.11.27={ birth=yes }
+	6587.9.1={ death=yes }
+}
+
+# House Shale #
+
+4298={
+	name=Beron
+	dynasty=64
+	dna="adjknffdaae"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=4 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=humble 
+	trait=chaste 
+	trait=gregarious 
+	trait=slothful 
+	trait=just trait=honest 
+	6524.11.2={ birth=yes }
+	6595.4.12={ death=yes }
+}
+4299={
+	name=Robin
+	dynasty=64
+	dna="ggekncfdane"
+	culture=hill_clansmen 
+	religion=old_gods
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=5 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=patient 
+	trait=humble 
+	trait=cruel 
+	trait=ambitious 
+	trait=greedy 
+	father=4298	#Beron
+	6549.8.12={ birth=yes }
+	6617.4.19={ death=yes }
+}

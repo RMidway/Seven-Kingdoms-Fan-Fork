@@ -1,0 +1,22 @@
+# c_farringdon
+
+# County Title
+title = c_farringdon
+
+# Settlements
+max_settlements = 4
+
+b_farringdon = castle
+#b_gravesend_3 = city
+#b_lydbury = temple
+#b_farringdon_2 = castle
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = cornlander
+}

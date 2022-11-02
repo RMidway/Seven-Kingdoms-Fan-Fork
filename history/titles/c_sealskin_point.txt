@@ -1,0 +1,11 @@
+# e_the_iron_islands
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+800.1.1={
+	liege=d_sealskin_point
+}
+6560.1.1={holder=842}
+6620.1.1={holder=9554} #Farwynds
+7290.1.1={holder=9555} #Kenned[309]

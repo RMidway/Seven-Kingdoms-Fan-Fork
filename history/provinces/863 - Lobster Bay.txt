@@ -1,0 +1,26 @@
+# c_lobster_bay
+
+# County Title
+title = c_lobster_bay
+
+# Settlements
+max_settlements = 5
+
+b_goldland = castle
+b_bunland = city
+#b_goldgay = temple
+#b_farnland = castle
+#b_lobster_bay = city
+
+# Misc
+culture = fairmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    
+	religion = the_seven 
+	
+	culture = westerlander
+
+}

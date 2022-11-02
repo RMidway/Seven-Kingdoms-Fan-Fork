@@ -1,0 +1,512 @@
+		      ###############
+		      #   ID RANGE  #
+		      # 22001-23000 #
+		      ###############
+
+		  #######################
+		  ### House Durrandon ###
+		  #######################
+
+#### AOPK SCENARIO ####
+ 22001 = {
+    name = "Argilac"
+    dynasty = 800
+    father = 5066
+    culture = durrandonfm
+    religion = old_gods
+
+    6500.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6562.1.1={death=yes}
+}
+
+ 22002 = {
+    name = "Jasonnei"
+    dynasty = 800
+    father = 5066
+    culture = durrandonfm
+    religion = old_gods
+    female = yes
+    6503.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6561.1.1={death=yes}
+}
+
+ 22003 = {
+    name = "Elinor"
+    dynasty = 800
+    father =  22001
+    culture = durrandonfm
+    religion = old_gods
+    female = yes
+    6520.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6578.1.1={death=yes}
+}
+
+ 22004 = {
+    name = "Steffon"
+    dynasty = 800
+    father =  22001
+    culture = durrandonfm
+    religion = old_gods
+    6522.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6574.1.1={death=yes}
+}
+
+ 22005 = {
+    name = "Raymund"
+    dynasty = 800
+    father =  22004
+    culture = durrandonfm
+    religion = old_gods
+    6545.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6607.1.1={death=yes}
+}
+
+ 22006 = {
+    name = "Durran"
+    dynasty = 800
+    father =  22004
+    culture = durrandonfm
+    religion = old_gods
+    6547.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6600.1.1={death=yes}
+}
+
+ 22007 = {
+    name = "Brienne"
+    dynasty = 800
+    father =  22004
+    culture = durrandonfm
+    religion = old_gods
+    female = yes
+    6550.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6602.1.1={death=yes}
+}
+
+22008 = {
+    name = "Gawen"
+    dynasty = 800
+    father = 9205
+    culture = durrandonfm
+    religion = old_gods
+    6550.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6618.1.1={death=yes}
+}
+
+#######################
+### House Estermont ###
+#######################
+
+22009 = {
+    name = "Gowen" # Eldorion's Father
+    dynasty = 809
+    father = 22010
+    culture = wrathmen
+    religion = old_gods
+    6514.1.1={birth=yes}
+    6577.1.1={death=yes}
+}
+
+22010 = {
+    name = "Alesander" # Eldorion's Grandfather
+    dynasty = 809
+    father = 22011
+    culture = wrathmen
+    religion = old_gods
+    6490.1.1={birth=yes}
+    6544.1.1={death=yes}
+}
+
+22011 = {
+    name = "Bonifer" # Eldorion's Great-Grandfather
+    dynasty = 809
+    father = 22012
+    culture = wrathmen
+    religion = old_gods
+    6463.1.1={birth=yes}
+    6530.1.1={death=yes}
+}
+
+22012 = {
+    name = "Ester" # Eldorion's Great-Great-Grandfather
+    dynasty = 809
+    culture = wrathmen
+    religion = old_gods
+    6430.1.1={birth=yes}
+    6491.1.1={death=yes}
+}
+
+22013 = {
+    name = "Ravella" # Eldorion's Aunt
+    dynasty = 809
+    father = 22010
+    culture = wrathmen
+    religion = old_gods
+	female = yes
+    6512.1.1={birth=yes}
+    6566.1.1={death=yes}
+}
+
+22014 = {
+    name = "Lyria" # Eldorion's Relative
+    dynasty = 809
+    father = 22012
+    culture = wrathmen
+    religion = old_gods
+	female = yes
+    6462.1.1={birth=yes}
+    6518.1.1={death=yes}
+}
+
+22015 = {
+    name = "Cassandra" # Eldorion's Relative
+    dynasty = 809
+    father = 22012
+    culture = wrathmen
+    religion = old_gods
+	female = yes
+    6461.1.1={birth=yes}
+    6522.1.1={death=yes}
+}
+
+22016 = {
+    name = "Edric" # Eldorion's Uncle
+    dynasty = 809
+    father = 22010
+    culture = wrathmen
+    religion = old_gods
+    6520.1.1={birth=yes}
+    6567.1.1={death=yes}
+}
+
+22017 = {
+    name = "Tommen" # Eldorion's Cousin
+    dynasty = 809
+    father = 22016
+    culture = wrathmen
+    religion = old_gods
+	trait = dueling_adept
+    6544.1.1={birth=yes}
+    6600.1.1={death=yes}
+}
+
+22018 = {
+    name = "Jasonnei" # Eldorion's Cousin
+    dynasty = 809
+    father = 22016
+    culture = wrathmen
+    religion = old_gods
+	female = yes
+    6544.1.1={birth=yes}
+    6600.1.1={death=yes}
+}
+
+		  ########################
+		  ### House Connington ###
+		  ########################
+		
+22019 = {
+	name = Cortnay # Former Lord
+	
+	father = 22020
+	dynasty = 806
+	dna = "dkaiddijdbxqzbiizsgib"
+	religion = old_gods
+	culture = stormlander
+	
+	6500.1.1 = { birth=yes }
+	6557.1.1 = { death=yes }
+}	
+
+22020 = {
+	name = Andrew # Former Lord
+	
+	father = 22021
+	dynasty = 806
+
+	religion = old_gods
+	culture = stormlander
+	
+	6481.1.1 = { birth=yes }
+	6534.1.1 = { death=yes }
+}	
+
+22021 = {
+	name = Robert # Former Lord
+	
+	dynasty = 806
+
+	religion = old_gods
+	culture = stormlander
+	trait = dueling_expert
+	trait = tough_soldier
+	trait = quick
+	trait = strong
+	trait = strategist
+	trait = brave
+	trait = just
+	trait = humble
+	6450.1.1 = { birth=yes }
+	6480.1.1 = {
+		create_bloodline = {
+			type = bloodline_connington
+			has_dlc = "Holy Fury"
+		}
+	}
+	6512.1.1 = { death=yes }
+}
+
+22022 = {
+	name = Cassandra 
+	
+	father = 22020
+	dynasty = 806
+
+	religion = old_gods
+	culture = stormlander
+	female = yes
+	6499.1.1 = { birth=yes }
+	6560.1.1 = { death=yes }
+}	
+
+22023 = {
+	name = Emmara 
+	
+	father = 22021
+	dynasty = 806
+
+	religion = old_gods
+	culture = stormlander
+	female = yes
+	
+	6483.1.1 = { birth=yes }
+	6540.1.1 = { death=yes }
+}	
+
+22024 = {
+	name = Harlan 
+	
+	father = 22019
+	dynasty = 806
+	religion = old_gods
+	culture = stormlander
+	
+	6529.1.1 = { birth=yes }
+	6590.1.1 = { death=yes }
+}	
+
+22025 = {
+	name = Lyonel
+	
+	father = 22024
+	dynasty = 806
+	religion = rhllor
+	culture = stormlander
+	trait = tall
+	trait = red_knight
+	trait = heartless
+	trait = zealous
+	trait = brave
+	trait = dueling_expert
+	trait = tough_soldier
+	martial = 7
+	6547.1.1 = { birth=yes }
+	6601.1.1 = { death=yes }
+}
+
+		  ###################
+		  ### House Wylde ###
+		  ###################
+		  
+22026 = {
+	name = Ormund # Former King of Rainwood
+	father = 22027
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+
+	6522.1.1 = { birth=yes }
+	6566.1.1 = { death=yes }
+}
+
+22027 = {
+	name = Lester # Former King of Rainwood
+	father = 22028
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+
+	6501.1.1 = { birth=yes }
+	6563.1.1 = { death=yes }
+}
+
+22028 = {
+	name = Omrys # Former King of Rainwood
+	father = 22029
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+
+	6485.1.1 = { birth=yes }
+	6541.1.1 = { death=yes }
+}
+
+22029 = {
+	name = Rickard # Former King of Rainwood
+	#father = 22029
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+
+	6460.1.1 = { birth=yes }
+	6507.1.1 = { death=yes }
+}
+
+22030 = {
+	name = Jarmyn 
+	father = 22029
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+
+	6488.1.1 = { birth=yes }
+	6541.1.1 = { death=yes }
+}
+
+22031 = {
+	name = Argella 
+	father = 22028
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	female = yes
+	6500.1.1 = { birth=yes }
+	6563.1.1 = { death=yes }
+}
+
+22032 = {
+	name = Harrold 
+	father = 22027
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	trait = dueling_adept
+	6526.1.1 = { birth=yes }
+	6580.1.1 = { death=yes }
+}
+
+22033 = {
+	name = Rolland 
+	father = 22027
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	trait = dueling_skilled
+	6528.1.1 = { birth=yes }
+	6577.1.1 = { death=yes }
+}
+
+22034 = {
+	name = Emmara
+	father = 22033
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	female = yes
+	6548.1.1 = { birth=yes }
+	6602.1.1 = { death=yes }
+}
+
+22035 = {
+	name = Robin
+	father = 22033
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	trait = dueling_master
+	6550.1.1 = { birth=yes }
+	6600.1.1 = { death=yes }
+}
+
+22036 = {
+	name = Ronnet 
+	father = 22032
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	trait = dueling_novice
+	6542.1.1 = { birth=yes }
+	6599.1.1 = { death=yes }
+}
+
+22037 = {
+	name = Aelinor
+	father = 22032
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	female = yes
+	6543.1.1 = { birth=yes }
+	6607.1.1 = { death=yes }
+}
+
+22038 = {
+	name = Jocelyn
+	father = 22032
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	female = yes
+	6545.1.1 = { birth=yes }
+	6613.1.1 = { death=yes }
+}
+
+22039 = {
+	name = Rohanne
+	father = 22032
+	dynasty = 835
+	religion = old_gods
+	culture = rainlander
+	female = yes
+	6547.1.1 = { birth=yes }
+	6609.1.1 = { death=yes }
+}

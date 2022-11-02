@@ -1,0 +1,32 @@
+#BEYOND THE WALL
+technology = {
+	titles = {
+		d_barren_plains
+		d_frigid_highlands
+		d_frozen_bay
+		d_frozen_marshes
+		d_frozen_shore
+		d_great_lakes
+		d_hardhome
+		d_northern_edge
+		d_northern_shore
+		d_southern_peaks
+		d_the_gap
+		d_winter_keep
+	}
+	1 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+	6000 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+	8800 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+}

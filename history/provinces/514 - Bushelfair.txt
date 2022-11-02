@@ -1,0 +1,22 @@
+# c_bushelfair
+
+# County Title
+title = c_bushelfair
+
+# Settlements
+max_settlements = 4
+
+b_stonegate_2 = castle
+b_bonebricks = city
+#b_favaqueira = temple
+#b_bushelfair = castle
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+	culture = stone_dornish
+    religion = the_seven
+}

@@ -1,0 +1,2720 @@
+##############
+# ID RANGE   #
+# 3400-3599  #
+##############
+
+##############
+##Bloodstone##
+##############
+
+3400={
+	name=Giuliano
+	dynasty=1700
+	dna="llmbkjllgjl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=tough_soldier 
+	trait=trusting 
+	trait=greedy 
+	trait=lustful 
+	trait=cynical 
+	6499.2.9={ birth=yes }
+	6520.1.1={ add_spouse=3413 }
+	6570.9.10={ death=yes }
+}
+3401={
+	name=Romolo
+	dynasty=1700
+	dna="llkbgjongjl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=4 
+	learning=6
+	trait=tough_soldier 
+	trait=gregarious 
+	trait=content 
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6524.10.24={ birth=yes }
+	6545.1.1={ add_spouse=3414 }
+	6596.9.23={ death=yes }
+}
+3402={
+	name=Clelia
+	female=yes
+	dynasty=1700
+	dna="aldfkcllgal"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6528.7.10={ birth=yes }
+	6596.11.14={ death=yes }
+}
+3403={
+	name=Ippolito
+	dynasty=1700
+	dna="lfmbkgnlgbo"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=4 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=7 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=mystic 
+	trait=cruel 
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6532.7.20={ birth=yes }
+	6606.2.19={ death=yes }
+}
+3404={
+	name=Pio
+	dynasty=1700
+	dna="lmadfjjhdjl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=6 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=5 
+	learning=4
+	trait=martial_cleric 
+	trait=celibate 
+	trait=envious 
+	trait=just 
+	trait=patient 
+	trait=gluttonous 
+	trait=shy 
+	trait=dueling_skilled
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6536.11.22={ birth=yes }
+	6611.9.19={ death=yes }
+}
+3405={
+	name=Luciana
+	female=yes
+	dynasty=1700
+	dna="hjkpkjoliml"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6538.6.27={ birth=yes }
+	6584.1.18={ death=yes }
+}
+3406={
+	name=Enza
+	female=yes
+	dynasty=1700
+	dna="llmbkdllgjl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6542.5.23={ birth=yes }
+	6601.8.31={ death=yes }
+}
+3407={
+	name=Dalia
+	female=yes
+	dynasty=1700
+	dna="gjmokahlenl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3400	#Giuliano
+	mother=3413	#Viviana
+	6545.2.17={ birth=yes }
+	6610.9.12={ death=yes }
+}
+3408={
+	name=Igino
+	dynasty=1700
+	dna="ejemijongji"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=8 
+	learning=4
+	trait=misguided_warrior 
+	trait=cynical 
+	trait=chaste 
+	trait=just
+	father=3401	#Romolo
+	mother=3414	#Maria
+	6549.5.20={ birth=yes }
+	6607.4.2={ death=yes }
+}
+3409={
+	name=Flavia
+	female=yes
+	dynasty=1700
+	dna="lffbgjbngja"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3401	#Romolo
+	mother=3414	#Maria
+	6553.8.5={ birth=yes }
+	6626.2.17={ death=yes }
+}
+3410={
+	name=Bartolomeo
+	dynasty=1700
+	dna="glanajefgol"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=zealous
+	father=3401	#Romolo
+	mother=3414	#Maria
+	6557.3.4={ birth=yes }
+	6606.8.7={ death=yes }
+}
+3411={
+	name=Alvise
+	dynasty=1700
+	dna="clkekhhngkj"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=paranoid 
+	father=3401	#Romolo
+	mother=3414	#Maria
+	6559.3.15={ birth=yes }
+	6636.10.23={ death=yes }
+}
+3412={
+	name=Ambrogio
+	dynasty=1700
+	dna="fikegjongbl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3401	#Romolo
+	mother=3414	#Maria
+	6561.12.17={ birth=yes }
+	6607.3.6={ death=yes }
+}
+3413={
+	name=Viviana
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+3414={
+	name=Maria
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6524.1.1={ birth=yes }
+	6596.1.1={ death=yes }
+}
+
+###############
+##Buried Isle##
+###############
+
+3415={
+	name=Gaetano
+	dynasty=1701
+	dna="kfdhjlohnml"
+	culture=andal
+	religion=black_flag
+	6500.5.10={ birth=yes }
+	6521.1.1={ add_spouse=3424 }
+	6555.4.28={ death=yes }
+}
+3416={
+	name=Livio
+	dynasty=1701
+	dna="hcjhjejjnec"
+	culture=andal 
+	religion=black_flag
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=detached_priest 
+	trait=hedonist 
+	trait=paranoid 
+	trait=diligent 
+	trait=charitable 
+	trait=temperate 
+	trait=dueling_adept
+	father=3415	#Gaetano
+	mother=3424	#Eugenia
+	6527.2.20={ birth=yes }
+	6548.1.1={ add_spouse=3425 }
+	6595.11.6={ death=yes }
+}
+3417={
+	name=Eugenia
+	female=yes
+	dynasty=1701
+	dna="kjdhjeohomb"
+	culture=andal 
+	religion=black_flag
+	father=3415	#Gaetano
+	mother=3424	#Eugenia
+	6531.7.9={ birth=yes }
+	6590.9.16={ death=yes }
+}
+3418={
+	name=Teresio
+	dynasty=1701
+	dna="kfaojbomncl"
+	culture=andal 
+	religion=black_flag
+	martial=6 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=midas_touched 
+	trait=deceitful 
+	trait=wroth 
+	trait=kind 
+	trait=brave 
+	trait=paranoid 
+	trait=quick 
+	father=3415	#Gaetano
+	mother=3424	#Eugenia
+	6536.5.13={ birth=yes }
+	6601.10.10={ death=yes }
+}
+3419={
+	name=Corinna
+	female=yes
+	dynasty=1701
+	dna="kcnkllphnmm"
+	culture=andal 
+	religion=black_flag
+	father=3415	#Gaetano
+	mother=3424	#Eugenia
+	6539.9.6={ birth=yes }
+	6583.2.28={ death=yes }
+}
+3420={
+	name=Santa
+	female=yes
+	dynasty=1701
+	dna="acjhbljinnh"
+	culture=andal 
+	religion=black_flag
+	father=3416	#Livio
+	mother=3425	#Immacolata
+	6555.7.8={ birth=yes }
+	6601.2.2={ death=yes }
+}
+3421={
+	name=Immacolata
+	female=yes
+	dynasty=1701
+	dna="enfhiegjnnd"
+	culture=andal 
+	religion=black_flag
+	father=3416	#Livio
+	mother=3425	#Immacolata
+	6559.10.21={ birth=yes }
+	6623.2.17={ death=yes }
+}
+3422={
+	name=Alice
+	female=yes
+	dynasty=1701
+	dna="libpjecdnec"
+	culture=andal 
+	religion=black_flag
+	father=3416	#Livio
+	mother=3425	#Immacolata
+	6562.10.17={ birth=yes }
+	6620.7.6={ death=yes }
+}
+3423={
+	name=Alvise
+	dynasty=1701
+	dna="hcjljeacaeb"
+	culture=andal 
+	religion=black_flag
+	father=3416	#Livio
+	mother=3425	#Immacolata
+	6566.1.2={ birth=yes }
+	6626.9.22={ death=yes }
+}
+3424={
+	name=Eugenia
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6555.1.1={ death=yes }
+}
+3425={
+	name=Immacolata
+	female=yes
+	culture=andal
+	religion=black_flag
+	6527.1.1={ birth=yes }
+	6595.1.1={ death=yes }
+}
+
+##############
+##Sun Isle##
+##############
+
+3426={
+	name=Ciro
+	dynasty=1702
+	dna="maliamcjhao"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	6500.12.7={ birth=yes }
+	6521.1.1={ add_spouse=3432 }
+	6563.6.5={ death=yes }
+}
+3427={
+	name=Lucio
+	dynasty=1702
+	dna="oacijbcchpo"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=grey_eminence 
+	trait=gregarious 
+	trait=content 
+	trait=chaste 
+	trait=wounded 
+	trait=lunatic 
+	father=3426	#Ciro
+	mother=3432	#Renata
+	6525.4.3={ birth=yes }
+	6546.1.1={ add_spouse=3433 }
+	6578.12.21={ death=yes }
+}
+3428={
+	name=Sonia
+	female=yes
+	dynasty=1702
+	dna="jmlfijfjaao"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3426	#Ciro
+	mother=3432	#Renata
+	6530.4.4={ birth=yes }
+	6592.6.9={ death=yes }
+}
+3429={
+	name=Benedetta
+	female=yes
+	dynasty=1702
+	dna="mpfikbcjphj"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3426	#Ciro
+	mother=3432	#Renata
+	6535.8.18={ birth=yes }
+	6599.7.8={ death=yes }
+}
+3430={
+	name=Lino
+	dynasty=1702
+	dna="ipcijbcchpo"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=just 
+	trait=cynical
+	trait=dueling_skilled
+	father=3427	#Lucio
+	mother=3433	#Marisa
+	6551.3.15={ birth=yes }
+	6604.6.13={ death=yes }
+}
+3431={
+	name=Ciro
+	dynasty=1702
+	dna="dacighachpf"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=ambitious
+	trait=possessed 
+	father=3427	#Lucio
+	mother=3433	#Marisa
+	6556.10.19={ birth=yes }
+	6624.2.15={ death=yes }
+}
+3432={
+	name=Renata
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6563.1.1={ death=yes }
+}
+3433={
+	name=Marisa
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6525.1.1={ birth=yes }
+	6578.1.1={ death=yes }
+}
+
+##############
+##Corsair Sanctuary##
+##############
+
+3434={
+	name=Adelmio
+	dynasty=1703
+	dna="jedajbkkbao"
+	culture=andal 
+	religion=black_flag
+	6499.8.18={ birth=yes }
+	6520.1.1={ add_spouse=3441 }
+	6559.3.30={ death=yes }
+}
+3435={
+	name=Gualtiero
+	dynasty=1703
+	dna="pepajbkkhal"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=craven 
+	trait=gluttonous 
+	trait=deceitful 
+	trait=chaste 
+	trait=ambitious 
+	trait=cruel 
+	trait=stressed 
+	trait=possessed 
+	trait=dueling_expert
+	father=3434	#Adelmio
+	mother=3441	#Carla
+	6527.6.26={ birth=yes }
+	6548.1.1={ add_spouse=3442 }
+	6601.9.20={ death=yes }
+}
+3436={
+	name=Germano
+	dynasty=1703
+	dna="edjkjlkgjoi"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=midas_touched 
+	trait=kind 
+	trait=patient 
+	trait=ambitious 
+	trait=deceitful 
+	father=3434	#Adelmio
+	mother=3441	#Carla
+	6531.6.5={ birth=yes }
+	6563.11.9={ death=yes }
+}
+3437={
+	name=Carla
+	female=yes
+	dynasty=1703
+	dna="jooajbgkhao"
+	culture=andal 
+	religion=black_flag
+	father=3435	#Gualtiero
+	mother=3442	#Dina
+	6550.12.9={ birth=yes }
+	6618.5.18={ death=yes }
+}
+3438={
+	name=Dina
+	female=yes
+	dynasty=1703
+	dna="nemljhenhgl"
+	culture=andal 
+	religion=black_flag
+	father=3435	#Gualtiero
+	mother=3442	#Dina
+	6551.7.17={ birth=yes }
+	6611.7.4={ death=yes }
+}
+3439={
+	name=Matilde
+	female=yes
+	dynasty=1703
+	dna="pojpjbiphad"
+	culture=andal 
+	religion=black_flag
+	father=3435	#Gualtiero
+	mother=3442	#Dina
+	6556.12.2={ birth=yes }
+	6630.10.4={ death=yes }
+}
+3440={
+	name=Innocenzo
+	dynasty=1703
+	dna="pnknebknbal"
+	culture=andal 
+	religion=black_flag
+	trait=possessed 
+	father=3435	#Gualtiero
+	mother=3442	#Dina
+	6558.2.20={ birth=yes }
+	6608.4.7={ death=yes }
+}
+3441={
+	name=Carla
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6559.1.1={ death=yes }
+}
+3442={
+	name=Dina
+	female=yes
+	culture=andal
+	religion=black_flag
+	6527.1.1={ birth=yes }
+	6601.1.1={ death=yes }
+}
+
+##############
+##Darkrock##
+##############
+
+3443={
+	name=Domenico
+	dynasty=1704
+	dna="pokjehkanjo"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	6500.10.6={ birth=yes }
+	6521.1.1={ add_spouse=3449 }
+	6543.5.1={ death=yes }
+}
+3444={
+	name=Elio
+	dynasty=1704
+	dna="kdkjehekmko"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=5 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=7 
+	learning=4
+	trait=mastermind_theologian 
+	trait=impaler 
+	trait=diligent 
+	trait=temperate 
+	trait=drunkard 
+	father=3443	#Domenico
+	mother=3449	#Donatella
+	6525.7.17={ birth=yes }
+	6546.1.1={ add_spouse=3450 }
+	6595.2.9={ death=yes }
+}
+3445={
+	name=Aurelio
+	dynasty=1704
+	dna="pbehockomdo"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=intricate_webweaver 
+	trait=cruel 
+	trait=brave 
+	trait=ambitious 
+	trait=paranoid 
+	trait=cynical 
+	trait=fair 
+	father=3443	#Domenico
+	mother=3449	#Donatella
+	6529.9.13={ birth=yes }
+	6592.9.3={ death=yes }
+}
+3446={
+	name=Callisto
+	dynasty=1704
+	dna="klkjimekhio"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=4 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=7 
+	learning=4
+	trait=elusive_shadow 
+	trait=cruel 
+	trait=envious 
+	trait=just 
+	trait=proud 
+	trait=charitable 
+	trait=dueling_expert
+	father=3444	#Elio
+	mother=3450	#Martina
+	6548.1.3={ birth=yes }
+	6608.1.30={ death=yes }
+}
+3447={
+	name=Renata
+	female=yes
+	dynasty=1704
+	dna="kgellckkmkn"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3444	#Elio
+	mother=3450	#Martina
+	6550.3.15={ birth=yes }
+	6606.11.16={ death=yes }
+}
+3448={
+	name=Angelo
+	dynasty=1704
+	dna="khkjooelnko"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=diligent
+	trait=ambitious
+	father=3444	#Elio
+	mother=3450	#Martina
+	6554.3.16={ birth=yes }
+	6609.6.15={ death=yes }
+}
+3449={
+	name=Donatella
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6543.1.1={ death=yes }
+}
+3450={
+	name=Martina
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6525.1.1={ birth=yes }
+	6595.1.1={ death=yes }
+}
+
+##############
+##Maroon Rock##
+##############
+
+3451={
+	name=Fedele
+	dynasty=1705
+	dna="eoheebpfcmf"
+	culture=andal 
+	religion=black_flag
+	6499.7.3={ birth=yes }
+	6520.1.1={ add_spouse=3463 }
+	6551.6.27={ death=yes }
+}
+3452={
+	name=Annibale
+	dynasty=1705
+	dna="elheenpebjk"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=8
+	trait=mastermind_theologian 
+	trait=impaler 
+	trait=kind 
+	trait=just 
+	trait=paranoid 
+	trait=slothful 
+	father=3451	#Fedele
+	mother=3463	#Gabriella
+	6523.5.15={ birth=yes }
+	6544.1.1={ add_spouse=3464 }
+	6590.5.8={ death=yes }
+}
+3453={
+	name=Gabriella
+	female=yes
+	dynasty=1705
+	dna="eohiobnfhhf"
+	culture=andal 
+	religion=black_flag
+	father=3451	#Fedele
+	mother=3463	#Gabriella
+	6526.6.22={ birth=yes }
+	6581.6.16={ death=yes }
+}
+3454={
+	name=Iole
+	female=yes
+	dynasty=1705
+	dna="popglbifdmo"
+	culture=andal 
+	religion=black_flag
+	father=3451	#Fedele
+	mother=3463	#Gabriella
+	6528.4.12={ birth=yes }
+	6582.7.28={ death=yes }
+}
+3455={
+	name=Cosimo
+	dynasty=1705
+	dna="oohcehpfmmi"
+	culture=andal 
+	religion=black_flag
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=4
+	trait=scholarly_theologian 
+	trait=cruel 
+	trait=patient 
+	trait=zealous 
+	trait=content 
+	trait=chaste 
+	father=3451	#Fedele
+	mother=3463	#Gabriella
+	6532.12.23={ birth=yes }
+	6598.1.6={ death=yes }
+}
+3456={
+	name=Valentino
+	dynasty=1705
+	dna="iohiefafcef"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=martial_cleric 
+	trait=patient 
+	trait=humble 
+	trait=honest 
+	father=3451	#Fedele
+	mother=3463	#Gabriella
+	6534.6.16={ birth=yes }
+	6600.11.11={ death=yes }
+}
+3457={
+	name=Giacinto
+	dynasty=1705
+	dna="elhoenpgcjf"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=6 
+	learning=5
+	trait=scholarly_theologian 
+	trait=duelist 
+	trait=gluttonous 
+	trait=shy 
+	trait=dueling_skilled
+	father=3452	#Annibale
+	mother=3464	#Iole
+	6551.4.4={ birth=yes }
+	6618.2.1={ death=yes }
+}
+3458={
+	name=Isotta
+	female=yes
+	dynasty=1705
+	dna="aoheenbecjk"
+	culture=andal 
+	religion=black_flag
+	father=3452	#Annibale
+	mother=3464	#Iole
+	6553.8.8={ birth=yes }
+	6625.4.11={ death=yes }
+}
+3459={
+	name=Bonifacio
+	dynasty=1705
+	dna="baoelbplfkk"
+	culture=andal 
+	religion=black_flag
+	trait=gregarious 
+	father=3452	#Annibale
+	mother=3464	#Iole
+	6557.7.12={ birth=yes }
+	6626.10.28={ death=yes }
+}
+3460={
+	name=Samuele
+	dynasty=1705
+	dna="mljebngabjd"
+	culture=andal 
+	religion=black_flag
+	trait=wounded 
+	father=3452	#Annibale
+	mother=3464	#Iole
+	6561.7.18={ birth=yes }
+	6624.10.3={ death=yes }
+}
+3461={
+	name=Grazia
+	female=yes
+	dynasty=1705
+	dna="ekheehnebik"
+	culture=andal 
+	religion=black_flag
+	father=3452	#Annibale
+	mother=3464	#Iole
+	6563.12.6={ birth=yes }
+	6609.9.20={ death=yes }
+}
+3462={
+	name=Clementina
+	female=yes
+	dynasty=1705
+	dna="almegngamek"
+	culture=andal 
+	religion=black_flag
+	father=3452	#Annibale
+	mother=3464	#Iole
+	6565.4.15={ birth=yes }
+	6614.12.16={ death=yes }
+}
+3463={
+	name=Gabriella
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6551.1.1={ death=yes }
+}
+3464={
+	name=Iole
+	female=yes
+	culture=andal
+	religion=black_flag
+	6523.1.1={ birth=yes }
+	6590.1.1={ death=yes }
+}
+
+##############
+##Skullstone##
+##############
+
+3465={
+	name=Catone
+	dynasty=1706
+	dna="ccfamfglofa"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	6500.2.21={ birth=yes }
+	6521.1.1={ add_spouse=3472 }
+	6549.1.10={ death=yes }
+}
+3466={
+	name=Elia
+	dynasty=1706
+	dna="dcfamfaaifl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=5 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=gluttonous 
+	trait=charitable 
+	trait=honest 
+	trait=patient 
+	trait=zealous 
+	trait=slow 
+	father=3465	#Catone
+	mother=3472	#Isabella
+	6527.3.9={ birth=yes }
+	6548.1.1={ add_spouse=3473 }
+	6602.8.7={ death=yes }
+}
+3467={
+	name=Vittorio
+	dynasty=1706
+	dna="cdfcmnilofa"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=5 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	trait=elusive_shadow 
+	trait=content 
+	trait=lustful 
+	trait=trusting 
+	trait=dueling_adept
+	father=3465	#Catone
+	mother=3472	#Isabella
+	6532.1.17={ birth=yes }
+	6595.3.2={ death=yes }
+}
+3468={
+	name=Isabella
+	female=yes
+	dynasty=1706
+	dna="mcfahfelbca"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3465	#Catone
+	mother=3472	#Isabella
+	6535.7.8={ birth=yes }
+	6584.3.5={ death=yes }
+}
+3469={
+	name=Moreno
+	dynasty=1706
+	dna="dbfcccaapfe"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=proud
+	father=3466	#Elia
+	mother=3473	#Valeria
+	6555.11.18={ birth=yes }
+	6609.6.29={ death=yes }
+}
+3470={
+	name=Ferdinando
+	dynasty=1706
+	dna="dlgblhampdl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3466	#Elia
+	mother=3473	#Valeria
+	6561.3.24={ birth=yes }
+	6595.5.12={ death=yes }
+}
+3471={
+	name=Daniela
+	female=yes
+	dynasty=1706
+	dna="enpamflgibl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3466	#Elia
+	mother=3473	#Valeria
+	6565.9.7={ birth=yes }
+	6617.8.5={ death=yes }
+}
+3472={
+	name=Isabella
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6549.1.1={ death=yes }
+}
+3473={
+	name=Valeria
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6527.1.1={ birth=yes }
+	6602.1.1={ death=yes }
+}
+
+##############
+##Doomstone##
+##############
+
+3474={
+	name=Crescenzo
+	dynasty=1707
+	dna="faigcmjpiig"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=7 
+	learning=5
+	trait=midas_touched 
+	trait=gardener 
+	trait=ambitious 
+	trait=arbitrary 
+	trait=paranoid 
+	6500.10.4={ birth=yes }
+	6521.1.1={ add_spouse=3483 }
+	6581.8.28={ death=yes }
+}
+3475={
+	name=Abele
+	dynasty=1707
+	dna="aaagcekniid"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=cruel 
+	trait=paranoid 
+	trait=charitable 
+	trait=arbitrary 
+	trait=zealous 
+	trait=dueling_novice
+	father=3474	#Crescenzo
+	mother=3483	#Barbara
+	6525.2.10={ birth=yes }
+	6546.1.1={ add_spouse=3484 }
+	6571.2.13={ death=yes }
+}
+3476={
+	name=Raffaella
+	female=yes
+	dynasty=1707
+	dna="fgnicdjpogg"
+	culture=andal 
+	religion=black_flag
+	father=3474	#Crescenzo
+	mother=3483	#Barbara
+	6529.6.12={ birth=yes }
+	6585.5.28={ death=yes }
+}
+3477={
+	name=Elio
+	dynasty=1707
+	dna="paimepjgaof"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=8 
+	learning=7
+	trait=tough_soldier 
+	trait=wroth 
+	trait=cruel 
+	trait=envious 
+	trait=depressed 
+	father=3474	#Crescenzo
+	mother=3483	#Barbara
+	6532.11.16={ birth=yes }
+	6580.5.26={ death=yes }
+}
+3478={
+	name=Alberta
+	female=yes
+	dynasty=1707
+	dna="fmagcajkihm"
+	culture=andal 
+	religion=black_flag
+	father=3474	#Crescenzo
+	mother=3483	#Barbara
+	6534.1.18={ birth=yes }
+	6586.2.3={ death=yes }
+}
+3479={
+	name=Cinzia
+	female=yes
+	dynasty=1707
+	dna="fdigamcpabg"
+	culture=andal 
+	religion=black_flag
+	father=3474	#Crescenzo
+	mother=3483	#Barbara
+	6536.8.19={ birth=yes }
+	6583.9.9={ death=yes }
+}
+3480={
+	name=Baldovino
+	dynasty=1707
+	dna="mdncclbpiil"
+	culture=andal 
+	religion=black_flag
+	martial=6 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	trait=midas_touched 
+	trait=charitable 
+	trait=temperate 
+	trait=humble 
+	father=3474	#Crescenzo
+	mother=3483	#Barbara
+	6538.3.23={ birth=yes }
+	6587.2.14={ death=yes }
+}
+3481={
+	name=Annibale
+	dynasty=1707
+	dna="goggpdkgiid"
+	culture=andal 
+	religion=black_flag
+	trait=just 
+	trait=slothful 
+	father=3475	#Abele
+	mother=3484	#Daniela
+	6550.10.3={ birth=yes }
+	6618.6.15={ death=yes }
+}
+3482={
+	name=Costantino
+	dynasty=1707
+	dna="nehjpekniib"
+	culture=andal 
+	religion=black_flag
+	trait=diligent
+	trait=dueling_adept
+	father=3475	#Abele
+	mother=3484	#Daniela
+	6551.5.14={ birth=yes }
+	6638.7.29={ death=yes }
+}
+3483={
+	name=Barbara
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6581.1.1={ death=yes }
+}
+3484={
+	name=Daniela
+	female=yes
+	culture=andal
+	religion=black_flag
+	6525.1.1={ birth=yes }
+	6571.1.1={ death=yes }
+}
+
+##############
+##Greydeep##
+##############
+
+3485={
+	name=Spartaco
+	dynasty=1708
+	dna="ehlcjeljofl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	6500.7.8={ birth=yes }
+	6521.1.1={ add_spouse=3495 }
+	6557.9.6={ death=yes }
+}
+3486={
+	name=Rebecca
+	female=yes
+	dynasty=1708
+	dna="ehlcaehkdfm"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3485	#Spartaco
+	mother=3495	#Gina
+	6527.5.13={ birth=yes }
+	6595.4.15={ death=yes }
+}
+3487={
+	name=Edoardo
+	dynasty=1708
+	dna="ofbnjpcjocm"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=5 
+	learning=7
+	trait=misguided_warrior 
+	trait=chaste 
+	trait=wroth 
+	trait=stressed 
+	trait=dueling_skilled
+	trait=tall
+	father=3485	#Spartaco
+	mother=3495	#Gina
+	6530.9.6={ birth=yes }
+	6551.1.1={ add_spouse=3496 }
+	6600.8.12={ death=yes }
+}
+3488={
+	name=Ambrogio
+	dynasty=1708
+	dna="ahlcamlebfl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=6 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=thrifty_clerk 
+	trait=charitable 
+	trait=content 
+	father=3485	#Spartaco
+	mother=3495	#Gina
+	6533.2.14={ birth=yes }
+	6613.11.29={ death=yes }
+}
+3489={
+	name=Fernanda
+	female=yes
+	dynasty=1708
+	dna="hplcndlcnhl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3485	#Spartaco
+	mother=3495	#Gina
+	6536.2.26={ birth=yes }
+	6589.12.27={ death=yes }
+}
+3490={
+	name=Giovanna
+	female=yes
+	dynasty=1708
+	dna="eolnjikjhfl"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3485	#Spartaco
+	mother=3495	#Gina
+	6539.2.14={ birth=yes }
+	6613.5.5={ death=yes }
+}
+3491={
+	name=Michelangelo
+	dynasty=1708
+	dna="eodnjchoepb"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=kind
+	trait=zealous 
+	trait=dueling_adept
+	father=3487	#Edoardo
+	mother=3496	#Fiorenza
+	6556.6.5={ birth=yes }
+	6609.11.21={ death=yes }
+}
+3492={
+	name=Clementina
+	female=yes
+	dynasty=1708
+	dna="ofbejlcihcm"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3487	#Edoardo
+	mother=3496	#Fiorenza
+	6558.5.8={ birth=yes }
+	6630.11.10={ death=yes }
+}
+3493={
+	name=Donato
+	dynasty=1708
+	dna="bfbnjpfjmcm"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=short
+	father=3487	#Edoardo
+	mother=3496	#Fiorenza
+	6563.4.7={ birth=yes }
+	6625.9.30={ death=yes }
+}
+3494={
+	name=Delfina
+	female=yes
+	dynasty=1708
+	dna="hicojplhdcf"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3487	#Edoardo
+	mother=3496	#Fiorenza
+	6565.6.11={ birth=yes }
+	6625.6.16={ death=yes }
+}
+3495={
+	name=Gina
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6557.1.1={ death=yes }
+}
+3496={
+	name=Fiorenza
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6530.1.1={ birth=yes }
+	6600.1.1={ death=yes }
+}
+
+##############
+##Lastport##
+##############
+
+3497={
+	name=Guarino
+	dynasty=1709
+	dna="fenoodchlbf"
+	culture=andal 
+	religion=black_flag
+	6500.9.5={ birth=yes }
+	6521.1.1={ add_spouse=3504 }
+	6558.5.18={ death=yes }
+}
+3498={
+	name=Corrado
+	dynasty=1709
+	dna="lenoodfhldh"
+	culture=andal 
+	religion=black_flag
+	martial=5 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=7 
+	learning=7
+	trait=misguided_warrior 
+	trait=charitable 
+	trait=gluttonous 
+	father=3497	#Guarino
+	mother=3504	#Miranda
+	6522.8.15={ birth=yes }
+	6543.1.1={ add_spouse=3505 }
+	6579.9.28={ death=yes }
+}
+3499={
+	name=Fortunata
+	female=yes
+	dynasty=1709
+	dna="fahojgchlnb"
+	culture=andal 
+	religion=black_flag
+	father=3497	#Guarino
+	mother=3504	#Miranda
+	6527.8.2={ birth=yes }
+	6580.5.19={ death=yes }
+}
+3500={
+	name=Ferdinando
+	dynasty=1709
+	dna="fenoodbbocf"
+	culture=andal 
+	religion=black_flag
+	martial=6 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=grey_eminence 
+	trait=scholar 
+	trait=shy 
+	trait=deceitful 
+	trait=craven 
+	father=3497	#Guarino
+	mother=3504	#Miranda
+	6532.3.12={ birth=yes }
+	6597.3.8={ death=yes }
+}
+3501={
+	name=Giuseppe
+	dynasty=1709
+	dna="lonohdlaljh"
+	culture=andal 
+	religion=black_flag
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=5 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=kind 
+	trait=gluttonous 
+	trait=proud 
+	father=3498	#Corrado
+	mother=3505	#Fioretta
+	6543.12.10={ birth=yes }
+	6564.1.1={ add_spouse=3506 }
+	6604.11.21={ death=yes }
+}
+3502={
+	name=Delmo
+	dynasty=1709
+	dna="lenocdchdmh"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=intricate_webweaver 
+	trait=temperate 
+	trait=trusting 
+	trait=ambitious 
+	trait=craven 
+	father=3498	#Corrado
+	mother=3505	#Fioretta
+	6546.8.5={ birth=yes }
+	6592.6.29={ death=yes }
+}
+3503={
+	name=Adamo
+	dynasty=1709
+	dna="johmholenja"
+	culture=andal 
+	religion=black_flag
+	father=3501	#Giuseppe
+	mother=3506	#Edda
+	6564.11.19={ birth=yes }
+	6622.5.18={ death=yes }
+}
+3504={
+	name=Miranda
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6558.1.1={ death=yes }
+}
+3505={
+	name=Fioretta
+	female=yes
+	culture=andal
+	religion=black_flag
+	6522.1.1={ birth=yes }
+	6579.1.1={ death=yes }
+}
+3506={
+	name=Edda
+	female=yes
+	culture=andal
+	religion=black_flag
+	6543.1.1={ birth=yes }
+	6604.1.1={ death=yes }
+}
+
+##############
+##Moonship##
+##############
+
+3507={
+	name=Salvatore
+	dynasty=1710
+	dna="pjfagafmdoh"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=8 
+	learning=8
+	trait=martial_cleric 
+	trait=humble 
+	trait=slothful 
+	trait=brave 
+	6500.3.8={ birth=yes }
+	6521.1.1={ add_spouse=3517 }
+	6551.1.16={ death=yes }
+}
+3508={
+	name=Fabiola
+	female=yes
+	dynasty=1710
+	dna="eefojafmddb"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3507	#Salvatore
+	mother=3517	#Oriana
+	6528.8.19={ birth=yes }
+	6588.9.11={ death=yes }
+}
+3509={
+	name=Amilcare
+	dynasty=1710
+	dna="pjfeganmdji"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=5 
+	learning=4
+	trait=mastermind_theologian 
+	trait=chaste 
+	trait=ambitious 
+	trait=craven 
+	trait=paranoid 
+	father=3507	#Salvatore
+	mother=3517	#Oriana
+	6529.5.19={ birth=yes }
+	6550.1.1={ add_spouse=3518 }
+	6586.11.22={ death=yes }
+}
+3510={
+	name=Isacco
+	dynasty=1710
+	dna="bjooggpmeoi"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=4 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=honest 
+	trait=patient 
+	trait=possessed 
+	trait=dueling_adept
+	father=3507	#Salvatore
+	mother=3517	#Oriana
+	6532.7.5={ birth=yes }
+	6578.5.21={ death=yes }
+}
+3511={
+	name=Lionella
+	female=yes
+	dynasty=1710
+	dna="pjfagahagpb"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3507	#Salvatore
+	mother=3517	#Oriana
+	6535.5.18={ birth=yes }
+	6596.1.4={ death=yes }
+}
+3512={
+	name=Liborio
+	dynasty=1710
+	dna="bidegddfdjm"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=wroth 
+	trait=gluttonous 
+	trait=cynical
+	father=3509	#Amilcare
+	mother=3518	#Pamela
+	6552.1.7={ birth=yes }
+	6600.7.10={ death=yes }
+}
+3513={
+	name=Camilla
+	female=yes
+	dynasty=1710
+	dna="bjhecfnlhji"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3509	#Amilcare
+	mother=3518	#Pamela
+	6554.3.14={ birth=yes }
+	6586.5.3={ death=yes }
+}
+3514={
+	name=Pamela
+	female=yes
+	dynasty=1710
+	dna="olffeaindji"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3509	#Amilcare
+	mother=3518	#Pamela
+	6556.12.9={ birth=yes }
+	6611.1.8={ death=yes }
+}
+3515={
+	name=Oriana
+	female=yes
+	dynasty=1710
+	dna="pjdleanmdai"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3509	#Amilcare
+	mother=3518	#Pamela
+	6559.11.2={ birth=yes }
+	6626.12.4={ death=yes }
+}
+3516={
+	name=Giuseppe
+	dynasty=1710
+	dna="hjjegdfmljd"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=lisp 
+	father=3509	#Amilcare
+	mother=3518	#Pamela
+	6563.11.25={ birth=yes }
+	6621.3.28={ death=yes }
+}
+3517={
+	name=Oriana
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6551.1.1={ death=yes }
+}
+3518={
+	name=Pamela
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6529.1.1={ birth=yes }
+	6586.1.1={ death=yes }
+}
+
+##############
+##Sunk Isle##
+##############
+
+3519={
+	name=Alighiero
+	dynasty=1711
+	dna="dkichpcjkil"
+	culture=andal 
+	religion=black_flag
+	6499.12.14={ birth=yes }
+	6520.1.1={ add_spouse=3526 }
+	6545.2.6={ death=yes }
+}
+3520={
+	name=Alessio
+	dynasty=1711
+	dna="bnijhbcbkcb"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=5 
+	learning=5
+	trait=martial_cleric 
+	trait=shy 
+	trait=proud 
+	trait=paranoid 
+	trait=depressed 
+	father=3519	#Alighiero
+	mother=3526	#Amra
+	6525.8.8={ birth=yes }
+	6546.1.1={ add_spouse=3527 }
+	6575.6.27={ death=yes }
+}
+3521={
+	name=Adelmo
+	dynasty=1711
+	dna="dkfihpbjkdl"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=midas_touched 
+	trait=cynical 
+	trait=arbitrary 
+	trait=shy 
+	trait=honest 
+	trait=chaste 
+	trait=temperate 
+	trait=strong 
+	father=3519	#Alighiero
+	mother=3526	#Amra
+	6528.4.27={ birth=yes }
+	6602.1.31={ death=yes }
+}
+3522={
+	name=Isa
+	female=yes
+	dynasty=1711
+	dna="bkijdbcbmbb"
+	culture=andal 
+	religion=black_flag
+	father=3520	#Alessio
+	mother=3527	#Luigina
+	6551.12.11={ birth=yes }
+	6601.2.19={ death=yes }
+}
+3523={
+	name=Donato
+	dynasty=1711
+	dna="baffebfeflb"
+	culture=andal 
+	religion=black_flag
+	trait=diligent 
+	trait=cruel
+	father=3520	#Alessio
+	mother=3527	#Luigina
+	6556.1.23={ birth=yes }
+	6606.12.13={ death=yes }
+}
+3524={
+	name=Bonifacio
+	dynasty=1711
+	dna="nhjlgkcbkhk"
+	culture=andal 
+	religion=black_flag
+	father=3520	#Alessio
+	mother=3527	#Luigina
+	6560.12.26={ birth=yes }
+	6592.10.8={ death=yes }
+}
+3525={
+	name=Berta
+	female=yes
+	dynasty=1711
+	dna="bkijgbfbppb"
+	culture=andal 
+	religion=black_flag
+	father=3520	#Alessio
+	mother=3527	#Luigina
+	6562.8.1={ birth=yes }
+	6635.9.4={ death=yes }
+}
+3526={
+	name=Amra
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6545.1.1={ death=yes }
+}
+3527={
+	name=Luigina
+	female=yes
+	culture=andal
+	religion=black_flag
+	6525.1.1={ birth=yes }
+	6575.1.1={ death=yes }
+}
+
+##############
+##Faithport##
+##############
+
+3528={
+	name=Ciriaco
+	dynasty=1712
+	dna="ekkechljldm"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=6 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=midas_touched 
+	trait=gregarious 
+	trait=kind 
+	trait=lisp 
+	6499.9.9={ birth=yes }
+	6520.1.1={ add_spouse=3533 }
+	6568.1.1={ death=yes }
+}
+3529={
+	name=Priscilla
+	female=yes
+	dynasty=1712
+	dna="eidechkjcca"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3528	#Ciriaco
+	mother=3533 #Beata
+	6527.11.20={ birth=yes }
+	6584.4.5={ death=yes }
+}
+3530={
+	name=Fulvio
+	dynasty=1712
+	dna="ekemccljlam"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=7 
+	learning=4
+	trait=tough_soldier 
+	trait=just 
+	trait=patient 
+	trait=charitable 
+	trait=lustful 
+	trait=temperate 
+	trait=dueling_novice
+	father=3528	#Ciriaco
+	mother=3533 #Beata
+	6530.2.16={ birth=yes }
+	6551.1.1={ add_spouse=3534 }
+	6586.8.26={ death=yes }
+}
+3531={
+	name=Ivano
+	dynasty=1712
+	dna="obknceojeam"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=envious
+	father=3530	#Fulvio
+	mother=3534	#Concetta
+	6558.9.17={ birth=yes }
+	6615.7.18={ death=yes }
+}
+3532={
+	name=Silvana
+	female=yes
+	dynasty=1712
+	dna="ckeddcoelab"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3530	#Fulvio
+	mother=3534	#Concetta
+	6561.8.6={ birth=yes }
+	6617.9.29={ death=yes }
+}
+3533={
+	name=Beata
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6568.1.1={ death=yes }
+}
+3534={
+	name=Concetta
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6530.1.1={ birth=yes }
+	6586.1.1={ death=yes }
+}
+
+##############
+##Redstone Isle##
+##############
+
+3535={
+	name=Siro
+	dynasty=1713
+	dna="fklckbnmflf"
+	culture=andal 
+	religion=black_flag
+	6500.2.1={ birth=yes }
+	6521.1.1={ add_spouse=3543 }
+	6554.5.1={ death=yes }
+}
+3536={
+	name=Indro
+	dynasty=1713
+	dna="fhlkebnmglf"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=patient 
+	trait=ambitious 
+	trait=honest 
+	father=3535	#Siro
+	mother=3543 #Fiamma
+	6523.3.7={ birth=yes }
+	6544.1.1={ add_spouse=3544 }
+	6568.5.24={ death=yes }
+}
+3537={
+	name=Flavia
+	female=yes
+	dynasty=1713
+	dna="pkmjkejmflf"
+	culture=andal 
+	religion=black_flag
+	father=3535	#Siro
+	mother=3543 #Fiamma
+	6527.10.12={ birth=yes }
+	6586.7.21={ death=yes }
+}
+3538={
+	name=Ermenegildo
+	dynasty=1713
+	dna="bklkibkcfah"
+	culture=andal 
+	religion=black_flag
+	martial=4 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=4 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=slothful 
+	trait=trusting 
+	trait=dueling_novice
+	father=3535	#Siro
+	mother=3543 #Fiamma
+	6529.9.14={ birth=yes }
+	6603.11.5={ death=yes }
+}
+3539={
+	name=Tullia
+	female=yes
+	dynasty=1713
+	dna="ohlkennagln"
+	culture=andal 
+	religion=black_flag
+	father=3536	#Indro
+	mother=3544 #Flavia
+	6551.9.26={ birth=yes }
+	6605.2.4={ death=yes }
+}
+3540={
+	name=Fiamma
+	female=yes
+	dynasty=1713
+	dna="fhlcgbageeg"
+	culture=andal 
+	religion=black_flag
+	father=3536	#Indro
+	mother=3544 #Flavia
+	6556.10.7={ birth=yes }
+	6626.1.29={ death=yes }
+}
+3541={
+	name=Fiorenza
+	female=yes
+	dynasty=1713
+	dna="dllkebncglf"
+	culture=andal 
+	religion=black_flag
+	father=3536	#Indro
+	mother=3544 #Flavia
+	6559.9.1={ birth=yes }
+	6627.5.5={ death=yes }
+}
+3542={
+	name=Leopoldo
+	dynasty=1713
+	dna="fhlkabjmggf"
+	culture=andal 
+	religion=black_flag
+	trait=short
+	father=3536	#Indro
+	mother=3544 #Flavia
+	6564.12.6={ birth=yes }
+	6625.9.29={ death=yes }
+}
+3543={
+	name=Fiamma
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6554.1.1={ death=yes }
+}
+3544={
+	name=Flavia
+	female=yes
+	culture=andal
+	religion=black_flag
+	6523.1.1={ birth=yes }
+	6568.1.1={ death=yes }
+}
+
+##############
+##Lootpoint##
+##############
+
+3545={
+	name=Ferdinando
+	dynasty=1714
+	dna="jmcdlaednkn"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	6500.6.10={ birth=yes }
+	6521.1.1={ add_spouse=3555 }
+	6559.5.1={ death=yes }
+}
+3546={
+	name=Galeazzo
+	dynasty=1714
+	dna="jmcdiaeonbe"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=4 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=brave 
+	trait=gregarious 
+	trait=honest 
+	trait=cruel 
+	trait=fair 
+	father=3545	#Ferdinando
+	mother=3555	#Martina
+	6525.5.9={ birth=yes }
+	6546.1.1={ add_spouse=3556 }
+	6594.3.5={ death=yes }
+}
+3547={
+	name=Rosalia
+	female=yes
+	dynasty=1714
+	dna="lmndfaddncn"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3545	#Ferdinando
+	mother=3555	#Martina
+	6527.1.3={ birth=yes }
+	6580.1.9={ death=yes }
+}
+3548={
+	name=Adriano
+	dynasty=1714
+	dna="kmjdllpdoke"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=6 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=7 
+	learning=8
+	trait=martial_cleric 
+	trait=cynical 
+	trait=humble 
+	trait=patient 
+	trait=shy 
+	trait=cruel 
+	trait=ambitious 
+	trait=wounded 
+	father=3545	#Ferdinando
+	mother=3555	#Martina
+	6531.5.11={ birth=yes }
+	6583.7.17={ death=yes }
+}
+3549={
+	name=Tommaso
+	dynasty=1714
+	dna="jdckljblnkn"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=envious 
+	trait=charitable 
+	trait=shy 
+	trait=wroth 
+	father=3545	#Ferdinando
+	mother=3555	#Martina
+	6535.11.16={ birth=yes }
+	6595.7.7={ death=yes }
+}
+3550={
+	name=Caio
+	dynasty=1714
+	dna="jmedlifdndn"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=craven 
+	trait=proud 
+	trait=zealous 
+	trait=cruel 
+	trait=lunatic 
+	father=3545	#Ferdinando
+	mother=3555	#Martina
+	6538.8.19={ birth=yes }
+	6590.12.7={ death=yes }
+}
+3551={
+	name=Lionello
+	dynasty=1714
+	dna="omcdigeonbp"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=6 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=4 
+	learning=8
+	trait=tough_soldier 
+	trait=patient 
+	trait=paranoid 
+	trait=deceitful 
+	trait=temperate 
+	trait=just 
+	trait=gregarious 
+	father=3546	#Galeazzo
+	mother=3556	#Rosalia
+	6547.12.24={ birth=yes }
+	6617.3.8={ death=yes }
+}
+3552={
+	name=Lino
+	dynasty=1714
+	dna="gmcniajhgbi"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=patient 
+	trait=greedy
+	father=3546	#Galeazzo
+	mother=3556	#Rosalia
+	6552.4.20={ birth=yes }
+	6595.9.29={ death=yes }
+}
+3553={
+	name=Donato
+	dynasty=1714
+	dna="aialjakinbf"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=craven  
+	trait=stressed
+	father=3546	#Galeazzo
+	mother=3556	#Rosalia
+	6555.12.10={ birth=yes }
+	6608.4.16={ death=yes }
+}
+3554={
+	name=Martina
+	female=yes
+	dynasty=1714
+	dna="hibejaeojbf"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3546	#Galeazzo
+	mother=3556	#Rosalia
+	6560.4.20={ birth=yes }
+	6641.9.21={ death=yes }
+}
+3555={
+	name=Martina
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6559.1.1={ death=yes }
+}
+3556={
+	name=Rosalia
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6525.1.1={ birth=yes }
+	6594.1.1={ death=yes }
+}
+
+##############
+##Fastpoint##
+##############
+
+3557={
+	name=Gianni
+	dynasty=1715
+	dna="mbacjcdghen"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=martial_cleric 
+	trait=slothful 
+	trait=content 
+	trait=wroth 
+	trait=dueling_skilled
+	6500.4.11={ birth=yes }
+	6519.1.1={ add_spouse=3565 }
+	6570.12.25={ death=yes }
+}
+3558={
+	name=Marco
+	dynasty=1715
+	dna="mabkppgeeco"
+	culture=andal 
+	religion=black_flag
+	martial=7 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	trait=tough_soldier 
+	trait=content 
+	trait=humble 
+	trait=cynical 
+	trait=lunatic 
+	father=3557	#Gianni
+	mother=3565	#Pia
+	6519.12.23={ birth=yes }
+	6540.1.1={ add_spouse=3566 }
+	6593.1.13={ death=yes }
+}
+3559={
+	name=Vera
+	female=yes
+	dynasty=1715
+	dna="ibaglielhhn"
+	culture=andal 
+	religion=black_flag
+	father=3557	#Gianni
+	mother=3565	#Pia
+	6523.11.7={ birth=yes }
+	6592.8.22={ death=yes }
+}
+3560={
+	name=Gemma
+	female=yes
+	dynasty=1715
+	dna="mbhcoclfhhn"
+	culture=andal 
+	religion=black_flag
+	father=3557	#Gianni
+	mother=3565	#Pia
+	6528.8.17={ birth=yes }
+	6581.7.22={ death=yes }
+}
+3561={
+	name=Leonardo
+	dynasty=1715
+	dna="maikinffeco"
+	culture=andal 
+	religion=black_flag
+	martial=7 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=cruel 
+	trait=trusting 
+	trait=temperate 
+	trait=gregarious 
+	trait=dueling_skilled
+	trait=tall
+	father=3558	#Marco
+	mother=3566	#Elia
+	6540.10.20={ birth=yes }
+	6600.2.26={ death=yes }
+}
+3562={
+	name=Sabrina
+	female=yes
+	dynasty=1715
+	dna="kmfppmcegca"
+	culture=andal 
+	religion=black_flag
+	father=3558	#Marco
+	mother=3566	#Elia
+	6544.8.18={ birth=yes }
+	6619.6.6={ death=yes }
+}
+3563={
+	name=Giacomo
+	dynasty=1715
+	dna="caaklcmpeco"
+	culture=andal 
+	religion=black_flag
+	martial=7 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=slothful 
+	trait=craven 
+	trait=humble 
+	trait=patient 
+	father=3558	#Marco
+	mother=3566	#Elia
+	6548.5.19={ birth=yes }
+	6617.12.23={ death=yes }
+}
+3564={
+	name=Tommaso
+	dynasty=1715
+	dna="maidaofffho"
+	culture=andal 
+	religion=black_flag
+	father=3561	#Leonardo
+	6563.2.7={ birth=yes }
+	6619.5.28={ death=yes }
+}
+3565={
+	name=Pia
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+3566={
+	name=Elia
+	female=yes
+	culture=andal
+	religion=black_flag
+	6519.1.1={ birth=yes }
+	6593.1.1={ death=yes }
+}
+
+##############
+##Crimson Isle##
+##############
+
+3567={
+	name=Fiorenzo
+	dynasty=1716
+	dna="innihnnnika"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	6499.12.15={ birth=yes }
+	6520.1.1={ add_spouse=3576 }
+	6560.2.20={ death=yes }
+}
+3568={
+	name=Manlio
+	dynasty=1716
+	dna="nbfihnanice"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=6 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=7 
+	learning=7
+	trait=tough_soldier 
+	trait=scholar 
+	trait=trusting 
+	trait=cruel 
+	trait=just 
+	father=3567	#Fiorenzo
+	mother=3576	#Piera
+	6527.7.24={ birth=yes }
+	6548.1.1={ add_spouse=3577 }
+	6601.5.19={ death=yes }
+}
+3569={
+	name=Luciano
+	dynasty=1716
+	dna="jnniacdcija"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=7 
+	learning=5
+	trait=midas_touched 
+	trait=slothful 
+	trait=trusting 
+	trait=cruel 
+	trait=dueling_skilled
+	father=3567	#Fiorenzo
+	mother=3576	#Piera
+	6528.12.26={ birth=yes }
+	6574.9.10={ death=yes }
+}
+3570={
+	name=Biagio
+	dynasty=1716
+	dna="ienihndnidb"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=8 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=midas_touched 
+	trait=craven 
+	trait=ambitious 
+	trait=shy 
+	trait=cynical 
+	trait=diligent 
+	trait=deceitful 
+	father=3567	#Fiorenzo
+	mother=3576	#Piera
+	6533.3.17={ birth=yes }
+	6605.12.25={ death=yes }
+}
+3571={
+	name=Virginio
+	dynasty=1716
+	dna="onninhnjikk"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=7 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=diligent 
+	trait=arbitrary 
+	trait=temperate 
+	trait=dueling_novice
+	father=3567	#Fiorenzo
+	mother=3576	#Piera
+	6539.9.15={ birth=yes }
+	6587.2.8={ death=yes }
+}
+3572={
+	name=Gregorio
+	dynasty=1716
+	dna="mbiegnalicb"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	trait=humble 
+	father=3568	#Manlio
+	mother=3577	#Emilia
+	6553.10.16={ birth=yes }
+	6617.7.2={ death=yes }
+}
+3573={
+	name=Delma
+	female=yes
+	dynasty=1716
+	dna="nfmbhnagice"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3568	#Manlio
+	mother=3577	#Emilia
+	6557.5.20={ birth=yes }
+	6604.2.1={ death=yes }
+}
+3574={
+	name=Franca
+	female=yes
+	dynasty=1716
+	dna="dbfahnandoh"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3568	#Manlio
+	mother=3577	#Emilia
+	6561.2.4={ birth=yes }
+	6614.4.22={ death=yes }
+}
+3575={
+	name=Abelardo
+	dynasty=1716
+	dna="njeiblafkpk"
+	culture=pirate 
+	religion=lady_of_the_rocks
+	father=3568	#Manlio
+	mother=3577	#Emilia
+	6563.11.20={ birth=yes }
+	6625.4.30={ death=yes }
+}
+3576={
+	name=Piera
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6500.1.1={ birth=yes }
+	6560.1.1={ death=yes }
+}
+3577={
+	name=Emilia
+	female=yes
+	culture=pirate
+	religion=lady_of_the_rocks
+	6527.1.1={ birth=yes }
+	6601.1.1={ death=yes }
+}
+
+##############
+##Seastep##
+##############
+
+3578={
+	name=Mario
+	dynasty=1717
+	dna="kmniemonhpd"
+	culture=andal 
+	religion=black_flag
+	6499.3.26={ birth=yes }
+	6520.1.1={ add_spouse=3586 }
+	6558.3.21={ death=yes }
+}
+3579={
+	name=Guido
+	dynasty=1717
+	dna="imbinlmkhpd"
+	culture=andal 
+	religion=black_flag
+	martial=5 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=7 
+	learning=7
+	trait=detached_priest 
+	trait=gregarious 
+	trait=temperate 
+	trait=humble 
+	father=3578	#Mario
+	mother=3586	#Tranquilla
+	6525.2.13={ birth=yes }
+	6546.1.1={ add_spouse=3587 }
+	6580.1.3={ death=yes }
+}
+3580={
+	name=Fabrizio
+	dynasty=1717
+	dna="kbecegkcopg"
+	culture=andal 
+	religion=black_flag
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=detached_priest 
+	trait=paranoid 
+	trait=kind 
+	trait=arbitrary 
+	trait=temperate 
+	father=3578	#Mario
+	mother=3586	#Tranquilla
+	6527.1.10={ birth=yes }
+	6586.11.27={ death=yes }
+}
+3581={
+	name=Goffredo
+	dynasty=1717
+	dna="elniambnipe"
+	culture=andal 
+	religion=black_flag
+	martial=8 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=6 
+	learning=7
+	trait=detached_priest 
+	trait=honest
+	trait=patient 
+	trait=envious 
+	trait=gregarious 
+	trait=humble 
+	trait=stressed 
+	father=3578	#Mario
+	mother=3586	#Tranquilla
+	6532.4.7={ birth=yes }
+	6603.8.7={ death=yes }
+}
+3582={
+	name=Alessio
+	dynasty=1717
+	dna="kbngpmbngpl"
+	culture=andal 
+	religion=black_flag
+	martial=6 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=patient 
+	trait=deceitful 
+	trait=craven 
+	trait=content 
+	trait=cruel 
+	trait=dueling_novice
+	father=3578	#Mario
+	mother=3586	#Tranquilla
+	6537.7.2={ birth=yes }
+	6581.11.14={ death=yes }
+}
+3583={
+	name=Arianna
+	female=yes
+	dynasty=1717
+	dna="ipcdmmkjppd"
+	culture=andal 
+	religion=black_flag
+	father=3579	#Guido
+	mother=3587	#Virginia
+	6548.5.24={ birth=yes }
+	6617.3.26={ death=yes }
+}
+3584={
+	name=Michele
+	dynasty=1717
+	dna="eikinoenjkc"
+	culture=andal 
+	religion=black_flag
+	trait=paranoid 
+	trait=greedy
+	trait=lustful 
+	father=3579	#Guido
+	mother=3587	#Virginia
+	6553.11.26={ birth=yes }
+	6624.4.17={ death=yes }
+}
+3585={
+	name=Fiorenzo
+	dynasty=1717
+	dna="imbjinilbhm"
+	culture=andal 
+	religion=black_flag
+	trait=zealous
+	trait=honest
+	father=3579	#Guido
+	mother=3587	#Virginia
+	6556.2.17={ birth=yes }
+	6611.10.1={ death=yes }
+}
+3586={
+	name=Tranquilla
+	female=yes
+	culture=andal
+	religion=black_flag
+	6500.1.1={ birth=yes }
+	6558.1.1={ death=yes }
+}
+3587={
+	name=Virginia
+	female=yes
+	culture=andal
+	religion=black_flag
+	6525.1.1={ birth=yes }
+	6580.1.1={ death=yes }
+}

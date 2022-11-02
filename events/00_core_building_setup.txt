@@ -1,0 +1,1359 @@
+namespace = core_building_setup
+
+# Created by Rowan
+
+# core_building_setup.1
+#- First event to fire.
+#- Assigns infrastructure AND buildings to specific provinces per province ID.
+#- Sets a flag manual_prov_assignments_cap for capital holding in province assignment
+#- For provinces where all holdings are touched, manual_prov_assignments_all is flagged
+
+# core_building_setup.2
+#- Assigns roads and infrastructure to all non manually defined provinces based on the rank of the owner of the province
+#- secondary / non-primary province titles will be worse than primary title provinces
+#- The roads and infrastructure in question provide the requirements for building additions
+
+# core_building_setup.3
+#- Assigns buildings to all holdings in all provinces, excluding those with the following flags, based on infrastructure:
+#- manual_prov_assignments_cap
+#- manual_prov_assignments_all
+
+
+# TODO:
+# Manually define provinces & assign flag, distribute buildings
+# add extra clauses for different types of holdings
+
+
+character_event = {
+	id = core_building_setup.1
+	hide_window = yes
+	is_triggered_only = yes # Triggered from on_startup
+
+	# Event should fire for owned provinces of all landed characters.
+	only_playable = yes
+
+	trigger = {
+		NOT = { has_character_flag = core_manual_infra_setup_complete }
+		is_save_game = no
+		# has_game_rule = { name = resource_system value = resource_system_enabled }
+	}
+
+	immediate = {
+		set_character_flag = core_manual_infra_setup_complete
+
+		any_demesne_province = {
+			limit = {
+				NOR = {
+					has_province_flag = manual_prov_assignments_cap # Capital holding, the norm, assigned
+					has_province_flag = manual_prov_assignments_all # All holdings, including capital, assigned
+				}
+			}
+			trigger_switch = {
+				on_trigger = province_id
+				# Sunspear
+				429 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_5 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_sunspear_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Highgarden
+				527 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_5 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_highgarden_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Duskendale
+				831 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_duskendale_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Riverrun
+				1000 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_riverrun_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Planky Town
+				444 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_3 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_plankytown_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Castamere
+				889 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_castamere_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Fairmarket
+				1003 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_3 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_fairmarket_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Oldstones
+				1026 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_oldstones_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Blackwater Hill
+				730 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_3 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_blackwaterhill_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Oldtown
+				544 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_5 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_oldtown_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Gulltown
+				1072 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_gulltown_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Lannisport
+				858 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					add_province_modifier = { name = tsk_road_3 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_lannisport_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Blackwater Harbour
+				733 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_3 duration = -1 }
+					add_province_modifier = { name = tsk_road_2 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_blackwaterharbour_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Dun Port
+				829 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					add_province_modifier = { name = tsk_road_2 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_dunport_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Casterly Rock
+				861 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_5 duration = -1 }
+					add_province_modifier = { name = tsk_road_3 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_casterlyrock_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Winterfell
+				1198 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_5 duration = -1 }
+					add_province_modifier = { name = tsk_road_3 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_winterfell_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+				# Pyke
+				1156 = {
+					set_province_flag = manual_prov_assignments_cap
+					add_province_modifier = { name = tsk_infra_4 duration = -1 }
+					add_province_modifier = { name = tsk_road_1 duration = -1 }
+					any_province_holding = {
+						if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_pyke_effect = yes
+						}
+						else_if = {
+							limit = {
+								is_capital = yes
+								holding_type = castle
+							}
+							tsk_infra_3_high = yes
+						}
+						else = {
+							tsk_infra_3_med = yes
+						}
+					}
+				}
+			}
+		}
+
+		character_event = { id = core_building_setup.2 }
+	}
+}
+
+character_event = {
+	id = core_building_setup.2
+	hide_window = yes
+	is_triggered_only = yes # core_building_setup.1
+
+	# Event should fire for owned provinces of all landed characters.
+	only_playable = yes
+
+	trigger = {
+		NOT = { has_character_flag = core_infra_setup_complete }
+		#has_game_rule = { name = resource_system value = resource_system_enabled }
+	}
+
+	immediate = {
+		set_character_flag = core_infra_setup_complete
+
+		trigger_switch = {
+			on_trigger = tier
+
+			count = {
+				any_demesne_province = {
+					if = {
+						limit = {
+							NOR = {
+								has_province_flag = manual_prov_assignments_cap
+								has_province_flag = manual_prov_assignments_all
+							}
+						}
+
+						random_list = {
+					        10 = { set_variable = { which = development_var value = 1 } }
+					        10 = { set_variable = { which = development_var value = 2 } }
+					        10 = { set_variable = { which = development_var value = 3 } }
+					        10 = { set_variable = { which = development_var value = 4 } }
+					        10 = { set_variable = { which = development_var value = 5 } }
+					        10 = { set_variable = { which = development_var value = 6 } }
+					    }
+
+						tsk_development_change_value_effect = yes
+						tsk_development_test_effect = yes
+					}
+				}
+			}
+			duke = {
+				any_demesne_province = {
+					if = {
+						limit = {
+							NOR = {
+								has_province_flag = manual_prov_assignments_cap
+								has_province_flag = manual_prov_assignments_all
+							}
+						}
+
+						random_list = {
+					        10 = { set_variable = { which = development_var value = 4 } }
+					        10 = { set_variable = { which = development_var value = 5 } }
+					        10 = { set_variable = { which = development_var value = 6 } }
+					        10 = { set_variable = { which = development_var value = 7 } }
+					    }
+
+						tsk_development_change_value_effect = yes
+						tsk_development_test_effect = yes
+					}
+				}
+			}
+			king = {
+				any_demesne_province = {
+					if = {
+						limit = {
+							NOR = {
+								has_province_flag = manual_prov_assignments_cap
+								has_province_flag = manual_prov_assignments_all
+							}
+						}
+
+						random_list = {
+					        10 = { set_variable = { which = development_var value = 5 } }
+					        10 = { set_variable = { which = development_var value = 6 } }
+					        10 = { set_variable = { which = development_var value = 7 } }
+					        10 = { set_variable = { which = development_var value = 8 } }
+					    }
+
+						tsk_development_change_value_effect = yes
+						tsk_development_test_effect = yes
+					}
+				}
+			}
+			emperor = {
+				any_demesne_province = {
+					# capital province
+					if = {
+						limit = {
+							NOR = {
+								has_province_flag = manual_prov_assignments_cap
+								has_province_flag = manual_prov_assignments_all
+							}
+						}
+
+						random_list = {
+					        10 = { set_variable = { which = development_var value = 6 } }
+					        10 = { set_variable = { which = development_var value = 7 } }
+					        10 = { set_variable = { which = development_var value = 8 } }
+					        10 = { set_variable = { which = development_var value = 9 } }
+					    }
+
+						tsk_development_change_value_effect = yes
+						tsk_development_test_effect = yes
+					}
+				}
+			}
+		}
+		character_event = { id = core_building_setup.3 }
+	}
+}
+
+#- The following event assigns buildings
+
+character_event = {
+	id = core_building_setup.3
+	hide_window = yes
+	is_triggered_only = yes # Triggered from on_startup
+
+	# Event should fire for owned provinces of all landed characters.
+	only_playable = yes
+
+	trigger = {
+		has_character_flag = core_infra_setup_complete
+
+		NOT = { has_character_flag = core_building_setup_complete }
+		has_game_rule = { name = resource_system value = resource_system_enabled }
+	}
+
+	immediate = {
+		set_character_flag = core_building_setup_complete
+
+		any_demesne_province = {
+			if = {
+				limit = {
+					NOR = {
+						has_province_flag = manual_prov_assignments_cap
+						has_province_flag = manual_prov_assignments_all
+					}
+					OR = {
+						has_province_modifier = tsk_infra_1
+						has_province_modifier = tsk_infra_2
+						has_province_modifier = tsk_infra_3
+						has_province_modifier = tsk_infra_4
+						has_province_modifier = tsk_infra_5
+					}
+				}
+
+				trigger_switch = {
+					on_trigger = region
+
+					# WESTEROS
+					world_westeros = {
+						trigger_switch = {
+							on_trigger = region
+
+							# NORTH
+							world_the_north = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_med = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+
+							# WESTERLANDS
+							world_the_westerlands = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_med = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_med = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+
+							# STORMLANDS
+							world_the_stormlands = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_med = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_med = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_med = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_med = yes
+											}
+											else = {
+												tsk_infra_4_low = yes
+											}
+										}
+									}
+								}
+							}
+
+							# BLACKWATER
+							world_the_blackwater = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_med = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+
+							# THE VALE
+							world_the_vale = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_med = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+
+							# DORNE
+							world_dorne = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+								}
+							}
+
+							# IRON ISLANDS
+							world_the_iron_islands = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+								}
+							}
+
+							# REACH
+							world_the_reach = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_high = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_high = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_med = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_med = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+
+							# RIVERLANDS
+							world_the_riverlands = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_med = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_med = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_med = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					world_essos = {
+						trigger_switch = {
+							on_trigger = region
+
+							# BRAAVOS
+							world_braavos = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+								}
+							}
+
+							# VALYRIA
+							world_valyria = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_high = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_high = yes
+											}
+											else = {
+												tsk_infra_1_med = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_high = yes
+											}
+											else = {
+												tsk_infra_2_med = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_high= yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_high = yes
+											}
+											else = {
+												tsk_infra_3_med = yes
+											}
+										}
+									}
+								}
+							}
+
+							# STEPSTONES
+							world_the_stepstones = {
+								trigger_switch = {
+									on_trigger = has_province_modifier
+
+									tsk_infra_1 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_2 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_3 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_3_low = yes
+											}
+											else = {
+												tsk_infra_1_low = yes
+											}
+										}
+									}
+									tsk_infra_4 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_4_low = yes
+											}
+											else = {
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+									tsk_infra_5 = {
+										any_province_holding = {
+											if = {
+												limit = { is_capital = yes } # Is this the capital holding?
+												tsk_infra_5_low = yes
+											}
+											else = {
+												tsk_infra_2_low = yes
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

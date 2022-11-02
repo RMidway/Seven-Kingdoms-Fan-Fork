@@ -1,0 +1,2943 @@
+###############
+#   ID RANGE  #
+# 15001-16000 #
+###############
+
+
+##################
+### House Frey ###
+##################
+
+15001 = {
+    name = "Line of Patrek"
+    dynasty = 200 # Frey
+    religion = old_gods
+    culture = muddish
+    #occluded = yes
+    father = 602
+    6636.1.1 = { birth=yes }
+    7250.1.1 = { death=yes }
+}
+
+15002 = {
+    name = "Stevron"
+    dynasty = 200 # Frey
+    religion = the_seven
+    culture = riverlander
+
+    father = 15001
+    7250.1.1 = { birth=yes }
+    7292.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+15003 = {
+    name = "Walder" # THE LORD
+    dynasty = 200 # Frey
+    religion = the_seven
+    culture = riverlander
+
+    father = 15002
+    trait = knight
+    7276.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+15004 = {
+    name = "Jason" # HIS BROTHER
+    dynasty = 200 # Frey
+    religion = the_seven
+    culture = riverlander
+
+    father = 15002
+    trait = knight
+    7280.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+15005 = {
+    name = "Patrek" # HIS BROTHER
+    dynasty = 200 # Frey
+    religion = the_seven
+    culture = riverlander
+
+    father = 15002
+    trait = knight
+    7282.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+15006 = {
+    name = "Walda" # HIS BROTHER
+    dynasty = 200 # Frey
+    religion = the_seven
+    culture = riverlander
+
+    father = 15002
+    female = yes
+    7283.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+#######################
+### House Mallister ###
+#######################
+
+15007 = {
+    name = "Line of Myles"
+    dynasty = 202 # Mallister
+    father = 606
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+    6612.1.1 = { birth=yes }
+    7240.1.1 = { death=yes }
+}
+
+15008 = {
+    name = "Denis" # THE LORD
+    dynasty = 202 # Mallister
+    father = 15007
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_skilled
+    trait = knight
+    7240.1.1 = { birth=yes }
+    7300.1.1 = { death=yes }
+}
+
+15009 = {
+    name = "Dontos" # HIS SON / HEIR
+    dynasty = 202 # Mallister
+    father = 15008
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_expert
+    trait = knight
+    7263.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15010 = {
+    name = "Tristan" # HIS 2ND SON
+    dynasty = 202 # Mallister
+    father = 15008
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_skilled
+    trait = knight
+    7265.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15011 = {
+    name = "Mylessa" # HIS GRANDDAUGHTER
+    dynasty = 202 # Mallister
+    father = 15010
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7284.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+###################
+### House Tully ###
+###################
+
+15012 = {
+    name = "Line of Brynden"
+    dynasty = 204 # Tully
+    father = 617
+    religion = old_gods
+    culture = rivermen
+    #occluded = yes
+    6630.1.1 = { birth=yes }
+    7210.1.1 = { death=yes }
+}
+
+15013 = {
+    name = "Hoster" # LORD 1
+    dynasty = 204 # Tully
+    father = 15012
+    religion = the_seven
+    culture = tullyan
+    trait = knight
+    7210.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7267.1.1 = { death=yes }
+}
+
+15014 = {
+    name = "Lysa"
+    dynasty = 204 # Tully
+    father = 15013
+    religion = the_seven
+    culture = tullyan
+    female  = yes
+    7239.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7300.1.1 = { death=yes }
+}
+
+15015 = {
+    name = "Kermit" # LORD 2
+    dynasty = 204 # Tully
+    father = 15013
+    religion = the_seven
+    culture = tullyan
+    trait = knight
+    7242.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7299.1.1 = { death=yes }
+}
+
+15016 = {
+    name = "Axel" 
+    dynasty = 204 # Tully
+    father = 15013
+    religion = the_seven
+    culture = tullyan
+    7244.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7310.1.1 = { death=yes }
+}
+
+15017 = {
+    name = "Alester" 
+    dynasty = 204 # Tully
+    father = 15016
+    religion = the_seven
+    culture = tullyan
+    7265.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7322.1.1 = { death=yes }
+}
+
+15018 = {
+    name = "Catelyn" 
+    dynasty = 204 # Tully
+    father = 15016
+    religion = the_seven
+    culture = tullyan
+    female = yes
+    7272.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7322.1.1 = { death=yes }
+}
+
+15019 = {
+    name = "Edmund" # THE CURRENT LORD
+    dynasty = 204 # Tully
+    father = 15015
+    religion = the_seven
+    culture = tullyan
+    trait = knight
+    7270.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7321.1.1 = { death=yes }
+}
+
+15020 = {
+    name = "Ben" # HIS BROTHER
+    dynasty = 204 # Tully
+    father = 15015
+    religion = the_seven
+    culture = tullyan
+    trait = knight
+    7273.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7321.1.1 = { death=yes }
+}
+
+15021 = {
+    name = "Edmure" # THE HEIR
+    dynasty = 204 # Tully
+    father = 15019
+    religion = the_seven
+    culture = tullyan
+    trait = knight
+    7292.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7350.1.1 = { death=yes }
+}
+
+15022 = {
+    name = "Bethany" # HIS DAUGHTER
+    dynasty = 204 # Tully
+    father = 15019
+    religion = the_seven
+    culture = tullyan
+    female = yes
+    7293.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = riverlander
+		}
+	}
+    7350.1.1 = { death=yes }
+}
+
+#######################
+### House Lolliston ###
+#######################
+
+15023 = {
+    name = "Line of Logan"
+    dynasty = 205 # Lolliston
+    father = 612
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+    6625.1.1 = { birth=yes }
+    7240.1.1 = { death=yes }
+}
+
+15024 = {
+    name = "Jacob" # HIS FATHER / LORD 1
+    dynasty = 205 # Lolliston
+    father = 15023
+    religion = the_seven
+    culture = riverlander
+    
+    7240.1.1 = { birth=yes }
+    7297.1.1 = { death=yes }
+}
+
+15025 = {
+    name = "Larry" # THE LORD
+    dynasty = 205 # Lolliston
+    father = 15024
+    religion = the_seven
+    culture = riverlander
+    
+    7272.1.1 = { birth=yes }
+    7325.1.1 = { death=yes }
+}
+
+15026 = {
+    name = "Elmo" # HIS BROTHER
+    dynasty = 205 # Lolliston
+    father = 15024
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7272.1.1 = { birth=yes }
+    7325.1.1 = { death=yes }
+}
+
+15027 = {
+    name = "Aleric" # HIS NEPHEW
+    dynasty = 205 # Lolliston
+    father = 15026
+    religion = the_seven
+    culture = riverlander
+    
+    7292.1.1 = { birth=yes }
+    7350.1.1 = { death=yes }
+}
+
+15028 = {
+    name = "Jacob" # HIS NEPHEW
+    dynasty = 205 # Lolliston
+    father = 15026
+    religion = the_seven
+    culture = riverlander
+    
+    7292.1.1 = { birth=yes }
+    7350.1.1 = { death=yes }
+}
+
+15029 = {
+    name = "Lyana" # HIS DAUGHTER
+    dynasty = 205 # Lolliston
+    father = 15025
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7290.1.1 = { birth=yes }
+    7348.1.1 = { death=yes }
+}
+
+#######################
+### House Lychester ###
+#######################
+
+15030 = {
+    name = "Line of Lymond"
+    dynasty = 206 # Lychester
+    father = 616
+    religion=the_seven
+    culture = riverlander
+    #occluded = yes
+    6632.1.1 = { birth=yes }
+    7238.1.1 = { death=yes }
+}
+
+15031 = {
+    name = "Lyonel" # HIS FATHER / LORD 1
+    dynasty = 206 # Lychester
+    father = 15030
+    religion=the_seven
+    culture = riverlander
+    trait = knight
+    7238.1.1 = { birth=yes }
+    7285.1.1 = { death=yes }
+}
+
+15032 = {
+    name = "Lymond" # THE LORD
+    dynasty = 206 # Lychester
+    father = 15031
+    religion=the_seven
+    culture = riverlander
+    trait = knight
+    7260.1.1 = { birth=yes }
+    7319.1.1 = { death=yes }
+}
+
+15033 = {
+    name = "Larys" # HIS BROTHER
+    dynasty = 206 # Lychester
+    father = 15031
+    religion=the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7264.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15034 = {
+    name = "Sara" # HIS SISTER
+    dynasty = 206 # Lychester
+    father = 15031
+    religion=the_seven
+    culture = riverlander
+    female = yes
+    7264.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15035 = {
+    name = "Lymond" # HIS HEIR
+    dynasty = 206 # Lychester
+    father = 15032
+    religion=the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    7280.1.1 = { birth=yes }
+    7338.1.1 = { death=yes }
+}
+
+#######################
+### House Blackwood ###
+#######################
+
+15036 = {
+    name = "Line of Lucas"
+    dynasty = 207 # Blackwood
+    father = 619
+    religion = old_gods
+    culture = riverlander
+    #occluded = yes
+    6611.1.1 = { birth=yes }
+    6970.1.1 = { death=yes }
+}
+
+15037 = {
+    name = "Brynden"
+    dynasty = 207 # Blackwood
+    father = 15036
+    religion = old_gods
+    culture = riverlander
+    
+    6970.1.1 = { birth=yes }
+    7029.1.1 = { death=yes }
+}
+
+15038 = {
+    name = "Line of Brynden"
+    dynasty = 207 # Blackwood
+    father = 15037
+    religion = old_gods
+    culture = riverlander
+    #occluded = yes
+    7029.1.1 = { birth=yes }
+    7230.1.1 = { death=yes }
+}
+
+15039 = {	  
+    name = "Alyn" #### LORD 1 ####
+    dynasty = 207 # Blackwood
+    father = 15038
+    religion = old_gods
+    culture = riverlander
+    
+    7230.1.1 = { birth=yes }
+    7280.1.1 = { death=yes }
+}
+
+15040 = {	  
+    name = "Robert" #### LORD 2 ####
+    dynasty = 207 # Blackwood
+    father = 15039
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_expert
+    7246.1.1 = { birth=yes }
+     7292.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+15041 = {	  
+    name = "Hoster" #### ROBERTS BROTHER ####
+    dynasty = 207 # Blackwood
+    father = 15039
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_adept
+    7252.1.1 = { birth=yes }
+    7292.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+15042 = {	  
+    name = "Lucas" #### ROBERTS BROTHER ####
+    dynasty = 207 # Blackwood
+    father = 15039
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_skilled
+    7255.1.1 = { birth=yes }
+    7292.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+15043 = {	  
+    name = "Tytos" #### THE LORD  
+    dynasty = 207 # Blackwood
+    father = 15040
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_expert
+    7266.1.1 = { birth=yes }
+    7320.1.1 = { death=yes }    
+}
+
+15044 = {	  
+    name = "Roderick" #### HIS BROTHER 
+    dynasty = 207 # Blackwood
+    father = 15040
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_novice
+    7270.1.1 = { birth=yes }
+    7323.1.1 = { death=yes }    
+}
+
+15045 = {	  
+    name = "Quentyn" #### HIS NEPHEW
+    dynasty = 207 # Blackwood
+    father = 15044
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_master
+    7286.1.1 = { birth=yes }
+    7350.1.1 = { death=yes }    
+}
+
+15046 = {	  
+    name = "Robb" #### HIS HEIR 
+    dynasty = 207 # Blackwood
+    father = 15043
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_skilled
+    trait = skilled_tactician
+    martial = 7
+    7282.1.1 = { birth=yes }
+    7343.1.1 = { death=yes }    
+}
+
+15047 = {	  
+    name = "Bennifer" #### HIS SON
+    dynasty = 207 # Blackwood
+    father = 15043
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_skilled
+    7284.1.1 = { birth=yes }
+    7343.1.1 = { death=yes }    
+}
+
+15048 = {	  
+    name = "Roger" #### HIS SON 
+    dynasty = 207 # Blackwood
+    father = 15043
+    religion = old_gods
+    culture = riverlander
+    trait = dueling_adept
+    7289.1.1 = { birth=yes }
+    7348.1.1 = { death=yes }    
+}
+
+15049 = {	  
+    name = "Agnes" #### HIS SON 
+    dynasty = 207 # Blackwood
+    father = 15043
+    religion = old_gods
+    culture = riverlander
+    female = yes
+    7290.1.1 = { birth=yes }
+    7367.1.1 = { death=yes }    
+}
+
+#####################
+### House Bracken ###
+#####################
+
+15050 = {
+    name = "Line of Hendry"
+    dynasty = 208 # Bracken
+    father = 625
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+
+    6629.1.1 = { birth=yes }
+    6980.1.1 = { death=yes }
+}
+
+15051 = {
+    name = "Harry" # LORD 1
+    dynasty = 208 # Bracken
+    father = 15050
+    religion = the_seven
+    culture = riverlander
+
+    6980.1.1 = { birth=yes }
+    7042.1.1 = { death=yes }
+}
+
+15052 = {
+    name = "Jayne"
+    dynasty = 208 # Bracken
+    father = 15050
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    6983.1.1 = { birth=yes }
+    7042.1.1 = { death=yes }
+}
+
+15053 = {
+    name = "Line of Harry" 
+    dynasty = 208 # Bracken
+    father = 15051
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+    7042.1.1 = { birth=yes }
+    7225.1.1 = { death=yes }
+}
+
+15054 = {
+    name = "Marq" # LORD 2 
+    dynasty = 208 # Bracken
+    father = 15053
+    religion = the_seven
+    culture = riverlander
+    
+    7225.1.1 = { birth=yes }
+    7280.1.1 = { death=yes }
+}
+
+15055 = {
+    name = "Edmyn" # LORD 3 
+    dynasty = 208 # Bracken
+    father = 15054
+    religion = the_seven
+    culture = riverlander
+    
+    7241.1.1 = { birth=yes }
+    7295.1.1 = { death=yes }
+}
+
+15056 = {
+    name = "Ben" # CURRENT THE LORD 
+    dynasty = 208 # Bracken
+    father = 15055
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    7260.1.1 = { birth=yes }
+    7319.1.1 = { death=yes }
+}
+
+15057 = {
+    name = "Bess" # HIS SISTER
+    dynasty = 208 # Bracken
+    father = 15055
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7275.1.1 = { birth=yes }
+    7342.1.1 = { death=yes }
+}
+
+15058 = {
+    name = "Jonos" # HIS HEIR
+    dynasty = 208 # Bracken
+    father = 15056
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_novice
+    7283.1.1 = { birth=yes }
+    7339.1.1 = { death=yes }
+}
+
+15059 = {
+    name = "Hendry" # HIS SON
+    dynasty = 208 # Bracken
+    father = 15056
+    religion = the_seven
+    culture = riverlander
+    7290.1.1 = { birth=yes }
+    7352.1.1 = { death=yes }
+}
+
+15060 = {
+    name = "Barbara" # HIS DAUGHTER
+    dynasty = 208 # Bracken
+    father = 15056
+    religion = the_seven
+    culture = riverlander
+    trait = twin
+    female = yes
+    7293.1.1 = { birth=yes }
+    7351.1.1 = { death=yes }
+}
+
+15061 = {
+    name = "Alysanne" # HIS DAUGHTER
+    dynasty = 208 # Bracken
+    father = 15056
+    religion = the_seven
+    culture = riverlander
+    trait = twin
+    female = yes
+    7293.1.1 = { birth=yes }
+    7357.1.1 = { death=yes }
+}
+
+###################
+### House Vance ###
+###################
+
+15062 = {
+    name = "Line of Robert"
+    dynasty = 209 # Vance
+    father = 630
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+    6622.1.1 = { birth=yes }
+    7225.1.1 = { death=yes }
+}
+
+15063 = {
+    name = "Dafyn" # LORD 1
+    dynasty = 209 # Vance
+    father = 15062
+    religion = the_seven
+    culture = riverlander
+    
+    7225.1.1 = { birth=yes }
+    7276.1.1 = { death=yes }
+}
+
+15064 = {
+    name = "Karyl" # LORD 2
+    dynasty = 209 # Vance
+    father = 15063
+    religion = the_seven
+    culture = riverlander
+    
+    7241.1.1 = { birth=yes }
+    7286.1.1 = { death=yes }
+}
+
+15065 = {
+    name = "Patrek" 
+    dynasty = 209 # Vance
+    father = 15063
+    religion = the_seven
+    culture = riverlander
+    
+    7242.1.1 = { birth=yes }
+    7297.1.1 = { death=yes }
+}
+
+15066 = {
+    name = "Liane" 
+    dynasty = 209 # Vance
+    father = 15065
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7277.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+
+15067 = {
+    name = "Karyl" # THE CURRENT LORD
+    dynasty = 209 # Vance
+    father = 15064
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7263.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15068 = {
+    name = "Rhialta" # HIS SISTER
+    dynasty = 209 # Vance
+    father = 15064
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7266.1.1 = { birth=yes }
+    7329.1.1 = { death=yes }
+}
+
+15069 = {
+    name = "Emphyria" # HIS SISTER
+    dynasty = 209 # Vance
+    father = 15064
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7270.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15070 = {
+    name = "Armistead" # HIS HEIR
+    dynasty = 209 # Vance
+    father = 15067
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7283.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+15071 = {
+    name = "Walder" # HIS SON
+    dynasty = 209 # Vance
+    father = 15067
+    religion = the_seven
+    culture = riverlander
+    
+    7290.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+#######################
+### House Goodbrook ###
+#######################
+
+15072 = {
+    name = "Line of Karl"
+    dynasty = 210 # Goodbrook
+    father = 632
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+    6631.1.1 = { birth=yes }
+    7250.1.1 = { death=yes }
+}
+
+15073 = {
+    name = "Gyles" # THE LORD
+    dynasty = 210 # Goodbrook
+    father = 15072
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7250.1.1 = { birth=yes }
+    7306.1.1 = { death=yes }
+}
+
+15074 = {
+    name = "Gylbert"
+    dynasty = 210 # Goodbrook
+    father = 15073
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7275.1.1 = { birth=yes }
+    7331.1.1 = { death=yes }
+}
+
+15075 = {
+    name = "Garth"
+    dynasty = 210 # Goodbrook
+    father = 15073
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7278.1.1 = { birth=yes }
+    7341.1.1 = { death=yes }
+}
+
+15076 = {
+    name = "Gilly"
+    dynasty = 210 # Goodbrook
+    father = 15073
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7282.1.1 = { birth=yes }
+    7339.1.1 = { death=yes }
+}
+
+###################
+### House Kanet ###
+###################
+
+15077 = {
+    name = "Line of Kyle"
+    dynasty = 211 # Kanet
+    father = 635
+    religion = the_seven
+    culture = craggon
+    #occluded = yes
+
+    6623.1.1 = { birth=yes }
+    7247.1.1 = { death=yes }
+}
+
+15078 = {
+    name = "Kevan"
+    dynasty = 211 # Kanet
+    father = 15077
+    religion = the_seven
+    culture = riverlander
+
+    7247.1.1 = { birth=yes }
+    7292.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+15079 = {
+    name = "Ken" # THE LORD
+    dynasty = 211 # Kanet
+    father = 15078
+    religion = the_seven
+    culture = riverlander
+    
+    7270.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+
+15080 = {
+    name = "Kendra"
+    dynasty = 211 # Kanet
+    father = 15078
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7270.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+
+15081 = {
+    name = "Robert" # THE HEIR
+    dynasty = 211 # Kanet
+    father = 15079
+    religion = the_seven
+    culture = riverlander
+    
+    7294.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+15082 = {
+    name = "Jason" # HIS 2ND SON
+    dynasty = 211 # Kanet
+    father = 15079
+    religion = the_seven
+    culture = riverlander
+    
+    7297.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+15083 = {
+    name = "Katelyn" # HIS DAUGHTER
+    dynasty = 211 # Kanet
+    father = 15079
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7298.1.1 = { birth=yes }
+    7358.1.1 = { death=yes }
+}
+
+###################
+### House Grave ###
+###################
+
+15084 = {
+    name = "Line of Hoster"
+    dynasty = 212 # Grave
+    father = 640
+    religion = the_seven
+    culture = riverlander
+    #occluded = yes
+    6630.1.1 = { birth=yes }
+    7240.1.1 = { death=yes }
+}
+
+15085 = {
+    name = "Devan"
+    dynasty = 212 # Grave
+    father = 15084
+    religion = the_seven
+    culture = riverlander
+    
+    7240.1.1 = { birth=yes }
+    7304.1.1 = { death=yes }
+}
+
+15086 = {
+    name = "Geramy"
+    dynasty = 212 # Grave
+    father = 15085
+    religion = the_seven
+    culture = riverlander
+    
+    7256.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+15087 = {
+    name = "Endrew"
+    dynasty = 212 # Grave
+    father = 15086
+    religion = the_seven
+    culture = riverlander
+    
+    7272.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+15088 = {
+    name = "Mikkel"
+    dynasty = 212 # Grave
+    father = 15087
+    religion = the_seven
+    culture = riverlander
+    
+    7286.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+####################
+### House Vypren ###
+####################
+
+15089 = {
+    name = "Line of Lucias"
+    dynasty = 213 # Vypren
+    father = 643
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6621.1.1 = { birth=yes }
+    7220.1.1 = { death=yes }
+}
+
+15090 = {
+    name = "Bernarr" # LORD 1 
+    dynasty = 213 # Vypren
+    father = 15089
+    religion = the_seven
+    culture = riverlander
+    
+    7220.1.1 = { birth=yes }
+    7264.1.1 = { death=yes }
+}
+
+15091 = {
+    name = "Addam" # LORD 2
+    dynasty = 213 # Vypren
+    father = 15090
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7242.1.1 = { birth=yes }
+    7299.1.1 = { death=yes }
+}
+
+15092 = {
+    name = "Florian" # 
+    dynasty = 213 # Vypren
+    father = 15090
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7248.1.1 = { birth=yes }
+    7308.1.1 = { death=yes }
+}
+
+15093 = {
+    name = "Raymond" # 
+    dynasty = 213 # Vypren
+    father = 15090
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7257.1.1 = { birth=yes }
+    7320.1.1 = { death=yes }
+}
+
+15094 = {
+    name = "Willam"
+    dynasty = 213 # Vypren
+    father = 15093
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7277.1.1 = { birth=yes }
+    7339.1.1 = { death=yes }
+}
+
+15095 = {
+    name = "Kyra"
+    dynasty = 213 # Vypren
+    father = 15093
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7280.1.1 = { birth=yes }
+    7336.1.1 = { death=yes }
+}
+
+15096 = {
+    name = "Osmund" # LORD 3 / CURRENT LORD
+    dynasty = 213 # Vypren
+    father = 15091
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    7262.1.1 = { birth=yes }
+    7320.1.1 = { death=yes }
+}
+
+15097 = {
+    name = "Yolanda" # HIS DAUGHTER
+    dynasty = 213 # Vypren
+    father = 15096
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7281.1.1 = { birth=yes }
+    7337.1.1 = { death=yes }
+}
+
+15098 = {
+    name = "Amyra" # HIS DAUGHTER
+    dynasty = 213 # Vypren
+    father = 15096
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7285.1.1 = { birth=yes }
+    7337.1.1 = { death=yes }
+}
+
+15099 = {
+    name = "Sandor" # HIS SON AND HEIR
+    dynasty = 213 # Vypren
+    father = 15096
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_expert
+    7288.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+15100 = {
+    name = "Garibald" # HIS 2ND SON
+    dynasty = 213 # Vypren
+    father = 15096
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_skilled
+    7289.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+######################
+### House Charlton ###
+######################
+
+15101 = {
+    name = "Line of Edd"
+    dynasty = 215 # Charlton
+    father = 649 
+    religion = old_gods
+    culture = muddish
+    occluded = yes
+    6629.1.1 = { birth=yes }
+    7250.1.1 = { death=yes }
+}
+
+15102 = {
+    name = "Garrett"
+    dynasty = 215 # Charlton
+    father = 15101
+    religion = the_seven
+    culture = riverlander
+    
+    7250.1.1 = { birth=yes }
+    7307.1.1 = { death=yes }
+}
+
+15103 = {
+    name = "Lister"
+    dynasty = 215 # Charlton
+    father = 15102
+    religion = the_seven
+    culture = riverlander
+    
+    7274.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15104 = {
+    name = "Hostella"
+    dynasty = 215 # Charlton
+    father = 15102
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7278.1.1 = { birth=yes }
+    7327.1.1 = { death=yes }
+}
+
+15105 = {
+    name = "Josua"
+    dynasty = 215 # Charlton
+    father = 15102
+    religion = the_seven
+    culture = riverlander
+    
+    7280.1.1 = { birth=yes }
+    7327.1.1 = { death=yes }
+}
+
+15106 = {
+    name = "Eddyn"
+    dynasty = 215 # Charlton
+    father = 15102
+    religion = the_seven
+    culture = riverlander
+    
+    7281.1.1 = { birth=yes }
+    7327.1.1 = { death=yes }
+}
+
+###################
+### House Haigh ###
+###################
+
+15107 = {
+    name = "Line of Humfrey"
+    dynasty = 220
+    father = 673
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6608.1.1 = { birth=yes }
+    7230.1.1 = { death=yes }
+}
+
+15108 = {
+    name = "Garse" # LORD 1
+    dynasty = 220 
+    father = 15107
+    religion = the_seven
+    culture = riverlander
+   
+    7230.1.1 = { birth=yes }
+    7283.1.1 = { death=yes }
+}
+
+15109 = {
+    name = "Kennith" # THE CURRENT LORD
+    dynasty = 220
+    father = 15108
+    religion = the_seven
+    culture = riverlander
+   
+    7250.1.1 = { birth=yes }
+    7306.1.1 = { death=yes }
+}
+
+15110 = {
+    name = "Gaston"
+    dynasty = 220
+    father = 15108
+    religion = the_seven
+    culture = riverlander
+   
+    7254.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+15111 = {
+    name = "Iliifer"
+    dynasty = 220
+    father = 15110
+    religion = the_seven
+    culture = riverlander
+   
+    7275.1.1 = { birth=yes }
+    7337.1.1 = { death=yes }
+}
+
+15112 = {
+    name = "Arwood" # HIS HEIR
+    dynasty = 220
+    father = 15109
+    religion = the_seven
+    culture = riverlander
+   
+    7276.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15113 = {
+    name = "Pate" #
+    dynasty = 220
+    father = 15109
+    religion = the_seven
+    culture = riverlander
+   
+    7279.1.1 = { birth=yes }
+    7328.1.1 = { death=yes }
+}
+
+15114 = {
+    name = "Orissa" #
+    dynasty = 220
+    father = 15109
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7281.1.1 = { birth=yes }
+    7350.1.1 = { death=yes }
+}
+
+######################
+### House Erenford ###
+######################
+
+15115 = {
+    name = "Line of Tarbeck"
+    dynasty = 221
+    father = 680
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6609.1.1 = { birth=yes }
+    7250.1.1 = { death=yes }
+}
+
+15116 = {
+    name = "Pyron" # LORD 1
+    dynasty = 221
+    father = 15115
+    religion = the_seven
+    culture = riverlander
+    
+    7250.1.1 = { birth=yes }
+    7309.1.1 = { death=yes }
+}
+
+15117 = {
+    name = "Hugor" # HIS HEIR
+    dynasty = 221
+    father = 15116
+    religion = the_seven
+    culture = riverlander
+    
+    7273.1.1 = { birth=yes }
+    7336.1.1 = { death=yes }
+}
+
+15118 = {
+    name = "Symond"
+    dynasty = 221
+    father = 15116
+    religion = the_seven
+    culture = riverlander
+    
+    7275.1.1 = { birth=yes }
+    7331.1.1 = { death=yes }
+}
+
+15119 = {
+    name = "Minisa"
+    dynasty = 221
+    father = 15118
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7295.1.1 = { birth=yes }
+    7352.1.1 = { death=yes }
+}
+
+15120 = {
+    name = "Randa"
+    dynasty = 221
+    father = 15118
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7296.1.1 = { birth=yes }
+    7351.1.1 = { death=yes }
+}
+
+15121 = {
+    name = "Barba"
+    dynasty = 221
+    father = 15118
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7297.1.1 = { birth=yes }
+    7355.1.1 = { death=yes }
+}
+
+15122 = {
+    name = "Lacey"
+    dynasty = 221
+    father = 15118
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7298.1.1 = { birth=yes }
+    7359.1.1 = { death=yes }
+}
+
+15123 = {
+    name = "Zia"
+    dynasty = 221
+    father = 15118
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7299.1.1 = { birth=yes }
+    7347.1.1 = { death=yes }
+}
+
+15124 = {
+    name = "Robin" 
+    dynasty = 221
+    father = 15117
+    religion = the_seven
+    culture = riverlander
+    
+    7295.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+#############################
+### House Darry Ancestors ###
+#############################
+
+15125 = {
+    name = "Jason"  # The First King
+    dynasty = 234
+    
+    religion = old_gods
+    culture = crabmen
+    
+    6321.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+15126 = {
+    name = "Dale" # The Second King
+    dynasty = 234
+    father = 15125
+    religion = old_gods
+    culture = crabmen
+    
+    6343.1.1 = { birth=yes }
+    6400.1.1 = { death=yes }
+}
+
+15127 = {
+    name = "Renfred" # The Third King
+    dynasty = 234
+    father = 15126
+    religion = old_gods
+    culture = crabmen
+    
+    6369.1.1 = { birth=yes }
+    6430.1.1 = { death=yes }
+}
+
+15128 = {
+    name = "Osfryd" # The Fourth King
+    dynasty = 234
+    father = 15127
+    religion = old_gods
+    culture = crabmen
+    
+    6400.1.1 = { birth=yes }
+    6460.1.1 = { death=yes }
+}
+
+15129 = {
+    name = "Denys" 
+    dynasty = 234
+    father = 15128
+    religion = old_gods
+    culture = crabmen
+    
+    6421.1.1 = { birth=yes }
+    6457.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+15130 = {
+    name = "Davos" # The Fifth King
+    dynasty = 234
+    father = 15128
+    religion = the_seven
+    culture = crabmen
+    
+    6424.1.1 = { birth=yes }
+    6480.1.1 = { death=yes }
+}
+
+15131 = {
+    name = "Daryn" # The Sixth King
+    dynasty = 234
+    father = 15130
+    religion = old_gods
+    culture = crabmen
+    
+    6450.1.1 = { birth=yes }
+    6512.1.1 = { death=yes }
+}
+
+15132 = {
+    name = "Daryn" # The Seventh King
+    dynasty = 234
+    father = 15131
+    religion = old_gods
+    culture = crabmen
+    
+    6475.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+}
+
+15133 = {
+    name = "Marq" # The Eighth King
+    dynasty = 234
+    father = 15132
+    religion = old_gods
+    culture = crabmen
+    
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+15134 = {
+    name = "Lothar"
+    dynasty = 234
+    father = 15132
+    religion = old_gods
+    culture = crabmen
+    
+    6504.1.1 = { birth=yes }
+    6570.1.1 = { death=yes }
+}
+
+15135 = {
+    name = "Alla"
+    dynasty = 234
+    father = 15132
+    religion = old_gods
+    culture = crabmen
+    female = yes
+    6505.1.1 = { birth=yes }
+    6565.1.1 = { death=yes }
+}
+
+15136 = {
+    name = "Galbart"
+    dynasty = 234
+    father = 15134
+    religion = old_gods
+    culture = crabmen
+    
+    6526.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+15137 = {
+    name = "Brella"
+    dynasty = 234
+    father = 15134
+    religion = old_gods
+    culture = crabmen
+    female = yes
+    6530.1.1 = { birth=yes }
+    6598.1.1 = { death=yes }
+}
+
+15138 = {
+    name = "Tanda"
+    dynasty = 234
+    father = 15134
+    religion = old_gods
+    culture = crabmen
+    female = yes
+    6533.1.1 = { birth=yes }
+    6598.1.1 = { death=yes }
+}
+
+15139 = {
+    name = "Ferret"
+    dynasty = 234
+    father = 15136
+    religion = old_gods
+    culture = crabmen
+    
+    6544.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+15140 = {
+    name = "Cregan"
+    dynasty = 234
+    father = 15136
+    religion = old_gods
+    culture = crabmen
+    trait = strong
+    trait = dueling_master
+    6546.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+#############################
+### House Piper Ancestors ###
+#############################
+
+15141 = {
+    name = "Athos" # The First King 
+    dynasty = 244
+    
+    religion = the_seven
+    culture = riverlander
+    6430.1.1 = { birth=yes }
+    6490.1.1 = { death=yes }
+}
+
+15142 = {
+    name = "Athos" # The Second King 
+    dynasty = 244
+    father = 15141
+    religion = the_seven
+    culture = riverlander
+    6467.1.1 = { birth=yes }
+    6520.1.1 = { death=yes }
+}
+
+15143 = {
+    name = "Oswell" # The Third King 
+    dynasty = 244
+    father = 15142 
+    religion = the_seven
+    culture = riverlander
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+15144 = {
+    name = "Edmyn"
+    dynasty = 244
+    father = 15143
+    religion = the_seven
+    culture = riverlander
+    6532.1.1 = { birth=yes }
+    6590.1.1 = { death=yes }
+}
+
+15145 = {
+    name = "Theo"
+    dynasty = 244
+    father = 15143
+    religion = the_seven
+    culture = riverlander
+    6535.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+
+15146 = {
+    name = "Owen" 
+    dynasty = 244
+    father = 15142 
+    religion = the_seven
+    culture = riverlander
+    6502.1.1 = { birth=yes }
+    6559.1.1 = { death=yes }
+}
+
+15147 = {
+    name = "William" 
+    dynasty = 244
+    father = 15146 
+    religion = the_seven
+    culture = riverlander
+    6530.1.1 = { birth=yes }
+    6589.1.1 = { death=yes }
+}
+
+15148 = {
+    name = "Cyrene" 
+    dynasty = 244
+    father = 15146 
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    6536.1.1 = { birth=yes }
+    6589.1.1 = { death=yes }
+}
+
+15149 = {
+    name = "Jonos"
+    dynasty = 244
+    father = 15145
+    religion = the_seven
+    culture = riverlander
+    6551.1.1 = { birth=yes }
+    6623.1.1 = { death=yes }
+}
+
+15150 = {
+    name = "Harra"
+    dynasty = 244
+    father = 15145
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    6553.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+15151 = {
+    name = "Betha"
+    dynasty = 244
+    father = 15145
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    6555.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+###################
+### House Paege ###
+###################
+
+15152 = {
+    name = "Line of Florys"
+    dynasty = 222
+    father = 685
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6617.1.1 = { birth=yes }
+    7210.1.1 = { death=yes }
+}
+
+15153 = {
+    name = "Pate" # LORD
+    dynasty = 222
+    father = 15152
+    religion = the_seven
+    culture = riverlander
+    7210.1.1 = { birth=yes }
+    7263.1.1 = { death=yes }
+}
+
+15154 = {
+    name = "Euson" # LORD
+    dynasty = 222
+    father = 15153
+    religion = the_seven
+    culture = riverlander
+    7232.1.1 = { birth=yes }
+    7298.1.1 = { death=yes }
+}
+
+15155 = {
+    name = "Arneld" 
+    dynasty = 222
+    father = 15153
+    religion = the_seven
+    culture = riverlander
+    7237.1.1 = { birth=yes }
+    7302.1.1 = { death=yes }
+}
+
+15156 = {
+    name = "Illifer" # LORD
+    dynasty = 222
+    father = 15154
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7248.1.1 = { birth=yes }
+    7307.1.1 = { death=yes }
+}
+
+15157 = {
+    name = "Kyra"
+    dynasty = 222
+    father = 15154
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7253.1.1 = { birth=yes }
+    7320.1.1 = { death=yes }
+}
+
+15158 = {
+    name = "Oscar" 
+    dynasty = 222
+    father = 15154
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7255.1.1 = { birth=yes }
+    7307.1.1 = { death=yes }
+}
+
+15159 = {
+    name = "Willard" 
+    dynasty = 222
+    father = 15158
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_novice
+    7275.1.1 = { birth=yes }
+    7333.1.1 = { death=yes }
+}
+
+15160 = {
+    name = "Elvira" 
+    dynasty = 222
+    father = 15158
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7276.1.1 = { birth=yes }
+    7329.1.1 = { death=yes }
+}
+
+###################
+### House Grell ###
+###################
+
+15161 = {
+    name = "Line of Terrence"
+    dynasty = 223
+    father = 692
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6604.8.13 = { birth=yes }
+    7240.1.1 = { death=yes }
+}
+
+15162 = {
+    name = "Garrett" # LORD
+    dynasty = 223
+    father = 15161
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7240.1.1 = { birth=yes }
+    7303.1.1 = { death=yes }
+}
+
+15163 = {
+    name = "Alyx"
+    dynasty = 223
+    father = 15162
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    trait = silent_sister
+    trait = celibate
+    7256.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+15164 = {
+    name = "Halanna"
+    dynasty = 223
+    father = 15162
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7259.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+15165 = {
+    name = "Ryger"
+    dynasty = 223
+    father = 15162
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    7262.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15166 = {
+    name = "Simon"
+    dynasty = 223
+    father = 15165
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7278.1.1 = { birth=yes }
+    7338.1.1 = { death=yes }
+}
+
+##################
+### House Wayn ###
+##################
+
+15167 = {
+    name = "Line of Bartimos"
+    dynasty = 224
+    father = 699
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6618.1.1 = { birth=yes }
+    7230.1.1 = { death=yes }
+}
+
+15168 = {
+    name = "Madden" # Lord
+    dynasty = 224
+    father = 15167
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_skilled
+    trait = knight
+    7230.1.1 = { birth=yes }
+    7288.1.1 = { death=yes }
+}
+
+15169 = {
+    name = "Ryman" # Lord
+    dynasty = 224
+    father = 15168
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_skilled
+    trait = knight
+    trait = twin
+    7252.1.1 = { birth=yes }
+    7309.1.1 = { death=yes }
+}
+
+15170 = {
+    name = "Luceon" # Lord
+    dynasty = 224
+    father = 15168
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_adept
+    trait = knight
+    trait = twin
+    trait = septon
+    trait = celibate
+    trait = zealous
+    trait = just
+    trait = charitable
+    trait = content
+    trait = mastermind_theologian
+    7252.1.1 = { birth=yes }
+    7309.1.1 = { death=yes }
+}
+
+15171 = {
+    name = "Olanei" 
+    dynasty = 224
+    father = 15169
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7273.1.1 = { birth=yes }
+    7344.1.1 = { death=yes }
+}
+
+15172 = {
+    name = "Idera" 
+    dynasty = 224
+    father = 15169
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7275.1.1 = { birth=yes }
+    7334.1.1 = { death=yes }
+}
+
+15173 = {
+    name = "Kendall" 
+    dynasty = 224
+    father = 15169
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_expert
+    trait = knight
+    7279.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+#####################
+### House Shawney ###
+#####################
+
+15174 = {
+    name = "Line of Joffrey" 
+    dynasty = 230
+    father = 731
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6607.1.1 = { birth=yes }
+    7210.1.1 = { death=yes }
+}
+
+15175 = {
+    name = "Addam" # Lord
+    dynasty = 230
+    father = 15174
+    religion = the_seven
+    culture = riverlander
+
+    7210.1.1 = { birth=yes }
+    7259.1.1 = { death=yes }
+}
+
+15176 = {
+    name = "Sandor" # Lord
+    dynasty = 230
+    father = 15175
+    religion = the_seven
+    culture = riverlander
+
+    7229.1.1 = { birth=yes }
+    7288.1.1 = { death=yes }
+}
+
+15177 = {
+    name = "Orland" # Lord
+    dynasty = 230
+    father = 15176
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_novice
+    7250.1.1 = { birth=yes }
+    7306.1.1 = { death=yes }
+}
+
+15178 = {
+    name = "Vanessa" 
+    dynasty = 230
+    father = 15176
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7249.1.1 = { birth=yes }
+    7320.1.1 = { death=yes }
+}
+
+15179 = {
+    name = "Mance" 
+    dynasty = 230
+    father = 15177
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7274.1.1 = { birth=yes }
+    7324.1.1 = { death=yes }
+}
+
+15180 = {
+    name = "Arlan" 
+    dynasty = 230
+    father = 15177
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_master
+    7276.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15181 = {
+    name = "Leonylla" 
+    dynasty = 230
+    father = 15177
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7279.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+#######################
+### House Ironstead ###
+#######################
+
+15182 = {
+    name = "Line of Garse" 
+    dynasty = 257
+    father = 6576
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6599.4.11 = { birth=yes }
+    7240.1.1 = { death=yes }
+}
+
+15183 = {
+    name = "Garland" # Lord
+    dynasty = 257
+    father = 15182
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7240.1.1 = { birth=yes }
+    7300.1.1 = { death=yes }
+}
+
+15184 = {
+    name = "Gwayne" 
+    dynasty = 257
+    father = 15183
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7267.1.1 = { birth=yes }
+    7328.1.1 = { death=yes }
+}
+
+15185 = {
+    name = "Garth" 
+    dynasty = 257
+    father = 15183
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    7270.1.1 = { birth=yes }
+    7329.1.1 = { death=yes }
+}
+
+#####################
+### House Neckell ###
+#####################
+
+15186 = {
+    name = "Line of Robin" 
+    dynasty = 256
+    father = 6569
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6625.12.24 = { birth=yes }
+    7215.1.1 = { death=yes }
+}
+
+15187 = {
+    name = "Ned" # LORD
+    dynasty = 256
+    father = 15186
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_novice 
+    7215.1.1 = { birth=yes }
+    7280.1.1 = { death=yes }
+}
+
+15188 = {
+    name = "Eleanor" 
+    dynasty = 256
+    father = 15187
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7236.1.1 = { birth=yes }
+    7299.1.1 = { death=yes }
+}
+
+15189 = {
+    name = "Willam" # LORD
+    dynasty = 256
+    father = 15187
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7238.1.1 = { birth=yes }
+    7302.1.1 = { death=yes }
+}
+
+15190 = {
+    name = "Tytos" 
+    dynasty = 256
+    father = 15189
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7270.1.1 = { birth=yes }
+    7323.1.1 = { death=yes }
+}
+
+15191 = {
+    name = "Thoren" 
+    dynasty = 256
+    father = 15189
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7273.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+
+15192 = {
+    name = "Jannia" 
+    dynasty = 256
+    father = 15189
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7275.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15193 = {
+    name = "Tomard" 
+    dynasty = 256
+    father = 15191
+    religion = the_seven
+    culture = riverlander
+    7293.1.1 = { birth=yes }
+    7350.1.1 = { death=yes }
+}
+
+#######################
+### House Smallwood ###
+#######################
+
+15194 = {
+    name = "Line of Denys" 
+    dynasty = 242
+    father = 775
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6612.7.31 = { birth=yes }
+    7220.1.1 = { death=yes }
+}
+
+15195 = {
+    name = "Gregor" # Lord
+    dynasty = 242
+    father = 15194
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    trait = strong 
+    7220.1.1 = { birth=yes }
+    7277.1.1 = { death=yes }
+}
+
+15196 = {
+    name = "Harry" # Current Lord
+    dynasty = 242
+    father = 15195
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    trait = strong 
+    7242.1.1 = { birth=yes }
+    7300.1.1 = { death=yes }
+}
+
+15197 = {
+    name = "Amyra" 
+    dynasty = 242
+    father = 15195
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7246.1.1 = { birth=yes }
+    7308.1.1 = { death=yes }
+}
+
+15198 = {
+    name = "Jason" 
+    dynasty = 242
+    father = 15195
+    religion = the_seven
+    culture = riverlander
+    
+    7250.1.1 = { birth=yes }
+    7302.1.1 = { death=yes }
+}
+
+
+15199 = {
+    name = "John" 
+    dynasty = 242
+    father = 15198
+    religion = the_seven
+    culture = riverlander
+    trait = knight 
+    trait = dueling_skilled
+    7267.1.1 = { birth=yes }
+    7320.1.1 = { death=yes }
+}
+
+15200 = {
+    name = "Zachery" 
+    dynasty = 242
+    father = 15198
+    religion = the_seven
+    culture = riverlander
+    learning = 7
+    trait = martial_cleric
+    trait = septon
+    7270.1.1 = { birth=yes }
+    7329.1.1 = { death=yes }
+}
+
+15201 = {
+    name = "Oscar" # Current Heir
+    dynasty = 242
+    father = 15196
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    
+    7262.1.1 = { birth=yes }
+    7318.1.1 = { death=yes }
+}
+
+15202 = {
+    name = "Desmond" 
+    dynasty = 242
+    father = 15196
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_novice
+    
+    7266.1.1 = { birth=yes }
+    7315.1.1 = { death=yes }
+}
+
+15203 = {
+    name = "Ronessa" 
+    dynasty = 242
+    father = 15196
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7273.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+###################
+### House Ryger ###
+###################
+
+15204 = {
+    name = "Line of Osmund" 
+    dynasty = 243
+    father = 780
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6610.11.12 = { birth=yes }
+    7250.1.1 = { death=yes }
+}
+
+15205 = {
+    name = "Stevron" # Current Lord
+    dynasty = 243
+    father = 15204
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    7250.1.1 = { birth=yes }
+    7313.1.1 = { death=yes }
+}
+
+15206 = {
+    name = "Sylwa" 
+    dynasty = 243
+    father = 15205
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7267.1.1 = { birth=yes }
+    7319.1.1 = { death=yes }
+}
+
+15207 = {
+    name = "Symond" # Current Heir
+    dynasty = 243
+    father = 15205
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7269.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15208 = {
+    name = "Brandon" 
+    dynasty = 243
+    father = 15205
+    religion = the_seven
+    culture = riverlander
+    trait = dueling_novice
+    7271.1.1 = { birth=yes }
+    7329.1.1 = { death=yes }
+}
+
+15209 = {
+    name = "Tion" 
+    dynasty = 243
+    father = 15207
+    religion = the_seven
+    culture = riverlander
+
+    7295.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+15210 = {
+    name = "Tyiah" 
+    dynasty = 243
+    father = 15207
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7297.1.1 = { birth=yes }
+    7349.1.1 = { death=yes }
+}
+
+###################
+### House Piper ###
+###################
+
+15211 = {
+    name = "Line of Marq" 
+    dynasty = 244
+    father = 784
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6598.5.15 = { birth=yes }
+    7220.1.1 = { death=yes }
+}
+
+15212 = {
+    name = "Cleos" # Lord 
+    dynasty = 244
+    father = 15211
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_novice
+    7220.1.1 = { birth=yes }
+    7277.1.1 = { death=yes }
+}
+
+15213 = {
+    name = "Catelyn"
+    dynasty = 244
+    father = 15212
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7241.1.1 = { birth=yes }
+    7302.1.1 = { death=yes }
+}
+
+15214 = {
+    name = "Tytos" # Current Lord
+    dynasty = 244
+    father = 15212
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7243.1.1 = { birth=yes }
+    7304.1.1 = { death=yes }
+}
+
+15215 = {
+    name = "Utherydes" # Current Heir
+    dynasty = 244
+    father = 15214
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_master
+    trait = tall
+    7254.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+15216 = {
+    name = "Waltyr" 
+    dynasty = 244
+    father = 15214
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7256.1.1 = { birth=yes }
+    7308.1.1 = { death=yes }
+}
+
+15217 = {
+    name = "Ermesande" 
+    dynasty = 244
+    father = 15215
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7277.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15218 = {
+    name = "Eldacey" 
+    dynasty = 244
+    father = 15215
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7279.1.1 = { birth=yes }
+    7344.1.1 = { death=yes }
+}
+
+15219 = {
+    name = "Maynard" 
+    dynasty = 244
+    father = 15216
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7276.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15220 = {
+    name = "Quentyn" 
+    dynasty = 244
+    father = 15215
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = tough_soldier
+    trait = tall
+    trait = dueling_expert
+    7280.1.1 = { birth=yes }
+    7338.1.1 = { death=yes }
+}
+
+###################
+### House Keath ###
+###################
+
+15221 = {
+    name = "Line of Kennoth" 
+    dynasty = 245
+    father = 788
+    religion = the_seven
+    culture = riverlander
+    occluded = yes
+    6601.10.10 = { birth=yes }
+    7240.1.1 = { death=yes }
+}
+
+15222 = {
+    name = "Wilbert" # Lord 
+    dynasty = 245
+    father = 15221
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    trait = tough_soldier
+    trait = brave
+    trait = humble
+    trait = content
+    trait = just
+    7240.1.1 = { birth=yes }
+    7304.1.1 = { death=yes }
+}
+
+15223 = {
+    name = "Lennocks" # Current Heir
+    dynasty = 245
+    father = 15222
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7263.1.1 = { birth=yes }
+    7329.1.1 = { death=yes }
+}
+
+15224 = {
+    name = "Merrett" 
+    dynasty = 245
+    father = 15222
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    7265.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15225 = {
+    name = "Anguy" 
+    dynasty = 245
+    father = 15222
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_master
+    trait = quick
+    martial = 8
+    trait = skilled_tactician
+    trait = brave
+    trait = humble
+    trait = diligent
+    trait = patient
+    trait = just
+    
+    7267.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+##############################
+### House Vance of Atranta ###
+##############################
+
+15226 = {
+    name = "Line of Humfrey" 
+    dynasty = 209
+    father = 790
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6595.2.7 = { birth=yes }
+    7220.1.1 = { death=yes }
+}
+
+15227 = {
+    name = "Aethelmure" # Lord
+    dynasty = 209
+    father = 15226
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7220.1.1 = { birth=yes }
+    7277.1.1 = { death=yes }
+}
+
+15228 = {
+    name = "Ambrose" # Lord
+    dynasty = 209
+    father = 15227
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7236.1.1 = { birth=yes }
+    7288.1.1 = { death=yes }
+}
+
+15229 = {
+    name = "Owen" 
+    dynasty = 209
+    father = 15227
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7238.1.1 = { birth=yes }
+    7293.1.1 = { death=yes }
+}
+
+15230 = {
+    name = "Minisa" 
+    dynasty = 209
+    father = 15229
+    religion = the_seven
+    culture = riverlander
+    female = yes
+    7272.1.1 = { birth=yes }
+    7322.1.1 = { death=yes }
+}
+
+15231 = {
+    name = "Raymond" # Current Lord
+    dynasty = 209
+    father = 15228
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7259.1.1 = { birth=yes }
+    7317.1.1 = { death=yes }
+}
+
+15232 = {
+    name = "Argilac" 
+    dynasty = 209
+    father = 15228
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_expert
+    trait = strong
+    trait = wroth
+    trait = zealous
+    trait = tough_soldier
+    trait = brave
+    trait = lustful
+    7263.1.1 = { birth=yes }
+    7317.1.1 = { death=yes }
+}
+
+15233 = {
+    name = "Alyria" 
+    dynasty = 209
+    father = 15231
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7279.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+15234 = {
+    name = "Brynden" # Current Heir
+    dynasty = 209
+    father = 15231
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7282.1.1 = { birth=yes }
+    7330.1.1 = { death=yes }
+}
+
+##################
+### House Wode ###
+##################
+
+15235 = {
+    name = "Line of Willis"
+    dynasty = 248
+    father = 794
+    religion = the_seven
+    culture = riverlander
+    occluded = yes 
+    6599.9.3 = { birth=yes }
+    7260.1.1 = { death=yes }
+}
+
+15236 = {
+    name = "Argrave" # Current Lord 
+    dynasty = 248
+    father = 15235
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_novice
+    7260.1.1 = { birth=yes }
+    7314.1.1 = { death=yes }
+}
+
+15237 = {
+    name = "Norbert" # Current Heir
+    dynasty = 248
+    father = 15236
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_adept
+    7276.1.1 = { birth=yes }
+    7333.1.1 = { death=yes }
+}
+
+15238 = {
+    name = "Lucamore" 
+    dynasty = 248
+    father = 15236
+    religion = the_seven
+    culture = riverlander
+    trait = knight
+    trait = dueling_skilled
+    7279.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+
+15239 = {
+    name = "Jonquil" 
+    dynasty = 248
+    father = 15236
+    religion = the_seven
+    culture = riverlander
+    female = yes 
+    7281.1.1 = { birth=yes }
+    7335.1.1 = { death=yes }
+}
+
+# House Rushmoor 7299 #
+
+15240 = {
+    name = Raymond
+    dynasty = 203 # Rushmoor
+    
+    religion = the_seven
+    culture = riverlander
+
+    father = 15241
+
+    7275.1.1 = { birth=yes }
+    7340.1.1 = { death=yes }
+}
+15241 = {
+    name = "Line of Ronald"
+    dynasty = 203 # Rushmoor
+    
+    religion = the_seven
+    culture = riverlander
+	
+	father = 609
+	occluded = yes
+
+    6598.1.1 = { birth=yes }
+    7276.1.1 = { death=yes }
+}

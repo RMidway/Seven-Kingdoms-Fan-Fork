@@ -1,0 +1,1468 @@
+		    ###############
+		    #   ID RANGE  #
+		    # 19001-20000 #
+		    ###############
+
+		#########################
+		### House of Voltarys ###
+		#########################
+
+19001 = {
+    name = "Vhagar" # The First Archon
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1625
+    5820.1.1 = { birth=yes }
+    5836.1.1 = { 
+	add_trait = midas_touched
+	add_trait = diligent
+	add_trait = patient
+	add_trait = just
+	add_trait = zealous
+	add_trait = charitable
+	add_trait = genius
+	}
+    5850.1.1 = { give_nickname = nick_the_shepherd }
+    5903.1.1 = { death=yes }
+}
+
+19002 = {
+    name = "Vhagar" # His First Son
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1625
+    father = 19001
+    5850.1.1 = { birth=yes }
+    5866.1.1 = { 
+	add_trait = indulgent_wastrel
+	add_trait = greedy
+	add_trait = wroth
+	add_trait = arbitrary
+	add_trait = cynical
+	add_trait = lustful
+	add_trait = hedonist
+	}
+    5910.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+19003 = {
+    name = "Vaemond" # His Second Son
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1625
+    father = 19001
+    5854.1.1 = { birth=yes }
+    5870.1.1 = { 
+	add_trait = tough_soldier
+	add_trait = brave
+	add_trait = patient
+	add_trait = ambitious
+	add_trait = zealous
+	add_trait = charitable
+	add_trait = strong
+	}
+    5913.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+19004 = {
+    name = "Viserios" # His Third Son
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1625
+    father = 19001
+    5859.1.1 = { birth=yes }
+    5875.1.1 = { 
+	add_trait = charismatic_negotiator
+	add_trait = drunkard
+	add_trait = patient
+	add_trait = kind
+	add_trait = cynical
+	add_trait = charitable
+	add_trait = fair
+	}
+    5915.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+19005 = {
+    name = "Vallarios" # His Fourth Son
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1625
+    father = 19001
+    5862.1.1 = { birth=yes }
+    5888.1.1 = { 
+	add_trait = weak
+	add_trait = misguided_warrior
+	add_trait = kind
+	add_trait = ambitious
+	add_trait = slothful
+	add_trait = charitable
+	add_trait = ugly
+	}
+    5917.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+		##########################
+		### House of Pyrmenion ###
+		##########################
+
+19006 = {
+    name = "Pomporius" # The First Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    5860.1.1 = { birth=yes }
+    5876.1.1 = { 
+		add_trait = brilliant_strategist
+		add_trait = ambitious
+		add_trait = patient
+		add_trait = lustful
+		add_trait = zealous
+		add_trait = charitable
+		add_trait = quick
+		give_nickname = nick_the_pathfinder 
+	}
+    5928.1.1 = { death=yes }
+}
+
+19007 = {
+    name = "Praetorys" # The Second Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    father = 19006
+    5892.1.1 = { birth=yes }
+    5946.1.1 = { death=yes }
+}
+
+19008 = {
+    name = "Maegorius" # The Third Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    father = 19007
+    5921.1.1 = { birth=yes }
+    5950.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+19009 = {
+    name = "Crysalys" # The Fourth Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    father = 19006
+    5896.1.1 = { birth=yes }
+    5963.1.1 = { death=yes }
+}
+
+19010 = {
+    name = "Aegorius" # The Fifth Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    father = 19009
+    5930.1.1 = { birth=yes }
+    5987.1.1 = { death=yes }
+}
+
+19011 = {
+    name = "Jaeharios" # The Sixth Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    father = 19010
+    5955.1.1 = { birth=yes }
+    5993.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+19012 = {
+    name = "Orysius" # The Seventh Archon of Pyrmenion
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1626
+    father = 19010
+    5960.1.1 = { birth=yes }
+    5976.1.1 = {
+	add_trait = weak
+	add_trait = kind
+	add_trait = celibate
+	}
+    6012.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+		#########################
+		### House of Balerios ###
+		#########################
+
+19013 = {
+    name = "Balerion" # The First Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    
+    5980.1.1 = { birth=yes }
+    5996.1.1 = {
+	add_trait = strong
+	add_trait = skilled_tactician
+	add_trait = dueling_master
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = zealous
+	add_trait = wroth
+	}
+    6028.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+19014 = {
+    name = "Baelor" # The Second Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    father = 19013
+    6000.1.1 = { birth=yes }
+    6061.1.1 = { death=yes }
+}
+
+19015 = {
+    name = "Baelys" # The Third Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    father = 19014
+    6029.1.1 = { birth=yes }
+    6080.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}   
+
+19016 = {
+    name = "Daemos" # The Fourth Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    father = 19015
+    6050.1.1 = { birth=yes }
+    6081.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}  
+
+19017 = {
+    name = "Viserys" # The Fifth Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    father = 19015
+    6054.1.1 = { birth=yes }
+    6082.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}  
+
+19018 = {
+    name = "Daena" # The Sixth Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    father = 19017
+    female = yes
+    6070.1.1 = { birth=yes }
+    6086.1.1 = { 
+	add_trait = fair
+	add_trait = elusive_shadow
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = just
+	add_trait = strong
+	add_trait = deceitful 
+	add_trait = paranoid
+	}
+    6143.1.1 = { death=yes }
+	
+} 
+
+19019 = {
+    name = "Daenerys" # The Seventh Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    mother = 19018
+    female = yes
+    6090.1.1 = { birth=yes }
+    6106.1.1 = { 
+	add_trait = fair
+	add_trait = kind
+	}
+    6170.1.1 = { death=yes }
+	
+} 
+
+19020 = {
+    name = "Rhaenyra" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    mother = 19018
+    female = yes
+    6092.1.1 = { birth=yes }
+    6108.1.1 = { 
+	add_trait = fair
+	add_trait = kind
+	}
+    6160.1.1 = { death=yes }
+	
+} 
+
+19021 = {
+    name = "Aelinor" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    mother = 19018
+    female = yes
+    6093.1.1 = { birth=yes }
+    6109.1.1 = { 
+	add_trait = fair
+	add_trait = kind
+	}
+    6157.1.1 = { death=yes }
+	
+} 
+
+19022 = {
+    name = "Daeoril" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    mother = 19018
+    female = yes
+    6095.1.1 = { birth=yes }
+    6111.1.1 = { 
+	add_trait = twin
+	add_trait = fair
+	add_trait = kind
+	}
+    6169.1.1 = { death=yes }
+	
+} 
+
+19023 = {
+    name = "Jaehaera" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    mother = 19018
+    female = yes
+    6095.1.1 = { birth=yes }
+    6111.1.1 = { 
+	add_trait = twin
+	add_trait = fair
+	add_trait = kind
+	}
+    6169.1.1 = { death=yes }
+	
+} 
+
+19024 = {
+    name = "Aenorios" # The Eighth Archon of Balerios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1627
+    mother = 19019
+    6128.1.1 = { birth=yes }
+    6173.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}  
+
+		#########################
+		### House of Meraxios ###
+		#########################
+
+19025 = {
+    name = "Aegon" # The First Archon of Meraxios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+
+    6140.1.1 = { birth=yes }
+    6156.1.1 = { 
+	add_trait = strong
+	add_trait = dueling_legend
+	add_trait = just
+	add_trait = proud
+	add_trait = ambitious
+	add_trait = patient
+	add_trait = diligent
+	add_trait = fair
+	}
+    6201.1.1 = { death=yes }
+	
+} 
+
+19026 = {
+    name = "Daemon" # The Second Archon of Meraxios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19025
+    6171.1.1 = { birth=yes }
+    6203.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}  
+
+19027 = {
+    name = "Maegor" # The Third Archon of Meraxios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19025
+    6172.1.1 = { birth=yes }
+    6204.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}  
+
+19028 = {
+    name = "Jaehaerys" # The Fourth Archon of Meraxios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19025
+    6176.1.1 = { birth=yes }
+    6192.1.1 = {
+		add_trait = midas_touched
+		add_trait = quick
+		add_trait = diligent
+		add_trait = patient
+		add_trait = charitable
+		add_trait = just
+		add_trait = temperate
+		give_nickname = nick_the_benevolent 
+	}
+    6243.1.1 = { death=yes }	
+} 
+
+19029 = {
+    name = "Aegor" # The Fifth Archon of Meraxios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    6200.1.1 = { birth=yes }
+    6267.1.1 = { death=yes }	
+} 
+
+19030 = {
+    name = "Daemon" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    6203.1.1 = { birth=yes }
+    6264.1.1 = { death=yes }	
+} 
+
+19031 = {
+    name = "Aenar" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    6204.1.1 = { birth=yes }
+    6275.1.1 = { death=yes }	
+}
+
+19032 = {
+    name = "Lucerys" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    6206.1.1 = { birth=yes }
+    6275.1.1 = { death=yes }	
+}
+19033 = {
+    name = "Aelinor" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    female = yes
+    6207.1.1 = { birth=yes }
+    6273.1.1 = { death=yes }	
+}
+
+19034 = {
+    name = "Cymella" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    female = yes
+    6210.1.1 = { birth=yes }
+    6272.1.1 = { death=yes }	
+}
+
+19035 = {
+    name = "Virmanthax" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+
+    6212.1.1 = { birth=yes }
+    6273.1.1 = { death=yes }	
+}
+
+19036 = {
+    name = "Rhaenyra" 
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19028
+    female = yes
+    6215.1.1 = { birth=yes }
+    6282.1.1 = { death=yes }	
+}
+
+19037 = {
+    name = "Daegon" # The Sixth Archon of Meraxios
+    religion = valyrian
+    culture = high_valyrian
+    dynasty = 1628
+    father = 19029
+    6224.1.1 = { birth=yes }
+    6240.1.1 = {
+	add_trait = celibate 
+	add_trait = weak
+	}
+    6290.1.1 = { death=yes }	
+}
+
+		###########################
+		### House of Ancalagios ###
+		###########################
+
+19038 = {
+    name = "Earendion" # the Foe-Hammer # First Archon of Ancalagios
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1629
+    
+    6250.1.1 = { birth=yes }
+    6266.1.1 = {
+	add_trait = strong
+	add_trait = tall
+	add_trait = dueling_legend
+	add_trait = skilled_tactician
+	add_trait = wroth
+	add_trait = zealous
+	add_trait = proud
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = heartless
+	}
+    6302.1.1 = { give_nickname = nick_foe_hammer }
+    6307.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}  
+
+19039 = {
+    name = "Syrax" # The Second Archon of Ancalagios
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1629
+    father = 19038
+    6284.1.1 = { birth=yes }
+    6300.1.1 = {
+	add_trait = strong
+	add_trait = tough_soldier
+	add_trait = dueling_expert
+	add_trait = wroth
+	add_trait = cruel
+	add_trait = arbitrary
+	add_trait = gluttonous
+	add_trait = proud
+	add_trait = lustful
+	}
+    6328.1.1 = { give_nickname = nick_the_dreaded_dragon }
+    6350.1.1 = { death=yes }	
+}
+
+19040 = {
+    name = "Verminthor" # The Third Archon of Ancalagios
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1629
+    father = 19039
+    6305.1.1 = { birth=yes }
+    6321.1.1 = {
+	add_trait = strong
+	add_trait = slothful
+	add_trait = dueling_adept
+	add_trait = arbitrary 
+	add_trait = sociopath
+	add_trait = lunatic
+	add_trait = scarred
+	add_trait = proud 
+	}
+    6354.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}  
+
+		############################
+		### House of Taelmaereon ###
+		############################
+
+19041 = {
+    name = "Aurion" # The Founder of Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+
+    6228.1.1 = { birth=yes }
+    6280.1.1 = { death=yes }
+}  
+
+19042 = {
+    name = "Valerion" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19041
+    6250.1.1 = { birth=yes }
+    6307.1.1 = { death=yes }
+} 
+
+19043 = {
+    name = "Calla" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19042
+    female = yes
+    6275.1.1 = { birth=yes }
+    6338.1.1 = { death=yes }
+} 
+
+19044 = {
+    name = "Baelor" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19042
+
+    6278.1.1 = { birth=yes }
+    6326.1.1 = { death=yes }
+} 
+
+19045 = {
+    name = "Haerys" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19044
+    female = yes
+    6301.1.1 = { birth=yes }
+    6374.1.1 = { death=yes }
+} 
+
+19046 = {
+    name = "Daeoril" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19044
+    female = yes
+    6304.1.1 = { birth=yes }
+    6368.1.1 = { death=yes }
+} 
+
+19047 = {
+    name = "Jaekar" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19044
+
+    6308.1.1 = { birth=yes }
+    6372.1.1 = { death=yes }
+} 
+
+19048 = {
+    name = "Vaermon" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19047
+
+    6332.1.1 = { birth=yes }
+    6400.1.1 = { death=yes }
+} 
+
+19049 = {
+    name = "Rhae" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19047
+    female = yes
+    6335.1.1 = { birth=yes }
+    6397.1.1 = { death=yes }
+} 
+
+19050 = {
+    name = "Cyrena" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19047
+    female = yes
+    6337.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+19051 = {
+    name = "Aegon" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19047
+
+    6340.1.1 = { birth=yes }
+    6399.1.1 = { death=yes }
+}
+
+19052 = {
+    name = "Viserra" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19051
+    female = yes
+    6373.1.1 = { birth=yes }
+    6450.1.1 = { death=yes }
+}
+
+19053 = {
+    name = "Serra" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19051
+    female = yes
+    6377.1.1 = { birth=yes }
+    6439.1.1 = { death=yes }
+}
+
+19054 = {
+    name = "Pomporius" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19048
+
+    6360.1.1 = { birth=yes }
+    6421.1.1 = { death=yes }
+} 
+
+19055 = {
+    name = "Turgos" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19048
+
+    6365.1.1 = { birth=yes }
+    6440.1.1 = { death=yes }
+} 
+
+19056 = {
+    name = "Valarr" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19055
+
+    6400.1.1 = { birth=yes }
+    6467.1.1 = { death=yes }
+} 
+
+19057 = {
+    name = "Aegor" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19056
+
+    6429.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+} 
+
+19058 = {
+    name = "Lynorius" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19056
+
+    6432.1.1 = { birth=yes }
+    6487.1.1 = { death=yes }
+} 
+
+19059 = {
+    name = "Daena" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19056
+    female = yes
+    6440.1.1 = { birth=yes }
+    6501.1.1 = { death=yes }
+} 
+
+19060 = {
+    name = "Jaeharys" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19057
+
+    6456.1.1 = { birth=yes }
+    6520.1.1 = { death=yes }
+} 
+
+19061 = {
+    name = "Daeron" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19060
+    
+    6480.1.1 = { birth=yes }
+    6568.1.1 = { death=yes }
+} 
+
+19062 = {
+    name = "Rhaenys" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19060
+    female = yes 
+    6484.1.1 = { birth=yes }
+    6540.1.1 = { death=yes }
+} 
+
+19063 = {
+    name = "Visenya" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19060
+    female = yes 
+    6490.1.1 = { birth=yes }
+    6552.1.1 = { death=yes }
+} 
+
+19064 = {
+    name = "Maekar" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19061
+    
+    6510.1.1 = { birth=yes }
+    6572.1.1 = { death=yes }
+} 
+
+19065 = {
+    name = "Elaena" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19061
+    female = yes
+    6516.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+} 
+
+19066 = {
+    name = "Cymella" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19061
+    female = yes
+    6521.1.1 = { birth=yes }
+    6578.1.1 = { death=yes }
+} 
+
+19067 = {
+    name = "Aelon" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19064
+    
+    6540.1.1 = { birth=yes }
+    6602.1.1 = { death=yes }
+} 
+
+19068 = {
+    name = "Aeron" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19064
+    
+    6543.1.1 = { birth=yes }
+    6608.1.1 = { death=yes }
+} 
+
+19069 = {
+    name = "Orys" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19054
+
+    6400.1.1 = { birth=yes }
+    6462.1.1 = { death=yes }
+} 
+
+19070 = {
+    name = "Rhalla" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19054
+
+    6402.1.1 = { birth=yes }
+    6459.1.1 = { death=yes }
+} 
+
+19071 = {
+    name = "Aelinor" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19069
+    female = yes 
+    6427.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+} 
+
+19072 = {
+    name = "Lucerys" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19069
+
+    6430.1.1 = { birth=yes }
+    6496.1.1 = { death=yes }
+} 
+
+19073 = {
+    name = "Daemon" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19069
+
+    6434.1.1 = { birth=yes }
+    6503.1.1 = { death=yes }
+} 
+
+19074 = {
+    name = "Valerion" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19073
+
+    6459.1.1 = { birth=yes }
+    6518.1.1 = { death=yes }
+} 
+
+19075 = {
+    name = "Gael" # THE FIRST BRANCH AND NON ARCHON
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19073
+
+    6464.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+} 
+
+19076 = {
+    name = "Lucerys" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19041
+    6257.1.1 = { birth=yes }
+    6310.1.1 = { death=yes }
+}  
+
+19077 = {
+    name = "Daella" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19076
+    female = yes
+    6280.1.1 = { birth=yes }
+    6362.1.1 = { death=yes }
+}  
+
+19078 = {
+    name = "Aelor" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19076
+
+    6283.1.1 = { birth=yes }
+    6349.1.1 = { death=yes }
+}  
+
+19079 = {
+    name = "Baelor" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19078
+
+    6307.1.1 = { birth=yes }
+    6370.1.1 = { death=yes }
+}  
+
+19080 = {
+    name = "Vaermon" # THE FIRST ARCHON OF Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19079
+
+    6330.1.1 = { birth=yes }
+    6393.1.1 = { death=yes }
+}  
+
+19081 = {
+    name = "Laenor" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19079
+
+    6334.1.1 = { birth=yes }
+    6400.1.1 = { death=yes }
+}  
+
+19082 = {
+    name = "Rhea" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19081
+    female = yes
+    6358.1.1 = { birth=yes }
+    6421.1.1 = { death=yes }
+}  
+
+19083 = {
+    name = "Orys" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19081
+
+    6360.1.1 = { birth=yes }
+    6430.1.1 = { death=yes }
+}  
+
+19084 = {
+    name = "Aegon" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19083
+
+    6392.1.1 = { birth=yes }
+    6478.1.1 = { death=yes }
+}  
+
+19085 = {
+    name = "Aegor" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19083
+
+    6395.1.1 = { birth=yes }
+    6467.1.1 = { death=yes }
+}  
+
+19086 = {
+    name = "Lucerios" # THE SECOND ARCHON OF Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19080
+
+    6362.1.1 = { birth=yes }
+    6429.1.1 = { death=yes }
+}  
+
+19087 = {
+    name = "Verminthor" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19086
+
+    6400.1.1 = { birth=yes }
+    6487.1.1 = { death=yes }
+}  
+
+19088 = {
+    name = "Daenerys" # THE MAIN BRANCH
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19087
+    female = yes
+    6426.1.1 = { birth=yes }
+    6490.1.1 = { death=yes }
+}  
+
+19089 = {
+    name = "Baelorios" # THE THIRD ARCHON OF Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19086
+
+    6400.1.1 = { birth=yes }
+    6489.1.1 = { death=yes }
+}  
+
+19090 = {
+    name = "Daemos" # THE FOURTH ARCHON OF Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19089
+
+    6442.1.1 = { birth=yes }
+    6521.1.1 = { death=yes }
+}  
+
+19091 = {
+    name = "Orysius" # THE FIFTH ARCHON OF Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19090
+
+    6468.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+}  
+
+19092 = {
+    name = "Rhaelinor" 
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19090
+    female = yes
+    6473.1.1 = { birth=yes }
+    6550.1.1 = { death=yes }
+}  
+
+19093 = {
+    name = "Aurios" # THE SIXTH ARCHON OF Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19091
+
+    6500.1.1 = { birth=yes }
+    6568.1.1 = { death=yes }
+}  
+
+19094 = {
+    name = "Maege" 
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19091
+    female = yes
+    6490.1.1 = { birth=yes }
+    6550.1.1 = { death=yes }
+}  
+
+19095 = {
+    name = "Baela" 
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19091
+    female = yes
+    6492.1.1 = { birth=yes }
+    6564.1.1 = { death=yes }
+}  
+
+19096 = {
+    name = "Daena"
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19091
+    female = yes
+    6495.1.1 = { birth=yes }
+    6563.1.1 = { death=yes }
+}  
+
+19098 = {
+    name = "Aenys" # SON OF AURIOS Taelmaereon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1631
+    father = 19093
+    6533.1.1 = { birth=yes }
+    6570.1.1 = { death=yes }
+} 
+
+		######################
+		### House of Garyn ###
+		######################
+		
+19099 = {
+    name = "Garyn" # Founder of the House of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    6500.1.1 = { birth=yes }
+    6562.1.1 = { death=yes }
+} 
+
+19100 = {
+    name = "Viserios" # The First Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19099
+    6533.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+} 
+
+19101 = {
+    name = "Aethos" # The Second Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19100
+    6555.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+} 
+
+19102 = {
+    name = "Qoherys" # The Third Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19101
+    6580.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+} 
+
+19103 = {
+    name = "Valarr" # The Fourth Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19101
+    6582.1.1 = { birth=yes }
+    6628.1.1 = { death=yes }
+} 
+
+19104 = {
+    name = "Viserion" # The Fifth Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19101
+    6583.1.1 = { birth=yes }
+    6633.1.1 = { death=yes }
+} 
+
+19105 = {
+    name = "Daemos" # The Sixth Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19104
+    6610.1.1 = { birth=yes }
+    6637.1.1 = { death=yes }
+} 
+
+19106 = {
+    name = "Gaemon" # The Seventh and Last Archon of Garyn
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1632
+    father = 19105
+    6630.1.1 = { birth=yes }
+    6640.1.1 = { death=yes }
+} 
+
+		###########################
+		### House of Naelnareon ###
+		###########################
+		
+19107 = {
+    name = "Aeraraenar" # The First Archon of Naelnareon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1633
+
+    6608.1.1 = { birth=yes }
+    6690.1.1 = { death=yes }
+} 
+
+19108 = {
+    name = "Tyraegaron " # The Second Archon of Naelnareon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1633
+	father = 19107
+    6640.1.1 = { birth=yes }
+    6721.1.1 = { death=yes }
+} 
+
+19109 = {
+    name = "Jaehaemar" # The Third Archon of Naelnareon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1633
+	father = 19108
+    6667.1.1 = { birth=yes }
+    6755.1.1 = { death=yes }
+} 
+
+19110 = {
+    name = "Daemanarr" # The Fourth Archon of Naelnareon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1633
+	father = 19109
+    6700.1.1 = { birth=yes }
+    6789.1.1 = { death=yes }
+} 
+
+19111 = {
+    name = "Yraeraenar" # The Fifth Archon of Naelnareon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1633
+	father = 19110
+    6728.1.1 = { birth=yes }
+    6800.1.1 = { death=yes }
+} 
+
+19112 = {
+    name = "Jaehaemorys" # The Sixth Archon of Naelnareon
+    religion = valyrian 
+    culture = high_valyrian
+    dynasty = 1633
+	father = 19111
+    6760.1.1 = { birth=yes }
+    6833.1.1 = { death=yes }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

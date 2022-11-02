@@ -1,0 +1,49 @@
+# c_highgarden
+
+# County Title
+title = c_highgarden
+
+# Settlements
+max_settlements = 7
+
+b_highgarden = castle
+b_three_singers = temple
+b_highrose = city
+b_highapple = city
+b_highwine = castle
+b_fairbloom = castle
+#b_lowgarden = castle
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History
+
+30.1.1 = {
+	build_wonder = wonder_highgarden
+	set_wonder_stage = 1
+}
+	
+6000.1.1 = {
+	set_wonder_stage = 3
+
+    #b_highgarden = ca_reachmen_levy_1
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+6800.1.1 = {
+	culture = reachmen
+    religion = the_seven 
+}

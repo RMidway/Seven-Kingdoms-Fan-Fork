@@ -1,0 +1,22 @@
+# c_lannisgate
+
+# County Title
+title = c_lannisgate
+
+# Settlements
+max_settlements = 4
+
+b_lannisgate = castle
+b_lannford = city
+#b_middlegate = temple
+#b_lannhem = castle
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

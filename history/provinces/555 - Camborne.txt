@@ -1,0 +1,21 @@
+# c_camborne
+
+# County Title
+title = c_camborne
+
+# Settlements
+max_settlements = 3
+
+b_camborne = castle
+b_hanewyk = city
+#b_camborne_2 = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = hills
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

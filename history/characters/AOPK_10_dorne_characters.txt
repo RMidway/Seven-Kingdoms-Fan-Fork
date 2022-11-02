@@ -1,0 +1,3794 @@
+##############
+# ID RANGE   #
+# 1000-1199  #
+##############
+
+##################
+### House Dayne ##
+##################
+
+1000 = {
+name = Garrison
+dynasty = 500 # Dayne
+father = 5319
+religion = old_gods
+culture= daynefm
+trait="charismatic_negotiator"
+trait="dueling_expert"
+trait="fair"
+trait="zealous"
+trait="temperate"
+trait="bleeding_heart"
+dna="ac0d00ib0b0"
+properties="mj0b0c00000000"
+6536.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+6612.1.1 = { death=yes }
+}
+
+1001 = {
+name = Alysanne
+father = 1000
+female = yes
+dynasty = 500 # Dayne
+religion = old_gods
+culture= torrentine
+6555.1.1 = { birth=yes }
+6622.1.1 = { death=yes }
+}
+
+6183 = { #changed from 1006 due to duplicate ID
+name = Samwell
+father = 1000
+dynasty = 500 # Dayne
+religion = old_gods
+culture= torrentine
+6558.1.1 = { birth=yes }
+6626.1.1 = { death=yes }
+}
+
+1002 = {
+name = Edric
+father = 1000
+dynasty = 500 # Dayne
+religion = old_gods
+culture= torrentine
+6560.1.1 = { birth=yes }
+6627.1.1 = { death=yes }
+}
+
+######################
+### House Blackmont ##
+######################
+
+1003 = {
+name = Bayard
+dynasty = 501 # Blackmont
+religion = vulture_god
+culture = torrentine
+trait="skilled_tactician"
+trait="dueling_skilled"
+trait="lustful"
+trait="paranoid"
+trait="diligent"
+6526.1.1 = { birth=yes }
+6599.1.1 = { death=yes }
+}
+
+1004 = {
+name = Perros
+dynasty = 501 # Blackmont
+father = 1003
+religion = vulture_god
+culture = torrentine
+trait="flamboyant_schemer"
+trait="dueling_skilled"
+trait="irrational"
+trait="heartless"
+trait="just"
+trait="proud"
+6546.1.1 = { birth=yes }
+6621.1.1 = { death=yes }
+}
+
+1005 = {
+name = Larra
+dynasty = 501 # Blackmont
+father = 1003
+female = yes
+religion = vulture_god
+culture = torrentine
+trait="charismatic_negotiator"
+trait="kind"
+trait="trusting"
+6550.1.1 = { birth=yes }
+6621.1.1 = { death=yes }
+}
+
+##################
+### House Uller ##
+##################
+
+1006={
+	name="Tremond"
+	dynasty=507
+	culture=andal_dornish
+	religion=the_seven
+	trait="dueling_skilled"
+	6530.1.1={birth=yes}
+	6548.2.11 = {add_spouse=1007}
+	6576.9.22={death=yes}
+}
+
+1007={
+	name="Liane"
+	female=yes
+	culture=andal_dornish
+	religion=the_seven
+	6531.1.29={birth=yes}
+	6571.2.2={death=yes}
+}
+
+1008={
+	name="Obella"
+	female=yes
+	dynasty=507
+	culture=andal_dornish
+	religion=the_seven
+	father=1006
+	mother=1007
+	6552.6.3={birth=yes}
+	6609.5.3={death=yes}
+}
+
+1009={
+	name="Armond"
+	dynasty=507
+	culture=andal_dornish
+	religion=the_seven
+	father=1006
+	mother=1007
+	6558.7.15={birth=yes}
+	6613.8.10={death=yes}
+}
+
+
+#####################
+### House Yronwood ##
+#####################
+
+1010={
+name="Yorick"
+dynasty=502
+dna="ofiofdbakjm"
+culture=yronwoodfm
+religion=the_seven
+martial=8
+diplomacy=4
+stewardship=7
+intrigue=8
+learning=6
+trait="intricate_webweaver"
+trait="dueling_expert"
+trait="cruel"
+trait="brave"
+trait="deceitful"
+trait="ambitious"
+trait="diligent"
+6526.5.1={
+	birth=yes
+	effect_even_if_dead = {
+		culture = stone_dornish
+	}
+	create_bloodline = {
+		type = bloodline_yronwood
+		has_dlc = "Holy Fury"
+	}
+}
+6548.3.17 = {add_spouse=1011}
+6590.5.26={death=yes}
+}
+
+1011={
+name="Alerie"
+female=yes
+dna="dfhfbgheckl"
+culture=stone_dornish
+religion=the_seven
+martial=5
+diplomacy=2
+stewardship=6
+intrigue=4
+learning=5
+trait="tough_soldier"
+trait="cynical"
+trait="honest"
+trait="wroth"
+trait="trusting"
+trait="shy"
+trait="just"
+trait="lustful"
+6525.4.16={birth=yes}
+6548.3.17 = {add_spouse=1010}
+6578.10.23={death=yes}
+}
+
+1012={
+name="Tyene"
+female=yes
+dynasty=502
+dna="dflobgbcjkm"
+culture=yronwoodfm
+religion=the_seven
+martial=2
+diplomacy=6
+stewardship=5
+intrigue=4
+learning=5
+trait="detached_priest"
+trait="trusting"
+trait="cruel"
+trait="just"
+trait="gluttonous"
+trait="shy"
+trait="charitable"
+trait="drunkard"
+father=1010
+mother=1011
+6552.7.4={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+6612.4.3={death=yes}
+}
+
+1013={
+name="Yorick" # The Second
+dynasty=502
+dna="ofifbdheckl"
+culture=yronwoodfm
+religion=the_seven
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=2
+learning=4
+trait="skilled_tactician"
+trait="dueling_adept"
+trait="hedonist"
+trait="content"
+trait="envious"
+trait="shy"
+trait="humble"
+trait="wroth"
+trait="greedy"
+trait="temperate"
+trait="diligent"
+father=1010
+mother=1011
+6553.6.6={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+6622.12.8={death=yes}
+}
+
+1014={
+name="Arthur"
+dynasty=502
+dna="dfhfbggekkl"
+culture=yronwoodfm
+religion=the_seven
+martial=6
+diplomacy=5
+stewardship=5
+intrigue=2
+learning=4
+trait="midas_touched"
+trait="dueling_novice"
+trait="proud"
+trait="patient"
+trait="chaste"
+trait="temperate"
+father=1010
+mother=1011
+6557.1.1={
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+6599.1.3={death=yes}
+}
+
+######################
+### House Sandwayne ##
+######################
+
+1015={
+name="Myles"
+dynasty=520
+dna="kppicjnobkp"
+culture=scourgemen
+religion=old_gods
+martial=7
+diplomacy=2
+stewardship=7
+intrigue=1
+learning=4
+trait="midas_touched"
+trait="dueling_novice"
+trait="gluttonous"
+trait="slothful"
+trait="humble"
+trait="patient"
+trait="honest"
+trait="cruel"
+6530.5.1={birth=yes}
+6554.7.13 = {add_spouse=1016}
+6595.10.25={death=yes}
+}
+
+1016={
+name="Ysilla"
+female=yes
+dna="hlbeannmfhe"
+culture=scourgemen
+religion=old_gods
+martial=3
+diplomacy=3
+stewardship=4
+intrigue=2
+learning=2
+trait="flamboyant_schemer"
+trait="paranoid"
+trait="just"
+trait="content"
+trait="brave"
+trait="temperate"
+6532.11.18={birth=yes}
+6554.7.13 = {add_spouse=1015}
+6577.4.24={death=yes}
+}
+
+1017={
+name="Jennelyn"
+female=yes
+dynasty=520
+dna="hlbecjnmbhp"
+culture=scourgemen
+religion=old_gods
+martial=4
+diplomacy=4
+stewardship=8
+intrigue=7
+learning=6
+trait="skilled_tactician"
+trait="craven"
+trait="kind"
+trait="chaste"
+trait="charitable"
+trait="honest"
+trait="wroth"
+trait="twin"
+father=1015
+mother=1016
+6560.1.2={birth=yes}
+6606.11.7={death=yes}
+}
+
+1018={
+name="Maron"
+dynasty=520
+dna="omblajnmhhe"
+culture=scourgemen
+religion=old_gods
+martial=6
+diplomacy=5
+stewardship=5
+intrigue=4
+learning=8
+trait="intricate_webweaver"
+trait="dueling_skilled"
+trait="diligent"
+trait="envious"
+trait="zealous"
+trait="ambitious"
+trait="temperate"
+trait="twin"
+father=1015
+mother=1016
+6560.1.2={birth=yes}
+6610.5.17={death=yes}
+}
+
+1019={
+name="Alysanne"
+female=yes
+dynasty=520
+dna="khbicnnobhk"
+culture=scourgemen
+religion=old_gods
+martial=4
+diplomacy=4
+stewardship=2
+intrigue=7
+learning=6
+trait="misguided_warrior"
+trait="humble"
+trait="envious"
+trait="craven"
+trait="charitable"
+father=1015
+mother=1016
+6562.2.23={birth=yes}
+6623.11.22={death=yes}
+}
+
+#################
+### House Wade ##
+#################
+
+1020={
+name="Oberyn"
+father = 8105
+dynasty=505
+dna="cdhchkgacbk"
+religion = old_gods
+culture = spearmen
+martial=3
+diplomacy=5
+stewardship=7
+intrigue=4
+learning=2
+trait="skilled_tactician"
+trait="dueling_expert"
+
+trait="proud"
+trait="wroth"
+trait="cruel"
+trait="ambitious"
+trait="lustful"
+trait="diligent"
+6532.1.1={birth=yes}
+6549.1.12 = {add_spouse=1021}
+6586.8.20={death=yes}
+}
+
+1021={
+name="Allyria"
+female=yes
+dna="achboknojcp"
+religion = old_gods
+culture = spearmen
+martial=4
+diplomacy=4
+stewardship=5
+intrigue=2
+learning=6
+trait="detached_priest"
+trait="trusting"
+trait="craven"
+trait="just"
+trait="greedy"
+trait="deceitful"
+trait="patient"
+6530.10.19={birth=yes}
+6573.11.11={death=yes}
+}
+
+1022={
+name="Elia"
+female=yes
+dynasty=505
+dna="cghlokndacp"
+religion = old_gods
+culture = spearmen
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=4
+learning=2
+trait="brilliant_strategist"
+trait="cynical"
+trait="ambitious"
+trait="paranoid"
+trait="lustful"
+trait="envious"
+father=1020
+mother=1021
+6554.7.24={birth=yes}
+6615.6.8={death=yes}
+}
+
+1023={
+name="Quentyn"
+dynasty=505
+dna="ighlhkihjik"
+religion = old_gods
+culture = spearmen
+martial=7
+diplomacy=4
+stewardship=6
+intrigue=3
+learning=0
+trait="brilliant_strategist"
+trait="dueling_expert"
+trait="quick"
+trait="patient"
+trait="gregarious"
+trait="slothful"
+trait="lustful"
+trait="brave"
+trait="ill"
+father=1020
+mother=1021
+6549.10.16={birth=yes}
+6615.6.16={death=yes}
+}
+
+1024={
+name="Trystane"
+dynasty=505
+dna="acjbiknoabp"
+religion = old_gods
+culture = spearmen
+martial=4
+diplomacy=6
+stewardship=3
+intrigue=6
+learning=7
+trait="skilled_tactician"
+trait="dueling_skilled"
+trait="cruel"
+trait="sociopath"
+trait="dishonourable"
+trait="wroth"
+trait="deceitful"
+trait="gregarious"
+trait="craven"
+trait="temperate"
+father=1020
+mother=1021
+6564.2.13={birth=yes}
+6608.1.13={death=yes}
+}
+
+#####################
+### House Allyrion ##
+#####################
+
+1025={
+name="Qoren"
+dynasty=519
+dna="kkgchdgfkik"
+culture=andal_dornish 
+religion=the_seven
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=2
+learning=6
+trait="charismatic_negotiator"
+trait="dueling_skilled"
+trait="patient"
+trait="gluttonous"
+trait="diligent"
+trait="chaste"
+trait="kind"
+6521.11.1={birth=yes}
+6542.4.25 = {add_spouse=1026}
+6571.3.30={death=yes}
+}
+
+1026={
+name="Elinor"
+female=yes
+dna="aldfgmkmjdf"
+culture=andal_dornish 
+religion=the_seven
+martial=4
+diplomacy=6
+stewardship=6
+intrigue=5
+learning=5
+trait="tough_soldier"
+trait="content"
+trait="proud"
+trait="arbitrary"
+trait="kind"
+trait="craven"
+6522.8.16={birth=yes}
+6542.4.25 = {add_spouse=1025}
+6584.7.19={death=yes}
+}
+
+1027={
+name="Sarella"
+female=yes
+dynasty=519
+dna="klgfhmgfpif"
+culture=andal_dornish 
+religion=the_seven
+martial=7
+diplomacy=2
+stewardship=2
+intrigue=7
+learning=4
+trait="tough_soldier"
+trait="greedy"
+trait="temperate"
+trait="ambitious"
+trait="wroth"
+trait="chaste"
+trait="envious"
+trait="humble"
+father=1025
+mother=1026
+6544.1.3={birth=yes}
+6607.11.28={death=yes}
+}
+
+1028={
+name="Morrin"
+dynasty=519
+dna="kkdfhmhfkdf"
+culture=andal_dornish 
+religion=the_seven
+martial=4
+diplomacy=0
+stewardship=5
+intrigue=1
+learning=2
+trait="midas_touched"
+trait="dueling_skilled"
+trait="paranoid"
+trait="craven"
+trait="chaste"
+trait="gregarious"
+trait="gluttonous"
+trait="humble"
+father=1025
+mother=1026
+6549.11.18={birth=yes}
+6606.7.31={death=yes}
+}
+
+1029={
+name="Corenna"
+female=yes
+dynasty=519
+dna="algchmgfjif"
+culture=andal_dornish 
+religion=the_seven
+martial=4
+diplomacy=1
+stewardship=1
+intrigue=4
+learning=5
+trait="detached_priest"
+trait="proud"
+trait="shy"
+trait="trusting"
+trait="chaste"
+trait="patient"
+father=1025
+mother=1026
+6553.8.4={birth=yes}
+6602.10.23={death=yes}
+}
+
+######################
+### House Qorgyle ##
+######################
+
+1030={
+	name="Allar"
+	dynasty=508
+	dna="hdcbeolhjlh"
+	culture=stone_dornish
+	religion=the_seven
+	martial=9
+	diplomacy=9
+	stewardship=2
+	intrigue=5
+	learning=5
+
+	6534.1.1={birth=yes}
+	6551.9.13 = {add_spouse=1031}
+	6595.8.2={death=yes}
+}
+
+1031={
+	name="Alyse"
+	female=yes
+	culture=stone_dornish
+	religion=the_seven
+	6534.10.8={birth=yes}
+	6551.9.13 = {add_spouse=1030}
+	6592.5.28={death=yes}
+}
+
+1032={
+	name="Jerod"
+	dynasty=508
+	culture=stone_dornish
+	religion=the_seven
+	father=1030
+	mother=1031
+	trait=knight
+	trait = dueling_expert
+	6554.9.29={birth=yes}
+	6610.4.13={death=yes}
+}
+
+1033={
+	name="Frynne"
+	female=yes
+	dynasty=508
+	culture=stone_dornish
+	religion=the_seven
+	father=1030
+	mother=1031
+	6559.4.28={birth=yes}
+	6612.9.5={death=yes}
+}
+
+1034={
+	name="Belandra"
+	female=yes
+	dynasty=508
+	culture=stone_dornish
+	religion=the_seven
+	father=1030
+	mother=1031
+	6565.3.6={birth=yes}
+	6624.11.20={death=yes}
+}
+
+###################
+### House Fowler ##
+###################
+
+1035={
+name="Ulrick"
+dynasty=503
+dna="ebhiboaoemn"
+culture=stone_dornish 
+religion=the_seven
+martial=1
+diplomacy=5
+stewardship=7
+intrigue=0
+learning=8
+trait="mastermind_theologian"
+trait="dueling_expert"
+trait="content"
+trait="zealous"
+trait="humble"
+trait="diligent"
+trait="brave"
+6528.5.1={birth=yes}
+6548.8.30 = {add_spouse=1036}
+6572.2.2={death=yes}
+}
+
+1036={
+name="Janyce"
+female=yes
+dna="ldceoejogam"
+culture=stone_dornish 
+religion=the_seven
+martial=4
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=0
+trait="midas_touched"
+trait="envious"
+trait="temperate"
+trait="proud"
+trait="paranoid"
+6528.4.3={birth=yes}
+6548.8.30 = {add_spouse=1035}
+6575.12.9={death=yes}
+}
+
+1037={
+name="Elia"
+female=yes
+dynasty=503
+dna="idheoeaogmn"
+culture=stone_dornish 
+religion=the_seven
+martial=3
+diplomacy=7
+stewardship=3
+intrigue=5
+learning=6
+trait="underhanded_rogue"
+trait="paranoid"
+trait="slothful"
+trait="just"
+trait="cynical"
+trait="charitable"
+trait="brave"
+trait="cruel"
+trait="stressed"
+father=1035
+mother=1036
+6551.9.3={birth=yes}
+6600.8.13={death=yes}
+}
+
+1038={
+name="Ulrick"
+dynasty=503
+dna="edhioeaogan"
+culture=stone_dornish 
+religion=the_seven
+martial=2
+diplomacy=4
+stewardship=1
+intrigue=5
+learning=4
+trait="skilled_tactician"
+trait="dueling_expert"
+trait="cruel"
+trait="craven"
+trait="charitable"
+trait="paranoid"
+trait="patient"
+trait="proud"
+father=1035
+mother=1036
+6549.8.5={birth=yes}
+6617.1.1={death=yes}
+}
+
+1039={
+name="Allyria"
+female=yes
+dynasty=503
+dna="edhijejogan"
+culture=stone_dornish 
+religion=the_seven
+martial=4
+diplomacy=3
+stewardship=2
+intrigue=5
+learning=3
+trait="underhanded_rogue"
+trait="arbitrary"
+trait="greedy"
+trait="trusting"
+trait="brave"
+trait="gregarious"
+father=1035
+mother=1036
+6557.5.2={birth=yes}
+6604.2.2={death=yes}
+}
+
+#####################
+### House Manwoody ##
+#####################
+
+1040={
+name="Willam"
+dynasty=504
+dna="nkbnaggildm"
+culture=stone_dornish 
+religion=the_seven
+trait="dueling_skilled"
+trait="arbitrary"
+6531.11.1={birth=yes}
+6556.2.16 = {add_spouse=1041}
+6615.9.21={death=yes}
+}
+
+1041={
+name="Alysanne"
+female=yes
+dna="hjfmpjalgcc"
+culture=stone_dornish 
+religion=the_seven
+6532.2.11={birth=yes}
+6556.2.16 = {add_spouse=1040}
+6575.2.6={death=yes}
+}
+
+1042={
+name="Myles"
+dynasty=504
+dna="hkfcajalldm"
+culture=stone_dornish 
+religion=the_seven
+father=1040
+mother=1041
+6561.11.27={birth=yes}
+6628.7.22={death=yes}
+}
+
+1043={
+name="Franklyn"
+dynasty=504
+dna="cjpnagalpcc"
+culture=stone_dornish 
+religion=the_seven
+father=1040
+mother=1041
+6564.2.10={birth=yes}
+6598.7.23={death=yes}
+}
+
+1044={
+name="Elia"
+female=yes
+dynasty=504
+dna="njfmpgaigcm"
+culture=stone_dornish 
+religion=the_seven
+father=1040
+mother=1041
+6565.6.14={birth=yes}
+6605.8.9={death=yes}
+}
+
+########################
+### House Brimstone   ##
+########################
+
+1045={
+name="Maron"
+dynasty=580
+dna="jgmkikcigib"
+culture=scourgemen 
+religion=the_seven
+martial=1
+diplomacy=1
+stewardship=3
+intrigue=2
+learning=5
+trait="charismatic_negotiator"
+trait="dueling_skilled"
+trait="arbitrary"
+trait="temperate"
+trait="trusting"
+trait="chaste"
+trait="gregarious"
+6534.11.1={birth=yes}
+6552.8.3 = {add_spouse=1046}
+6589.11.2={death=yes}
+}
+
+1046={
+name="Senelle"
+female=yes
+dna="mdkbdmhgnon"
+culture=scourgemen 
+religion=the_seven
+martial=4
+diplomacy=4
+stewardship=6
+intrigue=3
+learning=2
+trait="flamboyant_schemer"
+trait="deceitful"
+trait="cruel"
+trait="cynical"
+trait="shy"
+trait="wroth"
+trait="gluttonous"
+6536.3.7={birth=yes}
+6586.2.27={death=yes}
+}
+
+1047={
+name="Timeon"
+dynasty=580
+dna="mdmbdkhigen"
+culture=scourgemen 
+religion=the_seven
+martial=3
+diplomacy=3
+stewardship=2
+intrigue=3
+learning=5
+trait="thrifty_clerk"
+trait="trusting"
+trait="craven"
+trait="diligent"
+trait="just"
+trait="content"
+trait="zealous"
+trait="gregarious"
+trait="cruel"
+father=1045
+mother=1046
+6557.8.17={birth=yes}
+6611.9.20={death=yes}
+}
+
+1048={
+name="Ynys"
+female=yes
+dynasty=580
+dna="gdmbdmhgnib"
+culture=scourgemen 
+religion=the_seven
+martial=0
+diplomacy=6
+stewardship=5
+intrigue=0
+learning=4
+trait="underhanded_rogue"
+trait="brave"
+trait="charitable"
+trait="kind"
+trait="wroth"
+trait="paranoid"
+father=1045
+mother=1046
+6558.6.30={birth=yes}
+6604.9.23={death=yes}
+}
+
+1049={
+name="Symon"
+dynasty=580
+dna="mgkbikhgnob"
+culture=scourgemen 
+religion=the_seven
+martial=1
+diplomacy=6
+stewardship=3
+intrigue=6
+learning=4
+trait="thrifty_clerk"
+trait="diligent"
+trait="patient"
+trait="cynical"
+trait="chaste"
+father=1045
+mother=1046
+6563.5.3={birth=yes}
+6619.3.22={death=yes}
+}
+
+####################
+### House Weybone ##
+####################
+
+1050={
+name="Castos"
+dynasty=522
+dna="igdkgckkfod"
+culture=bonemen
+religion=vulture_god
+martial=7
+diplomacy=3
+stewardship=6
+intrigue=5
+learning=5
+trait="brilliant_strategist"
+trait="dueling_skilled"
+trait="craven"
+trait="deceitful"
+trait="patient"
+trait="just"
+trait="gluttonous"
+trait="content"
+6527.7.1={birth=yes}
+6546.8.27 = {add_spouse=1051}
+6576.9.13={death=yes}
+}
+
+1051={
+name="Elia"
+female=yes
+dna="gmhoeadncml"
+culture=bonemen
+religion=vulture_god
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=3
+learning=8
+trait="skilled_tactician"
+trait="content"
+trait="cruel"
+trait="temperate"
+trait="craven"
+trait="honest"
+6526.10.21={birth=yes}
+6579.9.16={death=yes}
+}
+
+1052={
+name="Quentyn"
+dynasty=522
+dna="igdooakkgnl"
+culture=bonemen
+religion=vulture_god
+martial=7
+diplomacy=5
+stewardship=7
+intrigue=3
+learning=5
+trait="charismatic_negotiator"
+trait="dueling_adept"
+trait="just"
+trait="slothful"
+trait="craven"
+trait="envious"
+trait="wroth"
+trait="chaste"
+father=1050
+mother=1051
+6547.1.20={birth=yes}
+6592.8.9={death=yes}
+}
+
+1053={
+name="Alester"
+dynasty=522
+dna="ggdogckkcol"
+culture=bonemen
+religion=vulture_god
+martial=4
+diplomacy=6
+stewardship=2
+intrigue=8
+learning=4
+trait="brilliant_strategist"
+trait="dueling_skilled"
+trait="mystic"
+trait="temperate"
+trait="diligent"
+trait="wroth"
+trait="cruel"
+trait="trusting"
+father=1050
+mother=1051
+6548.8.28={birth=yes}
+6587.8.11={death=yes}
+}
+
+1054={
+name="Timeon"
+dynasty=522
+dna="gghmgcdnfod"
+culture=bonemen
+religion=vulture_god
+martial=3
+diplomacy=7
+stewardship=2
+intrigue=5
+learning=1
+trait="naive_appeaser"
+trait="cruel"
+trait="patient"
+trait="zealous"
+trait="charitable"
+trait="gluttonous"
+trait="brave"
+trait="leper"
+father=1050
+mother=1051
+6553.3.16={birth=yes}
+6601.1.31={death=yes}
+}
+
+
+################
+### House Wyl ##
+################
+
+1055={
+name="Archibald"
+dynasty=506
+dna="affcmphiidj"
+culture=bonemen
+religion=vulture_god
+martial=4
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=5
+trait="intricate_webweaver"
+trait="dueling_expert"
+trait="brave"
+trait="cynical"
+trait="diligent"
+trait="shy"
+trait="charitable"
+trait="envious"
+trait="temperate"
+6535.5.1={birth=yes}
+6553.4.23 = {add_spouse=1056}
+6582.9.15={death=yes}
+}
+
+1056={
+name="Belandra"
+female=yes
+dna="nfnleadfoka"
+culture=bonemen
+religion=vulture_god
+martial=3
+diplomacy=5
+stewardship=5
+intrigue=6
+learning=2
+trait="flamboyant_schemer"
+trait="lustful"
+trait="proud"
+trait="craven"
+trait="charitable"
+trait="honest"
+trait="arbitrary"
+6536.8.9={birth=yes}
+6553.4.23 = {add_spouse=1055}
+6594.9.18={death=yes}
+}
+
+1057={
+name="Elinor"
+female=yes
+dynasty=506
+dna="nfnlmahfokj"
+culture=bonemen
+religion=vulture_god
+martial=6
+diplomacy=4
+stewardship=6
+intrigue=2
+learning=4
+trait="misguided_warrior"
+trait="slothful"
+trait="charitable"
+trait="paranoid"
+trait="wroth"
+trait="cruel"
+trait="just"
+trait="gregarious"
+trait="craven"
+father=1055
+mother=1056
+6555.9.19={birth=yes}
+6620.2.13={death=yes}
+}
+
+1058={
+name="Corenna"
+female=yes
+dynasty=506
+dna="nkdleahfoka"
+culture=bonemen
+religion=vulture_god
+martial=7
+diplomacy=7
+stewardship=1
+intrigue=2
+learning=4
+trait="tough_soldier"
+trait="trusting"
+trait="deceitful"
+trait="brave"
+trait="humble"
+trait="gregarious"
+trait="lustful"
+father=1055
+mother=1056
+6559.7.26={birth=yes}
+6593.6.24={death=yes}
+}
+
+1059={
+name="Pate"
+dynasty=506
+dna="nffcmchaika"
+culture=bonemen
+religion=vulture_god
+martial=5
+diplomacy=1
+stewardship=6
+intrigue=3
+learning=2
+trait="brilliant_strategist"
+trait="hunter"
+trait="gregarious"
+trait="craven"
+trait="trusting"
+trait="charitable"
+trait="humble"
+father=1055
+mother=1056
+6564.3.16={birth=yes}
+6623.5.8={death=yes}
+}
+
+##################
+### House Vaith ##
+##################
+
+1060={
+name="Gerris"
+dynasty=509
+dna="iiadjakkjom"
+culture=andal_dornish
+religion=the_seven
+martial=1
+diplomacy=8
+stewardship=7
+intrigue=2
+learning=4
+trait="skilled_tactician"
+trait="dueling_skilled"
+trait="patient"
+trait="lustful"
+trait="trusting"
+trait="brave"
+trait="cruel"
+6522.9.1={birth=yes}
+6540.1.21 = {add_spouse=1061}
+6585.7.24={death=yes}
+}
+
+1061={
+name="Wylla"
+female=yes
+dna="khonfgiakoh"
+culture=andal_dornish
+religion=the_seven
+martial=5
+diplomacy=3
+stewardship=8
+intrigue=2
+learning=7
+trait="grey_eminence"
+trait="cynical"
+trait="humble"
+trait="shy"
+trait="lustful"
+trait="charitable"
+trait="drunkard"
+6523.10.2={birth=yes}
+6540.1.21 = {add_spouse=1060}
+6585.2.9={death=yes}
+}
+
+1062={
+name="Wylla"
+female=yes
+dynasty=509
+dna="klanjgkhkom"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=5
+learning=2
+trait="underhanded_rogue"
+trait="gregarious"
+trait="honest"
+trait="patient"
+trait="kind"
+trait="content"
+trait="temperate"
+trait="craven"
+trait="proud"
+father=1060
+mother=1061
+6543.2.18={birth=yes}
+6595.7.1={death=yes}
+}
+
+1063={
+name="Linette"
+female=yes
+dynasty=509
+dna="kjadjagajoh"
+culture=andal_dornish
+religion=the_seven
+martial=8
+diplomacy=4
+stewardship=4
+intrigue=2
+learning=5
+trait="brilliant_strategist"
+trait="poet"
+trait="paranoid"
+trait="arbitrary"
+trait="content"
+trait="humble"
+trait="gregarious"
+trait="envious"
+father=1060
+mother=1061
+6545.1.4={birth=yes}
+6597.4.20={death=yes}
+}
+
+1064={
+name="Alysanne"
+female=yes
+dynasty=509
+dna="khadfaiakoh"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=2
+stewardship=4
+intrigue=4
+learning=5
+trait="naive_appeaser"
+trait="deceitful"
+trait="zealous"
+trait="charitable"
+trait="kind"
+trait="shy"
+father=1060
+mother=1061
+6548.9.20={birth=yes}
+6612.6.15={death=yes}
+}
+
+1065={
+name="Timeon"
+dynasty=509
+dna="iianfakajoh"
+culture=andal_dornish
+religion=the_seven
+martial=7
+diplomacy=1
+stewardship=5
+intrigue=1
+learning=4
+trait="elusive_shadow"
+trait="dueling_skilled"
+trait="slothful"
+trait="charitable"
+trait="cruel"
+trait="deceitful"
+trait="proud"
+father=1060
+mother=1061
+6549.11.10={birth=yes}
+6605.3.23={death=yes}
+}
+
+####################
+### House Ghaston ##
+####################
+
+1066={
+name="Bedwyck"
+dynasty=523
+dna="nhbhjaphipc"
+culture=andal_dornish 
+religion=the_seven
+martial=6
+diplomacy=4
+stewardship=3
+intrigue=4
+learning=6
+trait="skilled_tactician"
+trait="dueling_expert"
+trait="charitable"
+trait="cruel"
+trait="deceitful"
+6534.1.1={birth=yes}
+6550.10.27 = {add_spouse=1067}
+6600.6.1={death=yes}
+}
+
+1067={
+name="Morra"
+female=yes
+dna="lmioahfkifo"
+culture=andal_dornish 
+religion=the_seven
+martial=1
+diplomacy=2
+stewardship=5
+intrigue=6
+learning=4
+trait="fortune_builder"
+trait="honest"
+trait="shy"
+trait="craven"
+trait="proud"
+trait="greedy"
+trait="cruel"
+trait="lustful"
+6533.10.28={birth=yes}
+6550.10.27 = {add_spouse=1066}
+6574.1.4={death=yes}
+}
+
+1068={
+name="Amarei"
+female=yes
+dynasty=523
+dna="lmfoaafkipo"
+culture=andal_dornish 
+religion=the_seven
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=5
+learning=2
+trait="intricate_webweaver"
+trait="greedy"
+trait="gluttonous"
+trait="proud"
+trait="wroth"
+trait="ambitious"
+trait="arbitrary"
+trait="honest"
+father=1066
+mother=1067
+6555.10.30={birth=yes}
+6609.2.17={death=yes}
+}
+
+1069={
+name="Franklyn"
+dynasty=523
+dna="lhbhjkpkifo"
+culture=andal_dornish 
+religion=the_seven
+martial=5
+diplomacy=7
+stewardship=5
+intrigue=3
+learning=1
+trait="detached_priest"
+trait="impaler"
+trait="gluttonous"
+trait="wroth"
+trait="chaste"
+trait="proud"
+trait="cruel"
+trait="arbitrary"
+father=1066
+mother=1067
+6558.6.16={birth=yes}
+6628.1.19={death=yes}
+}
+
+1070={
+name="Alester"
+dynasty=523
+dna="lmboaafhipo"
+culture=andal_dornish 
+religion=the_seven
+martial=6
+diplomacy=6
+stewardship=5
+intrigue=5
+learning=2
+trait="brilliant_strategist"
+trait="cynical"
+trait="humble"
+trait="trusting"
+trait="shy"
+trait="patient"
+trait="content"
+trait="lustful"
+father=1066
+mother=1067
+6561.2.17={birth=yes}
+6600.4.23={death=yes}
+}
+
+#####################
+### House Deadwell ##
+#####################
+
+1071={
+name="Ulwyck"
+dynasty=524
+dna="achcljddedj"
+religion = the_seven
+culture = tormen
+martial=4
+diplomacy=3
+stewardship=8
+intrigue=5
+learning=4
+trait="skilled_tactician"
+trait="dueling_skilled"
+trait="poet"
+trait="temperate"
+trait="patient"
+trait="honest"
+trait="diligent"
+trait="envious"
+trait="content"
+6529.5.1={birth=yes}
+6551.6.3 = {add_spouse=1072}
+6585.6.6={death=yes}
+}
+
+1072={
+name="Donyse"
+female=yes
+dna="gjagcmgbbkj"
+religion = the_seven
+culture = tormen
+martial=1
+diplomacy=4
+stewardship=7
+intrigue=5
+learning=6
+trait="charismatic_negotiator"
+trait="patient"
+trait="diligent"
+trait="cynical"
+trait="humble"
+trait="cruel"
+trait="gregarious"
+trait="greedy"
+trait="content"
+6530.9.17={birth=yes}
+6551.6.3 = {add_spouse=1071}
+6571.2.11={death=yes}
+}
+
+1073={
+name="Morgan"
+dynasty=524
+dna="ajlgcmgbekj"
+religion = the_seven
+culture = tormen
+martial=1
+diplomacy=4
+stewardship=1
+intrigue=5
+learning=5
+trait="grey_eminence"
+trait="dueling_adept"
+trait="cruel"
+trait="envious"
+trait="slothful"
+trait="deceitful"
+trait="wroth"
+trait="chaste"
+father=1071
+mother=1072
+6553.5.27={birth=yes}
+6612.10.1={death=yes}
+}
+
+1074={
+name="Carolei"
+female=yes
+dynasty=524
+dna="gcaglbgbekj"
+religion = the_seven
+culture = tormen
+martial=3
+diplomacy=2
+stewardship=3
+intrigue=3
+learning=1
+trait="thrifty_clerk"
+trait="gluttonous"
+trait="shy"
+trait="diligent"
+trait="chaste"
+trait="cruel"
+trait="just"
+father=1071
+mother=1072
+6558.5.7={birth=yes}
+6609.10.28={death=yes}
+}
+
+1075={
+name="Franklyn"
+dynasty=524
+dna="gcailmdbekj"
+religion = the_seven
+culture = tormen
+martial=5
+diplomacy=5
+stewardship=3
+intrigue=3
+learning=6
+trait="indulgent_wastrel"
+trait="brave"
+trait="diligent"
+trait="honest"
+trait="lustful"
+trait="wroth"
+trait="envious"
+father=1071
+mother=1072
+6564.7.17={birth=yes}
+6610.5.11={death=yes}
+}
+
+#####################
+### House Jordayne ##
+#####################
+
+1076 ={
+name="Arthur"
+dynasty=525
+dna="calfakcajii"
+culture=andal_dornish
+religion=the_seven
+martial=1
+diplomacy=5
+stewardship=1
+intrigue=7
+learning=8
+trait="tough_soldier"
+trait="dueling_novice"
+trait="patient"
+trait="greedy"
+trait="craven"
+trait="kind"
+trait="content"
+trait="trusting"
+trait="chaste"
+trait="slothful"
+6536.9.1={birth=yes}
+6557.8.5 = {add_spouse=1077}
+6599.3.3={death=yes}
+}
+
+1077 ={
+name="Larra"
+female=yes
+dna="aipflhbbgci"
+culture=andal_dornish
+religion=the_seven
+martial=2
+diplomacy=5
+stewardship=3
+intrigue=3
+learning=6
+trait="skilled_tactician"
+trait="deceitful"
+trait="ambitious"
+trait="slothful"
+trait="charitable"
+6536.6.27={birth=yes}
+6557.8.5 = {add_spouse=1076}
+6609.11.4={death=yes}
+}
+
+1078 ={
+name="Morgan"
+dynasty=525
+dna="cipflkbijci"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=3
+learning=7
+trait="brilliant_strategist"
+trait="greedy"
+trait="cruel"
+trait="shy"
+trait="ambitious"
+trait="temperate"
+father=1076
+mother=1077
+6558.12.11={birth=yes}
+6611.4.17={death=yes}
+}
+
+1079 ={
+name="Wylla"
+female=yes
+dynasty=525
+dna="cipflhcbjii"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=6
+stewardship=4
+intrigue=3
+learning=5
+trait="charismatic_negotiator"
+trait="craven"
+trait="chaste"
+trait="wroth"
+trait="zealous"
+trait="charitable"
+father=1076
+mother=1077
+6562.3.28={birth=yes}
+6604.5.18={death=yes}
+}
+
+1080 ={
+name="Ulwyck"
+dynasty=525
+dna="aihfehbbgii"
+culture=andal_dornish
+religion=the_seven
+martial=4
+diplomacy=7
+stewardship=5
+intrigue=7
+learning=7
+trait="fortune_builder"
+trait="chaste"
+trait="deceitful"
+trait="content"
+trait="cruel"
+trait="slothful"
+trait="humble"
+father=1076
+mother=1077
+6565.7.20={birth=yes}
+6609.11.27={death=yes}
+}
+
+##################
+### House Vyper ##
+##################
+
+1081={
+name="Trystane"
+dynasty=526
+dna="gmeoalppdel"
+culture=andal_dornish
+religion=the_seven
+martial=7
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=4
+trait="intricate_webweaver"
+trait="dueling_adept"
+trait="wroth"
+trait="craven"
+trait="charitable"
+trait="cynical"
+trait="gregarious"
+trait="envious"
+trait="cruel"
+trait="honest"
+6535.11.1={birth=yes}
+6554.4.26 = {add_spouse=1082}
+6594.9.4={death=yes}
+}
+
+1082={
+name="Loreza"
+female=yes
+dna="kjlnobdmonl"
+culture=andal_dornish
+religion=the_seven
+martial=6
+diplomacy=4
+stewardship=4
+intrigue=3
+learning=4
+trait="underhanded_rogue"
+trait="greedy"
+trait="patient"
+trait="zealous"
+trait="honest"
+trait="proud"
+trait="just"
+6536.2.13={birth=yes}
+6554.4.26 = {add_spouse=1081}
+6585.9.1={death=yes}
+}
+
+1083={
+name="Larra"
+female=yes
+dynasty=526
+dna="gmlnalpmdnl"
+culture=andal_dornish
+religion=the_seven
+martial=5
+diplomacy=3
+stewardship=5
+intrigue=2
+learning=3
+trait="flamboyant_schemer"
+trait="chaste"
+trait="craven"
+trait="honest"
+trait="gluttonous"
+father=1081
+mother=1082
+6558.8.3={birth=yes}
+6621.2.7={death=yes}
+}
+
+1084={
+name="Mors"
+dynasty=526
+dna="kjenalppdel"
+culture=andal_dornish
+religion=the_seven
+martial=4
+diplomacy=5
+stewardship=6
+intrigue=6
+learning=4
+trait="skilled_tactician"
+trait="proud"
+trait="charitable"
+trait="brave"
+trait="gregarious"
+trait="patient"
+trait="content"
+father=1081
+mother=1082
+6563.5.2={birth=yes}
+6606.11.7={death=yes}
+}
+
+1085={
+name="Gulian"
+dynasty=526
+dna="gjeoolpednl"
+culture=andal_dornish
+religion=the_seven
+martial=2
+diplomacy=5
+stewardship=4
+intrigue=4
+learning=2
+trait="elusive_shadow"
+trait="brave"
+trait="just"
+trait="cruel"
+trait="lustful"
+trait="paranoid"
+trait="temperate"
+trait="ambitious"
+father=1081
+mother=1082
+6565.12.1={birth=yes}
+6626.12.19={death=yes}
+}
+
+####################
+### House Toland ###
+####################
+
+1086={
+name="Aron"
+dynasty=527
+dna="dndkcdibnkk"
+culture=andal_dornish
+religion=the_seven
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=4
+learning=8
+trait="fortune_builder"
+trait="dueling_skilled"
+trait="content"
+trait="diligent"
+trait="gluttonous"
+trait="wroth"
+trait="deceitful"
+trait="chaste"
+trait="craven"
+6527.7.1={birth=yes}
+6547.1.14 = {add_spouse=1087}
+6576.1.9={death=yes}
+}
+
+1087={
+name="Elinor"
+female=yes
+dna="jplcchdmaid"
+culture=andal_dornish
+religion=the_seven
+martial=7
+diplomacy=3
+stewardship=4
+intrigue=0
+learning=3
+trait="brilliant_strategist"
+trait="hunter"
+trait="greedy"
+trait="kind"
+trait="trusting"
+trait="content"
+trait="honest"
+trait="patient"
+6528.1.20={birth=yes}
+6547.1.14 = {add_spouse=1086}
+6591.2.5={death=yes}
+}
+
+1088={
+name="Arthur"
+dynasty=527
+dna="jppcchimaek"
+culture=andal_dornish
+religion=the_seven
+martial=4
+diplomacy=2
+stewardship=4
+intrigue=2
+learning=3
+trait="grey_eminence"
+trait="dueling_skilled"
+trait="wroth"
+trait="trusting"
+trait="ambitious"
+trait="shy"
+trait="drunkard"
+father=1086
+mother=1087
+6551.1.2={birth=yes}
+6613.5.30={death=yes}
+}
+
+1089={
+name="Ceranna"
+female=yes
+dynasty=527
+dna="jndccddbnik"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=4
+stewardship=4
+intrigue=3
+learning=1
+trait="thrifty_clerk"
+trait="chaste"
+trait="just"
+trait="gregarious"
+trait="patient"
+trait="trusting"
+trait="greedy"
+father=1086
+mother=1087
+6552.4.12={birth=yes}
+6611.9.21={death=yes}
+}
+
+1090={
+name="Jeyne"
+female=yes
+dynasty=527
+dna="dnlkchimnkd"
+culture=andal_dornish
+religion=the_seven
+martial=4
+diplomacy=4
+stewardship=6
+intrigue=0
+learning=3
+trait="underhanded_rogue"
+trait="greedy"
+trait="cruel"
+trait="temperate"
+trait="content"
+trait="gregarious"
+father=1086
+mother=1087
+6553.5.9={birth=yes}
+6600.1.26={death=yes}
+}
+
+######################
+### House Sandfold ###
+######################
+
+1091={
+name="Aron"
+dynasty=528
+dna="njjileolodn"
+culture=andal_dornish
+religion=the_seven
+martial=6
+diplomacy=6
+stewardship=3
+intrigue=0
+learning=3
+trait="skilled_tactician"
+trait="dueling_expert"
+trait="charitable"
+trait="temperate"
+trait="gregarious"
+trait="craven"
+6530.7.1={birth=yes}
+6551.11.26 = {add_spouse=1092}
+6600.1.15={death=yes}
+}
+
+1092={
+name="Ashara"
+female=yes
+dna="gkgoajgbonl"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=6
+stewardship=3
+intrigue=2
+learning=1
+trait="elusive_shadow"
+trait="duelist"
+trait="gregarious"
+trait="lustful"
+trait="honest"
+trait="wroth"
+trait="proud"
+6530.12.1={birth=yes}
+6551.11.26 = {add_spouse=1091}
+6579.8.7={death=yes}
+}
+
+1093={
+name="Jennelyn"
+female=yes
+dynasty=528
+dna="gjgoleolodl"
+culture=andal_dornish
+religion=the_seven
+martial=4
+diplomacy=3
+stewardship=1
+intrigue=4
+learning=2
+trait="fortune_builder"
+trait="ambitious"
+trait="trusting"
+trait="wroth"
+trait="craven"
+trait="chaste"
+father=1091
+mother=1092
+6555.1.17={birth=yes}
+6614.6.25={death=yes}
+}
+
+1094={
+name="Franklyn"
+dynasty=528
+dna="njjiljglodl"
+culture=andal_dornish
+religion=the_seven
+martial=7
+diplomacy=2
+stewardship=6
+intrigue=2
+learning=2
+trait="tough_soldier"
+trait="duelist"
+trait="greedy"
+trait="slothful"
+trait="content"
+trait="honest"
+trait="wounded"
+father=1091
+mother=1092
+6560.4.22={birth=yes}
+6634.7.11={death=yes}
+}
+
+1095={
+name="Ulwyck"
+dynasty=528
+dna="nkgiljobonn"
+culture=andal_dornish
+religion=the_seven
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=2
+learning=4
+trait="thrifty_clerk"
+trait="content"
+trait="zealous"
+trait="shy"
+trait="envious"
+trait="slothful"
+father=1091
+mother=1092
+6562.12.28={birth=yes}
+6626.3.28={death=yes}
+}
+
+##################
+### House Dalt ###
+##################
+
+1096={
+name="Garin"
+dynasty=529
+dna="cckcnhffnbl"
+culture=andal_dornish
+religion=the_seven
+martial=7
+diplomacy=6
+stewardship=6
+intrigue=2
+learning=6
+trait="flamboyant_schemer"
+trait="dueling_skilled"
+trait="wroth"
+trait="trusting"
+trait="zealous"
+trait="kind"
+6533.11.1={birth=yes}
+6551.8.16 = {add_spouse=1097}
+6597.5.12={death=yes}
+}
+
+1097={
+name="Ysilla"
+female=yes
+dna="bbkfmpiimbn"
+culture=andal_dornish
+religion=the_seven
+martial=7
+diplomacy=5
+stewardship=5
+intrigue=4
+learning=4
+trait="fortune_builder"
+trait="brave"
+trait="zealous"
+trait="paranoid"
+trait="deceitful"
+6533.11.30={birth=yes}
+6551.8.16 = {add_spouse=1096}
+6606.10.20={death=yes}
+}
+
+1098={
+name="Ceranna"
+female=yes
+dynasty=529
+dna="bckinpfiibn"
+culture=andal_dornish
+religion=the_seven
+martial=1
+diplomacy=7
+stewardship=7
+intrigue=0
+learning=5
+trait="underhanded_rogue"
+trait="ambitious"
+trait="trusting"
+trait="honest"
+trait="cynical"
+trait="proud"
+trait="wroth"
+father=1096
+mother=1097
+6552.9.2={birth=yes}
+6590.6.18={death=yes}
+}
+
+1099={
+name="Gerris"
+dynasty=529
+dna="bmkfmhifmbn"
+culture=andal_dornish
+religion=the_seven
+martial=3
+diplomacy=8
+stewardship=4
+intrigue=6
+learning=3
+trait="intricate_webweaver"
+trait="dueling_novice"
+trait="poet"
+trait="cynical"
+trait="lustful"
+trait="content"
+trait="just"
+father=1096
+mother=1097
+6555.10.18={birth=yes}
+6589.6.30={death=yes}
+}
+
+1100={
+name="Daemon"
+dynasty=529
+dna="bchfmhfimbl"
+culture=andal_dornish
+religion=the_seven
+martial=2
+diplomacy=5
+stewardship=6
+intrigue=2
+learning=0
+trait="skilled_tactician"
+trait="charitable"
+trait="kind"
+trait="gregarious"
+trait="diligent"
+trait="drunkard"
+father=1096
+mother=1097
+6558.9.5={birth=yes}
+6619.3.25={death=yes}
+}
+
+########################
+### House Sandburrow ###
+########################
+
+1101={
+name="Yandry"
+dynasty=530
+dna="jkknkbhhjep"
+culture=scourgemen
+religion=old_gods
+martial=2
+diplomacy=4
+stewardship=3
+intrigue=2
+learning=3
+trait="underhanded_rogue"
+trait="dueling_skilled"
+trait="cynical"
+trait="deceitful"
+trait="ambitious"
+trait="envious"
+6534.1.1={birth=yes}
+6552.6.6 = {add_spouse=1102}
+6593.8.21={death=yes}
+}
+
+1102={
+name="Jeyne"
+female=yes
+dna="ndiieffiief"
+culture=scourgemen
+religion=old_gods
+martial=2
+diplomacy=3
+stewardship=4
+intrigue=4
+learning=8
+trait="intricate_webweaver"
+trait="cruel"
+trait="honest"
+trait="greedy"
+trait="shy"
+trait="craven"
+trait="slothful"
+6534.10.3={birth=yes}
+6552.6.6 = {add_spouse=1101}
+6586.12.25={death=yes}
+}
+
+1103={
+name="Jeyne"
+female=yes
+dynasty=530
+dna="nkkncbehjcf"
+culture=scourgemen
+religion=old_gods
+martial=5
+diplomacy=6
+stewardship=5
+intrigue=2
+learning=8
+trait="charismatic_negotiator"
+trait="proud"
+trait="paranoid"
+trait="wroth"
+trait="just"
+trait="craven"
+father=1101
+mother=1102
+6555.5.19={birth=yes}
+6607.1.12={death=yes}
+}
+
+1104={
+name="Jeyne"
+female=yes
+dynasty=530
+dna="ndkdechijef"
+culture=scourgemen
+religion=old_gods
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=4
+trait="elusive_shadow"
+trait="mystic"
+trait="slothful"
+trait="patient"
+trait="cruel"
+trait="charitable"
+trait="trusting"
+trait="proud"
+father=1101
+mother=1102
+6557.9.16={birth=yes}
+6598.10.25={death=yes}
+}
+
+1105={
+name="Anders"
+dynasty=530
+dna="nkiieffiiep"
+culture=scourgemen
+religion=old_gods
+martial=6
+diplomacy=5
+stewardship=5
+intrigue=6
+learning=5
+trait="brilliant_strategist"
+trait="cruel"
+trait="lustful"
+trait="envious"
+trait="deceitful"
+trait="arbitrary"
+father=1101
+mother=1102
+6561.8.22={birth=yes}
+6617.8.20={death=yes}
+}
+
+######################
+### House Gargalen ###
+######################
+
+1106={
+	name="Olyvar"
+	dynasty=581
+	culture=andal_dornish
+	religion=the_seven
+	trait="knight"
+	trait="dueling_skilled"
+	6526.1.1={birth=yes}
+	6546.3.26 = {add_spouse=1107}
+	6585.5.3={death=yes}
+}
+
+1107={
+	name="Morra"
+	female=yes
+	culture=andal_dornish
+	religion=the_seven
+	6526.5.3={birth=yes}
+	6546.3.26 = {add_spouse=1106}
+	6587.9.18={death=yes}
+}
+
+1108={
+	name="Donyse"
+	female=yes
+	dynasty=581
+	culture=andal_dornish
+	religion=the_seven
+	father=1106
+	mother=1107
+	6550.10.21={birth=yes}
+	6596.8.11={death=yes}
+}
+
+1109={
+	name="Gerold"
+	dynasty=581
+	culture=andal_dornish
+	religion=the_seven
+	trait="dueling_adept"
+	father=1106
+	mother=1107
+	6555.4.21={birth=yes}
+	6624.1.9={death=yes}
+}
+
+1110={
+	name="Alaric"
+	dynasty=581
+	culture=andal_dornish
+	religion=the_seven
+	trait="dueling_novice"
+	father=1106
+	mother=1107
+	6556.7.9={birth=yes}
+	6623.3.28={death=yes}
+}
+
+1111={
+	name="Oberyn"
+	dynasty=581
+	culture=andal_dornish
+	religion=the_seven
+	father=1106
+	mother=1107
+	6561.10.22={birth=yes}
+	6617.4.7={death=yes}
+}
+
+######################
+### House Holt #######
+######################
+
+1112={
+	name=Alester
+	dynasty=514
+	dna="gbipobpbnnj"
+	culture=stonemen
+	religion=old_gods
+	6499.7.24={ birth=yes }
+	6520.1.1={ add_spouse=1118 }
+	6562.3.19={ death=yes }
+}
+1113={
+	name=Beldecar
+	dynasty=514
+	dna="gbipclpabog"
+	culture=stonemen
+	religion=old_gods
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=content 
+	trait=zealous 
+	trait=kind 
+	trait=deceitful 
+	trait=dueling_novice
+	father=1112	#Alester
+	mother=1118	#Sylva
+	6526.1.17={ birth=yes }
+	6547.1.1={ add_spouse=1119 }
+	6600.6.9={ death=yes }
+}
+1114={
+	name=Armen
+	dynasty=514
+	dna="gbchdbibpnj"
+	culture=stonemen
+	religion=old_gods
+	martial=5 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=4
+	trait=tough_soldier 
+	trait=impaler 
+	trait=temperate 
+	trait=arbitrary 
+	trait=craven 
+	trait=deceitful 
+	father=1112	#Alester
+	mother=1118	#Sylva
+	6530.10.13={ birth=yes }
+	6594.2.3={ death=yes }
+}
+1115={
+	name=Myria
+	female=yes
+	dynasty=514
+	dna="geipnfbabog"
+	culture=stonemen
+	religion=old_gods
+	father=1113	#Beldecar
+	mother=1119	#Wylla
+	6550.8.23={ birth=yes }
+	6607.7.30={ death=yes }
+}
+1116={
+	name=Franklyn
+	dynasty=514
+	dna="gbmpcopacgh"
+	culture=stonemen
+	religion=old_gods
+	trait=slothful
+	father=1113	#Beldecar
+	mother=1119	#Wylla
+	6552.9.18={ birth=yes }
+	6605.12.15={ death=yes }
+}
+1117={
+	name=Quentyn
+	dynasty=514
+	dna="ccipadpafdg"
+	culture=stonemen
+	religion=old_gods
+	trait=gluttonous 
+	trait=cruel
+	father=1113	#Beldecar
+	mother=1119	#Wylla
+	6557.11.14={ birth=yes }
+	6620.4.13={ death=yes }
+}
+1118={
+	name=Sylva
+	female=yes
+	culture=stonemen
+	religion=old_gods
+	6499.1.1={ birth=yes }
+	6562.1.1={ death=yes }
+}
+1119={
+	name=Wylla
+	female=yes
+	culture=stonemen
+	religion=old_gods
+	6526.1.1={ birth=yes }
+	6600.1.1={ death=yes }
+}
+
+######################
+### House Dryland ####
+######################
+
+1120={
+	name=Mors
+	dynasty=521
+	dna="jdbjejpijcm"
+	culture=scourgemen 
+	religion=the_seven
+	6500.4.9={ birth=yes }
+	6521.1.1={ add_spouse=1127 }
+	6557.3.23={ death=yes }
+}
+1121={
+	name=Lucifer
+	dynasty=521
+	dna="jdcjijniccc"
+	culture=scourgemen 
+	religion=the_seven
+	martial=6 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=misguided_warrior 
+	trait=honest 
+	trait=wroth 
+	trait=craven 
+	trait=arbitrary 
+	father=1120	#Mors
+	mother=1127	#Nymella
+	6524.8.15={ birth=yes }
+	6545.1.1={ add_spouse=1128 }
+	6570.6.29={ death=yes }
+}
+1122={
+	name=Gerold
+	dynasty=521
+	dna="oabjejpljcj"
+	culture=scourgemen 
+	religion=the_seven
+	martial=6 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=6 
+	learning=6
+	trait=naive_appeaser 
+	trait=shy 
+	trait=cruel 
+	trait=paranoid 
+	trait=ambitious 
+	trait=dueling_adept
+	father=1120	#Mors
+	mother=1127	#Nymella
+	6527.4.11={ birth=yes }
+	6584.8.18={ death=yes }
+}
+1123={
+	name=Arron
+	dynasty=521
+	dna="jdekepjhjnp"
+	culture=scourgemen 
+	religion=the_seven
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=7 
+	learning=5
+	trait=elusive_shadow 
+	trait=scholar 
+	trait=paranoid 
+	trait=zealous 
+	trait=cruel 
+	trait=diligent 
+	trait=content 
+	trait=dueling_adept
+	father=1120	#Mors
+	mother=1127	#Nymella
+	6529.1.22={ birth=yes }
+	6574.3.13={ death=yes }
+}
+1124={
+	name=Alleras
+	dynasty=521
+	dna="jfcbpjlkcac"
+	culture=scourgemen 
+	religion=the_seven
+	trait=trusting 
+	trait=proud 
+	father=1121	#Lucifer
+	mother=1128	#Delonne
+	6552.4.17={ birth=yes }
+	6638.9.25={ death=yes }
+}
+1125={
+	name=Elyana
+	female=yes
+	dynasty=521
+	dna="kdchdjpieeb"
+	culture=scourgemen 
+	religion=the_seven
+	father=1121	#Lucifer
+	mother=1128	#Delonne
+	6557.12.1={ birth=yes }
+	6623.8.22={ death=yes }
+}
+1126={
+	name=Alerie
+	female=yes
+	dynasty=521
+	dna="ddljcjnncmc"
+	culture=scourgemen 
+	religion=the_seven
+	father=1121	#Lucifer
+	mother=1128	#Delonne
+	6560.12.4={ birth=yes }
+	6636.10.31={ death=yes }
+}
+1127={
+	name=Nymella
+	female=yes
+	culture=scourgemen 
+	religion=the_seven
+	6500.1.1={ birth=yes }
+	6557.1.1={ death=yes }
+}
+1128={
+	name=Delonne
+	female=yes
+	culture=scourgemen 
+	religion=the_seven
+	6524.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+
+##########################
+### House Bloodbridge ####
+##########################
+
+1129={
+	name=Oberyn
+	dynasty=531
+	dna="ajjjkojpppd"
+	culture=scourgemen
+	religion=old_gods
+	6500.11.9={ birth=yes }
+	6521.1.1={ add_spouse=1138 }
+	6547.6.8={ death=yes }
+}
+1130={
+	name=Frynne
+	female=yes
+	dynasty=531
+	dna="dnjeiogpkhd"
+	culture=scourgemen
+	religion=old_gods
+	father=1129	#Oberyn
+	mother=1138	#Lythene
+	6524.9.9={ birth=yes }
+	6585.2.5={ death=yes }
+}
+1131={
+	name=Mariah
+	female=yes
+	dynasty=531
+	dna="acdanifpafi"
+	culture=scourgemen
+	religion=old_gods
+	father=1129	#Oberyn
+	mother=1138	#Lythene
+	6527.5.18={ birth=yes }
+	6598.11.29={ death=yes }
+}
+1132={
+	name=Bedwyck
+	dynasty=531
+	dna="oenhpnjppmn"
+	culture=scourgemen
+	religion=old_gods
+	martial=5 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=4 
+	learning=4
+	trait=grey_eminence 
+	trait=hedonist 
+	trait=greedy 
+	trait=temperate 
+	trait=craven 
+	trait=quick 
+	trait=dueling_novice
+	father=1129	#Oberyn
+	mother=1138	#Lythene
+	6533.4.18={ birth=yes }
+	6553.1.1={ add_spouse=1139 }
+	6580.9.3={ death=yes }
+}
+1133={
+	name=Armen
+	dynasty=531
+	dna="cechcncelin"
+	culture=scourgemen
+	religion=old_gods
+	trait=temperate
+	trait=craven
+	trait=ambitious 
+	father=1132	#Bedwyck
+	mother=1139	#Cyrenna
+	6553.8.18={ birth=yes }
+	6605.12.29={ death=yes }
+}
+1134={
+	name=Carolei
+	female=yes
+	dynasty=531
+	dna="oenpbpmpfmb"
+	culture=scourgemen
+	religion=old_gods
+	father=1132	#Bedwyck
+	mother=1139	#Cyrenna
+	6557.2.10={ birth=yes }
+	6622.12.30={ death=yes }
+}
+1135={
+	name=Daeron
+	dynasty=531
+	dna="bcnjpofmpmn"
+	culture=scourgemen
+	religion=old_gods
+	father=1132	#Bedwyck
+	mother=1139	#Cyrenna
+	6561.5.2={ birth=yes }
+	6634.3.4={ death=yes }
+}
+1136={
+	name=Joleta
+	female=yes
+	dynasty=531
+	dna="bpopnnippmo"
+	culture=scourgemen
+	religion=old_gods
+	father=1132	#Bedwyck
+	mother=1139	#Cyrenna
+	6564.7.24={ birth=yes }
+	6632.4.9={ death=yes }
+}
+1137={
+	name=Larra
+	female=yes
+	dynasty=531
+	dna="oebhpngppef"
+	culture=scourgemen
+	religion=old_gods
+	father=1132	#Bedwyck
+	6566.2.12={ birth=yes }
+	6630.2.28={ death=yes }
+}
+1138={
+	name=Lythene
+	female=yes
+	culture=scourgemen
+	religion=old_gods
+	6500.1.1={ birth=yes }
+	6547.1.1={ death=yes }
+}
+1139={
+	name=Cyrenna
+	female=yes
+	culture=scourgemen
+	religion=old_gods
+	6533.1.1={ birth=yes }
+	6580.1.1={ death=yes }
+}
+
+######################
+### House Deepwater ####
+######################
+
+1140={
+	name=Lewyn
+	dynasty=532
+	dna="pilcmbchhio"
+	culture=scourgemen 
+	religion=the_seven
+	6500.12.27={ birth=yes }
+	6521.1.1={ add_spouse=1149 }
+	6566.1.1={ death=yes }
+}
+1141={
+	name=Mallor
+	dynasty=532
+	dna="gilpmbbheih"
+	culture=scourgemen 
+	religion=the_seven
+	martial=4 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=8 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=kind 
+	trait=trusting 
+	trait=gluttonous 
+	trait=gregarious 
+	trait=proud 
+	trait=craven 
+	trait=dueling_adept
+	father=1140	#Lewyn
+	mother=1149	#Tanselle
+	6528.12.3={ birth=yes }
+	6549.1.1={ add_spouse=1150 }
+	6597.4.28={ death=yes }
+}
+1142={
+	name=Emberlei
+	female=yes
+	dynasty=532
+	dna="pilkhbphheo"
+	culture=scourgemen 
+	religion=the_seven
+	father=1140	#Lewyn
+	mother=1149	#Tanselle
+	6531.7.26={ birth=yes }
+	6596.12.29={ death=yes }
+}
+1143={
+	name=Cletus
+	dynasty=532
+	dna="pibciknbhnl"
+	culture=scourgemen 
+	religion=the_seven
+	martial=6 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=7 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=impaler 
+	trait=trusting 
+	trait=honest 
+	trait=gregarious 
+	trait=temperate 
+	father=1140	#Lewyn
+	mother=1149	#Tanselle
+	6534.10.14={ birth=yes }
+	6582.10.23={ death=yes }
+}
+1144={
+	name=Garin
+	dynasty=532
+	dna="pnpamhdhhif"
+	culture=scourgemen 
+	religion=the_seven
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=detached_priest 
+	trait=gregarious 
+	trait=diligent 
+	trait=arbitrary 
+	father=1140	#Lewyn
+	mother=1149	#Tanselle
+	6538.10.1={ birth=yes }
+	6596.1.19={ death=yes }
+}
+1145={
+	name=Mallor
+	dynasty=532
+	dna="mbppmbfhemh"
+	culture=scourgemen 
+	religion=the_seven
+	martial=4 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=6 
+	learning=8
+	trait=scholarly_theologian 
+	trait=greedy 
+	trait=cruel 
+	trait=proud 
+	trait=just 
+	trait=shy 
+	trait=stressed 
+	father=1141	#Mallor
+	mother=1150 #Dyanna
+	6550.4.15={ birth=yes }
+	6622.7.8={ death=yes }
+}
+1146={
+	name=Castos
+	dynasty=532
+	dna="gibianbhbhh"
+	culture=scourgemen 
+	religion=the_seven
+	trait=ambitious
+	trait=cruel
+	trait=lustful
+	father=1141	#Mallor
+	mother=1150 #Dyanna
+	6553.9.5={ birth=yes }
+	6604.2.17={ death=yes }
+}
+1147={
+	name=Linette
+	female=yes
+	dynasty=532
+	dna="filgmjhbiih"
+	culture=scourgemen 
+	religion=the_seven
+	father=1141	#Mallor
+	mother=1150 #Dyanna
+	6556.8.9={ birth=yes }
+	6629.5.10={ death=yes }
+}
+1148={
+	name=Alester
+	dynasty=532
+	dna="addmpdbpofp"
+	culture=scourgemen 
+	religion=the_seven
+	father=1141	#Mallor
+	mother=1150 #Dyanna
+	6560.2.4={ birth=yes }
+	6617.12.29={ death=yes }
+}
+1149={
+	name=Tanselle
+	female=yes
+	culture=scourgemen 
+	religion=the_seven
+	6500.1.1={ birth=yes }
+	6566.1.1={ death=yes }
+}
+1150={
+	name=Dyanna
+	female=yes
+	culture=scourgemen 
+	religion=the_seven
+	6528.1.1={ birth=yes }
+	6597.1.1={ death=yes }
+}
+
+#########################
+### House Goodspring ####
+#########################
+
+1151={
+	name=Ormond
+	dynasty=533
+	dna="deoalmlaocp"
+	culture=stone_dornish 
+	religion=the_seven
+	6500.6.4={ birth=yes }
+	6521.1.1={ add_spouse=1158 }
+	6572.10.22={ death=yes }
+}
+1152={
+	name=Doran
+	dynasty=533
+	dna="ceoflmeaocp"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=8 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=7 
+	learning=8
+	trait=misguided_warrior 
+	trait=hedonist 
+	trait=zealous 
+	trait=trusting 
+	trait=arbitrary 
+	trait=deceitful 
+	trait=diligent 
+	father=1151	#Ormond
+	mother=1158 #Nymella
+	6527.10.22={ birth=yes }
+	6548.1.1={ add_spouse=1159 }
+	6575.2.6={ death=yes }
+}
+1153={
+	name=Nymella
+	female=yes
+	dynasty=533
+	dna="debgjnfafmf"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1151	#Ormond
+	mother=1158 #Nymella
+	6529.12.24={ birth=yes }
+	6590.10.13={ death=yes }
+}
+1154={
+	name=Cedra
+	female=yes
+	dynasty=533
+	dna="peoaimknckc"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1151	#Ormond
+	mother=1158 #Nymella
+	6532.1.23={ birth=yes }
+	6592.2.28={ death=yes }
+}
+1155={
+	name=Willam
+	dynasty=533
+	dna="daoppdeaodp"
+	culture=stone_dornish 
+	religion=the_seven
+	trait=impaler 
+	trait=greedy
+	trait=diligent 
+	father=1152	#Doran
+	mother=1159 #Morra
+	6554.10.5={ birth=yes }
+	6621.7.29={ death=yes }
+}
+1156={
+	name=Bedwyck
+	dynasty=533
+	dna="feoflmbhbcp"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1152	#Doran
+	mother=1159 #Morra
+	6560.1.22={ birth=yes }
+	6608.8.6={ death=yes }
+}
+1157={
+	name=Harmen
+	dynasty=533
+	dna="chaflpjilah"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1152	#Doran
+	mother=1159 #Morra
+	6563.3.10={ birth=yes }
+	6613.7.29={ death=yes }
+}
+1158={
+	name=Nymella
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6500.1.1={ birth=yes }
+	6572.1.1={ death=yes }
+}
+1159={
+	name=Morra
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6527.1.1={ birth=yes }
+	6575.1.1={ death=yes }
+}
+
+######################
+### House Wade ####
+######################
+
+1160={
+	name=Mallor
+	dynasty=517
+	dna="ikmndcelidc"
+	culture=stone_dornish 
+	religion=the_seven
+	6499.2.27={ birth=yes }
+	6520.1.1={ add_spouse=1168 }
+	6555.9.20={ death=yes }
+}
+1161={
+	name=Lewyn
+	dynasty=517
+	dna="lkdnjeejabc"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=7 
+	learning=5
+	trait=scholarly_theologian 
+	trait=cynical 
+	trait=chaste 
+	trait=craven 
+	trait=diligent 
+	trait=honest 
+	father=1160	#Mallor
+	mother=1168 #Marei
+	6523.6.10={ birth=yes }
+	6544.1.1={ add_spouse=1169 }
+	6594.2.14={ death=yes }
+}
+1162={
+	name=Symon
+	dynasty=517
+	dna="ekfepdelhha"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=7 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=thrifty_clerk 
+	trait=gregarious 
+	trait=chaste 
+	trait=dueling_expert
+	father=1160	#Mallor
+	mother=1168 #Marei
+	6528.11.12={ birth=yes }
+	6574.8.21={ death=yes }
+}
+1163={
+	name=Beldecar
+	dynasty=517
+	dna="ikhndceihdc"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=4
+	trait=midas_touched 
+	trait=gardener 
+	trait=shy 
+	trait=temperate 
+	trait=ambitious 
+	father=1160	#Mallor
+	mother=1168 #Marei
+	6532.4.21={ birth=yes }
+	6588.12.1={ death=yes }
+}
+1164={
+	name=Tremond
+	dynasty=517
+	dna="pkmfgmclipa"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=6 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=5 
+	learning=8
+	trait=elusive_shadow 
+	trait=deceitful 
+	trait=arbitrary 
+	trait=cynical 
+	trait=brave 
+	father=1160	#Mallor
+	mother=1168 #Marei
+	6535.12.20={ birth=yes }
+	6594.2.6={ death=yes }
+}
+1165={
+	name=Loreza
+	female=yes
+	dynasty=517
+	dna="efdnjeenhbc"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1161	#Lewyn
+	mother=1169	#Larra
+	6550.10.6={ birth=yes }
+	6598.11.20={ death=yes }
+}
+1166={
+	name=Tanselle
+	female=yes
+	dynasty=517
+	dna="linnfjnjebc"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1161	#Lewyn
+	mother=1169	#Larra
+	6555.2.19={ birth=yes }
+	6603.3.19={ death=yes }
+}
+1167={
+	name=Tremond
+	dynasty=517
+	dna="lkegjekkamc"
+	culture=stone_dornish 
+	religion=the_seven
+	trait=shy
+	trait=wroth 
+	father=1161	#Lewyn
+	mother=1169	#Larra
+	6557.6.21={ birth=yes }
+	6605.11.10={ death=yes }
+}
+1168={
+	name=Marei
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6500.1.1={ birth=yes }
+	6572.1.1={ death=yes }
+}
+1169={
+	name=Larra
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6527.1.1={ birth=yes }
+	6575.1.1={ death=yes }
+}
+
+######################
+### House Fallrock ####
+######################
+
+1170={
+	name=Lucifer
+	dynasty=534
+	dna="lmfolmdoelg"
+	culture=stone_dornish 
+	religion=the_seven
+	6500.3.5={ birth=yes }
+	6521.1.1={ add_spouse=1180 }
+	6561.12.12={ death=yes }
+}
+1171={
+	name=Alaric
+	dynasty=534
+	dna="lmiolmdofdn"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=4 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	trait=intricate_webweaver 
+	trait=humble 
+	trait=gregarious 
+	trait=honest 
+	trait=gluttonous 
+	father=1170	#Lucifer
+	mother=1180 #Daria
+	6523.4.26={ birth=yes }
+	6544.1.1={ add_spouse=1181 }
+	6575.2.12={ death=yes }
+}
+1172={
+	name=Caleotte
+	dynasty=534
+	dna="lnoolmngehg"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=4 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=grey_eminence 
+	trait=trusting 
+	trait=wroth 
+	father=1170	#Lucifer
+	mother=1180 #Daria
+	6528.4.26={ birth=yes }
+	6586.8.26={ death=yes }
+}
+1173={
+	name=Obella
+	female=yes
+	dynasty=534
+	dna="amfomghoejg"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1170	#Lucifer
+	mother=1180 #Daria
+	6530.9.12={ birth=yes }
+	6582.3.26={ death=yes }
+}
+1174={
+	name=Lythene
+	female=yes
+	dynasty=534
+	dna="hmfolmdodlo"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1170	#Lucifer
+	mother=1180 #Daria
+	6533.1.6={ birth=yes }
+	6580.12.19={ death=yes }
+}
+1175={
+	name=Timeon
+	dynasty=534
+	dna="kmloldmoalg"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=7 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	trait=grey_eminence 
+	trait=humble 
+	trait=just 
+	trait=zealous 
+	trait=gregarious 
+	trait=cruel 
+	father=1170	#Lucifer
+	mother=1180 #Daria
+	6536.9.2={ birth=yes }
+	6586.8.29={ death=yes }
+}
+1176={
+	name=Ynys
+	female=yes
+	dynasty=534
+	dna="lmimomdceop"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1171	#Alaric
+	mother=1181 #Corenna
+	6551.1.20={ birth=yes }
+	6617.9.10={ death=yes }
+}
+1177={
+	name=Mallor
+	dynasty=534
+	dna="jeaonmkgfdn"
+	culture=stone_dornish 
+	religion=the_seven
+	trait=shy 
+	trait=temperate
+	father=1171	#Alaric
+	mother=1181 #Corenna
+	6554.12.19={ birth=yes }
+	6600.12.3={ death=yes }
+}
+1178={
+	name=Bors
+	dynasty=534
+	dna="lfiojfdbfaf"
+	culture=stone_dornish 
+	religion=the_seven
+	trait=brave 
+	father=1171	#Alaric
+	mother=1181 #Corenna
+	6558.1.26={ birth=yes }
+	6612.3.28={ death=yes }
+}
+1179={
+	name=Mellei
+	female=yes
+	dynasty=534
+	dna="lmilhmididn"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1171	#Alaric
+	mother=1181 #Corenna
+	6562.1.22={ birth=yes }
+	6638.11.10={ death=yes }
+}
+1180={
+	name=Daria
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6500.1.1={ birth=yes }
+	6561.1.1={ death=yes }
+}
+1181={
+	name=Corenna
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6523.1.1={ birth=yes }
+	6575.1.1={ death=yes }
+}
+
+#######################
+### House Kestfist ####
+#######################
+
+1182={
+	name=Quentyn
+	dynasty=535
+	dna="lilfmaagjmh"
+	culture=stone_dornish 
+	religion=the_seven
+	6499.4.16={ birth=yes }
+	6520.1.1={ add_spouse=1191 }
+	6545.9.11={ death=yes }
+}
+1183={
+	name=Larra
+	female=yes
+	dynasty=535
+	dna="iillbfajjng"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1182	#Quentyn
+	mother=1191 #Carolei
+	6524.6.8={ birth=yes }
+	6572.1.17={ death=yes }
+}
+1184={
+	name=Alleras
+	dynasty=535
+	dna="fcdedfagceh"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=4 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=4 
+	learning=8
+	trait=grey_eminence 
+	trait=slothful 
+	trait=cynical 
+	trait=trusting 
+	trait=ambitious 
+	trait=dueling_skilled
+	father=1182	#Quentyn
+	mother=1191 #Carolei
+	6527.6.3={ birth=yes }
+	6548.1.1={ add_spouse=1192 }
+	6580.6.20={ death=yes }
+}
+1185={
+	name=Janyce
+	female=yes
+	dynasty=535
+	dna="ljmfbaagnch"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1182	#Quentyn
+	mother=1191 #Carolei
+	6528.11.16={ birth=yes }
+	6578.9.2={ death=yes }
+}
+1186={
+	name=Ricasso
+	dynasty=535
+	dna="eapfkplgcmh"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=6 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=8 
+	learning=6
+	trait=skilled_tactician 
+	trait=honest 
+	trait=diligent 
+	trait=cynical 
+	trait=paranoid 
+	trait=brave 
+	trait=strong 
+	father=1182	#Quentyn
+	mother=1191 #Carolei
+	6533.3.10={ birth=yes }
+	6587.3.29={ death=yes }
+}
+1187={
+	name=Mariah
+	female=yes
+	dynasty=535
+	dna="fcehhfdfafe"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1184	#Alleras
+	mother=1192 #Elinor
+	6552.1.18={ birth=yes }
+	6624.10.21={ death=yes }
+}
+1188={
+	name=Cassella
+	female=yes
+	dynasty=535
+	dna="fcdedfhabeh"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1184	#Alleras
+	mother=1192 #Elinor
+	6554.4.2={ birth=yes }
+	6626.3.14={ death=yes }
+}
+1189={
+	name=Deziel
+	dynasty=535
+	dna="fhjelfencno"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1184	#Alleras
+	mother=1192 #Elinor
+	6560.5.20={ birth=yes }
+	6624.1.16={ death=yes }
+}
+1190={
+	name=Leyla
+	female=yes
+	dynasty=535
+	dna="kcdedfggigh"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1184	#Alleras
+	mother=1192 #Elinor
+	6563.3.12={ birth=yes }
+	6630.1.4={ death=yes }
+}
+1191={
+	name=Carolei
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6499.1.1={ birth=yes }
+	6545.1.1={ death=yes }
+}
+1192={
+	name=Elinor
+	female=yes
+	culture=stone_dornish 
+	religion=the_seven
+	6527.1.1={ birth=yes }
+	6580.1.1={ death=yes }
+}
+
+######################
+### House Nightfall ####
+######################
+
+1193={
+	name=Qoren
+	dynasty=536
+	dna="gpfjiakdngn"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=duelist 
+	trait=just 
+	trait=slothful 
+	trait=cruel 
+	trait=gregarious 
+	trait=craven 
+	trait=dueling_adept
+	6500.5.25={ birth=yes }
+	6521.1.1={ add_spouse=5705 }
+	6553.10.30={ death=yes }
+}
+1194={
+	name=Marya
+	female=yes
+	dynasty=536
+	dna="gkilgendngd"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1193	#Qoren
+	mother=5705 #Sarella
+	6522.4.25={ birth=yes }
+	6590.6.4={ death=yes }
+}
+1195={
+	name=Lucifer
+	dynasty=536
+	dna="gpcadkmbngl"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=4 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=4 
+	learning=6
+	trait=detached_priest 
+	trait=cruel 
+	trait=patient 
+	trait=strong
+	father=1193	#Qoren
+	mother=5705 #Sarella
+	6527.7.8={ birth=yes }
+	6548.1.1={ add_spouse=5706 }
+	6601.4.18={ death=yes }
+}
+1196={
+	name=Ulwyck
+	dynasty=536
+	dna="gpcjiaknjon"
+	culture=stone_dornish 
+	religion=the_seven
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=detached_priest 
+	trait=chaste 
+	trait=ambitious 
+	trait=diligent 
+	trait=temperate 
+	trait=envious 
+	father=1193	#Qoren
+	mother=5705 #Sarella
+	6529.7.16={ birth=yes }
+	6616.1.24={ death=yes }
+}
+1197={
+	name=Joleta
+	female=yes
+	dynasty=536
+	dna="lpbmhjkdnnj"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1193	#Qoren
+	mother=5705 #Sarella
+	6533.12.3={ birth=yes }
+	6607.3.8={ death=yes }
+}
+1198={
+	name=Meria
+	female=yes
+	dynasty=536
+	dna="opfjgpcdfgn"
+	culture=stone_dornish 
+	religion=the_seven
+	father=1193	#Qoren
+	mother=5705 #Sarella
+	6534.6.6={ birth=yes }
+	6617.1.18={ death=yes }
+}
+1199={
+	name=Timeon
+	dynasty=536
+	dna="ipgkokcmnbh"
+	culture=stone_dornish 
+	religion=the_seven
+	trait=deceitful 
+	trait=charitable 
+	trait=arbitrary 
+	trait=zealous 
+	trait=dueling_expert
+	father=1195	#Lucifer
+	mother=5706 #Belandra
+	6551.10.23={ birth=yes }
+	6619.1.8={ death=yes }
+}
+# continued in 57_dorne_characters file

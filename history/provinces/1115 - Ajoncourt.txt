@@ -1,0 +1,22 @@
+# c_ajoncourt
+
+# County Title
+title = c_ajoncourt
+
+# Settlements
+max_settlements = 4
+
+b_ajoncourt = castle
+#b_foce = city
+#b_louvres = temple
+#b_ajoncourt_2 = castle
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven 
+}

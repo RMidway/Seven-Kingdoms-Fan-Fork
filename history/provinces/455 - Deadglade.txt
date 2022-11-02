@@ -1,0 +1,28 @@
+# c_deadglade
+
+# County Title
+title = c_deadglade
+
+# Settlements
+max_settlements = 5
+
+b_deadglade = castle
+b_deadglade_2 = city
+b_deadglade_3 = temple
+#b_deadglade_4 = castle
+#b_deadglade_5 = city
+#b_deadglade_6 = temple
+#b_deadglade_7 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7400.1.1 = {
+	culture = sand_dornish
+}

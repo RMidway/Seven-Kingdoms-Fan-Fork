@@ -1,0 +1,19 @@
+# c_thenn
+
+# County Title
+title = c_thenn
+
+# Settlements
+max_settlements = 5
+
+b_thenn = tribal
+#b_asland = city
+#b_hoffstad = temple
+#b_thenn_2 = castle
+#b_thenn_3 = city
+
+# Misc
+culture = thenn
+religion = old_gods_beyond_white
+terrain = arctic
+#History

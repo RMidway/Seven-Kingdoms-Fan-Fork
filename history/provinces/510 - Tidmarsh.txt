@@ -1,0 +1,24 @@
+# c_tidmarsh
+
+# County Title
+title = c_tidmarsh
+
+# Settlements
+max_settlements = 3
+
+b_tidmarsh = castle
+#b_tregosa = city
+#b_rock_keep = temple
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = mountain
+#History
+6500.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7400.1.1 = {
+	culture = sand_dornish
+}

@@ -1,0 +1,21 @@
+# c_kereszt
+
+# County Title
+title = c_kereszt
+
+# Settlements
+max_settlements = 2
+
+b_kereszt = castle
+#b_kereszt_2 = city
+#b_kereszt_3 = temple
+#b_kereszt_4 = castle
+#b_kereszt_5 = city
+#b_kereszt_6 = temple
+#b_kereszt_7 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

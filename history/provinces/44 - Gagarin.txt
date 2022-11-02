@@ -1,0 +1,21 @@
+# c_gagarin
+
+# County Title
+title = c_gagarin
+
+# Settlements
+max_settlements = 7
+
+b_gagarin = castle
+#b_gagarin_2 = city
+#b_gagarin_3 = temple
+#b_gagarin_4 = castle
+#b_gagarin_5 = city
+#b_gagarin_6 = temple
+#b_gagarin_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

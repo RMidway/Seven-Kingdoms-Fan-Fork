@@ -1,0 +1,20 @@
+# c_kyllingstad
+
+# County Title
+title = c_kyllingstad
+
+# Settlements
+max_settlements = 3
+
+b_kyllingstad = castle
+#b_burfjord = city
+#b_kyllingstad_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = mountain_clansmen
+}

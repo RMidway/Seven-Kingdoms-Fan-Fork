@@ -1,0 +1,24 @@
+# c_armen
+
+# County Title
+title = c_armen
+
+# Settlements
+max_settlements = 3
+
+b_armen = castle
+#b_wirsberg = city
+#b_armen_2 = temple
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = hills
+#History
+6200.1.1 = {
+	culture = rainlander
+}
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

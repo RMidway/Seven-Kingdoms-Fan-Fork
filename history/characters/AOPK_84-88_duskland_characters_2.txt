@@ -1,0 +1,4416 @@
+#############
+# ID RANGE  #
+# 8400-8800 #
+#############
+
+
+
+###################
+### House Darke ###
+###################
+
+8400 = {
+    name = Edward
+    dynasty = 916
+    father = 8401
+	religion = old_gods
+    culture = dusklander
+
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+8401 = {
+    name = Damon
+    dynasty = 916
+    father = 8402
+	religion = old_gods
+    culture = dusklander
+
+    6475.1.1 = { birth=yes }
+    6536.1.1 = { death=yes }
+}
+
+8402 = {
+    name = Steffon
+    dynasty = 916
+    father = 8403
+    religion = old_gods
+    culture = dusklander
+
+    6450.1.1 = { birth=yes }
+    6511.1.1 = { death=yes }
+}
+
+8403 = {
+    name = Urlon
+    dynasty = 916
+    father = 8404
+	religion = old_gods
+    culture = dusklander
+
+    6428.1.1 = { birth=yes }
+    6490.1.1 = { death=yes }
+}
+
+8404 = {
+    name = Drake
+    dynasty = 916
+   father = 5391
+	religion = old_gods
+    culture = dusklander
+
+    6401.1.1 = { birth=yes }
+    6456.1.1 = { death=yes }
+}
+
+#####################
+### House Dargood ###
+#####################
+8405 = {
+    name = Steffon
+    dynasty = 919
+   father = 8406
+	religion = old_gods
+    culture = dusklander
+
+    6502.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+8406 = {
+    name = Lyonel
+    dynasty = 919
+    father = 8407
+    religion = old_gods
+    culture = dusklander
+
+    6480.1.1 = { birth=yes }
+    6537.1.1 = { death=yes }
+}
+8407 = {
+    name = Lyonel
+    dynasty = 919
+    father = 8408
+    religion = old_gods
+    culture = dusklander
+
+    6458.1.1 = { birth=yes }
+    6516.1.1 = { death=yes }
+}
+8408 = {
+    name = Jaime
+    dynasty = 919
+    father = 5390
+    religion = old_gods
+    culture = dusklander
+
+    6432.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+######################
+### House Darkwood ###
+######################
+
+8409 = {
+    name = Damon
+    dynasty = 917
+    father = 8410
+    religion = old_gods
+    culture = dusklander
+
+    6521.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+8410 = {
+    name = Urlon
+    dynasty = 917
+    father = 5387
+    religion = old_gods
+    culture = dusklander
+
+    6501.1.1 = { birth=yes }
+    6557.1.1 = { death=yes }
+}
+#####################
+### House Darklyn ###
+#####################
+
+8411={
+   name="Damon"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=1603
+
+   6567.1.1={birth=yes}
+   6630.1.1={death=yes}
+}
+8412={
+   name="Benedict"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8411
+
+   6590.1.1={birth=yes}
+   6649.1.1={death=yes}
+}
+8413={
+   name="Triston"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8412
+
+   6610.1.1={birth=yes}
+   6670.1.1={death=yes}
+}
+8414={
+   name="Drake"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8413
+
+   6634.1.1={birth=yes}
+   6700.1.1={death=yes}
+}
+8415={
+   name="Steffon"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8414
+
+   6660.1.1={birth=yes}
+   6713.1.1={death=yes}
+}
+8416={
+   name="Steffon"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8415
+
+   7200.1.1={birth=yes}
+   7260.1.1={death=yes}
+}
+8417={
+   name="Urlon"
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8416
+
+   7227.1.1={birth=yes}
+   7290.1.1={death=yes}
+}
+8418={
+   name="Damon" # The Lord 
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8417
+   trait = knight
+   trait = dueling_expert
+   7247.1.1={birth=yes}
+   7264.1.1 = { effect = { give_minor_title = title_generic_ser } }
+   7309.1.1={death=yes}
+}
+8419={
+   name="Benedict" # His Brother
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8417
+   trait = knight
+   trait = dueling_adept
+   7250.1.1={birth=yes}
+   7266.1.1 = { effect = { give_minor_title = title_generic_ser } }
+   7302.1.1={death=yes}
+}
+8420={
+   name="Drake" # His Brother
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8417
+
+   7254.1.1={birth=yes}
+   7312.1.1={death=yes}
+}
+8421={
+   name="Arthor" # His Uncle
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8416
+   trait = knight
+   trait = dueling_expert
+   7230.1.1={birth=yes}
+   7250.1.1 = { effect = { give_minor_title = title_generic_ser } }
+   7301.1.1={death=yes}
+}
+8422={
+   name="Desmera" # His Aunt
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8416
+   female = yes
+   7235.1.1={birth=yes}
+   7304.1.1={death=yes}
+}
+8423={
+   name="Triston" # His Son
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8418
+   trait = knight
+   trait = dueling_skilled
+   7269.1.1={birth=yes}
+   7289.1.1 = { effect = { give_minor_title = title_generic_ser } }
+   7322.1.1={death=yes}
+}
+8424={
+   name="Drake" # His Nephew
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8420
+
+   7280.1.1={birth=yes}
+   7339.1.1={death=yes}
+}
+8425={
+   name="Urlon" # His Grandson
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8423
+   trait = squire
+   trait = dueling_adept
+   7289.1.1={birth=yes}
+   7305.1.1 = { effect = { give_minor_title = title_generic_ser } }
+   7350.1.1={death=yes}
+}
+8426={
+   name="Cassana" # His Daughter
+   dynasty=900
+   culture=dusklander
+   religion=the_seven
+   father=8418
+   female = yes
+   7275.1.1={birth=yes}
+   7331.1.1={death=yes}
+}
+
+###################
+### House Brune ###
+###################
+
+8427={
+   name="Duncan" # Adrian's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=old_gods
+   father=1647
+   6574.1.1={birth=yes}
+   6630.1.1={death=yes}
+}
+8428={
+   name="Adrian" # Adrian's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=old_gods
+   father=8427
+
+   6600.1.1={birth=yes}
+   6651.1.1={death=yes}
+}
+8429={
+   name="Triston" # Adrian II's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=old_gods
+   father=8428
+
+   6625.1.1={birth=yes}
+   6662.1.1={death=yes}
+}
+8430={
+   name="Robett" # Adrian II's Grandson, Hero of the Claw
+   dynasty=909
+   culture=crackclawmen
+   religion=old_gods
+   father=8429
+   trait = dueling_master
+   trait = brilliant_strategist
+   trait = zealous
+   trait = deceitful
+   trait = just
+   trait = quick
+   trait = holy_warrior
+   trait = defensive_leader
+  
+   6642.1.1={birth=yes}
+   6669.1.1 = { give_nickname=nick_godsbane }
+   6675.1.1={ death = {
+               death_reason = death_battle
+			killer = 8415
+		}
+   }
+}
+8431={
+   name="Robin" # Robett's Son, first of the Brunes to convert
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8430
+   trait = kinslayer
+   trait = ambitious
+   trait = sociopath
+   trait = dueling_skilled
+   trait = deceitful
+   trait = quick
+   6660.1.1={birth=yes}
+   6675.1.1 = { give_nickname=nick_the_traitor }
+   6706.1.1={death=yes}
+}
+8432={
+   name="Gregory" # Robett's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8431
+
+   6690.1.1={birth=yes}
+   6740.1.1={death=yes}
+}
+8433={
+   name="Jaremy" # Gregory's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8432
+
+   6725.1.1={birth=yes}
+   6767.1.1={death=yes}
+}
+8434={
+   name="Adrian" # Gregory's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8433
+
+   6744.1.1={birth=yes}
+   6780.1.1={death=yes}
+}
+8435={
+   name="Adrian" # Adrian III's Son, restored the old traditions, if only for a little while
+   dynasty=909
+   culture=crackclawmen
+   religion=old_gods
+   father=8434
+   trait = zealous
+   6761.1.1={birth=yes}
+   6775.1.1 = { give_nickname=nick_the_restorer }
+   6781.1.1={death=yes}
+}
+8436={
+   name="Gregory" # Adrian III's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8435
+
+   6781.1.1={birth=yes}
+   6821.1.1={death=yes}
+}
+8437={
+   name="Gregory" # Gregory III's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8436
+
+   6801.1.1={birth=yes}
+   6831.1.1={death=yes}
+}
+8438={
+   name="Triston" # Gregory III's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8437
+
+   6823.1.1={birth=yes}
+   6863.1.1={death=yes}
+}
+8439={
+   name="Adrian" # Triston II's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8438
+
+   6855.1.1={birth=yes}
+   6873.1.1={death=yes}
+}
+8440={
+   name="Kendel" # Triston II's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8439
+
+   6871.1.1={birth=yes}
+   6913.1.1={death=yes}
+}
+8441={
+   name="Erryk" # Kendel's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8440
+
+   6901.1.1={birth=yes}
+   6967.1.1={death=yes}
+}
+8442={
+   name="Guncer" # Kendel's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8441
+   trait = possessed
+   trait = lunatic
+   6941.1.1={birth=yes}
+   7001.1.1={death=yes}
+}
+8443={
+   name="Erryk" # The Thrice Blessed, Guncer's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8442
+   trait = weak
+   trait = dwarf
+   trait = genius
+   trait = just
+   trait = honourable
+   trait = shy
+   trait = content
+   6991.1.1={birth=yes}
+   7083.1.1 = { give_nickname=nick_the_thrice_blessed }
+   7093.1.1={death=yes}
+}
+8444={
+   name="Adrian" # Guncer's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8443
+
+   7083.1.1={birth=yes}
+   7126.1.1={death=yes}
+}
+8445={
+   name="Adrian" # Adrian V's Son
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8444
+
+   7110.1.1={birth=yes}
+   7157.1.1={death=yes}
+}
+8446={
+   name="Gwayne" # Adrian V's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8445
+   trait = proud
+   trait = wroth
+   7140.1.1={birth=yes}
+   7191.1.1={death=yes}
+}
+8447={
+   name="Gwayne" # Adrian V's Grandson
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8446
+   trait = quick
+   trait = sociopath
+   trait = ambitious
+   trait = deceitful
+   trait = dueling_expert
+   trait = lunatic
+   7184.1.1={birth=yes}
+   7200.1.1 = { give_nickname=nick_the_bloody_paw }
+   7249.1.1={death=yes}
+}
+
+8585={
+   name="Cayn" 
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8447
+
+   7219.1.1={birth=yes}
+   7288.1.1={death=yes}
+}
+
+8586={
+   name="Cayn" 
+   dynasty=909
+   culture=crackclawmen
+   religion=the_seven
+   father=8585
+
+   7259.1.1={birth=yes}
+   7318.1.1={death=yes}
+}
+
+##################
+### House Cave ###
+##################
+
+8448={
+   name="Rorge"
+   dynasty=908
+   culture=crackclawmen
+   religion=old_gods
+   father=1642
+   6589.1.1={birth=yes}
+   6641.1.1={death=yes}
+}
+8449={
+   name="Aron"
+   dynasty=908
+   culture=crackclawmen
+   religion=old_gods
+   father=8448
+   6615.1.1={birth=yes}
+   6655.1.1={death=yes}
+}
+8450={
+   name="Alaric"
+   dynasty=908
+   culture=crackclawmen
+   religion=old_gods
+   father=8449
+   6645.1.1={birth=yes}
+   6705.1.1={death=yes}
+}
+8451={
+   name="Guncer"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8450
+   6674.1.1={birth=yes}
+   6727.1.1={death=yes}
+}
+8452={
+   name="Gyles"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8451
+   6708.1.1={birth=yes}
+   6759.1.1={death=yes}
+}
+8453={
+   name="Rorge"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8452
+   6732.1.1={birth=yes}
+   6775.1.1={death=yes}
+}
+8454={
+   name="Edrick"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8453
+   6766.1.1={birth=yes}
+   6835.1.1={death=yes}
+}
+8455={
+   name="Cayn"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8454
+   6795.1.1={birth=yes}
+   6855.1.1={death=yes}
+}
+8456={
+   name="Benjen"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8455
+   6813.1.1={birth=yes}
+   6868.1.1={death=yes}
+}
+8457={
+   name="Jory"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8456
+   6838.1.1={birth=yes}
+   6901.1.1={death=yes}
+}
+8458={
+   name="Theo"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8457
+   6878.1.1={birth=yes}
+   6948.1.1={death=yes}
+}
+8459={
+   name="Triston"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8458
+   6908.1.1={birth=yes}
+   6959.1.1={death=yes}
+}
+8460={
+   name="Triston"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8459
+   6924.1.1={birth=yes}
+   6963.1.1={death=yes}
+}
+8461={
+   name="Triston"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8460
+   6954.1.1={birth=yes}
+   7020.1.1={death=yes}
+}
+8462={
+   name="Cayn"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8461
+   6994.1.1={birth=yes}
+   7057.1.1={death=yes}
+}
+8463={
+   name="Jaime"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8462
+   7047.1.1={birth=yes}
+   7084.1.1={death=yes}
+}
+8464={
+   name="Sefton"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8463
+   7077.1.1={birth=yes}
+   7112.1.1={death=yes}
+}
+8465={
+   name="Balman"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8464
+   7099.1.1={birth=yes}
+   7149.1.1={death=yes}
+}
+8466={
+   name="Aethan"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8465
+   7134.1.1={birth=yes}
+   7174.1.1={death=yes}
+}
+8467={
+   name="Aethan"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8466
+   7150.1.1={birth=yes}
+   7194.1.1={death=yes}
+}
+8468={
+   name="Cayn"
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8467
+   7166.1.1={birth=yes}
+   7228.1.1={death=yes}
+}
+
+8587={
+   name="Sefton" 
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8468
+
+   7205.1.1={birth=yes}
+   7267.1.1={death=yes}
+}
+
+8588={
+   name="Steffon" 
+   dynasty=908
+   culture=crackclawmen
+   religion=the_seven
+   father=8587
+
+   7247.1.1={birth=yes}
+   7310.1.1={death=yes}
+}
+
+#######################
+### House Wingwaker ###
+#######################
+
+8469={
+   name="Osric"
+   dynasty=929
+   culture=crackclawmen
+   religion=old_gods
+   
+   6550.6.20={birth=yes}
+   6632.9.10={death=yes}
+}
+8470={
+   name="Osric"
+   dynasty=929
+   culture=crackclawmen
+   religion=old_gods
+   father=8469
+   6600.6.20={birth=yes}
+   6652.9.10={death=yes}
+}
+8471={
+   name="Osric"
+   dynasty=929
+   culture=crackclawmen
+   religion=old_gods
+   father=8470
+   6625.6.20={birth=yes}
+   6674.9.10={death=yes}
+}
+8472={
+   name="Osmund"
+   dynasty=929
+   culture=crackclawmen
+   religion=old_gods
+   father=8471
+   6644.6.20={birth=yes}
+   6697.9.10={death=yes}
+}
+8473={
+   name="Ormund"
+   dynasty=929
+   culture=crackclawmen
+   religion=old_gods
+   father=8472
+   6669.6.20={birth=yes}
+   6705.5.25={religion = the_seven }
+   6734.9.10={death=yes}
+}
+8474={
+   name="Odrik"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8473
+   6699.6.20={birth=yes}
+   6749.9.10={death=yes}
+}
+8475={
+   name="Odwel"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8474
+   6729.6.20={birth=yes}
+   6770.9.10={death=yes}
+}
+8476={
+   name="Cayn"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8475
+   6756.6.20={birth=yes}
+   6802.9.10={death=yes}
+}
+8477={
+   name="Jacelyn"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8476
+   6793.6.20={birth=yes}
+   6845.9.10={death=yes}
+}
+8478={
+   name="Jacelyn"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8477
+   6813.6.20={birth=yes}
+   6860.9.10={death=yes}
+}
+8479={
+   name="Odwel"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8478
+   6842.6.20={birth=yes}
+   6903.9.10={death=yes}
+}
+8480={
+   name="Odrik"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8479
+   6883.6.20={birth=yes}
+   6936.9.10={death=yes}
+}
+8481={
+   name="Cayn"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8480
+   6914.6.20={birth=yes}
+   6955.9.10={death=yes}
+}
+8482={
+   name="Osric"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8481
+   6939.6.20={birth=yes}
+   6994.9.10={death=yes}
+}
+8483={
+   name="Osric"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8482
+   6962.6.20={birth=yes}
+   7033.9.10={death=yes}
+}
+8484={
+   name="Jaime"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8483
+   7009.6.20={birth=yes}
+   7058.9.10={death=yes}
+}
+8485={
+   name="Alyn"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8484
+   7050.6.20={birth=yes}
+   7100.9.10={death=yes}
+}
+8486={
+   name="Adrian"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8485
+   7072.6.20={birth=yes}
+   7103.9.10={death=yes}
+}
+8487={
+   name="Aron"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8486
+   7088.6.20={birth=yes}
+   7140.9.10={death=yes}
+}
+8488={
+   name="Aron"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8487
+   7132.6.20={birth=yes}
+   7182.9.10={death=yes}
+}
+8489={
+   name="Ethan"
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8488
+   7152.6.20={birth=yes}
+   7210.9.10={death=yes}
+}
+
+8589={
+   name="Ethan" 
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8489
+
+   7202.1.1={birth=yes}
+   7274.1.1={death=yes}
+}
+
+8590={
+   name="Aron" 
+   dynasty=929
+   culture=crackclawmen
+   religion=the_seven
+   father=8589
+
+   7247.1.1={birth=yes}
+   7315.1.1={death=yes}
+}
+
+#######################
+### House Crowfall ####
+#######################
+
+8490={
+name="Oswell"
+dynasty=923
+culture=crackclawmen
+religion=old_gods
+father=1717
+
+6580.1.1={birth=yes}
+6644.10.3={death=yes}
+}
+
+8491={
+name="Danos"
+dynasty=923
+culture=crackclawmen
+religion=old_gods
+father=8490
+
+6617.1.1={birth=yes}
+6664.8.26={death=yes}
+}
+
+8492={
+name="Laren"
+dynasty=923
+culture=crackclawmen
+religion=old_gods
+father=8491
+
+6648.1.1={birth=yes}
+6708.12.7={death=yes}
+}
+
+8493={
+name="Aron"
+dynasty=923
+culture=crackclawmen
+religion=old_gods
+father=8492
+
+6688.1.1={birth=yes}
+6717.1.7={religion = the_seven }
+6739.4.11={death=yes}
+}
+
+8494={
+name="Devan"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8493
+
+6708.1.1={birth=yes}
+6755.1.27={death=yes}
+}
+
+8495={
+name="Duram"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8494
+
+6737.1.1={birth=yes}
+6785.8.17={death=yes}
+}
+
+8496={
+name="Hubard"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8495
+
+6767.1.1={birth=yes}
+6834.11.28={death=yes}
+}
+
+8497={
+name="Aron"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8496
+
+6794.1.1={birth=yes}
+6847.11.28={death=yes}
+}
+
+8498={
+name="Aron"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8497
+
+6824.1.1={birth=yes}
+6877.1.1={death=yes}
+}
+
+8499={
+name="Odrik"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8498
+
+6854.1.1={birth=yes}
+6907.1.1={death=yes}
+}
+
+8500={
+name="Cregan"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8499
+
+6884.1.1={birth=yes}
+6937.1.1={death=yes}
+}
+
+8501={
+name="Cregan"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8500
+
+6914.1.1={birth=yes}
+6967.1.1={death=yes}
+}
+
+8502={
+name="Cregan"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8501
+
+6944.1.1={birth=yes}
+7007.1.1={death=yes}
+}
+
+8503={
+name="Crispian"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8502
+
+6974.1.1={birth=yes}
+7037.1.1={death=yes}
+}
+
+8504={
+name="Daemon"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8503
+
+7004.1.1={birth=yes}
+7067.1.1={death=yes}
+}
+
+8505={
+name="Danos"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8504
+
+7034.1.1={birth=yes}
+7107.1.1={death=yes}
+}
+
+8506={
+name="Darke"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8505
+
+7064.1.1={birth=yes}
+7137.1.1={death=yes}
+}
+
+8507={
+name="Davos"
+dynasty=923
+culture=crackclawmen
+religion=the_seven
+father=8506
+
+7094.1.1={birth=yes}
+7167.1.1={death=yes}
+}
+
+#####################################
+### House Spurr(North and South) ####
+#####################################
+
+8510={
+name="Godry"
+dynasty=924
+culture=crackclawmen
+religion=old_gods
+father=1717
+trait=bastard
+
+6586.1.1={birth=yes}
+6641.10.3={death=yes}
+}
+
+8511={
+name="Guncer"
+dynasty=924
+culture=crackclawmen
+religion=old_gods
+father=8510
+
+6616.1.1={birth=yes}
+6677.10.3={death=yes}
+}
+
+8512={
+name="Patrek"
+dynasty=924
+culture=crackclawmen
+religion=old_gods
+father=8511
+
+6675.1.1={birth=yes}
+6711.10.3={death=yes}
+}
+
+8513={
+name="Aethan"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8512
+trait = bastard
+
+6698.1.1={birth=yes}
+6758.10.3={death=yes}
+}
+
+8514={
+name="Alyn"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8512
+trait = bastard
+
+6703.1.1={birth=yes}
+6760.10.3={death=yes}
+}
+
+8515={
+name="Harrion"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8513
+
+6739.1.1={birth=yes}
+6793.10.3={death=yes}
+}
+
+8516={
+name="Harrion"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8515
+
+6787.1.1={birth=yes}
+6849.10.3={death=yes}
+}
+
+8517={
+name="Cayn"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8516
+
+6846.1.1={birth=yes}
+6907.10.3={death=yes}
+}
+
+8518={
+name="Ethan"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8517
+
+6893.1.1={birth=yes}
+6944.10.3={death=yes}
+}
+
+8519={
+name="Vayon"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8518
+
+6932.1.1={birth=yes}
+7002.10.3={death=yes}
+}
+
+8520={
+name="Vayon"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8519
+
+6974.1.1={birth=yes}
+7023.10.3={death=yes}
+}
+
+8521={
+name="Vayon"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8520
+
+7008.1.1={birth=yes}
+7071.10.3={death=yes}
+}
+
+8522={
+name="Maric"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8521
+
+7055.1.1={birth=yes}
+7122.10.3={death=yes}
+}
+
+8523={
+name="Bryen"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8522
+
+7094.1.1={birth=yes}
+7148.10.3={death=yes}
+}
+
+8524={
+name="Farlen"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8523
+
+7137.1.1={birth=yes}
+7195.10.3={death=yes}
+}
+
+8525={
+name="Farlen"
+dynasty=930
+culture=crackclawmen
+religion=the_seven
+father=8524
+
+7187.1.1={birth=yes}
+7249.10.3={death=yes}
+}
+
+8593={
+   name="Bronn" 
+   dynasty=930
+   culture=crackclawmen
+   religion=the_seven
+   father=8525
+
+   7226.1.1={birth=yes}
+   7295.1.1={death=yes}
+}
+
+8594={
+   name="Osric" 
+   dynasty=930
+   culture=crackclawmen
+   religion=the_seven
+   father=8593
+
+   7256.1.1={birth=yes}
+   7326.1.1={death=yes}
+}
+
+8526={
+name="Alyn"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8514
+
+6753.1.1={birth=yes}
+6814.10.3={death=yes}
+}
+
+8527={
+name="Lothar"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8526
+
+6806.1.1={birth=yes}
+6866.10.3={death=yes}
+}
+
+8528={
+name="Pate"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8527
+
+6851.1.1={birth=yes}
+6921.10.3={death=yes}
+}
+
+8529={
+name="Patrek"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8528
+
+6901.1.1={birth=yes}
+6963.10.3={death=yes}
+}
+
+8530={
+name="Duram"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8529
+
+6943.1.1={birth=yes}
+7006.10.3={death=yes}
+}
+
+8531={
+name="Arryk"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8530
+
+6992.1.1={birth=yes}
+7051.10.3={death=yes}
+}
+
+8532={
+name="Arryk"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8531
+
+7030.1.1={birth=yes}
+7087.10.3={death=yes}
+}
+
+8533={
+name="Theo"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8532
+
+7056.1.1={birth=yes}
+7107.10.3={death=yes}
+}
+
+8534={
+name="Edrick"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8533
+
+7090.1.1={birth=yes}
+7151.10.3={death=yes}
+}
+
+8535={
+name="Ethan"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8534
+
+7132.1.1={birth=yes}
+7197.10.3={death=yes}
+}
+
+8536={
+name="Duncan"
+dynasty=931
+culture=crackclawmen
+religion=the_seven
+father=8535
+
+7178.1.1={birth=yes}
+7239.10.3={death=yes}
+}
+
+8595={
+   name="Duncan" 
+   dynasty=931
+   culture=crackclawmen
+   religion=the_seven
+   father=8536
+
+   7219.1.1={birth=yes}
+   7285.1.1={death=yes}
+}
+
+8596={
+   name="Duram" 
+   dynasty=931
+   culture=crackclawmen
+   religion=the_seven
+   father=8595
+
+   7274.1.1={birth=yes}
+   7329.1.1={death=yes}
+}
+
+#######################
+### House Celtigar ####
+#######################
+
+8537={
+name="Jaekar"
+dynasty=910
+culture=high_valyrian
+religion=the_dragon_gods
+father=1652
+
+6604.6.29={birth=yes}
+6664.2.6={death=yes}
+}
+
+8538={
+name="Aurion"
+dynasty=910
+culture=high_valyrian
+religion=the_dragon_gods
+father=8537
+
+6664.2.6={birth=yes}
+6700.1.15={religion = the_seven }
+6710.3.6={death=yes}
+}
+
+8539={
+name="Rhaekar"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8538
+
+6716.3.6={birth=yes}
+6781.1.25={death=yes}
+}
+
+8540={
+name="Baelon"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8539
+
+6755.3.6={birth=yes}
+6813.1.5={death=yes}
+}
+
+8541={
+name="Baelor"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8540
+
+6794.3.6={birth=yes}
+6845.1.5={death=yes}
+}
+
+8542={
+name="Vaeron"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8541
+
+6843.3.6={birth=yes}
+6897.1.5={death=yes}
+}
+
+8543={
+name="Aeryn"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8542
+
+6890.3.6={birth=yes}
+6945.1.5={death=yes}
+}
+
+8544={
+name="Valarr"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8543
+
+6960.3.6={birth=yes}
+7035.1.5={death=yes}
+}
+
+8545={
+name="Daemon"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8544
+
+6999.3.6={birth=yes}
+7050.1.5={death=yes}
+}
+
+8546={
+name="Orys"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8545
+
+7040.3.6={birth=yes}
+7101.1.5={death=yes}
+}
+
+8547={
+name="Orys"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8546
+
+7085.3.6={birth=yes}
+7134.1.5={death=yes}
+}
+
+8548={
+name="Aelon"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8547
+
+7133.3.6={birth=yes}
+7193.1.5={death=yes}
+}
+
+8549={
+name="Lucerys"
+dynasty=910
+culture=high_valyrian
+religion=the_seven
+father=8548
+
+7183.3.6={birth=yes}
+7253.1.5={death=yes}
+}
+
+8597={
+   name="Adrian" 
+   dynasty=910
+   culture=high_valyrian
+   religion=the_seven
+   father=8549
+
+   7244.1.1={birth=yes}
+   7319.1.1={death=yes}
+}
+
+8598={
+   name="Aelon" 
+   dynasty=910
+   culture=high_valyrian
+   religion=the_seven
+   father=8597
+
+   7287.1.1={birth=yes}
+   7353.1.1={death=yes}
+}
+
+#######################
+### House Crabb #######
+#######################
+
+8550={
+name="Gyles"
+dynasty=907
+culture=crackclawmen
+religion=old_gods
+father=1638
+
+6587.3.6={birth=yes}
+6642.1.5={death=yes}
+}
+
+8551={
+name="Adrian"
+dynasty=907
+culture=crackclawmen
+religion=old_gods
+father=8550
+
+6627.3.6={birth=yes}
+6688.1.5={death=yes}
+}
+
+8552={
+name="Alaric"
+dynasty=907
+culture=crackclawmen
+religion=old_gods
+father=8551
+
+6664.3.6={birth=yes}
+6702.1.15={religion = the_seven }
+6732.1.5={death=yes}
+}
+
+8553={
+name="Aron"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8552
+
+6688.3.6={birth=yes}
+6754.1.5={death=yes}
+}
+
+8554={
+name="Aron"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8553
+
+6719.3.6={birth=yes}
+6770.1.5={death=yes}
+}
+
+8555={
+name="Ethan"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8554
+
+6748.3.6={birth=yes}
+6818.1.5={death=yes}
+}
+
+8556={
+name="Bryen"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8555
+
+6775.3.6={birth=yes}
+6830.1.5={death=yes}
+}
+
+8557={
+name="Perkin"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8556
+
+6815.3.6={birth=yes}
+6869.1.5={death=yes}
+}
+
+8558={
+name="Osmund"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8557
+
+6858.3.6={birth=yes}
+6906.1.5={death=yes}
+}
+
+8559={
+name="Dywen"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8558
+
+6898.3.6={birth=yes}
+6950.1.5={death=yes}
+}
+
+8560={
+name="Rolland"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8559
+
+6944.3.6={birth=yes}
+7007.1.5={death=yes}
+}
+
+8561={
+name="Matthos"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8560
+
+6986.3.6={birth=yes}
+7041.1.5={death=yes}
+}
+
+8562={
+name="Roger"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8561
+
+7025.3.6={birth=yes}
+7073.1.5={death=yes}
+}
+
+8564={
+name="Matthos"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8562
+
+7059.3.6={birth=yes}
+7120.1.5={death=yes}
+}
+
+8565={
+name="Maric"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8564
+
+7089.3.6={birth=yes}
+7150.1.5={death=yes}
+}
+
+8566={
+name="Steffon"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8565
+
+7131.3.6={birth=yes}
+7200.1.5={death=yes}
+}
+
+8567={
+name="Egon"
+dynasty=907
+culture=crackclawmen
+religion=the_seven
+father=8566
+
+7181.3.6={birth=yes}
+7236.1.5={death=yes}
+}
+
+8599={
+   name="Egon" 
+   dynasty=907
+   culture=crackclawmen
+   religion=the_seven
+   father=8567
+
+   7222.1.1={birth=yes}
+   7288.1.1={death=yes}
+}
+
+8600={
+   name="Edrick" 
+   dynasty=907
+   culture=crackclawmen
+   religion=the_seven
+   father=8599
+
+   7287.1.1={birth=yes}
+   7348.1.1={death=yes}
+}
+
+#######################
+### House Coastmoor ###
+#######################
+
+
+8568={
+name="Clayton"
+dynasty=922
+culture=crackclawmen
+religion=old_gods
+father=1713
+
+6583.3.6={birth=yes}
+6639.1.5={death=yes}
+}
+
+8569={
+name="Criston"
+dynasty=922
+culture=crackclawmen
+religion=old_gods
+father=8568
+
+6623.3.6={birth=yes}
+6672.1.5={death=yes}
+}
+
+8570={
+name="Crispian"
+dynasty=922
+culture=crackclawmen
+religion=old_gods
+father=8569
+
+6652.3.6={birth=yes}
+6713.1.5={death=yes}
+}
+
+8571={
+name="Dontos"
+dynasty=922
+culture=crackclawmen
+religion=old_gods
+father=8570
+
+6691.3.6={birth=yes}
+6700.3.25={religion = the_seven}
+6756.1.5={death=yes}
+}
+
+8572={
+name="Cayn"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8571
+
+6728.3.6={birth=yes}
+6787.1.5={death=yes}
+}
+
+8573={
+name="Harwin"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8572
+
+6760.3.6={birth=yes}
+6814.1.5={death=yes}
+}
+
+8574={
+name="Martyn"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8573
+
+6782.3.6={birth=yes}
+6839.1.5={death=yes}
+}
+
+8575={
+name="Osric"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8574
+
+6834.3.6={birth=yes}
+6907.1.5={death=yes}
+}
+
+8576={
+name="Ondrew"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8575
+
+6874.3.6={birth=yes}
+6936.1.5={death=yes}
+}
+
+8577={
+name="Edderion"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8576
+
+6924.3.6={birth=yes}
+6982.1.5={death=yes}
+}
+
+8578={
+name="Ulmer"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8577
+
+6967.3.6={birth=yes}
+7032.1.5={death=yes}
+}
+
+8579={
+name="Yoren"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8578
+
+7012.3.6={birth=yes}
+7063.1.5={death=yes}
+}
+
+8580={
+name="Yoren"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8579
+
+7044.3.6={birth=yes}
+7102.1.5={death=yes}
+}
+
+8581={
+name="Yoric"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8580
+
+7069.3.6={birth=yes}
+7118.1.5={death=yes}
+}
+
+8582={
+name="Boros"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8581
+
+7100.3.6={birth=yes}
+7170.1.5={death=yes}
+}
+
+8583={
+name="Bronn"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8582
+
+7129.3.6={birth=yes}
+7195.1.5={death=yes}
+}
+
+8584={
+name="Yoric"
+dynasty=922
+culture=crackclawmen
+religion=the_seven
+father=8583
+
+7158.3.6={birth=yes}
+7227.1.5={death=yes}
+}
+
+8601={
+   name="Clayton" 
+   dynasty=922
+   culture=crackclawmen
+   religion=the_seven
+   father=8584
+
+   7195.1.1={birth=yes}
+   7268.1.1={death=yes}
+}
+
+8602={
+   name="Yoric" 
+   dynasty=922
+   culture=crackclawmen
+   religion=the_seven
+   father=8601
+
+   7238.1.1={birth=yes}
+   7308.1.1={death=yes}
+}
+
+######################
+### House Staunton ###
+######################
+
+8603={
+   name="Yoren" 
+   dynasty=906
+   culture=crackclawmen
+   religion=old_gods
+   father=1632
+
+   6586.1.1={birth=yes}
+   6642.1.1={death=yes}
+}
+
+8604={
+   name="Yoric" 
+   dynasty=906
+   culture=crackclawmen
+   religion=old_gods
+   father=8603
+
+   6626.1.1={birth=yes}
+   6689.1.1={death=yes}
+}
+
+8605={
+   name="Clayton" 
+   dynasty=906
+   culture=crackclawmen
+   religion=old_gods
+   father=8604
+
+   6661.1.1={birth=yes}
+   6706.3.15={religion=the_seven}
+   6731.1.1={death=yes}
+}
+
+8606={
+   name="Clyde" 
+   dynasty=906
+   culture=crackclawmen
+   religion=old_gods
+   father=8605
+
+   6704.1.1={birth=yes}
+   6706.3.15={religion=the_seven}
+   6761.1.1={death=yes}
+}
+
+8607={
+   name="Ondrew" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8606
+
+   6733.1.1={birth=yes}
+   6792.1.1={death=yes}
+}
+
+8608={
+   name="Odrik" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8607
+
+   6770.1.1={birth=yes}
+   6830.1.1={death=yes}
+}
+
+8609={
+   name="Odwel" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8608
+
+   6819.1.1={birth=yes}
+   6860.1.1={death=yes}
+}
+
+8610={
+   name="Maric" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8609
+
+   6855.1.1={birth=yes}
+   6930.1.1={death=yes}
+}
+
+8611={
+   name="Arryk" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8610
+
+   6897.1.1={birth=yes}
+   6948.1.1={death=yes}
+}
+
+8612={
+   name="Duram" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8611
+
+   6933.1.1={birth=yes}
+   6999.1.1={death=yes}
+}
+
+8613={
+   name="Arryk" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8612
+
+   6953.1.1={birth=yes}
+   7019.1.1={death=yes}
+}
+
+8614={
+   name="Maric" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8613
+
+   6973.1.1={birth=yes}
+   7035.1.1={death=yes}
+}
+
+8615={
+   name="Duram" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8614
+
+   7018.1.1={birth=yes}
+   7084.1.1={death=yes}
+}
+
+8616={
+   name="Martyn" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8615
+
+   7049.1.1={birth=yes}
+   7113.1.1={death=yes}
+}
+
+8617={
+   name="Matthos" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8616
+
+   7109.1.1={birth=yes}
+   7182.1.1={death=yes}
+}
+
+8618={
+   name="Matthos" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8617
+
+   7138.1.1={birth=yes}
+   7193.1.1={death=yes}
+}
+
+8619={
+   name="Ormund" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8618
+
+   7168.1.1={birth=yes}
+   7238.1.1={death=yes}
+}
+
+8620={
+   name="Rolland" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8619
+
+   7207.1.1={birth=yes}
+   7264.1.1={death=yes}
+}
+
+8621={
+   name="Rorge" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8620
+
+   7247.1.1={birth=yes}
+   7300.1.1={death=yes}
+}
+
+8622={
+   name="Rolland" 
+   dynasty=906
+   culture=crackclawmen
+   religion=the_seven
+   father=8621
+
+   7297.1.1={birth=yes}
+   7347.1.1={death=yes}
+}
+
+#####################
+### House Hollard ###
+#####################
+
+8623={
+   name="Roger" 
+   dynasty=915
+   culture=crackclawmen
+   religion=old_gods
+   father=1679
+
+   6610.1.1={birth=yes}
+   6669.1.1={death=yes}
+}
+
+8624={
+   name="Devan" 
+   dynasty=915
+   culture=crackclawmen
+   religion=old_gods
+   father=8623
+
+   6640.1.1={birth=yes}
+   6701.1.1={death=yes}
+}
+
+8625={
+   name="Robin" 
+   dynasty=915
+   culture=crackclawmen
+   religion=old_gods
+   father=8624
+
+   6680.1.1={birth=yes}
+   6707.2.2={religion=the_seven}
+   6731.1.1={death=yes}
+}
+
+8626={
+   name="Robin" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8625
+
+   6714.1.1={birth=yes}
+   6777.1.1={death=yes}
+}
+
+8627={
+   name="Oswell" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8626
+
+   6759.1.1={birth=yes}
+   6814.1.1={death=yes}
+}
+
+8628={
+   name="Osric" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8627
+
+   6790.1.1={birth=yes}
+   6856.1.1={death=yes}
+}
+
+8629={
+   name="Jacelyn" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8628
+
+   6826.1.1={birth=yes}
+   6881.1.1={death=yes}
+}
+
+8630={
+   name="Harwin" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8629
+
+   6863.1.1={birth=yes}
+   6932.1.1={death=yes}
+}
+
+8631={
+   name="Howard" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8630
+
+   6908.1.1={birth=yes}
+   6974.1.1={death=yes}
+}
+
+8632={
+   name="Cayn" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8631
+
+   6950.1.1={birth=yes}
+   7021.1.1={death=yes}
+}
+
+8633={
+   name="Clayton" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8632
+
+   6997.1.1={birth=yes}
+   7058.1.1={death=yes}
+}
+
+8634={
+   name="Clayton" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8633
+
+   7031.1.1={birth=yes}
+   7090.1.1={death=yes}
+}
+
+8635={
+   name="Triston" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8634
+
+   7065.1.1={birth=yes}
+   7137.1.1={death=yes}
+}
+
+8636={
+   name="Triston" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8635
+
+   7104.1.1={birth=yes}
+   7165.1.1={death=yes}
+}
+
+8637={
+   name="Theo" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8636
+
+   7142.1.1={birth=yes}
+   7204.1.1={death=yes}
+}
+
+
+8638={
+   name="Rickard" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8637
+
+   7200.1.1={birth=yes}
+   7273.1.1={death=yes}
+}
+
+8639={
+   name="Samwyle" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8638
+
+   7239.1.1={birth=yes}
+   7294.1.1={death=yes}
+}
+
+8640={
+   name="Alyn" 
+   dynasty=915
+   culture=crackclawmen
+   religion=the_seven
+   father=8639
+
+   7279.1.1={birth=yes}
+   7341.1.1={death=yes}
+}
+
+###################
+### House Harte ###
+###################
+
+8641={
+   name="Alyn" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=1607
+
+   6587.1.1={birth=yes}
+   6646.1.1={death=yes}
+}
+
+8642={
+   name="Alan" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8641
+
+   6627.1.1={birth=yes}
+   6686.1.1={death=yes}
+}
+
+8643={
+   name="Haereg" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8642
+
+   6664.1.1={birth=yes}
+   6719.1.1={death=yes}
+}
+
+8644={
+   name="Jarman" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8643
+
+   6709.1.1={birth=yes}
+   6772.1.1={death=yes}
+}
+
+8645={
+   name="Gilbert" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8644
+
+   6746.1.1={birth=yes}
+   6812.1.1={death=yes}
+}
+
+8646={
+   name="Gendry" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8645
+
+   6791.1.1={birth=yes}
+   6853.1.1={death=yes}
+}
+
+8647={
+   name="Gwayne" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8646
+
+   6817.1.1={birth=yes}
+   6881.1.1={death=yes}
+}
+
+8648={
+   name="Gregory" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8647
+
+   6846.1.1={birth=yes}
+   6907.1.1={death=yes}
+}
+
+8649={
+   name="Triston" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8648
+
+   6883.1.1={birth=yes}
+   6946.1.1={death=yes}
+}
+
+8650={
+   name="Robin" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8649
+
+   6907.1.1={birth=yes}
+   6962.1.1={death=yes}
+}
+
+8651={
+   name="Robert" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8650
+
+   6945.1.1={birth=yes}
+   6998.1.1={death=yes}
+}
+
+8652={
+   name="Symon" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8651
+
+   6988.1.1={birth=yes}
+   7049.1.1={death=yes}
+}
+
+8653={
+   name="Symon" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8652
+
+   7032.1.1={birth=yes}
+   7085.1.1={death=yes}
+}
+
+8654={
+   name="Steffon" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8653
+
+   7059.1.1={birth=yes}
+   7114.1.1={death=yes}
+}
+
+8655={
+   name="Steffon" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8654
+
+   7089.1.1={birth=yes}
+   7149.1.1={death=yes}
+}
+
+8656={
+   name="Robin" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8655
+
+   7124.1.1={birth=yes}
+   7193.1.1={death=yes}
+}
+
+8657={
+   name="Rolland" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8656
+
+   7188.1.1={birth=yes}
+   7255.1.1={death=yes}
+}
+
+8658={
+   name="Roger" 
+   dynasty=901
+   culture=dusklander
+   religion=the_seven
+   father=8657
+
+   7231.1.1={birth=yes}
+   7302.1.1={death=yes}
+}
+
+###################
+### House Boggs ###
+###################
+
+8659={
+   name="Terrence" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=1692
+
+   6581.1.1={birth=yes}
+   6656.1.1={death=yes}
+}
+
+8660={
+   name="Rolland" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8659
+
+   6614.1.1={birth=yes}
+   6678.1.1={death=yes}
+}
+
+8661={
+   name="Robin" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8660
+
+   6641.1.1={birth=yes}
+   6695.1.1={death=yes}
+}
+
+8662={
+   name="Robin" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8661
+
+   6681.1.1={birth=yes}
+   6736.1.1={death=yes}
+}
+
+8663={
+   name="Robin" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8662
+
+   6706.1.1={birth=yes}
+   6767.1.1={death=yes}
+}
+
+8664={
+   name="Roger" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8663
+
+   6739.1.1={birth=yes}
+   6811.1.1={death=yes}
+}
+
+8665={
+   name="Ollidor" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8664
+
+   6777.1.1={birth=yes}
+   6843.1.1={death=yes}
+}
+
+8666={
+   name="Davos" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8665
+
+   6811.1.1={birth=yes}
+   6871.1.1={death=yes}
+}
+
+8667={
+   name="Justin" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8666
+
+   6841.1.1={birth=yes}
+   6904.1.1={death=yes}
+}
+
+8668={
+   name="Morgan" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8667
+
+   6867.1.1={birth=yes}
+   6942.1.1={death=yes}
+}
+
+8669={
+   name="Jacelyn" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8668
+
+   6913.1.1={birth=yes}
+   6977.1.1={death=yes}
+}
+
+8670={
+   name="Gendry" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8669
+
+   6950.1.1={birth=yes}
+   7008.1.1={death=yes}
+}
+
+8671={
+   name="Clayton" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8670
+
+   6984.1.1={birth=yes}
+   7036.1.1={death=yes}
+}
+
+8672={
+   name="Clayton" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8671
+
+   7020.1.1={birth=yes}
+   7090.1.1={death=yes}
+}
+
+8673={
+   name="Bronn" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8672
+
+   7060.1.1={birth=yes}
+   7120.1.1={death=yes}
+}
+
+8674={
+   name="Ardrian" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8673
+
+   7095.1.1={birth=yes}
+   7159.1.1={death=yes}
+}
+
+8675={
+   name="Devan" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8674
+
+   7138.1.1={birth=yes}
+   7199.1.1={death=yes}
+}
+
+8676={
+   name="Dontos" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8675
+
+   7173.1.1={birth=yes}
+   7242.1.1={death=yes}
+}
+
+8677={
+   name="Rolland" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8676
+
+   7213.1.1={birth=yes}
+   7285.1.1={death=yes}
+}
+
+8678={
+   name="Rolland" 
+   dynasty=918
+   culture=dusklander
+   religion=the_seven
+   father=8677
+
+   7256.1.1={birth=yes}
+   7318.1.1={death=yes}
+}
+
+######################
+### House Buckwell ###
+######################
+
+8679={
+   name="Jason" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=1612
+   diplomacy = 6
+   martial = 10
+   intrigue = 2
+   stewardship = 4
+   learning = 6
+   trait = tough_soldier
+   trait = knight
+   trait = brave
+   trait = duelist
+   trait = dueling_legend
+   trait = ambitious
+   trait = diligent
+   trait = wroth
+   trait = fair
+   
+   6587.1.1={birth=yes}
+   6607.1.1 = { give_nickname=nick_the_fearless }
+   6607.1.1 = { effect = { give_minor_title = title_generic_ser } }
+   6650.1.1={death=yes}
+}
+
+8680={
+   name="Robin" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8679
+
+   6615.1.1={birth=yes}
+   6678.1.1={death=yes}
+}
+
+8681={
+   name="Robert" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8680
+
+   6649.1.1={birth=yes}
+   6719.1.1={death=yes}
+}
+
+8682={
+   name="Sherion" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8681
+
+   6682.1.1={birth=yes}
+   6736.1.1={death=yes}
+}
+
+8683={
+   name="Tarell" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8682
+
+   6722.1.1={birth=yes}
+   6795.1.1={death=yes}
+}
+
+8684={
+   name="Wallace" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8683
+
+   6765.1.1={birth=yes}
+   6829.1.1={death=yes}
+}
+
+8685={
+   name="Yohnen" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8684
+
+   6795.1.1={birth=yes}
+   6850.1.1={death=yes}
+}
+
+8686={
+   name="Rennifer" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8685
+
+   6826.1.1={birth=yes}
+   6905.1.1={death=yes}
+}
+
+8687={
+   name="Rennifer" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8686
+
+   6865.1.1={birth=yes}
+   6928.1.1={death=yes}
+}
+
+8688={
+   name="Erryk" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8687
+
+   6906.1.1={birth=yes}
+   6966.1.1={death=yes}
+}
+
+8689={
+   name="Erryk" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8688
+
+   6952.1.1={birth=yes}
+   7009.1.1={death=yes}
+}
+
+8690={
+   name="Erryk" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8689
+
+   6984.1.1={birth=yes}
+   7043.1.1={death=yes}
+}
+
+8691={
+   name="Devan" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8690
+
+   7019.1.1={birth=yes}
+   7072.1.1={death=yes}
+}
+
+8692={
+   name="Duram" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8691
+
+   7048.1.1={birth=yes}
+   7110.1.1={death=yes}
+}
+
+8693={
+   name="Durance" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8692
+
+   7084.1.1={birth=yes}
+   7150.1.1={death=yes}
+}
+
+8694={
+   name="Durance" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8693
+
+   7117.1.1={birth=yes}
+   7171.1.1={death=yes}
+}
+
+8695={
+   name="Ardrian" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8694
+
+   7146.1.1={birth=yes}
+   7206.1.1={death=yes}
+}
+
+8696={
+   name="Adrian" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8695
+
+   7186.1.1={birth=yes}
+   7256.1.1={death=yes}
+}
+
+8697={
+   name="Aethan" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8696
+
+   7229.1.1={birth=yes}
+   7286.1.1={death=yes}
+}
+8698={
+   name="Alan" 
+   dynasty=902
+   culture=dusklander
+   religion=the_seven
+   father=8697
+
+   7265.1.1={birth=yes}
+   7329.1.1={death=yes}
+}
+
+####################
+### House Rykker ###
+####################
+
+8699={
+   name="Alaric" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   mother=1702
+
+   6582.1.1={birth=yes}
+   6636.1.1={death=yes}
+}
+
+8700={
+   name="Bronn" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8699
+
+   6621.1.1={birth=yes}
+   6686.1.1={death=yes}
+}
+
+8701={
+   name="Boros" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8700
+
+   6664.1.1={birth=yes}
+   6734.1.1={death=yes}
+}
+
+8702={
+   name="Gyles" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8701
+
+   6709.1.1={birth=yes}
+   6772.1.1={death=yes}
+}
+
+8703={
+   name="Guncer" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8702
+
+   6748.1.1={birth=yes}
+   6803.1.1={death=yes}
+}
+
+8704={
+   name="Ollidor" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8703
+
+   6795.1.1={birth=yes}
+   6858.1.1={death=yes}
+}
+
+8705={
+   name="Osmund" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8704
+
+   6835.1.1={birth=yes}
+   6905.1.1={death=yes}
+}
+
+8706={
+   name="Alan" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8705
+
+   6881.1.1={birth=yes}
+   6947.1.1={death=yes}
+}
+
+8707={
+   name="Jacelyn" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8706
+
+   6918.1.1={birth=yes}
+   6979.1.1={death=yes}
+}
+
+8708={
+   name="Matthos" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8707
+
+   6959.1.1={birth=yes}
+   7017.1.1={death=yes}
+}
+
+8709={
+   name="Morgan" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8708
+
+   6988.1.1={birth=yes}
+   7042.1.1={death=yes}
+}
+
+8710={
+   name="Maric" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8709
+
+   7031.1.1={birth=yes}
+   7103.1.1={death=yes}
+}
+
+8711={
+   name="Morgan" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8710
+
+   7076.1.1={birth=yes}
+   7149.1.1={death=yes}
+}
+
+8712={
+   name="Thaddius" #Thaddius Rykker
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8711
+
+   7116.1.1={birth=yes}
+   7185.1.1={death=yes}
+}
+
+8713={
+   name="Morgan" 
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8712
+
+   7167.1.1={birth=yes}
+   7230.1.1={death=yes}
+}
+
+8714={
+   name="Kyle" #Kyle Rykker
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8713
+
+   7212.1.1={birth=yes}
+   7282.1.1={death=yes}
+}
+
+8715={
+   name="William" #William T. Rykker
+   dynasty=920
+   culture=dusklander
+   religion=the_seven
+   father=8714
+   diplomacy=15
+   martial=8
+   intrigue=15
+   stewardship=8
+   learning=8
+   trait = brilliant_strategist
+   trait=honourable
+   trait=content
+   trait=diligent
+   trait=patient
+   trait=just
+   trait=quick
+
+   7273.1.1={birth=yes}
+   7348.1.1={death=yes}
+}
+
+###################
+### House Darke ###
+###################
+
+
+8716={
+   name="Triston"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=1682
+
+   6586.1.1={birth=yes}
+   6641.1.1={death=yes}
+}
+
+8717={
+   name="Laren"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8716
+
+   6616.1.1={birth=yes}
+   6676.1.1={death=yes}
+}
+
+8718={
+   name="Belgrave"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8717
+
+   6648.1.1={birth=yes}
+   6705.1.1={death=yes}
+}
+
+8719={
+   name="Wallace"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8718
+
+   6684.1.1={birth=yes}
+   6753.1.1={death=yes}
+}
+
+8720={
+   name="Criston"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8719
+
+   6711.1.1={birth=yes}
+   6764.1.1={death=yes}
+}
+
+8721={
+   name="Yohn"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8720
+
+   6745.1.1={birth=yes}
+   6806.1.1={death=yes}
+}
+
+8722={
+   name="Yohn"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8721
+
+   6783.1.1={birth=yes}
+   6846.1.1={death=yes}
+}
+
+8723={
+   name="Aron"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8722
+
+   6828.1.1={birth=yes}
+   6884.1.1={death=yes}
+}
+
+8724={
+   name="Steffon"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8723
+
+   6859.1.1={birth=yes}
+   6918.1.1={death=yes}
+}
+
+8725={
+   name="Steffon"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8724
+
+   6890.1.1={birth=yes}
+   6955.1.1={death=yes}
+}
+
+8726={
+   name="Triston"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8725
+
+   6930.1.1={birth=yes}
+   7000.1.1={death=yes}
+}
+
+8727={
+   name="Arryk"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8726
+
+   6970.1.1={birth=yes}
+   7027.1.1={death=yes}
+}
+
+8728={
+   name="Erryk"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8727
+
+   7007.1.1={birth=yes}
+   7065.1.1={death=yes}
+}
+
+8729={
+   name="Robin"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8728
+
+   7046.1.1={birth=yes}
+   7111.1.1={death=yes}
+}
+
+8730={
+   name="Roger"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8729
+
+   7075.1.1={birth=yes}
+   7145.1.1={death=yes}
+}
+
+8731={
+   name="Roger"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8730
+
+   7108.1.1={birth=yes}
+   7166.1.1={death=yes}
+}
+
+8732={
+   name="Yohn"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8731
+
+   7151.1.1={birth=yes}
+   7214.1.1={death=yes}
+}
+
+8733={
+   name="Arryk"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8732
+
+   7189.1.1={birth=yes}
+   7261.1.1={death=yes}
+}
+
+8734={
+   name="Tarell"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8733
+
+   7232.1.1={birth=yes}
+   7297.1.1={death=yes}
+}
+
+8735={
+   name="Tarell"
+   dynasty=916
+   culture=dusklander
+   religion=the_seven
+   father=8734
+
+   7268.1.1={birth=yes}
+   7323.1.1={death=yes}
+}
+
+######################
+### House Darkwood ###
+######################
+
+8736={
+   name="Tarell"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=1688
+
+   6592.1.1={birth=yes}
+   6643.1.1={death=yes}
+}
+
+8737={
+   name="Quenton"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8736
+
+   6632.1.1={birth=yes}
+   6695.1.1={death=yes}
+}
+
+8738={
+   name="Alan"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8737
+
+   6660.1.1={birth=yes}
+   6722.1.1={death=yes}
+}
+
+8739={
+   name="Rolland"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8738
+
+   6697.1.1={birth=yes}
+   6752.1.1={death=yes}
+}
+
+8740={
+   name="Robert"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8739
+
+   6730.1.1={birth=yes}
+   6791.1.1={death=yes}
+}
+
+8741={
+   name="Wallace"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8740
+
+   6772.1.1={birth=yes}
+   6840.1.1={death=yes}
+}
+
+8742={
+   name="Crispian"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8741
+
+   6811.1.1={birth=yes}
+   6881.1.1={death=yes}
+}
+
+8743={
+   name="Criston"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8742
+
+   6858.1.1={birth=yes}
+   6913.1.1={death=yes}
+}
+
+8744={
+   name="Aron"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8743
+
+   6896.1.1={birth=yes}
+   6959.1.1={death=yes}
+}
+
+8745={
+   name="Erryk"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8744
+
+   6932.1.1={birth=yes}
+   6989.1.1={death=yes}
+}
+
+8746={
+   name="Arryk"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8745
+
+   6971.1.1={birth=yes}
+   7025.1.1={death=yes}
+}
+
+8747={
+   name="Arryk"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8746
+
+   7009.1.1={birth=yes}
+   7068.1.1={death=yes}
+}
+
+8748={
+   name="Jason"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8747
+
+   7045.1.1={birth=yes}
+   7101.1.1={death=yes}
+}
+
+8749={
+   name="Triston"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8748
+
+   7074.1.1={birth=yes}
+   7144.1.1={death=yes}
+}
+
+8750={
+   name="Ardrian"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8749
+
+   7116.1.1={birth=yes}
+   7167.1.1={death=yes}
+}
+
+8751={
+   name="Robin"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8750
+
+   7144.1.1={birth=yes}
+   7205.1.1={death=yes}
+}
+
+8752={
+   name="Roger"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8751
+
+   7182.1.1={birth=yes}
+   7257.1.1={death=yes}
+}
+
+8753={
+   name="Eustace"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8752
+
+   7227.1.1={birth=yes}
+   7290.1.1={death=yes}
+}
+
+8754={
+   name="Yohn"
+   dynasty=917
+   culture=dusklander
+   religion=the_seven
+   father=8753
+
+   7266.1.1={birth=yes}
+   7324.1.1={death=yes}
+}
+
+#####################
+### House Dargood ###
+#####################
+
+
+8755={
+   name="Robin"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=1697
+
+   6592.1.1={birth=yes}
+   6643.1.1={death=yes}
+}
+
+8756={
+   name="Rolland"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8755
+
+   6632.1.1={birth=yes}
+   6695.1.1={death=yes}
+}
+
+8757={
+   name="Roger"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8756
+
+   6660.1.1={birth=yes}
+   6722.1.1={death=yes}
+}
+
+8758={
+   name="Robin"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8757
+
+   6697.1.1={birth=yes}
+   6752.1.1={death=yes}
+}
+
+8759={
+   name="Wallace"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8758
+
+   6730.1.1={birth=yes}
+   6791.1.1={death=yes}
+}
+
+8760={
+   name="Wallace"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8759
+
+   6772.1.1={birth=yes}
+   6840.1.1={death=yes}
+}
+
+8761={
+   name="Crispian"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8760
+
+   6811.1.1={birth=yes}
+   6881.1.1={death=yes}
+}
+
+8762={
+   name="Criston"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8761
+
+   6858.1.1={birth=yes}
+   6913.1.1={death=yes}
+}
+
+8763={
+   name="Aron"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8762
+
+   6896.1.1={birth=yes}
+   6959.1.1={death=yes}
+}
+
+8764={
+   name="Erryk"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8763
+
+   6932.1.1={birth=yes}
+   6989.1.1={death=yes}
+}
+
+8765={
+   name="Arryk"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8764
+
+   6971.1.1={birth=yes}
+   7025.1.1={death=yes}
+}
+
+8766={
+   name="Arryk"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8765
+
+   7009.1.1={birth=yes}
+   7068.1.1={death=yes}
+}
+
+8767={
+   name="Jason"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8766
+
+   7045.1.1={birth=yes}
+   7101.1.1={death=yes}
+}
+
+8768={
+   name="Triston"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8767
+
+   7074.1.1={birth=yes}
+   7144.1.1={death=yes}
+}
+
+8769={
+   name="Triston"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8768
+
+   7116.1.1={birth=yes}
+   7167.1.1={death=yes}
+}
+
+8770={
+   name="Bryen"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8769
+
+   7144.1.1={birth=yes}
+   7205.1.1={death=yes}
+}
+
+8771={
+   name="Bryen"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8770
+
+   7182.1.1={birth=yes}
+   7257.1.1={death=yes}
+}
+
+8772={
+   name="Yohnen"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8771
+
+   7227.1.1={birth=yes}
+   7290.1.1={death=yes}
+}
+
+8773={
+   name="Yohn"
+   dynasty=919
+   culture=dusklander
+   religion=the_seven
+   father=8772
+
+   7266.1.1={birth=yes}
+   7324.1.1={death=yes}
+}
+
+######################
+### House Edgerton ###
+######################
+
+8774={
+   name="Howard"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=1619
+
+   6584.1.1={birth=yes}
+   6645.1.1={death=yes}
+}
+
+8775={
+   name="Yohnen"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8774
+
+   6616.1.1={birth=yes}
+   6671.1.1={death=yes}
+}
+
+8776={
+   name="Allard"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8775
+
+   6655.1.1={birth=yes}
+   6715.1.1={death=yes}
+}
+
+8777={
+   name="Bryen"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8776
+
+   6684.1.1={birth=yes}
+   6747.1.1={death=yes}
+}
+
+8778={
+   name="Howard"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8777
+
+   6724.1.1={birth=yes}
+   6794.1.1={death=yes}
+}
+
+8779={
+   name="Maric"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8778
+
+   6763.1.1={birth=yes}
+   6817.1.1={death=yes}
+}
+
+8780={
+   name="Martyn"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8779
+
+   6803.1.1={birth=yes}
+   6856.1.1={death=yes}
+}
+
+8781={
+   name="Martyn"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8780
+
+   6841.1.1={birth=yes}
+   6903.1.1={death=yes}
+}
+
+8782={
+   name="Matthos"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8781
+
+   6869.1.1={birth=yes}
+   6938.1.1={death=yes}
+}
+
+8783={
+   name="Durance"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8782
+
+   6916.1.1={birth=yes}
+   6977.1.1={death=yes}
+}
+
+8784={
+   name="Duram"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8783
+
+   6954.1.1={birth=yes}
+   7012.1.1={death=yes}
+}
+
+8785={
+   name="Alaric"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8784
+
+   6991.1.1={birth=yes}
+   7057.1.1={death=yes}
+}
+
+8786={
+   name="Wallace"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8785
+
+   7031.1.1={birth=yes}
+   7093.1.1={death=yes}
+}
+
+8787={
+   name="Osmund"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8786
+
+   7074.1.1={birth=yes}
+   7147.1.1={death=yes}
+}
+
+8788={
+   name="Rennifer"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8787
+
+   7108.1.1={birth=yes}
+   7168.1.1={death=yes}
+}
+
+8789={
+   name="Robin"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8788
+
+   7145.1.1={birth=yes}
+   7200.1.1={death=yes}
+}
+
+8790={
+   name="Triston"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8789
+
+   7191.1.1={birth=yes}
+   7262.1.1={death=yes}
+}
+
+8791={
+   name="Triston"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8790
+
+   7230.1.1={birth=yes}
+   7290.1.1={death=yes}
+}
+
+8792={
+   name="Triston"
+   dynasty=903
+   culture=dusklander
+   religion=the_seven
+   father=8791
+
+   7275.1.1={birth=yes}
+   7345.1.1={death=yes}
+}
+
+#####################
+### House Cressey ###
+#####################
+
+8793={
+   name="Triston"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=1672
+
+   6588.1.1={birth=yes}
+   6650.1.1={death=yes}
+}
+
+8794={
+   name="Quenton"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8793
+
+   6628.1.1={birth=yes}
+   6692.1.1={death=yes}
+}
+
+8795={
+   name="Quenton"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8794
+
+   6669.1.1={birth=yes}
+   6739.1.1={death=yes}
+}
+
+8796={
+   name="Robin"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8795
+
+   6707.1.1={birth=yes}
+   6770.1.1={death=yes}
+}
+
+8797={
+   name="Roger"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8796
+
+   6739.1.1={birth=yes}
+   6794.1.1={death=yes}
+}
+
+8798={
+   name="Wallace"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8797
+
+   6768.1.1={birth=yes}
+   6840.1.1={death=yes}
+}
+
+8799={
+   name="Clayton"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8798
+
+   6808.1.1={birth=yes}
+   6868.1.1={death=yes}
+}
+
+8800={
+   name="Morgan"
+   dynasty=914
+   culture=dusklander
+   religion=the_seven
+   father=8799
+
+   6837.1.1={birth=yes}
+   6912.1.1={death=yes}
+}

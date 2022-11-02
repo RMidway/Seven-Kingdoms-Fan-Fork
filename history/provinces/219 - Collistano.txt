@@ -1,0 +1,21 @@
+# c_collistano
+
+# County Title
+title = c_collistano
+
+# Settlements
+max_settlements = 3
+
+b_collistano = city
+#b_collistano_2 = city
+#b_collistano_3 = temple
+#b_collistano_4 = castle
+#b_collistano_5 = city
+#b_collistano_6 = temple
+#b_collistano_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

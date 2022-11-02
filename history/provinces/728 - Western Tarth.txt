@@ -1,0 +1,28 @@
+# c_western_tarth
+
+# County Title
+title = c_western_tarth
+
+# Settlements
+max_settlements = 5
+
+b_evenfall_hearth = castle
+b_neiderbeis = castle
+b_beisheim = city
+#b_pfarrweisach = castle
+#b_evenfall_chapel = city
+
+# Misc
+culture = evenstar
+religion = old_gods
+terrain = hills
+#History
+1.1.1 = {
+    religion = old_gods 
+}
+6300.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+    culture = stormlander
+}

@@ -1,0 +1,21 @@
+# c_nymolis
+
+# County Title
+title = c_nymolis
+
+# Settlements
+max_settlements = 3
+
+b_nymolis = castle
+b_nymolis_2 = city
+#b_nymolis_3 = temple
+#b_nymolis_4 = castle
+#b_nymolis_5 = city
+#b_nymolis_6 = temple
+#b_nymolis_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = hills
+#History

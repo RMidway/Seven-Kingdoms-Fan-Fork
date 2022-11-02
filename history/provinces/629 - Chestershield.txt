@@ -1,0 +1,24 @@
+# c_chestershield
+
+# County Title
+title = c_chestershield
+
+# Settlements
+max_settlements = 4
+
+b_chestershield = castle
+b_chesterfort = city
+#b_chesterhold = temple
+#b_chesterkeep = castle
+
+# Misc
+culture = shieldislander
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+}
+7000.1.1 = {
+    culture = shieldmen
+}

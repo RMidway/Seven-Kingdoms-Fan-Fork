@@ -1,0 +1,21 @@
+# c_goodwick
+
+# County Title
+title = c_goodwick
+
+# Settlements
+max_settlements = 3
+
+b_goodwick = castle
+#b_goodwick_2 = city
+#b_goodwick_3 = temple
+#b_goodwick_4 = castle
+#b_goodwick_5 = city
+#b_goodwick_6 = temple
+#b_goodwick_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = hills
+#History

@@ -1,0 +1,21 @@
+# c_bajkini
+
+# County Title
+title = c_bajkini
+
+# Settlements
+max_settlements = 7
+
+b_bajkini = city
+b_bajkini_2 = city
+#b_bajkini_3 = temple
+#b_bajkini_4 = castle
+#b_bajkini_5 = city
+#b_bajkini_6 = temple
+#b_bajkini_7 = castle
+
+# Misc
+culture = lorathi
+religion = bearded_priests
+terrain = farmlands
+#History

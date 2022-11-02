@@ -1,0 +1,23 @@
+# c_wynecoast
+
+# County Title
+title = c_wynecoast
+
+# Settlements
+max_settlements = 5
+
+b_wynecoast = castle
+b_redkeg = city
+#b_worbeek = temple
+#b_goldton = castle
+#b_wynecoast_2 = city
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+	religion = the_seven
+}

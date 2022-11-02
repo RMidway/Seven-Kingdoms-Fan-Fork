@@ -1,0 +1,21 @@
+# c_newkeep
+
+# County Title
+title = c_newkeep
+
+# Settlements
+max_settlements = 3
+
+b_newkeep = castle
+#b_trodio = city
+#b_newkeep_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

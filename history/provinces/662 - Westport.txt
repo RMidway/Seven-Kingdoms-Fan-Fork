@@ -1,0 +1,22 @@
+# c_westport
+
+# County Title
+title = c_westport
+
+# Settlements
+max_settlements = 4
+
+b_westport = castle
+#b_holthorst = city
+#b_bottum = temple
+#b_westport_2 = castle
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = woods
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

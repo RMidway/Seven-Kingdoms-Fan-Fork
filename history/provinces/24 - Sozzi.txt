@@ -1,0 +1,22 @@
+# c_sozzi
+
+# County Title
+title = c_sozzi
+
+# Settlements
+max_settlements = 7
+
+b_sozzi = city
+#b_sozzi_2 = city
+#b_sozzi_3 = temple
+#b_sozzi_4 = castle
+#b_sozzi_5 = city
+#b_sozzi_6 = temple
+#b_sozzi_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History
+6566.1.1={b_sozzi = castle}

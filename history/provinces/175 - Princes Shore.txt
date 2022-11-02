@@ -1,0 +1,21 @@
+# c_princes_shore
+
+# County Title
+title = c_princes_shore
+
+# Settlements
+max_settlements = 5
+
+b_princes_shore = city
+b_princes_sheaf = temple
+#b_princes_shore_2 = temple
+#b_princes_shore_3 = castle
+#b_princes_shore_4 = city
+#b_princes_shore_5 = temple
+#b_princes_shore_6 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

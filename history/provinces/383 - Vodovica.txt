@@ -1,0 +1,21 @@
+# c_vodovica
+
+# County Title
+title = c_vodovica
+
+# Settlements
+max_settlements = 2
+
+b_vodovica = castle
+#b_vodovica_2 = city
+#b_vodovica_3 = temple
+#b_vodovica_4 = castle
+#b_vodovica_5 = city
+#b_vodovica_6 = temple
+#b_vodovica_7 = castle
+
+# Misc
+culture = lysene
+religion = valyrian
+terrain = farmlands
+#History

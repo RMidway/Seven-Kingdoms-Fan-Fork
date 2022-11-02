@@ -1,0 +1,21 @@
+# c_roiate
+
+# County Title
+title = c_roiate
+
+# Settlements
+max_settlements = 2
+
+b_roiate = city
+#b_roiate_2 = city
+#b_roiate_3 = temple
+#b_roiate_4 = castle
+#b_roiate_5 = city
+#b_roiate_6 = temple
+#b_roiate_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

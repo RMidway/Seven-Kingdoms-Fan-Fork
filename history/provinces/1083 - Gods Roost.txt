@@ -1,0 +1,22 @@
+# c_gods_roost
+
+# County Title
+title = c_gods_roost
+
+# Settlements
+max_settlements = 4
+
+b_gods_roost = castle
+#b_neukirc = city
+#b_hendorf = temple
+#b_gods_roost_2 = castle
+
+# Misc
+culture = gatesmen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

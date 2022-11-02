@@ -1,0 +1,21 @@
+# c_devils_retreat
+
+# County Title
+title = c_devils_retreat
+
+# Settlements
+max_settlements = 1
+
+b_devils_retreat = castle
+#b_devils_retreat_2 = city
+#b_devils_retreat_3 = temple
+#b_devils_retreat_4 = castle
+#b_devils_retreat_5 = city
+#b_devils_retreat_6 = temple
+#b_devils_retreat_7 = castle
+
+# Misc
+culture = pirate
+religion = black_flag
+terrain = hills
+#History

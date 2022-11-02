@@ -1,0 +1,21 @@
+# c_abdera
+
+# County Title
+title = c_abdera
+
+# Settlements
+max_settlements = 3
+
+b_abdera = castle
+#b_abdera_2 = city
+#b_abdera_3 = temple
+#b_abdera_4 = castle
+#b_abdera_5 = city
+#b_abdera_6 = temple
+#b_abdera_7 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = woods
+#History

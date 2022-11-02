@@ -1,0 +1,362 @@
+decisions = {
+	
+	claim_dorne = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_dorne = { has_holder = yes } }
+			capital_scope = {
+				region = world_dorne
+			}
+			has_ambition = obj_become_high_king_dorne
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 12
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_dorne
+			primary_title = {
+				e_dorne = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	claim_the_dusklands = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_dusklands = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_blackwater
+			}
+			has_ambition = obj_become_high_king_dusklands
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 12
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_dusklands
+			primary_title = {
+				e_the_dusklands = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	claim_the_iron_islands = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_iron_islands = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_iron_islands
+			}
+			has_ambition = obj_become_high_king_iron_islands
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 12
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_iron_islands
+			primary_title = {
+				e_the_iron_islands = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	claim_the_north = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_north = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_north
+			}
+			has_ambition = obj_become_high_king_north
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 12
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_north
+			primary_title = {
+				e_the_north = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	claim_the_reach = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_reach = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_reach
+			}
+			has_ambition = obj_become_high_king_reach
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 12
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_reach
+			primary_title = {
+				e_the_reach = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	claim_the_riverlands = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_riverlands = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_riverlands
+			}
+			has_ambition = obj_become_high_king_riverlands
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 20
+			prestige = 1250
+		}
+		effect = {	
+			set_flag = claims_riverlands
+			primary_title = {
+				e_the_riverlands = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	claim_the_stormlands = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_stormlands = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_stormlands
+			}
+			has_ambition = obj_become_high_king_stormlands
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 12
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_stormlands
+			primary_title = {
+				e_the_stormlands = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	claim_the_vale = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_vale = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_vale
+			}
+			has_ambition = obj_become_high_king_vale
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 20
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_vale
+			primary_title = {
+				e_the_vale = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	claim_the_westerlands = {
+		is_high_prio = yes
+		only_independent = yes
+		potential = {
+			NOT = { e_the_westerlands = { has_holder = yes } }
+			capital_scope = {
+				region = world_the_westerlands
+			}
+			has_ambition = obj_become_high_king_westerlands
+		}
+		allow = {
+			war = no
+			prisoner = no
+			realm_size = 20
+			prestige = 1250
+		}
+		effect = {
+			set_flag = claims_westerlands
+			primary_title = {
+				e_the_westerlands = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			tsk_high_kingdom_creation_effect = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	create_e_iron_throne = {
+		is_high_prio = yes
+		potential = {
+			OR = { 
+				has_landed_title = e_the_north
+				has_landed_title = e_the_riverlands
+				has_landed_title = e_the_vale
+				has_landed_title = e_the_iron_islands
+				has_landed_title = e_the_westerlands
+				has_landed_title = e_the_dusklands
+				has_landed_title = e_the_reach
+				has_landed_title = e_the_wynelands
+				has_landed_title = e_the_stormlands
+				has_landed_title = e_dorne
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+			AND = {
+				realm_size = 200
+				custom_tooltip = {
+					text = create_iron_throne_allow
+					hidden_tooltip = {
+						any_realm_title = {
+							count = 4
+							higher_tier_than = DUKE
+							OR = {
+								title = e_the_north
+								title = e_the_riverlands
+								title = e_the_vale
+								title = e_the_iron_islands
+								title = e_the_westerlands
+								title = e_the_dusklands
+								title = e_the_reach
+								title = e_the_stormlands
+								title = e_dorne
+								title = e_the_wynelands
+							}
+						}
+					}
+				}
+			}
+		}
+			
+		effect = {
+			primary_title = {
+				e_iron_throne = { 
+					gain_title = ROOT
+					hidden_tooltip = { copy_title_laws = PREV }
+				}
+			}
+			custom_tooltip = {
+				text = CUSTOM_CREATE_WESTEROS
+				hidden_tooltip = {
+					any_demesne_title = {
+						limit = {
+							OR = {
+								title = e_the_north
+								title = e_the_riverlands
+								title = e_the_vale
+								title = e_the_iron_islands
+								title = e_the_westerlands
+								title = e_the_dusklands
+								title = e_the_reach
+								title = e_the_stormlands
+								title = e_dorne
+								title = e_the_wynelands
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}		
+}

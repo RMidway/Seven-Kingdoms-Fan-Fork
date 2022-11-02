@@ -1,0 +1,21 @@
+# c_herefort
+
+# County Title
+title = c_herefort
+
+# Settlements
+max_settlements = 3
+
+b_herefort = castle
+b_bochestraat = city
+#b_milombois = temple
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = reachmen
+    religion = the_seven
+}

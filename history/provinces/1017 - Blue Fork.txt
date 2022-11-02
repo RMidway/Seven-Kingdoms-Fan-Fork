@@ -1,0 +1,23 @@
+# c_blue_fork
+
+# County Title
+title = c_blue_fork
+
+# Settlements
+max_settlements = 4
+
+b_blue_fork = castle
+#b_osfond = city
+#b_hecmanville = temple
+#b_blue_fork_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}
+

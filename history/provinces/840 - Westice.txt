@@ -1,0 +1,24 @@
+# c_westice
+
+# County Title
+title = c_westice
+
+# Settlements
+max_settlements = 3
+
+b_westice = castle
+#b_stojansi = city
+#b_westice_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = dusklander
+	religion = the_seven
+}
+6850.1.1 = {
+	culture = riverlander
+}

@@ -1,0 +1,21 @@
+# c_pentos_harbor
+
+# County Title
+title = c_pentos_harbor
+
+# Settlements
+max_settlements = 2
+
+b_pentos_harbor = city
+b_the_dragon_altar = temple
+#b_pentos_harbor_2 = temple
+#b_pentos_harbor_3 = castle
+#b_pentos_harbor_4 = city
+#b_pentos_harbor_5 = temple
+#b_pentos_harbor_6 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

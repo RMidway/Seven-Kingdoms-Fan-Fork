@@ -1,0 +1,2562 @@
+############
+# ID RANGE #
+# 400-599  #
+############
+
+#######################
+### House Lannister ###
+#######################
+
+400 = {
+    name = Tyrion
+    dynasty = 700 # Lannister
+    dna="cjadb0ia0b0"
+    properties="pc0kdk00000000"
+    religion = old_gods
+    father = 9600
+    culture = lannisterfm
+    martial = 6
+    trait = tough_soldier
+    trait = dueling_adept
+    trait = craven
+    trait = kind
+    trait = honest
+    trait = trusting
+    trait = charitable
+    6526.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6545.3.8 = {add_spouse=7100}
+    6596.1.1 = { death=yes }
+}
+
+401 = {
+    name = Gerold
+    dynasty = 700 # Lannister
+    father = 400
+    mother = 7100
+    dna="claeb0ja0b0"
+    properties="ph0k0k00000000"
+    religion = old_gods
+    culture = lannisterfm
+    stewardship = 6
+    intrigue = 5
+    
+    trait = midas_touched
+    trait = dueling_adept
+    trait = drunkard
+    trait = just
+    trait = cynical
+    trait = lustful
+    trait = diligent
+    trait = ambitious
+    
+    6546.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+	6562.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = shrewd
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = quick
+			}
+		}
+	}
+	6566.1.1 = {add_spouse=425} # Amarei Crakehall
+    6620.1.1 = { death=yes }
+}
+
+403 = {
+    name = Jaime
+    dynasty = 700 # Lannister
+    father = 400
+    mother = 7100
+    dna="cgced0kaeb0"
+    properties="pi0k0k00000000"
+    religion = old_gods
+    culture = westermen
+    martial = 5
+    trait = fair
+    trait = skilled_tactician
+    trait = dueling_expert
+    trait = lustful
+    trait = ambitious
+    trait = wroth
+    trait = zealous
+    trait = gluttonous
+    trait = arbitrary
+    6550.1.1 = { birth=yes }
+    6565.1.1 = { give_nickname=nick_the_red }
+    6620.1.1 = { death=yes }
+}
+
+404 = {
+    name = Joanna
+    dynasty = 700 # Lannister
+    father = 400
+    mother = 7100
+    female = yes
+    dna="cchgf0ja0b0"
+    properties="pl0k0k00000000"
+    religion = old_gods
+    culture = lannisterfm
+
+    6552.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6621.1.1 = { death=yes }
+}
+
+405 = {
+    name = Cersei
+    dynasty = 700 # Lannister
+    father = 400
+    mother = 7100
+    female = yes
+    dna="cc0gf0jaeb0"
+    properties="pb0k0k00000000"
+    religion = old_gods
+    culture = lannisterfm
+
+    6554.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6621.1.1 = { death=yes }
+}
+
+553 = {
+    name = Tyrek
+    dynasty = 700 # Lannister
+    religion = old_gods
+    father = 9600
+    culture = lannisterfm
+    
+    trait = dueling_adept
+    6540.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6609.1.1 = { death=yes }
+}
+
+
+####################
+### House Parren ###
+####################
+
+406 = {
+    name = Damon
+    dynasty = 701 # Parren
+    
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+407 = {
+    name = Ben
+    dynasty = 701 # Parren
+    father = 406
+    religion = old_gods
+    culture = westermen
+
+    6563.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+408 = {
+    name = Lysene
+    dynasty = 701 # Parren
+    father = 406
+    female = yes
+    religion = old_gods
+    culture = westermen
+
+    6564.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+###################
+### House Broom ###
+###################
+
+409 = {
+    name = Benedict
+    dynasty = 702 # Broom
+    
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+410 = {
+    name = Jason
+    dynasty = 702 # Broom
+    father = 409
+    religion = old_gods
+    culture = westermen
+	trait = dueling_skilled
+
+    6555.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+411 = {
+    name = Darlessa
+    dynasty = 702 # Broom
+    father = 409
+    female = yes
+    religion = old_gods
+    culture = westermen
+
+    6559.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+412 = {
+    name = Martyn
+    dynasty = 702 # Broom
+    father = 409
+    
+    religion = old_gods
+    culture = westermen
+
+    6561.1.1 = { birth=yes }
+    6631.1.1 = { death=yes }
+}
+
+#######################
+### House Greenmont ###
+#######################
+
+413 = {
+    name = Lancel
+    dynasty = 703 # Greenmont
+    
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+414 = {
+    name = Tytos
+    dynasty = 703 # Greenmont
+    father = 413 
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6626.1.1 = { death=yes }
+}
+
+415 = {
+    name = Kevan
+    dynasty = 703 # Greenmont
+    father = 413 
+    religion = old_gods
+    culture = cornmen
+
+    6559.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+416 = {
+    name = Genna
+    dynasty = 703 # Greenmont
+    father = 413 
+    female = yes
+    religion = old_gods
+    culture = cornmen
+
+    6562.1.1 = { birth=yes }
+    6631.1.1 = { death=yes }
+}
+
+#######################
+### House Hawthorne ###
+#######################
+
+417 = {
+    name = Harlow
+    dynasty = 704 # Hawthorne
+    
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6541.1.1 = { birth=yes }
+    6611.1.1 = { death=yes }
+}
+
+418 = {
+    name = Hal
+    dynasty = 704 # Hawthorne
+    father = 417
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_skilled
+
+    6557.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+419 = {
+    name = Willem
+    dynasty = 704 # Hawthorne
+    father = 417
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_novice
+
+    6560.1.1 = { birth=yes }
+    6635.1.1 = { death=yes }
+}
+
+420 = {
+    name = Myrcella
+    dynasty = 704 # Hawthorne
+    father = 417
+    female = yes
+    religion = old_gods
+    culture = cornmen
+
+    6563.1.1 = { birth=yes }
+    6635.1.1 = { death=yes }
+}
+
+#######################
+### House Crakehall ###
+#######################
+
+421 = {
+    name = Roland
+    dynasty = 705 # Crakehall
+    
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_expert
+	father = 16045
+    6531.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+422 = {
+    name = Tytos
+    dynasty = 705 # Crakehall
+    father = 421
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+423 = {
+    name = Tybolt
+    dynasty = 705 # Crakehall
+    father = 421
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6552.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+
+424 = {
+    name = Lyle
+    dynasty = 705 # Crakehall
+    father = 421
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_skilled
+
+    6555.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+
+425 = {
+    name = Amarei
+    dna="0jagb0hie00"
+    properties="df0p0b00000000"
+    dynasty = 705 # Crakehall
+    father = 421
+    female = yes
+    religion = old_gods
+    culture = cornmen
+	health = 10
+    6538.1.1 = { birth=yes }
+	6549.1.1 = {add_spouse=401} # Gerold Lannister
+    6621.1.1 = { death=yes }
+}
+
+#####################
+### House Falwell ###
+#####################
+
+
+426 = {
+    name = Gerion
+    dynasty = 706 # Falwell
+    
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_skilled
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+427 = {
+    name = Jon
+    dynasty = 706 # Falwell
+    father = 426
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6556.1.1 = { birth=yes }
+    6626.1.1 = { death=yes }
+}
+
+428 = {
+    name = Janei 
+    dynasty = 706 # Falwell
+    father = 426
+    female = yes
+    religion = old_gods
+    culture = cornmen
+
+    6560.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+########################
+### House Greenfield ###
+########################
+
+429 = {
+    name = Preston
+    dynasty = 707 # Greenfield
+    
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+430 = {
+    name = Preston
+    dynasty = 707 # Greenfield
+    father = 429
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+431 = {
+    name = Jane
+    dynasty = 707 # Greenfield
+    father = 429
+    female = yes
+    religion = old_gods
+    culture = cornmen
+
+    6560.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+#####################
+### House Lantell ###
+#####################
+
+432 = {
+    name = Eldon
+    dynasty = 708 # Lantell
+    
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6526.1.1 = { birth=yes }
+    6586.1.1 = { death=yes }
+}
+
+433 = {
+    name = Ethan
+    dynasty = 708 # Lantell
+    father = 432
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_expert
+
+    6546.1.1 = { birth=yes }
+    6626.1.1 = { death=yes }
+}
+
+434 = {
+    name = Ben
+    dynasty = 708 # Lantell
+    father = 432
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6549.1.1 = { birth=yes }
+    6626.1.1 = { death=yes }
+}
+
+435 = {
+    name = Olivia
+    dynasty = 708 # Lantell
+    father = 432
+    female = yes
+    religion = old_gods
+    culture = copperlander
+
+    6552.1.1 = { birth=yes }
+    6626.1.1 = { death=yes }
+}
+
+#####################
+### House Lannett ###
+#####################
+
+436 = {
+    name = Bryan
+    dynasty = 709 # Lannett
+    
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+437 = {
+    name = Tyrion
+    dynasty = 709 # Lannett
+    father = 436
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6623.1.1 = { death=yes }
+}
+
+438 = {
+    name = Cersei
+    dynasty = 709 # Lannett
+    father = 436
+    female = yes
+    religion = old_gods
+    culture = copperlander
+
+    6560.1.1 = { birth=yes }
+    6628.1.1 = { death=yes }
+}
+
+###################
+### House Lanny ###
+###################
+
+439 = {
+    name = Lann
+    dynasty = 710 # Lanny
+    
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+440 = {
+    name = Linn
+    dynasty = 710 # Lanny
+    father = 439 
+    female = yes
+    religion = old_gods
+    culture = copperlander
+
+    6564.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+441 = {
+    name = George
+    dynasty = 710 # Lanny
+    father = 439 
+    
+    religion = old_gods
+    culture = copperlander
+
+    6565.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+###################
+### House Swyft ###
+###################
+
+442 = {
+    name = Harys
+    dynasty = 711 # Swyft
+    
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+443 = {
+    name = Addison
+    dynasty = 711 # Swyft
+    father = 442
+    religion = old_gods
+    culture = cornmen
+
+    6562.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+444 = {
+    name = Dale
+    dynasty = 711 # Swyft
+    father = 442
+    religion = old_gods
+    culture = cornmen
+
+    6564.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+445 = {
+    name = Lyanne
+    dynasty = 711 # Swyft
+    father = 442
+    female = yes
+    religion = old_gods
+    culture = cornmen
+
+    6565.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+#####################
+### House Serrett ###
+#####################
+
+446 = {
+    name = Sam
+    dynasty = 712 # Serrett
+    
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+447 = {
+    name = Jon
+    dynasty = 712 # Serrett
+    father = 446
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6556.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+448 = {
+    name = Tywin
+    dynasty = 712 # Serrett
+    father = 446
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_novice
+
+    6559.1.1 = { birth=yes }
+    6628.1.1 = { death=yes }
+}
+
+449 = {
+    name = Sara
+    dynasty = 712 # Serrett
+    father = 446
+    female = yes
+    religion = old_gods
+    culture = copperlander
+
+    6562.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+####################
+### House Lydden ###
+####################
+
+450 = {
+    name = Landyll
+    dynasty = 713 # Lydden
+    father = 7103
+    religion = the_seven
+    culture = goldmen
+    martial = 8
+    trait = skilled_tactician
+    trait = dueling_master
+    trait = brave
+    trait = knight
+    trait = just
+    trait = zealous
+    trait = honest
+    trait = trusting
+
+    6536.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+451 = {
+    name = Beric
+    dynasty = 713 # Lydden
+    father = 450
+    religion = the_seven
+    culture = goldmen
+    trait = dueling_skilled
+    trait = squire
+    trait = strong
+
+    6556.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+452 = {
+    name = Jeyne
+    dynasty = 713 # Lydden
+    father = 450
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6559.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+453 = {
+    name = Castos
+    dynasty = 713 # Lydden
+    father = 450
+    
+    religion = the_seven
+    culture = goldmen
+
+    6562.1.1 = { birth=yes }
+    6635.1.1 = { death=yes }
+}
+
+###################
+### House Myatt ###
+###################
+
+454 = {
+    name = Marq
+    dynasty = 714 # Myatt
+    
+    religion = the_seven
+    culture = copperlander
+	trait = dueling_adept
+
+    6526.1.1 = { birth=yes }
+    6597.1.1 = { death=yes }
+}
+
+455 = {
+    name = Justin
+    dynasty = 714 # Myatt
+    father = 454 
+    religion = the_seven
+    culture = copperlander
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+456 = {
+    name = Joanna
+    dynasty = 714 # Myatt
+    father = 454 
+    female = yes
+    religion = the_seven
+    culture = copperlander
+
+    6550.1.1 = { birth=yes }
+    6619.1.1 = { death=yes }
+}
+
+##################
+### House Drox ###
+##################
+
+457 = {
+    name = Devan
+    dynasty = 715 # Drox
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+458 = {
+    name = Kevan
+    dynasty = 715 # Drox
+    father = 457
+    religion = the_seven
+    culture = goldmen
+
+    6564.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+459 = {
+    name = Peter
+    dynasty = 715 # Drox
+    father = 457
+    religion = the_seven
+    culture = goldmen
+
+    6565.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+460 = {
+    name = Cassia
+    dynasty = 715 # Drox
+    female = yes
+    father = 457
+    religion = the_seven
+    culture = goldmen
+
+    6566.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+###################
+### House Plumm ###
+###################
+
+461 = {
+    name = Ossifer
+    dynasty = 716 # Plumm
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6516.1.1 = { birth=yes }
+    6587.1.1 = { death=yes }
+}
+
+462 = {
+    name = Elaena
+    dynasty = 716 # Plumm
+    father = 461
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6542.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+463 = {
+    name = Dennis
+    dynasty = 716 # Plumm
+    father = 461
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6544.1.1 = { birth=yes }
+    6616.1.1 = { death=yes }
+}
+
+464 = {
+    name = Philip
+    dynasty = 716 # Plumm
+    father = 461
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+#######################
+### House Turnberry ###
+#######################
+
+465 = {
+    name = Lambert
+    dynasty = 717 # Turnberry
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6616.1.1 = { death=yes }
+}
+
+466 = {
+    name = Tyrion
+    dynasty = 717 # Turnberry
+    father = 465
+    religion = the_seven
+    culture = goldmen
+
+    6565.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+467 = {
+    name = Genna
+    dynasty = 717 # Turnberry
+    father = 465
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6566.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+##################
+### House Brax ###
+##################
+
+468 = {
+    name = Tytos
+    dynasty = 718 # Brax
+    father = 16035
+    religion = the_seven
+    culture = goldmen
+    trait = dueling_skilled
+    martial = 7
+    trait = brave
+    trait = diligent
+    trait = honest
+    trait = humble
+    trait = charitable
+    trait = tough_soldier
+    trait = knight
+    6536.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+469 = {
+    name = Flement
+    dynasty = 718 # Brax
+    father = 468
+    religion = the_seven
+    culture = goldmen
+    trait = dueling_adept
+    trait = squire
+    trait = tall
+    6552.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+470 = {
+    name = Andros
+    dynasty = 718 # Brax
+    father = 468
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6553.1.1 = { birth=yes }
+    6624.1.1 = { death=yes }
+}
+
+471 = {
+    name = Jeyne
+    dynasty = 718 # Brax
+    father = 468
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6555.1.1 = { birth=yes }
+    6624.1.1 = { death=yes }
+}
+
+#####################
+### House Sarwyck ###
+#####################
+
+472 = {
+    name = Raynald
+    dynasty = 719 # Sarwyck
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6526.1.1 = { birth=yes }
+    6598.1.1 = { death=yes }
+}
+
+473 = {
+    name = Alester
+    dynasty = 719 # Sarwyck
+    father = 472
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+474 = {
+    name = Gawen
+    dynasty = 719 # Sarwyck
+    father = 472
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+475 = {
+    name = Elyana
+    dynasty = 719 # Sarwyck
+    father = 472
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6551.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+####################
+### House Estren ###
+####################
+
+476 = {
+    name = Regenard
+    dynasty = 720 # Estren
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6533.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+477 = {
+    name = Rayland
+    dynasty = 720 # Estren
+    father = 476
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6549.1.1 = { birth=yes }
+    6619.1.1 = { death=yes }
+}
+
+478 = {
+    name = Ronda
+    dynasty = 720 # Estren
+    father = 476
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6550.1.1 = { birth=yes }
+    6623.1.1 = { death=yes }
+}
+
+####################
+### House Algood ###
+####################
+
+479 = {
+    name = Al
+    dynasty = 721 # Algood
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+480 = {
+    name = Myrcella
+    father = 479
+    female = yes
+    dynasty = 721 # Algood
+    religion = the_seven
+    culture = goldmen
+
+    6564.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+481 = {
+    name = Michael
+    father = 479
+   
+    dynasty = 721 # Algood
+    religion = the_seven
+    culture = goldmen
+
+    6565.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+#######################
+### House Peckledon ###
+#######################
+
+482 = {
+    name = Josmyn
+    dynasty = 722 # Peckledon
+    father = 483
+    religion = the_seven
+    culture = riverlander
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+483 = {
+    name = Robert
+    dynasty = 722 # Peckledon
+    religion = the_seven
+    culture = riverlander
+	trait = dueling_adept
+
+    6498.1.1 = { birth=yes }
+    6566.1.1 = { death=yes }
+}
+
+484 = {
+    name = Jason
+    dynasty = 722 # Peckledon
+    father = 483
+    religion = the_seven
+    culture = riverlander
+	trait = dueling_adept
+
+    6552.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+###################
+### House Payne ###
+###################
+
+485 = {
+    name = Ilyn
+    dynasty = 723 # Payne
+    
+    religion = the_seven
+    culture = reachmen
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+486 = {
+    name = Podrick
+    dynasty = 723 # Payne
+    father = 485
+    religion = the_seven
+    culture = reachmen
+	trait = dueling_adept
+
+    6552.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+487 = {
+    name = Elsa
+    dynasty = 723 # Payne
+    father = 485
+    female = yes
+    religion = the_seven
+    culture = reachmen
+
+    6554.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+488 = {
+    name = Gregor
+    dynasty = 723 # Payne
+    father = 485
+    
+    religion = the_seven
+    culture = reachmen
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6624.1.1 = { death=yes }
+}
+
+####################
+### House Ferren ###
+####################
+
+489 = {
+    name = Frank
+    dynasty = 724 # Ferren
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+490 = {
+    name = Roger
+    dynasty = 724 # Ferren
+    father = 489
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6556.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+491 = {
+    name = Pate
+    dynasty = 724 # Ferren
+    father = 489
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_novice
+
+    6556.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+#####################
+### House Lefford ###
+#####################
+
+492 = {
+    name = Leo
+    dynasty = 725 # Lefford
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6526.1.1 = { birth=yes }
+    6596.1.1 = { death=yes }
+}
+
+493 = {
+    name = Lancel
+    dynasty = 725 # Lefford
+    father = 492
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6619.1.1 = { death=yes }
+}
+
+494 = {
+    name = Loren
+    dynasty = 725 # Lefford
+    father = 492
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6548.1.1 = { birth=yes }
+    6623.1.1 = { death=yes }
+}
+
+495 = {
+    name = Alysanne
+    dynasty = 725 # Lefford
+    father = 492
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6550.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+###################
+### House Lorch ###
+###################
+
+496 = {
+    name = Amory
+    dynasty = 726 # Lorch
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_expert
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+497 = {
+    name = Samuel
+    dynasty = 726 # Lorch
+    father = 496
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+498 = {
+    name = Lyanna
+    dynasty = 726 # Lorch
+    father = 496
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6558.1.1 = { birth=yes }
+    6623.1.1 = { death=yes }
+}
+
+######################
+### House Marbrand ###
+######################
+
+499 = {
+    name = Addam
+    dynasty = 727 # Marbrand
+    
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6526.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+500 = {
+    name = Damon
+    dynasty = 727 # Marbrand
+    father = 499
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6544.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+501 = {
+    name = Marq
+    dynasty = 727 # Marbrand
+    father = 499
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+502 = {
+    name = Lorent
+    dynasty = 727 # Marbrand
+    father = 499
+    religion = the_seven
+    culture = goldmen
+	trait = dueling_adept
+
+    6548.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+503 = {
+    name = Darlessa
+    dynasty = 727 # Marbrand
+    father = 499
+    female = yes
+    religion = the_seven
+    culture = goldmen
+
+    6550.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+########################
+### House Westerling ###
+########################
+
+504 = {
+    name = Harrold
+    dynasty = 728 # Westerling
+    
+    religion = old_gods
+    culture = craggon
+	trait = dueling_expert
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+505 = {
+    name = Jeyne
+    dynasty = 728 # Westerling
+    father = 504
+    female = yes
+    religion = old_gods
+    culture = craggon
+
+    6555.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+506 = {
+    name = Roland
+    dynasty = 728 # Westerling
+    father = 504
+   
+    religion = old_gods
+    culture = craggon
+	trait = dueling_skilled
+
+    6557.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+507 = {
+    name = Rollam
+    dynasty = 728 # Westerling
+    father = 504
+   
+    religion = old_gods
+    culture = craggon
+	trait = dueling_novice
+
+    6559.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+508 = {
+    name = Gawen
+    dynasty = 728 # Westerling
+    father = 504
+   
+    religion = old_gods
+    culture = craggon 
+
+    6561.1.1 = { birth=yes }
+    6633.1.1 = { death=yes }
+}
+
+509 = {
+    name = Elys
+    dynasty = 728 # Westerling
+    father = 504
+   
+    religion = old_gods
+    culture = craggon
+
+    6563.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+######################
+### House Banefort ###
+######################
+
+510 = {
+    name = Dunaver
+    dynasty = 729 # Banefort
+    father = 7114
+    religion = old_gods
+    culture = craggon
+    trait = strong
+    trait = skilled_tactician
+    trait = dueling_adept
+    martial = 6
+    trait = brave
+    trait = ambitious
+    trait = zealous
+    trait = diligent
+    trait = just
+    6546.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+511 = {
+    name = Quenten
+    dynasty = 729 # Banefort
+    father = 510
+    religion = old_gods
+    culture = craggon
+
+    6563.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+512 = {
+    name = Melara
+    dynasty = 729 # Banefort
+    father = 510
+    female = yes
+    religion = old_gods
+    culture = craggon
+
+    6564.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+513 = {
+    name = Amory
+    dynasty = 729 # Banefort
+    father = 510
+    
+    religion = old_gods
+    culture = craggon
+
+    6565.1.1 = { birth=yes }
+    6635.1.1 = { death=yes }
+}
+
+###################
+### House Reyne ###
+###################
+
+514 = {
+    name = Roger
+    dynasty = 730 # Reyne
+    father = 5318
+    dna="ccfgf0haeb0"
+    properties="pd0kbk00000000"
+    religion = old_gods
+    culture = westermen
+    martial = 6
+    trait = skilled_tactician
+    trait = brave
+    trait = just
+    trait = zealous
+    trait = diligent
+    trait = patient
+    trait = dueling_expert
+    6531.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+515 = {
+    name = Robert
+    dynasty = 730 # Reyne
+    father = 514
+    dna="ccfgf00aeb0"
+    properties="pm0kck00000000"
+    religion = old_gods
+    culture = westermen
+    martial = 7
+    trait = dueling_master
+    trait = tough_soldier
+    trait = brave
+    trait = kind
+    trait = honourable
+    trait = trusting
+    trait = zealous
+    trait = patient
+
+    6547.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+
+
+517 = {
+    name = Robb
+    dynasty = 730 # Reyne
+    father = 514
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+    6549.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+518 = {
+    name = Ellyn
+    dynasty = 730 # Reyne
+    father = 514
+    female = yes
+    religion = old_gods
+    culture = westermen
+
+    6550.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+#####################
+### House Tarbeck ###
+#####################
+
+519 = {
+    name = Alyn
+    dynasty = 731 # Tarbeck
+    
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6541.1.1 = { birth=yes }
+    6608.1.1 = { death=yes }
+}
+
+520 = {
+    name = Devan
+    dynasty = 731 # Tarbeck
+    father = 519
+    religion = old_gods
+    culture = westermen
+
+    6561.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+521 = {
+    name = Tion
+    dynasty = 731 # Tarbeck
+    father = 519
+    religion = old_gods
+    culture = westermen
+
+    6562.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+522 = {
+    name = Joanna
+    dynasty = 731 # Tarbeck
+    father = 519
+    female = yes
+    religion = old_gods
+    culture = westermen
+
+    6563.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+######################
+### House Moreland ###
+######################
+
+523 = {
+    name = Martyn
+    dynasty = 732 # Moreland
+    
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_adept
+
+    6526.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+524 = {
+    name = Martyn
+    dynasty = 732 # Moreland
+    father = 523
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+525 = {
+    name = Ronda
+    dynasty = 732 # Moreland
+    father = 523
+    female = yes
+    religion = the_seven
+    culture = westerlander
+
+    6548.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+526 = {
+    name = James
+    dynasty = 732 # Moreland
+    father = 523
+    
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+########################
+### House Stackspear ###
+########################
+
+527 = {
+    name = Samwell
+    dynasty = 733 # Stackspear
+    
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+528 = {
+    name = Lancel
+    dynasty = 733 # Stackspear
+    father = 527
+    religion = the_seven
+    culture = westerlander
+
+    6565.1.1 = { birth=yes }
+    6631.1.1 = { death=yes }
+}
+
+529 = {
+    name = Tyrion
+    dynasty = 733 # Stackspear
+    father = 527
+    religion = the_seven
+    culture = westerlander
+
+    6566.1.1 = { birth=yes }
+    6635.1.1 = { death=yes }
+}
+
+##################
+### House Jast ###
+##################
+
+530 = {
+    name = Antario
+    dynasty = 734 # Jast
+    
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+531 = {
+    name = Jason
+    dynasty = 734 # Jast
+    father = 530
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+532 = {
+    name = Tytos
+    dynasty = 734 # Jast
+    father = 530
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_novice
+
+    6559.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+533 = {
+    name = Joanna
+    dynasty = 734 # Jast
+    father = 530
+    female = yes
+    religion = the_seven
+    culture = westerlander
+
+    6560.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+#######################
+### House Sarsfield ###
+#######################
+
+534 = {
+    name = Sandor
+    dynasty = 735 # Sarsfield
+    
+    religion = the_seven
+    culture = westerlander
+	trait = dueling_adept
+
+    6546.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+535 = {
+    name = Gregor
+    dynasty = 735 # Sarsfield
+    father = 534
+    religion = the_seven
+    culture = westerlander
+
+    6565.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+536 = {
+    name = Alysanne
+    dynasty = 735 # Sarsfield
+    father = 534
+    female = yes
+    religion = the_seven
+    culture = westerlander
+
+    6566.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+#####################
+### House Prester ###
+#####################
+
+537 = {
+    name = Dontos	
+    dynasty = 736 # Prester
+    
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6534.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+538 = {
+    name = Lancel	
+    dynasty = 736 # Prester
+    father = 537
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+539 = {
+    name = Gerion	
+    dynasty = 736 # Prester
+    father = 537
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6551.1.1 = { birth=yes }
+    6619.1.1 = { death=yes }
+}
+
+540 = {
+    name = Forley
+    dynasty = 736 # Prester
+    father = 537
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6553.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+#####################
+### House Kenning ###
+#####################
+
+541 = {
+    name = Kennos	
+    dynasty = 737 # Kenning
+    
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6536.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+542 = {
+    name = Harrock	
+    dynasty = 737 # Kenning
+    father = 541
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+7125 = {
+    name = Ken	
+    dynasty = 737 # Kenning
+    father = 541
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_skilled
+
+    6558.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+7126 = {
+    name = Lyanne
+    dynasty = 737 # Kenning
+    father = 541
+    female = yes
+    religion = old_gods
+    culture = fairmen
+
+    6560.1.1 = { birth=yes }
+    6627.1.1 = { death=yes }
+}
+
+####################
+### House Farman ###
+####################
+
+543 = {
+    name = Gylbert	
+    dynasty = 738 # Farman
+    father = 7118
+    trait = fair
+    trait = grey_eminence
+    trait = dueling_adept
+    diplomacy = 6
+    trait = honest
+    trait = trusting
+    trait = kind
+    trait = diligent
+  
+    trait = humble
+    religion = old_gods
+    culture = fairmen
+
+    6546.1.1 = { birth=yes }
+    6616.1.1 = { death=yes }
+}
+
+544 = {
+    name = Gyles	
+    dynasty = 738 # Farman
+    father = 543
+    religion = old_gods
+    culture = fairmen
+
+    6563.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+545 = {
+    name = Lyles	
+    dynasty = 738 # Farman
+    father = 543
+    religion = old_gods
+    culture = fairmen
+
+    6565.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+546 = {
+    name = Arianne	
+    dynasty = 738 # Farman
+    father = 543
+    female = yes
+    religion = old_gods
+    culture = fairmen
+
+    6566.1.1 = { birth=yes }
+    6636.1.1 = { death=yes }
+}
+
+###################
+### House Foote ###
+###################
+
+547 = {
+    name = Philip	
+    dynasty = 739 # Foote
+    
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6531.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+548 = {
+    name = Daven	
+    dynasty = 739 # Foote
+    father = 547
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6547.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+549 = {
+    name = Jaime	
+    dynasty = 739 # Foote
+    father = 547
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6549.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+
+550 = {
+    name = Percy	
+    dynasty = 739 # Foote
+    father = 547
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6551.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+551 = {
+    name = Mya	
+    dynasty = 739 # Foote
+    father = 547
+    female = yes
+    religion = old_gods
+    culture = fairmen
+
+    6552.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}
+
+#################
+### House Dox ###
+#################
+
+556 = {
+    name = Parry	
+    dynasty = 741 # Dox
+    religion = old_gods
+    culture = fairmen
+    stewardship = 9
+    diplomacy = 8
+    intrigue = 9
+    trait = quick
+    trait = midas_touched
+	trait = dueling_adept
+    trait = temperate
+    trait = just
+    trait = diligent
+    trait = deceitful
+    trait = cynical
+    trait = ambitious
+    trait = ugly
+    6544.1.1 = { birth=yes }
+    6563.1.1 = { give_nickname=nick_the_lobster }
+    6617.1.1 = { death=yes }
+}
+
+######################
+### House Manuhill ###
+######################
+
+557 = {
+    name = Manning	
+    dynasty = 742 
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6540.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+558 = {
+    name = Manning	
+    dynasty = 742 
+    father = 557
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_skilled
+
+    6556.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+##################
+### House Fare ###
+##################
+
+559 = {
+    name = Lane	
+    dynasty = 743
+    religion = old_gods
+    culture = fairmen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+##################
+### House Wake ###
+##################
+
+560 = {
+    name = Wilam
+    dynasty = 744
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+######################
+### House Hasticks ###
+######################
+
+561 = {
+    name = Harry
+    dynasty = 745
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+##################
+### House Myne ###
+##################
+
+562 = {
+    name = Myles
+    dynasty = 746
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+#######################
+### House Goldfolly ###
+#######################
+
+563 = {
+    name = Gerion
+    dynasty = 747
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+########################
+### House Bronzecage ###
+########################
+
+564 = {
+    name = Gerion
+    dynasty = 748
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+#######################
+### House Copperman ###
+#######################
+
+565 = {
+    name = Cerion
+    dynasty = 749
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+####################
+### House Harlow ###
+####################
+
+566 = {
+    name = Halys
+    dynasty = 750
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+####################
+### House Basing ###
+####################
+
+567 = {
+    name = Ben
+    dynasty = 751
+    religion = old_gods
+    culture = cornmen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+#####################
+### House Norwich ###
+#####################
+
+568 = {
+    name = Tyrek
+    dynasty = 752
+    religion = old_gods
+    culture = westermen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+#########################
+### House Ironbreaker ###
+#########################
+
+569 = {
+    name = Iain
+    dynasty = 753
+    religion = old_gods
+    culture = craggon
+	trait = dueling_adept
+    
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+##################
+### House Wynd ###
+##################
+
+570 = {
+    name = Wyles
+    dynasty = 754
+    religion = old_gods
+    culture = craggon
+    trait = dueling_adept
+	
+    6550.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+##################
+### House Copperfield ###
+##################
+
+571 = {
+    name = Corlos
+    dynasty = 755
+    religion = old_gods
+    culture = copperlander
+	trait = dueling_adept
+    
+    6545.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+#####################################
+### House Lannister of Lannisport ###
+#####################################
+
+572 = {
+    name = Theodore
+    dynasty = 756 # Lannister of Lannisport
+    dna="cjadb0ia0b0"
+    religion = old_gods
+    father = 583
+    culture = lannisterfm
+
+    trait = dueling_novice
+    6508.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6572.1.1 = { death=yes }
+}
+
+573 = {
+    name = Jaime
+    dynasty = 756 # Lannister of Lannisport
+   
+    religion = old_gods
+    father = 572
+    culture = westermen
+
+    trait = dueling_skilled
+    6532.1.1 = { birth=yes } 
+    6593.1.1 = { death=yes }
+}
+
+574 = {
+    name = Kevan
+    dynasty = 756 # Lannister of Lannisport
+    
+    religion = old_gods
+    father = 572
+    culture = westermen
+
+    trait = dueling_skilled
+    6534.1.1 = { birth=yes } 
+    6591.1.1 = { death=yes }
+}
+
+575 = {
+    name = Rosamund
+    dynasty = 756 # Lannister of Lannisport
+    dna="cchgf0ja0b0"
+    properties="pl0k0k00000000"
+    religion = old_gods
+    father = 572
+    culture = westermen
+    trait = fair
+
+    female = yes
+    6536.1.1 = { birth=yes } 
+    6597.1.1 = { death=yes }
+}
+
+576 = {
+    name = Ethan
+    dynasty = 756 # Lannister of Lannisport
+  
+    religion = old_gods
+    father = 572
+    culture = westermen
+    trait = fair
+
+    trait = dueling_master
+    6538.1.1 = { birth=yes } 
+    6597.1.1 = { death=yes }
+}
+
+577 = {
+    name = Myrcella
+    dynasty = 756 # Lannister of Lannisport
+   
+    religion = old_gods
+    father = 573
+    culture = westermen
+
+    female = yes
+    6550.1.1 = { birth=yes } 
+    6612.1.1 = { death=yes }
+}
+578 = {
+    name = Lyanna
+    dynasty = 756 # Lannister of Lannisport
+   
+    religion = old_gods
+    father = 573
+    culture = westermen
+
+    female = yes
+    6552.1.1 = { birth=yes } 
+    6612.1.1 = { death=yes }
+}
+579 = {
+    name = Tywin
+    dynasty = 756 # Lannister of Lannisport
+   
+    religion = old_gods
+    father = 573
+    culture = westermen
+
+    trait = dueling_adept
+    6556.1.1 = { birth=yes } 
+    6612.1.1 = { death=yes }
+}
+580 = {
+    name = Damon
+    dynasty = 756 # Lannister of Lannisport
+    
+    religion = old_gods
+    father = 574
+    culture = westermen
+
+    trait = dueling_skilled
+    6554.1.1 = { birth=yes } 
+    6612.1.1 = { death=yes }
+}
+581 = {
+    name = Tygett
+    dynasty = 756 # Lannister of Lannisport
+    
+    religion = old_gods
+    father = 574
+    culture = westermen
+
+    trait = dueling_adept
+    trait = twin
+    6556.1.1 = { birth=yes } 
+    6612.1.1 = { death=yes }
+}
+582 = {
+    name = Mira
+    dynasty = 756 # Lannister of Lannisport
+    
+    religion = old_gods
+    father = 574
+    culture = westermen
+
+    female = yes
+    trait = twin
+    6556.1.1 = { birth=yes } 
+    6612.1.1 = { death=yes }
+}
+
+583 = {
+    name = Josua # THE LORDS FATHER
+    dynasty = 756 # Lannister of Lannisport
+    dna="cjadb0ia0b0"
+    religion = old_gods
+    father = 584
+    culture = lannisterfm
+
+    trait = dueling_novice
+    6480.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6530.1.1 = { death=yes }
+}
+
+584 = {
+    name = "Line of" 
+    dynasty = 756 # Lannister of Lannisport
+    dna="cjadb0ia0b0"
+    religion = old_gods
+    father = 9606
+    culture = lannisterfm
+    occluded = yes
+    trait = dueling_novice
+    200.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = westermen
+		}
+	}
+    6480.1.1 = { death=yes }
+}

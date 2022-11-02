@@ -1,0 +1,28 @@
+# c_olivegrove
+
+# County Title
+title = c_olivegrove
+
+# Settlements
+max_settlements = 3
+
+b_olivegrove = castle
+#b_sweetoil = city
+#b_olivegrove_2 = temple
+#b_olivegrove_3 = castle
+#b_olivegrove_4 = city
+#b_olivegrove_5 = temple
+#b_olivegrove_6 = castle
+
+# Misc
+culture = spearmen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7298.1.1 = {
+	culture = salt_dornish
+}

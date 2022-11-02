@@ -1,0 +1,230 @@
+#### Combat Education ####
+# Original concept by Godman, rewritten from the ground up by Rowan.
+
+namespace = TSK_C_EDU
+
+character_event = {
+    id = TSK_C_EDU.1
+    desc = EVTDESC_TSK_C_EDU.1
+    picture = "GFX_evt_child_play"
+    
+    min_age = 8
+    max_age = 16
+    capable_only = yes
+    prisoner = no
+    
+    trigger = {
+        educator_is_combat_trained = yes
+        OR = {
+            is_female = no
+            ward_is_female_allowed = yes
+        }
+        # Blockers. If you're the same skill as your educator, you cannot progress.
+        NOR = {
+            is_educator_and_ward_legend = yes
+            is_educator_and_ward_master = yes
+            is_educator_and_ward_expert = yes
+            is_educator_and_ward_skilled = yes
+            is_educator_and_ward_adept = yes
+            is_educator_and_ward_novice = yes
+        }
+        NOT = {
+            trait = dueling_legend
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 30
+        
+        # Educator influence
+        modifier = {
+            factor = 0.8
+            educator = {
+                trait = dueling_legend
+            }
+        }
+        modifier = {
+            factor = 0.8
+            educator = {
+                is_culture_swordsmanship_specialised = yes
+            }
+        }
+        modifier = {
+            factor = 0.85
+            educator = {
+                trait = dueling_master
+            }
+        }
+        modifier = {
+            factor = 0.9
+            educator = {
+                trait = dueling_expert
+            }
+        }
+        modifier = {
+            factor = 0.9
+            educator = {
+                has_education_martial_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 0.9
+            educator = {
+                is_knightly_member_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 0.9
+            educator = {
+                is_culture_swordsmanship_favoured = yes
+            }
+        }
+        modifier = {
+            factor = 0.95
+            educator = {
+                is_trustworthy_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 1.1
+            educator = {
+                has_council_position_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 1.1
+            educator = {
+                trait = dueling_skilled
+            }
+        }
+        modifier = {
+            factor = 1.3
+            educator = {
+                trait = dueling_adept
+            }
+        }
+        modifier = {
+            factor = 1.5
+            educator = {
+                trait = dueling_novice
+            }
+        }
+        
+        # Ward influence
+        modifier = {
+            factor = 0.7
+            is_strong_trigger = yes
+        }
+        modifier = {
+            factor = 0.8
+            OR = {
+                has_evil_trait_trigger = yes
+                has_unpleasant_trait_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 0.8
+            child_personality_martial_trigger = yes
+        }
+        modifier = {
+            factor = 0.8
+            self_serving_trigger = yes
+        }
+        modifier = {
+            factor = 0.8
+            is_smart_trigger = yes
+        }
+        modifier = {
+            factor = 0.8
+            is_culture_swordsmanship_specialised = yes
+        }
+        modifier = {
+            factor = 0.9
+            OR = {
+                child_personality_stewardship_trigger = yes
+                child_personality_intrigue_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 0.9
+            has_virtue_trigger = yes
+        }
+        modifier = {
+            factor = 0.9
+            has_attractive_trait_trigger = yes
+        }
+        modifier = {
+            factor = 0.90
+            is_culture_swordsmanship_favoured = yes
+        }
+        modifier = {
+            factor = 1.1
+            has_pleasant_trait_trigger = yes
+        }
+        modifier = {
+            factor = 1.1
+            has_pious_trait_trigger = yes
+        }
+        modifier = {
+            factor = 1.2
+            character_is_irrational = yes
+        }
+        modifier = {
+            factor = 1.2
+            is_weak_trigger = yes
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                is_dumb_trigger = yes
+                has_mental_disorder_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 2.0
+            OR = {
+                has_injury_trigger = yes
+                has_minor_disability_trigger = yes
+            }
+        }
+        modifier = {
+            factor = 2.0
+            has_symptom_trigger = yes
+        }
+        modifier = {
+            factor = 3.0
+            has_disease_trigger = yes
+        }
+        modifier = {
+            factor = 3.5
+            OR = {
+                is_maimed_trigger = yes
+                has_severe_disability_trigger = yes
+                has_medium_disability_trigger = yes
+            }
+        }
+    }
+    
+    option = {
+        name = EVTOPTA_TSK_C_EDU.1
+        
+        educator = {
+            character_event = { id = TSK_C_EDU.2 }
+        }
+        
+        train_combat_skill = yes
+    }
+}
+
+## Educator Notification ##
+character_event = {
+    id = TSK_C_EDU.2
+    desc = EVTDESC_TSK_C_EDU.2
+    picture = "GFX_evt_child_play"
+    
+    is_triggered_only = yes
+    
+    option = { 
+        name = EVTOPTA_TSK_C_EDU.2
+    }
+}

@@ -1,0 +1,24 @@
+# c_crowcoast
+
+# County Title
+title = c_crowcoast
+
+# Settlements
+max_settlements = 3
+
+b_crowcoast = castle
+#b_unterransbach = city
+#b_crowcoast_2 = temple
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = farmlands
+#History
+6200.1.1 = {
+	culture = rainlander
+}
+6500.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

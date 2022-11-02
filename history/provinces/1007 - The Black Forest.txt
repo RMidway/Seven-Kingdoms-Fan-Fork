@@ -1,0 +1,21 @@
+# c_the_black_forest
+
+# County Title
+title = c_the_black_forest
+
+# Settlements
+max_settlements = 2
+
+b_the_black_forest = castle
+#b_the_black_forest_2 = city
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}
+

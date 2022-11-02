@@ -1,0 +1,27 @@
+# c_gates_of_the_moon
+
+# County Title
+title = c_gates_of_the_moon
+
+# Settlements
+max_settlements = 6
+
+b_gates_of_the_moon = castle
+b_waldfeld = city
+b_glend = city
+#b_brittnau = castle
+#b_sully = city
+#b_scola = temple
+
+# Misc
+culture = gatesmen
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+
+}
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

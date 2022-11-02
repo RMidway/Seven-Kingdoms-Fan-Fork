@@ -1,0 +1,20 @@
+# c_sunnyvale
+
+# County Title
+title = c_sunnyvale
+
+# Settlements
+max_settlements = 3
+
+b_sunnyvale = castle
+b_sunny_temple = temple
+#b_sunnyvale_2 = temple
+
+# Misc
+culture = sistermen
+religion = lady_of_the_waves
+terrain = hills
+#History
+7000.1.1 = {
+	religion = the_seven
+}

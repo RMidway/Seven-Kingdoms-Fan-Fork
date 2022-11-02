@@ -1,0 +1,104 @@
+namespace = administration_main
+
+##############################
+##### MODIFIER REFERENCE #####
+##############################
+##############################
+
+# wrong_duchy_administration
+## Wrong Duchy Administration serves to nerf taking of counties outside of duchies you
+## personally own by giving them a large debuff to tax income, levy size and bolstering
+## revolt risk in said province.
+
+# administration_main.1 -- Main event, assigns modifier
+# administration_main.2 -- Cleanup, removes modifier
+
+# should probably merge the NOT blocks, keeping as is right now however due to readability.
+
+#################
+### THE EVENT ###
+#################
+#################
+
+province_event = { 
+    id = administration_main.1
+    hide_window = yes
+    
+    is_triggered_only = yes
+
+    trigger = {
+        # AI should not be given this penalty, as AI won't be able to deal with it.
+        owner = { ai = yes }
+
+        # Make sure we don't have the modifier already
+        NOT = {
+            has_province_modifier = wrong_duchy_administration
+        }
+        
+        NOT = { # NO
+            owner = { # Owner of Province
+                ROOT = { # province
+                    duchy = { # parent duchy
+                        holder_scope = { # holder of parent duchy
+                            character = PREVPREVPREV # is owner of province
+                        }
+                    }
+                }
+            }
+        }
+        
+        NOT = {
+            owner = {
+                primary_title = {
+                    OR = {
+                        tier = COUNT
+                        tier = DUKE
+                    }
+                }
+            }
+        }
+    }
+    
+    immediate = {
+        add_province_modifier = { name = wrong_duchy_administration duration = -1 }
+    }
+}
+
+province_event = { 
+    id = administration_main.2
+    hide_window = yes
+    
+    is_triggered_only = yes
+
+    trigger = {
+        # Make sure we have the modifier
+        has_province_modifier = wrong_duchy_administration
+
+        OR = {
+            owner = { # Owner of Province
+                ROOT = { # province
+                    duchy = { # parent duchy
+                        holder_scope = { # holder of parent duchy
+                            character = PREVPREVPREV # is owner of province
+                        }
+                    }
+                }
+            }
+            owner = {
+                primary_title = {
+                    OR = {
+                        tier = COUNT
+                        tier = DUKE
+                    }
+                }
+            }
+            # AI should not be given this penalty, as AI won't be able to deal with it.
+			owner = { ai = yes }
+        }
+
+    }
+
+    immediate = {
+        remove_province_modifier = wrong_duchy_administration
+    }
+}

@@ -1,0 +1,25 @@
+# c_southend
+
+# County Title
+title = c_southend
+
+# Settlements
+max_settlements = 4
+
+b_southend = castle
+#b_faix = city
+#b_montagudet = temple
+#b_southend_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}
+6800.1.1 = {
+	culture = blackwatermen
+}

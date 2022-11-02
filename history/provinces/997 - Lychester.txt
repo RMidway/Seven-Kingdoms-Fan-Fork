@@ -1,0 +1,21 @@
+# c_lychester
+
+# County Title
+title = c_lychester
+
+# Settlements
+max_settlements = 3
+
+b_lychester = castle
+b_morlange = city
+#b_lychester_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

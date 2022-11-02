@@ -1,0 +1,24 @@
+# c_passwalk
+
+# County Title
+title = c_passwalk
+
+# Settlements
+max_settlements = 3
+
+b_passwalk = castle
+#b_passhofen = city
+#b_passwalk_2 = temple
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = hills
+#History
+6400.1.1 = {
+	culture = stormmen
+}
+6900.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

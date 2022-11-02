@@ -1,0 +1,21 @@
+# c_piskovi
+
+# County Title
+title = c_piskovi
+
+# Settlements
+max_settlements = 7
+
+b_piskovi = castle
+#b_piskovi_2 = city
+#b_piskovi_3 = temple
+#b_piskovi_4 = castle
+#b_piskovi_5 = city
+#b_piskovi_6 = temple
+#b_piskovi_7 = castle
+
+# Misc
+culture = lorathi
+religion = bearded_priests
+terrain = farmlands
+#History

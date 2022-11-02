@@ -1,0 +1,24 @@
+# c_waterperry
+
+# County Title
+title = c_waterperry
+
+# Settlements
+max_settlements = 6
+
+b_waterperry = castle
+b_gornewitz = city
+b_lassentin = temple
+b_gortz = castle
+#b_kleinbuch = city
+#b_waterperry_2 = temple
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

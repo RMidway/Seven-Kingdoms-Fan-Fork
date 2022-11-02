@@ -1,0 +1,42 @@
+# Couple of Test Characters.
+# Feel Free to add yourself, or an easter egg character of your own creation ;D
+
+############
+# ID RANGE #
+# 0-2      #
+############
+
+# AND / OR
+
+#############
+# ID RANGE  #
+#    TBD    #
+#############
+
+# Added by Rowan / N0body
+1 = {
+    name=Frodo # SETUP Events called through him
+    dynasty=9000
+  
+    religion=old_gods
+    culture=manderish
+  
+    6546.01.15 = { birth=yes }
+    6620.09.09 = { death=yes }
+}
+
+# Added by Vierwood
+2 = {
+    name=Jack
+    dynasty=9001
+    trait=duelist
+    trait=drunkard
+    trait=genius
+    religion=lady_of_the_rocks
+    culture=pirate
+  
+    6546.01.15 = { birth=yes }
+    6620.09.09 = { death=yes }
+}
+
+

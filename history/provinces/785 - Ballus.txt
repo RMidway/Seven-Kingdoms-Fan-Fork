@@ -1,0 +1,24 @@
+# c_ballus
+
+# County Title
+title = c_ballus
+
+# Settlements
+max_settlements = 4
+
+b_ballus = castle
+b_stoupa = city
+#b_chvojenice = temple
+#b_ballus_2 = castle
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+	religion = the_seven
+}
+6700.1.1 = {
+	culture = blackwatermen
+}

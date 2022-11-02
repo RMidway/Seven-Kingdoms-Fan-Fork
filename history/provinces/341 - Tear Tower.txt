@@ -1,0 +1,21 @@
+# c_tear_tower
+
+# County Title
+title = c_tear_tower
+
+# Settlements
+max_settlements = 3
+
+b_tear_tower = castle
+b_shattered_tower = castle
+b_scorched_tower = castle
+#b_tear_tower_2 = castle
+#b_tear_tower_3 = city
+#b_tear_tower_4 = temple
+#b_tear_tower_5 = castle
+
+# Misc
+culture = western_valyrian
+religion = valyrian
+terrain = farmlands
+#History

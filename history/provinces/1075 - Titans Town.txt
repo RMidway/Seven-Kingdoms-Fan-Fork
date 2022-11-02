@@ -1,0 +1,23 @@
+# c_titans_town
+
+# County Title
+title = c_titans_town
+
+# Settlements
+max_settlements = 5
+
+b_titan_hold = castle
+b_titans_town = city
+#b_travo = temple
+#b_soave = castle
+#b_titans_town_2 = city
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = farmlands
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

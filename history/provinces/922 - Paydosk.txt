@@ -1,0 +1,21 @@
+# c_paydosk
+
+# County Title
+title = c_paydosk
+
+# Settlements
+max_settlements = 3
+
+b_paydosk = castle
+#b_brandon = city
+#b_paydosk_2 = temple
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = hills
+#History
+6554.1.1 = {
+	culture = reachmen
+	religion = the_seven
+}

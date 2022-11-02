@@ -1,0 +1,23 @@
+# c_brightsilver
+
+# County Title
+title = c_brightsilver
+
+# Settlements
+max_settlements = 5
+
+b_brightsilver = castle
+b_corwen = city
+#b_ashingdonn = temple
+#b_rhuddlan_2 = castle
+#b_brightsilver_2 = city
+
+# Misc
+culture = copperlander
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = cornlander
+}

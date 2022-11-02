@@ -1,0 +1,21 @@
+# c_buried_port
+
+# County Title
+title = c_buried_port
+
+# Settlements
+max_settlements = 1
+
+b_buried_port = castle
+#b_buried_port_2 = city
+#b_buried_port_3 = temple
+#b_buried_port_4 = castle
+#b_buried_port_5 = city
+#b_buried_port_6 = temple
+#b_buried_port_7 = castle
+
+# Misc
+culture = pirate
+religion = black_flag
+terrain = hills
+#History

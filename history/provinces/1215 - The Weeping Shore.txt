@@ -1,0 +1,20 @@
+# c_the_weeping_shore
+
+# County Title
+title = c_the_weeping_shore
+
+# Settlements
+max_settlements = 6
+
+b_weeping_mans_hold = castle
+b_penrhyn = city
+b_moelfre = temple
+#b_pentreath = castle
+#b_llanwrsu = city
+#b_the_weeping_shore = temple
+
+# Misc
+culture = clansmen
+religion = old_gods
+terrain = hills
+#History

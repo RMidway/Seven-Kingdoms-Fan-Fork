@@ -1,0 +1,18 @@
+# c_icewater_valley
+
+# County Title
+title = c_icewater_valley
+
+# Settlements
+max_settlements = 4
+
+b_icewater_valley = tribal
+#b_antupitsa = city
+#b_icewater_valley_2 = temple
+#b_icewater_valley_3 = castle
+
+# Misc
+culture = wildling
+religion = old_gods_beyond_white
+terrain = arctic
+#History

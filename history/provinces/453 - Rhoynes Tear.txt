@@ -1,0 +1,32 @@
+# c_rhoynes_tear
+
+# County Title
+title = c_rhoynes_tear
+
+# Settlements
+max_settlements = 4
+
+b_rhoynes_tear = castle
+#b_turtlerest = city
+#b_rhoynes_tear_2 = temple
+#b_rhoynes_tear_3 = castle
+#b_rhoynes_tear_4 = city
+#b_rhoynes_tear_5 = temple
+#b_rhoynes_tear_6 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7298.1.1 = {
+	culture = rhoynish
+	religion = rhoynar
+}
+7400.1.1 = {
+	culture = orphans_of_the_greenblood
+}

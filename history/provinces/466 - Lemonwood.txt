@@ -1,0 +1,26 @@
+# c_lemonwood
+
+# County Title
+title = c_lemonwood
+
+# Settlements
+max_settlements = 5
+
+b_lemonwood = castle
+b_limesvilles = city
+b_lemonwood_2 = temple
+b_lemonwood_3 = castle
+#b_lemonwood_4 = city
+
+# Misc
+culture = scourgemen
+religion = old_gods
+terrain = desert
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7289.1.1 = {
+	culture = salt_dornish
+}

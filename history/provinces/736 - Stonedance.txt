@@ -1,0 +1,23 @@
+# c_stonedance
+
+# County Title
+title = c_stonedance
+
+# Settlements
+max_settlements = 3
+
+b_stonedance = castle
+#b_tanzenheid = city
+#b_stonedance_2 = temple
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = farmlands
+#History
+6540.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

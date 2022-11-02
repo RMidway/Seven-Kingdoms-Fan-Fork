@@ -1,0 +1,21 @@
+# c_cretia
+
+# County Title
+title = c_cretia
+
+# Settlements
+max_settlements = 7
+
+b_cretia = castle
+#b_cretia_2 = city
+#b_cretia_3 = temple
+#b_cretia_4 = castle
+#b_cretia_5 = city
+#b_cretia_6 = temple
+#b_cretia_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

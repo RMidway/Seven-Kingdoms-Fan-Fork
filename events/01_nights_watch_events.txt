@@ -1,0 +1,265 @@
+namespace = nights_watch
+
+# nights_watch.1 - hands out the black_brother trait to rulers (baron and up)
+# nights_watch.2 - expels children and spouses from the NW
+# nights_watch.3 - randomises culture and religion of characters on gaining titles in the NW
+
+# Insignificant impact, fired on new holder and twice a year.
+character_event = {
+    id = nights_watch.1
+    
+    hide_window = yes
+    is_triggered_only = yes
+    
+    # This should prevent it from firing for our barons
+    only_playable = yes
+    
+    trigger = {
+        OR = {
+            is_married = yes
+            NOT = {
+                trait = black_brother
+            }
+        }
+        OR = {
+            primary_title = {
+                OR = {
+                    title = d_the_wall
+                    title = k_the_nights_watch
+                }
+            }
+            any_liege = {
+                primary_title = {
+                    OR = {
+                        title = d_the_wall
+                        title = k_the_nights_watch
+                    }
+                }
+            }
+        }
+    }
+    
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    trait = black_brother
+                }
+            }
+            add_trait = black_brother
+        }
+        if = {
+            limit = {
+                is_married = yes
+            }
+            remove_spouse = spouse
+        }
+    }
+}
+
+# Court cleanup
+# Sends females and children away to relatives, or if lacking, other realms.
+# Split off into second event, so it can be fired less frequently
+character_event = {
+    id = nights_watch.2
+    
+    hide_window = yes
+    is_triggered_only = yes
+    
+    trigger = {
+        liege = {
+            trait = black_brother
+        }
+        NOT = {
+            trait = black_brother
+        }
+        is_ruler = no
+    }
+    
+    immediate = {
+        if = {
+            limit = {
+                spouse = {
+                    trait = black_brother
+                }
+                remove_spouse = spouse
+            }
+        }
+        if = {
+            limit = {
+                age = 13
+                is_female = no
+            }
+            add_trait = black_brother
+            break = yes
+        }
+        if = {
+            limit = {
+                OR = {
+                    is_female = yes
+                    NOT = {
+                        age = 13
+                    }
+                }
+            }
+            father = {
+                if = {
+                    limit = {
+                        is_alive = yes
+                    }
+                    if = {
+                        limit = {
+                            is_ruler = yes
+                        }
+                        ROOT = {
+                            move_character = PREV
+                        }
+                        break = yes
+                    }
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_ruler = yes
+                                ROOT = {
+                                    mother = {
+                                        is_alive = yes
+                                        is_ruler = yes
+                                    }
+                                }
+                            }
+                        }
+                        liege = {
+                            ROOT = {
+                                move_character = PREV
+                            }
+                        }
+                        break = yes
+                    }
+                }
+            }
+            mother = {
+                if = {
+                    limit = {
+                        is_alive = yes
+                    }
+                    if = {
+                        limit = {
+                            is_ruler = yes
+                        }
+                        ROOT = {
+                            move_character = PREV
+                        }
+                        break = yes
+                    }
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_ruler = yes
+                            }
+                        }
+                        liege = {
+                            ROOT = {
+                                move_character = PREV
+                            }
+                        }
+                        break = yes
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        dynasty = NONE
+                    }
+                }
+                if = {
+                    limit = {
+                        dynasty_head = {
+                            NOT = {
+                                character = ROOT
+                            }
+                            is_alive = yes
+                            is_ruler = yes
+                        }
+                    }
+                    dynasty_head = {
+                        ROOT = {
+                            move_character = PREV
+                        }
+                    }
+                    break = yes
+                }
+                if = {
+                    limit = {
+                        random_dynasty_member = {
+                            is_alive = yes
+                            is_ruler = yes
+                        }
+                    }
+                    random_dynasty_member = {
+                        ROOT = {
+                            move_character = PREV
+                        }
+                    }
+                    break = yes
+                }
+            }
+            random_independent_ruler = {
+                limit = {
+                    NOR = {
+                        has_landed_title = d_the_wall
+                        has_landed_title = k_the_nights_watch
+                    } 
+                }
+                random_realm_lord = {
+                    ROOT = {
+                        move_character = PREV
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+# nights_watch.3 - randomises culture and religion of characters on gaining titles in the NW
+character_event = {
+    id = nights_watch.3
+    
+    hide_window = yes
+    is_triggered_only = yes
+    
+    only_playable = yes
+    
+    trigger = {
+        NOT = { has_character_flag = NW_randomised }
+        OR = {
+            trait = black_brother
+            any_liege = {
+                primary_title = {
+                    OR = {
+                        title = d_the_wall
+                        title = k_the_nights_watch
+                    }
+                }
+            }
+        }
+    }
+    
+    immediate = {
+        set_character_flag = NW_randomised
+        
+        random_list = {
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+            10 = { }
+        }
+    }
+}

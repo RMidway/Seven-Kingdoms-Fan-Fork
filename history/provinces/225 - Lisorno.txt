@@ -1,0 +1,21 @@
+# c_lisorno
+
+# County Title
+title = c_lisorno
+
+# Settlements
+max_settlements = 3
+
+b_lisorno = city
+#b_lisorno_2 = city
+#b_lisorno_3 = temple
+#b_lisorno_4 = castle
+#b_lisorno_5 = city
+#b_lisorno_6 = temple
+#b_lisorno_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

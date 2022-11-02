@@ -1,0 +1,10 @@
+# e_the_north
+5.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	liege=d_greywater_watch
+	effect = {
+		holder_scope = { capital = ROOT }
+	}
+}
+6560.1.1={holder=266}

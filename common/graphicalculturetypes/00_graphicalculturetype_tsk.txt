@@ -1,0 +1,220 @@
+# Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
+
+# WESTEROS #
+andalgfx = {
+	skin_tone = 0
+}
+
+andaldornishgfx = {
+	skin_tone = 0
+}
+
+andalironborngfx = {
+	skin_tone = 0
+}
+
+blackwatermengfx = {
+	skin_tone = 0
+}
+
+bronzemengfx = {
+	skin_tone = 0
+}
+
+clansmengfx = {
+	skin_tone = 0
+}
+
+craggongfx = {
+	skin_tone = 0
+}
+
+dothrakigfx = {
+	skin_tone = 2
+}
+
+dusklandergfx = {
+	skin_tone = 0
+}
+
+freecitiesgfx = {
+	skin_tone = 0
+}
+
+freefolkgfx = {
+	skin_tone = 0
+}
+
+ghiscarigfx = {
+	skin_tone = 1
+}
+
+ironborngfx = {
+	skin_tone = 0
+}
+
+lysenegfx = {
+	skin_tone = 0
+}
+
+manderishgfx = {
+	skin_tone = 0
+}
+
+muddishgfx = {
+	skin_tone = 0
+}
+
+northmengfx = {
+	skin_tone = 0
+}
+
+pentoshigfx = {
+	skin_tone = 0
+}
+
+pirategfx = {
+	skin_tone = 1
+}
+
+reachmengfx = {
+	skin_tone = 1
+}
+
+rhoynishgfx = {
+	skin_tone = 1
+}
+
+riverlandergfx = {
+	skin_tone = 0
+}
+
+saltdornishgfx = {
+	skin_tone = 1
+}
+
+sanddornishgfx = {
+	skin_tone = 2
+}
+
+stonedornishgfx = {
+	skin_tone = 0
+}
+
+stormlandergfx = {
+	skin_tone = 0
+}
+
+stormmengfx = {
+	skin_tone = 0
+}
+
+tyroshigfx = {
+	skin_tone = 0
+}
+
+valemengfx = {
+	skin_tone = 0
+}
+
+valyriangfx = {
+	skin_tone = 0
+}
+
+westerlandergfx = {
+	skin_tone = 0
+}
+
+westermengfx = {
+	skin_tone = 0
+}
+
+wynelandergfx = {
+	skin_tone = 1
+}
+
+wynemengfx = {
+	skin_tone = 0
+}
+
+### House Genetics ###
+
+dayneangfx = {
+	skin_tone = 1
+}
+
+daynefmgfx = {
+	skin_tone = 1
+}
+
+durrandonangfx = {
+	skin_tone = 1
+}
+
+durrandonfmgfx = {
+	skin_tone = 1
+}
+
+greyjoyangfx = {
+	skin_tone = 1
+}
+
+greyjoyfmgfx = {
+	skin_tone = 1
+}
+
+lannisterangfx = {
+	skin_tone = 1
+}
+
+lannisterfmgfx = {
+	skin_tone = 1
+}
+
+starkangfx = {
+	skin_tone = 1
+}
+
+starkfmgfx = {
+	skin_tone = 1
+}
+
+tullyangfx = {
+	skin_tone = 1
+}
+
+tullyfmgfx = {
+	skin_tone = 1
+}
+
+yronwoodangfx = {
+	skin_tone = 1
+}
+
+yronwoodfmgfx = {
+	skin_tone = 1
+}
+
+### Custom Holding Images ###
+
+oldgodsgfx = { 
+	skin_tone = 0
+}
+
+drownedgodgfx = { 
+	skin_tone = 0
+}
+
+rhllorgfx = { # used for holding images
+	skin_tone = 0
+}
+
+republicsgfx = { 
+	skin_tone = 1
+}
+
+### Others ###
+
+dragongfx = {
+	skin_tone = 0
+}

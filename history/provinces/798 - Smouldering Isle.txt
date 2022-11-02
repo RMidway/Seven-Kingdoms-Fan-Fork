@@ -1,0 +1,20 @@
+# c_smouldering_isle
+
+# County Title
+title = c_smouldering_isle
+
+# Settlements
+max_settlements = 4
+
+b_smouldering_isle = castle
+#b_alexandrowo = city
+#b_aladzhilar = temple
+#b_smouldering_isle_2 = castle
+
+# Misc
+culture = low_valyrian
+religion = valyrian
+terrain = mountain
+#History
+6500.1.1 = {
+}

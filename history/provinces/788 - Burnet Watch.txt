@@ -1,0 +1,23 @@
+# c_burnet_watch
+
+# County Title
+title = c_burnet_watch
+
+# Settlements
+max_settlements = 5
+
+b_burnet_watch = castle
+b_leithum = city
+b_fingig = temple
+#b_waldbredimus = castle
+#b_burnet_watch_2 = city
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

@@ -1,0 +1,20 @@
+# c_biteport
+
+# County Title
+title = c_biteport
+
+# Settlements
+max_settlements = 3
+
+b_biteport = castle
+b_bites_chapel = temple
+#b_biteport_2 = temple
+
+# Misc
+culture = sistermen
+religion = lady_of_the_waves
+terrain = hills
+#History
+7000.1.1 = {
+	religion = the_seven
+}

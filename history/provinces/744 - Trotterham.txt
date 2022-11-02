@@ -1,0 +1,23 @@
+# c_trotterham
+
+# County Title
+title = c_trotterham
+
+# Settlements
+max_settlements = 5
+
+b_trotterham = castle
+b_lausnitz = city
+b_fahl = temple
+b_meinstedt = castle
+#b_trotterham_2 = city
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = farmlands
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

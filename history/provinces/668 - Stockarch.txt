@@ -1,0 +1,23 @@
+# c_stockarch
+
+# County Title
+title = c_stockarch
+
+# Settlements
+max_settlements = 3
+
+b_stockarch = castle
+#b_ronscheim = city
+#b_stockarch_2 = temple
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = plains
+#History
+6350.1.1 = {
+	culture = marchmen
+}
+6800.1.1 = {
+	religion = the_seven 
+}

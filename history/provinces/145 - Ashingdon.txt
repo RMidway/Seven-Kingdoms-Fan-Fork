@@ -1,0 +1,21 @@
+# c_ashingdon
+
+# County Title
+title = c_ashingdon
+
+# Settlements
+max_settlements = 3
+
+b_ashingdon = castle
+#b_ashingdon_2 = city
+#b_ashingdon_3 = temple
+#b_ashingdon_4 = castle
+#b_ashingdon_5 = city
+#b_ashingdon_6 = temple
+#b_ashingdon_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = hills
+#History

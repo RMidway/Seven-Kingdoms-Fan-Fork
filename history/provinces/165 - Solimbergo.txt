@@ -1,0 +1,21 @@
+# c_solimbergo
+
+# County Title
+title = c_solimbergo
+
+# Settlements
+max_settlements = 2
+
+b_solimbergo = city
+#b_solimbergo_2 = city
+#b_solimbergo_3 = temple
+#b_solimbergo_4 = castle
+#b_solimbergo_5 = city
+#b_solimbergo_6 = temple
+#b_solimbergo_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

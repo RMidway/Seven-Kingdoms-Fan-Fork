@@ -1,0 +1,22 @@
+# c_sweetport_sound
+
+# County Title
+title = c_sweetport_sound
+
+# Settlements
+max_settlements = 4
+
+b_sweet_keep = castle
+b_sweetport_sound = city
+#b_irvan = temple
+#b_hartin = castle
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

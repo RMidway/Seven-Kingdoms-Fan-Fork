@@ -1,0 +1,27 @@
+# c_dun_port
+
+# County Title
+title = c_dun_port
+
+# Settlements
+max_settlements = 4
+
+b_dun_tower = castle
+b_dun_port = city
+#b_poienari = temple
+#b_dun_port_2 = castle
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = farmlands
+#History
+1.1.1 = {
+    religion = old_gods 
+}
+6300.1.1 = {
+    religion = the_seven
+}
+7200.1.1 = {
+    culture = blackwatermen
+}

@@ -1,0 +1,18 @@
+# c_moles_town
+
+# County Title
+title = c_moles_town
+
+# Settlements
+max_settlements = 4
+
+b_moles_town = tribal
+#b_brodick = city
+#b_stornaway = temple
+#b_pembrokeshire = castle
+
+# Misc
+culture = hill_clansmen
+religion = old_gods
+terrain = hills
+#History

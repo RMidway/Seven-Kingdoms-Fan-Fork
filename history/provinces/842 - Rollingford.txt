@@ -1,0 +1,24 @@
+# c_rollingford
+
+# County Title
+title = c_rollingford
+
+# Settlements
+max_settlements = 3
+
+b_rollingford = castle
+#b_bailer = city
+#b_rollingford_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = dusklander
+	religion = the_seven
+}
+6850.1.1 = {
+	culture = riverlander
+}

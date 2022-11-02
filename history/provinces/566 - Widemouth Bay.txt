@@ -1,0 +1,20 @@
+# c_widemouth_bay
+
+# County Title
+title = c_widemouth_bay
+
+# Settlements
+max_settlements = 2
+
+b_widemouth_bay = castle
+b_barse = city
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

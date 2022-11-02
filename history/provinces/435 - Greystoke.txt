@@ -1,0 +1,28 @@
+# c_greystoke
+
+# County Title
+title = c_greystoke
+
+# Settlements
+max_settlements = 4
+
+b_greystoke = castle
+b_greystoke_2 = city
+#b_greystoke_3 = temple
+#b_greystoke_4 = castle
+#b_greystoke_5 = city
+#b_greystoke_6 = temple
+#b_greystoke_7 = castle
+
+# Misc
+culture = spearmen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7298.1.1 = {
+	culture = salt_dornish
+}

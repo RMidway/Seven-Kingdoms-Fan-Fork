@@ -1,0 +1,24 @@
+# c_chertsy
+
+# County Title
+title = c_chertsy
+
+# Settlements
+max_settlements = 4
+
+b_chertsy = castle
+b_nordrach = city
+#b_meckenbach = temple
+#b_chertsy_2 = castle
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = plains
+#History
+6540.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

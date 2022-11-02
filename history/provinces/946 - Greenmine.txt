@@ -1,0 +1,22 @@
+# c_greenmine
+
+# County Title
+title = c_greenmine
+
+# Settlements
+max_settlements = 4
+
+b_greenmine = castle
+#b_salismine = city
+#b_hulne = temple
+#b_greenmine_2 = castle
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = westerlander
+}

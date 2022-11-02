@@ -1,0 +1,22 @@
+# c_brent_brook
+
+# County Title
+title = c_brent_brook
+
+# Settlements
+max_settlements = 4
+
+b_brent_brook = castle
+#b_hatfield = city
+#b_starrook = temple
+#b_brent_brook_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}

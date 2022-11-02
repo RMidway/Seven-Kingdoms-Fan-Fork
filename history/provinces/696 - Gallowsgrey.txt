@@ -1,0 +1,22 @@
+# c_gallowsgrey
+
+# County Title
+title = c_gallowsgrey
+
+# Settlements
+max_settlements = 4
+
+b_gallowsgrey = castle
+b_obertressen = city
+#b_gallowsfeld = temple
+#b_gallowsgrey_2 = castle
+
+# Misc
+culture = marchmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+	culture = marcher
+    religion = the_seven 
+}

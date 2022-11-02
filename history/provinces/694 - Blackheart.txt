@@ -1,0 +1,23 @@
+# c_blackheart
+
+# County Title
+title = c_blackheart
+
+# Settlements
+max_settlements = 5
+
+b_blackheart = castle
+b_zechau = city
+b_staig = temple
+#b_hohenecken = castle
+#b_blackheart_2 = city
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = hills
+#History
+6350.1.1 = {
+	culture = marcher
+    religion = the_seven
+}

@@ -1,0 +1,20 @@
+# c_ringlands
+
+# County Title
+title = c_ringlands
+
+# Settlements
+max_settlements = 3
+
+b_ring = castle
+#b_donkveer = city
+#b_abcoven = temple
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+    religion = the_seven
+}

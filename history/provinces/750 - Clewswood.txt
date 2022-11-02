@@ -1,0 +1,22 @@
+# c_clewswood
+
+# County Title
+title = c_clewswood
+
+# Settlements
+max_settlements = 4
+
+b_clewswood = castle
+#b_harvesse = city
+#b_baumfeld = temple
+#b_clewswood_2 = castle
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = forest
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

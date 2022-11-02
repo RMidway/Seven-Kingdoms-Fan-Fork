@@ -1,0 +1,23 @@
+# c_bardshome
+
+# County Title
+title = c_bardshome
+
+# Settlements
+max_settlements = 5
+
+b_bardshome = castle
+b_loreport = city
+#b_lansival = temple
+#b_homefall = castle
+#b_bardyard = city
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = reachmen
+    religion = the_seven 
+}

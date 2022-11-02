@@ -1,0 +1,32 @@
+# c_santon
+
+# County Title
+title = c_santon
+
+# Settlements
+max_settlements = 3
+
+b_santon = castle
+#b_santon_2 = city
+#b_santon_3 = temple
+#b_santon_4 = castle
+#b_santon_5 = city
+#b_santon_6 = temple
+#b_santon_7 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7298.1.1 = {
+	culture = rhoynish
+	religion = rhoynar
+}
+7400.1.1 = {
+	culture = orphans_of_the_greenblood
+}

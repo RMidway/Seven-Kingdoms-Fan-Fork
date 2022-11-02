@@ -1,0 +1,20 @@
+# c_littlesister
+
+# County Title
+title = c_littlesister
+
+# Settlements
+max_settlements = 3
+
+b_littlesister = castle
+b_littlesister_2 = city
+#b_littlesister_3 = temple
+
+# Misc
+culture = sistermen
+religion = lady_of_the_waves
+terrain = hills
+#History
+7000.1.1 = {
+	religion = the_seven
+}

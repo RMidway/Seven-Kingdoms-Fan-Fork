@@ -1,0 +1,21 @@
+# c_caudota
+
+# County Title
+title = c_caudota
+
+# Settlements
+max_settlements = 4
+
+b_caudete = city
+b_caudeti = temple
+#b_caudota = temple
+#b_caudota_2 = castle
+#b_caudota_3 = city
+#b_caudota_4 = temple
+#b_caudota_5 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

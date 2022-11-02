@@ -1,0 +1,24 @@
+# c_lannisfield
+
+# County Title
+title = c_lannisfield
+
+# Settlements
+max_settlements = 6
+
+b_lannisfield = castle
+b_amerfield = city
+b_lannisham = temple
+#b_dovfield = castle
+#b_lannisver = city
+#b_guildfield = temple
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

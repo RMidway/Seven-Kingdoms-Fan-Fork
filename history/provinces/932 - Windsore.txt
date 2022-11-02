@@ -1,0 +1,21 @@
+# c_windsore
+
+# County Title
+title = c_windsore
+
+# Settlements
+max_settlements = 3
+
+b_windsore_keep = castle
+#b_melcome = city
+#b_windsore = temple
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = cornlander
+}

@@ -1,0 +1,23 @@
+# c_strongsong
+
+# County Title
+title = c_strongsong
+
+# Settlements
+max_settlements = 5
+
+b_strongsong = castle
+b_st_gingolph = city
+#b_alberswil = temple
+#b_seebenstein = castle
+#b_strongsong_2 = city
+
+# Misc
+culture = gatesmen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

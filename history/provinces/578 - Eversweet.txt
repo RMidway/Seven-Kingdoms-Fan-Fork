@@ -1,0 +1,21 @@
+# c_eversweet
+
+# County Title
+title = c_eversweet
+
+# Settlements
+max_settlements = 3
+
+b_eversweet = castle
+b_hythe = city
+#b_southwell = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

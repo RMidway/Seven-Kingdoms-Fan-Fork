@@ -1,0 +1,23 @@
+# c_cornfield
+
+# County Title
+title = c_cornfield
+
+# Settlements
+max_settlements = 5
+
+b_cornfield = castle
+b_odiham = city
+#b_norham = temple
+#b_cornfield_2 = castle
+#b_cornfield_3 = city
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = cornlander
+}

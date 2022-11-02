@@ -1,0 +1,25 @@
+# c_sturzo
+
+# County Title
+title = c_sturzo
+
+# Settlements
+max_settlements = 7
+
+b_sturzo = castle
+#b_sturzo_2 = city
+#b_sturzo_3 = temple
+#b_sturzo_4 = castle
+#b_sturzo_5 = city
+#b_sturzo_6 = temple
+#b_sturzo_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History
+6400.1.1 = {	
+    religion = the_seven 
+    culture = andal
+}

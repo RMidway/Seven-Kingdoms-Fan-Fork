@@ -1,0 +1,21 @@
+# c_bloody_crescent
+
+# County Title
+title = c_bloody_crescent
+
+# Settlements
+max_settlements = 4
+
+b_bloody_crescent = castle
+b_bloody_temple = temple
+#b_bloody_crescent_2 = temple
+#b_bloody_crescent_3 = castle
+#b_bloody_crescent_4 = city
+#b_bloody_crescent_5 = temple
+#b_bloody_crescent_6 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

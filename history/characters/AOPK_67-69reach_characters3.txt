@@ -1,0 +1,417 @@
+##############
+#  ID RANGE  #
+#  6701-6900 #
+##############
+
+######################
+### House Gardener ###
+######################
+
+
+6705 = {
+    name = Garland
+    dynasty = 604 # Gardener
+    father = 9733
+    religion = old_gods
+    culture = manderish
+    6533.1.1 = { birth=yes }
+    6565.1.1 = { effect = { give_minor_title = title_generic_ser } }
+    6610.1.1 = { death=yes }
+}
+
+6707 = {
+    name = Olenna
+    dynasty = 604 # Gardener
+    father = 9733
+    female = yes
+    religion = old_gods
+    culture = manderish
+    6538.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+6738 = {
+    name = Talla
+    dynasty = 604 # Gardener
+    father = 9733
+    religion = old_gods
+    culture = manderish
+    female = yes
+    6525.1.1 = { birth=yes }
+    6546.1.1 = {add_spouse=1207}
+    6580.1.1 = { death=yes }
+}
+
+6739 = {
+    name = "Gormond" 
+    dynasty = 604 
+    father = 9732
+    religion = old_gods
+    culture = manderish
+    6503.1.1 = { birth=yes }
+    6563.1.1 = { death=yes }
+}
+
+6740 = {
+    name = "Margaery" 
+    dynasty = 604 
+    father = 9732
+    religion = old_gods
+    culture = manderish
+    female = yes
+    6506.1.1 = { birth=yes }
+    6563.1.1 = { death=yes }
+}
+
+6741 = {
+    name = "John" 
+    dynasty = 604 
+    father = 6739
+    religion = the_seven
+    culture = reachmen
+    trait = knight
+    6522.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+6742 = {
+    name = "Jancia" 
+    dynasty = 604 
+    father = 6739
+    religion = old_gods
+    culture = manderish
+    female = yes
+    6523.1.1 = { birth=yes }
+    6582.1.1 = { death=yes }
+}
+
+6743 = {
+    name = "Lucas" 
+    dynasty = 604 
+    father = 6739
+    religion = old_gods
+    culture = manderish
+    6526.1.1 = { birth=yes }
+    6590.1.1 = { death=yes }
+}
+
+6744 = {
+    name = "Quenton" 
+    dynasty = 604 
+    father = 6743
+    religion = old_gods
+    culture = manderish
+    6550.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+6745 = {
+    name = "Delena" 
+    dynasty = 604 
+    father = 6741
+    religion = the_seven
+    culture = reachmen
+    female = yes
+    trait = silent_sister
+    trait = twin
+    trait = celibate
+    trait = zealous
+    6540.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+
+6746 = {
+    name = "Elinor" 
+    dynasty = 604 
+    father = 6741
+    religion = the_seven
+    culture = reachmen
+    female = yes
+    trait = twin
+    trait = silent_sister
+    trait = celibate
+    trait = zealous
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6747 = {
+    name = "Garrett" 
+    dynasty = 604 
+    father = 6741
+    religion = the_seven
+    culture = reachmen
+    trait = knight
+    trait = dueling_expert
+    trait = temperate
+    trait = tough_soldier
+    trait = honourable
+    trait = tall
+    trait = patient
+    trait = trusting
+    trait = twin
+    6542.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+6748 = {
+    name = "Falia" 
+    dynasty = 604 
+    father = 6741
+    religion = the_seven
+    culture = reachmen
+    trait = twin
+    female = yes
+    6542.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+6749 = {
+    name = "Alleria" 
+    dynasty = 604 
+    father = 1216
+    dna = "bgmdavjddcsqkpdjqdckz"
+    properties = "ac000000000000"
+    religion = old_gods
+    culture = manderish
+    trait = fair
+    trait = flamboyant_schemer
+    intrigue = 6
+    diplomacy = 9
+    trait = deceitful
+    trait = proud
+    trait = ambitious
+    trait = diligent
+    trait = charitable
+    trait = gregarious
+    female = yes
+    6544.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+#######################
+### House Hightower ###
+#######################
+
+
+6712 = {
+    name = Bryndon
+    dynasty = 602 # Hightower
+    father = 5231
+    religion = the_seven
+    culture = wynelander
+	martial = 10
+    trait = skilled_tactician
+    trait = cynical
+    trait = drunkard
+    trait = brave
+    6532.1.1 = { birth=yes }
+	6558.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = dull
+				add_trait = stubborn
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = slow
+			}
+		}
+}
+    6564.1.1 = { effect = { give_minor_title = title_generic_ser } }
+    6565.1.1 = { give_nickname=nick_greystone }
+    6600.1.1 = { death=yes }
+}
+
+6713 = {
+    name = Ashara
+    dynasty = 602 # Hightower
+    father = 5231
+    female = yes
+    religion = the_seven
+    culture = wynelander
+    6537.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6714 = {
+    name = Peremore
+    dynasty = 602 # Hightower
+    father = 6712
+    religion = the_seven
+    culture = wynelander
+    6550.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6715 = {
+    name = John
+    dynasty = 602 # Hightower
+    father = 6712
+    religion = the_seven
+    culture = wynelander
+    6552.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+
+###################
+### House Tarly ###
+###################
+
+6719 = {
+    name = Olenna
+    dynasty = 617
+    father = 5428
+    female = yes
+    religion = the_seven
+    culture = reachmen
+    trait = twin
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6720 = {
+    name = Olyvia
+    dynasty = 617
+    father = 5428
+    female = yes
+    religion = the_seven
+    culture = reachmen
+    trait = twin
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6721 = {
+    name = Dickon
+    dynasty = 617
+    father = 5428
+   
+    religion = the_seven
+    culture = reachmen
+    trait = dueling_expert
+    6542.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+######################
+### House Manderly ###
+######################
+
+6725 = {
+    name = Wylis
+    dynasty = 608
+    father = 5446
+    religion = old_gods
+    culture = manderish
+    trait = dueling_skilled
+    6537.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6726 = {
+    name = Wendel
+    dynasty = 608
+    father = 5446
+    religion = old_gods
+    culture = manderish
+    trait = dueling_expert
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6727 = {
+    name = Wylla
+    dynasty = 608
+    father = 5446
+    female = yes
+    religion = old_gods
+    culture = manderish
+    
+    6544.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6728 = {
+    name = Wynafryd
+    dynasty = 608
+    father = 5446
+    female = yes
+    religion = old_gods
+    culture = manderish
+    
+    6544.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+####################
+### House Osgrey ###
+####################
+
+6729 = {
+    name = Owain
+    dynasty = 606 # Osgrey
+   
+    religion = the_seven
+    culture = north_marcher
+    
+    father = 5476
+    trait = dueling_expert
+    6540.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+6731 = {
+    name = Sara
+    dynasty = 606 # Osgrey
+   
+    religion = the_seven
+    culture = north_marcher
+    female = yes
+    father = 5476
+    6543.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+###################
+### House Peake ###
+###################
+
+6733 = {
+    name = Olyver
+    dynasty = 616 
+    father = 5502
+    culture = south_marcher
+    religion = old_gods
+    trait = dueling_skilled
+    
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6734 = {
+    name = Gormon
+    dynasty = 616 
+    father = 5502
+    culture = south_marcher
+    religion = old_gods
+    trait = dueling_expert
+    
+    6542.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+6735 = {
+    name = Alyssa
+    dynasty = 616 
+    father = 5502
+    culture = south_marcher
+    religion = old_gods
+    female = yes
+    6545.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+### START AT 6750 ###

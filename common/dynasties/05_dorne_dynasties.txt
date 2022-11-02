@@ -1,0 +1,1241 @@
+############
+# ID RANGE #
+# 500-599  #
+############
+
+500=
+{
+	used_for_random=no
+	name="Dayne"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+501=
+{
+	used_for_random=no
+	name="Blackmont"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+502=
+{
+	used_for_random=no
+	name="Yronwood"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+503=
+{
+	used_for_random=no
+	name="Fowler"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+504=
+{
+	used_for_random=no
+	name="Manwoody"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+505=
+{
+	used_for_random=no
+	name="Wade"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+506=
+{
+	used_for_random=no
+	name="Wyl"
+	culture="stone_dornish"
+	religion="vulture_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+507=
+{
+	used_for_random=no
+	name="Uller"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+508=
+{
+	used_for_random=no
+	name="Qorgyle"
+	culture="sand_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+509=
+{
+	used_for_random=no
+	name="Vaith"
+	culture="sand_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#510  missing? however, got an empty coa
+
+511=
+{
+	used_for_random=no
+	name="Briar"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+512=
+{
+	used_for_random=no
+	name="Brook"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+513=
+{
+	used_for_random=no
+	name="Brownhill"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+514=
+{
+	used_for_random=no
+	name="Holt"
+	culture="sand_dornish"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+515=
+{
+	used_for_random=no
+	name="Lake"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+516=
+{
+	used_for_random=no
+	name="Shell"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+517=
+{
+	used_for_random=no
+	name="Wade"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+518=
+{
+	used_for_random=no
+	name="Santagar"
+	culture="sand_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+519=
+{
+	used_for_random=no
+	name="Allyrion"
+	culture="sand_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+520=
+{
+	used_for_random=no
+	name="Sandwayne"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+521=
+{
+	used_for_random=no
+	name="Dryland"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+522=
+{
+	used_for_random=no
+	name="Weybone"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+523=
+{
+	used_for_random=no
+	name="Ghaston"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+524=
+{
+	used_for_random=no
+	name="Deadwell"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+525=
+{
+	used_for_random=no
+	name="Jordayne"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+526=
+{
+	used_for_random=no
+	name="Vyper"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+527=
+{
+	used_for_random=no
+	name="Toland"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+528=
+{
+	used_for_random=no
+	name="Sandfold"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+529=
+{
+	used_for_random=no
+	name="Dalt"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+530=
+{
+	used_for_random=no
+	name="Sandburrow"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+531=
+{
+	used_for_random=no
+	name="Bloodbridge"
+	culture="sand_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+532=
+{
+	used_for_random=no
+	name="Deepwater"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+533=
+{
+	used_for_random=no
+	name="Goodspring"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+534=
+{
+	used_for_random=no
+	name="Fallrock"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+535=
+{
+	used_for_random=no
+	name="Kestfist"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+536=
+{
+	used_for_random=no
+	name="Nightfall"
+	culture="stone_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+537=
+{
+	used_for_random=no
+	name="Triplebarr"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+538=
+{
+	used_for_random=no
+	name="Contysson"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+539=
+{
+	used_for_random=no
+	name="Silvercrag"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+540=
+{
+	used_for_random=no
+	name="Darkcity"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+541=
+{
+	used_for_random=no
+	name="Sunbyte"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+542=
+{
+	used_for_random=no
+	name="Greystoke"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+543=
+{
+	used_for_random=no
+	name="Olivyne"
+	culture="salt_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+544=
+{
+	used_for_random=no
+	name="Clotgyre"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+545=
+{
+	used_for_random=no
+	name="Longdyke"
+	culture="sand_dornish"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+546=
+{
+	used_for_random=no
+	name="Atalyn"
+	culture="salt_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+547=
+{
+	used_for_random=no
+	name="Sandwall"
+	culture="sand_dornish"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+548=
+{
+	used_for_random=no
+	name="Sanlynt"
+	culture="sand_dornish"
+	religion="the_seven"
+}
+
+549=
+{
+	used_for_random=no
+	name="Blackwell"
+	culture="sand_dornish"
+	religion="the_seven"
+}
+
+550= 
+{
+	used_for_random=no
+  	name="Sixhill"
+  	culture="stone_dornish"
+  	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+551= 
+{
+	used_for_random=no
+  	name="Bushmill"
+  	culture="salt_dornish"
+  	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+552= 
+{
+	used_for_random=no
+  	name="Sandgate"
+  	culture="salt_dornish"
+  	religion="the_seven"
+}
+
+553= 
+{
+	used_for_random=no
+  	name="Riverhunt"
+  	culture="sand_dornish"
+  	religion="the_seven"
+}
+
+554= 
+{
+	used_for_random=no
+  	name="Chaynrock"
+  	culture="sand_dornish"
+  	religion="the_seven"
+}
+
+555= 
+{
+	used_for_random=no
+  	name="Stonewatcher"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+556= 
+{
+	used_for_random=no
+  	name="Snakemyth"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+557= 
+{
+	used_for_random=no
+  	name="Highfyre"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+558= 
+{
+	used_for_random=no
+  	name="Rissewyst"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+559= 
+{
+	used_for_random=no
+  	name="Nightcycle"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+560= 
+{
+	used_for_random=no
+  	name="Battlestone"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+561= 
+{
+	used_for_random=no
+  	name="Venomstop"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+562= 
+{
+	used_for_random=no
+  	name="Hellflow"
+  	culture="stone_dornish"
+  	religion="old_gods"
+}
+
+563= 
+{
+	used_for_random=no
+  	name="Bushfyre"
+  	culture="stone_dornish"
+  	religion="old_gods"
+}
+
+564= 
+{
+	used_for_random=no
+  	name="Saltgiver"
+  	culture="salt_dornish"
+  	religion="old_gods"
+}
+
+565= 
+{
+	used_for_random=no
+  	name="Eversour"
+  	culture="salt_dornish"
+  	religion="old_gods"
+}
+
+566= 
+{
+	used_for_random=no
+  	name="Youngmen"
+  	culture="salt_dornish"
+  	religion="the_seven"
+}
+
+567= 
+{
+	used_for_random=no
+  	name="Darkshore"
+  	culture="salt_dornish"
+  	religion="the_seven"
+}
+
+568= 
+{
+	used_for_random=no
+  	name="Hallhunter"
+  	culture="salt_dornish"
+  	religion="old_gods"
+}
+
+569= 
+{
+	used_for_random=no
+  	name="Sevelyne"
+  	culture="salt_dornish"
+  	religion="old_gods"
+}
+
+570= 
+{
+	used_for_random=no
+  	name="Sunscar"
+  	culture="sand_dornish"
+  	religion="the_seven"
+}
+
+571= 
+{
+	used_for_random=no
+  	name="Sandadder"
+  	culture="sand_dornish"
+  	religion="the_seven"
+}
+
+572= 
+{
+	used_for_random=no
+  	name="Dreamflock"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+573= 
+{
+	used_for_random=no
+  	name="Stonereacher"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+574= 
+{
+	used_for_random=no
+  	name="Dustrock"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+575= 
+{
+	used_for_random=no
+  	name="Bellisend"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+576= 
+{
+	used_for_random=no
+  	name="Vulturedeep"
+  	culture="stone_dornish"
+  	religion="vulture_god"
+}
+
+577= 
+{
+	used_for_random=no
+  	name="Redknight"
+  	culture="stone_dornish"
+  	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 77
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+578= 
+{
+	used_for_random=no
+  	name="Evencoast"
+  	culture="stone_dornish"
+  	religion="old_gods"
+}
+579= 
+{
+	used_for_random=no
+  	name="Martell"
+  	culture="andal"
+  	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 79
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+580= 
+{
+	used_for_random=no
+  	name="Brimstone"
+  	culture="salt_dornish"
+  	religion="old_gods"
+}
+581= 
+{
+	used_for_random=no
+  	name="Gargalen"
+  	culture="salt_dornish"
+  	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 81
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+582= 
+{
+	used_for_random=no
+  	name="Nymeros-Martell"
+  	culture="salt_dornish"
+  	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 82
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

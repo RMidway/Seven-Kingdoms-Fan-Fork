@@ -1,0 +1,25 @@
+# c_orboni
+
+# County Title
+title = c_orboni
+
+# Settlements
+max_settlements = 7
+
+b_orboni = castle
+#b_orboni_2 = city
+#b_orboni_3 = temple
+#b_orboni_4 = castle
+#b_orboni_5 = city
+#b_orboni_6 = temple
+#b_orboni_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History
+6400.1.1 = {	
+    religion = the_seven 
+    culture = andal
+}

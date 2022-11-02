@@ -1,0 +1,25 @@
+# c_pellico
+
+# County Title
+title = c_pellico
+
+# Settlements
+max_settlements = 7
+
+b_pellico = castle
+b_pellico_2 = city
+#b_pellico_3 = temple
+#b_pellico_4 = castle
+#b_pellico_5 = city
+#b_pellico_6 = temple
+#b_pellico_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History
+6400.1.1 = {	
+    religion = the_seven 
+    culture = andal
+}

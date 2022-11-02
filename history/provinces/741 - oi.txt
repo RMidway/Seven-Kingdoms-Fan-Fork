@@ -1,0 +1,24 @@
+# c_oi
+
+# County Title
+title = c_oi
+
+# Settlements
+max_settlements = 4
+
+b_bagshot = castle
+#b_riederich = city
+#b_tange = temple
+#b_oi = castle
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = farmlands
+#History
+6540.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

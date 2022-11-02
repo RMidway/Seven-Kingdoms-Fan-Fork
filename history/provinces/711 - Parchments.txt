@@ -1,0 +1,23 @@
+# c_parchments
+
+# County Title
+title = c_parchments
+
+# Settlements
+max_settlements = 5
+
+b_parchments = castle
+b_parchments_2 = city
+b_parchments_3 = temple
+#b_parchments_4 = castle
+#b_parchments_5 = city
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

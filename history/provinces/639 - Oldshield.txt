@@ -1,0 +1,23 @@
+# c_oldshield
+
+# County Title
+title = c_oldshield
+
+# Settlements
+max_settlements = 3
+
+b_oldshield = castle
+#b_lochtenburg = city
+#b_chenuemont = temple
+
+# Misc
+culture = shieldislander
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+}
+7000.1.1 = {
+    culture = shieldmen
+}

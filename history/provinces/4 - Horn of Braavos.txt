@@ -1,0 +1,21 @@
+# c_horn_of_braavos
+
+# County Title
+title = c_horn_of_braavos
+
+# Settlements
+max_settlements = 7
+
+b_corno = castle
+b_corno_2 = city
+#b_corno_3 = temple
+#b_corno_4 = castle
+#b_corno_5 = city
+#b_corno_6 = temple
+#b_corno_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

@@ -1,0 +1,22 @@
+# c_grafton_keep
+
+# County Title
+title = c_grafton_keep
+
+# Settlements
+max_settlements = 4
+
+b_grafton_keep = castle
+b_franconi = castle
+b_pagania = city
+#b_grafton_keep_2 = castle
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = farmlands
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

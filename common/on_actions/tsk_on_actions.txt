@@ -1,0 +1,158 @@
+#character
+on_startup = {
+	events = {		
+		# The Seven Kingdoms
+		core_resource_dist.1 # Resource distribution
+		core_building_setup.1 # Building Distribution, chained event, fires core_building_setup.2 which in turn fires core_building_setup.3
+		modifiers_maintenance.1 # TSK Triggered modifiers, added by blackninja9939
+		nights_watch.1 # TSK assign correct traits to the Lord Commander and vassals
+		nights_watch.2 # TSK clean up Lord Commander's Court
+		thenn.1 # TSK assign "Thenn" trait to all Thenns
+		AOPK.1 # Introduction to the Age of Petty Kings Scenario
+		tsk_dynamic_coa.0 # Sets dynamic flags
+		tsk_startup.1 #Startup events...
+		tsk_startup.3 #Generates Spouses
+	}
+}
+
+#character
+on_yearly_pulse = {
+	events = {
+		# The Seven Kingdoms
+		modifiers_maintenance.1 # TSK Triggered modifiers, added by blackninja9939
+		modifiers_maintenance.3 # Checks for knight traits and switches them out based on religion.
+		#tsk_leadership.2 # Cleanup, remove leadership modifiers from characters not in war
+		# nights_watch.2 # TSK remove unwanted characters from the night's watch
+		#Maintenance				
+		tsk.0116 # Gives Knight Minor Title
+		tsk.0124 # Assigns priest traits
+	}
+}
+
+
+#character
+on_bi_yearly_pulse = {
+	events = {
+		nights_watch.1 # Give Lord Commander and vassals black_brother and remove spouses
+		#tsk_leadership.1 # Twice a year we check our lords and remove war leadership traits from them if not at war.
+		tsk_startup.20000 # Removes pregnancy from non-pregnant
+	}
+	
+	random_events = {	
+		#VIET EVENTS
+		#Old age events
+		10 = VIETnam.106
+		10 = VIETnam.107
+		10 = VIETnam.108
+		10 = VIETnam.109
+		10 = VIETnam.110
+		10 = VIETnam.300
+	}
+}
+
+on_combat_pulse = {
+	random_events = {
+		# 3000 = TSK_C_DE.1 # Dueling Event Chain (Commander to Commander), test event
+	}
+}
+
+# character
+on_birth = {
+	events = {
+		tsk.0115 # Bastard Nickname Effect
+		tsk_birth.0 # Sets the dynastical gfx for special houses on birth
+		tsk_birth.1000 # Removes inbred for high valyrians, with a chance of gaining lunatic or arbitrary instead
+		tsk_startup.4  # Removes Pregnancy Finishing trait
+		tsk_startup.20001  # Prevents characters from being bastards if they actually aren't
+	}		 
+}
+
+on_death = {
+	events = {
+		DAWN.1
+		blackwater.1 # Pass on figurehead trait
+		tsk_nds.0 # Non-dynastical succession
+		tsk_high_kingdom.13 # Give necessary flags for heirs
+	}	  
+}
+
+on_create_title = {
+	events = {
+		tsk_dynamic_coa.0 # Sets dynamic flags
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		modifiers_maintenance.1 # TSK Triggered modifiers, added by blackninja9939
+		administration_main.2 # TSK Administration Modifier, added by Rowan
+		nights_watch.1 # TSK Lord Commander Assignment / Cleanup
+		tsk.0141 # Remove "Ser" title from landed rulers
+		tsk.0143 # Remove "Septon" title from New High Septons
+		tsk_dynamic_coa.0 # Sets dynamic flags
+		tsk_maintenance.1 # Manage Marshal titles
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+		modifiers_maintenance.1 # TSK Triggered modifiers, added by blackninja9939
+		administration_main.2 # TSK Administration Modifier, added by Rowan
+		nights_watch.1 # TSK assign correct traits to the Lord Commander and vassals
+		tsk.0141 # Remove "Ser" title from landed rulers
+		tsk.0143 # Remove "Septon" title from New High Septons
+		tsk_dynamic_coa.0 # Sets dynamic flags
+		tsk_maintenance.1 # Manage Marshal titles
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		modifiers_maintenance.1 # TSK Triggered modifiers, added by blackninja9939
+		administration_main.2 # TSK Administration Modifier, added by Rowan
+		nights_watch.1 # TSK assign correct traits to the Lord Commander and vassals
+		tsk.0141 # Remove "Ser" title from landed rulers
+		tsk.0143 # Remove "Septon" title from New High Septons
+		tsk_dynamic_coa.0 # Sets dynamic flags
+		tsk_maintenance.1 # Manage Marshal titles
+	}
+}
+
+# Character converts culture, for whatever reason. ROOT is the character after conversion and the FROM scope has the old culture.
+on_character_convert_culture = {
+	events = {
+		thenn.2 # TSK removes "Thenn" trait from character if converting to another culture
+	}
+}
+
+# A character asks to join a society. Only works on player
+# Root = Character
+# From = Society
+on_character_ask_to_join_society = {
+	events = {
+		TSK_S.1 # Join Seven Knightly Order
+	}
+}
+
+on_war_ended_victory = {
+	events = {
+		tsk_high_kingdom.8 # Dismantle war over - High King lost
+		tsk_high_kingdom.9 # Claim war over - High King won
+	}
+}
+
+on_war_ended_defeat = {
+	events = {
+		tsk_high_kingdom.7 # Dismantle war over - High King won
+		tsk_high_kingdom.10 # Claim war over - High King lost
+	}
+}
+
+on_adolescence = { # Checked on 12th birthday.
+	events = {
+		NCE.15998 # New event chain for childhood traits
+	}
+}	 

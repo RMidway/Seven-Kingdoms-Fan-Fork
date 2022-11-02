@@ -1,0 +1,25 @@
+# c_hidensburg
+
+# County Title
+title = c_hidensburg
+
+# Settlements
+max_settlements = 4
+
+b_hidensburg = castle
+b_reithof = city
+#b_merzingen = temple
+#b_hidensburg_2 = castle
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = hills
+#History
+6400.1.1 = {
+	culture = stormmen
+}
+6500.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

@@ -1,0 +1,21 @@
+# c_turnbridge
+
+# County Title
+title = c_turnbridge
+
+# Settlements
+max_settlements = 3
+
+b_turnbridge = castle
+#b_bergerie = city
+#b_turnbridge_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

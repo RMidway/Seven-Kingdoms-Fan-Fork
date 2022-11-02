@@ -1,0 +1,24 @@
+# c_wendfront
+
+# County Title
+title = c_wendfront
+
+# Settlements
+max_settlements = 4
+
+b_wendfront = castle
+b_neestahl = city
+b_eichelsdorf = temple
+#b_wendfront_2 = castle
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = farmlands
+#History
+6540.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

@@ -1,0 +1,19 @@
+# c_hornwood
+
+# County Title
+title = c_hornwood
+
+# Settlements
+max_settlements = 5
+
+b_hornwood = castle
+b_bardsey = city
+#b_monmouth = temple
+#b_dale = castle
+#b_hornwood_2 = city
+
+# Misc
+culture = northmen
+religion = old_gods
+terrain = mountain
+#History

@@ -1,0 +1,20 @@
+# c_saltmines
+
+# County Title
+title = c_saltmines
+
+# Settlements
+max_settlements = 2
+
+b_saltmines = castle
+#b_saltmines_2 = city
+
+# Misc
+culture = torrentine
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

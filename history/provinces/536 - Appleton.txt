@@ -1,0 +1,22 @@
+# c_appleton
+
+# County Title
+title = c_appleton
+
+# Settlements
+max_settlements = 4
+
+b_appleton = castle
+b_redarrow = city
+#b_goodtaste = temple
+#b_greenapple = castle
+
+# Misc
+culture = marchmen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = marcher
+    religion = the_seven 
+}

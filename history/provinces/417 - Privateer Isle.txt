@@ -1,0 +1,21 @@
+# c_privateer_isle
+
+# County Title
+title = c_privateer_isle
+
+# Settlements
+max_settlements = 1
+
+b_privateer_isle = castle
+#b_privateer_isle_2 = city
+#b_privateer_isle_3 = temple
+#b_privateer_isle_4 = castle
+#b_privateer_isle_5 = city
+#b_privateer_isle_6 = temple
+#b_privateer_isle_7 = castle
+
+# Misc
+culture = pirate
+religion = black_flag
+terrain = hills
+#History

@@ -1,0 +1,23 @@
+# c_rivergard
+
+# County Title
+title = c_rivergard
+
+# Settlements
+max_settlements = 3
+
+b_rivergard = castle
+b_bozel = castle
+#b_riverton = temple
+
+# Misc
+culture = muddish
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+}
+6800.1.1 = {
+    religion = the_seven  
+    culture = freymen
+}

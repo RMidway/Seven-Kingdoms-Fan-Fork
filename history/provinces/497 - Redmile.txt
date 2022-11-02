@@ -1,0 +1,23 @@
+# c_redmile
+
+# County Title
+title = c_redmile
+
+# Settlements
+max_settlements = 5
+
+b_redmile = castle
+b_argana = city
+b_guia = castle
+#b_redmile_2 = castle
+#b_redmile_3 = city
+
+# Misc
+culture = torrentine
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

@@ -1,0 +1,22 @@
+# c_sudbury
+
+# County Title
+title = c_sudbury
+
+# Settlements
+max_settlements = 4
+
+b_sudbury = castle
+#b_vanxains = city
+#b_moinville = temple
+#b_sudbury_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}

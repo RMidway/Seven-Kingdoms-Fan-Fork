@@ -1,0 +1,21 @@
+# c_velvet_march
+
+# County Title
+title = c_velvet_march
+
+# Settlements
+max_settlements = 3
+
+b_velvet_march = castle
+#b_velvet_march_2 = city
+#b_velvet_march_3 = temple
+#b_velvet_march_4 = castle
+#b_velvet_march_5 = city
+#b_velvet_march_6 = temple
+#b_velvet_march_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = hills
+#History

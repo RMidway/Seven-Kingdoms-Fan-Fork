@@ -1,0 +1,21 @@
+# c_evening_coast
+
+# County Title
+title = c_evening_coast
+
+# Settlements
+max_settlements = 3
+
+b_evening_coast = castle
+#b_dusks_ward = city
+#b_evening_coast_2 = temple
+
+# Misc
+culture = torrentine
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

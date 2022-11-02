@@ -1,0 +1,21 @@
+# c_gradinje
+
+# County Title
+title = c_gradinje
+
+# Settlements
+max_settlements = 7
+
+b_gradinje = city
+#b_gradinje_2 = city
+#b_gradinje_3 = temple
+#b_gradinje_4 = castle
+#b_gradinje_5 = city
+#b_gradinje_6 = temple
+#b_gradinje_7 = castle
+
+# Misc
+culture = lorathi
+religion = boashi
+terrain = farmlands
+#History

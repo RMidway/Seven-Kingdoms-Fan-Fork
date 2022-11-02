@@ -1,0 +1,28 @@
+# c_timberton
+
+# County Title
+title = c_timberton
+
+# Settlements
+max_settlements = 4
+
+b_timberton = castle
+b_schaffling = city
+#b_suargue = temple
+#b_timberton_2 = castle
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = forest
+#History
+6500.1.1 = {
+	
+
+
+}
+
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

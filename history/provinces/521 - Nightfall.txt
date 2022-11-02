@@ -1,0 +1,21 @@
+# c_nightfall
+
+# County Title
+title = c_nightfall
+
+# Settlements
+max_settlements = 3
+
+b_nightfall = castle
+b_faintlight = city
+#b_nightfall_2 = temple
+
+# Misc
+culture = bonemen
+religion = vulture_god
+terrain = hills
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

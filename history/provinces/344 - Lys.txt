@@ -1,0 +1,21 @@
+# c_lys
+
+# County Title
+title = c_lys
+
+# Settlements
+max_settlements = 7
+
+b_the_silver_palace = castle
+b_lys = city
+b_red_temple_of_lys = temple
+b_inner_district = city
+b_outer_district = city
+b_burning_tower = castle
+b_port_lys = city
+
+# Misc
+culture = western_valyrian
+religion = valyrian
+terrain = farmlands
+#History

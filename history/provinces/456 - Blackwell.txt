@@ -1,0 +1,28 @@
+# c_blackwell
+
+# County Title
+title = c_blackwell
+
+# Settlements
+max_settlements = 3
+
+b_blackwell = castle
+b_blackwell_2 = city
+#b_blackwell_3 = temple
+#b_blackwell_4 = castle
+#b_blackwell_5 = city
+#b_blackwell_6 = temple
+#b_blackwell_7 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7400.1.1 = {
+	culture = sand_dornish
+}

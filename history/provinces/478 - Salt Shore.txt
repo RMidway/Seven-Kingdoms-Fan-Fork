@@ -1,0 +1,26 @@
+# c_salt_shore
+
+# County Title
+title = c_salt_shore
+
+# Settlements
+max_settlements = 5
+
+b_salt_shore = castle
+b_fishpoint = city
+b_salt_shore_2 = temple
+#b_salt_shore_3 = castle
+#b_salt_shore_4 = city
+
+# Misc
+culture = scourgemen
+religion = old_gods
+terrain = desert
+#History
+6700.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7400.1.1 = {
+	culture = sand_dornish
+}

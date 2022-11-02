@@ -1,0 +1,22 @@
+# c_weepingfield
+
+# County Title
+title = c_weepingfield
+
+# Settlements
+max_settlements = 4
+
+b_weepingfield = castle
+#b_narsdorf = city
+#b_ulrichswalde = temple
+#b_weepingfield_2 = castle
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = woods
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

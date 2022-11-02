@@ -1,0 +1,21 @@
+# c_middlebury
+
+# County Title
+title = c_middlebury
+
+# Settlements
+max_settlements = 3
+
+b_middlebury = castle
+#b_minster = city
+#b_wenlock = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

@@ -1,0 +1,21 @@
+# c_the_whispering_wood
+
+# County Title
+title = c_the_whispering_wood
+
+# Settlements
+max_settlements = 3
+
+b_the_whispering_wood = castle
+b_fossi = city
+#b_the_whispering_wood_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

@@ -1,0 +1,21 @@
+# c_ligerz
+
+# County Title
+title = c_ligerz
+
+# Settlements
+max_settlements = 2
+
+b_ligerz = castle
+#b_ligerz_2 = city
+#b_ligerz_3 = temple
+#b_ligerz_4 = castle
+#b_ligerz_5 = city
+#b_ligerz_6 = temple
+#b_ligerz_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = hills
+#History

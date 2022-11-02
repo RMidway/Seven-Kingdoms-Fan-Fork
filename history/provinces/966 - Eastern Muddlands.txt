@@ -1,0 +1,24 @@
+# c_eastern_muddlands
+
+# County Title
+title = c_eastern_muddlands
+
+# Settlements
+max_settlements = 4
+
+b_east_freylands = castle
+#b_guerbigny = city
+#b_remomeix = temple
+#b_eastern_muddlands = castle
+
+# Misc
+culture = muddish
+religion = old_gods
+terrain = marsh
+#History
+6500.1.1 = {
+}
+6800.1.1 = {
+    religion = the_seven  
+    culture = freymen
+}

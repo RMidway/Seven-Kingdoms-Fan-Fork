@@ -1,0 +1,21 @@
+# c_latnyr
+
+# County Title
+title = c_latnyr
+
+# Settlements
+max_settlements = 3
+
+b_latnyr = castle
+#b_latnyr_2 = city
+#b_latnyr_3 = temple
+#b_latnyr_4 = castle
+#b_latnyr_5 = city
+#b_latnyr_6 = temple
+#b_latnyr_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = farmlands
+#History

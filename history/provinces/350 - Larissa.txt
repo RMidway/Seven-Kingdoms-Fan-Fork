@@ -1,0 +1,21 @@
+# c_larissa
+
+# County Title
+title = c_larissa
+
+# Settlements
+max_settlements = 3
+
+b_larissa = city
+b_larissa_2 = city
+#b_larissa_3 = temple
+#b_larissa_4 = castle
+#b_larissa_5 = city
+#b_larissa_6 = temple
+#b_larissa_7 = castle
+
+# Misc
+culture = lysene
+religion = rhllor
+terrain = farmlands
+#History

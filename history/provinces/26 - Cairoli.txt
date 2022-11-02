@@ -1,0 +1,21 @@
+# c_cairoli
+
+# County Title
+title = c_cairoli
+
+# Settlements
+max_settlements = 7
+
+b_cairoli = city
+#b_cairoli_2 = city
+#b_cairoli_3 = temple
+#b_cairoli_4 = castle
+#b_cairoli_5 = city
+#b_cairoli_6 = temple
+#b_cairoli_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History

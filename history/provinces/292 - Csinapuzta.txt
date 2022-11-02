@@ -1,0 +1,21 @@
+# c_csinapuzta
+
+# County Title
+title = c_csinapuzta
+
+# Settlements
+max_settlements = 2
+
+b_csinapuzta = castle
+#b_csinapuzta_2 = city
+#b_csinapuzta_3 = temple
+#b_csinapuzta_4 = castle
+#b_csinapuzta_5 = city
+#b_csinapuzta_6 = temple
+#b_csinapuzta_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = plains
+#History

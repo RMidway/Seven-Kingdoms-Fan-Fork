@@ -1,0 +1,25 @@
+# c_andleton
+
+# County Title
+title = c_andleton
+
+# Settlements
+max_settlements = 4
+
+b_andleton = castle
+b_miannes = city
+#b_mortefontaine = temple
+#b_andleton_2 = castle
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

@@ -1,0 +1,21 @@
+# c_margate
+
+# County Title
+title = c_margate
+
+# Settlements
+max_settlements = 3
+
+b_margate = castle
+#b_denbigh = city
+#b_margate_2 = temple
+
+# Misc
+culture = copperlander
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+	culture = goldmen
+    religion = the_seven
+}

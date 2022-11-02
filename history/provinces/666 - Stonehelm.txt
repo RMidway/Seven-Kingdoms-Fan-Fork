@@ -1,0 +1,25 @@
+# c_stonehelm
+
+# County Title
+title = c_stonehelm
+
+# Settlements
+max_settlements = 5
+
+b_stonehelm = castle
+b_feil = city
+#b_bugk = temple
+#b_unwerte = castle
+#b_stonehelm_2 = city
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = hills
+#History
+6350.1.1 = {
+	culture = marchmen
+}
+6800.1.1 = {
+	religion = the_seven 
+}

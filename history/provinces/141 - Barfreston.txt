@@ -1,0 +1,21 @@
+# c_barfreston
+
+# County Title
+title = c_barfreston
+
+# Settlements
+max_settlements = 3
+
+b_barfreston = castle
+#b_barfreston_2 = city
+#b_barfreston_3 = temple
+#b_barfreston_4 = castle
+#b_barfreston_5 = city
+#b_barfreston_6 = temple
+#b_barfreston_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = hills
+#History

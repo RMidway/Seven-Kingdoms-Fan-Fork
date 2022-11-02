@@ -1,0 +1,20 @@
+# c_redding
+
+# County Title
+title = c_redding
+
+# Settlements
+max_settlements = 3
+
+b_redding = castle
+b_scheemder = city
+#b_reddzwaag = temple
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+}

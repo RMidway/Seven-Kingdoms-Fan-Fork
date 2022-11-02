@@ -1,0 +1,24 @@
+# c_southshield
+
+# County Title
+title = c_southshield
+
+# Settlements
+max_settlements = 4
+
+b_southshield = castle
+b_overslag = city
+#b_neerharen = temple
+#b_rullen = castle
+
+# Misc
+culture = shieldislander
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+}
+6900.1.1 = {
+    culture = shieldmen
+}

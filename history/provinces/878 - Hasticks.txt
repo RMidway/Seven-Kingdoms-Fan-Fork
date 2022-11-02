@@ -1,0 +1,21 @@
+# c_hasticks
+
+# County Title
+title = c_hasticks
+
+# Settlements
+max_settlements = 3
+
+b_hasticks = castle
+#b_bardney = city
+#b_hasticks_2 = temple
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

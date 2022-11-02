@@ -1,0 +1,21 @@
+# c_warchester
+
+# County Title
+title = c_warchester
+
+# Settlements
+max_settlements = 3
+
+b_warchester = castle
+b_tanton = city
+#b_faymonville = temple
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven
+	culture = wynelander
+}

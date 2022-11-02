@@ -1,0 +1,38 @@
+# c_oldtown
+
+# County Title
+title = c_oldtown
+
+# Settlements
+max_settlements = 7
+
+b_oldtown = castle
+b_the_citadel = castle
+b_the_starry_sept = temple
+b_thinkers_slumber = city
+b_waterwine = city
+#b_newton = temple
+#b_lowertower = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+30.1.1 = { 
+	build_wonder = wonder_hightower
+	set_wonder_stage = 1
+}
+
+2000.1.1 = {
+	set_wonder_stage = 2
+	set_wonder_stage = 3
+}
+
+6500.1.1 = {
+	set_wonder_stage = 4
+}
+6554.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

@@ -1,0 +1,184 @@
+############
+# ID RANGE #
+# 1800-1899  #
+############
+
+#### blackwatermen 
+
+############
+# ID RANGE #
+# 1800-1899  #
+############
+
+#### blackwatermen 
+
+1801 = {
+	used_for_random=no
+	name="Archer"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1802 = {
+	used_for_random=no
+	name="Bradshaw"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1803 = {
+	used_for_random=no
+	name="Dyer"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1804 = {
+	used_for_random=no
+	name="Longshore"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1805 = {
+	used_for_random=no
+	name="Saddler"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1806 = {
+	used_for_random=no
+	name="Garriot"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1807 = {
+	used_for_random=no
+	name="Patterson"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1808 = {
+	used_for_random=no
+	name="Ferryman"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1809 = {
+	used_for_random=no
+	name="Worth"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1810 = {
+	used_for_random=no
+	name="Brightstaff"
+	culture = blackwatermen can_appear = no
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 21
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

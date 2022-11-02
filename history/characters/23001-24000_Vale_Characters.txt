@@ -1,0 +1,496 @@
+		      ###############
+		      #   ID RANGE  #
+		      # 23001-24000 #
+		      ###############
+
+		  ###################
+		  ### House Arryn ###
+		  ###################
+	
+### Daughters of Osric II Arryn
+	
+23001 = {
+    name = Mya
+    dynasty = 180 # Arryn
+    father = 7800
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6460.1.1 = { birth=yes }
+    6503.1.1 = { death=yes }
+}
+23002 = {
+    name = Josteen
+    dynasty = 180 # Arryn
+    father = 7800
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6463.1.1 = { birth=yes }
+    6519.1.1 = { death=yes }
+}
+		
+### Daughter of Artys 'the Falconknight'
+
+23003 = {
+    name = Anya
+    dynasty = 180 # Arryn
+    father = 12
+    religion = the_seven
+    culture = valemen
+    female = yes
+    6415.1.1 = { birth=yes }
+    6470.1.1 = { death=yes }
+}		
+	
+### Daughter of King Artos
+	
+23004 = {
+    name = Ysilla
+    dynasty = 180 # Arryn
+    father = 7802
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6514.1.1 = { birth=yes }
+	6540.8.31 = {add_spouse=1600}
+    6570.1.1 = { death=yes }
+}	  
+	
+### Son of Elbert Arryn
+
+23005 = {
+    name = Vardis
+    dynasty = 180 # Arryn
+    dna="beah"
+    martial = 6
+    father = 7890
+    trait = knight
+    trait = dueling_skilled
+    trait = skilled_tactician
+    trait = proud
+	trait = content
+	trait = lustful
+	trait = trusting
+
+    religion = the_seven
+    culture = valemen
+
+    6540.1.1 = { birth=yes }
+    6556.1.1 = { effect = { give_minor_title = title_generic_ser } }
+    6598.1.1 = { death=yes }
+}	
+
+		  ###################
+		  ### House Moore ###
+		  ###################
+		  
+11 = {
+    name = Mandon # The Current Lord
+    dynasty = 179 # Moore
+    father = 23006
+    religion = the_seven
+    culture = valemen
+	trait = dueling_skilled
+	
+    6530.1.1 = { birth=yes }
+    6588.1.1 = { death=yes }
+}
+
+46 = {
+    name = Elys # AOPK Heir
+    dynasty = 179 # Moore
+    father = 11
+    religion = the_seven
+    culture = valemen
+
+    6550.1.1 = { birth=yes }
+    6604.1.1 = { death=yes }
+}	
+
+23006 = {
+    name = Morton # Lord
+    dynasty = 179 # Moore
+    father = 23007
+    religion = the_seven
+    culture = valemen
+	
+    6502.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+23007 = {
+    name = Criston # Lord
+    dynasty = 179 # Moore
+
+    religion = the_seven
+    culture = valemen
+	
+    6480.1.1 = { birth=yes }
+    6539.1.1 = { death=yes }
+}
+
+23008 = {
+    name = Willas
+    dynasty = 179 # Moore
+    father = 11
+    religion = the_seven
+    culture = valemen
+
+    6552.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}	
+
+23009 = {
+    name = Gwin
+    dynasty = 179 # Moore
+    father = 11
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6554.1.1 = { birth=yes }
+    6611.1.1 = { death=yes }
+}	
+
+23010 = {
+    name = Ronnel
+    dynasty = 179 # Moore
+    father = 23007
+    religion = the_seven
+    culture = valemen
+	
+    6510.1.1 = { birth=yes }
+    6568.1.1 = { death=yes }
+}
+
+23011 = {
+    name = Osgood
+    dynasty = 179 # Moore
+    father = 23010
+    religion = the_seven
+    culture = valemen
+	
+    6532.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+23012 = {
+    name = Oswald
+    dynasty = 179 # Moore
+    father = 23010
+    religion = the_seven
+    culture = valemen
+	
+    6535.1.1 = { birth=yes }
+    6590.1.1 = { death=yes }
+}
+
+23013 = {
+    name = Jerene
+    dynasty = 179 # Moore
+    father = 23011
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6552.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+23014 = {
+    name = Melicent
+    dynasty = 179 # Moore
+    father = 23011
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6553.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+
+23015 = {
+    name = Lyonel 
+    dynasty = 179 # Moore
+    father = 23011
+    religion = the_seven
+    culture = valemen
+
+    6555.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+		  #####################
+		  ### House Hardyng ###
+		  #####################
+		  
+70 = {
+    name = Humfrey # CURRENT Heir
+    dynasty = 199 # Hardyng
+    father = 23016
+    religion = the_seven
+    culture = valemen
+	trait = dueling_expert
+	trait = knight
+    6546.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+71 = {
+    name = Harrold
+    dynasty = 199 # Hardyng
+    father = 70
+    religion = the_seven
+    culture = valemen
+
+    6562.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+72 = {
+    name = Anya
+    dynasty = 199 # Hardyng
+    father = 70
+    female = yes
+    religion = the_seven
+    culture = valemen
+
+    6564.1.1 = { birth=yes }
+    6627.1.1 = { death=yes }
+}
+
+23016 = {
+    name = Wallace # CURRENT Lord
+    dynasty = 199 # Hardyng
+    father = 23017
+    religion = the_seven
+    culture = valemen
+	trait = dueling_master
+	trait = skilled_tactician
+	martial = 8
+	trait = knight
+    6527.1.1 = { birth=yes }
+    6581.1.1 = { death=yes }
+}
+
+23017 = {
+    name = Horas # PAST Lord
+    dynasty = 199 # Hardyng
+    #father = 23017
+    religion = the_seven
+    culture = valemen
+	trait = dueling_master
+	trait = knight
+    6503.1.1 = { birth=yes }
+    6562.1.1 = { death=yes }
+}
+
+23018 = {
+    name = Alyce # Married to High King OSRIC III
+    dynasty = 199 # Hardyng
+    father = 23017
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6519.1.1 = { birth=yes }
+	6535.1.1={ add_spouse=7803 } # Osric III
+    6575.1.1 = { death=yes }
+}
+
+23019 = {
+    name = Yohn # Brother of CURRENT Lord
+    dynasty = 199 # Hardyng
+    father = 23017
+    religion = the_seven
+    culture = valemen
+
+    6532.1.1 = { birth=yes }
+    6589.1.1 = { death=yes }
+}
+
+23020 = {
+    name = Royce 
+    dynasty = 199 # Hardyng
+    father = 23019
+    religion = the_seven
+    culture = valemen
+
+    6549.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+		  #####################
+		  ### House Belmore ###
+		  #####################
+		  
+13 = {
+    name = Benedar # the CURRENT Lord
+    dynasty = 181 # Belmore
+    father = 23021
+    religion = the_seven
+    culture = valemen
+	trait = dueling_skilled
+    trait = knight
+    6542.1.1 = { birth=yes }
+    6605.1.1 = { death=yes }
+}
+
+48 = {
+    name = Banor # the CURRENT heir
+    dynasty = 181 # Belmore
+    father = 13
+    religion = the_seven
+    culture = valemen
+
+    6562.1.1 = { birth=yes }
+    6623.1.1 = { death=yes }
+}
+
+49 = {
+    name = Bethany
+    dynasty = 181 # Belmore
+    father = 13
+    religion = the_seven
+    culture = valemen
+    female = yes
+    6564.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+23021 = {
+    name = Joffrey # a PAST Lord
+    dynasty = 181 # Belmore
+    father = 23022
+    religion = the_seven
+    culture = valemen
+	trait = dueling_adept
+    trait = knight
+    6520.1.1 = { birth=yes }
+    6566.1.1 = { death=yes }
+}
+
+23022 = {
+    name = Edmund # a PAST Lord
+    dynasty = 181 # Belmore
+
+    religion = the_seven
+    culture = valemen
+	trait = dueling_master
+    trait = knight
+    6500.1.1 = { birth=yes }
+    6559.1.1 = { death=yes }
+}
+
+23023 = {
+    name = Carolei 
+    dynasty = 181 # Belmore
+    father = 23022
+    religion = the_seven
+    culture = valemen
+    female = yes
+    6519.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+23024 = {
+    name = Bellena 
+    dynasty = 181 # Belmore
+    father = 23022
+    religion = the_seven
+    culture = valemen
+    female = yes
+    6517.1.1 = { birth=yes }
+    6575.1.1 = { death=yes }
+}
+
+23025 = {
+    name = Serwyn 
+    dynasty = 181 # Belmore
+    father = 23021
+    religion = the_seven
+    culture = valemen
+	trait = dueling_expert
+	trait = skilled_tactician
+    trait = knight
+    6544.1.1 = { birth=yes }
+    6603.1.1 = { death=yes }
+}
+
+23026 = {
+    name = Luceon
+    dynasty = 181 # Belmore
+    father = 23025
+    religion = the_seven
+    culture = valemen
+	trait = dueling_adept
+    6560.1.1 = { birth=yes }
+    6619.1.1 = { death=yes }
+}
+
+23027 = {
+    name = Rolley
+    dynasty = 181 # Belmore
+    father = 23025
+    religion = the_seven
+    culture = valemen
+
+    6565.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+		  ####################
+		  ### House Mobrey ### 
+		  ####################
+		  
+23028 = {
+    name = Marq
+    dynasty = 801011 # Mobrey
+
+    religion = the_seven
+    culture = valemen
+
+    6512.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+23029 = {
+    name = Gulian
+    dynasty = 801011 # Mobrey
+	father = 23028
+    religion = the_seven
+    culture = valemen
+
+    6535.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+23030 = {
+    name = Jasper
+    dynasty = 801011 # Mobrey
+	father = 23028
+    religion = the_seven
+    culture = valemen
+
+    6537.1.1 = { birth=yes }
+    6596.1.1 = { death=yes }
+}
+
+23031 = {
+    name = Myles
+    dynasty = 801011 # Mobrey
+	father = 23029
+    religion = the_seven
+    culture = valemen
+
+    6552.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+
+23032 = {
+    name = Melessa
+    dynasty = 801011 # Mobrey
+	father = 23029
+    religion = the_seven
+    culture = valemen
+	female = yes
+    6555.1.1 = { birth=yes }
+    6614.1.1 = { death=yes }
+}

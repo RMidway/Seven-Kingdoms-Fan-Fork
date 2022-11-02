@@ -1,0 +1,22 @@
+# c_green_fork
+
+# County Title
+title = c_green_fork
+
+# Settlements
+max_settlements = 4
+
+b_green_fork = castle
+#b_suilly = city
+#b_bresnay = temple
+#b_green_fork_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

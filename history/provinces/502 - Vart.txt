@@ -1,0 +1,21 @@
+# c_vart
+
+# County Title
+title = c_vart
+
+# Settlements
+max_settlements = 3
+
+b_vart = castle
+#b_carqueja = city
+#b_vart_2 = temple
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = desert
+#History
+6300.1.1 = {
+	culture = stone_dornish
+    religion = the_seven
+}

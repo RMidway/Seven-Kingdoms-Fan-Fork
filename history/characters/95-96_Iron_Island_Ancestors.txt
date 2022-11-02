@@ -1,0 +1,830 @@
+#########################
+### Iron Island Kings ###
+#########################
+
+5152 = {
+    name = Harras
+    dynasty = 311
+    religion = drowned_god
+    culture = iron_islander
+    trait = skilled_tactician
+    trait = drunkard
+    trait = wroth
+    trait = cynical
+    trait = lustful
+    trait = hedonist
+    trait = brave
+    father = 9519
+    6503.1.1 = { birth=yes }
+	6530.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = maimed
+			}
+		}
+	create_bloodline = {
+			type = bloodline_hoare
+			has_dlc = "Holy Fury"
+	}
+	give_nickname= nick_stump_hand
+}
+    6560.1.1 = { death=yes }
+}
+
+5153 = {
+    name = "Rognar"
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9500
+    dynasty = 321
+    trait = dueling_master
+    trait = tough_soldier
+    trait = zealous
+    trait = paranoid
+    trait = just
+    trait = chaste
+    trait = ambitious
+    
+    6501.1.1 = { birth=yes }
+    6532.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 5152
+		}
+	}
+}
+
+9500 = {
+    name = "Line of Urron"
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9501
+    dynasty = 321
+    #occluded = yes
+    5500.1.1 = { birth=yes }
+    6517.1.1 = { death=yes }
+}
+
+9501 = {
+    name = "Urron" # Urron Redhand
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9502
+    dynasty = 321
+    trait = heartless
+    trait = sociopath
+    trait = dueling_legend
+    trait = strong
+    trait = elusive_shadow
+    trait = deceitful
+    5450.1.1 = { birth=yes }
+    5480.1.1 = { give_nickname=nick_redhand }
+    5512.1.1 = { death=yes }
+}
+
+9502 = {
+    name = "Urragon" # Urron's father
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9503
+    dynasty = 321
+    5400.1.1 = { birth=yes }
+    5480.1.1 = { death=yes }
+}
+
+9503 = {
+    name = "Torgon" # Urragon's father "the Latecomer"
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9504
+    dynasty = 321
+    trait = wroth
+    trait = zealous
+    trait = brilliant_strategist
+    trait = cruel
+    trait = dueling_master
+    5367.1.1 = { birth=yes }
+    5405.1.1 = { give_nickname=nick_the_latecomer }
+    5435.1.1 = { death=yes }
+}
+
+9504 = {
+    name = "Urragon" # "the Latecomer's" father
+    father = 9525
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 321
+    
+    5349.1.1 = { birth=yes }
+    5380.1.1 = { give_nickname=nick_the_bald }
+    5404.1.1 = { death=yes }
+}
+
+9505 = {
+    name = "Euron" # Torgon's brother
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9504
+    dynasty = 321
+    5369.1.1 = { birth=yes }
+    5404.1.1 = { death = {
+			death_reason = death_murder
+			killer = 9509
+		}
+	}
+}
+
+9506 = {
+    name = "Quellon" # Torgon's brother
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9504
+    dynasty = 321
+    5370.1.1 = { birth=yes }
+    5404.1.1 = { death = {
+			death_reason = death_murder
+			killer = 9509
+		}
+	}
+}
+
+9507 = {
+    name = "Balon" # Torgon's brother
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9504
+    dynasty = 321
+    5371.1.1 = { birth=yes }
+    5404.1.1 = { death = {
+			death_reason = death_murder
+			killer = 9509
+		}
+	}
+}
+
+9508 = {
+    name = "Theon" # Torgon's brother
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9504
+    dynasty = 321
+    5373.1.1 = { birth=yes }
+    5404.1.1 = { death = {
+			death_reason = death_murder
+			killer = 9509
+		}
+	}
+}
+
+#### Goodbrother ####
+
+9509 = {
+    name = "Urrathon" # Badbrother
+    
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 307
+    trait = heartless
+    trait = wroth
+    trait = misguided_warrior
+    trait = dueling_skilled
+    trait = dishonourable
+    
+    5357.1.1 = { birth=yes }
+    5404.1.1 = { give_nickname=nick_badbrother }
+    5405.1.1 = { death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+9510 = {
+    name = "Line of Urrathon IV"
+    father = 9509
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 307
+    #occluded = yes
+    5404.1.1 = { birth=yes }
+    6503.1.1 = { death=yes }
+}
+
+#### Blacktyde ####
+
+9511 = {
+    name = "Line of Joron I"
+    father = 9512
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 310
+    #occluded = yes
+    5000.1.1 = { birth=yes }
+    6531.1.1 = { death=yes } #changed from 5380 to match chars 837-839#
+}
+
+9512 = {
+    name = "Joron"
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 310
+	trait = impaler
+    trait = cruel
+    trait = lustful
+    trait = tough_soldier
+    trait = dueling_expert
+    trait = hedonist
+    4929.1.1 = { birth=yes }
+    4978.1.1 = { give_nickname=nick_maidensbane }
+    5000.1.1 = { death=yes }
+}
+
+#### Harlaw ####
+
+9513 = {
+    name = "Line of Harron"
+    father = 9514
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 304
+    #occluded = yes
+    4600.1.1 = { birth=yes }
+    6550.1.1 = { death=yes }
+}
+
+9514 = {
+    name = "Harron"
+    father = 9515
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 304
+    4548.1.1 = { birth=yes }
+    4600.1.1 = { death=yes }
+}
+
+9515 = {
+    name = "Erich"
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 304
+	father=41111
+    4522.1.1 = { birth=yes }
+    4580.1.1 = { death=yes }
+}
+
+#### Greyjoy ####
+
+9516 = {
+    name = "Line of Balon V"
+    father = 9517
+    religion = drowned_god
+    culture = greyjoyfm
+    dynasty = 300
+    #occluded = yes
+    4100.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = pykem
+		}
+	}
+    6550.1.1 = { death=yes } #changed from 6532 to match chars 800 & 879
+}
+
+9517 = {
+    name = "Balon"
+    father = 9518
+    religion = drowned_god
+    culture = greyjoyfm
+    dynasty = 300
+    4038.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = pykem
+		}
+	}
+    4100.1.1 = { death=yes }
+}
+
+9518 = {
+    name = "Theon"
+    father = 9521
+    religion = drowned_god
+    culture = greyjoyfm
+    dynasty = 300
+    4010.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = pykem
+		}
+	}
+    4070.1.1 = { death=yes }
+}
+
+#### Qhored I ####
+
+9519 = {
+    name = "Line of Qhored I"
+    father = 9520
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 311
+    #occluded = yes
+    3900.1.1 = { birth=yes }
+    6503.1.1 = { death=yes }
+}
+
+9520 = {
+    name = "Qhored"
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 311
+    3810.1.1 = { birth=yes}
+    3900.1.1 = { death=yes }
+}
+
+#### Greyjoy ####
+
+9521 = {
+    name = "Line of Loron"
+    father = 9522
+    religion = drowned_god
+    culture = greyjoyfm
+    dynasty = 300
+    #occluded = yes
+    3600.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = pykem
+		}
+	}
+    4070.1.1 = { death=yes }
+}
+
+9522 = {
+    name = "Loron"
+    religion = drowned_god
+    culture = greyjoyfm
+    dynasty = 300
+    trait = strong
+    3511.1.1 = { 
+		birth=yes
+		effect_even_if_dead = {
+			culture = pykem
+		}
+		create_bloodline = {
+			type = bloodline_greyjoy
+			has_dlc = "Holy Fury"
+		}
+	}
+    3590.1.1 = { give_nickname=nick_the_old_kraken }
+    3600.1.1 = { death=yes }
+}
+
+#### Drumm ####
+
+9523 = {
+    name = "Line of Regnar"
+    father = 9524
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 308
+    #occluded = yes
+    3100.1.1 = { birth=yes }
+    6540.1.1 = { death=yes }
+}
+
+9524 = {
+    name = "Regnar"
+
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 308
+
+    3038.1.1 = { birth=yes }
+    3060.1.1 = { give_nickname=nick_raven_feeder }
+    3100.1.1 = { death=yes }
+}
+
+#### Greyiron ####
+
+9525 = {
+    name = "Line of Urathon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9546
+    dynasty = 321
+    #occluded = yes
+    3506.1.1 = { 
+		birth=yes
+		create_bloodline = {
+			type = bloodline_greyiron
+			has_dlc = "Holy Fury"
+		}
+	}
+    5349.1.1 = { death=yes }
+}
+
+9526 = {
+    name = "Erich" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9528
+    dynasty = 321
+    
+    3038.1.1 = { birth=yes }
+    3090.1.1 = { death=yes }
+}
+
+9527 = {
+    name = "Euron" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9528
+    dynasty = 321
+    
+    3040.1.1 = { birth=yes }
+    3096.1.1 = { death=yes }
+}
+
+9528 = {
+    name = "Urras" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9529
+    dynasty = 321
+    trait = dueling_legend
+    trait = strong
+    trait = brilliant_strategist
+    trait = brave
+    trait = wroth
+    trait = zealous
+    trait = proud
+    trait = diligent
+    3000.1.1 = { birth=yes }
+    3030.1.1 = { give_nickname=nick_ironfoot }
+    3062.1.1 = { death=yes }
+}
+
+9529 = {
+    name = "The Grey King" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    trait = dueling_legend
+    trait = strong
+    trait = brilliant_strategist
+    trait = brave
+    trait = wroth
+    trait = zealous
+    trait = proud
+    trait = diligent
+    trait = genius
+    trait = tall
+    2093.1.1 = { birth=yes }
+    3100.11.2 = {
+		death = { death_reason = death_missing }
+	} 
+}
+
+9530 = {
+    name = "Theon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9527
+    dynasty = 321
+    
+    3062.1.1 = { birth=yes }
+    3124.1.1 = { death=yes }
+}
+
+9531 = {
+    name = "Theon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9530
+    dynasty = 321
+    
+    3080.1.1 = { birth=yes }
+    3141.1.1 = { death=yes }
+}
+
+9532 = {
+    name = "Erich" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9531
+    dynasty = 321
+    
+    3104.1.1 = { birth=yes }
+    3160.1.1 = { death=yes }
+}
+
+9533 = {
+    name = "Erich" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9532
+    dynasty = 321
+    
+    3124.1.1 = { birth=yes }
+    3170.1.1 = { death=yes }
+}
+
+9534 = {
+    name = "Balon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9533
+    dynasty = 321
+    
+    3150.1.1 = { birth=yes }
+    3212.1.1 = { death=yes }
+}
+
+9535 = {
+    name = "Urragon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9534
+    dynasty = 321
+    
+    3177.1.1 = { birth=yes }
+    3231.1.1 = { death=yes }
+}
+
+9536 = {
+    name = "Urragon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9535
+    dynasty = 321
+    
+    3200.1.1 = { birth=yes }
+    3258.1.1 = { death=yes }
+}
+
+9537 = {
+    name = "Balon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9536
+    dynasty = 321
+    
+    3222.1.1 = { birth=yes }
+    3280.1.1 = { death=yes }
+}
+
+9538 = {
+    name = "Balon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9537
+    dynasty = 321
+    
+    3250.1.1 = { birth=yes }
+    3310.1.1 = { death=yes }
+}
+
+9539 = {
+    name = "Balon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9538
+    dynasty = 321
+    
+    3275.1.1 = { birth=yes }
+    3330.1.1 = { death=yes }
+}
+
+9540 = {
+    name = "Erich" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9539
+    dynasty = 321
+    
+    3300.1.1 = { birth=yes }
+    3370.1.1 = { death=yes }
+}
+
+9541 = {
+    name = "Erich" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9540
+    dynasty = 321
+    
+    3321.1.1 = { birth=yes }
+    3390.1.1 = { death=yes }
+}
+
+9542 = {
+    name = "Rognar" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9541
+    dynasty = 321
+    
+    3345.1.1 = { birth=yes }
+    3400.1.1 = { death=yes }
+}
+
+9543 = {
+    name = "Euron" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9542
+    dynasty = 321
+    
+    3370.1.1 = { birth=yes }
+    3426.1.1 = { death=yes }
+}
+
+9544 = {
+    name = "Urrathon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9543
+    dynasty = 321
+    
+    3396.1.1 = { birth=yes }
+    3449.1.1 = { death=yes }
+}
+
+9545 = {
+    name = "Urrathon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9544
+    dynasty = 321
+    
+    3420.1.1 = { birth=yes }
+    3489.1.1 = { death=yes }
+}
+
+9546 = {
+    name = "Urrathon" 
+    
+    religion = drowned_god
+    culture = iron_islander
+    father = 9545
+    dynasty = 321
+    
+    3446.1.1 = { birth=yes }
+    3507.1.1 = { death=yes }
+}
+
+# Kings under Qhored's reign in 7299  #
+
+# House Volmark ruled the Outer Islands
+9547 = {
+    name = Harwyn
+    dynasty = 312
+    religion = drowned_god
+    culture = harlawn
+	trait = dueling_adept
+	father=9551
+	7269.6.14={ birth=yes }
+	7298.7.21={ death=yes }
+}
+9548={
+	name=Maron
+	dynasty=312
+	culture=harlawn 
+	religion=drowned_god 
+	father=9547
+	7292.6.17={ birth=yes }
+	7362.9.13={ death=yes }
+}
+9549={
+	name=Yanilda
+	female=yes
+	dynasty=312
+	culture=harlawn 
+	religion=drowned_god
+	father=9547
+	7295.10.4={ birth=yes }
+	7365.9.3={ death=yes }
+}
+9550={
+	name=Dagon
+	dynasty=312
+	culture=harlawn 
+	religion=drowned_god 
+	father=9547
+	7297.11.12={ birth=yes }
+	7367.5.13={ death=yes }
+}
+9551={
+	name="Line of Qhorin"
+	dynasty=312
+	culture=harlawn 
+	religion=drowned_god 
+	#occluded=yes
+	father=849
+	6570.1.1={ birth=yes }
+	7298.1.1={ death=yes }
+}
+9552 = {
+    name = "Qhored"
+    religion = drowned_god
+    culture = iron_islander
+    dynasty = 311
+    trait = cruel
+    trait = dueling_legend
+    martial = 20
+    trait = ambitious
+    trait = deceitful
+    trait = strong
+    trait = quick
+    trait = lustful
+    trait = brave
+    trait = diligent
+    father = 9553
+    7259.1.1 = { birth=yes }
+    7299.1.1 = { give_nickname=nick_the_cruel }
+    7329.1.1 = { death=yes }
+}
+9553 = {
+    name = "Line of Qarllon"
+    dynasty = 311
+    father = 846
+    religion = drowned_god
+    culture = iron_islander
+	#occluded = yes
+    6575.1.1 = { birth=yes }
+    7270.1.1 = { death=yes }
+}
+# Farwynd of Sealskin Point #
+9554 = {
+    name = "Line of Elderion"
+    dynasty = 309
+    father = 843
+    religion = storm_god
+    culture = iron_islander
+	#occluded = yes
+    6619.1.1 = { birth=yes }
+    7299.1.1 = { death=yes }
+}
+9555={
+	name=Kenned
+	dynasty=309
+	culture=iron_islander 
+	religion=storm_god
+	father=9554
+	7265.7.13={ birth=yes }
+	7334.2.1={ death=yes }
+}
+#Blacktyde 7299
+9560 = {
+    name = "Line of Qhored Blacktyde"
+    dynasty = 310
+    religion = drowned_god
+    culture = iron_islander
+    #occluded = yes
+	father = 838
+    6600.1.1 = { birth=yes }
+    7299.1.1 = { death=yes }
+}
+9561={
+	name=Torgon
+	dynasty=310
+	culture=iron_islander 
+	religion=drowned_god
+	father=9560
+	7275.1.1={ birth=yes }
+	7344.1.1={ death=yes }
+}

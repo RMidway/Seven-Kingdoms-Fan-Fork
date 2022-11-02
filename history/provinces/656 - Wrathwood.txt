@@ -1,0 +1,22 @@
+# c_wrathwood
+
+# County Title
+title = c_wrathwood
+
+# Settlements
+max_settlements = 4
+
+b_wrathwood = castle
+b_tundersleben = city
+#b_netzbach = temple
+#b_wrathwood_2 = castle
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

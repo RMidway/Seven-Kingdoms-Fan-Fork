@@ -1,0 +1,1928 @@
+#############
+# ID RANGE  #
+# 7800-8099 #
+#############
+
+###################
+### House Arryn ###
+###################
+
+12 = {
+    name = Artys
+    dynasty = 180 # Arryn
+    religion = the_seven
+    dna="000d0000000"
+    properties="0e0a0c00000000"
+    culture = andal
+    martial = 6
+    trait = tough_soldier
+    trait = dueling_master
+    trait = brave
+    trait = ambitious
+    trait = just
+    trait = diligent
+    trait = patient
+    trait = fair
+    trait = quick
+   
+    6400.1.1 = { birth=yes }
+	6416.1.1 = {
+		give_nickname=nick_the_falconknight
+		create_bloodline = {
+			type = bloodline_arryn
+			has_dlc = "Holy Fury"
+		}
+	}
+    6459.1.1 = { death=yes }
+}
+
+47 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 12
+    trait = quick
+    trait = fair
+    religion = the_seven
+    culture = andal
+
+    6416.1.1 = { birth=yes }
+    6467.1.1 = { death=yes }
+}
+7800 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 47
+    religion = the_seven
+    culture = valemen
+
+    6437.1.1 = { birth=yes }
+    6470.1.1={
+		death = {
+			death_reason = death_battle
+ 			killer = 7840
+		}
+	}
+}
+
+7801 = {
+    name = Roland # Began constructing the Eyrie
+    dynasty = 180 # Arryn
+    father = 47
+    religion = the_seven
+    culture = valemen
+
+    6439.1.1 = { birth=yes }
+    6497.1.1={
+		death = {
+			death_reason = death_battle
+ 			killer = 7840
+		}
+	}
+}
+
+7802 = {
+    name = Artos 
+    dynasty = 180 # Arryn
+    father = 7801
+    religion = the_seven
+    culture = valemen
+
+    6459.1.1 = { birth=yes }
+    6520.1.1 = { death=yes }
+}
+
+7803 = {
+    name = Osric 
+    dynasty = 180 # Arryn
+    father = 7802
+    religion = the_seven
+    culture = valemen
+    trait = honourable
+    trait = charismatic_negotiator
+    trait = knight
+    trait = just
+    trait = charitable
+    trait = patient
+    trait = slothful 
+    fertility = -10 # makes him infertile!
+    health = 7
+
+    6509.1.1 = { birth=yes }
+    6535.1.1={ add_spouse=23018 } # Alyce Hardyng
+    6564.1.1 = { effect = { give_minor_title = title_generic_ser } }
+	6566.1.1 = { effect = { set_character_flag = osric_the_old } }
+    6566.1.1 = {
+		raise_levies = { 
+			location = 1069 # Gates of The Moon
+		    force_mult = 1.25
+	}
+}
+	6566.1.1 = { wealth = 406}
+	6566.4.1 = { effect = { character_event = { id = tsk.0145 } } }
+	
+	6567.1.1 = {
+		raise_levies = { 
+			dismiss = yes
+			location = 1069 # Gates of The Moon
+		    force_mult = 1.5
+	}
+}
+    6567.1.1 = { death=yes }
+}
+
+7804 = {
+    name = Roland
+    dynasty = 180 # Arryn
+    father = 7803
+    mother = 23018
+    martial = 6
+    trait = misguided_warrior
+    trait = wroth
+    trait = proud
+    trait = dueling_skilled
+    trait = ambitious
+    trait = lustful
+    trait = knight
+    religion = the_seven
+    culture = valemen
+    fertility = -0.25 # Traits raise it to 0.1
+    6549.1.1 = { birth=yes }
+	6566.1.1 = { effect = { set_character_flag = roland_the_bright } }
+    6570.1.1={ 
+		death = {
+			death_reason = death_battle
+			killer = 605
+		}
+	}
+}
+
+7805 = {
+    name = Robin 
+    dynasty = 180 # Arryn
+    father = 7803
+    mother = 23018
+    trait = fortune_builder
+    trait = patient
+    trait = kind
+    trait = just
+    stewardship = 6
+    trait = temperate
+    trait = honest
+    trait = dueling_adept
+    trait = knight
+    religion = the_seven
+    culture = valemen
+
+    6550.1.1 = { birth=yes }
+    6564.1.1 = { effect = { give_minor_title = title_generic_ser } }
+	6566.1.1={ add_spouse=772 }
+    6600.1.1 = { death=yes }
+}
+
+7873 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 7805
+    religion = the_seven
+    culture = valemen
+    6570.1.1 = { birth=yes }
+    6628.1.1 = { death=yes }
+}
+
+7874 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 7873
+    religion = the_seven
+    culture = valemen
+    6600.1.1 = { birth=yes }
+    6662.1.1 = { death=yes }
+}
+
+7875 = {
+    name = Hugh
+    dynasty = 180 # Arryn
+    father = 7874
+    religion = the_seven
+    culture = valemen
+    6622.1.1 = { birth=yes }
+    6683.1.1 = { death=yes }
+}
+
+7846 = {
+    name = Hugo
+    dynasty = 180 # Arryn
+    father = 7875
+    religion = the_seven
+    culture = valemen
+    6645.1.1 = { birth=yes }
+    6710.1.1 = { death=yes }
+}
+
+7847 = {
+    name = Artos
+    dynasty = 180 # Arryn
+    father = 7846
+    religion = the_seven
+    culture = valemen
+    6666.1.1 = { birth=yes }
+    6730.1.1 = { death=yes }
+}
+
+7848 = {
+    name = Artos
+    dynasty = 180 # Arryn
+    father = 7847
+    religion = the_seven
+    culture = valemen
+    6700.1.1 = { birth=yes }
+    6752.1.1 = { death=yes }
+}
+
+7849 = {
+    name = Alester
+    dynasty = 180 # Arryn
+    father = 7848
+    religion = the_seven
+    culture = valemen
+    6724.1.1 = { birth=yes }
+    6800.1.1 = { death=yes }
+}
+
+7850 = {
+    name = Artys
+    dynasty = 180 # Arryn
+    father = 7849
+    religion = the_seven
+    culture = valemen
+    6750.1.1 = { birth=yes }
+    6811.1.1 = { death=yes }
+}
+
+7851 = {
+    name = Alester
+    dynasty = 180 # Arryn
+    father = 7850
+    religion = the_seven
+    culture = valemen
+    6777.1.1 = { birth=yes }
+    6841.1.1 = { death=yes }
+}
+
+7852 = {
+    name = Alester
+    dynasty = 180 # Arryn
+    father = 7851
+    religion = the_seven
+    culture = valemen
+    6800.1.1 = { birth=yes }
+    6862.1.1 = { death=yes }
+}
+
+7853 = {
+    name = Artos
+    dynasty = 180 # Arryn
+    father = 7852
+    religion = the_seven
+    culture = valemen
+    6823.1.1 = { birth=yes }
+    6890.1.1 = { death=yes }
+}
+
+7854 = {
+    name = Mathos
+    dynasty = 180 # Arryn
+    father = 7853
+    religion = the_seven
+    culture = valemen
+    6850.1.1 = { birth=yes }
+    6912.1.1 = { death=yes }
+}
+
+7855 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 7854
+    religion = the_seven
+    culture = valemen
+    6875.1.1 = { birth=yes }
+    6935.1.1 = { death=yes }
+}
+
+7856 = {
+    name = Mathos
+    dynasty = 180 # Arryn
+    father = 7855
+    religion = the_seven
+    culture = valemen
+    6900.1.1 = { birth=yes }
+    6965.1.1 = { death=yes }
+}
+
+7857 = {
+    name = Mathos
+    dynasty = 180 # Arryn
+    father = 7856
+    religion = the_seven
+    culture = valemen
+    6922.1.1 = { birth=yes }
+    6980.1.1 = { death=yes }
+}
+
+7858 = {
+    name = Robar
+    dynasty = 180 # Arryn
+    father = 7857
+    religion = the_seven
+    culture = valemen
+    6949.1.1 = { birth=yes }
+    7012.1.1 = { death=yes }
+}
+
+7859 = {
+    name = Robar
+    dynasty = 180 # Arryn
+    father = 7858
+    religion = the_seven
+    culture = valemen
+    6970.1.1 = { birth=yes }
+    7024.1.1 = { death=yes }
+}
+
+7860 = {
+    name = Ronnel
+    dynasty = 180 # Arryn
+    father = 7859
+    religion = the_seven
+    culture = valemen
+    6996.1.1 = { birth=yes }
+    7054.1.1 = { death=yes }
+}
+
+7861 = {
+    name = Osgood
+    dynasty = 180 # Arryn
+    father = 7860
+    religion = the_seven
+    culture = valemen
+    7020.1.1 = { birth=yes }
+    7110.1.1 = { death=yes }
+}
+
+7862 = {
+    name = Oswin
+    dynasty = 180 # Arryn
+    father = 7861
+    religion = the_seven
+    culture = valemen
+    7075.1.1 = { birth=yes }
+    7140.1.1 = { death=yes }
+}
+
+7863 = {
+    name = Oswell
+    dynasty = 180 # Arryn
+    father = 7862
+    religion = the_seven
+    culture = valemen
+    7100.1.1 = { birth=yes }
+    7157.1.1 = { death=yes }
+}
+
+7864 = {
+    name = Jonos
+    dynasty = 180 # Arryn
+    father = 7863
+    religion = the_seven
+    culture = valemen
+    7124.1.1 = { birth=yes }
+    7190.1.1 = { death=yes }
+}
+
+7865 = {
+    name = Artys
+    dynasty = 180 # Arryn
+    father = 7864
+    religion = the_seven
+    culture = valemen
+    7150.1.1 = { birth=yes }
+    7211.1.1 = { death=yes }
+}
+
+7866 = {
+    name = Artos
+    dynasty = 180 # Arryn
+    father = 7865
+    religion = the_seven
+    culture = valemen
+    7175.1.1 = { birth=yes }
+    7234.1.1 = { death=yes }
+}
+
+7867 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 7866
+    religion = the_seven
+    culture = valemen
+    7200.1.1 = { birth=yes }
+    7262.1.1 = { death=yes }
+}
+
+7868 = {
+    name = Alester
+    dynasty = 180 # Arryn
+    father = 7867
+    religion = the_seven
+    culture = valemen
+    7221.1.1 = { birth=yes }
+    7280.1.1 = { death=yes }
+}
+
+7869 = {
+    name = Mathos
+    dynasty = 180 # Arryn
+    father = 7868
+    religion = the_seven
+    culture = valemen
+    trait = dueling_skilled
+	7250.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+7870 = {
+    name = Artos
+    dynasty = 180 # Arryn
+    father = 7869
+    religion = the_seven
+    culture = valemen
+    trait = dueling_expert
+	7275.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+
+7871 = {
+    name = Osric
+    dynasty = 180 # Arryn
+    father = 7869
+    religion = the_seven
+    culture = valemen
+    trait = dueling_expert
+	7277.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+
+7872 = {
+    name = Sharra
+    dynasty = 180 # Arryn
+    father = 7869
+    female = yes
+	religion = the_seven
+    culture = valemen
+    trait = dueling_expert
+	7279.1.1 = { birth=yes }
+    7332.1.1 = { death=yes }
+}
+#####################
+### House Corbray ###
+#####################
+
+14 = {
+    name = Qyle
+    dynasty = 182 # Corbray
+    father = 5423
+    religion = the_seven
+    culture = lowland_valemen
+    diplomacy = 7
+    trait = dueling_expert
+    trait = grey_eminence
+    trait = kind
+    trait = charitable
+    trait = just
+    trait = honest
+    trait = trusting
+    6387.1.1 = { birth=yes }
+    6416.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 4
+		}
+	}
+}
+
+152 = {
+    name = Jaime
+    dynasty = 182 # Corbray
+    father = 5423
+    religion = the_seven
+    culture = lowland_valemen
+    martial = 8
+    trait = dueling_legend
+    trait = tough_soldier
+    trait = just
+    trait = brave
+    trait = patient
+    trait = diligent
+    trait = content
+    trait = cynical
+    6388.1.1 = { birth=yes }
+    6452.1.1 = { death=yes }
+}
+
+7807 = {
+    name = Qyle
+    dynasty = 182 # Corbray
+    father = 152
+    religion = the_seven
+    culture = lowland_valemen
+    6410.1.1 = { birth=yes }
+    6471.1.1 = { death=yes }
+}
+7808 = {
+    name = Jaime
+    dynasty = 182 # Corbray
+    father = 7807
+    religion = the_seven
+    culture = lowland_valemen
+    6440.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+7809 = {
+    name = Corwyn
+    dynasty = 182 # Corbray
+    father = 7808
+    religion = the_seven
+    culture = lowland_valemen
+    6469.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+}
+
+7810 = {
+    name = Gwayne
+    dynasty = 182 # Corbray
+    father = 7809
+    religion = the_seven
+    culture = lowland_valemen
+    6500.1.1 = { birth=yes }
+    6561.1.1 = { death=yes }
+}
+
+7811 = {
+    name = Lyn
+    dynasty = 182 # Corbray
+    father = 7810
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_master
+    6521.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+7812 = {
+    name = Jaime
+    dynasty = 182 # Corbray
+    father = 7811
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_master
+    6550.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+7813 = {
+    name = Meredyth
+    dynasty = 182 # Corbray
+    female = yes
+    father = 7811
+    religion = the_seven
+    culture = lowland_valemen
+    6552.1.1 = { birth=yes }
+    6616.1.1 = { death=yes }
+}
+7814 = {
+    name = Gwayne
+    dynasty = 182 # Corbray
+    father = 7811
+    religion = the_seven
+    culture = lowland_valemen
+    6554.1.1 = { birth=yes }
+    6616.1.1 = { death=yes }
+}
+
+###################
+### House Royce ###
+###################
+
+4 = {
+    name = Robar # King of Mountain and Vale
+    dynasty = 172 # Royce
+    
+    father = 5125
+    dna="0dce00i0f00"
+    properties="0h0abk00000000"
+
+    martial = 6
+    trait = skilled_tactician
+    trait = dueling_master
+    trait = strong
+    trait = brave
+    trait = wroth
+    trait = zealous
+    trait = ambitious
+    religion = old_gods
+    culture = bronzemen
+    
+    6400.1.1 = { birth=yes }
+    6421.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 12
+		}
+	}
+}
+
+36 = {
+    name = Yorwyck # His brother
+    dynasty = 172 # Royce
+    father = 5125
+    religion = the_seven
+    culture = bronzemen
+    6401.1.1 = { birth=yes }
+    6459.1.1 = { death=yes }
+}
+7815 = {
+    name = Jon # His brother
+    dynasty = 172 # Royce
+    father = 36
+    religion = the_seven
+    culture = bronzemen
+    6429.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+7816 = {
+    name = Andar
+    dynasty = 172 # Royce
+    father = 7815
+    religion = the_seven
+    culture = bronzemen
+    6450.1.1 = { birth=yes }
+    6512.1.1 = { death=yes }
+}
+7817 = {
+    name = Andar
+    dynasty = 172 # Royce
+    father = 7816
+    religion = the_seven
+    culture = bronzemen
+    6475.1.1 = { birth=yes }
+    6541.1.1 = { death=yes }
+}
+7818 = {
+    name = Waymar
+    dynasty = 172 # Royce
+    father = 7817
+    religion = the_seven
+    culture = bronzemen
+    6502.1.1 = { birth=yes }
+    6564.1.1 = { death=yes }
+}
+7819 = {
+    name = Waymar
+    dynasty = 172 # Royce
+    father = 7818
+    religion = the_seven
+    culture = bronzemen
+    6530.1.1 = { birth=yes }
+    6566.1.1={
+		death = {
+			death_reason = death_execution_disembowelment
+			killer = 7804
+		}
+	}
+}
+7820 = {
+    name = Andar
+    dynasty = 172 # Royce
+    father = 7818
+    religion = the_seven
+    culture = bronzemen
+    6532.1.1 = { birth=yes }
+    6566.1.1={
+		death = {
+			death_reason = death_execution_hanging
+			killer = 7804
+		}
+	}
+}
+7821 = {
+    name = Robar
+    dynasty = 172 # Royce
+    father = 7818
+    religion = the_seven
+    culture = bronzemen
+    6533.1.1 = { birth=yes }
+    6566.1.1={
+		death = {
+			death_reason = death_execution_hanging
+			killer = 7804
+		}
+	}
+}
+7822 = {
+    name = Andar
+    dynasty = 172 # Royce
+    dna="kzbzplwtmjv"
+    properties="fofabc00000000"
+    father = 7821
+    religion = the_seven
+    culture = bronzemen
+    trait = kind
+    trait = just
+    trait = honest
+    trait = humble
+	trait = diligent
+    trait = charismatic_negotiator
+    trait = dueling_skilled
+    diplomacy = 6
+    6550.1.1 = { birth=yes }
+	6551.1.1 = { effect = { set_character_flag = andar_royce } }
+    6566.1.1 = {
+		raise_levies = { 
+			location = 1077 # Runestone
+		    force_mult = 1.75
+	}
+}
+	6566.1.1 = { wealth = 492}
+	
+	6569.1.1 = {
+		raise_levies = { 
+			dismiss = yes
+			location = 1077 # Runestone
+		    force_mult = 1.75
+	}
+}
+	6569.1.1={
+		death = {
+			death_reason = death_execution_hanging
+			killer = 7804
+		}
+	}
+		
+}
+7823 = {
+    name = Waymar
+    dynasty = 172 # Royce
+    father = 7819
+    religion = the_seven
+    culture = bronzemen
+    6550.1.1 = { birth=yes }
+    6566.1.1={
+		death = {
+			death_reason = death_execution_beheading
+			killer = 7804
+		}
+	}
+}
+7824 = {
+    name = Ysilla
+    dynasty = 172 # Royce
+    father = 7819
+    female = yes
+    religion = the_seven
+    culture = bronzemen
+    6551.1.1 = { birth=yes }
+    6566.1.1={
+		death = {
+			death_reason = death_execution_beheading
+			killer = 7804
+		}
+	}
+}
+7825 = {
+    name = Robar
+    dynasty = 172 # Royce
+    father = 7821
+    religion = the_seven
+    culture = bronzemen
+    health = 13
+    trait = depressed
+    trait = incapable
+    6549.1.1 = { birth=yes }
+    6615.1.1={ death=yes }
+}
+7826 = {
+    name = Mya
+    dynasty = 172 # Royce
+    female = yes
+    father = 7821
+    religion = the_seven
+    culture = bronzemen
+    6546.1.1 = { birth=yes }
+    6615.1.1={ death=yes }
+}
+
+7843 = {
+    name = Yohn
+    dynasty = 172 # Royce
+    father = 7818
+    religion = the_seven
+    culture = bronzemen
+    6534.1.1 = { birth=yes }
+    6566.1.1={
+		death = {
+			death_reason = death_execution_hanging
+			killer = 7804
+		}
+	}
+}
+7844 = {
+    name = Jon
+    dynasty = 172 # Royce
+    father = 7843
+    religion = the_seven
+    culture = bronzemen
+    martial = 7
+    trait = strong
+    trait = skilled_tactician
+    trait = dueling_master
+    trait = brave
+    trait = humble
+    trait = honest
+    trait = patient
+    trait = diligent
+    6550.1.1 = { birth=yes }
+    6615.1.1={ death=yes }
+}
+7845 = {
+    name = Yohn
+    dynasty = 172 # Royce
+    father = 7843
+    religion = the_seven
+    culture = bronzemen
+    trait = dueling_skilled
+    6552.1.1 = { birth=yes }
+    6615.1.1={ death=yes }
+}
+###############################
+### House Shett of Gulltown ###
+###############################
+
+90={
+	name="Osgood"
+	dynasty=166
+	father = 5509
+        dna="knoamjcfjda"
+	culture=bronzemen
+	religion=the_seven
+	martial = 6
+	trait = tough_soldier
+	trait = dueling_skilled
+	trait = brave
+	trait = ambitious
+	trait = wroth
+	trait = diligent
+	trait = just
+	
+	6382.1.1={birth=yes}
+	6410.1.1 = {add_spouse=69}
+	6412.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 5125
+		}
+	}
+}
+
+94={
+	name="Osgood"
+	dynasty=166
+	culture=bronzemen
+	religion=the_seven
+	father=90
+	mother=69
+
+	6411.1.1={birth=yes}
+	6427.1.1={
+		death = {
+			death_reason = death_missing
+		}
+	}
+}
+
+7898={
+	name="Waymar"
+	father=5514
+	dynasty=166
+	culture=bronzemen
+	religion=the_seven
+	martial=8
+    diplomacy=5
+    stewardship=3
+    intrigue=5
+    learning=5
+    trait="hedge_knight"
+    trait="skilled_tactician"
+    trait="dueling_master"
+    trait="brave"
+    trait="tall"
+    trait="proud"
+    trait="ambitious"
+
+	6511.1.1={birth=yes}
+	6563.1.1 = { effect = { give_minor_title = title_generic_ser } }
+	6565.1.1 = { give_nickname=nick_the_wanderer }
+	6566.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 7822
+		}
+	}
+}
+
+7899={
+name="Dywin"
+dynasty=166
+dna="affedhiaeag"
+culture=bronzemen
+religion=the_seven
+father=7898
+martial=6
+diplomacy=4
+stewardship=4
+intrigue=2
+learning=2
+trait="hedge_knight"
+trait="tough_soldier"
+trait="dueling_master"
+trait="brave"
+trait="shy"
+trait="humble"
+trait="paranoid"
+trait="just"
+6540.7.1={birth=yes}
+6565.1.1 = { effect = { give_minor_title = title_generic_ser } }
+6566.1.1={employer=7803}
+6628.1.21={death=yes}
+}
+
+################################
+### House Shett of Gulltower ###
+################################
+
+7900={
+	name="Ossifer"
+	dynasty=138
+	culture=bronzemen
+	religion=the_seven
+	father=7898
+	trait="dueling_master"
+    trait="brave"
+
+	6538.1.1={birth=yes}
+	6566.1.1={employer=7822}
+	6638.1.21={death=yes}
+}
+
+#####################
+### House Grafton ###
+#####################
+
+5 = {
+    name = Gerold
+    dynasty = 173 # Grafton
+    
+    religion = the_seven
+    culture = andal
+    trait = cynical
+	trait = cruel
+	trait = deceitful
+	trait = knight
+	trait = dueling_skilled
+	trait = midas_touched
+
+    6382.1.1 = { birth=yes }
+	6412.1.1 = {
+		create_bloodline = {
+			type = bloodline_grafton
+			has_dlc = "Holy Fury"
+		}
+	}
+    6450.1.1 = { death=yes }
+}
+
+69 = {
+    name = Marissa
+    dynasty = 173 # Grafton
+    female = yes
+    father = 5
+    
+    religion = the_seven
+    culture = lowland_valemen
+     
+    6395.1.1 = { birth=yes }
+    6469.1.1 = { death=yes }
+}
+
+7827 = {
+    name = Gerold
+    dynasty = 173 # Grafton
+    father = 5
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6400.1.1 = { birth=yes }
+    6467.1.1 = { death=yes }
+}
+7828 = {
+    name = Gerold
+    dynasty = 173 # Grafton
+    father = 7827
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6421.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+7829 = {
+    name = Gyles
+    dynasty = 173 # Grafton
+    father = 7828
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6448.1.1 = { birth=yes }
+    6509.1.1 = { death=yes }
+}
+7830 = {
+    name = Gyles
+    dynasty = 173 # Grafton
+    father = 7829
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6470.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+}
+7831 = {
+    name = Garth
+    dynasty = 173 # Grafton
+    father = 7830
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6500.1.1 = { birth=yes }
+    6563.1.1 = { death=yes }
+}
+7832 = {
+    name = Gerold
+    dynasty = 173 # Grafton
+    father = 7831
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6530.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+7833 = {
+    name = Gerold
+    dynasty = 173 # Grafton
+    father = 7832
+    religion = the_seven
+    culture = lowland_valemen
+    trait = dueling_skilled
+
+    6550.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+7834 = {
+    name = Lyrra
+    dynasty = 173 # Grafton
+    father = 7832
+    female = yes
+    religion = the_seven
+    culture = lowland_valemen
+    6551.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+7835 = {
+    name = Gyles
+    dynasty = 173 # Grafton
+    father = 7832
+    religion = the_seven
+    culture = lowland_valemen
+    6552.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+7836 = {
+    name = Osgood
+    dynasty = 173 # Grafton
+    father = 7832
+    religion = the_seven
+    culture = lowland_valemen
+    6555.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+#######################
+### Stone Crow Clan ###
+#######################
+
+21 = {
+    name = Haldor
+    dynasty = 189 
+    father = 7837
+    religion = old_gods
+    culture = mountain_clansmen
+	trait = dueling_expert
+    trait = tough_soldier
+    martial = 6
+    trait = wroth
+    trait = heartless
+    trait = impaler
+    trait = zealous
+    trait = strong
+    trait = lunatic
+    6545.1.1 = { birth=yes }
+    6614.1.1 = { death=yes }
+}
+
+22 = {
+    name = Shagga
+    dynasty = 189 
+    father = 21
+    religion = old_gods
+    culture = mountain_clansmen
+
+    6560.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+23 = {
+    name = Gunrid
+    dynasty = 189 
+    female = yes
+    father = 21
+    religion = old_gods
+    culture = mountain_clansmen
+
+    6563.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+7837 = {
+    name = Shagga
+    dynasty = 189 
+    father = 7838
+    religion = old_gods
+    culture = mountain_clansmen
+    6520.1.1 = { birth=yes }
+    6566.1.1 = { death=yes }
+}
+7838 = {
+    name = Dolf
+    dynasty = 189 
+    father = 7839
+    religion = old_gods
+    culture = mountain_clansmen
+    6500.1.1 = { birth=yes }
+    6549.1.1 = { death=yes }
+}
+7839 = {
+    name = Runbar
+    father = 7840
+    religion = old_gods
+    culture = mountain_clansmen
+    6475.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+}
+7840 = {
+    name = Rolbar
+    father = 7841
+    religion = old_gods
+    culture = mountain_clansmen
+    trait = dueling_expert
+    trait = skilled_tactician
+    trait = deceitful
+    trait = ambitious
+    trait = brave
+    6450.1.1 = { birth=yes }
+    6500.1.1 = { give_nickname=nick_the_red_eagle }
+    6510.1.1 = { death=yes }
+}
+7841 = {
+    name = Robar
+    father = 7842
+    religion = old_gods
+    culture = bronzemen
+    6419.1.1 = { birth=yes }
+    6470.1.1 = { death=yes }
+}
+7842 = {
+    name = Waymar
+    trait = dueling_skilled
+    religion = old_gods
+    culture = bronzemen
+    6380.1.1 = { birth=yes }
+    6421.1.1={
+		death = {
+			death_reason = death_battle
+ 			killer = 12
+		}
+	}
+}
+
+####################
+### House Coltin ###
+####################
+
+7893 = {
+    name = Kyle
+    religion = the_seven
+    culture = valemen
+    dynasty = 140
+    trait = dueling_skilled
+    6536.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+7894 = {
+    name = Petyr
+    religion = the_seven
+    father = 7893
+    dynasty = 140
+    culture = valemen
+    6556.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+7895 = {
+    name = Marissa
+    religion = the_seven
+    father = 7893
+    culture = valemen
+    dynasty = 140
+    female = yes
+    6559.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+############################
+### House Arryn Addition ###
+############################
+
+7890 = {
+    name = Elbert
+    dynasty = 180 # Arryn
+    father = 7802
+    religion = the_seven
+    culture = valemen
+    trait = dueling_skilled
+    6513.1.1 = { birth=yes }
+    6529.1.1 = { effect = { give_minor_title = title_generic_ser } }
+    6567.1.1 = { death=yes }
+}
+
+7891 = {
+    name = Denys
+    dynasty = 180 # Arryn
+    dna="beahe0jb000"
+    properties="le0d0k00000000"
+    martial = 7
+    father = 7890
+    trait = knight
+    trait = dueling_master
+    trait = fair
+    trait = tough_soldier
+    trait = humble
+    trait = honest
+    trait = brave
+    trait = kind
+	trait = celibate
+    religion = the_seven
+    culture = valemen
+
+    6537.1.1 = { birth=yes }
+    6553.1.1 = { effect = { give_minor_title = title_generic_ser } }
+    6592.1.1 = { death=yes }
+}
+
+# Sons of The Tree Clan #
+
+7901={
+	name=Mat
+	dynasty=141
+	dna="jldbpiemacn"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=proud 
+	trait=arbitrary 
+	trait=ambitious 
+	trait=kind 
+	6501.7.24={ birth=yes }
+	6522.1.1={ add_spouse=7911 }
+	6567.3.5={ death=yes }
+}
+7902={
+	name=Bael
+	dynasty=141
+	dna="jldkpfedicf"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=tough_soldier 
+	trait=honest 
+	trait=temperate 
+	trait=diligent 
+	trait=patient 
+	trait=paranoid 
+	trait=cruel 
+	trait=lisp 
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6527.11.3={ birth=yes }
+	6548.1.1={ add_spouse=7912 }
+	6601.4.15={ death=yes }
+}
+7903={
+	name=Allan
+	dynasty=141
+	dna="jlaigimmaim"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=6 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=5 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=celibate 
+	trait=kind 
+	trait=cruel 
+	trait=humble 
+	trait=deceitful 
+	trait=wounded 
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6529.1.21={ birth=yes }
+	6585.4.12={ death=yes }
+}
+7904={
+	name=Tym
+	dynasty=141
+	dna="dlampgemack"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=intricate_webweaver 
+	trait=gluttonous 
+	trait=greedy 
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6532.9.6={ birth=yes }
+	6595.2.23={ death=yes }
+}
+7905={
+	name=Brella
+	female=yes
+	dynasty=141
+	dna="nmdmpiomaci"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6535.4.9={ birth=yes }
+	6588.7.21={ death=yes }
+}
+7906={
+	name=Jonnela
+	female=yes
+	dynasty=141
+	dna="gadbpiemlcn"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6538.1.13={ birth=yes }
+	6616.8.12={ death=yes }
+}
+7907={
+	name=Ingiren
+	female=yes
+	dynasty=141
+	dna="imdkpidmacm"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6541.6.23={ birth=yes }
+	6608.9.7={ death=yes }
+}
+7908={
+	name=Hallis
+	dynasty=141
+	dna="jllbdheelob"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=4 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=6 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=greedy 
+	trait=cynical 
+	trait=cruel 
+	trait=deceitful 
+	trait=lustful 
+	trait=envious 
+	trait=possessed 
+	father=7901	#Mat
+	mother=7911	#Yarra
+	6545.3.18={ birth=yes }
+	6589.7.30={ death=yes }
+}
+7909={
+	name=Marl
+	dynasty=141
+	dna="hhdppfenfcf"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=8 
+	learning=5
+	trait=intricate_webweaver 
+	trait=poet 
+	trait=charitable 
+	trait=honest 
+	trait=envious 
+	trait=humble 
+	father=7902	#Bael
+	mother=7912	#Jez
+	6550.9.3={ birth=yes }
+	6614.10.20={ death=yes }
+}
+7910={
+	name=Bili
+	dynasty=141
+	dna="pkjjifeafcf"
+	culture=mountain_clansmen 
+	religion=old_gods
+	trait=diligent
+	trait=greedy 
+	trait=gluttonous 
+	father=7902	#Bael
+	mother=7912	#Jez
+	6554.5.8={ birth=yes }
+	6607.1.6={ death=yes }
+}
+7911={
+	name=Yarra
+	female=yes
+	culture=mountain_clansmen 
+	religion=old_gods
+	6501.7.24={ birth=yes }
+	6567.3.5={ death=yes }
+}
+7912={
+	name=Jez
+	female=yes
+	culture=mountain_clansmen 
+	religion=old_gods
+	6527.7.24={ birth=yes }
+	6601.3.5={ death=yes }
+}
+
+# Black Ears Clan #
+
+7913={
+	name=Aragr
+	dynasty=149
+	dna="fekgjajdanp"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=5 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=arbitrary 
+	trait=cruel 
+	trait=charitable 
+	trait=temperate 
+	6511.8.25={ birth=yes }
+	6529.1.1={ add_spouse=7921 }
+	6589.10.14={ death=yes }
+}
+7914={
+	name=Noll
+	dynasty=149
+	dna="fblgjaldgac"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=6 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=6 
+	learning=5
+	trait=martial_cleric 
+	trait=diligent 
+	trait=cynical 
+	trait=wounded 
+	father=7913	#Aragr
+	mother=7921	#Cassie
+	6531.5.25={ birth=yes }
+	6552.1.1={ add_spouse=7922 }
+	6577.12.18={ death=yes }
+}
+7915={
+	name=Steig
+	dynasty=149
+	dna="dejljgedann"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=5 
+	learning=8
+	trait=charismatic_negotiator
+	trait=poet 
+	trait=content 
+	trait=greedy 
+	trait=cruel 
+	father=7913	#Aragr
+	mother=7921	#Cassie
+	6535.9.26={ birth=yes }
+	6580.9.24={ death=yes }
+}
+7916={
+	name=Maege
+	female=yes
+	dynasty=149
+	dna="ldggjbmdadl"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7913	#Aragr
+	mother=7921	#Cassie
+	6540.5.17={ birth=yes }
+	6588.3.15={ death=yes }
+}
+7917={
+	name=Raymund
+	dynasty=149
+	dna="febgjdjkakp"
+	culture=mountain_clansmen 
+	religion=old_gods
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=honest 
+	trait=zealous 
+	trait=gregarious 
+	trait=greedy 
+	father=7913	#Aragr
+	mother=7921	#Cassie
+	6543.7.4={ birth=yes }
+	6589.8.2={ death=yes }
+}
+7918={
+	name=Bluebell
+	female=yes
+	dynasty=149
+	dna="fbopjelggao"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7914	#Noll
+	mother=7922	#Ygritte
+	6557.8.1={ birth=yes }
+	6613.4.2={ death=yes }
+}
+7919={
+	name=Dryk
+	dynasty=149
+	dna="fbnojnlnfhl"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7914	#Noll
+	mother=7922	#Ygritte
+	6561.5.8={ birth=yes }
+	6628.3.6={ death=yes }
+}
+7920={
+	name=Bells
+	female=yes
+	dynasty=149
+	dna="nblgjaldiaj"
+	culture=mountain_clansmen 
+	religion=old_gods
+	father=7914	#Noll
+	mother=7922	#Ygritte
+	6565.7.14={ birth=yes }
+	6620.12.24={ death=yes }
+}
+7921={
+	name=Cassie
+	female=yes
+	culture=mountain_clansmen 
+	religion=old_gods
+	6511.7.24={ birth=yes }
+	6589.3.5={ death=yes }
+}
+7922={
+	name=Ygritte
+	female=yes
+	culture=mountain_clansmen 
+	religion=old_gods
+	6531.7.24={ birth=yes }
+	6577.3.5={ death=yes }
+}
+
+# Cliften #
+
+7923={
+	name=Denys
+	dynasty=100
+	dna="bcokifhajlf"
+	culture=valemen 
+	religion=the_seven
+	martial=5 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=7 
+	learning=8
+	trait=midas_touched 
+	trait=zealous 
+	trait=gluttonous 
+	trait=chaste 
+	trait=deceitful 
+	trait=patient 
+	6507.1.14={ birth=yes }
+	6527.1.1={ add_spouse=7933 }
+	6576.9.20={ death=yes }
+}
+7924={
+	name=Wyman
+	dynasty=100
+	dna="dcokiffaifd"
+	culture=valemen 
+	religion=the_seven
+	martial=5 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=naive_appeaser 
+	trait=craven 
+	trait=envious 
+	trait=wroth 
+	trait=gluttonous 
+	trait=slothful 
+	father=7923	#Denys
+	mother=7933	#Ysilla
+	6529.1.18={ birth=yes }
+	6549.1.1={ add_spouse=7934 }
+	6576.1.30={ death=yes }
+}
+7925={
+	name=Rhonda
+	female=yes
+	dynasty=100
+	dna="phojifbhglo"
+	culture=valemen 
+	religion=the_seven
+	father=7923	#Denys
+	mother=7933	#Ysilla
+	6532.2.7={ birth=yes }
+	6589.2.26={ death=yes }
+}
+7926={
+	name=Pearse
+	dynasty=100
+	dna="ncokhcnajfo"
+	culture=valemen 
+	religion=the_seven
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	trait=tough_soldier 
+	trait=chaste 
+	trait=cruel 
+	trait=zealous 
+	trait=ambitious 
+	father=7923	#Denys
+	mother=7933	#Ysilla
+	6534.8.27={ birth=yes }
+	6579.10.2={ death=yes }
+}
+7927={
+	name=Damon
+	dynasty=100
+	dna="dcfgmfhpbll"
+	culture=valemen 
+	religion=the_seven
+	martial=4 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=7 
+	learning=5
+	trait=elusive_shadow 
+	trait=arbitrary 
+	trait=envious 
+	trait=wroth 
+	trait=gregarious 
+	trait=deceitful 
+	father=7923	#Denys
+	mother=7933	#Ysilla
+	6539.7.24={ birth=yes }
+	6611.7.17={ death=yes }
+}
+7928={
+	name=Ondrew
+	dynasty=100
+	dna="dcokjacdcfd"
+	culture=valemen 
+	religion=the_seven
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=4 
+	learning=6
+	trait=thrifty_clerk 
+	trait=envious 
+	trait=trusting 
+	trait=diligent 
+	trait=content 
+	trait=patient 
+	father=7924	#Wyman
+	mother=7934	#Gwin
+	6550.1.3={ birth=yes }
+	6613.6.30={ death=yes }
+}
+7929={
+	name=Gwayne
+	dynasty=100
+	dna="majkifeaged"
+	culture=valemen 
+	religion=the_seven
+	trait=craven 
+	father=7924	#Wyman
+	mother=7934	#Gwin
+	6554.4.14={ birth=yes }
+	6626.10.22={ death=yes }
+}
+7930={
+	name=Uthot
+	dynasty=100
+	dna="acgmimmmifh"
+	culture=valemen 
+	religion=the_seven
+	trait=lustful 
+	trait=humble
+	father=7924	#Wyman
+	mother=7934	#Gwin
+	6558.5.15={ birth=yes }
+	6603.2.14={ death=yes }
+}
+7931={
+	name=Eddison
+	dynasty=100
+	dna="dbokjfclifo"
+	culture=valemen 
+	religion=the_seven
+	trait=depressed 
+	father=7924	#Wyman
+	mother=7934	#Gwin
+	6559.5.3={ birth=yes }
+	6600.10.16={ death=yes }
+}
+7932={
+	name=Otho
+	dynasty=100
+	dna="klokiflkifm"
+	culture=valemen 
+	religion=the_seven
+	father=7924	#Wyman
+	6562.5.10={ birth=yes }
+	6615.7.29={ death=yes }
+}
+7933={
+	name=Ysilla
+	female=yes
+	culture=valemen
+	religion=the_seven
+	6507.7.24={ birth=yes }
+	6576.3.5={ death=yes }
+}
+7934={
+	name=Gwin
+	female=yes
+	culture=valemen 
+	religion=the_seven
+	6529.7.24={ birth=yes }
+	6576.3.5={ death=yes }
+}
+
+# Wingpass #
+
+7935={
+	name=Asmund
+	dynasty=101
+	dna="jhhjkopgigm"
+	culture=lowland_valemen 
+	religion=the_seven
+	martial=4 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=martial_cleric 
+	trait=mystic 
+	trait=wroth 
+	trait=greedy 
+	trait=shy 
+	trait=trusting 
+	trait=cruel 
+	trait=lunatic 
+	6532.2.24={ birth=yes }
+	6552.1.1={ add_spouse=7940 }
+	6586.4.1={ death=yes }
+}
+7936={
+	name=Criston
+	dynasty=101
+	dna="ahcdkopgcgm"
+	culture=lowland_valemen 
+	religion=the_seven 
+	trait=shy 
+	father=7935	#Asmund
+	mother=7940	#Ursula
+	6557.9.14={ birth=yes }
+	6629.4.7={ death=yes }
+}
+7937={
+	name=Denys
+	dynasty=101
+	dna="mbhjkopgigh"
+	culture=lowland_valemen 
+	religion=the_seven
+	father=7935	#Asmund
+	mother=7940	#Ursula
+	6560.9.18={ birth=yes }
+	6631.5.19={ death=yes }
+}
+7938={
+	name=Elonne
+	female=yes
+	dynasty=101
+	dna="mihjkgdgdgb"
+	culture=lowland_valemen 
+	religion=the_seven
+	father=7935	#Asmund
+	mother=7940	#Ursula
+	6561.5.12={ birth=yes }
+	6606.6.18={ death=yes }
+}
+7939={
+	name=Tim
+	dynasty=101
+	dna="jhhjkopojga"
+	culture=lowland_valemen 
+	religion=the_seven
+	father=7935	#Asmund
+	mother=7940	#Ursula
+	6564.11.23={ birth=yes }
+	6652.3.9={ death=yes }
+}
+7940={
+	name=Ursula
+	female=yes
+	culture=lowland_valemen 
+	religion=the_seven
+	6532.7.24={ birth=yes }
+	6586.3.5={ death=yes }
+}

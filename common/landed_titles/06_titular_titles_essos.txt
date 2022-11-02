@@ -1,0 +1,20 @@
+k_the_refuge = {
+    color={ 63 105 112 }
+    color2={ 255 255 255 }
+    title = "REFUGE_RULER"
+    title_female = "REFUGE_RULER_F"
+    capital = 36
+    allow = {
+ 		 OR = {
+  			  ai = no
+		 }
+	}
+}
+
+k_rhoyne_colony = {
+    color={ 170 112 83 }
+    color2={ 255 255 255 }
+    allow = {
+  			  ai = no
+	}
+}

@@ -1,0 +1,21 @@
+# c_bazine
+
+# County Title
+title = c_bazine
+
+# Settlements
+max_settlements = 3
+
+b_bazine = castle
+#b_bazine_2 = city
+#b_bazine_3 = temple
+#b_bazine_4 = castle
+#b_bazine_5 = city
+#b_bazine_6 = temple
+#b_bazine_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = plains
+#History

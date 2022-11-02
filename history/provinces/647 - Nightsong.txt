@@ -1,0 +1,23 @@
+# c_nightsong
+
+# County Title
+title = c_nightsong
+
+# Settlements
+max_settlements = 5
+
+b_nightsong = castle
+b_kastenseeon = city
+b_unterehesberg = temple
+#b_brennhorst = castle
+#b_nightsong_2 = city
+
+# Misc
+culture = marchmen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = marcher
+    religion = the_seven 
+}

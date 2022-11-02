@@ -1,0 +1,21 @@
+# c_rapidshore
+
+# County Title
+title = c_rapidshore
+
+# Settlements
+max_settlements = 3
+
+b_rapidshore = castle
+#b_heucourt = city
+#b_rapidshore_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}

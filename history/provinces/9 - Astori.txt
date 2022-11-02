@@ -1,0 +1,21 @@
+# c_astori
+
+# County Title
+title = c_astori
+
+# Settlements
+max_settlements = 7
+
+b_astori = castle
+#b_astori_2 = city
+#b_astori_3 = temple
+#b_astori_4 = castle
+#b_astori_5 = city
+#b_astori_6 = temple
+#b_astori_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

@@ -1,0 +1,21 @@
+# c_lostau
+
+# County Title
+title = c_lostau
+
+# Settlements
+max_settlements = 2
+
+b_lostau = castle
+#b_lostau_2 = city
+#b_lostau_3 = temple
+#b_lostau_4 = castle
+#b_lostau_5 = city
+#b_lostau_6 = temple
+#b_lostau_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = farmlands
+#History

@@ -1,0 +1,39 @@
+# c_oldstones
+
+# County Title
+title = c_oldstones
+
+# Settlements
+max_settlements = 7
+
+b_oldstones = castle
+b_weirwood_of_oldstones = temple
+b_tristifers_town = city
+b_mudd_tower = castle
+#b_little_stones = city
+#b_justice_port = temple
+#b_old_keep = castle
+
+# Misc
+culture = muddish
+religion = old_gods
+terrain = farmlands
+#History
+30.1.1={
+	build_wonder=wonder_oldstones
+	set_wonder_stage=1
+}
+6500.1.1 = {
+	set_wonder_stage = 4
+}
+6590.1.1 = {
+   remove_settlement = b_oldstones
+   remove_settlement = b_tristifers_town
+   remove_settlement = b_mudd_tower
+}
+6800.1.1 = {
+    religion = the_seven  
+    culture = freymen
+}
+
+

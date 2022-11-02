@@ -1,0 +1,21 @@
+# c_wycliffe
+
+# County Title
+title = c_wycliffe
+
+# Settlements
+max_settlements = 3
+
+b_wycliffe = castle
+#b_stolzembourg = city
+#b_wycliffe_2 = temple
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven 
+}

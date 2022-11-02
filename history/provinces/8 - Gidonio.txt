@@ -1,0 +1,22 @@
+# c_gidonio
+
+# County Title
+title = c_gidonio
+
+# Settlements
+max_settlements = 7
+
+b_gidonio = city
+#b_gidonio_2 = city
+#b_gidonio_3 = temple
+#b_gidonio_4 = castle
+#b_gidonio_5 = city
+#b_gidonio_6 = temple
+#b_gidonio_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History
+6566.1.1={b_gidonio=castle}

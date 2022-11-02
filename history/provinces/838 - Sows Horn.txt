@@ -1,0 +1,26 @@
+# c_sows_horn
+
+# County Title
+title = c_sows_horn
+
+# Settlements
+max_settlements = 5
+
+b_sows_horn = castle
+b_sowduba = city
+b_kisstanya = temple
+#b_radicstanya = castle
+#b_sows_horn_2 = city
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = dusklander
+	religion = the_seven
+}
+6800.1.1 = {
+	culture = riverlander
+}

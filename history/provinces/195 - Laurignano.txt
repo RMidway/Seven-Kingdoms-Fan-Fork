@@ -1,0 +1,21 @@
+# c_laurignano
+
+# County Title
+title = c_laurignano
+
+# Settlements
+max_settlements = 2
+
+b_laurignano = castle
+#b_laurignano_2 = city
+#b_laurignano_3 = temple
+#b_laurignano_4 = castle
+#b_laurignano_5 = city
+#b_laurignano_6 = temple
+#b_laurignano_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = hills
+#History

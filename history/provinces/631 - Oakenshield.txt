@@ -1,0 +1,24 @@
+# c_oakenshield
+
+# County Title
+title = c_oakenshield
+
+# Settlements
+max_settlements = 4
+
+b_oakenshield = castle
+b_djkwel = city
+#b_oakenfort = temple
+#b_oakenhold = castle
+
+# Misc
+culture = shieldislander
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+}
+6900.1.1 = {
+    culture = shieldmen
+}

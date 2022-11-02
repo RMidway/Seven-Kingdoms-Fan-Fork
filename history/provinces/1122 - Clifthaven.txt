@@ -1,0 +1,24 @@
+# c_clifthaven
+
+# County Title
+title = c_clifthaven
+
+# Settlements
+max_settlements = 4
+
+b_clifthaven = castle
+#b_islikoan = city
+#b_halten = temple
+#b_clifthaven_2 = castle
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = valemen
+}

@@ -1,0 +1,21 @@
+# c_cunj
+
+# County Title
+title = c_cunj
+
+# Settlements
+max_settlements = 7
+
+b_cunj = castle
+#b_cunj_2 = city
+#b_cunj_3 = temple
+#b_cunj_4 = castle
+#b_cunj_5 = city
+#b_cunj_6 = temple
+#b_cunj_7 = castle
+
+# Misc
+culture = lorathi
+religion = rhllor
+terrain = hills
+#History

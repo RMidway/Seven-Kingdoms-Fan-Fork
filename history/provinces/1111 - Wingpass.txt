@@ -1,0 +1,21 @@
+# c_wingpass
+
+# County Title
+title = c_wingpass
+
+# Settlements
+max_settlements = 3
+
+b_wingpass = castle
+#b_turi = city
+#b_wingpass_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

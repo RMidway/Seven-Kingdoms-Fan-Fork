@@ -1,0 +1,24 @@
+# c_fawnton
+
+# County Title
+title = c_fawnton
+
+# Settlements
+max_settlements = 4
+
+b_fawnton = castle
+#b_overheps = city
+#b_schingen = temple
+#b_fawnton_2 = castle
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = hills
+#History
+6350.1.1 = {
+	culture = marchmen
+}
+6800.1.1 = {
+	religion = the_seven 
+}

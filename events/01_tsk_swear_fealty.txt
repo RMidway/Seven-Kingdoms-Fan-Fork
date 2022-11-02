@@ -1,0 +1,370 @@
+namespace = tsk_swear_fealty
+
+character_event = {
+    id = tsk_swear_fealty.1
+    desc = EVTDESCTSK_SWR_FEA
+	picture = GFX_evt_homage_hf
+    
+    is_triggered_only = yes
+    only_playable = yes
+    
+    option = {
+        name = EVTOPTATSK_SWR_FEA1 # Form Empire, Accept as Vassal
+        
+        modifier = {
+            factor = 10
+            ai = yes
+        }
+        
+        # FROMFROM is the player who requested to be vassalized by
+        # same tier ruler.
+        # ROOT is the target, ie the potential liege
+        
+        # Consider uses nested if statements with limiters
+        # to assign premade empire tier titles based on primary held
+        # title.
+        
+        # We could create some complex combinations, based on original title
+        # and the title of sender.
+        
+        # For example, if Arbor sends Oldtown an offer, the Wynelander Kingdom
+        # could be formed, using a flag that consists of a mix of both Arbor 
+        # and Oldtown flag.
+        
+        # If Arbor is offering to form a union with Oldtown,
+        # The Wynlands can be formed.
+        if = {
+            limit = {
+                FROMFROM = {
+                    primary_title = {
+                        title = k_the_arbor
+                    }
+                }
+                ROOT = {
+                    primary_title = {
+                        title = k_oldtown
+                    }
+                }
+            }
+            e_the_wynelands = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_oldtown
+                copy_title_history = k_oldtown
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Reverse
+        if = {
+            limit = {
+                FROMFROM = {
+                    primary_title = {
+                        title = k_oldtown
+                    }
+                }
+                ROOT = {
+                    primary_title = {
+                        title = k_the_arbor
+                    }
+                }
+            }
+            e_the_wynelands = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_the_arbor
+                copy_title_history = k_the_arbor
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Evenstar, if Evenstar is liege
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_evenstar
+                    }
+                }
+            }
+            e_the_evenstar = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_evenstar
+                copy_title_history = k_evenstar
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Blackwater, if Blackwater is liege
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_blackwater
+                    }
+                }
+            }
+            e_blackwater = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_blackwater
+                copy_title_history = k_blackwater
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Stone, if Stone is liege
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_stone
+                    }
+                }
+            }
+            e_stone = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_stone
+                copy_title_history = k_stone
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Greenblood, if Greenblood is liege
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_the_greenblood
+                    }
+                }
+            }
+            e_the_greenblood = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_the_greenblood
+                copy_title_history = k_the_greenblood
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Runestone, if Runestone is liege
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_runestone
+                    }
+                }
+            }
+            e_runestone = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_runestone
+                copy_title_history = k_runestone
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+#################################### Real Titles ####################################
+        # Westerlands, if Casterly Rock is the liege
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_the_rock
+                    }
+                }
+            }
+            e_the_rock_and_hills = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_the_rock
+                copy_title_history = k_the_rock
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # The Vale, if the Mountains and Moon is liege.
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_the_mountains_and_moon
+                    }
+                }
+            }
+            e_the_moon_and_stars = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_the_mountains_and_moon
+                copy_title_history = k_the_mountains_and_moon
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # The North, if Winterfell is liege.
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_winterfell
+                    }
+                }
+            }
+            e_winterfell = {
+                grant_title = ROOT
+                make_primary_title = yes
+                copy_title_laws = k_winterfell
+                copy_title_history = k_winterfell
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Riverlands
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_the_blackwood_vale
+                    }
+                }
+            }
+            primary_title = {
+                e_the_trident = {
+                    grant_title = ROOT
+                    make_primary_title = yes
+                    copy_title_laws = k_the_blackwood_vale
+                    copy_title_history = k_the_blackwood_vale
+                }
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        # Dorne, actually forms Dorne
+        if = {
+            limit = {
+                ROOT = {
+                    primary_title = {
+                        title = k_sunspear
+                    }
+                }
+            }
+            primary_title = {
+                e_dorne = {
+                    grant_title = ROOT
+                    make_primary_title = yes
+                    copy_title_laws = k_sunspear
+                    copy_title_history = k_sunspear
+                }
+            }
+            
+            FROMFROM = {
+                holder_scope = { set_defacto_liege = ROOT }
+            }
+            break = yes
+        }
+        
+        # Otherwise, form generic CM title based off current primary title.
+        
+        primary_title = {
+            create_title = {
+                tier = EMPEROR
+                landless = no
+                temporary = no
+                custom_created = yes
+                culture = ROOT
+                holder = ROOT
+                base_title = THIS
+                copy_title_laws = yes
+            }
+
+            hidden_tooltip = {
+                ROOT = {
+                    primary_title = {
+                        holder_scope = {
+                            any_title_under = {
+                                limit = {
+                                    tier = KING
+                                    empire = {
+                                        has_holder = no
+                                    }
+                                }
+                                de_jure_liege = PREVPREV
+                            }
+                            any_title_under = {
+                                limit = {
+                                    tier = DUKE
+                                    location = {
+                                        kingdom = {
+                                            empire = {
+                                                has_holder = no
+                                            }
+                                            
+                                            NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
+                                            ROOT = {
+                                                completely_controls = PREV
+                                            }
+                                        }
+                                    }
+                                }
+                                location = {
+                                    kingdom = {
+                                        de_jure_liege = PREVPREVPREVPREV
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        FROMFROM = {
+            holder_scope = { set_defacto_liege = ROOT }
+        }
+    }
+    
+    option = {
+        name = EVTOPTATSK_SWR_FEA2 # No
+        
+        trigger = {
+          ai = no
+        }
+    }
+}

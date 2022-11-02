@@ -1,0 +1,21 @@
+# c_ratin
+
+# County Title
+title = c_ratin
+
+# Settlements
+max_settlements = 3
+
+b_ratin = castle
+#b_ratin_2 = city
+#b_ratin_3 = temple
+#b_ratin_4 = castle
+#b_ratin_5 = city
+#b_ratin_6 = temple
+#b_ratin_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = farmlands
+#History

@@ -1,0 +1,23 @@
+# c_lonmouth
+
+# County Title
+title = c_lonmouth
+
+# Settlements
+max_settlements = 3
+
+b_lonmouth = castle
+#b_kohlberg = city
+#b_lonmouth_2 = temple
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = plains
+#History
+6350.1.1 = {
+	culture = marchmen
+}
+6800.1.1 = {
+	religion = the_seven 
+}

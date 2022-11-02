@@ -1,0 +1,21 @@
+# c_blackpool
+
+# County Title
+title = c_blackpool
+
+# Settlements
+max_settlements = 3
+
+b_blackpool = castle
+b_casario = city
+#b_blackpool_2 = temple
+
+# Misc
+culture = torrentine
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

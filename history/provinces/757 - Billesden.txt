@@ -1,0 +1,23 @@
+# c_billesden
+
+# County Title
+title = c_billesden
+
+# Settlements
+max_settlements = 5
+
+b_billsden = castle
+b_grift = city
+#b_kelheim = temple
+#b_bischberg = castle
+#b_billesden = city
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = reachmen
+    religion = the_seven
+}

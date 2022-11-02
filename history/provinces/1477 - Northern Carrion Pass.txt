@@ -1,0 +1,20 @@
+# c_northern_carrion_pass
+
+# County Title
+title = c_northern_carrion_pass
+
+# Settlements
+max_settlements = 2
+
+b_demise = castle
+#b_tower_of_demise = city
+
+# Misc
+culture = torrentine
+religion = vulture_god
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

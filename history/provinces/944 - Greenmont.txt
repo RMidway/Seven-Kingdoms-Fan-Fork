@@ -1,0 +1,23 @@
+# c_greenmont
+
+# County Title
+title = c_greenmont
+
+# Settlements
+max_settlements = 5
+
+b_greenmont = castle
+b_pickering = city
+#b_dunstanburgh = temple
+#b_carlisle = castle
+#b_greenmont_2 = city
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = westerlander
+}

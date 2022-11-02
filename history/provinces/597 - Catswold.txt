@@ -1,0 +1,21 @@
+# c_catswold
+
+# County Title
+title = c_catswold
+
+# Settlements
+max_settlements = 3
+
+b_catswold = castle
+b_castang = city
+#b_lanquais = temple
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = grovelander
+    religion = the_seven 
+}

@@ -1,0 +1,28 @@
+# c_skyreach
+
+# County Title
+title = c_skyreach
+
+# Settlements
+max_settlements = 5
+
+b_skyreach = castle
+b_hawks_high = city
+b_lastprey = temple
+#b_skyreach_2 = castle
+#b_skyreach_3 = city
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = mountain
+#History
+30.1.1 = { 
+	build_wonder = wonder_skyreach
+	set_wonder_stage = 1
+}
+6300.1.1 = {
+	culture = stone_dornish
+    religion = the_seven
+	set_wonder_stage = 2
+}

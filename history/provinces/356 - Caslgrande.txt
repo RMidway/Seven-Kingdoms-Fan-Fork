@@ -1,0 +1,21 @@
+# c_caslgrande
+
+# County Title
+title = c_caslgrande
+
+# Settlements
+max_settlements = 2
+
+b_caslgrande = city
+#b_caslgrande_2 = city
+#b_caslgrande_3 = temple
+#b_caslgrande_4 = castle
+#b_caslgrande_5 = city
+#b_caslgrande_6 = temple
+#b_caslgrande_7 = castle
+
+# Misc
+culture = lysene
+religion = rhllor
+terrain = farmlands
+#History

@@ -1,0 +1,21 @@
+# c_lysene_harbour
+
+# County Title
+title = c_lysene_harbour
+
+# Settlements
+max_settlements = 2
+
+b_lysene_harbour = city
+b_lysene_harbour_2 = city
+#b_lysene_harbour_3 = temple
+#b_lysene_harbour_4 = castle
+#b_lysene_harbour_5 = city
+#b_lysene_harbour_6 = temple
+#b_lysene_harbour_7 = castle
+
+# Misc
+culture = western_valyrian
+religion = valyrian
+terrain = farmlands
+#History

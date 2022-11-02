@@ -1,0 +1,42 @@
+###############
+#   ID RANGE  #
+# 18001-19000 #
+###############
+
+########################
+### The High Septons ###
+########################
+
+18015 = {
+    name = " "
+    religion = the_seven
+    culture = wynelander
+    trait = zealous
+    trait = celibate
+    trait = charitable
+    trait = kind
+    trait = patient
+    trait = diligent
+    trait = honest
+    6520.1.1 = { birth=yes }
+    6589.1.1 = { death=yes }
+}
+
+########################
+### The High Priests ###
+########################
+
+18016 = {
+    name = "Nyessos"
+    religion = rhllor
+    culture = lysene
+    trait = zealous
+    trait = cruel
+	trait = erudite
+	trait = elusive_shadow
+	trait = impaler
+	trait = chaste
+	trait = temperate
+    6520.1.1 = { birth=yes }
+    6589.1.1 = { death=yes }
+}

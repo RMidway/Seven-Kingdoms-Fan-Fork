@@ -1,0 +1,55 @@
+namespace = tsk_dynamic_coa
+
+#	Set CoA
+character_event = {
+	id = tsk_dynamic_coa.0
+
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		NOR = {
+			AND = {
+				is_republic = yes
+				NOR = { 
+					culture_group = andal
+					culture_group = first_men
+				}
+			}
+			is_nomadic = yes
+		}
+		#is_dynasty_with_special_coa = yes
+	}
+	
+	option = {
+		if = {
+			limit = { is_dynasty_with_special_coa = yes }
+			set_dynamic_coa = yes
+		}
+		else = {
+			any_demesne_title = {
+				reset_coa = PREV
+				clear_title_flag = is_dynamic_coa
+			}
+		}
+	}
+}
+
+#	Reset CoA if no match on new holder/on death
+character_event = {
+	id = tsk_dynamic_coa.1
+
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		is_dynasty_with_special_coa = no
+	}
+	
+	option = {
+		any_demesne_title = {
+			reset_coa = PREV
+			clear_title_flag = is_dynamic_coa
+		}
+	}
+}

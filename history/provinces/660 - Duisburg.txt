@@ -1,0 +1,21 @@
+# c_duisburg
+
+# County Title
+title = c_duisburg
+
+# Settlements
+max_settlements = 3
+
+b_duisburg = castle
+b_steckenborn = city
+#b_duisburg_2 = temple
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = woods
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

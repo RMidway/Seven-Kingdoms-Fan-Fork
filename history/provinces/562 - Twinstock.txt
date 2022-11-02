@@ -1,0 +1,21 @@
+# c_twinstock
+
+# County Title
+title = c_twinstock
+
+# Settlements
+max_settlements = 3
+
+b_twinstock = castle
+b_pondarrow = city
+#b_fontenel = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6554.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

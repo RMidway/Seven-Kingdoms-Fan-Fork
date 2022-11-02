@@ -1,0 +1,27 @@
+# c_coldmoat
+
+# County Title
+title = c_coldmoat
+
+# Settlements
+max_settlements = 6
+
+b_coldmoat = castle
+b_garnerwalde = temple
+b_huij = city
+b_volte = castle
+#b_raamsdon = city
+#b_coldmoat_2 = temple
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+
+}
+6554.1.1 = {
+	culture = reachmen
+	religion = the_seven
+}

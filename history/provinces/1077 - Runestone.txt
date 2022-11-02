@@ -1,0 +1,39 @@
+# c_runestone
+
+# County Title
+title = c_runestone
+
+# Settlements
+max_settlements = 5
+
+b_runestone = castle
+b_tarano = city
+b_ciappi = temple
+b_traversa = castle
+#b_runestone_2 = city
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+
+
+
+
+
+
+
+
+
+}
+
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+
+6800.1.1 = {
+    culture = lowland_valemen
+}

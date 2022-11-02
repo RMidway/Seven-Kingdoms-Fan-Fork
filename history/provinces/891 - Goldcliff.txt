@@ -1,0 +1,23 @@
+# c_goldcliff
+
+# County Title
+title = c_goldcliff
+
+# Settlements
+max_settlements = 5
+
+b_goldcliff = castle
+b_brookhem_cliff = city
+#b_moreton = temple
+#b_hamptgold = castle
+#b_goldcliff_2 = city
+
+# Misc
+culture = westerlander
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+    religion = the_seven
+	culture = westerlander
+}

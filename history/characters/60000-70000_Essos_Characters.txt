@@ -1,0 +1,1315 @@
+		      ###############
+		      #   ID RANGE  #
+		      # 60000-70000 #
+		      ###############
+
+	   #####################################
+	   ### Pentos Placeholder Characters ###
+	   #####################################
+60000 = {
+    name = "Callisto" # Lord of Velvet Hills
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1217
+    6520.1.1 = { birth=yes }
+    6590.1.1 = { death=yes }
+}
+60001 = {
+    name = "Silvestro"
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1217
+	father = 60000
+    6540.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+60002 = {
+    name = "Obizzino"
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1217
+	father = 60000
+    6542.1.1 = { birth=yes }
+    6605.1.1 = { death=yes }
+}
+
+60003 = {
+    name = "Aurelio" # Lord of Little Rhoyne
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1218
+    6510.1.1 = { birth=yes }
+    6569.1.1 = { death=yes }
+}
+60004 = {
+    name = "Cassio"
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1218
+	father = 60003
+    6533.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+60005 = {
+    name = "Simone"
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1218
+	father = 60003
+    6538.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+60006 = {
+    name = "Candida"
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1218
+	father = 60003
+	female = yes
+    6544.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+
+60007 = {
+    name = "Tagganaro" # Lord of The Eyes
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1219
+    6530.1.1 = { birth=yes }
+    6590.1.1 = { death=yes }
+}
+60008 = {
+    name = "Corrado" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1219
+	father = 60007
+    6550.1.1 = { birth=yes }
+    6603.1.1 = { death=yes }
+}
+60009 = {
+    name = "Marsiglio" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1219
+	father = 60007
+    6553.1.1 = { birth=yes }
+    6603.1.1 = { death=yes }
+}
+60010 = {
+    name = "Pio" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1219
+	father = 60007
+    6553.1.1 = { birth=yes }
+    6603.1.1 = { death=yes }
+}
+
+60011 = {
+    name = "Allaquo" # Lord of Pentoshi Flatlands
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1220
+    6528.1.1 = { birth=yes }
+    6585.1.1 = { death=yes }
+}
+60012 = {
+    name = "Adelaida" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1220
+	father = 60011
+	female = yes
+    6548.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+60013 = {
+    name = "Ferrega" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1220
+	father = 60011
+	female = yes
+    6549.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+60014 = {
+    name = "Valentina" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1220
+	father = 60011
+	female = yes
+    6550.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+60015 = {
+    name = "Brusco" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1220
+	father = 60011
+	trait = twin
+    6551.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+60016 = {
+    name = "Denyo" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1220
+	father = 60011
+	trait = twin
+    6551.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+60017 = {
+    name = "Gyleno" # Lord of Amenos
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1221
+	health = 12
+    6510.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+60018 = {
+    name = "Cangrande" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1221
+	father = 60017
+	health = 10
+    6537.1.1 = { birth=yes }
+    6602.1.1 = { death=yes }
+}
+60019 = {
+    name = "Isnardo" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1221
+	father = 60017
+	health = 10
+    6539.1.1 = { birth=yes }
+    6602.1.1 = { death=yes }
+}
+60020 = {
+    name = "Flavia" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1221
+	father = 60017
+	female = yes
+	health = 10
+    6540.1.1 = { birth=yes }
+    6602.1.1 = { death=yes }
+}
+
+60021 = {
+    name = "Gentile" # Lord of Arkonia
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1222
+    6530.1.1 = { birth=yes }
+    6595.1.1 = { death=yes }
+}
+60022 = {
+    name = "Leonardo" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1222
+	father = 60021
+    6550.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+60023 = {
+    name = "Rafaello" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1222
+	father = 60021
+    6552.1.1 = { birth=yes }
+    6608.1.1 = { death=yes }
+}
+
+60024 = {
+    name = "Abelino" # Lord of Drecchio
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1223
+    6530.1.1 = { birth=yes }
+    6595.1.1 = { death=yes }
+}
+60025 = {
+    name = "Silvano" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1223
+	father = 60024
+    6550.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+60026 = {
+    name = "Enrico" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1223
+	father = 60024
+    6551.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+60093 = { #changed from 60026 due to duplication
+    name = "Filomena" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1223
+	father = 60024
+	female = yes
+    6552.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+60027 = {
+    name = "Ippolito" # Lord of Iatregio
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1224
+    6512.1.1 = { birth=yes }
+    6570.1.1 = { death=yes }
+}
+60028 = {
+    name = "Libero" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1224
+	father = 60027
+    6535.1.1 = { birth=yes }
+    6590.1.1 = { death=yes }
+}
+60029 = {
+    name = "Pellegrino" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1224
+	father = 60027
+    6537.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+60030 = {
+    name = "Serenei" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1224
+	father = 60027
+	female = yes
+    6539.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+60031 = {
+    name = "Ippolito" # Lord of Nontelos
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1225
+    6524.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+60032 = {
+    name = "Ippolita" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1225
+	father = 60031
+	female = yes
+    6547.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+60033 = {
+    name = "Denia" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1225
+	father = 60031
+	female = yes
+    6549.1.1 = { birth=yes }
+    6607.1.1 = { death=yes }
+}
+60034 = {
+    name = "Umberto" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1225
+	father = 60031
+    6549.1.1 = { birth=yes }
+    6607.1.1 = { death=yes }
+}
+
+60035 = {
+    name = "Tycho" # Lord of Myrth
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1226
+    6530.1.1 = { birth=yes }
+    6594.1.1 = { death=yes }
+}
+60036 = {
+    name = "Varys" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1226
+	father = 60035
+    6550.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60037 = {
+    name = "Salassor" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1226
+	father = 60035
+    6552.1.1 = { birth=yes }
+    6607.1.1 = { death=yes }
+}
+60038 = {
+    name = "Morosh" 
+    religion = rhllor
+    culture = pentoshi
+	dynasty = 1226
+	father = 60035
+    6555.1.1 = { birth=yes }
+    6607.1.1 = { death=yes }
+}
+	    ##################################
+	    ### Myr Placeholder Characters ###
+	    ##################################
+
+60039 = {
+    name = "Rainero" # Lord of Nymrelor
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1308
+    6530.1.1 = { birth=yes }
+    6596.1.1 = { death=yes }
+}
+60040 = {
+    name = "Gian" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1308
+	father = 60039
+    6550.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60041 = {
+    name = "Luigi" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1308
+	father = 60039
+    6553.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60042 = {
+    name = "Lidia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1308
+	father = 60039
+	female = yes
+    6554.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+60043 = {
+    name = "Michelangelo" # Lord of Lortyr
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1309
+    6527.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+60044 = {
+    name = "Patricia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1309
+	father = 60043
+	female = yes
+    6547.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+
+60045 = {
+    name = "Virginia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1309
+	father = 60043
+	female = yes
+    6549.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+60046 = {
+    name = "Lazzaro" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1309
+	father = 60043
+    6551.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+
+60047 = {
+    name = "Valerio" # Lord of Drelyia
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+    6518.1.1 = { birth=yes }
+    6567.1.1 = { death=yes }
+}
+60048 = {
+    name = "Sozzo" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+	father = 60047
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+60049 = {
+    name = "Lucio" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+	father = 60047
+    6543.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60050 = {
+    name = "Matteo" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+	father = 60047
+    6544.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60051 = {
+    name = "Ugolino" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+	father = 60047
+    6547.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60052 = {
+    name = "Leopoldo" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+	father = 60047
+    6549.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+60053 = {
+    name = "Vincentello" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1310
+	father = 60047
+    6549.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+60054 = {
+    name = "Goffredo" # Lord of Myrwater
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1311
+    6544.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+60055 = {
+    name = "Jacopo" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1311
+	father = 60054
+    6565.1.1 = { birth=yes }
+    6622.1.1 = { death=yes }
+}
+60056 = {
+    name = "Froizza" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1311
+	father = 60054
+	female = yes
+	health = 14
+    6566.1.1 = { birth=yes }
+    6645.1.1 = { death=yes }
+}
+
+60057 = {
+    name = "Folco" # Lord of Forest of Myr
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1312
+    6525.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+60058 = {
+    name = "Agalina" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1312
+	father = 60057
+	female = yes
+    6546.1.1 = { birth=yes }
+    6604.1.1 = { death=yes }
+}
+60059 = {
+    name = "Ferdinando" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1312
+	father = 60057
+    6548.1.1 = { birth=yes }
+    6608.1.1 = { death=yes }
+}
+60060 = {
+    name = "Abelina" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1312
+	father = 60057
+	female = yes
+    6550.1.1 = { birth=yes }
+    6611.1.1 = { death=yes }
+}
+
+60061 = {
+    name = "Raimondo" # Lord of Myrish Flatlands
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1313
+    6530.1.1 = { birth=yes }
+    6588.1.1 = { death=yes }
+}
+60062 = {
+    name = "Radul" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1313
+	father = 60061
+    6553.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+60063 = {
+    name = "Anna" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1313
+	father = 60061
+	female = yes
+    6557.1.1 = { birth=yes }
+    6629.1.1 = { death=yes }
+}
+
+60064 = {
+    name = "Livio" # Lord of Nymolis
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1314
+    6522.1.1 = { birth=yes }
+    6579.1.1 = { death=yes }
+}
+60065 = {
+    name = "Oreste" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1314
+	father = 60064
+    6544.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+60066 = {
+    name = "Guerrino" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1314
+	father = 60064
+    6547.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+60067 = {
+    name = "Aloisia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1314
+	father = 60064
+	female = yes
+    6550.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+60068 = {
+    name = "Lustius Maximus" # Lord of Greengate # Why Not...
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	health = 20
+	trait = indulgent_wastrel
+	trait = lustful
+	trait = hedonist
+	trait = greedy
+	trait = quick
+	trait = slothful
+	trait = gluttonous
+	trait = wroth
+	trait = drunkard
+	trait = dueling_legend
+    6530.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+60069 = {
+    name = "Livia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6546.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60070 = {
+    name = "Cecilia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6547.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60071 = {
+    name = "Alfonsina" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6548.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60072 = {
+    name = "Carola" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6549.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60073 = {
+    name = "Incontinentia Buttocks" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6550.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60074 = {
+    name = "Giovanna" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6550.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60075 = {
+    name = "Camilla" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6550.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60076 = {
+    name = "Violante" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6551.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60077 = {
+    name = "Alisia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+	trait = twin
+    6552.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60078 = {
+    name = "Alosia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+	trait = twin
+    6552.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60079 = {
+    name = "Alda" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6553.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60080 = {
+    name = "Bellonara" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6554.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60081 = {
+    name = "Serra" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6555.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60082 = {
+    name = "Umma" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6556.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60083 = {
+    name = "Talea" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6557.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60084 = {
+    name = "Marietta" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6558.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60085 = {
+    name = "Nunzia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6559.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60086 = {
+    name = "Yorka" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6560.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60087 = {
+    name = "Fortunata" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6561.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60088 = {
+    name = "Cornelia" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6562.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60089 = {
+    name = "Pynta" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6563.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60090 = {
+    name = "Joscella" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6564.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60091 = {
+    name = "Silvana" 
+    religion = rhllor
+    culture = myrmen
+	dynasty = 1315
+	father = 60068
+	female = yes
+    6565.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+60092 = {
+    name = "Naughtius Maximus" 
+    religion = rhllor
+    culture = myrmen
+	health = 15
+	trait = strong
+	trait = quick
+	dynasty = 1315
+	father = 60068
+    6566.1.1 = { birth=yes }
+    6618.1.1 = { death=yes }
+}
+
+	   ####################################
+	   ### Rhoynish Colonies Characters ###
+	   ####################################
+
+#### The Governor of the Colony 
+
+60100 = {
+    name = "Bors" # The First Governor
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	
+    6410.1.1 = { birth=yes }
+    6475.1.1 = { death=yes }
+}	
+
+60101 = {
+    name = "Aron"  # The Second Governor 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60100
+	
+    6433.1.1 = { birth=yes }
+    6497.1.1 = { death=yes }
+}	
+
+60102 = {
+    name = "Dezyel"  
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60100
+	
+    6435.1.1 = { birth=yes }
+    6481.1.1 = { death=yes }
+}	
+
+60103 = {
+    name = "Alyse" # The Third Governor
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60101
+	female = yes 
+    6455.1.1 = { birth=yes }
+    6504.1.1 = { death=yes }
+}   
+
+60104 = {
+    name = "Loreza" # The Fourth Governor
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	mother = 60103
+	female = yes 
+    6480.1.1 = { birth=yes }
+    6533.1.1 = { death=yes }
+}  
+
+60105 = {
+    name = "Symon" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	mother = 60103
+
+    6482.1.1 = { birth=yes }
+    6540.1.1 = { death=yes }
+}  
+
+60106 = {
+    name = "Trystane" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	mother = 60103
+
+    6483.1.1 = { birth=yes }
+    6550.1.1 = { death=yes }
+} 
+	
+60107 = {
+    name = "Obella" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60105
+	female = yes
+    6510.1.1 = { birth=yes }
+    6570.1.1 = { death=yes }
+} 	
+
+60108 = {
+    name = "Obara" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60105
+	female = yes
+    6513.1.1 = { birth=yes }
+    6566.1.1 = { death=yes }
+} 
+
+60109 = {
+    name = "Quentyn" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60105
+
+    6515.1.1 = { birth=yes }
+    6569.1.1 = { death=yes }
+} 
+
+60110 = {
+    name = "Lewyn" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60109
+
+    6535.1.1 = { birth=yes }
+    6594.1.1 = { death=yes }
+} 
+	
+60111 = {
+    name = "Gasoyne" # The Fifth / Current Governor
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	mother = 60104
+
+    6500.1.1 = { birth=yes }
+    6567.1.1 = { death=yes }
+}  
+
+60112 = {
+    name = "Doran" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60111
+
+    6524.1.1 = { birth=yes }
+    6581.1.1 = { death=yes }
+} 	
+
+60113 = {
+    name = "Allar" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60111
+
+    6526.1.1 = { birth=yes }
+    6584.1.1 = { death=yes }
+} 
+
+60114 = {
+    name = "Allyria" 
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60112
+	female = yes
+	add_trait = fair
+	add_trait = lustful
+	add_trait = hedonist
+    6550.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+} 
+
+60115 = {
+    name = "Trebor"  
+    religion = rhoynar
+    culture = rhoynish
+	dynasty = 12001 # Treboros
+	father = 60112
+
+    6554.1.1 = { birth=yes }
+    6608.1.1 = { death=yes }
+} 
+
+###########################################
+##### The Illustrious House of Rogare #####
+###########################################
+
+60116 = { 
+	name = "Line of Lysono"
+	dynasty = 1400
+	occluded = yes
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 3235
+	6611.9.17 = { birth = yes }
+	7190.1.1 = { death = yes }
+}
+
+60117 = { 
+	name = "Deniro" ### Magister / Archon of Lys ###
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60116
+	7190.1.1 = { birth = yes }
+	7251.1.1 = { death = yes }
+}
+
+60118 = { 
+	name = "Lysandro" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60117
+	7217.1.1 = { birth = yes }
+	7280.1.1 = { death = yes }
+}
+
+60119 = { 
+	name = "Torquato" ### Magister / Archon of Lys ###
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60117
+	7220.1.1 = { birth = yes }
+	7275.1.1 = { death = yes }
+}
+
+60120 = { 
+	name = "Maelaro" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60117
+	7220.1.1 = { birth = yes }
+	7275.1.1 = { death = yes }
+}
+
+
+60121 = { 
+	name = "Ollo" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60118
+	7240.1.1 = { birth = yes }
+	7299.1.1 = { death = yes }
+}
+
+60122 = { 
+	name = "Cossoma" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60118
+	female = yes
+	7241.1.1 = { birth = yes }
+	7306.1.1 = { death = yes }
+}
+
+60123 = { 
+	name = "Dora" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60121
+	female = yes
+	7264.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+60124 = { 
+	name = "Mariana" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60121
+	female = yes
+	7266.1.1 = { birth = yes }
+	7319.1.1 = { death = yes }
+}
+
+60125 = { 
+	name = "Jaqea" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60121
+	female = yes
+	7269.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}
+
+60126 = { 
+	name = "Flavia" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60120
+	female = yes
+	7245.1.1 = { birth = yes }
+	7306.1.1 = { death = yes }
+}
+
+60127 = { 
+	name = "Pietro" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60120
+	
+	7248.1.1 = { birth = yes }
+	7310.1.1 = { death = yes }
+}
+
+60128 = { 
+	name = "Tregono" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60127
+	
+	7270.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+60129 = { 
+	name = "Folco" ### Magister / Archon of Lys ###
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60119
+	7241.1.1 = { birth = yes }
+	7307.1.1 = { death = yes }
+}
+
+60130 = { 
+	name = "Sirena" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60119
+	female = yes
+	7242.1.1 = { birth = yes }
+	7303.1.1 = { death = yes }
+}
+
+60131 = { 
+	name = "Tregar" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60119
+
+	7245.1.1 = { birth = yes }
+	7300.1.1 = { death = yes }
+}
+
+60132 = { 
+	name = "Adelia" 
+	dynasty = 1400
+	culture = lysene 
+	religion = the_weeping_lady
+	father = 60119
+	female = yes
+	7248.1.1 = { birth = yes }
+	7300.1.1 = { death = yes }
+}
+
+60133 = { 
+	name = "Lysander" 
+	dynasty = 1400
+	culture = lysene 
+	employer = 70001 # Mors Martell
+	religion = the_seven
+	father = 60131
+	martial = 8
+	health = 12
+	trait = robust
+	trait = tough_soldier
+	trait = dueling_legend
+	trait = gregarious
+	trait = lustful
+	trait = hedonist
+	trait = ambitious
+	trait = patient
+	trait = brave
+	trait = cynical
+
+	7266.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}

@@ -1,0 +1,21 @@
+# c_libotin
+
+# County Title
+title = c_libotin
+
+# Settlements
+max_settlements = 3
+
+b_libotin = castle
+b_libotin_2 = city
+#b_libotin_3 = temple
+#b_libotin_4 = castle
+#b_libotin_5 = city
+#b_libotin_6 = temple
+#b_libotin_7 = castle
+
+# Misc
+culture = lysene
+religion = rhllor
+terrain = hills
+#History

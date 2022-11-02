@@ -1,0 +1,21 @@
+# c_riverwatch
+
+# County Title
+title = c_riverwatch
+
+# Settlements
+max_settlements = 3
+
+b_riverwatch = castle
+#b_beauvain = city
+#b_riverwatch_2 = temple
+
+# Misc
+culture = muddish
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven  
+    culture = freymen
+}

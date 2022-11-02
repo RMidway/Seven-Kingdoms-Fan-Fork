@@ -1,0 +1,21 @@
+# c_egenford
+
+# County Title
+title = c_egenford
+
+# Settlements
+max_settlements = 3
+
+b_egenford = castle
+#b_wippel = city
+#b_egenford_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven
+}

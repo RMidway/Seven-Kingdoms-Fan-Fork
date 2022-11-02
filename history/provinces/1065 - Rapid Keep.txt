@@ -1,0 +1,23 @@
+# c_rapid_keep
+
+# County Title
+title = c_rapid_keep
+
+# Settlements
+max_settlements = 5
+
+b_rapid_keep = castle
+b_spangen = city
+#b_ibenthan = temple
+#b_brugny = castle
+#b_vacourt = city
+
+# Misc
+culture = crabmen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = riverlander
+}

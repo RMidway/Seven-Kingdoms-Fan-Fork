@@ -1,0 +1,22 @@
+# c_dire_den
+
+# County Title
+title = c_dire_den
+
+# Settlements
+max_settlements = 5
+
+b_dyre_den = castle
+b_draguni = castle
+b_bojnik = temple
+#b_zabus = castle
+#b_dire_den = city
+
+# Misc
+culture = crackclawmen
+religion = old_gods
+terrain = woods
+#History
+6800.1.1 = {
+    religion = the_seven 
+}

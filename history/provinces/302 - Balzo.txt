@@ -1,0 +1,21 @@
+# c_balzo
+
+# County Title
+title = c_balzo
+
+# Settlements
+max_settlements = 3
+
+b_balzo = city
+b_balzo_2 = castle
+#b_balzo_3 = temple
+#b_balzo_4 = castle
+#b_balzo_5 = city
+#b_balzo_6 = temple
+#b_balzo_7 = castle
+
+# Misc
+culture = tyroshi
+religion = trios
+terrain = farmlands
+#History

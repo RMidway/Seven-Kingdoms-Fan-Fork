@@ -1,0 +1,23 @@
+# c_longtable
+
+# County Title
+title = c_longtable
+
+# Settlements
+max_settlements = 5
+
+b_longtable = castle
+b_wijtschate = city
+b_stegen = temple
+b_schimpach = castle
+#b_bivels = city
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = reachmen
+    religion = the_seven
+}

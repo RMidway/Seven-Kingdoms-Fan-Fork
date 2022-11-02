@@ -1,0 +1,19 @@
+# c_lordsport
+
+# County Title
+title = c_lordsport
+
+# Settlements
+max_settlements = 5
+
+b_lordsport_keep = castle
+b_lords_port = city
+#b_brodsworth = temple
+#b_kabelvaag = castle
+#b_lordsport = city
+
+# Misc
+culture = pykem
+religion = drowned_god
+terrain = hills
+#History

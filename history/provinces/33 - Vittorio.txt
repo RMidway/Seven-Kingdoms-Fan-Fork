@@ -1,0 +1,25 @@
+# c_vittorio
+
+# County Title
+title = c_vittorio
+
+# Settlements
+max_settlements = 7
+
+b_vittorio = castle
+#b_vittorio_2 = city
+#b_vittorio_3 = temple
+#b_vittorio_4 = castle
+#b_vittorio_5 = city
+#b_vittorio_6 = temple
+#b_vittorio_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History
+6400.1.1 = {	
+    religion = the_seven 
+    culture = andal
+}

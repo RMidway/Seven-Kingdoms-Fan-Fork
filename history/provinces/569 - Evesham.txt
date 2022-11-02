@@ -1,0 +1,17 @@
+# c_evesham
+
+# County Title
+title = c_evesham
+
+# Settlements
+max_settlements = 3
+
+b_evesham = castle
+b_kauter = city
+#b_attert = temple
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History

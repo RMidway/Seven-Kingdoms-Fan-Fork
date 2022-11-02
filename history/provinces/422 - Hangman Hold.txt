@@ -1,0 +1,21 @@
+# c_hangman_hold
+
+# County Title
+title = c_hangman_hold
+
+# Settlements
+max_settlements = 3
+
+b_hangman_hold = castle
+#b_hangman_hold_2 = city
+#b_hangman_hold_3 = temple
+#b_hangman_hold_4 = castle
+#b_hangman_hold_5 = city
+#b_hangman_hold_6 = temple
+#b_hangman_hold_7 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

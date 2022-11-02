@@ -1,0 +1,26 @@
+# c_hastwyck
+
+# County Title
+title = c_hastwyck
+
+# Settlements
+max_settlements = 4
+
+b_hastwyck = castle
+b_respelle = city
+#b_heek = temple
+#b_hastehall = castle
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = hills
+#History
+6400.1.1 = {
+	culture = marchmen
+    religion = the_seven
+}
+6600.1.1 = {
+	culture = marcher
+    religion = the_seven
+}

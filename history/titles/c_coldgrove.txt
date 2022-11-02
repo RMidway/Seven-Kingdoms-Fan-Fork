@@ -1,0 +1,8 @@
+# k_beyond_the_wall
+5.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+	liege=d_northern_shore
+}
+6524.1.1={holder=3943} #Quort[10112]
+6546.07.30={holder=3945} #Cayn[10112]

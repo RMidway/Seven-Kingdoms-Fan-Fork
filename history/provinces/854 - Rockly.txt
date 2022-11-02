@@ -1,0 +1,24 @@
+# c_rockly
+
+# County Title
+title = c_rockly
+
+# Settlements
+max_settlements = 4
+
+b_rockly = castle
+b_breshke = city
+#b_kovalevichi = temple
+#b_rockly_2 = castle
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+	religion = the_seven
+}
+6800.1.1 = {
+	culture = blackwatermen
+}

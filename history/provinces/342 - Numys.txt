@@ -1,0 +1,21 @@
+# c_numys
+
+# County Title
+title = c_numys
+
+# Settlements
+max_settlements = 3
+
+b_numys = city
+b_numys_2 = city
+b_numys_3 = temple
+#b_numys_4 = castle
+#b_numys_5 = city
+#b_numys_6 = temple
+#b_numys_7 = castle
+
+# Misc
+culture = western_valyrian
+religion = valyrian
+terrain = farmlands
+#History

@@ -1,0 +1,31 @@
+# c_darry
+
+# County Title
+title = c_darry
+
+# Settlements
+max_settlements = 6
+
+b_darry = castle
+b_plouagat = city
+b_londigny = temple
+#b_quincieu = castle
+#b_loreto = city
+#b_darry_2 = temple
+
+# Misc
+culture = crabmen
+religion = old_gods
+terrain = plains
+#History
+
+6500.1.1 = {
+
+
+    religion = old_gods
+}
+
+6600.1.1 = {
+   religion = the_seven
+	culture = riverlander
+}

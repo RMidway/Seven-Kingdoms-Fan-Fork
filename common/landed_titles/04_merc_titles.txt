@@ -1,0 +1,3083 @@
+####################
+##Historical Holy Orders##
+####################
+
+d_poor_fellows  = {
+	color={ 64 157 202 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 544 #Oldtown
+
+	title = "SPARROW"
+	foa = "SPARROW_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = wynelander
+	
+	religion = the_seven
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = poor_fellows
+}
+d_warriors_sons  = {
+	color={ 7 230 44 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 544 #Oldtown
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = wynelander
+	
+	religion = the_seven
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 4 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = warriors_sons
+}
+
+####################
+##Other Holy Orders##
+####################
+d_bearded_priests_reformed  = {
+	color={ 137 108 172 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 98 #Juradi
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = lorathi
+	
+	religion = bearded_priests_reformed
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bearded_priests
+}
+d_boashi_reformed  = {
+	color={ 177 192 226 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 65 #Western Lorath
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = lorathi
+	
+	religion = boashi
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = boashi
+}
+d_moonsingers  = {
+	color={ 58 160 215 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 2 #Braavos
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = braavosi
+	
+	religion = moonsingers
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = moonsingers
+}
+d_maiden_of_the_harvest  = {
+	color={ 188 158 65 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 157 # Pentos
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = pentoshi
+	
+	religion = maiden_of_the_harvest
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = maiden_of_the_harvest
+}
+d_rhllor_merc  = {
+	color={ 177 127 80 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 242 # Myr
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = myrmen
+	
+	religion = rhllor
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = rhllor
+}
+d_rel_trios  = {
+	color={ 235 129 10 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 297	#Tyrosh
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = tyroshi
+	
+	religion = trios
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = trios
+}
+d_weeping_lady  = {
+	color={ 210 112 51 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 351 # Disputed Forest (Lys)
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = lysene
+	
+	religion = the_weeping_lady
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = weeping_lady
+}
+d_valyrian  = {
+	color={ 29 228 183 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 344 #Lys
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	mercenary = yes
+	
+	culture = high_valyrian
+	
+	religion = valyrian
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = valyrian
+}
+d_lady_of_the_rocks = {
+	color={ 254 207 62 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 397 #Bloodstone
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = pirate
+	
+	religion = lady_of_the_rocks
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = lady_of_the_rocks
+}
+d_black_flag = {
+	color={ 93 6 39 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 414 #Silverport
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = pirate
+	
+	religion = black_flag
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = black_flag
+}
+d_old_gods = {
+	color={ 101 43 111 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1198 #Winterfell
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = northmen
+	
+	religion = old_gods
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = old_gods
+}
+d_drowned_god_merc = {
+	color={ 121 214 16 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1156 # Pyke
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = pykem
+	
+	religion = drowned_god
+	
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+	
+	strength_growth_per_century = 0
+
+	mercenary_type = drowned_god
+}
+
+####################
+##Historical Mercs##
+####################
+
+d_maidens_men = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 297 # Tyrosh
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = riverlander
+	religion = the_seven
+
+	strength_growth_per_century = 0
+	
+	mercenary_type = maidens_men
+}
+d_ragged_standard = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 297 #Tyrosh
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = tyroshi
+	religion = trios
+
+	strength_growth_per_century = 0
+	
+	mercenary_type = ragged_standard
+}
+d_second_sons = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 157 # Pentos
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = pentoshi
+	religion = rhllor
+
+	strength_growth_per_century = 0
+	
+	mercenary_type = second_sons
+}
+d_stormcrows = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 66 # Battered Isle (Lorath)
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = lorathi
+	religion = moonsingers
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = stormcrows
+}
+d_long_lances = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 344 # Lys
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = lysene
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = long_lances
+}
+d_iron_shields = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 2 # Braavos
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = braavosi
+	religion = moonsingers
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = iron_shields
+}
+d_gallant_men = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 344 # Lys
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = lysene
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = gallant_men
+}
+d_company_of_the_cat = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 242 # Myr
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = myrmen
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = company_of_the_cat
+}
+d_bright_banners = {
+	color = { 249 249 249 }
+	color2 = { 255 215 0 }
+	
+	capital = 242 # Myr
+
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	primary = yes
+	
+	culture = myrmen
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = bright_banners
+}
+
+##Cultural Mercs - troops convinced by your offer of gold if they help you fight your enemies!
+
+d_cavemen = {
+	color = { 62 173 228 }
+	color2 = { 255 255 255 }
+	
+	capital = 1321 #Icehome (Northern Shore)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = cavemen
+	religion = old_gods_beyond_white
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+
+d_dumhic = {
+	color = { 151 78 179 }
+	color2 = { 255 255 255 }
+	
+	capital = 1313 #Hardhome
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = dumhic
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+
+d_frozen_shore_merc = {
+	color = { 18 212 245 }
+	color2 = { 255 255 255 }
+	
+	capital = 1330 #Icefort (Frozen Shore)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = frozen_shore
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_gildlic = {
+	color = { 200 194 216 }
+	color2 = { 255 255 255 }
+	
+	capital = 1328 #Winter (Craster's) Keep
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = gildlic
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_harishic = {
+	color = { 225 184 167 }
+	color2 = { 255 255 255 }
+	
+	capital = 1346 #Moon Keep (Frozen Marshes)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = harishic
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_hartenn = {
+	color = { 254 164 101 }
+	color2 = { 255 255 255 }
+	
+	capital = 1334 #Storrold's Keep (Barren Plains)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = wildling
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_hornfoots = {
+	color = { 28 170 232 }
+	color2 = { 255 255 255 }
+	
+	capital = 1319 #Fist of the First Men
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = hornfoots
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_ice_rivermen = {
+	color = { 118 108 45 }
+	color2 = { 255 255 255 }
+	
+	capital = 1309 #Frozen Keep
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = ice_rivermen
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_nightrunners = {
+	color = { 220 75 52 }
+	color2 = { 255 255 255 }
+	
+	capital = 1308 #Whitetree
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = nightrunners
+	religion = old_gods_beyond
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_saliosi = {
+	color = { 182 56 170 }
+	color2 = { 255 255 255 }
+	
+	capital = 1338 #First Hearth (Frigid Highlands)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = saliosi
+	religion = old_gods_beyond_white
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_skagosi = {
+	color = { 94 59 226 }
+	color2 = { 255 255 255 }
+	
+	capital = 1288 #King's House
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = skagosi
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = skagosi
+}
+d_thenn = {
+	color = { 20 142 4 }
+	color2 = { 255 255 255 }
+	
+	capital = 1342 #Thenn (Northern Edge)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = thenn
+	religion = old_gods_beyond_white
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+d_wildling = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 1350 #Icewater Valley (Great Lakes)
+
+	mercenary = yes
+	
+	allow = {
+		culture_group = free_folk
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = wildling
+	religion = old_gods_beyond_white
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = wildling
+}
+
+	#################
+	##Eastern Mercs##
+	#################
+
+d_myrish_crossbowmen = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 242 # Myr
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = myrmen
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = myrish_crossbowmen
+}
+
+d_tyroshi_lancers = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 297 # Tyrosh
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = tyroshi
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = tyroshi_lancers
+}
+
+d_lysene_swordsmen = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = lysene
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = lysene_swordsmen
+}
+
+d_pentoshi_archers = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 157 # Pentos
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = pentoshi
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pentoshi_archers
+}
+
+d_braavosi_sellswords = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 2 # Braavos
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = braavosi
+	religion = moonsingers
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = braavosi_sellswords
+}
+
+d_the_silver_company = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 795 # Rosby
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = blackwatermen
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = the_silver_company
+}
+
+d_tyroshi_freeriders = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 298 # Eastern Tyrosh
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = tyroshi
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = tyroshi_freeriders
+}
+
+d_lysene_pikemen = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 340 # Pleasure Gardens
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+		culture_group = free_folk
+		  }
+	}
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = lysene
+	religion = rhllor
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = lysene_pikemen
+}
+## THE ARCHONS CHOSEN
+d_archons_chosen = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    religion = valyrian
+	}
+	
+	title = "VALGRANDMASTER"
+	foa = "VALGRANDMASTER_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archons_chosen
+}
+
+### Westerosi Knights 
+
+d_hedge_knights = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 831 # Duskendale
+
+	mercenary = yes
+	
+	allow = {
+	    religion = the_seven
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = andal
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = hedge_knights
+}
+
+d_disgraced_knights = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 157 # Pentos
+
+	mercenary = yes
+	
+	allow = {
+		NOR = {
+			religion = the_seven
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = andal
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = disgraced_knights
+}
+d_northern_peasants = {
+	color = { 191 41 177 }
+	color2 = { 255 255 255 }
+	
+	capital = 1283 # Flint's Finger
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = flint_clansmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_northern_infantry = {
+	color = { 208 97 94 }
+	color2 = { 255 255 255 }
+	
+	capital = 1274 # Greywater Watch
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = crannogmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_northern_riders = {
+	color = { 163 169 172 }
+	color2 = { 255 255 255 }
+	
+	capital = 1258 # Torrhen's Square
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = northmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_northern_knights = {
+	color = { 90 55 18 }
+	color2 = { 255 255 255 }
+	
+	capital = 1246 # Deepwood Motte
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = northmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_northern_pikes = {
+	color = { 22 1 101 }
+	color2 = { 255 255 255 }
+	
+	capital = 1220 # Dreadfort
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = northmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_northern_archers = {
+	color = { 8 186 114 }
+	color2 = { 255 255 255 }
+	
+	capital = 1204 # White Knife
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = northmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_northern_fleet = {
+	color = { 38 142 20 }
+	color2 = { 255 255 255 }
+	
+	capital = 1263 # Moat Cailin
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = crannogmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_iron_peasants = {
+	color = { 184 220 208 }
+	color2 = { 255 255 255 }
+	
+	capital = 1156 # Pyke
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = pykem
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_iron_infantry = {
+	color = { 234 100 135 }
+	color2 = { 255 255 255 }
+	
+	capital = 1164 # Great Wyk
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = iron_islander
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_iron_riders = {
+	color = { 189 123 40 }
+	color2 = { 255 255 255 }
+	
+	capital = 1171 # Ten Towers
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = harlawn
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_iron_knights = {
+	color = { 90 55 18 }
+	color2 = { 255 255 255 }
+	
+	capital = 1176 # Old Wyk
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = iron_islander
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_iron_pikes = {
+	color = { 84 149 64 }
+	color2 = { 255 255 255 }
+	
+	capital = 1185 # Blacktyde
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = iron_islander
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_iron_archers = {
+	color = { 238 153 1 }
+	color2 = { 255 255 255 }
+	
+	capital = 1190 # Orkmont
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = pykem
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_iron_fleet = {
+	color = { 90 11 242 }
+	color2 = { 255 255 255 }
+	
+	capital = 1192 # Loneley Light
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = iron_islander
+	religion = drowned_god
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_river_peasants = {
+	color = { 170 137 230 }
+	color2 = { 255 255 255 }
+	
+	capital = 1026 # Oldstones
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = muddish
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_river_infantry = {
+	color = { 152 30 98 }
+	color2 = { 255 255 255 }
+	
+	capital = 965 # Patrick's Hill (The Twins)
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = muddish
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_river_riders = {
+	color = { 58 168 77 }
+	color2 = { 255 255 255 }
+	
+	capital = 992 # Wayfarer's Rest
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = riverlander
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_river_knights = {
+	color = { 189 28 175 }
+	color2 = { 255 255 255 }
+	
+	capital = 986 # Just Keep
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = riverlander
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_river_pikes = {
+	color = { 239 117 6 }
+	color2 = { 255 255 255 }
+	
+	capital = 1052	#Darry
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = crabmen
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_river_archers = {
+	color = { 167 128 25 }
+	color2 = { 255 255 255 }
+	
+	capital = 1000 # Riverrun
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = riverlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_river_fleet = {
+	color = { 36 176 253 }
+	color2 = { 255 255 255 }
+	
+	capital = 1017 # Blue Fork
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = muddish
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_vale_peasants = {
+	color = { 137 154 15 }
+	color2 = { 255 255 255 }
+	
+	capital = 1069 # Gates of the Moon
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = valemen
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_vale_infantry = {
+	color = { 159 187 246 }
+	color2 = { 255 255 255 }
+	
+	capital = 1136 # Coldwater
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = valemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_vale_riders = {
+	color = { 114 131 161 }
+	color2 = { 255 255 255 }
+	
+	capital = 1110 # Hearthome
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = lowland_valemen
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_vale_knights = {
+	color = { 189 28 175 }
+	color2 = { 255 255 255 }
+	
+	capital = 1082 # Bloody Gate
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = valemen
+	religion = the_seven
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_vale_pikes = {
+	color = { 31 92 90 }
+	color2 = { 255 255 255 }
+	
+	capital = 1077	#Runestone
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = bronzemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_vale_archers = {
+	color = { 44 130 123 }
+	color2 = { 255 255 255 }
+	
+	capital = 1095 # Ironoaks
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = lowland_valemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_vale_fleet = {
+	color = { 55 194 165 }
+	color2 = { 255 255 255 }
+	
+	capital = 1148 # Longsister
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = sistermen
+	religion = lady_of_the_waves
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_crown_peasants = {
+	color = { 112 0 199 }
+	color2 = { 255 255 255 }
+	
+	capital = 808 #South Crackclaw
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = crackclawmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_crown_infantry = {
+	color = { 159 187 246 }
+	color2 = { 255 255 255 }
+	
+	capital = 797 # Dragonstone
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_crown_riders = {
+	color = { 235 0 105 }
+	color2 = { 255 255 255 }
+	
+	capital = 734 # Massey
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = hookmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_crown_knights = {
+	color = { 217 0 97 }
+	color2 = { 255 255 255 }
+	
+	capital = 795 # Rosby
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = rivermen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_crown_pikes = {
+	color = { 84 0 38 }
+	color2 = { 255 255 255 }
+	
+	capital = 730 # Blackwater Hill
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = rivermen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_crown_archers = {
+	color = { 44 130 123 }
+	color2 = { 255 255 255 }
+	
+	capital = 831 # Duskendale
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = dusklander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_crown_fleet = {
+	color = { 227 0 102 }
+	color2 = { 255 255 255 }
+	
+	capital = 733 # Blackwater Harbor
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = rivermen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_westerlander_peasants = {
+	color = { 186 45 61 }
+	color2 = { 255 255 255 }
+	
+	capital = 934 # Crakehall
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = cornlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_westerlander_infantry = {
+	color = { 82 65 35 }
+	color2 = { 255 255 255 }
+	
+	capital = 898 # Banefort
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = craggon
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_westerlander_riders = {
+	color = { 102 36 43 }
+	color2 = { 255 255 255 }
+	
+	capital = 889 # Castamere
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = westerlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_westerlander_knights = {
+	color = { 138 60 58 }
+	color2 = { 255 255 255 }
+	
+	capital = 906 # Hornvale
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = westerlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_westerlander_pikes = {
+	color = { 252 49 82 }
+	color2 = { 255 255 255 }
+	
+	capital = 861 # Casterly Rock
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = westerlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_westerlander_archers = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 858 # Lannisport
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = westerlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_westerlander_fleet = {
+	color = { 227 0 102 }
+	color2 = { 255 255 255 }
+	
+	capital = 870 # Fair Keep
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = fairmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_stormlander_peasants = {
+	color = { 173 0 78 }
+	color2 = { 255 255 255 }
+	
+	capital = 739 # Waterperry (Wendwater)
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = hookmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_stormlander_infantry = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 643 # Storm's End
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = stormmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_stormlander_riders = {
+	color = { 255 221 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 728 # Western Tarth
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = evenstar
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_stormlander_knights = {
+	color = { 163 116 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 680 # Rainwood
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = rainlander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_stormlander_pikes = {
+	color = { 252 49 82 }
+	color2 = { 255 255 255 }
+	
+	capital = 695 # Blackhaven
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = marchmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_stormlander_archers = {
+	color = { 235 73 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 692 # Griffin's Roost
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = stormmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_stormlander_fleet = {
+	color = { 186 196 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 654 # Estermont
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = wrathmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_reach_peasants = {
+	color = { 15 84 31 }
+	color2 = { 255 255 255 }
+	
+	capital = 629 # Chestershield
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = shieldislander
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_reach_infantry = {
+	color = { 10 77 20 }
+	color2 = { 255 255 255 }
+	
+	capital = 628 # Coldmoat
+	
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = north_marcher
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_reach_riders = {
+	color = { 0 230 52 }
+	color2 = { 255 255 255 }
+	
+	capital = 602 # Goldengrove
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = north_marcher
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_reach_knights = {
+	color = { 163 116 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 527 # Highgarden
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = manderish
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_reach_pikes = {
+	color = { 252 49 82 }
+	color2 = { 255 255 255 }
+	
+	capital = 570 # Brightwater Keep
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = manderish
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_reach_archers = {
+	color = { 0 123 28 }
+	color2 = { 255 255 255 }
+	
+	capital = 608 # Stonebridge
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = manderish
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_reach_fleet = {
+	color = { 0 28 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 544 # Oldtown
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = wynemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+d_dornish_peasants = {
+	color = { 250 185 110 }
+	color2 = { 255 255 255 }
+	
+	capital = 444 # Planky Town
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = tormen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = peasants
+}
+d_dornish_infantry = {
+	color = { 200 181 138 }
+	color2 = { 255 255 255 }
+	
+	capital = 429 # Sunspear
+	
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = spearmen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = infantry
+}
+d_dornish_riders = {
+	color = { 0 230 52 }
+	color2 = { 255 255 255 }
+	
+	capital = 508 # Hellholt
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = stonemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = riders
+}
+d_dornish_knights = {
+	color = { 250 130 20 }
+	color2 = { 255 255 255 }
+	
+	capital = 500 # Sandstone
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = stonemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = knights
+}
+d_dornish_pikes = {
+	color = { 87 56 36 }
+	color2 = { 255 255 255 }
+	
+	capital = 496 # Skyreach
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = stonemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = pikes
+}
+d_dornish_archers = {
+	color = { 245 190 20 }
+	color2 = { 255 255 255 }
+	
+	capital = 511 # Yronwood
+
+	mercenary = yes
+	
+	allow = {
+	    NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = bonemen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = archers
+}
+d_dornish_fleet = {
+	color = { 200 171 90 }
+	color2 = { 255 255 255 }
+	
+	capital = 459 # Ghaston Grey
+
+	mercenary = yes
+	
+	allow = {
+		NOT = {
+			culture_group = free_folk
+		}
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	landless = yes
+	primary = yes
+	
+	culture = tormen
+	religion = old_gods
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = fleet
+}
+
+##########################
+#### Valyrian Legions ####
+##########################
+
+d_first_legion = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    primary_title = { title = e_valyrian_freehold }
+	}
+	
+	title = "HIGHPRINCE"
+	foa = "HIGHPRINCE_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = valyrian_legion
+}
+
+d_second_legion = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    religion = valyrian
+	}
+	
+	title = "HIGHPRINCE"
+	foa = "HIGHPRINCE_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = valyrian_legion
+}
+
+d_third_legion = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    religion = valyrian
+	}
+	
+	title = "HIGHPRINCE"
+	foa = "HIGHPRINCE_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = valyrian_legion
+}
+
+d_fourth_legion = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    religion = valyrian
+	}
+	
+	title = "HIGHPRINCE"
+	foa = "HIGHPRINCE_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = valyrian_legion
+}
+
+d_slaves_valyria = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    religion = valyrian
+	}
+	
+	title = "WISEMASTER"
+	foa = "WISEMASTER_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = slaves
+}
+
+d_slaves_ghiscar = {
+	color = { 110 246 8 }
+	color2 = { 255 255 255 }
+	
+	capital = 344 # Lys
+
+	holy_order = yes
+	
+	allow = {
+	    religion = valyrian
+	}
+	
+	title = "WISEMASTER"
+	foa = "WISEMASTER_FOA"
+
+	landless = yes
+	primary = yes
+	
+	culture = high_valyrian
+	religion = valyrian
+	
+	strength_growth_per_century = 0
+	
+	mercenary_type = slaves
+}

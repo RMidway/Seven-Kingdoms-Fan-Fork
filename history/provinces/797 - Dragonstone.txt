@@ -1,0 +1,23 @@
+# c_dragonstone
+
+# County Title
+title = c_dragonstone
+
+# Settlements
+max_settlements = 5
+
+b_dragonstone = castle
+#b_windwyrm = city
+#b_aegons_garden = temple
+#b_stone_drum = castle
+#b_sea_dragon_tower = city
+
+# Misc
+culture = low_valyrian
+religion = valyrian
+terrain = mountain
+#History
+7500.1.1 = { 
+	build_wonder = wonder_dragonstone
+	set_wonder_stage = 1
+}

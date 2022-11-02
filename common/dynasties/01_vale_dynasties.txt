@@ -1,0 +1,894 @@
+############
+# ID RANGE #
+# 100-199  #
+############
+
+100=
+{
+	used_for_random=no
+	name="Cliften"
+	culture="valemen"
+	religion="the_seven"
+}
+
+101=
+{
+	used_for_random=no
+	name="Wingpass"
+	culture="lowland_valemen"
+	religion="the_seven"
+}
+
+#102 - 137 missing? however, got an empty coa
+
+138=
+{
+	used_for_random=no
+	name="Shett" #of Gull-Tower
+	culture="bronzemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#139 missing? however, got an empty coa
+
+140=
+{
+	used_for_random=no
+	name="Coltin"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+
+}
+
+### MOUNTAIN CLANSMEN ###
+
+141=
+{
+	used_for_random=no
+	name="Sons of The Tree"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+142=
+{
+	used_for_random=no
+	name="Sons of The Mist"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+143=
+{
+	used_for_random=no
+	name="Redsmiths"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+144=
+{
+	used_for_random=no
+	name="Painted Dogs"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+145=
+{
+	used_for_random=no
+	name="Moon Brothers"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+146=
+{
+	used_for_random=no
+	name="Milk Snakes"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+147=
+{
+	used_for_random=no
+	name="Howlers"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+148=
+{
+	used_for_random=no
+	name="Burned Men"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+
+149=
+{
+	used_for_random=no
+	name="Black Ears"
+	culture="mountain_clansmen"
+	religion="old_gods"
+
+}
+############################################
+
+150=
+{
+	used_for_random=no
+	name="Falcon"
+	culture="valemen"
+	religion="the_seven"
+
+}
+
+151=
+{
+	used_for_random=no
+	name="Porter"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+
+}
+
+152=
+{
+	used_for_random=no
+	name="Button"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+
+}
+
+153=
+{
+	used_for_random=no
+	name="Badics"
+	culture="valemen"
+	religion="the_seven"
+}
+
+154=
+{
+	used_for_random=no
+	name="Rosesk"
+	culture="valemen"
+	religion="the_seven"
+}
+
+155=
+{
+	used_for_random=no
+	name="Moonman"
+	culture="valemen"
+	religion="the_seven"
+}
+
+156=
+{
+	used_for_random=no
+	name="Wydman"
+	culture="lowland_valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+157=
+{
+	used_for_random=no
+	name="Templeton"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	
+}
+
+158=
+{
+	used_for_random=no
+	name="Godmoore"
+	culture="valemen"
+	religion="the_seven"
+}
+
+159=
+{
+	used_for_random=no
+	name="Downhill"
+	culture="valemen"
+	religion="the_seven"
+}
+
+160=
+{
+	used_for_random=no
+	name="Upcliff"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+161=
+{
+	used_for_random=no
+	name="Creek"
+	culture="valemen"
+	religion="the_seven"
+}
+
+162=
+{
+	used_for_random=no
+	name="Donniger"
+	culture="lowland_valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+
+}
+
+163=
+{
+	used_for_random=no
+	name="Fletcher"
+	culture="lowland_valemen"
+	religion="old_gods"
+}
+
+164=
+{
+	used_for_random=no
+	name="Starfish"
+	culture="lowland_valemen"
+	religion="old_gods"
+}
+
+165=
+{
+	used_for_random=no
+	name="Ruthermont"
+	culture="lowland_valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+166=
+{
+	used_for_random=no
+	name="Shett" #of Gulltown
+	culture="bronzemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+167=
+{
+	used_for_random=no
+	name="Oldfaith"
+	culture="bronzemen"
+	religion="old_gods"
+}
+
+168=
+{
+	used_for_random=no
+	name="Titan"
+	culture="bronzemen"
+	religion="old_gods"
+}
+
+169=
+{
+	used_for_random=no
+	name="Waxley"
+	culture="bronzemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 69
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+170=
+{
+	used_for_random=no
+	name="Yohn"
+	culture="bronzemen"
+	religion="old_gods"
+}
+
+
+171=
+{
+	used_for_random=no
+	name="Baelish"
+	culture="valemen"
+	religion="the_seven"
+}
+
+172=
+{
+	used_for_random=no
+	name="Royce"
+	culture="bronzemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 72
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+173=
+{
+	used_for_random=no
+	name="Grafton"
+	culture="lowland_valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 73
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+174=
+{
+	used_for_random=no
+	name="Redfort"
+	culture="lowland_valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 74
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+175=
+{
+	used_for_random=no
+	name="Waynwood"
+	culture="valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 75
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+176=
+{
+	used_for_random=no
+	name="Hunter"
+	culture="valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 76
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+177=
+{
+	used_for_random=no
+	name="Melcolm"
+	culture="valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 77
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+178=
+{
+	used_for_random=no
+	name="Pass"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 78
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+179=
+{
+	used_for_random=no
+	name="Moore"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 79
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+180=
+{
+	used_for_random=no
+	name="Arryn"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 80
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+181=
+{
+	used_for_random=no
+	name="Belmore"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 81
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+182=
+{
+	used_for_random=no
+	name="Corbray"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 82
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+183=
+{
+	used_for_random=no
+	name="Pointgard"
+	culture="valemen"
+	religion="the_seven"
+}
+
+184=
+{
+	used_for_random=no
+	name="Wycliffe"
+	culture="valemen"
+	religion="the_seven"
+}
+
+185=
+{
+	used_for_random=no
+	name="Lynderly"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 85
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+186=
+{
+	used_for_random=no
+	name="Egen"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 86
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#187 missing? however, got an empty coa
+
+188=
+{
+	used_for_random=no
+	name="Bael"
+	culture="valemen"
+	religion="the_seven"
+}
+
+### MOUNTAIN CLANSMEN ###
+
+189=
+{
+	used_for_random=no
+	name="Stone Crow"
+	culture="mountain_clansmen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 89
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#########################
+
+190=
+{
+	used_for_random=no
+	name="Hersy"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 90
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+191=
+{
+	used_for_random=no
+	name="Coldwater"
+	culture="valemen"
+	religion="the_seven"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 91
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+192=
+{
+	used_for_random=no
+	name="Pryor"
+	culture="sistermen"
+	religion="old_gods"
+	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 92
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+193=
+{
+	used_for_random=no
+	name="Elesham"
+	culture="sistermen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 93
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}	
+
+194=
+{
+	used_for_random=no
+	name="Tollett"
+	culture="lowland_valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 94
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+195=
+{
+	used_for_random=no
+	name="Torrent"
+	culture="sistermen"
+	religion="old_gods"
+
+}
+
+196=
+{
+	name="Borrell"
+	culture="sistermen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 96
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+197=
+{
+	used_for_random=no
+	name="Sunderland"
+	culture="sistermen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 97
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+198=
+{
+	used_for_random=no
+	name="Longthorpe"
+	culture="sistermen"
+	religion="old_gods"
+
+}
+
+199=
+{
+	used_for_random=no
+	name="Hardyng"
+	culture="valemen"
+	religion="old_gods"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 99
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

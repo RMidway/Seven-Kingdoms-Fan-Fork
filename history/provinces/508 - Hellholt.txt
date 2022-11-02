@@ -1,0 +1,26 @@
+# c_hellholt
+
+# County Title
+title = c_hellholt
+
+# Settlements
+max_settlements = 5
+
+b_hellholt = castle
+b_hellgate_hall = castle
+b_hotshadow = city
+#b_guadaron = castle
+#b_hella = city
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = mountain
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7400.1.1 = {
+	culture = stone_dornish
+}

@@ -1,0 +1,22 @@
+# c_falconhand
+
+# County Title
+title = c_falconhand
+
+# Settlements
+max_settlements = 4
+
+b_falconhand = castle
+#b_bendada = city
+#b_atalaia = temple
+#b_falconhand_2 = castle
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = mountain
+#History
+6300.1.1 = {
+	culture = stone_dornish
+    religion = the_seven
+}

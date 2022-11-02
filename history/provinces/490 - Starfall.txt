@@ -1,0 +1,35 @@
+# c_starfall
+
+# County Title
+title = c_starfall
+
+# Settlements
+max_settlements = 5
+
+b_starfall = castle
+b_paleground = city
+b_stars_rest = temple
+#b_bourio = castle
+#b_starfall_2 = city
+
+# Misc
+culture = torrentine
+religion = old_gods
+
+#History
+6500.1.1 = {
+
+
+
+
+
+
+
+
+
+
+}
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

@@ -1,0 +1,25 @@
+# c_amber
+
+# County Title
+title = c_amber
+
+# Settlements
+max_settlements = 3
+
+b_amber = castle
+#b_amber_2 = city
+#b_amber_3 = temple
+#b_amber_4 = castle
+#b_amber_5 = city
+#b_amber_6 = temple
+#b_amber_7 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6900.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}

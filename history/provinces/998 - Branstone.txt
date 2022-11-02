@@ -1,0 +1,21 @@
+# c_branstone
+
+# County Title
+title = c_branstone
+
+# Settlements
+max_settlements = 3
+
+b_branstone = castle
+#b_pencherd = city
+#b_branstone_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

@@ -1,0 +1,25 @@
+# c_attadale
+
+# County Title
+title = c_attadale
+
+# Settlements
+max_settlements = 4
+
+b_attadale = castle
+b_juist = city
+#b_elleraz = temple
+#b_attadale_2 = castle
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = woods
+#History
+6400.1.1 = {
+	culture = stormmen
+}
+6600.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

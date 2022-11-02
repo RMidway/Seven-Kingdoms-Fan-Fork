@@ -1,0 +1,24 @@
+# c_grimmshield
+
+# County Title
+title = c_grimmshield
+
+# Settlements
+max_settlements = 4
+
+b_grimmshield = castle
+b_berdorf = city
+#b_grevels = temple
+#b_emerange = castle
+
+# Misc
+culture = shieldislander
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+}
+7000.1.1 = {
+    culture = shieldmen
+}

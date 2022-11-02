@@ -1,0 +1,23 @@
+# c_blackmont
+
+# County Title
+title = c_blackmont
+
+# Settlements
+max_settlements = 5
+
+b_blackmont = castle
+b_blackbones = city
+b_laujar = temple
+b_tarahal = castle
+#b_blackmont_2 = city
+
+# Misc
+culture = torrentine
+religion = vulture_god
+terrain = mountain
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

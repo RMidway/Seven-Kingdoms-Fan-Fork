@@ -1,0 +1,23 @@
+# c_stephensfeld
+
+# County Title
+title = c_stephensfeld
+
+# Settlements
+max_settlements = 5
+
+b_stephensfeld = castle
+#b_aubio = city
+#b_muri = temple
+#b_hurden = castle
+#b_stephensfeld_2 = city
+
+# Misc
+culture = gatesmen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

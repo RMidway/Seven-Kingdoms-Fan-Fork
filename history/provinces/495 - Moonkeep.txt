@@ -1,0 +1,20 @@
+# c_moonkeep
+
+# County Title
+title = c_moonkeep
+
+# Settlements
+max_settlements = 2
+
+b_moonkeep = castle
+#b_moonkeep_2 = city
+
+# Misc
+culture = torrentine
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

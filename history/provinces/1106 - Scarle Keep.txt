@@ -1,0 +1,21 @@
+# c_scarle_keep
+
+# County Title
+title = c_scarle_keep
+
+# Settlements
+max_settlements = 3
+
+b_scarle_keep = castle
+#b_rolling = city
+#b_scarle_keep_2 = temple
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

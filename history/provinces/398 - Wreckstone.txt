@@ -1,0 +1,21 @@
+# c_wreckstone
+
+# County Title
+title = c_wreckstone
+
+# Settlements
+max_settlements = 2
+
+b_wreckstone = castle
+#b_wreckstone_2 = city
+#b_wreckstone_3 = temple
+#b_wreckstone_4 = castle
+#b_wreckstone_5 = city
+#b_wreckstone_6 = temple
+#b_wreckstone_7 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

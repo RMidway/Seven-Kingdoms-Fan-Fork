@@ -1,0 +1,919 @@
+		      ###############
+		      #   ID RANGE  #
+		      # 21001-22000 #
+		      ###############
+
+		  ######################
+		  ### House Gardener ###
+		  ######################
+		  
+21001 = {
+    name = Merle
+    dynasty = 604 # Gardener
+    father = 1217
+    religion = the_seven
+    culture = reachmen
+   
+    diplomacy = 8
+    trait = grey_eminence
+    trait = kind
+	trait = diligent
+	trait = patient
+	trait = just
+	trait = honest
+	trait = trusting
+    
+    6574.1.1 = { birth=yes }
+    6620.1.1 = { give_nickname=nick_the_meek }
+    6647.1.1 = { death=yes }
+}
+
+21002 = {
+    name = Gwayne
+    dynasty = 604 # Gardener
+    father = 21001
+    religion = the_seven
+    culture = reachmen
+   
+    diplomacy = 8
+    trait = grey_eminence
+    trait = kind
+	trait = diligent
+	trait = patient
+	trait = just
+	trait = honest
+    trait = temperate
+	trait = knight
+    
+    6600.1.1 = { birth=yes }
+    6672.1.1 = { death=yes }
+}
+
+21003 = {
+    name = "Garland"
+    dynasty = 604 # Gardener
+    father = 21002
+    religion = the_seven
+    culture = reachmen
+    6627.1.1 = { birth=yes }
+    6692.1.1 = { death=yes }
+}
+
+21004= {
+    name = "Garse"
+    dynasty = 604 # Gardener
+    father = 21003
+    religion = the_seven
+    culture = reachmen
+    6650.1.1 = { birth=yes }
+    6712.1.1 = { death=yes }
+}
+
+21005= {
+    name = "Garland"
+    dynasty = 604 # Gardener
+    father = 21004
+    religion = the_seven
+    culture = reachmen
+    6677.1.1 = { birth=yes }
+    6746.1.1 = { death=yes }
+}
+
+21006= {
+    name = "Perceon"
+    dynasty = 604 # Gardener
+    father = 21005
+    religion = the_seven
+    culture = reachmen
+    6700.1.1 = { birth=yes }
+    6782.1.1 = { death=yes }
+}
+
+21007= {
+    name = "Mern"
+    dynasty = 604 # Gardener
+    father = 21006
+    religion = the_seven
+    culture = reachmen
+    6730.1.1 = { birth=yes }
+    6800.1.1 = { death=yes }
+}
+
+21008= {
+    name = "Garse"
+    dynasty = 604 # Gardener
+    father = 21007
+    religion = the_seven
+    culture = reachmen
+    6755.1.1 = { birth=yes }
+    6818.1.1 = { death=yes }
+}
+
+21009= {
+    name = "Garland"
+    dynasty = 604 # Gardener
+    father = 21008
+    religion = the_seven
+    culture = reachmen
+    6777.1.1 = { birth=yes }
+    6840.1.1 = { death=yes }
+}
+
+21010= {
+    name = "Perceon"
+    dynasty = 604 # Gardener
+    father = 21009
+    religion = the_seven
+    culture = reachmen
+    6800.1.1 = { birth=yes }
+    6858.1.1 = { death=yes }
+}
+
+21011= {
+    name = "Mern"
+    dynasty = 604 # Gardener
+    father = 21010
+    religion = the_seven
+    culture = reachmen
+    6820.1.1 = { birth=yes }
+    6879.1.1 = { death=yes }
+}
+
+21012= {
+    name = "Line of Mern"
+    dynasty = 604 # Gardener
+    father = 21011
+    religion = the_seven
+    culture = reachmen
+	occluded = yes
+    6879.1.1 = { birth=yes }
+    7100.1.1 = { death=yes }
+}
+
+21013= {
+    name = "Garse"
+    dynasty = 604 # Gardener
+    father = 21012
+    religion = the_seven
+    culture = reachmen
+    7100.1.1 = { birth=yes }
+    7160.1.1 = { death=yes }
+}
+
+21014= {
+    name = "Garse"
+    dynasty = 604 # Gardener
+    father = 21013
+    religion = the_seven
+    culture = reachmen
+    7134.1.1 = { birth=yes }
+    7200.1.1 = { death=yes }
+}
+
+21015= {
+    name = "Garland"
+    dynasty = 604 # Gardener
+    father = 21014
+    religion = the_seven
+    culture = reachmen
+    7160.1.1 = { birth=yes }
+    7227.1.1 = { death=yes }
+}
+
+21016= {
+    name = "Gyles"
+    dynasty = 604 # Gardener
+    father = 21015
+    religion = the_seven
+    culture = reachmen
+    7200.1.1 = { birth=yes }
+    7252.1.1 = { death=yes }
+}
+
+21017= {
+    name = "Garth" ### Greybeard
+    dynasty = 604 # Gardener
+	health = 10
+    father = 21016
+    religion = the_seven
+    culture = reachmen
+    7221.1.1 = { birth=yes }
+	7290.1.1 = { give_nickname=nick_greybeard }
+    7305.1.1 = { death=yes }
+}
+
+21018= {
+    name = "Olenna" ### GREYBEARD'S DAUGHTER/PEAKE
+    dynasty = 604 # Gardener
+	health = 10
+    father = 21017
+    religion = the_seven
+    culture = reachmen
+	female = yes
+    7250.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+21019= {
+    name = "Margaery" ### GREYBEARD'S DAUGHTER/MANDERLY
+    dynasty = 604 # Gardener
+	health = 10
+    father = 21017
+    religion = the_seven
+    culture = reachmen
+	female = yes
+    7252.1.1 = { birth=yes }
+    7319.1.1 = { death=yes }
+}
+
+21020= {
+    name = "Gwayne"
+    dynasty = 604 # Gardener
+    father = 21015
+    religion = the_seven
+    culture = reachmen
+    7206.1.1 = { birth=yes }
+    7266.1.1 = { death=yes }
+}
+
+21021= {
+    name = "John" 
+    dynasty = 604 # Gardener
+    father = 21020
+    religion = the_seven
+    culture = reachmen
+    7222.1.1 = { birth=yes }
+    7280.1.1 = { death=yes }
+}
+
+21022= {
+    name = "Mern" # VI
+    dynasty = 604 # Gardener
+    father = 21021
+    religion = the_seven
+    culture = reachmen
+    7247.1.1 = { birth=yes }
+    7312.1.1 = { death=yes }
+}
+
+21023= {
+    name = "Garth" # XI 'the Painter'
+    dynasty = 604 # Gardener
+    father = 21022
+    religion = the_seven
+    culture = reachmen
+	trait = midas_touched
+	stewardship = 8
+	trait = just
+	trait = diligent
+	trait = patient
+	trait = proud
+	trait = lustful
+	trait = cynical
+    7283.1.1 = { birth=yes }
+	7320.1.1 = { give_nickname=nick_the_painter }
+    7350.1.1 = { death=yes }
+}
+
+21024= {
+    name = "Greydon" 
+    dynasty = 604 # Gardener
+    father = 21023
+    religion = the_seven
+    culture = reachmen
+    7304.1.1 = { birth=yes }
+    7367.1.1 = { death=yes }
+}
+
+21025= {
+    name = "Mern" 
+    dynasty = 604 # Gardener
+    father = 21024
+    religion = the_seven
+    culture = reachmen
+    7334.1.1 = { birth=yes }
+    7400.1.1 = { death=yes }
+}
+
+21026= {
+    name = "Perceon" 
+    dynasty = 604 # Gardener
+    father = 21025
+    religion = the_seven
+    culture = reachmen
+    7364.1.1 = { birth=yes }
+    7437.1.1 = { death=yes }
+}
+
+21027= {
+    name = "Garse" 
+    dynasty = 604 # Gardener
+    father = 21026
+    religion = the_seven
+    culture = reachmen
+    7390.1.1 = { birth=yes }
+    7459.1.1 = { death=yes }
+}
+
+21028= {
+    name = "Mern" 
+    dynasty = 604 # Gardener
+    father = 21027
+    religion = the_seven
+    culture = reachmen
+    7419.1.1 = { birth=yes }
+    7480.1.1 = { death=yes }
+}
+
+21029= {
+    name = "Garth" 
+    dynasty = 604 # Gardener
+    father = 21028
+    religion = the_seven
+    culture = reachmen
+    7440.1.1 = { birth=yes }
+    7501.1.1 = { death=yes }
+}
+
+21030= {
+    name = "Edmund" 
+    dynasty = 604 # Gardener
+    father = 21029
+    religion = the_seven
+    culture = reachmen
+    7460.1.1 = { birth=yes }
+    7517.1.1 = { death=yes }
+}
+
+21031= {
+    name = "Garse" 
+    dynasty = 604 # Gardener
+    father = 21030
+    religion = the_seven
+    culture = reachmen
+    7484.1.1 = { birth=yes }
+    7548.1.1 = { death=yes }
+}
+
+21032= {
+    name = "Line of Garse" 
+    dynasty = 604 # Gardener
+    father = 21031
+    religion = the_seven
+    culture = reachmen
+	occluded = yes
+    7548.1.1 = { birth=yes }
+    7900.1.1 = { death=yes }
+}
+
+21033= {
+    name = "John" 
+    dynasty = 604 # Gardener
+    father = 21032
+    religion = the_seven
+    culture = reachmen
+
+    7900.1.1 = { birth=yes }
+    7957.1.1 = { death=yes }
+}
+
+21034= {
+    name = "Garth" 
+    dynasty = 604 # Gardener
+    father = 21033
+    religion = the_seven
+    culture = reachmen
+
+    7917.1.1 = { birth=yes }
+    7960.1.1 = { death=yes }
+}
+
+21035= {
+    name = "Garse" 
+    dynasty = 604 # Gardener
+    father = 21034
+    religion = the_seven
+    culture = reachmen
+
+    7940.1.1 = { birth=yes }
+    7973.1.1 = { death=yes } ### DIED IN BATTLE
+}
+
+21036= {
+    name = "Mern" # THE LAST GARDENER KING
+    dynasty = 604 # Gardener
+    father = 21035
+    religion = the_seven
+    culture = reachmen
+
+    7950.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+21037= {
+    name = "Edmund" # THE CROWN PRINCE
+    dynasty = 604 # Gardener
+    father = 21036
+    religion = the_seven
+    culture = reachmen
+
+    7968.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+21038= {
+    name = "Gawen" # A PRINCE
+    dynasty = 604 # Gardener
+    father = 21036
+    religion = the_seven
+    culture = reachmen
+
+    7969.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+21039= {
+    name = "Gwayne" # A PRINCE
+    dynasty = 604 # Gardener
+    father = 21036
+    religion = the_seven
+    culture = reachmen
+
+    7970.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+21040= {
+    name = "John" # A PRINCE
+    dynasty = 604 # Gardener
+    father = 21036
+    religion = the_seven
+    culture = reachmen
+
+    7972.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+21041= {
+    name = "Garth" 
+    dynasty = 604 # Gardener
+    father = 21037
+    religion = the_seven
+    culture = reachmen
+
+    7984.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+21042= {
+    name = "Gyles" 
+    dynasty = 604 # Gardener
+    father = 21037
+    religion = the_seven
+    culture = reachmen
+
+    7975.1.1 = { birth=yes }
+    7998.1.1 = { death=yes } ### DIED IN FIELD OF FIRE
+}
+
+		  ###################
+		  ### House Rowan ###
+		  ###################
+		  
+21043={
+	name="Mordane" # The Grove Kings Sister
+	dynasty=610
+	culture=north_marcher
+	religion=the_seven
+	father=5362
+	female = yes
+	6524.1.1={birth=yes}
+	6590.7.12={death=yes}
+}
+
+21044={
+	name="Tania" # The Grove Kings Sister
+	dynasty=610
+	culture=north_marcher
+	religion=the_seven
+	father=5362
+	female = yes
+	6530.1.1={birth=yes}
+	6595.7.12={death=yes}
+}
+
+21045={
+	name="Jeremy" # The Grove Kings Brother
+	dynasty=610
+	culture=north_marcher
+	religion=the_seven
+	father=5362
+	trait = knight
+	trait = dueling_expert
+	6532.1.1={birth=yes}
+	6595.1.1={death=yes}
+}
+
+21046={
+	name="Russell" # The Grove Kings Nephew
+	dynasty=610
+	culture=north_marcher
+	religion=the_seven
+	father=21045
+	trait = knight
+	trait = dueling_adept
+	6548.1.1={birth=yes}
+	6609.1.1={death=yes}
+}
+
+21047={
+	name="Randyll" # The Grove Kings Nephew
+	dynasty=610
+	culture=north_marcher
+	religion=the_seven
+	father=21045
+	trait = knight
+	trait = dueling_skilled
+	trait = skilled_tactician
+	6549.1.1={birth=yes}
+	6613.1.1={death=yes}
+}
+
+#########################
+### House Hammersmyth ###
+#########################
+
+21048={
+	name="Randyll" 
+	dynasty=904019
+	culture=wynelander
+	religion=the_seven
+	father=21049
+	trait = knight
+	trait = dueling_skilled
+	trait = strong
+	trait = skilled_tactician
+	trait = tall
+	trait = zealous
+	trait = charitable
+	trait = temperate
+	trait = chaste
+	health = 10
+	martial = 7
+	6522.1.1={birth=yes}
+	6600.1.1={death=yes}
+}
+
+21049={
+	name="Horas" 
+	dynasty=904019
+	culture=wynelander
+	religion=the_seven
+	trait = knight
+	trait = dueling_skilled
+	trait = strong
+	6501.1.1={birth=yes}
+	6566.1.1={death=yes}
+}
+
+21050={
+	name="Harlen" 
+	dynasty=904019
+	culture=wynelander
+	religion=the_seven
+	father=21049
+	trait = knight
+	trait = dueling_master
+	6525.1.1={birth=yes}
+	6590.1.1={death=yes}
+}
+
+21051={
+	name="Hobber" 
+	dynasty=904019
+	culture=wynelander
+	religion=the_seven
+	father=21048
+	trait = knight
+	trait = dueling_expert
+	trait = strong
+	trait = tall
+	health = 10
+        trait = grey_eminence
+	trait = honest
+	trait = trusting
+	trait = kind
+	diplomacy = 7
+	trait = proud
+	6544.1.1={birth=yes}
+	6621.1.1={death=yes}
+}
+
+		  ######################
+		  ### House Hedgeway ###
+		  ######################
+
+21052={
+	name="Hosman" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21053
+
+	6522.1.1={birth=yes}
+	6590.1.1={death=yes}
+}
+
+21053={
+	name="Jon" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+
+	6501.1.1={birth=yes}
+	6564.1.1={death=yes}
+}
+
+21054={
+	name="Owain" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21053
+
+	6525.1.1={birth=yes}
+	6588.1.1={death=yes}
+}
+
+21055={
+	name="Lucas" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21053
+	6528.1.1={birth=yes}
+	6588.1.1={death=yes}
+}
+
+21056={
+	name="Russell" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21054
+
+	6548.1.1={birth=yes}
+	6620.1.1={death=yes}
+}
+
+21057={
+	name="Meribald" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21054
+
+	6548.1.1={birth=yes}
+	6620.1.1={death=yes}
+}
+
+21058={
+	name="Sabrina" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21055
+	female = yes
+
+	6548.1.1={birth=yes}
+	6612.1.1={death=yes}
+}
+
+21059={
+	name="Megga" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21055
+	female = yes
+
+	6549.1.1={birth=yes}
+	6622.1.1={death=yes}
+}
+
+21060={
+	name="Petrola" 
+	dynasty=804014
+	culture=reachmen
+	religion=old_gods
+	father=21055
+	female = yes
+
+	6550.1.1={birth=yes}
+	6607.1.1={death=yes}
+}
+
+#####################
+### House Redwynd ###
+#####################
+
+21061 ={
+	name = "Aron" 
+	dynasty = 904062
+	culture = wynelander
+	religion = the_seven
+
+	6500.1.1 = { birth = yes }
+	6600.1.1 = { death = yes }
+}
+
+21062 ={
+	name = "Ryam" 
+	dynasty = 904062
+	culture = wynelander
+	religion = the_seven
+	father = 21061 
+	stewardship = 10
+	trait = midas_touched
+	trait = genius
+	trait = lustful
+	trait = patient
+	trait = diligent
+	trait = just
+	trait = administrator
+	trait = seducer
+
+	6537.1.1 = { birth = yes }
+	6600.1.1 = { death = yes }
+}
+
+21063 ={
+	name = "Olenna" 
+	dna="0aaba0jie00"
+	dynasty = 904062
+	culture = wynelander
+	religion = the_seven
+	father = 21061 
+	trait = lustful 
+	trait = fair 
+	trait = twin
+	female = yes
+	6548.1.1 = { birth = yes }
+	6610.1.1 = { death = yes }
+}
+
+21064 ={
+	name = "Desmera" 
+	dna="0aaba0jie00"
+	dynasty = 904062
+	culture = wynelander
+	religion = the_seven
+	father = 21061 
+	trait = lustful 
+	trait = fair 
+	trait = twin
+	female = yes
+
+	6548.1.1 = { birth = yes }
+	6610.1.1 = { death = yes }
+}
+
+		  ####################
+		  ### House Footly ###
+		  ####################
+
+21065 ={
+	name = "Thaddeus" # LORD OF TUMBLETON 
+	dynasty = 612
+	culture = north_marcher
+	religion = old_gods
+	father = 21066
+	trait = lustful 
+
+	6515.1.1 = { birth = yes }
+	6560.1.1 = { death = yes }
+}
+
+21066 ={
+	name = "Josua" # LORD OF TUMBLETON 
+	dynasty = 612
+	culture = north_marcher
+	religion = old_gods
+	father = 21067
+
+	6494.1.1 = { birth = yes }
+	6552.1.1 = { death = yes }
+}
+
+21067 ={
+	name = "Victor" # LORD OF TUMBLETON 
+	dynasty = 612
+	culture = north_marcher
+	religion = old_gods
+
+	6470.1.1 = { 
+		birth=yes
+		create_bloodline = {
+			type = bloodline_footly
+			has_dlc = "Holy Fury"
+		}
+	}
+	6522.1.1 = { death = yes }
+}
+
+21068 ={
+	name = "Ariela" 
+	dynasty = 612
+	culture = north_marcher
+	religion = old_gods
+	father = 21067
+	female = yes
+	6493.1.1 = { birth = yes }
+	6552.1.1 = { death = yes }
+}
+
+21069 ={
+	name = "Jancia" 
+	dynasty = 612
+	culture = north_marcher
+	religion = old_gods
+	father = 21067
+	female = yes
+	6493.1.1 = { birth = yes }
+	6552.1.1 = { death = yes }
+}
+
+21070 ={
+	name = "Wendell" # LORDS UNCLE
+	dynasty = 612
+	culture = north_marcher
+	religion = old_gods
+	father = 21066
+
+	6518.1.1 = { birth = yes }
+	6577.1.1 = { death = yes }
+}
+
+21071 ={
+	name = "Olymer" # LORDS COUSIN
+	dynasty = 612
+	culture = north_marcher
+	religion = the_seven
+	father = 21070
+	trait = knight
+	trait = dueling_adept
+
+	6536.1.1 = { birth = yes }
+	6590.1.1 = { death = yes }
+}
+
+21072 ={
+	name = "Quenton" # LORDS COUSIN
+	dynasty = 612
+	culture = north_marcher
+	religion = the_seven
+	father = 21070
+	trait = knight
+	trait = dueling_skilled
+
+	6538.1.1 = { birth = yes }
+	6599.1.1 = { death = yes }
+}
+
+21073 ={
+	name = "Rylla" # LORDS SISTER 
+	dynasty = 612
+	culture = north_marcher
+	religion = the_seven
+	father = 21065
+	female = yes
+
+	6534.1.1 = { birth = yes }
+	6591.1.1 = { death = yes }
+}
+
+21074 ={
+	name = "Sarah" # LORDS SISTER 
+	dynasty = 612
+	culture = north_marcher
+	religion = the_seven
+	father = 21065
+	female = yes
+
+	6537.1.1 = { birth = yes }
+	6589.1.1 = { death = yes }
+}
+
+21075 ={
+	name = "Ethan" # LORDS BROTHER
+	dynasty = 612
+	culture = north_marcher
+	religion = the_seven
+	father = 21065
+	trait = knight
+	trait = dueling_master
+	trait = tough_soldier
+	martial = 7
+	6537.1.1 = { birth = yes }
+	6589.1.1 = { death = yes }
+}

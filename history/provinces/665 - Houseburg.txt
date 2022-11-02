@@ -1,0 +1,24 @@
+# c_houseburg
+
+# County Title
+title = c_houseburg
+
+# Settlements
+max_settlements = 4
+
+b_houseburg = castle
+#b_steinknippen = city
+#b_bukow = temple
+#b_houseburg_2 = castle
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = hills
+#History
+6350.1.1 = {
+	culture = marchmen
+}
+6800.1.1 = {
+	religion = the_seven 
+}

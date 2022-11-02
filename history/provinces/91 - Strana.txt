@@ -1,0 +1,21 @@
+# c_strana
+
+# County Title
+title = c_strana
+
+# Settlements
+max_settlements = 7
+
+b_strana = castle
+#b_strana_2 = city
+#b_strana_3 = temple
+#b_strana_4 = castle
+#b_strana_5 = city
+#b_strana_6 = temple
+#b_strana_7 = castle
+
+# Misc
+culture = lorathi
+religion = the_seven
+terrain = hills
+#History

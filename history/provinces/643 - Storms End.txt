@@ -1,0 +1,38 @@
+# c_storms_end
+
+# County Title
+title = c_storms_end
+
+# Settlements
+max_settlements = 6
+
+b_storms_end = castle
+b_durrans_point = castle
+b_storm_godswood = temple
+b_tower_of_the_fist = castle
+b_caveport = city
+#b_last_hold = temple
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = plains
+#History
+30.1.1 = { 
+	build_wonder = wonder_storms_end
+	set_wonder_stage = 1
+}
+
+4000.1.1 = {
+	set_wonder_stage = 2
+}
+
+6300.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}
+6500.1.1 = {
+	set_wonder_stage = 3
+    
+}
+

@@ -1,0 +1,22 @@
+# c_wickby
+
+# County Title
+title = c_wickby
+
+# Settlements
+max_settlements = 4
+
+b_wickby = castle
+#b_eschette = city
+#b_moestraff = temple
+#b_wickby_2 = castle
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

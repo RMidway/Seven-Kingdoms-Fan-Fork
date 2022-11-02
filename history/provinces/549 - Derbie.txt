@@ -1,0 +1,21 @@
+# c_derbie
+
+# County Title
+title = c_derbie
+
+# Settlements
+max_settlements = 3
+
+b_derbie = castle
+b_lainay = city
+#b_hoogmolen = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

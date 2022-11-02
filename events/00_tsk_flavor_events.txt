@@ -1,0 +1,1498 @@
+###################################
+#
+# The Seven Kingdoms 
+# - Flavor Events Written by Vierwood
+#
+# Event IDs tsk.0100 # You encounter a Hedge Knight
+#			tsk.0101 # Gold and Silver vein found
+#			tsk.0102 # Bountiful Harvest
+#			tsk.0103 # Influx of Trade
+#			tsk.0104-107 # Mountain Clansmen Ambush
+#			tsk.0108 # You trip and fall 
+#			tsk.0109 # You respect your men's sense of justness
+#			tsk.0110-113 # You go out to a tavern
+#			tsk.0114 # Destroy the Goldengrove ###### Will be expanded to encompass every Kingdom
+#			tsk.0115 # Bastard Nickname event
+#			tsk.0116 # Knight Minor Title
+#			tsk.0117-120 # The Shadow of Duskendale
+#			tsk.0121 # Kingdom of the Claw AOPK message
+#			tsk.0122 # Celtigar AOPK opening
+#			tsk.0123 # Velaryon AOPK opening
+#			tsk.0124 # Landed priest is assigned trait
+#			tsk.0125-128 # Maiden in the hills
+#			tsk.0129-131 # A bard comes to your court
+#			tsk.0132-135 # You fall off a cliff
+#			tsk.0136 # Pray to an aspect of the faith
+#			tsk.0137-138 # Meet a beggar along the road
+#			tsk.0139 # Destroy Runestone
+#			tsk.0140 # Destroy The Blackwood Vale
+#			tsk.0141-142 # "Ser" minor title cleanup
+#			tsk.0143 # Remove Septon title from High Septon
+#			tsk.0144 # Durrandon Opening/Conversion Event
+#			tsk.0145 # Arryn AOPK Opening
+#
+###################################
+
+namespace = tsk
+
+#########################################
+##### You encounter an aged warrior #####
+#########################################
+character_event = {
+	id = tsk.0100
+	desc = EVTDESCtsk.0100
+	picture = GFX_evt_hillwarrior
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	
+	trigger = {
+		OR = {
+			religion = old_gods
+			religion = the_seven
+		}
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 750
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0100 # ignore him
+			custom_tooltip = {
+				text = dont_need_him
+			}
+	}
+	
+	option = {
+		name = EVTOPTBtsk.0100
+		custom_tooltip = {
+			text = any_advice
+			piety = 25
+			prestige = 25
+			random_list = {
+				80 = {
+					change_martial = 1
+				}
+				10 = {
+					add_trait = brave
+				}
+				10 = {
+					add_trait = patient
+				}
+			}
+		}
+	}
+}
+#############################################
+###### A New Gold and Silver vein found #####
+#############################################
+character_event = {
+	id = tsk.0101
+	desc = EVTDESCtsk.0101
+	picture = GFX_evt_lannister
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		any_demesne_province = {
+            is_capital = yes
+            OR = {
+			    has_province_modifier = silver
+			    has_province_modifier = gold
+            }
+		}
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0101 # Wonderful
+		prestige = 25
+		random_list = {
+			25 = {
+				wealth = 50
+			}
+			25 = {
+				wealth = 100
+			}
+			25 = {
+				wealth = 150
+			}
+			25 = {
+				wealth = 200
+			}
+		}
+	}
+}
+###############################
+##### A Bountiful Harvest #####
+###############################
+character_event = {
+	id = tsk.0102
+	desc = EVTDESCtsk.0102
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		any_demesne_province = {
+            is_capital = yes
+            OR = {
+			    has_province_modifier = grain
+			    has_province_modifier = fish
+            }
+		}
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0102 # Wonderful
+		prestige = 25
+		random_list = {
+			25 = {
+				wealth = 25
+			}
+			25 = {
+				wealth = 50
+			}
+			25 = {
+				wealth = 75
+			}
+			25 = {
+				wealth = 100
+			}
+		}
+	}
+}
+###########################
+##### Influx of Trade #####
+###########################
+character_event = {
+	id = tsk.0103
+	desc = EVTDESCtsk.0103
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+        any_demesne_province = {
+            is_capital = yes
+            OR = {
+			    has_province_modifier = tsk_minor_centre_of_trade
+			    has_province_modifier = tsk_centre_of_trade
+            }
+		}
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0103 # Wonderful
+		prestige = 50
+		random_list = {
+			25 = {
+				wealth = 75
+			}
+			25 = {
+				wealth = 150
+			}
+			25 = {
+				wealth = 225
+			}
+			25 = {
+				wealth = 300
+			}
+		}
+	}
+}
+####################################
+##### Mountain Clansmen Ambush #####
+####################################
+character_event = {
+	id = tsk.0104
+	desc = EVTDESCtsk.0104
+	picture = GFX_evt_arryn2
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		is_abroad = no
+        any_demesne_province = {
+            region = world_the_vale
+        }
+        NOT = {
+            culture = mountain_clansmen
+        }
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		modifier = {
+			factor = 0.50
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.25
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.25
+			trait = cruel
+		}
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0104 # I will hunt them down
+		ai_chance = {
+			factor = 50
+		}
+		prestige = 50
+		custom_tooltip = {
+			text = hunt_them_down
+			hidden_tooltip = {
+				character_event = { id = tsk.0105 days = 5 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBtsk.0104 # That sounds dangerous
+		ai_chance = {
+			factor = 50
+		}
+		prestige = -50
+		add_trait = craven
+	}
+}
+
+# Mountain Clansmen Ambush / The Actual Ambush
+character_event = {
+	id = tsk.0105
+	desc = EVTDESCtsk.0105
+	picture = GFX_evt_battle_smoke
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0105 # Ambush!
+		prestige = 100
+		custom_tooltip = {
+			text = fight_your_way_out
+			random_list = {
+				90 = {
+					hidden_tooltip = {
+					character_event = { id = tsk.0106 } # You escape 
+					}	
+				}
+				10 = {
+					hidden_tooltip = {
+					character_event = { id = tsk.0107 } # You are killed in battle
+					}
+				}
+			}
+		}
+	}
+}
+
+# Mountain Clansmen Ambush / You Escape Wounded / Unwounded
+character_event = {
+	id = tsk.0106
+	desc = EVTDESCtsk.0106
+	picture = GFX_evt_warrior_banners
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0106 # I'm Alive
+		custom_tooltip = {
+			text = alive_good
+			random_list = {
+			25 = { add_trait = wounded }
+			25 = { add_trait = brave }
+			25 = { change_martial = 2 }
+			25 = { prestige = 250 }
+			}
+		}
+	}
+}
+
+# Mountain Clansmen Ambush / You are slain
+character_event = {
+	id = tsk.0107
+	desc = EVTDESCtsk.0107
+	picture = GFX_evt_ambush
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0107 # I am slain!
+		death = { death_reason = death_battle }
+		custom_tooltip = {
+		text = you_are_slain
+		}
+	}
+}
+#############################
+##### You trip and fall #####
+#############################
+character_event = {
+	id = tsk.0108
+	desc = EVTDESCtsk.0108
+	picture = GFX_evt_selfish
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		modifier = {
+			factor = 0.50
+			trait = drunkard
+		}
+	}
+
+	option = {
+		name = EVTOPTAtsk.0108 # Ouch
+		custom_tooltip = {
+		text = watch_myself
+			random_list = {
+			    25 = { add_trait = wounded }
+			    75 = { }
+			}
+		}
+	}
+}
+####################################################
+##### You respect your men's sense of justness #####
+####################################################
+character_event = {
+	id = tsk.0109
+	desc = EVTDESCtsk.0109
+	picture = GFX_evt_knight
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 900
+		modifier = {
+			factor = 2
+			trait = just
+		}
+	}
+
+	option = {
+		name = EVTOPTAtsk.0109 # Perhaps I can learn
+		custom_tooltip = {
+		text = learnto_bejust
+			random_list = {
+			    25 = { add_trait = just }
+			    75 = { }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBtsk.0109 # Who cares
+		custom_tooltip = {
+		text = be_arbitrary
+			random_list = {
+			    25 = { add_trait = arbitrary }
+			    75 = { }
+			}
+		}
+	}
+}
+##################################
+##### You go out to a tavern #####
+##################################
+character_event = {
+	id = tsk.0110
+	desc = EVTDESCtsk.0110
+	picture = GFX_evt_library
+	border = GFX_event_normal_frame_religion
+	
+	only_rulers = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 900
+		modifier = {
+			factor = 2
+			trait = drunkard
+		}
+	}
+
+	option = {
+		name = EVTOPTAtsk.0110 # I'll head to the local tavern
+		hidden_tooltip = {
+			character_event = { id = tsk.0111 } 
+			}
+	}
+	option = {
+		name = EVTOPTBtsk.0110 # I'll read a book
+		random_list = {
+		25 = { change_learning = 2 }
+		50 = { change_learning = 1 }
+		10 = { add_trait = stressed }
+		15 = { }
+		}
+	}
+}
+
+# You arrive at the tavern
+character_event = {
+	id = tsk.0111
+	desc = EVTDESCtsk.0111
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAtsk.0111 # Drink some more!
+		hidden_tooltip = {
+			character_event = { id = tsk.0112 } 
+			}
+	}
+	option = {
+		name = EVTOPTBtsk.0111 # I think I'll leave now...
+		custom_tooltip = {
+			text = you_leave
+			random_list = {
+			20 = { add_trait = stressed }
+			80 = { }
+			}
+		}
+	}
+}
+
+# You stay awhile and get really drunk
+character_event = {
+	id = tsk.0112
+	desc = EVTDESCtsk.0112
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAtsk.0112 # I dont feel good
+		hidden_tooltip = {
+		character_event = { id = tsk.0113 } 
+		}
+		custom_tooltip = {
+		text = dont_feel_good
+		random_list = {
+			20 = { add_trait = drunkard }
+			20 = { add_trait = lustful }
+			20 = { add_trait = hedonist }
+			20 = { add_trait = ill }
+			20 = { }
+			}
+		}
+	}
+}
+
+# You wake up cold and robbed
+character_event = {
+	id = tsk.0113
+	desc = EVTDESCtsk.0113
+	picture = GFX_evt_drunk
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAtsk.0113 # Robbed!
+		wealth = -25
+		prestige = -50
+		piety = -25
+		custom_tooltip = {
+		text = how_embarrassing
+		}
+	}
+}
+
+# Destroy the Golden Grove
+character_event = {
+    id = tsk.0114
+    desc = "EVTDESCtsk.0114"
+    picture = GFX_evt_tyrell
+    border = GFX_event_normal_frame_religion
+    #picture = GFX_evt_large_army
+    
+    is_triggered_only = yes
+    
+    trigger = {
+		NOR = {
+			has_law = centralization_0
+			has_law = centralization_1
+		}
+		OR = {
+			AND = {
+				has_landed_title = e_the_reach
+				any_vassal = { has_landed_title = k_the_golden_grove }
+			}
+			AND = {
+				has_landed_title = e_the_reach
+				has_landed_title = k_the_golden_grove 
+			}
+		}
+    }
+    option = {
+        name = "EVTOPTAtsk.0114" # Destroy the barbaric title
+		k_the_golden_grove = { destroy_landed_title = THIS }
+    }
+	option = {
+        name = "EVTOPTBtsk.0114" # They may ratain their royal style
+		hidden_tooltip = {
+			set_character_flag = allows_other_kings
+		}
+    }
+}
+
+# Bastard Nickname Effect
+character_event = {
+    id = tsk.0115
+    desc = EVTDESCtsk.0115
+    
+    picture = GFX_evt_greekwoman
+    border = GFX_event_normal_frame_religion
+    
+    hide_window = yes
+    is_triggered_only = yes
+    
+    trigger = {
+        trait = bastard
+    }
+
+    immediate = {
+        bastard_nickname_mother_effect = yes
+    }
+}
+
+# Knight Minor Title
+character_event = {
+    id = tsk.0116
+    desc = EVTDESCtsk.0116
+    picture = GFX_evt_knight
+    border = GFX_event_normal_frame_religion
+    hide_window = yes
+    is_triggered_only = yes
+    
+    immediate = {
+        if = {
+          limit = {
+            OR = {
+              trait = knight
+              trait = hedge_knight
+              trait = red_knight
+              trait = dragon_knight
+            }
+          }   
+          knight_character_effect = yes
+        }
+   }
+
+    option = {
+        name = EVTOPTAtsk.0116
+    }
+}
+################################
+### The Shadow of Duskendale ###
+################################
+
+character_event = {
+    id = tsk.0117
+    desc = "EVTDESCtsk.0117"
+    picture = GFX_evt_idealistic
+    border = GFX_event_normal_frame_religion
+   
+	
+    trigger = {
+		AND = {
+			dynasty = 900
+			has_landed_title = d_duskendale
+		}
+	}
+	mean_time_to_happen = {
+		months = 1500
+	}
+	
+    option = {
+        name = "EVTOPTAtsk.0117" # I shall investigate
+		hidden_tooltip = {
+				character_event = { id = tsk.0118 days = 3 }
+		}	
+    }
+	option = {
+        name = "EVTOPTBtsk.0117" # Just rumors
+		custom_tooltip = {
+			text = tooltip_right # Right?
+			piety = -10
+			prestige = -20
+			random_list = {
+				50 = {
+					add_trait = craven
+				}
+				50 = {
+	
+				}
+			}
+		}
+    }
+}
+
+character_event = { ### You encounter the Legendary Shadow
+    id = tsk.0118
+    desc = "EVTDESCtsk.0118"
+    picture = GFX_evt_melee
+    border = GFX_event_normal_frame_religion
+    is_triggered_only = yes
+    
+	
+    option = {
+        name = "EVTOPTAtsk.0118" # Fight!
+		hidden_tooltip = {
+				character_event = { id = tsk.0119 }		
+				add_trait = brave
+		}
+		
+    }
+	option = {
+        name = "EVTOPTBtsk.0118" # Flee!
+		custom_tooltip = {
+			text = tooltip_flee_attempt  # He may catch you
+			piety = -10
+			prestige = -20
+			random_list = {
+				75 = {
+					add_trait = craven
+				}
+				25 = {
+					death = death_murder
+				}
+			}
+		}
+    }
+}
+
+character_event = { ### You fight and 'kill' the Shadow
+    id = tsk.0119
+    desc = "EVTDESCtsk.0119"
+    picture = GFX_evt_melee
+    border = GFX_event_normal_frame_religion
+    is_triggered_only = yes
+    
+	
+    option = {
+        name = "EVTOPTAtsk.0119" # Thrust!
+		character_event = { id = tsk.0120 }
+	}	
+}
+
+character_event = { ### You kill the shadow
+    id = tsk.0120
+    desc = "EVTDESCtsk.0120"
+    picture = GFX_evt_melee
+    border = GFX_event_normal_frame_religion
+    is_triggered_only = yes
+    
+	
+    option = {
+        name = "EVTOPTAtsk.0120" # A heavy price	
+		prestige = 250
+		random_list = {
+			25 = {
+				add_trait = incapable
+			}
+			75 = {
+				add_trait = infirm
+			}
+		}
+	}	
+}
+
+########################################
+### Kingdom of the Claw AOPK message ###
+########################################
+
+character_event = { 
+    id = tsk.0121
+    desc = "EVTDESCtsk.0121"
+    picture = GFX_evt_battlecharge
+    is_triggered_only = yes
+	
+	option = {
+        name = "EVTOPTAtsk.0121" # I will drive them out!
+	}		
+}
+
+#############################
+### Celtigar AOPK opening ###
+#############################
+
+character_event = { 
+    id = tsk.0122
+    desc = "EVTDESCtsk.0122"
+    picture = GFX_evt_noble
+    is_triggered_only = yes
+	
+	option = {
+        name = "EVTOPTAtsk.0122" # I will kill the scum
+	}		
+}
+
+#############################
+### Velaryon AOPK opening ###
+#############################
+
+character_event = { 
+    id = tsk.0123
+    desc = "EVTDESCtsk.0123"
+    picture = GFX_evt_duel5
+    is_triggered_only = yes
+	
+	option = {
+        name = "EVTOPTAtsk.0123" # I will secure a new kingdom
+	}		
+}
+
+#######################################
+### Landed Priest is Assigned Trait ###
+#######################################
+
+character_event = {
+	id = tsk.0124
+	desc = "EVTDESCtsk.0124"
+	
+	only_rulers = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		demesne_size = 1
+		is_theocracy = yes	
+		OR = {
+			AND = {
+				religion = drowned_god
+				is_female = no
+			}	
+			religion = the_seven
+			religion = rhllor
+			religion = bearded_priests
+		}
+		NOT = {
+			has_priest_trait_trigger = yes
+		}
+	}
+
+	option = {
+		name = "EVTOPTAtsk.0124"
+		add_priest_trait_effect = yes
+		recalc_succession = yes
+	}
+}
+
+#########################################
+### You spot a maiden in the distance ###
+#########################################
+
+character_event = {
+	id = tsk.0125
+	desc = EVTDESCtsk.0125
+	picture = GFX_evt_greekwoman
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		OR = {
+			religion = old_gods
+			religion = the_seven
+			religion = rhllor
+		}
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 750
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0125 # Ignore her
+		random_list = {
+			50 = {
+				add_trait = chaste
+			}
+			50 = {
+			
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBtsk.0125 # Go to the maiden
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { id = tsk.0126 }
+				}
+				50 = {
+					character_event = { id = tsk.0127 }
+				}
+			}
+		}
+	}
+}
+
+### What a nice lass
+
+character_event = {
+	id = tsk.0126
+	desc = EVTDESCtsk.0126
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0126 # What a nice lass
+		random_list = {
+			50 = {
+				add_trait = lustful
+			}
+			50 = {
+			
+			}
+		}
+	}
+}
+
+### She bites!
+
+character_event = {
+	id = tsk.0127
+	desc = EVTDESCtsk.0127
+	picture = GFX_evt_pisces_season
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0127 # Go after her!
+		custom_tooltip = {
+				text = after_her
+			}
+		add_trait = lustful
+		add_trait = wroth
+		hidden_tooltip = {
+			character_event = { id = tsk.0128 }
+		}
+	}
+	option = {
+		name = EVTOPTBtsk.0127 # Lesson learned
+		random_list = {
+			50 = {
+				add_trait = chaste
+			}
+			50 = {
+			
+			}
+		}
+	}
+}
+
+### You're a piece of work
+
+character_event = {
+	id = tsk.0128
+	desc = EVTDESCtsk.0128
+	picture = GFX_evt_rude
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0128 # Good riddance
+		custom_tooltip = {
+				text = piece_of_work
+			}
+		add_trait = heartless
+	}
+}
+
+##################################
+### A bard comes to your court ###
+##################################
+
+character_event = {
+	id = tsk.0129
+	desc = EVTDESCtsk.0129
+	picture = GFX_evt_blackadder
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 750
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0129 # Play me a tune aobut my life!
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { id = tsk.0130 } # A wounderful tune!
+				}
+				50 = {
+					character_event = { id = tsk.0131 } # Absolutely terrible! Have him thrown out!
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = EVTOPTBtsk.0129 # Be gone!
+		prestige = -25
+	}
+}
+
+### A wonderful tune!
+
+character_event = {
+	id = tsk.0130
+	desc = EVTDESCtsk.0130
+	picture = GFX_evt_noble
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0130 # A wonderful tune!
+		prestige = 150
+	}
+}
+
+### Absolutely terrible! Have him thrown out!
+
+character_event = {
+	id = tsk.0131
+	desc = EVTDESCtsk.0131
+	picture = GFX_evt_old
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0131 # Absolutely terrible! Have him thrown out!
+		prestige = -80
+	}
+}
+
+############################
+### You fall off a cliff ###
+############################
+
+character_event = {
+	id = tsk.0132
+	desc = EVTDESCtsk.0132
+	picture = GFX_evt_pisces_season
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	trigger = {
+		is_abroad = no
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0132 # Ahhh!
+		hidden_tooltip = {
+			random_list = {
+				35 = {
+					character_event = { id = tsk.0133 } # You survive unharmed
+				}
+				60 = {
+					character_event = { id = tsk.0134 } # You survive, but are wounded
+				}
+				5 = {
+					character_event = { id = tsk.0135 } # You die
+				}
+			}
+		}		
+	}
+}
+
+# You survive unharmed
+
+character_event = {
+	id = tsk.0133
+	desc = EVTDESCtsk.0133
+	picture = GFX_evt_doctor
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0133 # I'm alive!		
+		prestige = 300
+		piety = 100
+	}
+}
+
+# You survive, but are wounded
+
+character_event = {
+	id = tsk.0134
+	desc = EVTDESCtsk.0134
+	picture = GFX_evt_doctor
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0134 # That hurt.
+		add_trait = wounded
+		prestige = 50
+	}
+}
+
+# You die
+
+character_event = {
+	id = tsk.0135
+	desc = EVTDESCtsk.0135
+	picture = GFX_evt_lakeside
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0135 # Ahh!
+		death = { death_reason = death_accident }
+	}
+}
+
+######################################
+### Pray to an aspect of the faith ###
+######################################
+
+character_event = {
+	id = tsk.0136
+	desc = EVTDESCtsk.0136
+	picture = GFX_evt_hillwarrior
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	
+	trigger = {
+		religion = the_seven
+		is_abroad = no
+			NOT = {
+				trait = cynical
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0136 # The Warrior
+		wealth = -50
+		random_list = {
+			50 = { add_trait = brave }
+			50 = { change_martial = 1 }
+		}
+	}
+	option = {
+		name = EVTOPTBtsk.0136 # The Smith
+		wealth = -50
+		random_list = {
+			50 = { add_trait = just }
+			50 = { change_stewardship = 1 }
+		}
+	}
+	option = {
+		name = EVTOPTCtsk.0136 # The Maid
+		wealth = -25
+		random_list = {
+			50 = { add_trait = chaste }
+			50 = { change_learning = 1 }
+		}
+	}
+	option = {
+		name = EVTOPTDtsk.0136 # The Stranger
+		wealth = -25
+		random_list = {
+			50 = { add_trait = deceitful }
+			50 = { change_intrigue = 1 }
+		}
+	}
+}
+
+####################################
+### Meet a beggar along the road ###
+####################################
+
+character_event = {
+	id = tsk.0137
+	desc = EVTDESCtsk.0137
+	picture = GFX_evt_energetic
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+    capable_only = yes
+    prisoner = no
+	
+	
+	trigger = {
+		religion = the_seven
+		is_abroad = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0137 # ignore him
+		piety = -10
+		prestige = 30
+	}
+	
+	option = {
+		name = EVTOPTBtsk.0137 # Give him a handful of silver stags
+		wealth = -10
+		hidden_tooltip = {
+			character_event = { id = tsk.0138 } # The Father! 
+			add_trait = charitable
+		}
+	}
+}
+
+### The Father!
+
+character_event = {
+	id = tsk.0138
+	desc = EVTDESCtsk.0138
+	picture = GFX_evt_energetic
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0138 # What?
+		prestige = 20
+		piety = -20
+	}
+	
+	option = {
+		name = EVTOPTBtsk.0138 # Blessed by the father
+		piety = 20
+		prestige = -20
+		if = { limit = { trait = cynical } remove_trait = cynical }
+	}
+}
+####################################
+### Destroy Kingdom of Runestone ###
+####################################
+
+character_event = {
+    id = tsk.0139
+    desc = "EVTDESCtsk.0139"
+    picture = GFX_evt_knight
+
+    is_triggered_only = yes
+    
+    trigger = {
+			NOT = { has_character_flag = allows_other_kings }
+				OR = {
+					AND = {
+						has_landed_title = e_the_vale
+						any_vassal = { has_landed_title = k_runestone
+						}
+					}
+			AND = {
+				has_landed_title = e_the_vale
+				has_landed_title = k_runestone
+			}
+		}
+    }
+    option = {
+        name = "EVTOPTAtsk.0139" # Destroy the barbaric title
+		k_runestone = { destroy_landed_title = THIS }
+    }
+	option = {
+        name = "EVTOPTBtsk.0139" # They may ratain their royal style
+		hidden_tooltip = {
+			set_character_flag = allows_other_kings
+		}
+    }
+}
+
+#########################################
+### Destroy Kingdom of Blackwood Vale ###
+#########################################
+
+character_event = {
+    id = tsk.0140
+    desc = "EVTDESCtsk.0140"
+    picture = GFX_evt_knight
+
+    is_triggered_only = yes
+    
+    trigger = {
+			NOT = { has_character_flag = allows_other_kings }
+				OR = {
+					AND = {
+						has_landed_title = k_wayfarers_rest
+						any_vassal = { has_landed_title = k_the_blackwood_vale
+						}
+					}
+			AND = {
+				has_landed_title = k_wayfarers_rest
+				has_landed_title = k_the_blackwood_vale
+			}
+		}
+    }
+    option = {
+        name = "EVTOPTAtsk.0140" # Destroy the barbaric title
+		k_the_blackwood_vale = { destroy_landed_title = THIS }
+		prestige = 100
+    }
+	option = {
+        name = "EVTOPTBtsk.0140" # They may ratain their royal style
+		piety = -25
+		hidden_tooltip = {
+			set_character_flag = allows_other_kings
+		}
+    }
+}
+
+
+### Remove "Ser" title when character becomes landed
+character_event = {
+	id = tsk.0141
+	desc = "EVTDESCtsk.0141"
+	picture = "GFX_evt_dueling_knights_hf"
+	
+	is_triggered_only = yes
+	hide_window = yes
+	#only_men = yes
+	
+	trigger = { 
+	    OR = {
+			trait = knight
+			trait = hedge_knight
+			trait = red_knight
+			trait = dragon_knight
+		}
+	}
+	
+	option = {
+		name = "Fine"
+		remove_special_character_title = title_generic_ser
+		remove_special_character_title = title_generic_lady
+	}
+	
+}
+# Add "Ser" title when character becomes unlanded
+character_event = {
+	id = tsk.0142
+
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		OR = {
+			trait = knight
+			trait = hedge_knight
+			trait = red_knight
+			trait = dragon_knight
+		}
+	}
+	
+	option = {
+		name = "Fine"
+		if = {
+			limit = { is_female = no }
+			set_special_character_title = title_generic_ser
+		}
+		if = {
+			limit = { is_female = yes }
+			set_special_character_title = title_generic_lady
+		}
+	}
+	
+}
+
+### Remove Septon title when character becomes High Septon
+character_event = {
+	id = tsk.0143
+	desc = "EVTDESCtsk.0143"
+	picture = "GFX_evt_dueling_knights_hf"
+	
+	is_triggered_only = yes
+	hide_window = yes
+	#only_men = yes
+	
+	trigger = { 
+	    OR = {
+			trait = septon
+			trait = septa
+		}
+	}
+	
+	option = {
+		name = "Fine"
+		remove_special_character_title = title_septon
+		remove_special_character_title = title_septa
+	}	
+}
+
+### Durrandon Opening/Conversion
+long_character_event = {
+	id = tsk.0144
+	desc = "EVTDESCtsk.0144"
+	picture = "GFX_evt_baratheon"
+	border = GFX_event_long_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAtsk.0144"
+		religion = the_seven
+		piety = -100
+		add_trait = knight
+	}
+	option = {
+		name = "EVTOPTBtsk.0144"
+		prestige = 100
+		add_trait = zealous
+	}	
+}
+
+### Arryn Opening
+long_character_event = {
+	id = tsk.0145
+	desc = "EVTDESCtsk.0145"
+	picture = "GFX_evt_duel0"
+	border = GFX_event_long_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAtsk.0145" # I must defend my son
+		prestige = -100
+		piety = -100
+	}
+}
+
+### Theon Stark and Rogar Bolton opening
+long_character_event = {
+	id = tsk.0146
+	desc = {
+		text = EVTDESCtsk.0146A
+		trigger = { dynasty = 1 }
+	}
+	desc = {
+		text = EVTDESCtsk.0146B
+		trigger = { dynasty = 2 }
+	}
+	picture = GFX_evt_battle_scene_sinic
+	border = GFX_event_long_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAtsk.0146 # The North must stay strong!
+
+	}
+	
+}
+
+### Argos Sevenstar opening
+long_character_event = {
+	id = tsk.0147
+	desc = EVTDESCtsk.0147
+	picture = GFX_evt_andals
+	border = GFX_event_long_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		spawn_unit = {
+			owner = ROOT
+			province = 1206
+			home = 1206
+			troops = {
+				archers = { 1000 1000 }
+				light_infantry = { 3000 3000 }
+				heavy_infantry = { 1100 1100 }
+				light_cavalry = { 500 500 }
+			}
+			attrition = 1.0
+			disband_on_peace = yes
+			maintenance_multiplier = 0
+		}
+	}
+	
+	option = {
+		name = EVTOPTAtsk.0147 # They will kneel!
+	}
+}

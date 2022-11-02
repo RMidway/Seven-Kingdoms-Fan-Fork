@@ -1,0 +1,24 @@
+# c_ashemark
+
+# County Title
+title = c_ashemark
+
+# Settlements
+max_settlements = 6
+
+b_ashemark = castle
+b_barnstaple = city
+#b_ecclesmark = temple
+#b_streeton = castle
+#b_ashhlan = city
+#b_ashemark_2 = temple
+
+# Misc
+culture = craggon
+religion = old_gods
+terrain = hills
+#History
+6600.1.1 = {
+	culture = goldmen
+    religion = the_seven
+}

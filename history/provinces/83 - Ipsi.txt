@@ -1,0 +1,21 @@
+# c_ipsi
+
+# County Title
+title = c_ipsi
+
+# Settlements
+max_settlements = 7
+
+b_ipsi = castle
+#b_ipsi_2 = city
+#b_ipsi_3 = temple
+#b_ipsi_4 = castle
+#b_ipsi_5 = city
+#b_ipsi_6 = temple
+#b_ipsi_7 = castle
+
+# Misc
+culture = lorathi
+religion = rhllor
+terrain = farmlands
+#History

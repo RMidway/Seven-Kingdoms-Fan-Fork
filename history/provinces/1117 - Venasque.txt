@@ -1,0 +1,24 @@
+# c_venasque
+
+# County Title
+title = c_venasque
+
+# Settlements
+max_settlements = 4
+
+b_venasque = castle
+#b_macinaggio = city
+#b_odratzheim = temple
+#b_venasque_2 = castle
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = mountain
+#History
+6500.1.1 = {
+}
+6800.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

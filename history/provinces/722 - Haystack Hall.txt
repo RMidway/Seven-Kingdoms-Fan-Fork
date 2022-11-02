@@ -1,0 +1,23 @@
+# c_haystack_hall
+
+# County Title
+title = c_haystack_hall
+
+# Settlements
+max_settlements = 5
+
+b_haystack_hall = castle
+b_medingen = city
+b_rattenbach = temple
+#b_meinefeld = castle
+#b_haystack_hall_2 = city
+
+# Misc
+culture = evenstar
+religion = old_gods
+terrain = farmlands
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

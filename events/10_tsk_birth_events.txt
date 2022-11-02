@@ -1,0 +1,2285 @@
+namespace = tsk_birth
+#	Written by TitanRogue
+
+#	Sets the dynastical gfx for special houses
+character_event = {
+	id = tsk_birth.0
+
+	is_triggered_only = yes
+
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			mother_even_if_dead = {
+				OR = {
+					any_owned_bloodline = { has_bloodline_flag = special_gfx }
+					tsk_has_special_genetics = yes
+				}
+			}
+			true_father_even_if_dead = {
+				OR = {
+					any_owned_bloodline = { has_bloodline_flag = special_gfx }
+					tsk_has_special_genetics = yes
+				}
+			}
+			mother_even_if_dead = {
+				OR = {
+					mother_even_if_dead = {
+						OR = {
+							any_owned_bloodline = { has_bloodline_flag = special_gfx }
+							tsk_has_special_genetics = yes
+						}
+					}
+					true_father_even_if_dead = {
+						OR = {
+							any_owned_bloodline = { has_bloodline_flag = special_gfx }
+							tsk_has_special_genetics = yes
+						}
+					}
+				}
+			}
+			true_father_even_if_dead = {
+				OR = {
+					mother_even_if_dead = {
+						OR = {
+							any_owned_bloodline = { has_bloodline_flag = special_gfx }
+							tsk_has_special_genetics = yes
+						}
+					}
+					true_father_even_if_dead = {
+						OR = {
+							any_owned_bloodline = { has_bloodline_flag = special_gfx }
+							tsk_has_special_genetics = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_list = {
+			5 = { #No effect
+			}
+			1 = { #High Valyrian
+				additive_modifier = {
+					value = 7
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = valyriangfx
+							any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+						}
+					}
+				}
+				additive_modifier = {
+					value = 7
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = valyriangfx
+							any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = valyriangfx
+								any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = valyriangfx
+								any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = valyriangfx
+								any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = valyriangfx
+								any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = valyriangfx
+										any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = valyriangfx
+										any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = valyriangfx
+												any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = valyriangfx
+												any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = valyriangfx
+												any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = valyriangfx
+												any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = high_valyrian
+			}
+			1 = { #Andal Dayne
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = dayneangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 8
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = dayneangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = dayneangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = dayneangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = dayneangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = dayneangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = dayneangfx
+										any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = dayneangfx
+										any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = dayneangfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = dayneangfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = dayneangfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = dayneangfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = daynean
+			}
+			1 = { #First Men Dayne
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = daynefmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = daynefmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = daynefmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = daynefmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = daynefmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = daynefmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = daynefmgfx
+										any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = daynefmgfx
+										any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = daynefmgfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = daynefmgfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = daynefmgfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = daynefmgfx
+												any_owned_bloodline = { has_bloodline_flag = dayne_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = daynefm
+			}
+			1 = { #Andal Durrandon and Baratheon
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = durrandonangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 8
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = durrandonangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = durrandonangfx
+										any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = durrandonangfx
+										any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonangfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonangfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonangfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonangfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = durrandonan
+			}
+			1 = { #First Men Durrandon and Baratheon
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = durrandonfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = durrandonfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = durrandonfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = durrandonfmgfx
+										any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = durrandonfmgfx
+										any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonfmgfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonfmgfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonfmgfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = durrandonfmgfx
+												any_owned_bloodline = { has_bloodline_flag = durrandon_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = durrandonfm
+			}
+			1 = { #Andal Greyjoy
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = greyjoyangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 8
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = greyjoyangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = greyjoyangfx
+										any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = greyjoyangfx
+										any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyangfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyangfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyangfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyangfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = greyjoyan
+			}
+			1 = { #First Men Greyjoy
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = greyjoyfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = greyjoyfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = greyjoyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = greyjoyfmgfx
+										any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = greyjoyfmgfx
+										any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = greyjoyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = greyjoy_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = greyjoyfm
+			}
+			1 = { #Andal Lannister
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = lannisterangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = lannisterangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = lannisterangfx
+										any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = lannisterangfx
+										any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterangfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterangfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterangfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterangfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = lannisteran
+			}
+			1 = { #First Men Lannister
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = lannisterfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = lannisterfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = lannisterfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = lannisterfmgfx
+										any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = lannisterfmgfx
+										any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterfmgfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterfmgfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterfmgfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = lannisterfmgfx
+												any_owned_bloodline = { has_bloodline_flag = lannister_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = lannisterfm
+			}
+			1 = { #Andal Stark
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = starkangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 8
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = starkangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = starkangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = starkangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = starkangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = starkangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = starkangfx
+										any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = starkangfx
+										any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = starkangfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = starkangfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = starkangfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = starkangfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = starkan
+			}
+			1 = { #First Men Stark
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = starkfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = starkfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = starkfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = starkfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = starkfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = starkfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = starkfmgfx
+										any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = starkfmgfx
+										any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = starkfmgfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = starkfmgfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = starkfmgfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = starkfmgfx
+												any_owned_bloodline = { has_bloodline_flag = stark_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = starkfm
+			}
+			1 = { #Andal Tully
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = tullyangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 8
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = tullyangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = tullyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = tullyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = tullyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = tullyangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = tullyangfx
+										any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = tullyangfx
+										any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = tullyangfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = tullyangfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = tullyangfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = tullyangfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = tullyan
+			}
+			1 = { #First Men Tully
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = tullyfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = tullyfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = tullyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = tullyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = tullyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = tullyfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = tullyfmgfx
+										any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = tullyfmgfx
+										any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = tullyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = tullyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = tullyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = tullyfmgfx
+												any_owned_bloodline = { has_bloodline_flag = tully_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = tullyfm
+			}
+			1 = { #Andal Yronwood
+				additive_modifier = {
+					value = 8
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = yronwoodangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 8
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = yronwoodangfx
+							AND = {
+								culture_group = andal
+								any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 4
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodangfx
+								AND = {
+									culture_group = andal
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = yronwoodangfx
+										any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = yronwoodangfx
+										any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodangfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodangfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodangfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodangfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = andal }
+								true_father_even_if_dead = { culture_group = andal }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = andal } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = andal } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = yronwoodan
+			}
+			1 = { #First Men Yronwood
+				additive_modifier = {
+					value = 6
+					mother_even_if_dead = {
+						OR = {
+							graphical_culture = yronwoodfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 6
+					true_father_even_if_dead = {
+						OR = {
+							graphical_culture = yronwoodfmgfx
+							AND = {
+								culture_group = first_men
+								any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						mother_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					mother_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				additive_modifier = {
+					value = 3
+					true_father_even_if_dead = {
+						true_father_even_if_dead = {
+							OR = {
+								graphical_culture = yronwoodfmgfx
+								AND = {
+									culture_group = first_men
+									any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+								}
+							}
+						}
+					}
+				}
+				trigger = {
+					OR = {
+						AND = {
+							OR = {
+								mother_even_if_dead = {
+									OR = {
+										graphical_culture = yronwoodfmgfx
+										any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										graphical_culture = yronwoodfmgfx
+										any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+									}
+								}
+								mother_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodfmgfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodfmgfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+									}
+								}
+								true_father_even_if_dead = {
+									OR = {
+										mother_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodfmgfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+										true_father_even_if_dead = {
+											OR = {
+												graphical_culture = yronwoodfmgfx
+												any_owned_bloodline = { has_bloodline_flag = yronwood_genetics }
+											}
+										}
+									}
+								}
+							}
+							OR = {
+								mother_even_if_dead = { culture_group = first_men }
+								true_father_even_if_dead = { culture_group = first_men }
+								mother_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								mother_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { mother_even_if_dead = { culture_group = first_men } }
+								true_father_even_if_dead = { true_father_even_if_dead = { culture_group = first_men } }
+							}
+						}
+					}
+				}
+				set_graphical_culture = yronwoodfm
+			}
+		}
+	}
+
+	#option = { }
+}
+
+#	Fixes courtiers having wrong graphical culture
+character_event = {
+	id = tsk_birth.1
+
+	is_triggered_only = yes
+
+	hide_window = yes
+
+	culture_group = house_genetics
+
+	immediate = {
+		location = {
+			holder_scope = {
+				ROOT = {
+					set_graphical_culture = PREV
+				}
+			}
+		}
+	}
+}
+
+# Written by Rowan - quickie job. Just (always) removes inbred for high valyrians, or significant valyrian houses. Others have a 50% chance to get it.
+# Might be too powerful bloodline wise, as their blood in theory makes you immune to inbreeding.
+
+# Fired on_birth
+character_event = {
+	hide_window = yes
+	id = tsk_birth.1000
+	
+	trigger = {
+		trait = inbred
+		OR = {
+			culture = high_valyrian
+			any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+			AND = {
+				OR = {
+					culture = low_valyrian
+					culture = driftmarker
+				}
+				graphical_culture = valyriangfx
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					culture = high_valyrian
+					any_owned_bloodline = { has_bloodline_flag = valyrian_genetics }
+				}
+			}
+			remove_trait = inbred
+			random_list = {
+				50 = { add_trait = lunatic }
+				25 = { add_trait = arbitrary }
+				25 = { }
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					OR = {
+						culture = low_valyrian
+						culture = driftmarker
+					}
+					graphical_culture = valyriangfx
+				}
+			}
+			random_list = {
+				50 = {
+					remove_trait = inbred
+					random_list = {
+						50 = { add_trait = lunatic }
+						25 = { add_trait = arbitrary }
+						25 = { }
+					}
+				}
+				50 = {
+				
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,26 @@
+# c_woodmere
+
+# County Title
+title = c_woodmere
+
+# Settlements
+max_settlements = 5
+
+b_woodmere = castle
+b_kornbeck = city
+b_karlsbiese = temple
+#b_berbruggen = castle
+#b_woodmere_2 = city
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = woods
+#History
+6400.1.1 = {
+	culture = stormmen
+}
+6600.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

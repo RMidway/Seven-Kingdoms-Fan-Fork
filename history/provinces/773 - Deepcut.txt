@@ -1,0 +1,21 @@
+# c_deepcut
+
+# County Title
+title = c_deepcut
+
+# Settlements
+max_settlements = 3
+
+b_deepcut = castle
+#b_kirklyunay = city
+#b_deepcut_2 = temple
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = reachmen
+	religion = the_seven
+}

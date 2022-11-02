@@ -1,0 +1,24 @@
+# c_amberview
+
+# County Title
+title = c_amberview
+
+# Settlements
+max_settlements = 3
+
+b_amberview = castle
+b_petirskirchen = city
+#b_amberview_2 = temple
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = mountain
+#History
+6400.1.1 = {
+	culture = stormmen
+}
+6500.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

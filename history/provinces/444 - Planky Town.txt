@@ -1,0 +1,29 @@
+# c_planky_town
+
+# County Title
+title = c_planky_town
+
+# Settlements
+max_settlements = 5
+
+b_creaky_keep = castle
+b_planky_town = city
+b_planky_town_2 = temple
+b_planky_town_3 = castle
+#b_planky_town_4 = city
+#b_planky_town_5 = temple
+#b_planky_town_6 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7298.1.1 = {
+	culture = rhoynish
+    religion = rhoynar
+}

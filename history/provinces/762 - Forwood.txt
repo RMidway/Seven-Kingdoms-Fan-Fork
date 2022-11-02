@@ -1,0 +1,24 @@
+# c_forwood
+
+# County Title
+title = c_forwood
+
+# Settlements
+max_settlements = 4
+
+b_forwood = castle
+#b_langenroda = city
+#b_aretsreid = temple
+#b_forwood_2 = castle
+
+# Misc
+culture = wendmen
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

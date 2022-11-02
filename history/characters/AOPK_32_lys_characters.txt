@@ -1,0 +1,1521 @@
+##############
+# ID RANGE   #
+# 3200-3399  #
+##############
+
+###################
+## House Rogare ##
+###################
+
+3200 = {
+    name = Faro
+    dynasty = 1400 # Rogare
+    culture = lysene
+	religion = the_weeping_lady
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=slothful 
+	trait=charitable 
+	trait=ambitious 
+	father=3230	#Oro
+	mother=3238	#Taena
+    6529.6.24={ birth=yes }
+	6550.1.1={ add_spouse=3239 }
+	6596.6.15={ death=yes }
+}
+3230={
+	name=Oro
+	dynasty=1400
+	dna="pdfmgeeikdn"
+	culture=lysene 
+	religion=the_weeping_lady
+	6500.5.8={ birth=yes }
+	6521.1.1={ add_spouse=3238 }
+	6546.6.22={ death=yes }
+}
+3231={
+	name=Betharios
+	female=yes
+	dynasty=1400
+	dna="lbedcmefecn"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3230	#Oro
+	mother=3238	#Taena
+	6525.11.12={ birth=yes }
+	6574.2.2={ death=yes }
+}
+3232={
+	name=Joss
+	dynasty=1400
+	dna="edlmjleiidl"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=6 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	trait=elusive_shadow 
+	trait=proud 
+	trait=shy 
+	trait=honest 
+	trait=paranoid 
+	trait=just 
+	father=3230	#Oro
+	mother=3238	#Taena
+	6532.10.9={ birth=yes }
+	6601.5.22={ death=yes }
+}
+3233={
+	name=Brea
+	female=yes
+	dynasty=1400
+	dna="fdfjggeijdn"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3230	#Oro
+	mother=3238	#Taena
+	6533.10.21={ birth=yes }
+	6594.2.11={ death=yes }
+}
+3234={
+	name=Denyo
+	dynasty=1400
+	dna="paflgeeidbn"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=diligent 
+	trait=gregarious 
+	trait=temperate 
+	trait=brave 
+	trait=wroth 
+	father=3230	#Oro
+	mother=3238	#Taena
+	6537.2.17={ birth=yes }
+	6588.9.12={ death=yes }
+}
+3235={
+	name=Lysono
+	dynasty=1400
+	dna="hpfgjoiiflg"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=8 
+	learning=4
+	trait=just
+	trait=patient
+	trait=cruel 
+	father=3200	#Faro
+	mother=3239	#Lothea
+	6551.3.1={ birth=yes }
+	6611.9.17={ death=yes }
+}
+3236={
+	name=Tormo
+	dynasty=1400
+	dna="pdokheejilm"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=wroth
+	father=3200	#Faro
+	mother=3239	#Lothea
+	6557.1.11={ birth=yes }
+	6620.2.27={ death=yes }
+}
+3237={
+	name=Talea
+	female=yes
+	dynasty=1400
+	dna="hefhhoeaicn"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3200	#Faro
+	mother=3239	#Lothea
+	6560.9.15={ birth=yes }
+	6620.8.9={ death=yes }
+}
+3238={
+	name=Taena
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6546.1.1={ death=yes }
+}
+3239={
+	name=Lothea
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6529.1.1={ birth=yes }
+	6596.1.1={ death=yes }
+}
+
+###################
+## House Silves ##
+###################
+
+3201={
+	name=Uthero
+	dynasty=1401
+	dna="fgpfahcopbc"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=grey_eminence 
+	trait=cruel 
+	trait=ambitious 
+	trait=just 
+	trait=charitable 
+	trait=quick 
+	father=3205	#Pynto
+	mother=3215	#Rogga
+	6523.11.6={ birth=yes }
+	6544.1.1={ add_spouse=3216 }
+	6610.11.27={ death=yes }
+}
+3205={
+	name=Pynto
+	dynasty=1401
+	dna="kfplahcoibc"
+	culture=lysene 
+	religion=the_weeping_lady
+	6499.2.3={ birth=yes }
+	6520.1.1={ add_spouse=3215 }
+	6554.3.24={ death=yes }
+}
+3207={
+	name=Izembara
+	female=yes
+	dynasty=1401
+	dna="kfpgbhcpcba"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3205	#Pynto
+	mother=3215	#Rogga
+	6528.9.26={ birth=yes }
+	6602.7.27={ death=yes }
+}
+3208={
+	name=Yorko
+	dynasty=1401
+	dna="kfebahbgcba"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5 
+	learning=5
+	trait=midas_touched 
+	trait=patient 
+	trait=proud 
+	trait=greedy 
+	trait=paranoid 
+	trait=slothful 
+	father=3205	#Pynto
+	mother=3215	#Rogga
+	6532.10.1={ birth=yes }
+	6588.7.5={ death=yes }
+}
+3209={
+	name=Jaqen
+	dynasty=1401
+	dna="kffdgheodbk"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4 
+	learning=4
+	trait=scholarly_theologian 
+	trait=brave 
+	trait=kind 
+	trait=diligent 
+	trait=honest 
+	father=3205	#Pynto
+	mother=3215	#Rogga
+	6537.2.22={ birth=yes }
+	6596.3.14={ death=yes }
+}
+3210={
+	name=Terrios
+	female=yes
+	dynasty=1401
+	dna="hghpamcjpbc"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3201	#Uthero
+	mother=3216	#Tagganaria
+	6546.7.21={ birth=yes }
+	6595.2.11={ death=yes }
+}
+3211={
+	name=Gyloro
+	dynasty=1401
+	dna="fcefanlapge"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=4
+	trait=elusive_shadow 
+	trait=honest 
+	trait=arbitrary 
+	trait=cynical 
+	father=3201	#Uthero
+	mother=3216	#Tagganaria
+	6548.11.22={ birth=yes }
+	6597.6.22={ death=yes }
+}
+3212={
+	name=Rogga
+	female=yes
+	dynasty=1401
+	dna="fjppaicocie"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3201	#Uthero
+	mother=3216	#Tagganaria
+	6552.4.27={ birth=yes }
+	6610.11.7={ death=yes }
+}
+3213={
+	name=Syrio
+	dynasty=1401
+	dna="blkfehooobm"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=envious 
+	trait=wroth 
+	father=3201	#Uthero
+	mother=3216	#Tagganaria
+	6554.2.14={ birth=yes }
+	6623.8.27={ death=yes }
+}
+3214={
+	name=Joss
+	dynasty=1401
+	dna="jppjagkcpbg"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=possessed 
+	father=3201	#Uthero
+	mother=3216	#Tagganaria
+	6558.9.16={ birth=yes }
+	6620.2.24={ death=yes }
+}
+3215={
+	name=Rogga
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6554.1.1={ death=yes }
+}
+3216={
+	name=Tagganaria
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6523.1.1={ birth=yes }
+	6610.1.1={ death=yes }
+}
+
+###################
+## House Rorastarys ##
+###################
+
+3202 = {
+    name = Landar
+    dynasty = 1402 # Rorastarys
+    culture = lysene
+	religion = the_weeping_lady
+	martial=8 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=4 
+	learning=8
+	trait=scholarly_theologian 
+	trait=slothful 
+	trait=temperate 
+	trait=patient 
+	trait=kind 
+	father=3217	#Moreo
+	6524.2.6={ birth=yes }
+	6545.1.1={ add_spouse=3229 }
+	6580.11.29={ death=yes }
+}
+3217={
+	name=Moreo
+	dynasty=1402
+	dna="mmmfcmiaohl"
+	culture=lysene 
+	religion=the_weeping_lady
+	6500.12.10={ birth=yes }
+	6521.1.1={ add_spouse=3228 }
+	6556.12.17={ death=yes }
+}
+3218={
+	name=Myrmellios
+	female=yes
+	dynasty=1402
+	dna="cimfjfpnchl"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3217	#Moreo
+	mother=3228	#Alia
+	6521.3.21={ birth=yes }
+	6581.3.10={ death=yes }
+}
+3219={
+	name=Yna
+	female=yes
+	dynasty=1402
+	dna="empfjmoafkl"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3217	#Moreo
+	mother=3228	#Alia
+	6525.9.21={ birth=yes }
+	6572.7.1={ death=yes }
+}
+3220={
+	name=Alia
+	female=yes
+	dynasty=1402
+	dna="mmdfcmfhocf"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3217	#Moreo
+	mother=3228	#Alia
+	6529.3.15={ birth=yes }
+	6586.12.27={ death=yes }
+}
+3221={
+	name=Serala
+	female=yes
+	dynasty=1402
+	dna="ljmfcfgaoha"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3217	#Moreo
+	mother=3228	#Alia
+	6532.3.25={ birth=yes }
+	6588.9.26={ death=yes }
+}
+3222={
+	name=Gyloro
+	dynasty=1402
+	dna="mmmfpgidbol"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=7 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=kind 
+	trait=charitable 
+	trait=diligent 
+	trait=temperate 
+	father=3217	#Moreo
+	mother=3228	#Alia
+	6534.1.7={ birth=yes }
+	6576.3.30={ death=yes }
+}
+3223={
+	name=Mera
+	female=yes
+	dynasty=1402
+	dna="hmmfemaajfa"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3217	#Moreo
+	mother=3228	#Alia
+	6537.3.10={ birth=yes }
+	6584.8.20={ death=yes }
+}
+3224={
+	name=Moreo
+	dynasty=1402
+	dna="ndjdcmnafig"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=6 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=midas_touched 
+	trait=honest 
+	trait=cynical 
+	trait=shy 
+	trait=cruel 
+	father=3202	#Landar
+	mother=3229	#Yorka
+	6545.8.15={ birth=yes }
+	6591.7.13={ death=yes }
+}
+3225={
+	name=Moreo
+	dynasty=1402
+	dna="ejfecmbchel"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=just 
+	trait=wroth 
+	trait=ambitious 
+	trait=temperate 
+	father=3202	#Landar
+	mother=3229	#Yorka
+	6546.1.3={ birth=yes }
+	6609.4.28={ death=yes }
+}
+3226={
+	name=Lysono
+	dynasty=1402
+	dna="deifcgmafbl"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=7 
+	learning=5
+	trait=midas_touched 
+	trait=hedonist 
+	trait=zealous 
+	trait=deceitful 
+	trait=just 
+	trait=cruel 
+	father=3202	#Landar
+	mother=3229	#Yorka
+	6549.7.22={ birth=yes }
+	6599.11.27={ death=yes }
+}
+3227={
+	name=Meralyn
+	dynasty=1402
+	dna="lajacjbbool"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=hedonist 
+	trait=cruel 
+	trait=diligent 
+	trait=stressed
+	father=3202	#Landar
+	mother=3229	#Yorka
+	6553.9.12={ birth=yes }
+	6621.8.6={ death=yes }
+}
+3228={
+	name=Alia
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6556.1.1={ death=yes }
+}
+3229={
+	name=Yorka
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6524.1.1={ birth=yes }
+	6580.1.1={ death=yes }
+}
+
+###################
+## House Belastarys ##
+###################
+
+3203 = {
+    name = Zotto
+    dynasty = 1403 # Belastarys
+    culture = lysene
+	religion = the_weeping_lady
+	martial=7 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=6
+	trait=intricate_webweaver 
+	trait=scholar 
+	trait=gregarious 
+	trait=wroth 
+	trait=brave 
+	trait=gluttonous 
+	trait=cynical 
+	trait=diligent 
+	trait=drunkard 
+	father=3240	#Illyrio
+	mother=3246	#Bellonara
+    6526.5.16={ birth=yes }
+	6547.1.1={ add_spouse=3247 }
+	6584.3.2={ death=yes }
+}
+3240={
+	name=Illyrio
+	dynasty=1403
+	dna="ljkeiefgeee"
+	culture=lysene 
+	religion=the_weeping_lady
+	6499.10.24={ birth=yes }
+	6520.1.1={ add_spouse=3246 }
+	6544.12.28={ death=yes }
+}
+3241={
+	name=Oro
+	dynasty=1403
+	dna="edkeiegkdpp"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=4 
+	learning=8
+	trait=misguided_warrior 
+	trait=arbitrary 
+	trait=proud 
+	trait=charitable 
+	trait=temperate 
+	father=3240	#Illyrio
+	mother=3246	#Bellonara
+	6529.1.21={ birth=yes }
+	6576.1.24={ death=yes }
+}
+3242={
+	name=Talea
+	female=yes
+	dynasty=1403
+	dna="ejkjonkbcge"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3203 #Zotto
+	mother=3247	#Mera
+	6551.5.2={ birth=yes }
+	6595.5.12={ death=yes }
+}
+3243={
+	name=Mero
+	dynasty=1403
+	dna="hkcjakobapb"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=cynical
+	father=3203 #Zotto
+	mother=3247	#Mera
+	6555.9.12={ birth=yes }
+	6618.6.3={ death=yes }
+}
+3244={
+	name=Serala
+	female=yes
+	dynasty=1403
+	dna="gekgoiehmfe"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3203 #Zotto
+	mother=3247	#Mera
+	6559.4.5={ birth=yes }
+	6622.2.9={ death=yes }
+}
+3245={
+	name=Umma
+	female=yes
+	dynasty=1403
+	dna="hjajonejeke"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3203 #Zotto
+	mother=3247	#Mera
+	6563.1.9={ birth=yes }
+	6613.8.12={ death=yes }
+}
+3246={
+	name=Bellonara
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6544.1.1={ death=yes }
+}
+3247={
+	name=Mera
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6526.1.1={ birth=yes }
+	6584.1.1={ death=yes }
+}
+
+###################
+## House Publare ##
+###################
+
+3204 = {
+    name = Odilo
+    dynasty = 1404 # Publare
+    culture = lysene
+	religion = the_weeping_lady
+	martial=6 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=5
+	trait=tough_soldier 
+	trait=shy 
+	trait=charitable 
+	trait=zealous 
+	trait=lustful 
+	trait=stressed 
+	father=3248	#Joss
+	mother=3259	#Mysaria
+    6524.6.19={ birth=yes }
+	6543.1.1={ add_spouse=3260 }
+	6569.9.16={ death=yes }
+}
+3248={
+	name=Joss
+	dynasty=1404
+	dna="bcaaaihmecl"
+	culture=lysene 
+	religion=the_weeping_lady
+	6499.1.2={ birth=yes }
+	6520.1.1={ add_spouse=3259 }
+	6565.10.8={ death=yes }
+}
+3249={
+	name=Cossoma
+	female=yes
+	dynasty=1404
+	dna="acopajlmecl"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3248	#Joss
+	mother=3259	#Mysaria
+	6523.11.6={ birth=yes }
+	6558.5.23={ death=yes }
+}
+3251={
+	name=Jaqea
+	female=yes
+	dynasty=1404
+	dna="bfcnagljeco"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3248	#Joss
+	mother=3259	#Mysaria
+	6527.5.16={ birth=yes }
+	6583.2.17={ death=yes }
+}
+3252={
+	name=Lucerre
+	female=yes
+	dynasty=1404
+	dna="bcankmhmacl"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3248	#Joss
+	mother=3259	#Mysaria
+	6531.10.3={ birth=yes }
+	6589.2.25={ death=yes }
+}
+3253={
+	name=Allaquo
+	dynasty=1404
+	dna="dcaadmcmojn"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=4 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=martial_cleric 
+	trait=brave 
+	trait=charitable 
+	trait=zealous 
+	trait=lunatic 
+	father=3248	#Joss
+	mother=3259	#Mysaria
+	6533.11.22={ birth=yes }
+	6593.7.7={ death=yes }
+}
+3254={
+	name=Roro
+	dynasty=1404
+	dna="hccjbilgepd"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=8 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=6 
+	learning=8
+	trait=midas_touched 
+	trait=kind 
+	trait=proud 
+	trait=temperate 
+	trait=charitable 
+	trait=gregarious 
+	father=3248	#Joss
+	mother=3259	#Mysaria
+	6538.4.18={ birth=yes }
+	6582.6.24={ death=yes }
+}
+3255={
+	name=Bellegere
+	female=yes
+	dynasty=1404
+	dna="bcgkaicmecl"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3248	#Joss
+	mother=3259	#Mysaria
+	6540.4.13={ birth=yes }
+	6585.6.1={ death=yes }
+}
+3256={
+	name=Myrmello
+	dynasty=1404
+	dna="bflaccmnfml"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=6 
+	learning=6
+	trait=intricate_webweaver 
+	trait=humble 
+	trait=diligent 
+	trait=charitable 
+	trait=patient 
+	father=3204	#Odilo
+	mother=3260	#Taena
+	6544.5.5={ birth=yes }
+	6611.10.24={ death=yes }
+}
+3257={
+	name=Izembara
+	female=yes
+	dynasty=1404
+	dna="fjjajagaecl"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3204	#Odilo
+	mother=3260	#Taena
+	6549.2.18={ birth=yes }
+	6606.4.2={ death=yes }
+}
+3258={
+	name=Beqqo
+	dynasty=1404
+	dna="bckapnmhoif"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=charitable 
+	trait=lustful
+	father=3204	#Odilo
+	mother=3260	#Taena
+	6552.10.25={ birth=yes }
+	6588.5.21={ death=yes }
+}
+3259={
+	name=Mysaria
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6565.1.1={ death=yes }
+}
+3260={
+	name=Taena
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6524.1.1={ birth=yes }
+	6569.1.1={ death=yes }
+}
+
+###################
+## House Brihera ##
+###################
+
+3261={
+	name=Gyloro
+	dynasty=1405
+	dna="aadaclcigck"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=8 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=midas_touched 
+	trait=humble 
+	trait=charitable 
+	trait=kind 
+	trait=just 
+	trait=patient 
+	6499.4.9={ birth=yes }
+	6520.1.1={ add_spouse=3271 }
+	6570.11.8={ death=yes }
+}
+3262={
+	name=Ordello
+	dynasty=1405
+	dna="gadpclifgpn"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=8 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=proud 
+	trait=arbitrary 
+	trait=brave 
+	father=3261	#Gyloro
+	mother=3271	#Tycha
+	6521.11.8={ birth=yes }
+	6542.1.1={ add_spouse=3272 }
+	6570.10.14={ death=yes }
+}
+3263={
+	name=Meralyn
+	dynasty=1405
+	dna="aadaclclpjk"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=4 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=5 
+	learning=5
+	trait=misguided_warrior 
+	trait=hunter 
+	trait=cynical 
+	trait=gluttonous 
+	trait=envious 
+	trait=ambitious 
+	trait=genius 
+	father=3261	#Gyloro
+	mother=3271	#Tycha
+	6524.11.14={ birth=yes }
+	6576.9.7={ death=yes }
+}
+3264={
+	name=Ordello
+	dynasty=1405
+	dna="aailcoliicm"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=4
+	trait=detached_priest 
+	trait=hunter 
+	trait=cruel 
+	trait=envious 
+	trait=charitable 
+	trait=content 
+	trait=patient 
+	trait=possessed 
+	father=3261	#Gyloro
+	mother=3271	#Tycha
+	6528.12.17={ birth=yes }
+	6590.6.29={ death=yes }
+}
+3265={
+	name=Moreo
+	dynasty=1405
+	dna="ghhpclifgfe"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	trait=elusive_shadow 
+	trait=patient 
+	trait=greedy 
+	trait=deceitful 
+	father=3262	#Ordello
+	mother=3272	#Mera
+	6549.10.10={ birth=yes }
+	6602.6.28={ death=yes }
+}
+3266={
+	name=Roro
+	dynasty=1405
+	dna="gaegclbfojo"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=proud 
+	trait=ambitious 
+	father=3262	#Ordello
+	mother=3272	#Mera
+	6552.1.3={ birth=yes }
+	6611.1.15={ death=yes }
+}
+3267={
+	name=Lucerre
+	female=yes
+	dynasty=1405
+	dna="ehohmaifpln"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3262	#Ordello
+	mother=3272	#Mera
+	6554.8.16={ birth=yes }
+	6625.2.20={ death=yes }
+}
+3268={
+	name=Izembaro
+	dynasty=1405
+	dna="naahcniffkc"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=envious
+	father=3262	#Ordello
+	mother=3272	#Mera
+	6557.7.3={ birth=yes }
+	6626.7.30={ death=yes }
+}
+3269={
+	name=Nohia
+	female=yes
+	dynasty=1405
+	dna="pajpclacgob"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3262	#Ordello
+	mother=3272	#Mera
+	6561.8.25={ birth=yes }
+	6615.5.15={ death=yes }
+}
+3270={
+	name=Tregar
+	dynasty=1405
+	dna="gddpggidnpn"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3262	#Ordello
+	mother=3272	#Mera
+	6564.4.24={ birth=yes }
+	6600.3.13={ death=yes }
+}
+3271={
+	name=Tycha
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+3272={
+	name=Mera
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6521.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+
+###################
+## House Caldugal ##
+###################
+
+3273={
+	name=Daario
+	dynasty=1406
+	dna="kelkcjneihe"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=just 
+	trait=gluttonous 
+	trait=gregarious 
+	trait=lustful 
+	trait=depressed 
+	trait=lunatic 
+	6500.5.17={ birth=yes }
+	6521.1.1={ add_spouse=3282 }
+	6570.4.13={ death=yes }
+}
+3274={
+	name=Terrios
+	female=yes
+	dynasty=1406
+	dna="kjlilpneijp"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3273	#Daario
+	mother=3282	#Cylora
+	6522.5.10={ birth=yes }
+	6590.5.3={ death=yes }
+}
+3275={
+	name=Noho
+	dynasty=1406
+	dna="nelklgndile"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=4
+	trait=midas_touched 
+	trait=hunter 
+	trait=humble 
+	trait=cruel 
+	trait=craven 
+	trait=drunkard 
+	father=3273	#Daario
+	mother=3282	#Cylora
+	6524.1.5={ birth=yes }
+	6545.1.1={ add_spouse=3283 }
+	6572.9.2={ death=yes }
+}
+3276={
+	name=Areo
+	dynasty=1406
+	dna="fglniofeiie"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=6 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=4 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=gluttonous 
+	trait=patient 
+	trait=proud 
+	trait=arbitrary 
+	father=3273	#Daario
+	mother=3282	#Cylora
+	6528.7.6={ birth=yes }
+	6577.1.26={ death=yes }
+}
+3277={
+	name=Tagganaro
+	dynasty=1406
+	dna="pmlkcfmaihp"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=5 
+	learning=4
+	trait=intricate_webweaver 
+	trait=charitable 
+	trait=ambitious 
+	trait=patient 
+	trait=cynical 
+	trait=craven 
+	father=3273	#Daario
+	mother=3282	#Cylora
+	6531.5.15={ birth=yes }
+	6583.5.10={ death=yes }
+}
+3278={
+	name=Khorane
+	dynasty=1406
+	dna="kjlncpnemhe"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=8 
+	learning=7
+	trait=misguided_warrior 
+	trait=trusting 
+	trait=kind 
+	trait=greedy 
+	trait=arbitrary 
+	father=3273	#Daario
+	mother=3282	#Cylora
+	6534.7.2={ birth=yes }
+	6607.3.23={ death=yes }
+}
+3279={
+	name=Luco
+	dynasty=1406
+	dna="nchdlandejo"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=intricate_webweaver 
+	trait=duelist 
+	trait=humble 
+	trait=deceitful 
+	father=3275	#Noho
+	mother=3283	#Izembara
+	6548.4.1={ birth=yes }
+	6606.11.28={ death=yes }
+}
+3280={
+	name=Orbelo
+	dynasty=1406
+	dna="nhndemniila"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=hunter
+	father=3275	#Noho
+	mother=3283	#Izembara
+	6553.11.26={ birth=yes }
+	6602.10.2={ death=yes }
+}
+3281={
+	name=Bellegere
+	female=yes
+	dynasty=1406
+	dna="nelhlfjdipi"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3275	#Noho
+	mother=3283	#Izembara
+	6555.5.5={ birth=yes }
+	6625.8.9={ death=yes }
+}
+3282={
+	name=Cylora
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+3283={
+	name=Izembara
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6524.1.1={ birth=yes }
+	6572.1.1={ death=yes }
+}
+
+###################
+## House Kereszen ##
+###################
+
+3284={
+	name=Khorane
+	dynasty=1407
+	dna="hieaapbecnm"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	trait=tough_soldier 
+	trait=arbitrary 
+	trait=wroth 
+	trait=greedy 
+	trait=craven 
+	trait=lunatic 
+	6500.3.7={ birth=yes }
+	6521.1.1={ add_spouse=3291 }
+	6570.11.16={ death=yes }
+}
+3285={
+	name=S'vrone
+	female=yes
+	dynasty=1407
+	dna="ekpigdbicge"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3284	#Khorane
+	mother=3291	#Umma
+	6527.5.8={ birth=yes }
+	6584.1.24={ death=yes }
+}
+3286={
+	name=Ezzelyno
+	dynasty=1407
+	dna="hkeacdmncnm"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=4
+	trait=detached_priest 
+	trait=hunter 
+	trait=gregarious 
+	trait=lustful 
+	trait=brave 
+	trait=honest 
+	trait=proud 
+	trait=wounded 
+	father=3284	#Khorane
+	mother=3291	#Umma
+	6528.4.15={ birth=yes }
+	6549.1.1={ add_spouse=3292 }
+	6598.9.19={ death=yes }
+}
+3287={
+	name=Syrio
+	dynasty=1407
+	dna="flbabjakdlf"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=4 
+	learning=7
+	trait=scholarly_theologian 
+	trait=envious 
+	trait=arbitrary 
+	trait=zealous 
+	father=3286	#Ezzelyno
+	mother=3292	#Bellonara
+	6549.11.19={ birth=yes }
+	6604.1.11={ death=yes }
+}
+3288={
+	name=Izembaro
+	dynasty=1407
+	dna="kjecgimnllo"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=craven 
+	trait=paranoid 
+	trait=wroth 
+	trait=gluttonous 
+	father=3286	#Ezzelyno
+	mother=3292	#Bellonara
+	6552.4.14={ birth=yes }
+	6607.4.5={ death=yes }
+}
+3289={
+	name=Meralyia
+	female=yes
+	dynasty=1407
+	dna="cfkdcjmfbjm"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3286	#Ezzelyno
+	mother=3292	#Bellonara
+	6555.4.19={ birth=yes }
+	6602.6.19={ death=yes }
+}
+3290={
+	name=Luco
+	dynasty=1407
+	dna="noneadhlkom"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3286	#Ezzelyno
+	mother=3292	#Bellonara
+	6560.12.9={ birth=yes }
+	6633.3.24={ death=yes }
+}
+3291={
+	name=Umma
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6570.1.1={ death=yes }
+}
+3292={
+	name=Bellonara
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6528.1.1={ birth=yes }
+	6598.1.1={ death=yes }
+}
+
+###################
+## House Pilisszt ##
+###################
+
+3293={
+	name=Ferrego
+	dynasty=1408
+	dna="gbcicdafecl"
+	culture=lysene 
+	religion=the_weeping_lady
+	6499.11.19={ birth=yes }
+	6520.1.1={ add_spouse=3300 }
+	6558.2.6={ death=yes }
+}
+3294={
+	name=Joss
+	dynasty=1408
+	dna="hkcicdafedi"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=greedy 
+	trait=cruel 
+	trait=envious 
+	trait=zealous 
+	trait=chaste 
+	trait=stressed 
+	father=3293	#Ferrego
+	mother=3300	#Nohia
+	6522.4.11={ birth=yes }
+	6543.1.1={ add_spouse=3301 }
+	6576.5.29={ death=yes }
+}
+3295={
+	name=Jaqen
+	dynasty=1408
+	dna="ognidjakhcb"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	trait=martial_cleric 
+	trait=humble 
+	trait=ambitious 
+	father=3293	#Ferrego
+	mother=3300	#Nohia
+	6527.6.6={ birth=yes }
+	6566.5.26={ death=yes }
+}
+3296={
+	name=Cossomo
+	dynasty=1408
+	dna="gocildajdcl"
+	culture=lysene 
+	religion=the_weeping_lady
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5 
+	learning=5
+	trait=intricate_webweaver 
+	trait=arbitrary 
+	trait=patient 
+	trait=gluttonous 
+	trait=deceitful 
+	trait=kind 
+	father=3293	#Ferrego
+	mother=3300	#Nohia
+	6529.1.24={ birth=yes }
+	6591.9.16={ death=yes }
+}
+3297={
+	name=S'vrone
+	female=yes
+	dynasty=1408
+	dna="bmpicjadedi"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3294	#Joss
+	mother=3301	#Serenei
+	6549.8.12={ birth=yes }
+	6604.6.28={ death=yes }
+}
+3298={
+	name=Gyloro
+	dynasty=1408
+	dna="nkniodaoejn"
+	culture=lysene 
+	religion=the_weeping_lady
+	trait=patient 
+	trait=shy 
+	father=3294	#Joss
+	mother=3301	#Serenei
+	6553.6.20={ birth=yes }
+	6624.9.12={ death=yes }
+}
+3299={
+	name=Ezzere
+	female=yes
+	dynasty=1408
+	dna="ccdiadadpbi"
+	culture=lysene 
+	religion=the_weeping_lady
+	father=3294	#Joss
+	mother=3301	#Serenei
+	6556.2.9={ birth=yes }
+	6601.7.13={ death=yes }
+}
+3300={
+	name=Nohia
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6500.1.1={ birth=yes }
+	6558.1.1={ death=yes }
+}
+3301={
+	name=Serenei
+	female=yes
+	culture=lysene
+	religion=the_weeping_lady
+	6522.1.1={ birth=yes }
+	6576.1.1={ death=yes }
+}

@@ -1,0 +1,21 @@
+# c_falcioni
+
+# County Title
+title = c_falcioni
+
+# Settlements
+max_settlements = 3
+
+b_falcioni = city
+b_falcioni_2 = castle
+#b_falcioni_3 = temple
+#b_falcioni_4 = castle
+#b_falcioni_5 = city
+#b_falcioni_6 = temple
+#b_falcioni_7 = castle
+
+# Misc
+culture = tyroshi
+religion = trios
+terrain = farmlands
+#History

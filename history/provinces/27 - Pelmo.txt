@@ -1,0 +1,21 @@
+# c_pelmo
+
+# County Title
+title = c_pelmo
+
+# Settlements
+max_settlements = 7
+
+b_pelmo = castle
+#b_pelmo_2 = city
+#b_pelmo_3 = temple
+#b_pelmo_4 = castle
+#b_pelmo_5 = city
+#b_pelmo_6 = temple
+#b_pelmo_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

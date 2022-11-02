@@ -1,0 +1,21 @@
+# c_zuri
+
+# County Title
+title = c_zuri
+
+# Settlements
+max_settlements = 3
+
+b_zuri = city
+#b_zuri_2 = city
+#b_zuri_3 = temple
+#b_zuri_4 = castle
+#b_zuri_5 = city
+#b_zuri_6 = temple
+#b_zuri_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

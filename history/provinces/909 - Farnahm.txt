@@ -1,0 +1,21 @@
+# c_farnahm
+
+# County Title
+title = c_farnahm
+
+# Settlements
+max_settlements = 3
+
+b_farnahm = castle
+#b_crowland = city
+#b_farnahm_2 = temple
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+    religion = the_seven
+	culture = goldmen
+}

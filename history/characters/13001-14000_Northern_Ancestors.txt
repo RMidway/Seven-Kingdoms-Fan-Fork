@@ -1,0 +1,164 @@
+#######################
+### KINGS OF WINTER ###
+#######################
+
+
+
+13001 = {
+    name = "Brandon"
+    dynasty = 1
+    dna="mpkannstbwp"
+    properties = "ge0chk00000000"
+    religion = old_gods
+    culture = starkfm
+    trait = midas_touched
+    trait = genius
+    trait = temperate
+    trait = diligent
+    trait = patient
+    trait = just
+    trait = kind
+    stewardship = 12
+    15.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+		create_bloodline = {
+			type = bloodline_stark
+			has_dlc = "Holy Fury"
+		}
+	}
+    30.1.1 = { give_nickname=nick_the_builder }
+    102.1.1 = { death=yes }
+}
+
+13002 = {
+    name = "Brandon"
+    dynasty = 1
+    religion = old_gods
+    culture = starkfm
+    father = 13001
+    76.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    146.1.1 = { death=yes }
+}
+
+13003 = {
+    name = "Jon"
+    dynasty = 1
+    religion = old_gods
+    culture = starkfm
+    father = 13002
+    102.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    168.1.1 = { death=yes }
+}
+
+13004 = {
+    name = "Line of Jon"
+    dynasty = 1
+    religion = old_gods
+    culture = starkfm
+    father = 13003
+    #occluded = yes
+    167.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    6470.1.1 = { death=yes }
+}
+
+13005 = {
+    name = "Brandon"
+    dynasty = 1
+    religion = old_gods
+    culture = starkfm
+    father = 13004
+
+    6434.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    6483.1.1 = { death=yes }
+}
+
+13006 = {
+    name = "Jon"
+    dynasty = 1
+    religion = old_gods
+    culture = starkfm
+    father = 13005
+
+    6450.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    6512.1.1 = { death=yes }
+}
+
+13007 = {
+    name = "Rickard" # the Laughing Wolf
+    dynasty = 1
+    religion = old_gods
+    culture = starkfm
+    father = 13006
+
+    6476.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    6532.1.1 = { death=yes }
+}
+
+#################
+### GREYSTARK ###
+#################
+
+13008 = {
+    name = "Jon"
+    dynasty = 3
+    religion = old_gods
+    culture = starkfm
+    father = 13009
+
+    6502.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    6560.1.1 = { death=yes }
+}
+
+13009 = {
+    name = "Robb"
+    dynasty = 3
+    religion = old_gods
+    culture = starkfm
+    father = 13006
+
+    6478.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = northmen
+		}
+	}
+    6532.1.1 = { death=yes }
+}

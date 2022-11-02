@@ -1,0 +1,22 @@
+# c_fang_tower
+
+# County Title
+title = c_fang_tower
+
+# Settlements
+max_settlements = 4
+
+b_fang_tower = castle
+b_hartltower = castle
+#b_fangpoole = temple
+#b_beautower = castle
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = mountain
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

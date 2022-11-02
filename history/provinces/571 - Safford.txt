@@ -1,0 +1,20 @@
+# c_safford
+
+# County Title
+title = c_safford
+
+# Settlements
+max_settlements = 2
+
+b_safford = castle
+#b_bluepike = city
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    culture = reachmen
+	religion = the_seven
+}

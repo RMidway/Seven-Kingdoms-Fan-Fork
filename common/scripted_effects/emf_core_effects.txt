@@ -1,0 +1,30 @@
+# -*- ck2.scripted_effects -*-
+
+# These do_not_disturb related effects are here for convenience as well as primarily a means of centralizing code which deals
+# with this status, should we ever switch to an alterate design based-upon automatically-expiring, timed, and hidden
+# character modifiers.
+
+emf_do_not_disturb = {
+	set_flag = do_not_disturb
+}
+
+emf_liege_change = {
+	hidden_tooltip = {
+		pf_liege_change_effect = yes
+		if = {
+			limit = {
+				independent = no
+				is_tributary = yes
+			}
+			any_suzerain = { remove_tributary = PREV }
+		}
+		# Remove any invalidated protected_appointment opinions due to liege change
+		any_opinion_modifier_target = {
+			limit = {
+				reverse_has_opinion_modifier = { who = PREV modifier = opinion_protected_appointment_always }
+				NOT = { is_liege_of = PREV }
+			}
+			reverse_remove_opinion = { who = PREV modifier = opinion_protected_appointment_always }
+		}
+	}
+}

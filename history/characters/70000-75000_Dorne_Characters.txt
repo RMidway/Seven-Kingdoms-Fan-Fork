@@ -1,0 +1,3424 @@
+		      ###############
+		      #   ID RANGE  #
+		      # 70000-75000 #
+		      ###############
+	
+### 12002 Nymeros
+### 579 Martell
+### 582 Nymeros-Martell
+
+	###########################
+	#### Nymeria's Landing ####
+	###########################
+	
+	### House Nymeros-Martell ###
+	
+70000 = {
+    name = "Nymeria" # The 10,000 Ships
+    dynasty = 12002 # Nymeros
+	dna = "bhakijdadaqchnftyfhnj"
+	properties = "ej0chk"
+    culture = rhoynish
+    religion = rhoynar
+	female = yes 
+	martial = 9
+	
+    7268.1.1={
+	birth=yes
+	create_bloodline = {
+		type = bloodline_nymeros
+		has_dlc = "Holy Fury"
+	}
+}
+	7284.1.1={
+		add_trait = skilled_tactician
+		add_trait = dueling_master
+		add_trait = quick
+		add_trait = fair
+		add_trait = just
+		add_trait = ambitious
+		add_trait = patient
+		add_trait = diligent
+		add_trait = brave
+	}
+	7298.1.1={
+		add_spouse=70001 # Mors Martell
+		#religion = the_seven
+	} 
+    7333.1.1={death=yes}
+}		  
+
+70001 = {
+    name = "Mors" # The Lord of Sunspear
+    dynasty = 579 # Martell
+	dna = "dclgbxiafexhyjbnfwnoi"
+	properties = "oh0bi"
+	father= 70002 # Trystane
+    culture = andal_dornish
+    religion = the_seven
+	martial = 8
+	
+    7274.1.1={ birth=yes }
+	7290.1.1={
+		add_trait = knight
+		add_trait = tough_soldier
+		add_trait = dueling_expert
+		add_trait = strong
+		add_trait = tall
+		add_trait = proud
+		add_trait = ambitious
+		add_trait = zealous
+		add_trait = diligent
+		add_trait = brave
+	}
+	7298.1.1={
+		add_spouse=70000 # Nymeria Nymeros
+		effect = {
+			culture = salt_dornish
+			set_graphical_culture = andal_dornish
+		}
+		dynasty = 582 # Nymeros-Martell
+	}
+    7310.1.1={death=yes} # Slain by Yorick V Yronwood
+}		
+
+70002 = {
+    name = "Trystane" # Past Lord of Sunspear
+    dynasty = 579 # Martell
+	father= 70003 # Allar
+    culture = andal_dornish
+    religion = the_seven
+	
+    7244.1.1={
+		birth=yes
+	}
+    7289.1.1={death=yes} 
+	7298.1.1={
+		dynasty = 582 # Nymeros-Martell
+	}
+}	
+
+70003 = {
+    name = "Allar" # Past Lord of Sunspear
+    dynasty = 579 # Martell
+	father= 70004 # Unknown
+    culture = andal_dornish
+    religion = the_seven
+	
+    7220.1.1={
+		birth=yes
+	}
+    7279.1.1={death=yes} 
+	7298.1.1={
+		dynasty = 582 # Nymeros-Martell
+	}
+}	
+
+70004 = {
+    name = "Line of Nymor" # Unknown Lords
+    dynasty = 579 # Martell
+	father= 8102 # Nymor Martell
+    culture = andal_dornish
+    religion = the_seven
+	occluded = yes
+    6600.1.1={birth=yes}
+    7220.1.1={death=yes} 
+}	
+
+70005 = {
+    name = "Bors" # Uncle of Mors Martell
+    dynasty = 579 # Martell
+	father= 70003 # Allar
+    culture = andal_dornish
+    religion = the_seven
+	
+    7247.1.1={
+		birth=yes
+		culture=salt_dornish
+	}
+	7298.1.1={
+		dynasty = 582 # Nymeros-Martell
+	}
+	7299.1.1={employer=70001} # Mors Martell
+    7306.1.1={death=yes} 
+}	
+
+70006 = {
+    name = "Maron" # Cousin of Mors Martell
+    dynasty = 579 # Martell
+	father= 70005 # Bors
+    culture = andal_dornish
+    religion = the_seven
+	martial = 7
+	
+    7268.1.1={
+		birth=yes
+		culture=salt_dornish
+	}
+	7284.1.1={
+		add_trait = skilled_tactician
+		add_trait = dueling_expert
+		add_trait = knight
+	}
+	7295.1.1 = {
+		add_matrilineal_spouse = 75043 # Lynae Hightower
+	}
+	7298.1.1={
+		dynasty = 582 # Nymeros-Martell
+	}
+	7299.1.1={employer=70001} # Mors Martell
+    7322.1.1={death=yes} 
+}	
+
+70007 = {
+    name = "Yandry" # Cousin of Mors Martell
+    dynasty = 579 # Martell
+	father= 70005 # Bors
+    culture = andal_dornish
+    religion = the_seven
+	learning = 8 
+    7269.1.1={
+		birth=yes
+		culture=salt_dornish
+	}
+	7285.1.1={
+		add_trait = erudite
+		add_trait = celibate
+		add_trait = zealous
+		add_trait = septon
+		add_trait = martial_cleric
+		add_trait = temperate
+		add_trait = charitable	
+	}
+	7298.1.1={
+		dynasty = 582 # Nymeros-Martell
+	}
+	7299.1.1={employer=70001} # Mors Martell
+    7327.1.1={death=yes} 
+}
+
+70008 = {
+    name = "Nymeria" # The Child of Mors and Nymeria
+    dynasty = 582 # Nymeros-Martell
+	dna = "akagdtdeccbnmhqzerdem"
+	properties = "0r0al"
+    culture = andal_dornish
+    religion = the_seven
+	female = yes 
+	mother = 70000 # Nymeria
+	father = 70001 # Mors
+    7299.1.1={
+		birth=yes
+		add_trait = strong
+		add_trait = fair
+		culture = salt_dornish
+	}
+    7353.1.1={death=yes}
+}	
+
+### Vassals of House Nymeros-Martell ###
+
+### House Santagar ###
+
+70009 = {
+    name = "Line of Symon" # Line of
+    dynasty = 518
+    religion = the_seven
+    culture = andal_dornish
+	occluded = yes
+	father=8107
+    6615.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7230.1.1 = { death=yes }
+}
+
+70010 = {
+    name = "Castos" # Lord of Spotswood
+    dynasty = 518
+    religion = the_seven
+    culture = andal_dornish
+
+	father=70009
+	trait = knight
+	trait = dueling_skilled
+    7230.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7293.1.1 = { death=yes }
+}
+
+70011 = {
+    name = "Harmen" # Current Lord of Spotswood
+    dynasty = 518
+    religion = the_seven
+    culture = andal_dornish
+
+	father=70010
+	trait = knight
+    7253.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7308.1.1 = { death=yes }
+}
+
+70012 = {
+    name = "Arron" # Brother of Harmen
+    dynasty = 518
+    religion = the_seven
+    culture = andal_dornish
+
+	father=70010
+	trait = knight
+	trait = dueling_novice
+    7256.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7322.1.1 = { death=yes }
+}
+
+70013 = {
+    name = "Gulian" # Heir to Spotswood
+    dynasty = 518
+    religion = the_seven
+    culture = andal_dornish
+
+	father=70011
+	trait = knight
+	trait = dueling_adept
+    7277.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7340.1.1 = { death=yes }
+}
+
+70014 = {
+    name = "Sarra" # Harmen's Daughter
+    dynasty = 518
+    religion = the_seven
+    culture = andal_dornish
+
+	father=70011
+    female = yes
+    7279.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7338.1.1 = { death=yes }
+}
+
+### House Toland ###
+
+70015 = {
+    name = "Line of Arthur" 
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=1088
+    occluded = yes
+    6613.5.30 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7200.1.1 = { death=yes }
+}
+
+70016 = {
+    name = "Jaremy" # Past Lord of Ghost Hill
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=70015
+
+    7200.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7251.1.1 = { death=yes }
+}
+
+70017 = {
+    name = "Trebor" # Past Lord of Ghost Hill
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=70016
+
+    7221.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7280.1.1 = { death=yes }
+}
+
+70018 = {
+    name = "Aemma" 
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=70016
+    female = yes 
+    7220.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7289.1.1 = { death=yes }
+}
+
+70019 = {
+    name = "Ricasso" # Lord of Ghost Hill
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=70017
+	trait = knight
+	trait = dueling_adept
+    7250.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7307.1.1 = { death=yes }
+}
+
+70020 = {
+    name = "Lewyn" # Heir to Ghost Hill
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=70019
+	trait = knight
+	trait = dueling_expert
+    7274.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7322.1.1 = { death=yes }
+}
+
+70021 = {
+    name = "Ulwyck" # Son of Lord Ricasso
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+
+	father=70019
+	trait = knight
+	trait = dueling_skilled
+    7276.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7334.1.1 = { death=yes }
+}
+
+70022 = {
+    name = "Theona" # Daughter of Lord Ricasso
+    dynasty = 527
+    religion = the_seven
+    culture = stone_dornish
+	female = yes
+	father=70019
+	trait = lustful
+	trait = hedonist
+    7278.1.1 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7330.1.1 = { death=yes }
+}
+
+### House Shell ###
+
+70216 = {
+    name = "Line of Dagos" 
+    dynasty = 516
+    religion = the_seven
+    culture = stone_dornish
+
+	father=5711
+	occluded = yes
+    6590.5.17 = { 
+		birth=yes
+		culture=salt_dornish
+	}
+    7230.1.1 = { death=yes }
+}
+
+70023 = {
+    name = "Ormond" # Past Lord of Broken Arm
+    dynasty = 516
+    religion = the_seven
+    culture = salt_dornish
+
+	father=70216
+
+    7230.1.1 = { 
+		birth=yes
+	}
+    7290.1.1 = { death=yes }
+}
+
+70024 = {
+    name = "Qoren" # Lord of Broken Arm
+    dynasty = 516
+    religion = the_seven
+    culture = salt_dornish
+	trait = knight
+	trait = dueling_master
+	father=70023
+
+    7256.1.1 = { 
+		birth=yes
+	}
+    7306.1.1 = { death=yes }
+}
+
+70025 = {
+    name = "Alannis" # Sister of Lord Qoren
+    dynasty = 516
+    religion = the_seven
+    culture = salt_dornish
+
+	father=70023
+	female = yes
+    7259.1.1 = { 
+		birth=yes
+	}
+    7313.1.1 = { death=yes }
+}
+
+70026 = {
+    name = "Armen" # Heir of Broken Arm
+    dynasty = 516
+    religion = the_seven
+    culture = salt_dornish
+	trait = knight
+	trait = dueling_adept
+	father=70024
+
+    7274.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death=yes }
+}
+
+70027 = {
+    name = "Garin" # Son of Lord Qoren
+    dynasty = 516
+    religion = the_seven
+    culture = salt_dornish
+	trait = knight
+	trait = dueling_skilled
+	father=70024
+
+    7276.1.1 = { 
+		birth=yes
+	}
+    7330.1.1 = { death=yes }
+}
+
+70028 = {
+    name = "Liane" # Daughter of Lord Qoren
+    dynasty = 516
+    religion = the_seven
+    culture = salt_dornish
+    female = yes
+	father=70024
+
+    7279.1.1 = { 
+		birth=yes
+	}
+    7344.1.1 = { death=yes }
+}
+
+### House Vyper ###
+
+70029 = {
+    name = "Line of Mors" 
+    dynasty = 526 # Vyper
+    culture=andal_dornish
+	religion=the_seven
+
+	father=1084 
+	occluded = yes 
+    6606.11.7 = { 
+		birth=yes
+	}
+    7200.1.1 = { death=yes }
+}
+
+70030 = {
+    name = "Oberyn" # Past Lord of Viper's Nest
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+
+	father=70029
+
+    7200.1.1 = { 
+		birth=yes
+	}
+    7276.1.1 = { death=yes }
+}
+
+70031 = {
+    name = "Lucifer" # Past Lord of Viper's Nest
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+
+	father=70030
+
+    7237.1.1 = { 
+		birth=yes
+	}
+    7299.1.1 = { death=yes }
+}
+
+70032 = {
+    name = "Loreza" 
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+
+	father=70030
+	female = yes
+    7235.1.1 = { 
+		birth=yes
+	}
+    7290.1.1 = { death=yes }
+}
+
+70033 = {
+    name = "Fiona" 
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+
+	father=70030
+	female = yes
+    7232.1.1 = { 
+		birth=yes
+	}
+    7294.1.1 = { death=yes }
+}
+
+70034 = {
+    name = "Doran" # Lord of Viper's nest
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+
+	father=70031
+	trait = elusive_shadow
+	trait = dueling_master
+	trait = quick
+	trait = lustful
+	trait = deceitful
+	trait = ambitious
+	trait = sociopath
+	trait = fair
+    7260.1.1 = { 
+		birth=yes
+	}
+    7327.1.1 = { death=yes }
+}
+
+70035 = {
+    name = "Perros" # Heir of Viper's nest
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+
+	father=70034
+	trait = knight
+	trait = dueling_expert
+	trait = strong
+    7280.1.1 = { 
+		birth=yes
+	}
+    7341.1.1 = { death=yes }
+}
+
+70036 = {
+    name = "Esme" # Daughter of Lord Doran
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+	female = yes
+	father=70034
+	trait = twin
+    7281.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death=yes }
+}
+
+70037 = {
+    name = "Elyria" # Daughter of Lord Doran
+    dynasty = 526 # Vyper
+    religion = the_seven
+    culture = sand_dornish
+	female = yes
+	father=70034
+	trait = twin
+    7281.1.1 = { 
+		birth=yes
+	}
+    7344.1.1 = { death=yes }
+}
+
+### House Dalt ###
+
+70038 = {
+    name = "Line of Gerris" 
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=1099
+	occluded = yes
+
+    6589.6.30 = { 
+		birth=yes
+	}
+    7246.1.1 = { death=yes }
+}
+
+70039 = {
+    name = "Deziel" # Past Lord of Lemonwood
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70038
+	
+
+    7220.1.1 = { 
+		birth=yes
+	}
+    7281.1.1 = { death=yes }
+}
+
+70040 = {
+    name = "Lyessa" 
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70039
+	female = yes
+
+    7244.1.1 = { 
+		birth=yes
+	}
+    7299.1.1 = { death=yes }
+}
+
+70041 = {
+    name = "Gerold" # Lord of Lemonwood
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70039
+	trait = knight
+    7247.1.1 = { 
+		birth=yes
+	}
+    7304.1.1 = { death=yes }
+}
+
+70042 = {
+    name = "Maron" # Heir of Lemonwood
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70041
+	trait = knight
+	trait = dueling_adept
+    7270.1.1 = { 
+		birth=yes
+	}
+    7322.1.1 = { death=yes }
+}
+
+70043 = {
+    name = "Landry" # Son of Lord Gerold
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70041
+	trait = knight
+	trait = dueling_skilled
+    7273.1.1 = { 
+		birth=yes
+	}
+    7320.1.1 = { death=yes }
+}
+
+70044 = {
+    name = "Betha" # Daughter of Landry
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70043
+	female = yes
+    7293.1.1 = { 
+		birth=yes
+	}
+    7350.1.1 = { death=yes }
+}
+
+70045 = {
+    name = "Cyromil" # Daughter of Landry
+    dynasty = 529 # Dalt
+    religion = the_seven
+    culture = sand_dornish
+	father=70043
+	female = yes
+    7295.1.1 = { 
+		birth=yes
+	}
+    7366.1.1 = { death=yes }
+}
+
+### House Jordayne ###
+
+70046 = {
+    name = "Line of Morgan" 
+    dynasty = 525 # Jordayne
+    culture = andal_dornish
+	religion = the_seven
+	father=1078
+	occluded = yes
+    6611.4.17 = { 
+		birth=yes
+	}
+    7225.1.1 = { death=yes }
+}
+
+70047 = {
+    name = "Edric" # Past Lord of the Tor
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70046
+
+    7225.1.1 = { 
+		birth=yes
+	}
+    7283.1.1 = { death=yes }
+}
+
+70048 = {
+    name = "Bedwyck" # Past Lord of the Tor
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70047
+	trait = celibate 
+    7241.1.1 = { 
+		birth=yes
+	}
+    7293.1.1 = { death=yes }
+}
+
+70049 = {
+    name = "Anders" # Past Lord of the Tor
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70047
+
+    7242.1.1 = { 
+		birth=yes
+	}
+    7299.1.1 = { death=yes }
+}
+
+70050 = {
+    name = "Ryon" # Lord of the Tor
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70049
+	trait = knight
+	trait = dueling_skilled
+    7270.1.1 = { 
+		birth=yes
+	}
+    7321.1.1 = { death=yes }
+}
+
+70051 = {
+    name = "Dorea" # Heir of the Tor
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70050
+	female = yes
+    7291.1.1 = { 
+		birth=yes
+	}
+    7344.1.1 = { death=yes }
+}
+
+70052 = {
+    name = "Yandry" # Son of Lord Ryon
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70050
+
+    7293.1.1 = { 
+		birth=yes
+	}
+    7357.1.1 = { death=yes }
+}
+
+70053 = {
+    name = "Timoth" # Brother of Lord Ryon
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70049
+	trait = knight
+	trait = dueling_adept
+    7273.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death=yes }
+}
+
+70054 = {
+    name = "Elia" # Sister of Lord Ryon
+    dynasty = 525 # Jordayne
+    religion = the_seven
+    culture = salt_dornish
+	father=70049
+	female = yes
+    7274.1.1 = { 
+		birth=yes
+	}
+    7329.1.1 = { death=yes }
+}
+
+### House Allyrion ###
+
+70055 = {
+    name = "Line of Morrin" 
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=1028
+	occluded = yes
+    6606.7.31 = { 
+		birth=yes
+	}
+    7220.1.1 = { death=yes }
+}
+
+70056 = {
+    name = "Alleras" # Past Lord of Godsgrace
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70055
+    7220.1.1 = { 
+		birth=yes
+	}
+    7273.1.1 = { death=yes }
+}
+
+70057 = {
+    name = "Ravella" 
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70056
+	female = yes
+    7236.1.1 = { 
+		birth=yes
+	}
+    7297.1.1 = { death=yes }
+}
+
+70058 = {
+    name = "Aron" # Past Lord of Godsgrace
+    dynasty = 519 # Allyrion
+	religion = the_seven
+    culture = andal_dornish
+	father=70056
+
+    7239.1.1 = { 
+		birth=yes
+	}
+    7288.1.1 = { death=yes }
+}
+
+70059 = {
+    name = "Quentyn" 
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70056
+
+    7240.1.1 = { 
+		birth=yes
+	}
+    7299.1.1 = { death=yes }
+}
+
+70060 = {
+    name = "Theodan" # Current Lord of Godsgrace
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70058
+	trait = knight
+	trait = dueling_skilled
+    7259.1.1 = { 
+		birth=yes
+	}
+    7313.1.1 = { death=yes }
+}
+
+70061 = {
+    name = "Mallor" # Lord Theodan's Brother
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70058
+	trait = knight
+	trait = dueling_expert
+	trait = skilled_tactician
+    7263.1.1 = { 
+		birth=yes
+	}
+    7327.1.1 = { death=yes }
+}
+
+70062 = {
+    name = "Tyene" # Current Heir of Godsgrace
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70060
+	trait = dueling_master
+	female = yes
+    7277.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death=yes }
+}
+
+70063 = {
+    name = "Gerris" # Lord Theodan's Nephew
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70061
+	trait = dueling_adept
+    7284.1.1 = { 
+		birth=yes
+	}
+    7342.1.1 = { death=yes }
+}
+
+70064 = {
+    name = "Archibald" # Lord Theodan's Nephew
+    dynasty = 519 # Allyrion
+    religion = the_seven
+    culture = andal_dornish
+	father=70061
+	trait = dueling_adept
+	trait = quick
+    7287.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death=yes }
+}
+
+### House Deadwell ###
+
+70065 = {
+    name = "Line of Morgan" 
+    dynasty = 524 # Deadwell
+    religion = the_seven
+    culture = andal_dornish
+	father=1073
+    occluded = yes
+    6612.10.1 = { 
+		birth=yes
+	}
+    7250.1.1 = { death=yes }
+}
+
+70066 = {
+    name = "Daemon" # Lord of the Glade
+    dynasty = 524 # Deadwell
+    religion = the_seven
+    culture = andal_dornish
+	father=70065
+	trait = knight
+	trait = dueling_novice
+    7250.1.1 = { 
+		birth=yes
+	}
+    7309.1.1 = { death=yes }
+}
+
+70067 = {
+    name = "Olyvar" # Heir of the Glade
+    dynasty = 524 # Deadwell
+    religion = the_seven
+    culture = andal_dornish
+	father=70066
+	trait = knight
+	trait = dueling_expert
+    7275.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death=yes }
+}
+
+70068 = {
+    name = "Armen" # Son of Lord Daemon
+    dynasty = 524 # Deadwell
+    religion = the_seven
+    culture = andal_dornish
+	father=70066
+	trait = knight
+	trait = dueling_adept
+    7277.1.1 = { 
+		birth=yes
+	}
+    7330.1.1 = { death=yes }
+}
+
+70069 = {
+    name = "Myra" # Daughter of Lord Daemon
+    dynasty = 524 # Deadwell
+    religion = the_seven
+    culture = andal_dornish
+	father=70066
+    female = yes
+    7279.1.1 = { 
+		birth=yes
+	}
+    7344.1.1 = { death=yes }
+}
+
+### House Ghaston ###
+
+70070 = {
+    name = "Line of Franklyn" 
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=1069
+    occluded = yes
+    6628.1.19 = { 
+		birth=yes
+	}
+    7220.1.1 = { death=yes }
+}
+
+70071 = {
+    name = "Gulian" # Past Lord of Ghaston Grey
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70070 
+
+    7220.1.1= { 
+		birth=yes
+	}
+    7281.1.1 = { death=yes }
+}
+
+70072 = {
+    name = "Caleotte" # Current Lord of Ghaston Grey
+    dynasty = 523 # Ghaston
+	religion = the_seven
+    culture = andal_dornish
+	father=70071
+	trait = knight
+	trait = dueling_skilled
+    7244.1.1= { 
+		birth=yes
+	}
+    7303.1.1 = { death=yes }
+}
+
+70073 = {
+    name = "Albar" # Brother of Lord Caleotte
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70071
+	trait = knight
+	trait = dueling_master
+    7247.1.1= { 
+		birth=yes
+	}
+    7300.1.1 = { death=yes }
+}
+
+70074 = {
+    name = "Joy" # Sister of Lord Caleotte
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70071
+	female = yes
+    7250.1.1= { 
+		birth=yes
+	}
+    7308.1.1 = { death=yes }
+}
+
+70075 = {
+    name = "Yandry" # Nephew of Lord Caleotte
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70073
+	trait = knight
+	trait = dueling_master
+	trait = skilled_tactician
+	martial = 7
+	employer = 70001
+    7270.1.1= { 
+		birth=yes
+	}
+    7322.1.1 = { death=yes }
+}
+
+70076 = {
+    name = "Manfrey" # Current Heir of Ghaston Grey
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70072
+	trait = knight
+	trait = dueling_adept
+    7265.1.1= { 
+		birth=yes
+	}
+    7321.1.1 = { death=yes }
+}
+
+70077 = {
+    name = "Gulian" # Son of Lord Caleotte
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70072
+	trait = knight
+	trait = dueling_novice
+	trait = tall
+    7267.1.1= { 
+		birth=yes
+	}
+    7330.1.1 = { death=yes }
+}
+
+70078 = {
+    name = "Dolessa" # Daughter of Lord Caleotte
+    dynasty = 523 # Ghaston
+    religion = the_seven
+    culture = andal_dornish
+	father=70072
+	female = yes
+	trait = strong
+    7270.1.1= { 
+		birth=yes
+	}
+    7344.1.1 = { death=yes }
+}
+
+###################################
+### The Bloodroyals of Redmarch ###
+###################################
+
+70079 = {
+    name = "Line of Yorick" 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = stone_dornish
+	father = 1013
+    occluded=yes
+    6622.12.8 = {
+		birth=yes
+	}
+    7182.1.1 = { death=yes }
+}
+
+70080 = {
+    name = "Yorick" # The Third of His Name 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70079
+
+	trait = strong
+	trait = knight
+	trait = dueling_master
+    7150.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7203.1.1 = { death=yes }
+}
+
+70081 = {
+    name = "Lorea" 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70080
+    female = yes
+
+    7175.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7233.1.1 = { death=yes }
+}
+
+70082 = {
+    name = "Archibald" # King of Redmarch
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70080
+    trait = strong
+	trait = tall
+	trait = dueling_skilled
+	trait = knight
+    7177.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7240.1.1 = { death=yes }
+}
+
+70083 = {
+    name = "Yorick" # The Fourth of His Name 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70082
+    trait = strong
+	trait = dueling_expert
+	trait = knight
+    7199.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7260.1.1 = { death=yes }
+}
+
+70084 = {
+    name = "Archibald" # The Second of His Name 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70083
+    trait = strong
+	trait = dueling_adept
+	trait = knight
+    7228.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7277.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70085 = {
+    name = "Lyonel" 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70083
+    trait = tall
+	trait = dueling_adept
+	trait = knight
+    7233.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7277.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70086 = {
+    name = "Cletus" 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70085
+    trait = tall
+	trait = dueling_skilled
+	trait = knight
+    7256.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7303.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70087 = {
+    name = "Arthur" 
+    dynasty = 502 # Yronwood
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70085
+    trait = strong
+	trait = dueling_expert
+	trait = knight
+    7258.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7303.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70088 = {
+    name = "Yorick" # The Fifth of His Name and Current Bloodroyal
+    dynasty = 502 # Yronwood
+	dna = "ambibjkddbaysenzljbrp"
+	properties = "oo0abb"
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70084
+    trait = strong
+	trait = tall
+	trait = dueling_master
+	trait = knight
+	trait = skilled_tactician
+	martial = 9
+	trait = greedy
+	trait = wroth
+	trait = proud
+	trait = zealous
+	trait = heartless
+	trait = aggressive_leader
+	
+    7250.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+	7290.1.1 = { wealth = 900 }
+    7323.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70089 = {
+    name = "Ursula" # The Bloodroyal's Daughter
+    dynasty = 502 # Yronwood
+
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70088
+	trait = tall
+	female = yes
+	
+    7272.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7338.1.1 = { death = yes } 
+}
+
+70090 = {
+    name = "Alysanne" # The Bloodroyal's Daughter
+    dynasty = 502 # Yronwood
+
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70088
+	trait = tall
+	female = yes
+	
+    7274.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+	7299.1.1 = { add_spouse = 70128 } # Florian Fowler
+    7341.1.1 = { death = yes } 
+}
+
+70091 = {
+    name = "Archibald" # The Bloodroyal's Heir
+    dynasty = 502 # Yronwood
+
+    religion = the_seven
+    culture = yronwoodfm
+	father = 70088
+	trait = knight
+	trait = dueling_expert
+	trait = fortune_builder
+	trait = one_eyed
+	trait = scarred
+	trait = stutter
+	trait = lustful
+	trait = diligent
+	trait = ambitious
+	trait = gregarious
+	stewardship = 8
+    7275.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stone_dornish
+		}
+	}
+    7326.1.1 = { death = yes } 
+}
+
+
+### Vassals of the Bloodroyal ###
+
+### House Weybone ###
+
+70092 = {
+    name = "Line of Quentyn" 
+    dynasty = 522 # Weybone
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 1052
+	occluded = yes
+    6592.8.9 = { 
+		birth=yes
+	}
+    7250.1.1 = { death = yes } 
+}
+
+70093 = {
+    name = "Ulwyck" # Lord of Vulture's Roost 
+    dynasty = 522 # Weybone
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70092
+	
+    7250.1.1 = { 
+		birth=yes
+	}
+    7310.1.1 = { death = yes } 
+}
+
+70094 = {
+    name = "Ulrick" # Heir of Vulture's Roost 
+    dynasty = 522 # Weybone
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70093
+	trait = knight
+	trait = dueling_skilled
+    7274.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death = yes } 
+}
+
+70095 = {
+    name = "Ormund"
+    dynasty = 522 # Weybone
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70093
+	trait = knight
+	trait = dueling_adept
+    7275.1.1 = { 
+		birth=yes
+	}
+    7330.1.1 = { death = yes } 
+}
+
+70096 = {
+    name = "Wylis"
+    dynasty = 522 # Weybone
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70093
+	trait = knight
+	trait = dueling_novice
+    7277.1.1 = { 
+		birth=yes
+	}
+    7338.1.1 = { death = yes } 
+}
+
+70097 = {
+    name = "Wylla"
+    dynasty = 522 # Weybone
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70093
+    female = yes
+    7279.1.1 = { 
+		birth=yes
+	}
+    7322.1.1 = { death = yes } 
+}
+
+### House Wyl ###
+
+70098 = {
+    name = "Line of Pate"
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 1059
+    occluded = yes
+    6623.5.8 = { 
+		birth=yes
+	}
+    7230.1.1 = { death = yes } 
+}
+
+70099 = {
+    name = "Trebor" # Past Lord of the Boneway
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70098
+    
+    7230.1.1 = { 
+		birth=yes
+	}
+    7291.1.1 = { death = yes } 
+}
+
+70100 = {
+    name = "Olyvar" # Current Lord of the Boneway
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70099
+    trait = knight
+	trait = dueling_skilled
+    7256.1.1 = { 
+		birth=yes
+	}
+    7322.1.1 = { death = yes } 
+}
+
+70101 = {
+    name = "Marissa" # Sister of Lord Olyvar
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70098
+    female = yes
+    7254.1.1 = { 
+		birth=yes
+	}
+    7317.1.1 = { death = yes } 
+}
+
+70102 = {
+    name = "Jason" # Brother of Lord Olyvar
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70098
+    trait = knight
+	trait = dueling_adept
+    7259.1.1 = { 
+		birth=yes
+	}
+    7325.1.1 = { death = yes } 
+}
+
+70103 = {
+    name = "Ceryse" # Niece of Lord Olyvar
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70102
+    female = yes
+    7280.1.1 = { 
+		birth=yes
+	}
+    7337.1.1 = { death = yes } 
+}
+
+70104 = {
+    name = "Lucifer" # Current Heir of the Boneway
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70100
+    trait = knight
+	trait = dueling_novice
+    7280.1.1 = { 
+		birth=yes
+	}
+    7337.1.1 = { death = yes } 
+}
+
+70105 = {
+    name = "Jaime" # Son of Lord Olyvar
+    dynasty = 506 # Wyl
+
+    religion = the_seven
+    culture = stone_dornish
+	father = 70100
+    trait = knight
+	trait = dueling_master
+	trait = fair
+	trait = skilled_tactician
+	martial = 8
+    7283.1.1 = { 
+		birth=yes
+	}
+    7350.1.1 = { death = yes } 
+}
+
+### House Vaith ###
+
+70106 = {
+    name = "Line of Timeon" 
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 1065
+	occluded = yes
+    6605.3.23 = { 
+		birth=yes
+	}
+    7215.1.1 = { death = yes } 
+}
+
+70107 = {
+    name = "Gascoyne" # Past Lord of Vaith 
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70106
+
+    7215.1.1 = { 
+		birth=yes
+	}
+    7270.1.1 = { death = yes } 
+}
+
+70108 = {
+    name = "Harmen" # Past Lord of Vaith 
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70107
+
+    7235.1.1 = { 
+		birth=yes
+	}
+    7293.1.1 = { death = yes } 
+}
+
+70109 = {
+    name = "Gerold" 
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70107
+
+    7238.1.1 = { 
+		birth=yes
+	}
+    7297.1.1 = { death = yes } 
+}
+
+70110 = {
+    name = "Idera" # Sister of Lord Alester
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70108
+	female = yes
+    7255.1.1 = { 
+		birth=yes
+	}
+    7311.1.1 = { death = yes } 
+}
+
+70111 = {
+    name = "Alester" # Current Lord of Vaith
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70108
+	trait = knight
+	trait = dueling_adept
+    7259.1.1 = { 
+		birth=yes
+	}
+    7306.1.1 = { death = yes } 
+}
+
+70112 = {
+    name = "Dontos" # Brother of Lord Alester
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70108
+	trait = knight
+	trait = dueling_adept
+    7261.1.1 = { 
+		birth=yes
+	}
+    7326.1.1 = { death = yes } 
+}
+
+70113 = {
+    name = "Allessa" # Daughter of Lord Alester
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70111
+	female = yes
+    7279.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death = yes } 
+}
+
+70114 = {
+    name = "Myles" # Son of Lord Alester
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70111
+	trait = knight
+	trait = dueling_skilled
+    7281.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death = yes } 
+}
+
+70115 = {
+    name = "Morgan" # Son of Lord Alester
+    dynasty = 509 # Vaith
+
+    culture = andal_dornish
+	religion = the_seven
+	father = 70111
+	trait = knight
+	trait = dueling_adept
+    7282.1.1 = { 
+		birth=yes
+	}
+    7347.1.1 = { death = yes } 
+}
+
+
+##################################
+### The Kings of Stone and Sky ###
+##################################
+
+70116 = {
+    name = "Line of Ulrick" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish
+	religion = the_seven
+	father = 1038 # Ulrick Fowler
+	occluded = yes
+    6617.1.1 = { 
+		birth=yes
+	}
+    7200.1.1 = { death = yes } 
+}
+
+70117 = {
+    name = "Vardis" # Former King of Stone and Sky
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70116
+	
+    7200.1.1 = { 
+		birth=yes
+	}
+    7253.1.1 = { death = yes } 
+}
+
+70118 = {
+    name = "Uthor" # Former King of Stone and Sky
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70117
+	
+    7220.1.1 = { 
+		birth=yes
+	}
+    7279.1.1 = { death = yes } 
+}
+
+70119 = {
+    name = "Ronnel" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70117
+	trait = knight
+	trait = dueling_skilled
+    7224.1.1 = { 
+		birth=yes
+	}
+    7290.1.1 = { death = yes } 
+}
+
+70120 = {
+    name = "Alys" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70117
+	female = yes
+    7224.1.1 = { 
+		birth=yes
+	}
+    7290.1.1 = { death = yes } 
+}
+
+70121 = {
+    name = "Denys" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70119
+	trait = knight
+	trait = dueling_master
+    7250.1.1 = { 
+		birth=yes
+	}
+    7320.1.1 = { death = yes } 
+}
+
+70122 = {
+    name = "Zhoe" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70119
+	female = yes
+    7249.1.1 = { 
+		birth=yes
+	}
+    7317.1.1 = { death = yes } 
+}
+
+70123 = {
+    name = "Ryella" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70121
+	female = yes
+    7271.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death = yes } 
+}
+
+70124 = {
+    name = "Ravella" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70121
+	female = yes
+    7273.1.1 = { 
+		birth=yes
+	}
+    7341.1.1 = { death = yes } 
+}
+
+70125 = {
+    name = "Perra" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70118
+	female = yes
+    7244.1.1 = { 
+		birth=yes
+	}
+    7300.1.1 = { death = yes } 
+}
+
+70126 = {
+    name = "Mia" 
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70118
+	female = yes
+    7247.1.1 = { 
+		birth=yes
+	}
+    7308.1.1 = { death = yes } 
+}
+
+70127 = {
+    name = "Garrison" # King of Stone and Sky
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70118
+	trait = genius
+	trait = elusive_shadow
+	trait = deceitful
+	trait = blinded
+	trait = diligent
+	trait = patient
+	trait = ambitious
+	trait = humble
+	trait = cynical
+	trait = dueling_adept
+	trait = knight
+	intrigue = 8
+    7249.1.1 = { 
+		birth=yes
+	}
+    7313.1.1 = { death = yes } 
+}
+
+70128 = {
+    name = "Florian" # Heir of King Garrison
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70127
+	trait = quick
+	trait = dueling_expert
+	trait = knight
+	trait = skilled_tactician
+	trait = brave
+	trait = proud
+	trait = ambitious
+	trait = zealous
+	martial = 7
+    7274.1.1 = { 
+		birth=yes
+	}
+	7299.1.1 = { add_spouse = 70090 } # Alysanne Yronwood
+    7333.1.1 = { death = yes } 
+}
+
+70129 = {
+    name = "Jaime" # Son of King Garrison
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70127
+	trait = dueling_adept
+	trait = knight
+
+    7276.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death = yes } 
+}
+
+70130 = {
+    name = "Vardis" # Son of King Garrison
+    dynasty = 503 # Fowler
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70127
+
+    7280.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death = yes } 
+}
+
+### House Manwoody ###
+
+70131 = {
+    name = "Line of Myles" 
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 1042 # Myles Manwoody
+	occluded = yes
+    6628.7.22 = { 
+		birth=yes
+	}
+    7220.1.1 = { death = yes } 
+}
+
+70132 = {
+    name = "Gerold" # Former Lord of King's Grave
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70131
+
+    7220.1.1 = { 
+		birth=yes
+	}
+    7268.1.1 = { death = yes } 
+}
+
+70133 = {
+    name = "Leona" # Sister of Lord Albin
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70132
+	female = yes 
+    7238.1.1 = { 
+		birth=yes
+	}
+    7290.1.1 = { death = yes } 
+}
+
+70134 = {
+    name = "Albin" # The Mad Lord
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70132
+	trait = lunatic
+	trait = arbitrary
+	trait = cruel
+	trait = proud
+	trait = lustful
+	trait = gluttonous
+    7241.1.1 = { 
+		birth=yes
+	}
+    7312.1.1 = { death = yes } 
+}
+
+70135 = {
+    name = "Walace" # Son of Albin
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70134
+    trait = knight
+	trait = dueling_skilled
+	trait = lustful
+	trait = cynical
+	trait = twin
+    7264.1.1 = { 
+		birth=yes
+	}
+    7321.1.1 = { death = yes } 
+}
+
+70136 = {
+    name = "Morgarth" # Son of Albin
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70134
+    trait = knight
+	trait = dueling_novice
+	trait = chaste
+	trait = zealous
+	trait = twin
+    7264.1.1 = { 
+		birth=yes
+	}
+    7314.1.1 = { death = yes } 
+}
+
+70137 = {
+    name = "Robert" # Grandson of Albin
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70135
+
+    7290.1.1 = { 
+		birth=yes
+	}
+    7355.1.1 = { death = yes } 
+}
+
+70138 = {
+    name = "Ysilla" # Grandaughter of Albin
+    dynasty = 504 # Manwoody
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70135
+	female = yes
+    7292.1.1 = { 
+		birth=yes
+	}
+    7370.1.1 = { death = yes } 
+}
+
+########################################
+#### The Vulture Kings of Blackmont ####
+########################################
+
+70139 = {
+    name = "Line of Perros" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 1004
+	occluded = yes 
+    6621.1.1 = { 
+		birth=yes
+	}
+    7200.1.1 = { death = yes } 
+}
+
+70140 = {
+    name = "Alaric" # Former King of Blackmont
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70139
+	trait = knight
+	trait = dueling_skilled
+    7200.1.1 = { 
+		birth=yes
+	}
+    7249.1.1 = { death = yes } 
+}
+
+70141 = {
+    name = "Alerie" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70140
+	female = yes
+    7223.1.1 = { 
+		birth=yes
+	}
+    7288.1.1 = { death = yes } 
+}
+
+70142 = {
+    name = "Jason" # Former King of Blackmont
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70140
+	trait = knight
+	trait = dueling_skilled
+    7226.1.1 = { 
+		birth=yes
+	}
+    7273.1.1 = { death = yes } 
+}
+
+70143 = {
+    name = "Joffrey" # Extension of House Blackmont
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70140
+	trait = knight
+	trait = dueling_skilled
+    7230.1.1 = { 
+		birth=yes
+	}
+    7283.1.1 = { death = yes } 
+}
+
+70144 = {
+    name = "Benedict" # The Carrion King 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = vulture_god
+	father = 70142
+	trait = knight
+	trait = dueling_master
+	trait = strong
+	trait = heartless
+	trait = mystic
+	trait = fortune_builder
+	trait = celibate
+	trait = ambitious
+	trait = greedy
+	trait = holy_warrior
+	trait = aggressive_leader
+	martial = 9
+	stewardship = 8
+    7263.1.1 = { 
+		birth=yes
+	}
+    7322.1.1 = { death = yes } 
+}
+
+70145 = {
+    name = "Daemon" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70143
+	trait = knight
+	trait = dueling_novice
+    7251.1.1 = { 
+		birth=yes
+	}
+    7312.1.1 = { death = yes } 
+}
+
+70146 = {
+    name = "Joanna" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70143
+	female = yes
+    7254.1.1 = { 
+		birth=yes
+	}
+    7310.1.1 = { death = yes } 
+}
+
+70147 = {
+    name = "Willam" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70143
+	trait = septon
+	trait = lustful
+	trait = hedonist
+    7251.1.1 = { 
+		birth=yes
+	}
+    7312.1.1 = { death = yes } 
+}
+
+70148 = {
+    name = "Davos" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70145
+	trait = knight
+	trait = dueling_expert
+	trait = zealous
+	trait = charitable
+	trait = patient
+	trait = diligent
+	trait = tough_soldier
+	martial = 7
+    7277.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death = yes } 
+}
+
+70149 = {
+    name = "Ulrick" 
+    dynasty = 501 # Blackmont
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70145
+	trait = knight
+	trait = dueling_adept
+
+    7281.1.1 = { 
+		birth=yes
+	}
+    7333.1.1 = { death = yes } 
+}
+
+
+###########################
+#### The Kings of Dawn ####
+###########################
+
+70150 = {
+    name = "Line of Samwell" 
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 6183
+	occluded = yes
+    6626.1.1 = { 
+		birth=yes
+	}
+    7150.1.1 = { death = yes } 
+}
+
+70151 = {
+    name = "Damon" # Former King of Dawn
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70150
+	trait = knight
+	trait = dueling_skilled
+    7150.1.1 = { 
+		birth=yes
+	}
+    7207.1.1 = { death = yes } 
+}
+
+70152 = {
+    name = "Garrison" # Former King of Dawn
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70151
+	trait = knight
+	trait = dueling_master
+    7181.1.1 = { 
+		birth=yes
+	}
+    7244.1.1 = { death = yes } 
+}
+
+70153 = {
+    name = "Lorea" 
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70151
+	female = yes
+    7183.1.1 = { 
+		birth=yes
+	}
+    7255.1.1 = { death = yes } 
+}
+
+70154 = {
+    name = "Arthur" # Former King of Dawn
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70152
+	trait = knight
+	trait = dueling_adept
+    7207.1.1 = { 
+		birth=yes
+	}
+    7266.1.1 = { death = yes } 
+}
+
+70155 = {
+    name = "Samwell" # Former King of Dawn
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70154
+	trait = knight
+	trait = dueling_legend
+    7230.1.1 = { 
+		birth=yes
+	}
+    7288.1.1 = { death = yes } 
+}
+
+70156 = {
+    name = "Alester" 
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70154
+	trait = knight
+	trait = dueling_skilled
+    7235.1.1 = { 
+		birth=yes
+	}
+    7297.1.1 = { death = yes } 
+}
+
+70157 = {
+    name = "Davos" 
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70156
+	trait = skilled_tactician
+	trait = quick
+	trait = knight
+	trait = dueling_master
+	trait = kind
+	trait = patient
+	trait = diligent
+	trait = charitable
+    7273.1.1 = { 
+		birth=yes
+	}
+    7330.1.1 = { death = yes } 
+}
+
+70158 = {
+    name = "Ashara" # Sister of the King
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70155
+	trait = fair
+	female = yes
+    7259.1.1 = { 
+		birth=yes
+	}
+    7304.1.1 = { death = yes } 
+}
+
+70159 = {
+    name = "Vorian" # The Sword of the Evening
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70155
+	trait = fair
+	trait = quick
+	trait = knight
+	trait = dueling_legend
+	trait = skilled_tactician 
+	trait = zealous
+	trait = diligent
+	trait = kind
+	trait = charitable
+	trait = patient
+	trait = chaste
+	trait = temperate
+	martial = 10
+    7262.1.1 = { 
+		birth=yes
+	}
+	7293.1.1 = { give_nickname = nick_the_sword_of_the_evening }
+    7322.1.1 = { death = yes } 
+}
+
+70160 = {
+    name = "Cerenna" # Sister of the King
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70155
+	trait = fair
+	female = yes
+    7269.1.1 = { 
+		birth=yes
+	}
+    7322.1.1 = { death = yes } 
+}
+
+70161 = {
+    name = "Cersei" # Sister of the King
+    dynasty = 500 # Dayne
+	health = 10
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70155
+	trait = fair
+	female = yes
+    7271.1.1 = { 
+		birth=yes
+	}
+    7340.1.1 = { death = yes } 
+}
+
+70162 = {
+    name = "Arthur" # Heir of Dawn
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70159
+	trait = fair
+	trait = quick
+
+    7290.1.1 = { 
+		birth=yes
+	}
+    7349.1.1 = { death = yes } 
+}
+
+70163 = {
+    name = "Barristan" 
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70159
+
+	trait = quick
+
+    7292.1.1 = { 
+		birth=yes
+	}
+    7361.1.1 = { death = yes } 
+}
+
+70164 = {
+    name = "Sharra"
+    dynasty = 500 # Dayne
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70159
+
+	trait = fair
+	female = yes
+    7295.1.1 = { 
+		birth=yes
+	}
+    7350.1.1 = { death = yes } 
+}
+
+############################
+#### Kings of Brimstone ####
+############################
+
+
+70165 = {
+    name = "Line of Alleras"
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 1124
+
+	occluded = yes
+	
+    6638.9.25 = { 
+		birth=yes
+	}
+    7190.1.1 = { death = yes } 
+}
+
+70166 = {
+    name = "Harmen" ##### King of Brimstone
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70165
+
+	
+    7190.1.1 = { 
+		birth=yes
+	}
+    7244.1.1 = { death = yes } 
+}
+
+70167 = {
+    name = "Dorea" 
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70166
+	female = yes
+	
+    7210.1.1 = { 
+		birth=yes
+	}
+    7267.1.1 = { death = yes } 
+}
+
+70168 = {
+    name = "Alys" 
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70166
+	female = yes
+	trait = silent_sister
+    7212.1.1 = { 
+		birth=yes
+	}
+    7270.1.1 = { death = yes } 
+}
+
+70169 = {
+    name = "Tregono" ##### King of Brimstone
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70166
+	trait = knight
+    7217.1.1 = { 
+		birth=yes
+	}
+    7261.1.1 = { death = yes } 
+}
+
+70170 = {
+    name = "Yorick" 
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70166
+	trait = septon
+    7219.1.1 = { 
+		birth=yes
+	}
+    7255.1.1 = { death = yes } 
+}
+
+70171 = {
+    name = "Davos" ##### King of Brimstone
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70170
+	trait = knight
+    7240.1.1 = { 
+		birth=yes
+	}
+    7293.1.1 = { death = yes } 
+}
+
+70172 = {
+    name = "Yandry" 
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70170
+	trait = knight
+	trait = dueling_adept
+    7244.1.1 = { 
+		birth=yes
+	}
+    7306.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70173 = {
+    name = "Harmen" 
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70172
+	trait = knight
+	trait = dueling_skilled
+    7270.1.1 = { 
+		birth=yes
+	}
+    7306.1.1 = { death = { death_reason = death_battle } } 
+}
+
+70174 = {
+    name = "Lylla"
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70171
+	female = yes
+    7266.1.1 = { 
+		birth=yes
+	}
+    7318.1.1 = { death = yes } 
+}
+
+70175 = {
+    name = "Lucifer" ##### The Final King of Brimstone
+    dynasty = 521 # Dryland
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70171
+	trait = knight
+	trait = dueling_expert
+	trait = charismatic_negotiator
+	trait = diligent
+	trait = patient
+	trait = lustful
+	trait = honest
+	trait = proud
+	trait = content
+	diplomacy = 7
+	martial = 7 
+    7266.1.1 = { 
+		birth=yes
+	}
+    7330.1.1 = { death = yes } 
+}
+
+#### House Qorgyle of Sandstone ####
+
+70176 = {
+    name = "Line of Jerod" 
+    dynasty = 508 # Qorgyle
+	occluded = yes
+    culture = stone_dornish 
+	religion = the_seven
+	father = 1032
+
+    6610.4.13 = { birth=yes}
+    7200.1.1 = { death = yes } 
+}
+
+70177 = {
+    name = "Gulian" ### Lord of Sandstone
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70176
+	trait = knight
+	trait = dueling_adept
+
+    7200.1.1 = { birth=yes}
+    7255.1.1 = { death = yes } 
+}
+
+70178 = {
+    name = "Melisandre" 
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70177
+
+	female = yes
+    7223.1.1 = { birth=yes}
+    7280.1.1 = { death = yes } 
+}
+
+70179 = {
+    name = "Ursula" 
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70177
+
+	female = yes
+    7224.1.1 = { birth=yes}
+    7277.1.1 = { death = yes } 
+}
+
+70180 = {
+    name = "Quentyn" ### Lord of Sandstone
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70177
+	trait = knight
+	trait = dueling_skilled
+	
+    7226.1.1 = { birth=yes}
+    7281.1.1 = { death = yes } 
+}
+
+70181 = {
+    name = "Quenton" ### Lord of Sandstone
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70180
+	trait = knight
+	trait = dueling_adept
+	
+    7250.1.1 = { birth=yes}
+    7307.1.1 = { death = yes } 
+}
+
+70182 = {
+    name = "Qoren" 
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70180
+	trait = septon
+	trait = lustful
+	trait = greedy
+	trait = gluttonous
+	trait = proud
+	
+    7252.1.1 = { birth=yes}
+    7301.1.1 = { death = yes } 
+}
+
+70183 = {
+    name = "Edric" ### Bastard of Qoren
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70182
+	trait = bastard
+	trait = dueling_novice
+	trait = septon
+	trait = chaste
+	trait = humble
+	trait = zealous
+	trait = martial_cleric
+	trait = diligent
+	learning = 7
+    7278.1.1 = { birth=yes}
+    7333.1.1 = { death = yes } 
+}
+
+70184 = {
+    name = "Gulian" ### Bastard of Qoren
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70182
+	trait = bastard
+	trait = strong
+	trait = dueling_expert
+	trait = knight
+    7279.1.1 = { birth=yes}
+    7340.1.1 = { death = yes } 
+}
+
+70185 = {
+    name = "Tyene" ### Bastard of Qoren
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	dna = "blagjdhabcvgrxxknnyoz"
+	father = 70182
+	trait = bastard
+	trait = dueling_master
+	trait = fair
+	trait = lustful
+	trait = proud
+	trait = cynical
+	trait = hedonist
+	trait = skilled_tactician 
+	trait = twin
+	martial = 8
+	female = yes
+    7280.1.1 = { birth=yes}
+    7335.1.1 = { death = yes } 
+}
+
+70186 = {
+    name = "Obara" ### Bastard of Qoren
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	dna = "blagjdhabcvgrxxknnyoz"
+	father = 70182
+	trait = bastard
+	trait = dueling_expert
+	trait = tall
+	trait = patient
+	trait = diligent
+	trait = cynical
+	trait = lustful
+	trait = ambitious
+	trait = tough_soldier
+	trait = twin
+	martial = 8
+	female = yes
+    7280.1.1 = { birth=yes}
+    7347.1.1 = { death = yes } 
+}
+
+70187 = {
+    name = "Alayne" ### Daughter of Lord Quenton
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70181
+	
+	female = yes
+    7275.1.1 = { birth=yes}
+    7340.1.1 = { death = yes } 
+}
+
+70188 = {
+    name = "Ulwyck" ### Son and Heir of Lord Quenton
+    dynasty = 508 # Qorgyle
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70181
+	trait = strong
+	trait = content
+	trait = humble
+	trait = patient
+	trait = just
+	trait = knight
+	trait = dueling_skilled
+	trait = skilled_tactician
+	martial = 6
+	
+    7277.1.1 = { birth=yes}
+    7330.1.1 = { death = yes } 
+}
+
+#### House Uller of Hellholt / Fiend Keep ####
+
+70189 = {
+    name = "Line of Armond" 
+    dynasty = 507 # Uller
+	occluded = yes
+    culture = stone_dornish 
+	religion = the_seven
+	father = 1009
+	
+    6613.8.10 = { birth=yes}
+    7230.1.1 = { death = yes } 
+}
+
+70190 = {
+    name = "Ull" ### Lord of Fiend Keep
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70189
+	trait = dueling_legend
+	trait = knight
+	
+    7230.1.1 = { birth=yes}
+    7288.1.1 = { death = yes } 
+}
+
+70191 = {
+    name = "Will" ### Lord of Fiend Keep
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70190
+	trait = dueling_master
+	trait = knight
+	
+    7255.1.1 = { birth=yes}
+    7306.1.1 = { death = yes } 
+}
+
+70192 = {
+    name = "Jarmen" 
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70190
+	trait = dueling_novice
+	
+    7258.1.1 = { birth=yes}
+    7314.1.1 = { death = yes } 
+}
+
+70193 = {
+    name = "Benedict" 
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70190
+	trait = dueling_skilled
+	trait = knight
+	
+    7260.1.1 = { birth=yes}
+    7333.1.1 = { death = yes } 
+}
+
+70194 = {
+    name = "Argella" 
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70193
+	female = yes
+	
+    7280.1.1 = { birth=yes}
+    7329.1.1 = { death = yes } 
+}
+
+70195 = {
+    name = "Arianne" 
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70193
+	female = yes
+	
+    7283.1.1 = { birth=yes}
+    7344.1.1 = { death = yes } 
+}
+
+70196 = {
+    name = "Ulwyk" ### Son and Heir of Lord Will
+    dynasty = 507 # Uller
+
+    culture = stone_dornish 
+	religion = the_seven
+	father = 70191
+	trait = dueling_legend
+	trait = ambitious
+	trait = wroth
+	trait = brave
+	trait = brilliant_strategist
+	trait = knight
+	trait = strong
+	health = 7
+	fertility = 2
+	
+    7276.1.1 = { birth=yes}
+    7350.1.1 = { death = yes } 
+}
+
+#### House Brimstone of Mothertower ####
+
+70197 = {
+    name = "Line of Timeon" 
+    dynasty = 580 # Brimstone
+	occluded = yes
+    culture = andal_dornish 
+	religion = the_seven
+	father = 1047
+	
+    6611.9.20 = { birth=yes}
+    7240.1.1 = { death = yes } 
+}
+
+70198 = {
+    name = "Nymor" ### Lord of Mothertower 
+    dynasty = 580 # Brimstone
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70197
+	
+    7240.1.1 = { birth=yes}
+    7298.1.1 = { death = yes } 
+}
+
+70199 = {
+    name = "Marya" 
+    dynasty = 580 # Brimstone
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70198
+	
+	female = yes
+    7262.1.1 = { birth=yes}
+    7320.1.1 = { death = yes } 
+}
+
+70200 = {
+    name = "Irya" 
+    dynasty = 580 # Brimstone
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70198
+	
+	female = yes
+    7264.1.1 = { birth=yes}
+    7317.1.1 = { death = yes } 
+}
+
+70201 = {
+    name = "Beldecar" ### Lord of Mothertower
+    dynasty = 580 # Brimstone
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70198
+	trait = knight
+	trait = dueling_adept
+    7267.1.1 = { birth=yes}
+    7333.1.1 = { death = yes } 
+}
+
+70202 = {
+    name = "Ryon" ### Son and Heir of Lord Beldecar
+    dynasty = 580 # Brimstone
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70201
+
+    7290.1.1 = { birth=yes}
+    7349.1.1 = { death = yes } 
+}
+
+70203 = {
+    name = "Tinessa" 
+    dynasty = 580 # Brimstone
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70201
+
+	female = yes
+    7292.1.1 = { birth=yes}
+    7360.1.1 = { death = yes } 
+}
+
+#### House Gargalen of Salt Shore ####
+
+70204 = {
+    name = "Line of Gerold" 
+    dynasty = 581 # Gargalen
+	occluded = yes
+    culture = andal_dornish 
+	religion = the_seven
+	father = 1109
+
+    6624.1.9 = { birth=yes}
+    7200.1.1 = { death = yes } 
+}
+
+70205 = {
+    name = "Benedict" ### Lord of Salt Shore
+    dynasty = 581 # Gargalen
+	
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70204
+
+    7200.1.1 = { birth=yes}
+    7278.1.1 = { death = yes } 
+}
+
+70206 = {
+    name = "Garin" ### Lord of Salt Shore
+    dynasty = 581 # Gargalen
+
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70205
+	trait = knight
+	trait = dueling_skilled
+    7260.1.1 = { birth=yes}
+    7317.1.1 = { death = yes } 
+}
+
+70207 = {
+    name = "Jade" 
+    dynasty = 581 # Gargalen
+	dna = "cgmgibhifbauotqijplth"
+	properties = "vi0eid"
+    culture = andal_dornish 
+	religion = the_seven
+	female = yes
+	father = 70205
+	trait = fair
+	trait = twin
+	trait = dueling_skilled
+	trait = lustful
+	trait = just
+	trait = ambitious
+	trait = cynical
+	trait = skilled_tactician
+    7268.1.1 = { birth=yes}
+    7320.1.1 = { death = yes } 
+}
+
+70208 = {
+    name = "Tristan" 
+    dynasty = 581 # Gargalen
+	dna = "cgmgibhifbauotqijplth"
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70205
+	trait = knight
+	trait = twin
+	trait = dueling_adept
+    7268.1.1 = { birth=yes}
+    7317.1.1 = { death = yes } 
+}
+
+70209 = {
+    name = "Vargas" ### Son and heir of Lord Garin
+    dynasty = 581 # Gargalen
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70206
+	trait = squire
+	trait = dueling_adept
+    7288.1.1 = { birth=yes}
+    7344.1.1 = { death = yes } 
+}
+
+70210 = {
+    name = "Sonya" ### Daughter of Lord Garin
+    dynasty = 581 # Gargalen
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70206
+	female = yes
+    7290.1.1 = { birth=yes}
+    7360.1.1 = { death = yes } 
+}
+
+70211 = {
+    name = "Lucia" ### Daughter of Lord Garin
+    dynasty = 581 # Gargalen
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70206
+	female = yes
+    7292.1.1 = { birth=yes}
+    7355.1.1 = { death = yes } 
+}
+
+#### House Sandburrow of the Barrowlands (Dorne) ####
+
+70212 = {
+    name = "Line of Anders"
+	occluded = yes
+    dynasty = 530 # Sandburrow
+    culture = andal_dornish 
+	religion = the_seven
+	father = 1105
+
+    6617.8.20 = { birth=yes}
+    7220.1.1 = { death = yes } 
+}
+
+70213 = {
+    name = "Symond" ### Lord of the Barrowlands
+
+    dynasty = 530 # Sandburrow
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70212
+
+    7220.1.1 = { birth=yes}
+    7282.1.1 = { death = yes } 
+}
+
+70214 = {
+    name = "Idana" 
+
+    dynasty = 530 # Sandburrow
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70213
+	female = yes
+    7244.1.1 = { birth=yes}
+    7307.1.1 = { death = yes } 
+}
+
+70215 = {
+    name = "Manfrey" ### Lord of the Barrowlands
+
+    dynasty = 530 # Sandburrow
+    culture = andal_dornish 
+	religion = the_seven
+	father = 70213
+	trait = knight
+	trait = dueling_expert
+	trait = strong
+	health = 15
+    7247.1.1 = { birth=yes}
+    7333.1.1 = { death = yes } 
+}
+

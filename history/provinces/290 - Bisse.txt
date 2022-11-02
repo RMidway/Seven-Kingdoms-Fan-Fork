@@ -1,0 +1,21 @@
+# c_bisse
+
+# County Title
+title = c_bisse
+
+# Settlements
+max_settlements = 2
+
+b_bisse = castle
+#b_bisse_2 = city
+#b_bisse_3 = temple
+#b_bisse_4 = castle
+#b_bisse_5 = city
+#b_bisse_6 = temple
+#b_bisse_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = farmlands
+#History

@@ -1,0 +1,16 @@
+# c_northtown
+
+# County Title
+title = c_northtown
+
+# Settlements
+max_settlements = 2
+
+b_northtown = tribal
+#b_northtown_2 = city
+
+# Misc
+culture = hill_clansmen
+religion = old_gods
+terrain = hills
+#History

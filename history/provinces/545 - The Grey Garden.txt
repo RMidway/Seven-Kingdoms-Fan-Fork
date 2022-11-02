@@ -1,0 +1,22 @@
+# c_the_grey_garden
+
+# County Title
+title = c_the_grey_garden
+
+# Settlements
+max_settlements = 4
+
+b_the_grey_garden = castle
+b_stonepool = castle
+b_playe = city
+#b_the_grey_garden_2 = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

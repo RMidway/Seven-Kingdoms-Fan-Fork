@@ -1,0 +1,22 @@
+# c_craketown
+
+# County Title
+title = c_craketown
+
+# Settlements
+max_settlements = 4
+
+b_craketown = castle
+#b_hythe_2 = city
+#b_barborough = temple
+#b_craketown_2 = castle
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven  
+	culture = cornlander
+}

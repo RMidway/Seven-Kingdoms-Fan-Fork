@@ -1,0 +1,22 @@
+# c_brashers_hook
+
+# County Title
+title = c_brashers_hook
+
+# Settlements
+max_settlements = 4
+
+b_brashers_hook = castle
+#b_kisdoboka = city
+#b_salamina = temple
+#b_brashers_hook_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

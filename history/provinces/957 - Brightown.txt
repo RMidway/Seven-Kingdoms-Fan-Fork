@@ -1,0 +1,22 @@
+# c_brightown
+
+# County Title
+title = c_brightown
+
+# Settlements
+max_settlements = 4
+
+b_brightown = castle
+b_towcester = city
+#b_cennen = temple
+#b_brightown_2 = castle
+
+# Misc
+culture = copperlander
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+	culture = goldmen
+    religion = the_seven
+}

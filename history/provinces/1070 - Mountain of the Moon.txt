@@ -1,0 +1,40 @@
+# c_mountain_of_the_moon
+
+# County Title
+title = c_mountain_of_the_moon
+
+# Settlements
+max_settlements = 5
+
+b_mountain_of_the_moon = castle
+#b_stone = city
+#b_sky = temple
+#b_snow = castle
+#b_the_moon_tower = city
+
+# Misc
+culture = gatesmen
+religion = old_gods
+terrain = mountain
+#History
+6000.1.1 = { 
+	
+	
+}
+6471.1.1 = {
+	build_wonder = wonder_eyrie
+	set_wonder_stage = 1
+}
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven 
+	set_wonder_stage = 2
+}
+6750.1.1 = { 
+    b_stone = castle
+    b_sky = castle
+    b_snow = city
+    b_the_moon_tower = temple
+}
+
+

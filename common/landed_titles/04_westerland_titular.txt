@@ -1,0 +1,42 @@
+k_the_reynelands = {
+    color={ 90 50 50 }
+    color2={ 255 255 255 }
+    capital = 889
+    allow = {
+		num_of_duke_titles = 2
+		primary_title = { 
+		    title = d_castamere
+		}
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				 
+			}
+		}
+		# NOT = { has_dlc = "Charlemagne" }
+	}
+}
+k_hornvale = {
+    color={ 80 35 80 }
+    color2={ 255 255 255 }
+    allow = {
+		num_of_duke_titles = 2
+		primary_title = { 
+		    title = d_hornvale
+		}
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				 
+			}
+		}
+		# NOT = { has_dlc = "Charlemagne" }
+	}
+}
+
+d_lannisport = {
+	color = { 232 76 76 }
+	color2 = { 255 255 255 }
+}

@@ -1,0 +1,21 @@
+# c_caudete
+
+# County Title
+title = c_caudete
+
+# Settlements
+max_settlements = 4
+
+b_lysene_forest = city
+b_caudete_2 = city
+#b_caudete_3 = temple
+#b_caudete_4 = castle
+#b_caudete_5 = city
+#b_caudete_6 = temple
+#b_caudete_7 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

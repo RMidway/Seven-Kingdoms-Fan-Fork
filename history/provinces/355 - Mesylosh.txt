@@ -1,0 +1,21 @@
+# c_mesylosh
+
+# County Title
+title = c_mesylosh
+
+# Settlements
+max_settlements = 4
+
+b_mesylosh = city
+b_mesylos = temple
+#b_mesylosh_2 = temple
+#b_mesylosh_3 = castle
+#b_mesylosh_4 = city
+#b_mesylosh_5 = temple
+#b_mesylosh_6 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

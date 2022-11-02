@@ -1,0 +1,20 @@
+# c_maidens_rest
+
+# County Title
+title = c_maidens_rest
+
+# Settlements
+max_settlements = 2
+
+b_maidens_rest = castle
+#b_goodsleep = city
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6554.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

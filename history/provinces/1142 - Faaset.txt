@@ -1,0 +1,21 @@
+# c_faaset
+
+# County Title
+title = c_faaset
+
+# Settlements
+max_settlements = 4
+
+b_faaset = castle
+#b_kvolsvik = city
+#b_homkoll = temple
+#b_faaset_2 = castle
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = mountain_clansmen
+}

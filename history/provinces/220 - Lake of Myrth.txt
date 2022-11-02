@@ -1,0 +1,21 @@
+# c_lake_of_myrth
+
+# County Title
+title = c_lake_of_myrth
+
+# Settlements
+max_settlements = 4
+
+b_lake_of_myrth = city
+b_lake_of_myrth_2 = city
+b_maidens_lake = temple
+#b_lake_of_myrth_3 = castle
+#b_lake_of_myrth_4 = city
+#b_lake_of_myrth_5 = temple
+#b_lake_of_myrth_6 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

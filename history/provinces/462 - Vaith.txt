@@ -1,0 +1,26 @@
+# c_vaith
+
+# County Title
+title = c_vaith
+
+# Settlements
+max_settlements = 5
+
+b_vaith = castle
+b_vaith_2 = city
+#b_vaith_3 = temple
+#b_vaith_4 = castle
+#b_vaith_5 = city
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7400.1.1 = {
+	culture = sand_dornish
+}

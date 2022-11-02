@@ -1,0 +1,21 @@
+# c_grandview
+
+# County Title
+title = c_grandview
+
+# Settlements
+max_settlements = 3
+
+b_grandview = castle
+b_mogendorf = city
+#b_wulfstorfs = temple
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = mountain
+#History
+6300.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

@@ -1,0 +1,21 @@
+# c_helston
+
+# County Title
+title = c_helston
+
+# Settlements
+max_settlements = 3
+
+b_helston = castle
+b_offelken = city
+#b_kalheide = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

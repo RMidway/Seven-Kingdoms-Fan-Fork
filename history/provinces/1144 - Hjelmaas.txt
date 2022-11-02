@@ -1,0 +1,20 @@
+# c_hjelmaas
+
+# County Title
+title = c_hjelmaas
+
+# Settlements
+max_settlements = 3
+
+b_hjelmaas = castle
+#b_sletta = city
+#b_hjelmaas_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = mountain_clansmen
+}

@@ -1,0 +1,24 @@
+# c_whitmoor
+
+# County Title
+title = c_whitmoor
+
+# Settlements
+max_settlements = 4
+
+b_whitmoor = castle
+#b_whittanya = city
+#b_egerszeg = temple
+#b_whitmoor_2 = castle
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+	religion = the_seven
+}
+6800.1.1 = {
+	culture = blackwatermen
+}

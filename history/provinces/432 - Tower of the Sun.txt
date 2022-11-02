@@ -1,0 +1,28 @@
+# c_tower_of_the_sun
+
+# County Title
+title = c_tower_of_the_sun
+
+# Settlements
+max_settlements = 5
+
+b_tower_of_the_sun = castle
+b_lighbloom = city
+b_tower_of_the_sun_2 = temple
+#b_tower_of_the_sun_3 = castle
+#b_tower_of_the_sun_4 = city
+#b_tower_of_the_sun_5 = temple
+#b_tower_of_the_sun_6 = castle
+
+# Misc
+culture = spearmen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7298.1.1 = {
+	culture = salt_dornish
+}

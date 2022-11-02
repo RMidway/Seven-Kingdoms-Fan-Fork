@@ -1,0 +1,23 @@
+# c_fairmarket
+
+# County Title
+title = c_fairmarket
+
+# Settlements
+max_settlements = 4
+
+b_fairmarket = castle
+#b_bouverans = city
+#b_vernouillet = temple
+#b_fairmarket_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}
+

@@ -1,0 +1,681 @@
+is_seven_knightly_member_trigger = {
+  society_member_of = knighthood_the_seven
+}
+
+is_knightly_member_trigger = {
+  is_seven_knightly_member_trigger = yes
+}
+
+is_following_spreadable_religion_trigger = {
+  OR = {
+    religion = the_seven
+    religion = rhllor
+  }
+}
+
+# Governs religions that are resistant to  conversion. Makes fewer missionaries come to you.
+is_resistant_religion_trigger = {
+	OR = {
+		#religion = valyrian
+		#religion = drowned_god
+		#religion = moonsingers
+		#trait = zealous
+		#culture = northmen
+		#culture = barrowmen
+		#culture = flint_clansmen
+		#culture = crannogmen
+		#culture = hill_clansmen
+		#culture = crackclawmen
+		#culture = mountain_clansmen
+		#culture = sistermen
+		#culture = craggon
+		#culture = fairmen
+		#culture = skagosi
+		is_following_spreadable_religion_trigger = yes
+		location = {
+			OR = {
+				region = world_the_north_beyond
+				region = world_the_iron_islands
+			}
+		}
+	}
+}
+
+#These cultures do not care about wrong religion and will let missionaries in, but they will spread slower
+is_tolerant_religion_trigger = {
+	OR = {
+		culture = high_valyrian
+		culture = braavosi
+		culture = lorathi
+		#religion = old_gods #idk about this one due to spreading slower
+	}
+	is_resistant_religion_trigger = no
+}
+
+
+educator_is_combat_trained = {
+  educator = {
+    OR = {
+      trait = dueling_novice
+      trait = dueling_adept
+      trait = dueling_skilled
+      trait = dueling_expert
+      trait = dueling_master
+      trait = dueling_legend
+    }
+  }
+}
+
+educator_is_not_combat_trained = {
+  educator = {
+    NOR = {
+      trait = dueling_novice
+      trait = dueling_adept
+      trait = dueling_skilled
+      trait = dueling_expert
+      trait = dueling_master
+      trait = dueling_legend
+    }
+  }
+}
+
+# The following scripted triggers are used to determine if the educator is at the same level as their ward.
+# If the educator is untrained, then the educator_is_not_combat_trained = yes can be used.
+# However, educator_is_combat_trained = yes can be used to determine if the event is allowed to pass in the first place.
+
+is_educator_and_ward_novice = {
+  educator = {
+    trait = dueling_novice
+  }
+  is_combat_untrained = yes
+}
+
+is_educator_and_ward_adept = {
+  educator = {
+    trait = dueling_adept
+  }
+  trait = dueling_adept
+}
+
+is_educator_and_ward_skilled = {
+  educator = {
+    trait = dueling_skilled
+  }
+  trait = dueling_skilled
+}
+
+is_educator_and_ward_expert = {
+  educator = {
+    trait = dueling_expert
+  }
+  trait = dueling_expert
+}
+
+is_educator_and_ward_master = {
+  educator = {
+    trait = dueling_master
+  }
+  trait = dueling_master
+}
+
+is_educator_and_ward_legend = {
+  educator = {
+    trait = dueling_legend
+  }
+  trait = dueling_legend
+}
+
+#
+
+# Cultures that produce very good or even legendary fighters on a regular basis
+is_culture_swordsmanship_specialised = {
+  OR = {
+    culture = braavosi
+    culture = flint_clansmen
+    culture = hill_clansmen
+    culture = clansmen
+    culture = dusklander
+    culture = mountain_clansmen
+	culture = scourgemen
+	culture = spearmen
+	culture = tormen
+	culture = stonemen
+	culture = bonemen
+	culture = torrentine
+	culture_group = dothraki_group
+    culture_group = dornish
+    culture_group = free_folk
+    culture_group = iron_islander
+  }
+}
+
+# Cultures that favour swordsmanship, and generally produce good fighters
+is_culture_swordsmanship_favoured = {
+  OR = {
+    culture = valemen
+    culture = stormlander
+    culture = evenstar
+    culture = northmen
+    culture = westerlander
+    culture = crannogmen
+    culture = crackclawmen
+    culture = sistermen
+    culture = craggon
+    culture = muddish
+  }
+}
+
+#
+
+ward_is_female_allowed = {
+  is_female = yes
+  OR = {
+    is_combat_trained = yes # Has some pre-existing combat training, or a pre-disposition for combat training.
+    
+    # The Dornish have no qualms with training different genders.
+    # Those of the free cities, such as the Braavosi, care only about coin.
+    # Followers of the Mother or Boashi will happily teach a daughter.
+    educator = {
+		OR = {
+			gender_equality_trigger = yes
+			culture_group = essos_group
+			religion = faceless_men
+		}
+    }
+  }
+}
+
+# These traits are for the Ward, or characters who have x or lower skill.
+# TODO: Else-if a lot of these functions within the combat training events
+
+is_combat_trained = {
+  OR = {
+    trait = dueling_novice
+    trait = dueling_adept
+    trait = dueling_skilled
+    trait = dueling_expert
+    trait = dueling_master
+    trait = dueling_legend
+  }
+}
+
+is_combat_untrained = {
+  NOR = {
+    trait = dueling_novice
+    trait = dueling_adept
+    trait = dueling_skilled
+    trait = dueling_expert
+    trait = dueling_master
+    trait = dueling_legend
+  }
+}
+
+is_combat_novice = {
+  trait = dueling_novice
+}
+
+is_combat_adept_or_lower = {
+  OR = {
+    trait = dueling_novice
+    trait = dueling_adept
+  }
+  NOR = {
+    trait = dueling_skilled
+    trait = dueling_expert
+    trait = dueling_master
+    trait = dueling_legend
+  }
+}
+
+is_combat_skilled_or_lower = {
+  OR = {
+    trait = dueling_novice
+    trait = dueling_adept
+    trait = dueling_skilled
+  }
+  NOR = {
+    trait = dueling_expert
+    trait = dueling_master
+    trait = dueling_legend
+  }
+}
+
+is_combat_expert_or_lower = {
+  OR = {
+    trait = dueling_novice
+    trait = dueling_adept
+    trait = dueling_skilled
+    trait = dueling_expert
+  }
+    
+  NOR = {
+    trait = dueling_master
+    trait = dueling_legend
+  }
+}
+
+is_combat_master_or_lower = {
+  OR = {
+    trait = dueling_novice
+    trait = dueling_adept
+    trait = dueling_skilled
+    trait = dueling_expert
+    trait = dueling_master
+  }
+  NOT = {
+    trait = dueling_legend
+  }
+}
+
+is_combat_legend_or_lower = {
+  OR = {
+    trait = dueling_novice
+    trait = dueling_adept
+    trait = dueling_skilled
+    trait = dueling_expert
+    trait = dueling_master
+    trait = dueling_legend
+  }
+}
+
+##
+
+is_victorious_opponent_dead = {
+  NOR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    has_character_flag = tsk_duel_death
+    OR = {
+      has_character_flag = tsk_duel_wounded_major
+      has_character_flag = tsk_duel_wounded_minor
+    }
+  }
+  NOR = {
+    has_character_flag = tsk_duel_draw
+    has_character_flag = tsk_duel_lost
+    has_character_flag = tsk_duel_death
+  }
+}
+
+is_victorious_untouched_opponent_wounded = {
+  NOR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    NOT = {
+      has_character_flag = tsk_duel_death
+    }
+  }
+  NOR = {
+    has_character_flag = tsk_duel_draw
+    has_character_flag = tsk_duel_lost
+    has_character_flag = tsk_duel_death
+  }
+}
+
+is_draw_untouched_opponent_untouched = {
+  has_character_flag = tsk_duel_draw
+  NOR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    NOR = {
+      has_character_flag = tsk_duel_wounded_major
+      has_character_flag = tsk_duel_wounded_minor
+      has_character_flag = tsk_duel_death
+    }
+  }
+}
+
+is_draw_untouched_opponent_wounded = {
+  has_character_flag = tsk_duel_draw
+  NOR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    OR = {
+      has_character_flag = tsk_duel_wounded_major
+      has_character_flag = tsk_duel_wounded_minor
+    }
+    NOT = { has_character_flag = tsk_duel_death }
+  }
+}
+
+is_draw_wounded_opponent_untouched = {
+  has_character_flag = tsk_duel_draw
+  OR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    NOR = {
+      has_character_flag = tsk_duel_wounded_major
+      has_character_flag = tsk_duel_wounded_minor
+    }
+    NOT = { has_character_flag = tsk_duel_death }
+  }
+}
+
+is_draw_wounded_opponent_wounded = {
+  has_character_flag = tsk_duel_draw
+  OR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    OR = {
+      has_character_flag = tsk_duel_wounded_major
+      has_character_flag = tsk_duel_wounded_minor
+    }
+    NOT = { has_character_flag = tsk_duel_death }
+  }
+}
+
+is_draw_untouched_opponent_dead = {
+  has_character_flag = tsk_duel_draw
+  NOR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    has_character_flag = tsk_duel_death
+  }
+}
+
+is_draw_wounded_opponent_dead = {
+  has_character_flag = tsk_duel_draw
+  OR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    has_character_flag = tsk_duel_death
+  }
+}
+
+is_defeat_wounded_opponent_untouched = {
+  has_character_flag = tsk_duel_lost
+  OR = {
+    has_character_flag = tsk_duel_wounded_major
+    has_character_flag = tsk_duel_wounded_minor
+  }
+  FROM = {
+    NOR = {
+      has_character_flag = tsk_duel_wounded_major
+      has_character_flag = tsk_duel_wounded_minor
+    }
+    NOT = { has_character_flag = tsk_duel_death }
+  }
+}
+
+is_defeat_dead = {
+  has_character_flag = tsk_duel_death
+}
+
+is_military_command_trigger = {
+		government = military_command_government
+}
+
+cant_wear_crown_trigger = {
+	AND = {
+		is_vassal = yes
+		liege = { is_feudal = yes } 
+		real_tier = king
+	}
+}
+
+tsk_is_nights_watch_trigger = {
+	OR = {
+		trait = black_brother
+		government = nights_watch_government
+	}
+}
+
+######################################################
+#	High Kingdom event triggers (tsk_high_kingdom)	 #
+######################################################
+
+tsk_location_high_kingdom_claimed_trigger = {
+	OR = {
+		#AND = {
+		#	capital_scope = {
+		#		region = world_beyond_the_wall
+		#	}
+		#	event_target:high_king = { has_flag = claims_beyond_the_wall }
+		#}
+		AND = {
+			capital_scope = {
+				region = world_the_blackwater
+			}
+			event_target:high_king = { has_flag = claims_blackwater }
+		}
+		AND = {
+			capital_scope = {
+				region = world_dorne
+			}
+			event_target:high_king = { has_flag = claims_dorne }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_iron_islands
+			}
+			event_target:high_king = { has_flag = claims_iron_islands }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_north
+			}
+			event_target:high_king = { has_flag = claims_north }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_reach
+			}
+			event_target:high_king = { has_flag = claims_reach }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_riverlands
+			}
+			event_target:high_king = { has_flag = claims_riverlands }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_stormlands
+			}
+			event_target:high_king = { has_flag = claims_stormlands }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_vale
+			}
+			event_target:high_king = { has_flag = claims_vale }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_westerlands
+			}
+			event_target:high_king = { has_flag = claims_westerlands }
+		}
+	}
+}
+
+tsk_location_high_kingdom_claimed_is_region_ruler_trigger = {
+	OR = {
+		#AND = {
+		#	capital_scope = {
+		#		region = world_beyond_the_wall
+		#	}
+		#	event_target:high_king = { has_flag = claims_beyond_the_wall }
+		#	has_flag = high_kingdom_beyond_the_wall
+		#}
+		AND = {
+			capital_scope = {
+				region = world_the_blackwater
+			}
+			event_target:high_king = { has_flag = claims_blackwater }
+			has_flag = high_kingdom_blackwater
+		}
+		AND = {
+			capital_scope = {
+				region = world_dorne
+			}
+			event_target:high_king = { has_flag = claims_dorne }
+			has_flag = high_kingdom_dorne
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_iron_islands
+			}
+			event_target:high_king = { has_flag = claims_iron_islands }
+			has_flag = high_kingdom_iron_islands
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_north
+			}
+			event_target:high_king = { has_flag = claims_north }
+			has_flag = high_kingdom_north
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_reach
+			}
+			event_target:high_king = { has_flag = claims_reach }
+			has_flag = high_kingdom_reach
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_riverlands
+			}
+			event_target:high_king = { has_flag = claims_riverlands }
+			has_flag = high_kingdom_riverlands
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_stormlands
+			}
+			event_target:high_king = { has_flag = claims_stormlands }
+			has_flag = high_kingdom_stormlands
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_vale
+			}
+			event_target:high_king = { has_flag = claims_vale }
+		}
+		AND = {
+			capital_scope = {
+				region = world_the_westerlands
+			}
+			event_target:high_king = { has_flag = claims_westerlands }
+			has_flag = high_kingdom_westerlands
+		}
+	}
+}
+
+tsk_holds_high_kingdom = {
+	OR = {
+		#has_landed_title = e_beyond_the_wall
+		has_landed_title = e_dorne
+		has_landed_title = e_the_dusklands
+		has_landed_title = e_the_iron_islands
+		has_landed_title = e_the_north
+		has_landed_title = e_the_reach
+		has_landed_title = e_the_riverlands
+		has_landed_title = e_the_stormlands
+		has_landed_title = e_the_vale
+		has_landed_title = e_the_westerlands
+	}
+}
+
+tsk_has_become_high_king_ambition = {
+	OR = {
+		#AND = {
+		#	event_target:high_king = { has_flag = claims_beyond_the_wall }
+		#	has_ambition = obj_become_high_king_beyond_the_wall
+		#}
+		AND = {
+			event_target:high_king = { has_flag = claims_blackwater }
+			has_ambition = obj_become_high_king_dusklands
+		}
+		AND = {
+			event_target:high_king = { has_flag = claims_dorne }
+			has_ambition = obj_become_high_king_dorne
+		}
+		AND = {
+			event_target:high_king = { has_flag = claims_iron_islands }
+			has_ambition = obj_become_high_king_iron_islands
+		}
+		AND = {
+			event_target:high_king = { has_flag = claims_north }
+			has_ambition = obj_become_high_king_north
+		}
+		AND = {
+			event_target:high_king = { has_flag = high_king_claims_reach }
+			has_ambition = obj_become_high_king_reach
+		}
+		AND = {
+			event_target:high_king = { has_flag = high_king_claims_riverlands }
+			has_ambition = obj_become_high_king_riverlands
+		}
+		AND = {
+			event_target:high_king = { has_flag = high_king_claims_stormlands }
+			has_ambition = obj_become_high_king_stormlands
+		}
+		AND = {
+			event_target:high_king = { has_flag = high_king_claims_vale }
+			has_ambition = obj_become_high_king_vale
+		}
+		AND = {
+			event_target:high_king = { has_flag = claims_westerlands }
+			has_ambition = obj_become_high_king_westerlands
+		}
+	}
+}
+
+tsk_has_special_genetics = {
+	OR = {
+		graphical_culture = valyriangfx
+		graphical_culture = dayneangfx
+		graphical_culture = daynefmgfx
+		graphical_culture = durrandonangfx
+		graphical_culture = durrandonfmgfx
+		graphical_culture = greyjoyangfx
+		graphical_culture = greyjoyfmgfx
+		graphical_culture = lannisterangfx
+		graphical_culture = lannisterfmgfx
+		graphical_culture = starkangfx
+		graphical_culture = starkfmgfx
+		graphical_culture = tullyangfx
+		graphical_culture = tullyfmgfx
+		graphical_culture = yronwoodangfx
+		graphical_culture = yronwoodfmgfx
+	}
+}
+
+#Depricated
+#tsk_building_unlootable_trigger = {
+#	OR = {
+#		building = ca_arctic
+#		building = ca_farmlands
+#		building = ca_forest
+#		building = ca_hills
+#		building = ca_woods
+#		building = ca_mountain
+#		building = ca_volcanic_mountain
+#		building = ca_steppe
+#		building = ca_plains
+#		building = ca_jungle
+#		building = ca_fens
+#		building = ca_marsh
+#		building = ca_desert
+#		building = ca_barrens
+#		building = ca_coastal_desert
+#	}
+#}

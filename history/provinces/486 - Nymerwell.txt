@@ -1,0 +1,23 @@
+# c_nymerwell
+
+# County Title
+title = c_nymerwell
+
+# Settlements
+max_settlements = 2
+
+b_nymerwell = castle
+#b_deepwater = city
+
+# Misc
+culture = scourgemen
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7600.1.1 = {
+	culture = sand_dornish
+}

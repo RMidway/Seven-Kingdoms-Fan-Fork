@@ -1,0 +1,29 @@
+# c_hold_by_the_river
+
+# County Title
+title = c_hold_by_the_river
+
+# Settlements
+max_settlements = 4
+
+b_hold_by_the_river = castle
+#b_hold_by_the_river_2 = city
+#b_hold_by_the_river_3 = temple
+#b_hold_by_the_river_4 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven 
+}
+7298.1.1 = {
+	culture = rhoynish
+	religion = rhoynar
+}
+7400.1.1 = {
+	culture = orphans_of_the_greenblood
+}

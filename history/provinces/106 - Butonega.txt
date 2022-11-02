@@ -1,0 +1,21 @@
+# c_butonega
+
+# County Title
+title = c_butonega
+
+# Settlements
+max_settlements = 7
+
+b_butonega = castle
+b_butonega_2 = city
+#b_butonega_3 = temple
+#b_butonega_4 = castle
+#b_butonega_5 = city
+#b_butonega_6 = temple
+#b_butonega_7 = castle
+
+# Misc
+culture = lorathi
+religion = bearded_priests
+terrain = mountain
+#History

@@ -1,0 +1,28 @@
+# c_crakehall
+
+# County Title
+title = c_crakehall
+
+# Settlements
+max_settlements = 6
+
+b_crakehall_keep = castle
+b_ampthill = city
+#b_baldock = temple
+#b_durhall = castle
+#b_crakeridge = city
+#b_crakehall = temple
+
+# Misc
+culture = cornmen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+
+
+}
+6800.1.1 = {
+    religion = the_seven 
+	culture = cornlander
+}

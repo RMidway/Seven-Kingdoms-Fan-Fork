@@ -1,0 +1,22 @@
+# c_forrham
+
+# County Title
+title = c_forrham
+
+# Settlements
+max_settlements = 4
+
+b_forrham = castle
+#b_yuzintay = city
+#b_kalnujai = temple
+#b_forrham_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = reachmen
+	religion = the_seven
+}

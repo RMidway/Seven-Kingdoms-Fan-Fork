@@ -1,0 +1,23 @@
+# c_greenshield
+
+# County Title
+title = c_greenshield
+
+# Settlements
+max_settlements = 3
+
+b_greenshield = castle
+#b_ahn = city
+#b_bercham = temple
+
+# Misc
+culture = shieldislander
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+}
+6900.1.1 = {
+    culture = shieldmen
+}

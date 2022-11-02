@@ -1,0 +1,21 @@
+# c_the_fallen
+
+# County Title
+title = c_the_fallen
+
+# Settlements
+max_settlements = 3
+
+b_the_fallen = castle
+#b_old_pride = city
+#b_the_fallen_2 = temple
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = desert
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

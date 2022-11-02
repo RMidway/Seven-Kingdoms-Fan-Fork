@@ -1,0 +1,2569 @@
+##############
+# ID RANGE   #
+# 3000-3199  #
+##############
+
+# Start Date is 6566
+
+####################
+### MAJOR HOUSES ###
+####################
+
+# Head of House Adarys
+
+3000 = {
+    name = Arlo
+    dynasty = 1500 # Adarys
+    father = 3005
+    culture = tyroshi
+	religion = trios
+
+    6543.3.1 = { birth=yes }
+    6614.3.7 = { death=yes }
+}
+
+# Head of House Ryndoon
+3001 = {
+    name = Uther
+    dynasty = 1501 # Ryndoon
+    father = 3013
+    culture = tyroshi
+	religion = trios
+
+    6538.3.14 = { birth=yes }
+    6612.9.3 = { death=yes }
+}
+
+# Head of House Girooni
+
+3002 = {
+    name = Landar
+    dynasty = 1502 # Girooni
+    culture = tyroshi
+	religion = trios
+	martial=8 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=8 
+	learning=5
+	trait=cynical 
+	trait=gluttonous
+	trait=twin
+	father=3043	#Byan
+	mother=3053	#Ryndoon
+    6551.1.4 = { birth=yes }
+    6632.11.2 = { death=yes }
+}
+
+# Head of House Ontaros
+
+3003 = {
+    name = Zotto
+    dynasty = 1503 # Ontaros
+    culture = tyroshi
+	religion = the_weeping_lady
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=misguided_warrior 
+	trait=humble 
+	trait=lustful 
+	trait=zealous 
+	trait=just 
+	father=3020	#Noho
+	mother=3038	#Lucerre
+    6539.3.13 = { birth=yes }
+	6556.1.1={ add_spouse=3039 }
+    6613.4.7 = { death=yes }
+}
+
+# Head of House Erminolo
+
+3004 = {
+    name = Odilo
+    dynasty = 1504 # Erminolo
+    culture = tyroshi
+	religion = trios
+	martial=8 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=6 
+	learning=6
+	trait=grey_eminence 
+	trait=duelist 
+	trait=proud 
+	trait=gluttonous 
+    father=3127	#Ollo
+	6524.5.5={ birth=yes }
+	6545.1.1={ add_spouse=3134 }
+	6590.4.8={ death=yes }
+}
+
+####################
+### House Adarys ###
+####################
+
+3005 = {
+    name = Arletti
+    dynasty = 1500 # Adarys
+    father = 3006
+    culture = tyroshi
+	religion = trios
+
+    6520.3.1 = { birth=yes }
+    6566.3.7 = { death=yes }
+}
+
+3006 = {
+    name = Argon
+    dynasty = 1500 # Adarys
+    culture = tyroshi
+    religion = trios
+
+    6496.3.1 = { birth=yes }
+    6555.3.7 = { death=yes }
+}
+
+3008 = {
+    name = Shia
+    dynasty = 1500 # Adarys
+    father = 3006
+    culture = tyroshi
+    religion = trios
+    female = yes
+
+    6535.3.1 = { birth=yes }
+    6598.3.7 = { death=yes }
+}
+
+3009 = {
+    name = Moshe
+    dynasty = 1500 # Adarys
+    father = 3006
+    culture = tyroshi
+    religion = trios
+    trait = brilliant_strategist
+    trait = quick
+    trait = patient
+    trait = diligent
+    trait = humble
+    6538.3.1 = { birth=yes }
+    6598.3.7 = { death=yes }
+}
+
+3010 = {
+    name = Avo
+    dynasty = 1500 # Adarys
+    father = 3000
+    culture = tyroshi
+	religion = trios
+
+    6561.3.1 = { birth=yes }
+    6623.3.7 = { death=yes }
+}
+
+3011 = {
+    name = Abo
+    dynasty = 1500 # Adarys
+    father = 3000
+    culture = tyroshi
+	religion = trios
+
+    6561.3.1 = { birth=yes }
+    6623.3.7 = { death=yes }
+}
+
+3012 = {
+    name = Alo
+    dynasty = 1500 # Adarys
+    father = 3000
+    culture = tyroshi
+	religion = trios
+
+    6563.3.1 = { birth=yes }
+    6629.3.7 = { death=yes }
+}
+
+#####################
+### House Ryndoon ###
+#####################
+
+3013 = {
+    name = Mordred
+    dynasty = 1501 # Ryndoon
+    father = 3014
+    culture = tyroshi
+    religion = trios
+
+    6500.3.14 = { birth=yes }
+    6559.9.3 = { death=yes }
+}
+
+3014 = {
+    name = Salam
+    dynasty = 1501 # Ryndoon
+    father = 3015
+    culture = tyroshi
+    religion = trios
+
+    6478.3.14 = { birth=yes }
+    6539.9.3 = { death=yes }
+}
+
+3015 = {
+    name = Ryan
+    culture = tyroshi
+    religion = trios
+
+    6442.3.14 = { birth=yes }
+    6505.9.3 = { death=yes }
+}
+
+3016 = {
+    name = Arn
+    dynasty = 1501 # Ryndoon
+    father = 3014
+    culture = tyroshi
+    religion = trios
+
+    6515.3.14 = { birth=yes }
+    6570.9.3 = { death=yes }
+}
+
+3017 = {
+    name = Josef
+    dynasty = 1501 # Ryndoon
+    father = 3013
+    culture = tyroshi
+	religion = trios
+
+    6540.3.14 = { birth=yes }
+    6612.9.3 = { death=yes }
+}
+
+3018 = {
+    name = Mia
+    dynasty = 1501 # Ryndoon
+    father = 3013
+    culture = tyroshi
+	religion = trios
+    female = yes
+
+    6542.3.14 = { birth=yes }
+    6609.9.3 = { death=yes }
+}
+
+3019 = {
+    name = Eldad
+    dynasty = 1501 # Ryndoon
+    father = 3013
+    culture = tyroshi
+	religion = trios
+
+    6542.3.14 = { birth=yes }
+    6612.9.3 = { death=yes }
+}
+
+####################
+### House Ontaros ###
+####################
+
+3020={
+	name=Noho
+	dynasty=1503
+	dna="gaaccadmpha"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	6500.6.12={ birth=yes }
+	6521.1.1={ add_spouse=3038 }
+	6565.3.28={ death=yes }
+}
+3021={
+	name=Ollo
+	dynasty=1503
+	dna="gjaccadmphk"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	martial=6 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=midas_touched 
+	trait=slothful 
+	trait=humble 
+	trait=ambitious 
+	trait=harelip 
+	father=3020	#Noho
+	mother=3038	#Lucerre
+	6530.5.21={ birth=yes }
+	6593.5.24={ death=yes }
+}
+3022={
+	name=Jaqea
+	female=yes
+	dynasty=1503
+	dna="gaaocabmpha"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	father=3020	#Noho
+	mother=3038	#Lucerre
+	6533.10.25={ birth=yes }
+	6563.12.30={ death=yes }
+}
+3023={
+	name=Terrios
+	female=yes
+	dynasty=1503
+	dna="gakjcjkmpfa"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	father=3020	#Noho
+	mother=3038	#Lucerre
+	6536.5.19={ birth=yes }
+	6601.11.17={ death=yes }
+}
+3024={
+	name=Narbo
+	dynasty=1503
+	dna="eeaccadiloe"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	martial=8 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=thrifty_clerk 
+	trait=wroth 
+	trait=paranoid 
+	trait=slothful 
+	trait=cynical 
+	father=3020	#Noho
+	mother=3038	#Lucerre
+	6538.6.7={ birth=yes }
+	6585.10.22={ death=yes }
+}
+3025={
+	name=Cossomo
+	dynasty=1503
+	dna="daaaahdjpea"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	martial=7 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=tough_soldier 
+	trait=gardener 
+	trait=brave 
+	trait=zealous 
+	trait=deceitful 
+	trait=patient 
+	father=3020	#Noho
+	mother=3038	#Lucerre
+	6540.4.11={ birth=yes }
+	6612.8.29={ death=yes }
+}
+3026={
+	name=Moredea
+	female=yes
+	dynasty=1503
+	dna="lafmmehbnha"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	father=3020	#Noho
+	mother=3038	#Lucerre
+	6544.8.19={ birth=yes }
+	6601.3.16={ death=yes }
+}
+3027={
+	name=Orbelo
+	dynasty=1503
+	dna="dobdpfcghdn"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	trait=patient
+	trait=shy 
+	father=3003	#Zotto
+	mother=3039	#S'vrone
+	6556.10.6={ birth=yes }
+	6622.9.25={ death=yes }
+}
+3028={
+	name=Ferrega
+	female=yes
+	dynasty=1503
+	dna="dmpdlfcmpem"
+	culture=tyroshi 
+	religion=the_weeping_lady
+	father=3003	#Zotto
+	mother=3039	#S'vrone
+	6558.8.12={ birth=yes }
+	6612.6.18={ death=yes }
+}
+
+####################
+### House Dragezeni ###
+####################
+
+3029={
+	name=Tagganaro
+	dynasty=1505
+	dna="pbjgpdjcock"
+	culture=tyroshi 
+	religion=trios
+	6500.5.13={ birth=yes }
+	6521.1.1={ add_spouse=3040 }
+	6545.6.4={ death=yes }
+}
+3030={
+	name=Collio
+	dynasty=1505
+	dna="fajdkddcocj"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=4 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=slothful 
+	trait=kind 
+	trait=trusting 
+	trait=temperate 
+	father=3029	#Tagganaro
+	mother=3040	#Narba
+	6525.10.19={ birth=yes }
+	6544.1.1={ add_spouse=3041 }
+	6571.10.5={ death=yes }
+}
+3031={
+	name=Lanna
+	female=yes
+	dynasty=1505
+	dna="pcjcfdjloci"
+	culture=tyroshi 
+	religion=trios
+	father=3029	#Tagganaro
+	mother=3040	#Narba
+	6528.8.11={ birth=yes }
+	6573.1.9={ death=yes }
+}
+3032={
+	name=Terro
+	dynasty=1505
+	dna="pechpnfbodk"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=misguided_warrior 
+	trait=envious 
+	trait=proud 
+	trait=cynical 
+	trait=clubfooted 
+	father=3029	#Tagganaro
+	mother=3040	#Narba
+	6531.1.4={ birth=yes }
+	6578.1.27={ death=yes }
+}
+3033={
+	name=Ternesio
+	dynasty=1505
+	dna="pbjgddpjhok"
+	culture=tyroshi 
+	religion=trios
+	martial=8 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=deceitful 
+	trait=temperate 
+	trait=arbitrary 
+	father=3029	#Tagganaro
+	mother=3040	#Narba
+	6535.7.9={ birth=yes }
+	6604.6.18={ death=yes }
+}
+3034={
+	name=Cossomo
+	dynasty=1505
+	dna="faigkoaclag"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=6
+	trait=detached_priest 
+	trait=hunter 
+	trait=chaste 
+	trait=zealous 
+	trait=diligent 
+	trait=proud 
+	father=3030	#Collio
+	mother=3041	#Rohanne
+	6545.7.11={ birth=yes }
+	6603.7.7={ death=yes }
+}
+3035={
+	name=Roggo
+	dynasty=1505
+	dna="fmjpgodcodj"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=8
+	trait=martial_cleric 
+	trait=hedonist 
+	trait=slothful 
+	trait=gluttonous 
+	trait=chaste 
+	trait=patient 
+	trait=wounded 
+	father=3030	#Collio
+	mother=3041	#Rohanne
+	6550.3.18={ birth=yes }
+	6618.5.18={ death=yes }
+}
+3036={
+	name=Beqqo
+	dynasty=1505
+	dna="gpjnadncopf"
+	culture=tyroshi 
+	religion=trios
+	trait=content
+	father=3030	#Collio
+	mother=3041	#Rohanne
+	6553.8.21={ birth=yes }
+	6617.11.28={ death=yes }
+}
+3037={
+	name=Moreo
+	dynasty=1505
+	dna="oihnhdecpjj"
+	culture=tyroshi 
+	religion=trios
+	trait=gregarious
+	father=3030	#Collio
+	mother=3041	#Rohanne
+	6558.12.11={ birth=yes }
+	6607.3.22={ death=yes }
+}
+3038={
+	name=Lucerre
+	female=yes
+	culture=tyroshi 
+	religion=the_weeping_lady
+	6500.8.12={ birth=yes }
+	6565.6.18={ death=yes }
+}
+3039={
+	name=S'vrone
+	female=yes
+	culture=tyroshi 
+	religion=the_weeping_lady
+	6539.8.12={ birth=yes }
+	6613.6.18={ death=yes }
+}
+3040={
+	name=Narba
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6545.6.18={ death=yes }
+}
+3041={
+	name=Rohanne
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6525.8.12={ birth=yes }
+	6571.6.18={ death=yes }
+}
+
+####################
+### House Girooni ###
+####################
+
+3042={
+	name=Collio
+	dynasty=1502
+	dna="fgbmcaabnja"
+	culture=tyroshi 
+	religion=trios
+	6500.7.23={ birth=yes }
+	6521.1.1={ add_spouse=3052 }
+	6564.9.25={ death=yes }
+}
+3043={
+	name=Byan
+	dynasty=1502
+	dna="mbbfahianja"
+	culture=tyroshi 
+	religion=trios
+	father=3042	#Collio
+	mother=3052	#Noho
+	6526.3.20={ birth=yes }
+	6547.1.1={ add_spouse=3053 }
+	6565.8.30={ death=yes }
+}
+3044={
+	name=Narba
+	female=yes
+	dynasty=1502
+	dna="pecfcpbbddj"
+	culture=tyroshi 
+	religion=trios
+	father=3042	#Collio
+	mother=3052	#Noho
+	6528.8.19={ birth=yes }
+	6577.2.2={ death=yes }
+}
+3045={
+	name=Yorka
+	female=yes
+	dynasty=1502
+	dna="babilijpnih"
+	culture=tyroshi 
+	religion=trios
+	father=3042	#Collio
+	mother=3052	#Noho
+	6530.7.4={ birth=yes }
+	6584.8.9={ death=yes }
+}
+3046={
+	name=Daario
+	dynasty=1502
+	dna="fbbmcaafnja"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=detached_priest 
+	trait=brave 
+	trait=chaste 
+	trait=cruel 
+	trait=greedy 
+	trait=zealous 
+	father=3042	#Collio
+	mother=3052	#Noho
+	6534.6.8={ birth=yes }
+	6602.12.23={ death=yes }
+}
+3047={
+	name=Ollo
+	dynasty=1502
+	dna="jgoliaadndh"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=paranoid 
+	trait=arbitrary 
+	trait=kind 
+	trait=honest 
+	father=3042	#Collio
+	mother=3052	#Noho
+	6537.10.4={ birth=yes }
+	6604.12.4={ death=yes }
+}
+3048={
+	name=Orbelo
+	dynasty=1502
+	dna="ecbfaahgdja"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=6 
+	learning=5
+	trait=charitable 
+	trait=diligent 
+	trait=twin
+	father=3043	#Byan
+	mother=3053	#Ryndoon
+	6551.1.4={ birth=yes }
+	6606.9.4={ death=yes }
+}
+3049={
+	name=Gyleno
+	dynasty=1502
+	dna="mjofmiianoa"
+	culture=tyroshi 
+	religion=trios
+	trait=patient 
+	trait=stressed 
+	father=3043	#Byan
+	mother=3053	#Ryndoon
+	6554.5.9={ birth=yes }
+	6641.3.29={ death=yes }
+}
+3050={
+	name=Ezzere
+	female=yes
+	dynasty=1502
+	dna="mekmahianjm"
+	culture=tyroshi 
+	religion=trios
+	father=3043	#Byan
+	mother=3053	#Ryndoon
+	6556.4.20={ birth=yes }
+	6599.11.27={ death=yes }
+}
+3051={
+	name=Noho
+	dynasty=1502
+	dna="ombiadiapjj"
+	culture=tyroshi 
+	religion=trios
+	father=3043	#Byan
+	mother=3053	#Ryndoon
+	6561.5.23={ birth=yes }
+	6634.7.16={ death=yes }
+}
+3052={
+	name=Noho
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6564.6.18={ death=yes }
+}
+3053={
+	name=Ryndoon
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6526.8.12={ birth=yes }
+	6575.6.18={ death=yes }
+}
+
+####################
+### House Brusvac ###
+####################
+
+3054={
+	name=Ordello
+	dynasty=1506
+	dna="mjkiopmajcj"
+	culture=tyroshi 
+	religion=trios
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=martial_cleric 
+	trait=ambitious 
+	trait=chaste 
+	trait=proud 
+	trait=gluttonous 
+	trait=envious 
+	6500.12.14={ birth=yes }
+	6521.1.1={ add_spouse=3063 }
+	6571.5.3={ death=yes }
+}
+3055={
+	name=Ezzelyno
+	dynasty=1506
+	dna="mnkiopmmdck"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=7
+	trait=detached_priest 
+	trait=impaler 
+	trait=ambitious 
+	trait=chaste 
+	trait=arbitrary 
+	trait=honest 
+	trait=possessed 
+	father=3054	#Ordello
+	mother=3063	#Serala
+	6529.12.2={ birth=yes }
+	6550.1.1={ add_spouse=3064 }
+	6604.11.6={ death=yes }
+}
+3056={
+	name=Myrmellios
+	female=yes
+	dynasty=1506
+	dna="idmicoaajcj"
+	culture=tyroshi 
+	religion=trios
+	father=3054	#Ordello
+	mother=3063	#Serala
+	6531.12.26={ birth=yes }
+	6583.8.9={ death=yes }
+}
+3057={
+	name=Byan
+	dynasty=1506
+	dna="mlogokjgjmj"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=5 
+	learning=8
+	trait=detached_priest 
+	trait=deceitful 
+	trait=ambitious 
+	trait=diligent 
+	father=3054	#Ordello
+	mother=3063	#Serala
+	6537.5.25={ birth=yes }
+	6605.3.24={ death=yes }
+}
+3058={
+	name=Daario
+	dynasty=1506
+	dna="mikiopdedgj"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	trait=indulgent_wastrel 
+	trait=gregarious 
+	trait=proud 
+	trait=cruel 
+	father=3054	#Ordello
+	mother=3063	#Serala
+	6540.11.3={ birth=yes }
+	6599.5.25={ death=yes }
+}
+3059={
+	name=Beqqo
+	dynasty=1506
+	dna="lnblipcmngj"
+	culture=tyroshi 
+	religion=trios
+	trait=honest
+	father=3055	#Ezzelyno
+	mother=3064	#Betharios
+	6553.1.25={ birth=yes }
+	6600.9.24={ death=yes }
+}
+3060={
+	name=Pynta
+	female=yes
+	dynasty=1506
+	dna="mpjmopdjdcd"
+	culture=tyroshi 
+	religion=trios
+	father=3055	#Ezzelyno
+	mother=3064	#Betharios
+	6556.7.21={ birth=yes }
+	6628.9.14={ death=yes }
+}
+3061={
+	name=Pynta
+	female=yes
+	dynasty=1506
+	dna="lnehopmmdcp"
+	culture=tyroshi 
+	religion=trios
+	father=3055	#Ezzelyno
+	mother=3064	#Betharios
+	6559.4.6={ birth=yes }
+	6623.3.3={ death=yes }
+}
+3062={
+	name=Qarro
+	dynasty=1506
+	dna="mfkmhimcdkk"
+	culture=tyroshi 
+	religion=trios
+	trait=brave 
+	father=3055	#Ezzelyno
+	mother=3064	#Betharios
+	6561.4.7={ birth=yes }
+	6624.7.10={ death=yes }
+}
+3063={
+	name=Serala
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6571.6.18={ death=yes }
+}
+3064={
+	name=Betharios
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6529.8.12={ birth=yes }
+	6604.6.18={ death=yes }
+}
+
+####################
+### House Meszd ###
+####################
+
+3065={
+	name=Brusco
+	dynasty=1507
+	dna="jlhiljaikog"
+	culture=tyroshi 
+	religion=trios
+	6499.6.4={ birth=yes }
+	6520.1.1={ add_spouse=3070 }
+	6549.4.7={ death=yes }
+}
+3066={
+	name=Myrmello
+	dynasty=1507
+	dna="jddblckkkmp"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=lustful 
+	trait=honest 
+	trait=cynical 
+	father=3065	#Brusco
+	mother=3070 #Ternesia
+	6527.10.25={ birth=yes }
+	6548.1.1={ add_spouse=3071 }
+	6600.7.8={ death=yes }
+}
+3067={
+	name=Lucerre
+	female=yes
+	dynasty=1507
+	dna="jljgfdlnkme"
+	culture=tyroshi 
+	religion=trios
+	father=3065	#Brusco
+	mother=3070 #Ternesia
+	6530.6.17={ birth=yes }
+	6579.2.3={ death=yes }
+}
+3068={
+	name=Ternesio
+	dynasty=1507
+	dna="jddblclknke"
+	culture=tyroshi 
+	religion=trios
+	trait=poet 
+	trait=proud 
+	father=3066	#Myrmello
+	mother=3071	#Meralyia
+	6554.2.1={ birth=yes }
+	6608.1.16={ death=yes }
+}
+3069={
+	name=Oro
+	dynasty=1507
+	dna="hddplcmlcmd"
+	culture=tyroshi 
+	religion=trios
+	trait=cruel 
+	father=3066	#Myrmello
+	mother=3071	#Meralyia
+	6558.12.6={ birth=yes }
+	6632.2.27={ death=yes }
+}
+3070={
+	name=Ternesia
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6549.6.18={ death=yes }
+}
+3071={
+	name=Meralyia
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6527.8.12={ birth=yes }
+	6600.6.18={ death=yes }
+}
+
+####################
+### House Vysaj ###
+####################
+
+3072={
+	name=Moreo
+	dynasty=1508
+	dna="madcimacjfm"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=6
+	trait=tough_soldier 
+	trait=zealous 
+	trait=arbitrary 
+	trait=greedy 
+	trait=chaste 
+	trait=cruel 
+	trait=brave 
+	6499.6.12={ birth=yes }
+	6520.1.1={ add_spouse=3080 }
+	6568.7.22={ death=yes }
+}
+3073={
+	name=Gylora
+	female=yes
+	dynasty=1508
+	dna="fancimcfpfm"
+	culture=tyroshi 
+	religion=trios
+	father=3072	#Moreo
+	mother=3080	#Bellegere
+	6524.8.18={ birth=yes }
+	6585.12.31={ death=yes }
+}
+3074={
+	name=Kiera
+	female=yes
+	dynasty=1508
+	dna="kaacioiclbm"
+	culture=tyroshi 
+	religion=trios
+	father=3072	#Moreo
+	mother=3080	#Bellegere
+	6526.2.9={ birth=yes }
+	6586.11.6={ death=yes }
+}
+3075={
+	name=Moreo
+	dynasty=1508
+	dna="moehkhikjjm"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=7 
+	learning=6
+	trait=tough_soldier 
+	trait=gluttonous 
+	trait=humble 
+	trait=wroth 
+	trait=cruel 
+	father=3072	#Moreo
+	mother=3080	#Bellegere
+	6529.1.13={ birth=yes }
+	6550.1.1={ add_spouse=3081 }
+	6580.10.10={ death=yes }
+}
+3076={
+	name=Denyo
+	dynasty=1508
+	dna="malfimacjjm"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=5 
+	learning=8
+	trait=midas_touched 
+	trait=ambitious 
+	trait=gregarious 
+	trait=humble 
+	trait=ill 
+	father=3072	#Moreo
+	mother=3080	#Bellegere
+	6533.12.15={ birth=yes }
+	6591.12.18={ death=yes }
+}
+3077={
+	name=Tycha
+	female=yes
+	dynasty=1508
+	dna="madcjokcjam"
+	culture=tyroshi 
+	religion=trios
+	father=3072	#Moreo
+	mother=3080	#Bellegere
+	6536.5.12={ birth=yes }
+	6596.4.6={ death=yes }
+}
+3078={
+	name=Qarro
+	dynasty=1508
+	dna="nodhelioajm"
+	culture=tyroshi 
+	religion=trios
+	trait=content
+	father=3075	#Moreo
+	mother=3081	#Serenei
+	6555.1.14={ birth=yes }
+	6603.7.7={ death=yes }
+}
+3079={
+	name=Roro
+	dynasty=1508
+	dna="fceikhiklmh"
+	culture=tyroshi 
+	religion=trios
+	trait=charitable
+	father=3075	#Moreo
+	mother=3081	#Serenei
+	6558.4.26={ birth=yes }
+	6615.5.24={ death=yes }
+}
+3080={
+	name=Bellegere
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6568.6.18={ death=yes }
+}
+3081={
+	name=Serenei
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6524.8.12={ birth=yes }
+	6585.6.18={ death=yes }
+}
+
+####################
+### House Bikdraj ###
+####################
+
+3082={
+	name=Ternesio
+	dynasty=1509
+	dna="djmdkneooan"
+	culture=tyroshi 
+	religion=trios
+	6499.7.1={ birth=yes }
+	6520.1.1={ add_spouse=3090 }
+	6552.12.29={ death=yes }
+}
+3083={
+	name=Jaqea
+	female=yes
+	dynasty=1509
+	dna="djcjknegalm"
+	culture=tyroshi 
+	religion=trios
+	father=3082	#Ternesio
+	mother=3090	#Terrios
+	6525.1.18={ birth=yes }
+	6571.12.23={ death=yes }
+}
+3084={
+	name=Taena
+	female=yes
+	dynasty=1509
+	dna="djmdkkgolkn"
+	culture=tyroshi 
+	religion=trios
+	father=3082	#Ternesio
+	mother=3090	#Terrios
+	6527.2.24={ birth=yes }
+	6586.5.5={ death=yes }
+}
+3085={
+	name=Bellegere
+	female=yes
+	dynasty=1509
+	dna="dljdanehojh"
+	culture=tyroshi 
+	religion=trios
+	father=3082	#Ternesio
+	mother=3090	#Terrios
+	6529.8.21={ birth=yes }
+	6598.6.13={ death=yes }
+}
+3086={
+	name=Ezzere
+	female=yes
+	dynasty=1509
+	dna="pjmfkneomaa"
+	culture=tyroshi 
+	religion=trios
+	father=3082	#Ternesio
+	mother=3090	#Terrios
+	6534.1.12={ birth=yes }
+	6594.5.18={ death=yes }
+}
+3087={
+	name=Mysaria
+	female=yes
+	dynasty=1509
+	dna="fjbkikgooac"
+	culture=tyroshi 
+	religion=trios
+	father=3082	#Ternesio
+	mother=3090	#Terrios
+	6536.1.15={ birth=yes }
+	6581.8.18={ death=yes }
+}
+3088={
+	name=Tagganaro
+	dynasty=1509
+	dna="dgmoanhaohh"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=6 
+	learning=4
+	trait=skilled_tactician 
+	trait=hunter 
+	trait=humble 
+	trait=cynical 
+	trait=diligent 
+	trait=shy 
+	trait=ambitious 
+	father=3082	#Ternesio
+	mother=3090	#Terrios
+	6540.6.17={ birth=yes }
+	6561.1.1={ add_spouse=3091 }
+	6602.7.22={ death=yes }
+}
+3089={
+	name=Roggo
+	dynasty=1509
+	dna="mckoaoafopf"
+	culture=tyroshi 
+	religion=trios
+	father=3088	#Tagganaro
+	mother=3091	#Lothea
+	6565.12.18={ birth=yes }
+	6622.11.30={ death=yes }
+}
+3090={
+	name=Terrios
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6568.6.18={ death=yes }
+}
+3091={
+	name=Lothea
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6524.8.12={ birth=yes }
+	6585.6.18={ death=yes }
+}
+
+####################
+### House Obadcillo ###
+####################
+
+3092={
+	name=Gyloro
+	dynasty=1510
+	dna="bjogjllpekd"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=martial_cleric 
+	trait=gregarious 
+	trait=cruel 
+	trait=temperate 
+	trait=proud 
+	trait=deceitful 
+	6499.10.20={ birth=yes }
+	6520.1.1={ add_spouse=3101 }
+	6571.3.16={ death=yes }
+}
+3093={
+	name=Ezzelyno
+	dynasty=1510
+	dna="jjldjklaead"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=4
+	trait=detached_priest 
+	trait=proud 
+	trait=lustful 
+	trait=temperate 
+	trait=trusting 
+	father=3092	#Gyloro
+	mother=3101	#Orbela
+	6526.4.5={ birth=yes }
+	6547.1.1={ add_spouse=3102 }
+	6594.7.29={ death=yes }
+}
+3094={
+	name=Narba
+	female=yes
+	dynasty=1510
+	dna="aoogjbfaekf"
+	culture=tyroshi 
+	religion=trios
+	father=3092	#Gyloro
+	mother=3101	#Orbela
+	6529.3.25={ birth=yes }
+	6618.7.15={ death=yes }
+}
+3095={
+	name=Areo
+	dynasty=1510
+	dna="mjogjlkpmkm"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=6 
+	learning=5
+	trait=midas_touched 
+	trait=mystic 
+	trait=deceitful 
+	trait=patient 
+	trait=craven 
+	trait=trusting 
+	trait=possessed 
+	father=3092	#Gyloro
+	mother=3101	#Orbela
+	6533.8.1={ birth=yes }
+	6583.1.30={ death=yes }
+}
+3096={
+	name=Lanna
+	female=yes
+	dynasty=1510
+	dna="bhogjlnpekd"
+	culture=tyroshi 
+	religion=trios
+	father=3092	#Gyloro
+	mother=3101	#Orbela
+	6537.10.17={ birth=yes }
+	6594.3.26={ death=yes }
+}
+3097={
+	name=Brusco
+	dynasty=1510
+	dna="hjcbjkiafnd"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=8 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=chaste 
+	trait=wroth 
+	trait=gluttonous 
+	trait=cruel 
+	trait=just 
+	trait=depressed 
+	father=3093	#Ezzelyno
+	mother=3102	#Rogga
+	6549.5.26={ birth=yes }
+	6613.8.19={ death=yes }
+}
+3098={
+	name=Umma
+	female=yes
+	dynasty=1510
+	dna="nimloplaedh"
+	culture=tyroshi 
+	religion=trios
+	father=3093	#Ezzelyno
+	mother=3102	#Rogga
+	6551.11.21={ birth=yes }
+	6618.3.17={ death=yes }
+}
+3099={
+	name=Gylora
+	female=yes
+	dynasty=1510
+	dna="jjlkjkmagad"
+	culture=tyroshi 
+	religion=trios
+	father=3093	#Ezzelyno
+	mother=3102	#Rogga
+	6556.12.12={ birth=yes }
+	6592.10.13={ death=yes }
+}
+3100={
+	name=Syrea
+	female=yes
+	dynasty=1510
+	dna="fjbdjkiaefp"
+	culture=tyroshi 
+	religion=trios
+	father=3093	#Ezzelyno
+	mother=3102	#Rogga
+	6560.9.1={ birth=yes }
+	6612.7.1={ death=yes }
+}
+3101={
+	name=Orbela
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6568.6.18={ death=yes }
+}
+3102={
+	name=Rogga
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6524.8.12={ birth=yes }
+	6585.6.18={ death=yes }
+}
+
+####################
+### House Herniaica ###
+####################
+
+3103={
+	name=Tycho
+	dynasty=1511
+	dna="fmdnifbjbnh"
+	culture=tyroshi 
+	religion=trios
+	6499.11.20={ birth=yes }
+	6520.1.1={ add_spouse=3111 }
+	6550.8.23={ death=yes }
+}
+3104={
+	name=Ezzere
+	female=yes
+	dynasty=1511
+	dna="fmcmifojbol"
+	culture=tyroshi 
+	religion=trios
+	father=3103	#Tycho
+	mother=3111	#Doreah
+	6527.5.20={ birth=yes }
+	6573.3.30={ death=yes }
+}
+3105={
+	name=Terrios
+	female=yes
+	dynasty=1511
+	dna="fmmmpfoijng"
+	culture=tyroshi 
+	religion=trios
+	father=3103	#Tycho
+	mother=3111	#Doreah
+	6529.12.4={ birth=yes }
+	6598.6.12={ death=yes }
+}
+3106={
+	name=Yorka
+	female=yes
+	dynasty=1511
+	dna="jcdnjnhhhnl"
+	culture=tyroshi 
+	religion=trios
+	father=3103	#Tycho
+	mother=3111	#Doreah
+	6531.4.6={ birth=yes }
+	6597.7.24={ death=yes }
+}
+3107={
+	name=Salassor
+	dynasty=1511
+	dna="omdpfbbebbf"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=paranoid 
+	trait=content 
+	trait=gluttonous 
+	trait=gregarious 
+	father=3103	#Tycho
+	mother=3111	#Doreah
+	6535.7.23={ birth=yes }
+	6556.1.1={ add_spouse=3112 }
+	6600.12.10={ death=yes }
+}
+3108={
+	name=Yorka
+	female=yes
+	dynasty=1511
+	dna="jkanimbjigh"
+	culture=tyroshi 
+	religion=trios
+	father=3103	#Tycho
+	mother=3111	#Doreah
+	6539.1.11={ birth=yes }
+	6600.2.21={ death=yes }
+}
+3109={
+	name=Myrmello
+	dynasty=1511
+	dna="cmalfobenef"
+	culture=tyroshi 
+	religion=trios
+	father=3107	#Salassor
+	mother=3112	#Cossoma
+	6564.8.14={ birth=yes }
+	6616.6.13={ death=yes }
+}
+3110={
+	name=Noho
+	dynasty=1511
+	dna="ogdmfgbkbdf"
+	culture=tyroshi 
+	religion=trios
+	father=3107	#Salassor
+	mother=3112	#Cossoma
+	6566.1.1={ birth=yes }
+	6631.10.6={ death=yes }
+}
+3111={
+	name=Doreah
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6550.6.18={ death=yes }
+}
+3112={
+	name=Cossoma
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6535.8.12={ birth=yes }
+	6600.6.18={ death=yes }
+}
+
+####################
+### House Tyroleo ###
+####################
+
+3113={
+	name=Ternesio
+	dynasty=1512
+	dna="kegpeihhemp"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=8 
+	learning=5
+	trait=midas_touched 
+	trait=honest 
+	trait=cynical 
+	trait=gregarious 
+	6500.10.25={ birth=yes }
+	6521.1.1={ add_spouse=3125 }
+	6568.5.9={ death=yes }
+}
+3114={
+	name=Ternesio
+	dynasty=1512
+	dna="kejiligaakm"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=8 
+	learning=8
+	trait=midas_touched 
+	trait=kind 
+	trait=proud 
+	trait=brave 
+	trait=deceitful 
+	trait=slothful 
+	trait=clubfooted 
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6525.2.20={ birth=yes }
+	6546.1.1={ add_spouse=3126 }
+	6582.7.31={ death=yes }
+}
+3115={
+	name=Orios
+	female=yes
+	dynasty=1512
+	dna="kegpechhoep"
+	culture=tyroshi 
+	religion=trios
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6528.11.14={ birth=yes }
+	6596.6.15={ death=yes }
+}
+3116={
+	name=Myrmellios
+	female=yes
+	dynasty=1512
+	dna="aegekdhbegp"
+	culture=tyroshi 
+	religion=trios
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6529.12.6={ birth=yes }
+	6592.5.22={ death=yes }
+}
+3117={
+	name=Serenei
+	female=yes
+	dynasty=1512
+	dna="bhadpnhaeap"
+	culture=tyroshi 
+	religion=trios
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6534.10.23={ birth=yes }
+	6601.7.24={ death=yes }
+}
+3118={
+	name=Salassor
+	dynasty=1512
+	dna="hggdemhijhp"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=5 
+	learning=8
+	trait=indulgent_wastrel 
+	trait=hedonist 
+	trait=diligent 
+	trait=zealous 
+	trait=craven 
+	trait=deceitful 
+	trait=wounded 
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6536.5.12={ birth=yes }
+	6603.10.5={ death=yes }
+}
+3119={
+	name=Gyleno
+	dynasty=1512
+	dna="kegpeichamp"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=scholarly_theologian 
+	trait=paranoid 
+	trait=content 
+	trait=gregarious 
+	trait=diligent 
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6537.11.3={ birth=yes }
+	6591.3.21={ death=yes }
+}
+3120={
+	name=Qarria
+	female=yes
+	dynasty=1512
+	dna="knbpimdpgdp"
+	culture=tyroshi 
+	religion=trios
+	father=3113	#Ternesio
+	mother=3125	#Mera
+	6540.10.1={ birth=yes }
+	6590.4.5={ death=yes }
+}
+3121={
+	name=Roggo
+	dynasty=1512
+	dna="gecnlioaage"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=5 
+	learning=8
+	trait=greedy 
+	trait=zealous 
+	trait=patient 
+	trait=humble 
+	father=3114	#Ternesio
+	mother=3126	#S'vrone
+	6552.10.10={ birth=yes }
+	6621.10.8={ death=yes }
+}
+3122={
+	name=Narba
+	female=yes
+	dynasty=1512
+	dna="kljpopgfkkf"
+	culture=tyroshi 
+	religion=trios
+	father=3114	#Ternesio
+	mother=3126	#S'vrone
+	6555.5.12={ birth=yes }
+	6629.1.26={ death=yes }
+}
+3123={
+	name=Serra
+	female=yes
+	dynasty=1512
+	dna="pgkippgpbnl"
+	culture=tyroshi 
+	religion=trios
+	father=3114	#Ternesio
+	mother=3126	#S'vrone
+	6557.4.17={ birth=yes }
+	6608.9.14={ death=yes }
+}
+3124={
+	name=Ordello
+	dynasty=1512
+	dna="cblmbigahkm"
+	culture=tyroshi 
+	religion=trios
+	father=3114	#Ternesio
+	mother=3126	#S'vrone
+	6561.1.15={ birth=yes }
+	6619.4.20={ death=yes }
+}
+3125={
+	name=Mera
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6568.6.18={ death=yes }
+}
+3126={
+	name=S'vrone
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6525.8.12={ birth=yes }
+	6582.6.18={ death=yes }
+}
+
+####################
+### House Erminolo ###
+####################
+
+3127={
+	name=Ollo
+	dynasty=1504
+	dna="ajfeeanpjjc"
+	culture=tyroshi 
+	religion=trios
+	6500.8.4={ birth=yes }
+	6521.1.1={ add_spouse=3133 }
+	6550.5.3={ death=yes }
+}
+3128={
+	name=Meralyia
+	female=yes
+	dynasty=1504
+	dna="mnneeaajjjc"
+	culture=tyroshi 
+	religion=trios
+	father=3127	#Ollo
+	mother=3133	#Talea
+	6527.4.26={ birth=yes }
+	6591.9.24={ death=yes }
+}
+3129={
+	name=Gylenios
+	female=yes
+	dynasty=1504
+	dna="balceamcdoe"
+	culture=tyroshi 
+	religion=trios
+	father=3004
+	mother=3134	#Betharios
+	6546.1.3={ birth=yes }
+	6605.7.30={ death=yes }
+}
+3130={
+	name=Ordello
+	dynasty=1504
+	dna="aafnealaidh"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=7 
+	learning=5
+	trait=tough_soldier 
+	trait=proud 
+	trait=cruel 
+	trait=lustful 
+	trait=gluttonous 
+	father=3004
+	mother=3134	#Betharios
+	6549.12.17={ birth=yes }
+	6601.2.14={ death=yes }
+}
+3131={
+	name=Betharios
+	female=yes
+	dynasty=1504
+	dna="ihleoaipdom"
+	culture=tyroshi 
+	religion=trios
+	father=3004
+	mother=3134	#Betharios
+	6552.6.15={ birth=yes }
+	6603.9.13={ death=yes }
+}
+3132={
+	name=Moreo
+	dynasty=1504
+	dna="akgeeaicdoo"
+	culture=tyroshi 
+	religion=trios
+	trait=kind
+	father=3004
+	mother=3134	#Betharios
+	6556.4.2={ birth=yes }
+	6618.10.15={ death=yes }
+}
+3133={
+	name=Talea
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6550.6.18={ death=yes }
+}
+3134={
+	name=Betharios
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6524.8.12={ birth=yes }
+	6590.6.18={ death=yes }
+}
+
+####################
+### House Urzenhe ###
+####################
+
+3135={
+	name=Salassor
+	dynasty=1513
+	dna="cjoheikhlpb"
+	culture=tyroshi 
+	religion=trios
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=4 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=temperate 
+	trait=patient 
+	trait=paranoid 
+	trait=shy 
+	trait=just 
+	6499.7.20={ birth=yes }
+	6520.1.1={ add_spouse=3144 }
+	6567.5.19={ death=yes }
+}
+3136={
+	name=Collio
+	dynasty=1513
+	dna="cchmicfjdmg"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=5 
+	learning=7
+	trait=misguided_warrior 
+	trait=proud 
+	trait=gregarious 
+	father=3135	#Salassor
+	mother=3144	#Mysaria
+	6524.5.15={ birth=yes }
+	6545.1.1={ add_spouse=3145 }
+	6578.8.12={ death=yes }
+}
+3137={
+	name=Gylenios
+	female=yes
+	dynasty=1513
+	dna="phieelkobpb"
+	culture=tyroshi 
+	religion=trios
+	father=3135	#Salassor
+	mother=3144	#Mysaria
+	6527.9.6={ birth=yes }
+	6584.1.18={ death=yes }
+}
+3138={
+	name=Alia
+	female=yes
+	dynasty=1513
+	dna="jjfhlendkpb"
+	culture=tyroshi 
+	religion=trios
+	father=3135	#Salassor
+	mother=3144	#Mysaria
+	6531.3.9={ birth=yes }
+	6594.2.4={ death=yes }
+}
+3139={
+	name=Izembaro
+	dynasty=1513
+	dna="hjahackolpa"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=5 
+	learning=7
+	trait=detached_priest 
+	trait=chaste 
+	trait=cruel 
+	trait=zealous 
+	trait=craven 
+	father=3135	#Salassor
+	mother=3144	#Mysaria
+	6534.12.17={ birth=yes }
+	6587.10.15={ death=yes }
+}
+3140={
+	name=Allaquo
+	dynasty=1513
+	dna="cacmgcfcdla"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=7 
+	learning=7
+	trait=intricate_webweaver 
+	trait=diligent 
+	trait=paranoid 
+	trait=shy 
+	trait=depressed 
+	father=3136	#Collio
+	mother=3145	#Yorka
+	6550.2.22={ birth=yes }
+	6605.2.25={ death=yes }
+}
+3141={
+	name=Alia
+	female=yes
+	dynasty=1513
+	dna="jchmocfjpmg"
+	culture=tyroshi 
+	religion=trios
+	father=3136	#Collio
+	mother=3145	#Yorka
+	6555.12.17={ birth=yes }
+	6608.8.19={ death=yes }
+}
+3142={
+	name=Ternesia
+	female=yes
+	dynasty=1513
+	dna="ojhmkgfgdmc"
+	culture=tyroshi 
+	religion=trios
+	father=3136	#Collio
+	mother=3145	#Yorka
+	6559.7.22={ birth=yes }
+	6642.4.29={ death=yes }
+}
+3143={
+	name=Tagganaro
+	dynasty=1513
+	dna="mccpcefodmc"
+	culture=tyroshi 
+	religion=trios
+	father=3136	#Collio
+	mother=3145	#Yorka
+	6562.6.6={ birth=yes }
+	6627.2.13={ death=yes }
+}
+3144={
+	name=Mysaria
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6567.6.18={ death=yes }
+}
+3145={
+	name=Yorka
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6524.8.12={ birth=yes }
+	6578.6.18={ death=yes }
+}
+
+####################
+### House Lemelhe ###
+####################
+
+3146={
+	name=Tycho
+	dynasty=1514
+	dna="kjkffbbanob"
+	culture=tyroshi 
+	religion=trios
+	6499.12.19={ birth=yes }
+	6520.1.1={ add_spouse=3153 }
+	6547.10.30={ death=yes }
+}
+3147={
+	name=Ordello
+	dynasty=1514
+	dna="ajafjbealib"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=7 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=envious 
+	trait=cynical 
+	father=3146	#Tycho
+	mother=3153	#Lanna
+	6525.10.2={ birth=yes }
+	6546.1.1={ add_spouse=3154 }
+	6596.12.6={ death=yes }
+}
+3148={
+	name=Tregar
+	dynasty=1514
+	dna="djainnflbog"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=8 
+	learning=6
+	trait=martial_cleric 
+	trait=craven 
+	trait=slothful 
+	trait=temperate 
+	trait=shy 
+	trait=depressed 
+	father=3146	#Tycho
+	mother=3153	#Lanna
+	6529.9.24={ birth=yes }
+	6588.3.5={ death=yes }
+}
+3149={
+	name=Pynto
+	dynasty=1514
+	dna="fibljkkhlib"
+	culture=tyroshi 
+	religion=trios
+	martial=8 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=8 
+	learning=6
+	trait=scholar 
+	trait=temperate 
+	trait=shy 
+	trait=greedy 
+	trait=wounded 
+	father=3147	#Ordello
+	mother=3154	#Torma
+	6552.7.12={ birth=yes }
+	6598.10.27={ death=yes }
+}
+3150={
+	name=Rogga
+	female=yes
+	dynasty=1514
+	dna="ajodfmhalib"
+	culture=tyroshi 
+	religion=trios
+	father=3147	#Ordello
+	mother=3154	#Torma
+	6555.3.1={ birth=yes }
+	6625.1.9={ death=yes }
+}
+3151={
+	name=Tagganaria
+	female=yes
+	dynasty=1514
+	dna="aojfjbeainb"
+	culture=tyroshi 
+	religion=trios
+	father=3147	#Ordello
+	mother=3154	#Torma
+	6556.1.20={ birth=yes }
+	6618.7.4={ death=yes }
+}
+3152={
+	name=Orbelo
+	dynasty=1514
+	dna="adhfjleklap"
+	culture=tyroshi 
+	religion=trios
+	father=3147	#Ordello
+	mother=3154	#Torma
+	6560.10.5={ birth=yes }
+	6612.9.6={ death=yes }
+}
+3153={
+	name=Lanna
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6547.6.18={ death=yes }
+}
+3154={
+	name=Torma
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6525.8.12={ birth=yes }
+	6596.6.18={ death=yes }
+}
+
+####################
+### House Tracolo ###
+####################
+
+3155={
+	name=Yorko
+	dynasty=1515
+	dna="oiddonbhflh"
+	culture=tyroshi 
+	religion=trios
+	6500.9.7={ birth=yes }
+	6520.1.1={ add_spouse=3166 }
+	6551.1.19={ death=yes }
+}
+3156={
+	name=Lothea
+	female=yes
+	dynasty=1515
+	dna="hiddoibhfbl"
+	culture=tyroshi 
+	religion=trios
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6523.4.5={ birth=yes }
+	6588.6.26={ death=yes }
+}
+3157={
+	name=Cossomo
+	dynasty=1515
+	dna="oiaooobhjch"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=8 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=cruel 
+	trait=just 
+	trait=trusting 
+	trait=humble 
+	trait=greedy 
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6527.9.27={ birth=yes }
+	6548.1.1={ add_spouse=3167 }
+	6593.6.1={ death=yes }
+}
+3158={
+	name=Ternesia
+	female=yes
+	dynasty=1515
+	dna="oaddnnbjflk"
+	culture=tyroshi 
+	religion=trios
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6530.11.1={ birth=yes }
+	6598.5.6={ death=yes }
+}
+3159={
+	name=Terrios
+	female=yes
+	dynasty=1515
+	dna="oikdonghffc"
+	culture=tyroshi 
+	religion=trios
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6533.7.4={ birth=yes }
+	6567.6.26={ death=yes }
+}
+3160={
+	name=Pynto
+	dynasty=1515
+	dna="iiddongheld"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=7
+	trait=midas_touched 
+	trait=patient 
+	trait=temperate 
+	trait=paranoid 
+	trait=proud 
+	trait=cruel 
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6536.5.24={ birth=yes }
+	6596.10.15={ death=yes }
+}
+3161={
+	name=Bellegere
+	female=yes
+	dynasty=1515
+	dna="ciedondpafh"
+	culture=tyroshi 
+	religion=trios
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6541.7.14={ birth=yes }
+	6610.10.6={ death=yes }
+}
+3162={
+	name=Roggo
+	dynasty=1515
+	dna="oegdjbbaflh"
+	culture=tyroshi 
+	religion=trios
+	martial=7 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8 
+	learning=6
+	trait=mastermind_theologian 
+	trait=hedonist 
+	trait=content 
+	trait=patient 
+	trait=slothful 
+	trait=cruel 
+	trait=just 
+	trait=chaste 
+	father=3155	#Yorko
+	mother=3166	#Doreah
+	6544.12.18={ birth=yes }
+	6611.1.18={ death=yes }
+}
+3163={
+	name=Morosh
+	dynasty=1515
+	dna="ogajoomhdmh"
+	culture=tyroshi 
+	religion=trios
+	martial=5 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=misguided_warrior 
+	trait=diligent 
+	trait=paranoid 
+	trait=cynical 
+	trait=just 
+	father=3157	#Cossomo
+	mother=3167	#Ternesia
+	6549.4.20={ birth=yes }
+	6616.1.27={ death=yes }
+}
+3164={
+	name=Ordello
+	dynasty=1515
+	dna="okobpnenjei"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=4 
+	learning=4
+	trait=mystic 
+	trait=slothful 
+	trait=ambitious 
+	trait=gregarious 
+	father=3157	#Cossomo
+	mother=3167	#Ternesia
+	6552.3.10={ birth=yes }
+	6607.7.12={ death=yes }
+}
+3165={
+	name=Ollo
+	dynasty=1515
+	dna="oihogoihdgh"
+	culture=tyroshi 
+	religion=trios
+	trait=cynical 
+	trait=temperate 
+	father=3157	#Cossomo
+	mother=3167	#Ternesia
+	6556.10.19={ birth=yes }
+	6603.2.25={ death=yes }
+}
+3166={
+	name=Doreah
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6551.6.18={ death=yes }
+}
+3167={
+	name=Ternesia
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6523.8.12={ birth=yes }
+	6588.6.18={ death=yes }
+}
+
+####################
+### House Paviello ###
+####################
+
+3168={
+	name=Terro
+	dynasty=1516
+	dna="ecpjkldeeai"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=4 
+	learning=6
+	trait=mastermind_theologian 
+	trait=gregarious 
+	trait=arbitrary 
+	trait=kind 
+	trait=temperate 
+	trait=lustful 
+	trait=paranoid 
+	6499.9.3={ birth=yes }
+	6520.1.1={ add_spouse=3179 }
+	6572.11.18={ death=yes }
+}
+3169={
+	name=Pynto
+	dynasty=1516
+	dna="ehppkldkkac"
+	culture=tyroshi 
+	religion=trios
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=4
+	trait=martial_cleric 
+	trait=gluttonous 
+	trait=chaste 
+	trait=cruel 
+	father=3168	#Terro
+	mother=3179	#Torma
+	6520.4.26={ birth=yes }
+	6539.1.1={ add_spouse=3180 }
+	6567.9.15={ death=yes }
+}
+3170={
+	name=Rogga
+	female=yes
+	dynasty=1516
+	dna="eckiejpeeai"
+	culture=tyroshi 
+	religion=trios
+	father=3168	#Terro
+	mother=3179	#Torma
+	6523.8.1={ birth=yes }
+	6571.6.21={ death=yes }
+}
+3171={
+	name=Pynto
+	dynasty=1516
+	dna="lgpekldkkeo"
+	culture=tyroshi 
+	religion=trios
+	martial=6 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=4 
+	learning=7
+	trait=detached_priest 
+	trait=scholar 
+	trait=wroth 
+	trait=paranoid 
+	trait=just 
+	trait=deceitful 
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6540.5.8={ birth=yes }
+	6612.8.8={ death=yes }
+}
+3172={
+	name=Lucerre
+	female=yes
+	dynasty=1516
+	dna="kcmikldemac"
+	culture=tyroshi 
+	religion=trios
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6543.2.26={ birth=yes }
+	6604.7.15={ death=yes }
+}
+3173={
+	name=Terrios
+	female=yes
+	dynasty=1516
+	dna="khbpgfdkkgf"
+	culture=tyroshi 
+	religion=trios
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6548.9.10={ birth=yes }
+	6603.6.5={ death=yes }
+}
+3174={
+	name=Orbela
+	female=yes
+	dynasty=1516
+	dna="ehipoldjkif"
+	culture=tyroshi 
+	religion=trios
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6550.5.11={ birth=yes }
+	6592.12.28={ death=yes }
+}
+3175={
+	name=Rogga
+	female=yes
+	dynasty=1516
+	dna="edgiklhekag"
+	culture=tyroshi 
+	religion=trios
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6553.4.14={ birth=yes }
+	6614.5.6={ death=yes }
+}
+3176={
+	name=Thoros
+	dynasty=1516
+	dna="eppikldgkac"
+	culture=tyroshi 
+	religion=trios
+	trait=trusting 
+	trait=brave
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6554.10.19={ birth=yes }
+	6599.8.17={ death=yes }
+}
+3177={
+	name=Ternesio
+	dynasty=1516
+	dna="epdbkggokac"
+	culture=tyroshi 
+	religion=trios
+	trait=lunatic 
+	father=3169	#Pynto
+	mother=3180	#Qarria
+	6559.2.6={ birth=yes }
+	6605.1.18={ death=yes }
+}
+3178={
+	name=Noho
+	dynasty=1516
+	dna="lgpekngmkco"
+	culture=tyroshi 
+	religion=trios
+	father=3171	#Pynto
+	6564.6.14={ birth=yes }
+	6617.2.28={ death=yes }
+}
+3179={
+	name=Torma
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6500.8.12={ birth=yes }
+	6572.6.18={ death=yes }
+}
+3180={
+	name=Qarria
+	female=yes
+	culture=tyroshi 
+	religion=trios
+	6520.8.12={ birth=yes }
+	6567.6.18={ death=yes }
+}

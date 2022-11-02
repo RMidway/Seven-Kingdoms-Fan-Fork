@@ -1,0 +1,21 @@
+# c_tyrosh_harbour
+
+# County Title
+title = c_tyrosh_harbour
+
+# Settlements
+max_settlements = 4
+
+b_tyroshi_harbour = city
+b_temple_of_tyroshi_harbour = temple
+#b_tyroshi_harbour_2 = temple
+#b_tyroshi_harbour_3 = castle
+#b_tyroshi_harbour_4 = city
+#b_tyroshi_harbour_5 = temple
+#b_tyroshi_harbour_6 = castle
+
+# Misc
+culture = tyroshi
+religion = the_weeping_lady
+terrain = farmlands
+#History

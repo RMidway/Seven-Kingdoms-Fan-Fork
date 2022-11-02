@@ -1,0 +1,22 @@
+# c_burnt_woods
+
+# County Title
+title = c_burnt_woods
+
+# Settlements
+max_settlements = 4
+
+b_burnt_woods = castle
+#b_deadbush = city
+#b_sardoa = temple
+#b_burnt_woods_2 = castle
+
+# Misc
+culture = stonemen
+religion = old_gods
+terrain = mountain
+#History
+6300.1.1 = {
+	culture = stone_dornish
+    religion = the_seven
+}

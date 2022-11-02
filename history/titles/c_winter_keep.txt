@@ -1,0 +1,8 @@
+# e_beyond_the_wall
+5.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+	liege=k_winterhold
+}
+6524.1.1={holder=3827} #Varamyr[10102]
+6562.01.05={holder=3829} #Alfyn[10102]

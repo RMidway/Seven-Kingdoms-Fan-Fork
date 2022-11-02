@@ -1,0 +1,21 @@
+# c_bronze_bay
+
+# County Title
+title = c_bronze_bay
+
+# Settlements
+max_settlements = 3
+
+b_bronze_bay = castle
+#b_bronzhausen = city
+#b_bronze_bay_2 = temple
+
+# Misc
+culture = evenstar
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

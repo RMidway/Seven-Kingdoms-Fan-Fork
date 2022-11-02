@@ -1,0 +1,94 @@
+# Definitions of the dynamically defined modifiers by other elements such as special troops
+
+# TSK
+
+the_seven_group_church_opinion = {
+    show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+the_seven_group_opinion = {
+    show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+westerosi_pagan_group_opinion = {
+    show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+drowned_god_group_opinion = {
+    show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+eastern_pagan_group_opinion = {
+    show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+old_gods_beyond_white_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+lion_night_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+the_stranger_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+starry_wisdom_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+
+#
+
+infrastructure_cost_modifier = {
+	show_as_percent = yes
+	is_good = no
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+road_cost_modifier = {
+	show_as_percent = yes
+	is_good = no
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}

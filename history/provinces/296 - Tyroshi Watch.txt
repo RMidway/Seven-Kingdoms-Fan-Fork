@@ -1,0 +1,21 @@
+# c_tyroshi_watch
+
+# County Title
+title = c_tyroshi_watch
+
+# Settlements
+max_settlements = 2
+
+b_tyroshi_watch = castle
+b_new_watch = castle
+#b_tyroshi_watch_2 = temple
+#b_tyroshi_watch_3 = castle
+#b_tyroshi_watch_4 = city
+#b_tyroshi_watch_5 = temple
+#b_tyroshi_watch_6 = castle
+
+# Misc
+culture = tyroshi
+religion = the_weeping_lady
+terrain = farmlands
+#History

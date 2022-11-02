@@ -1,0 +1,3173 @@
+#####THE NORTH#####
+k_1 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+d_1 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_2 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_3 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_4 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_5 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_6 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_7 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_8 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_9 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_11 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_12 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_13 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_15 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_16 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_17 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_18 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_19 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_20 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_21 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_22 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_23 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_24 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_25 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_26 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_27 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_32 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_33 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_35 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_41 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_42 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_43 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_44 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_46 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_47 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_51 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_55 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_59 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE VALE#####
+e_180 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_138 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_140 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_151 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_152 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_156 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_157 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_160 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_162 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_165 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_166 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_169 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_172 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_173 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_174 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_175 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_176 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_177 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_178 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_179 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_180 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_181 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_182 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_185 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_186 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_189 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_190 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_191 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_192 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_193 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_194 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_196 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_197 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_199 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE RIVERLANDS#####
+c_200 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_201 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_202 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_204 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_205 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_206 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_207 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_208 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_209 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_210 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_213 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_215 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_216 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_220 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_221 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_222 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_223 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_224 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_228 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_230 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_232 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_233 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_234 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_235 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_237 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_241 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_242 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_243 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_244 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_245 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_246 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_248 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_252 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_253 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE IRON ISLANDS#####
+c_300 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_301 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_302 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_303 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_304 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_305 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_306 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_307 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_308 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_309 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_310 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_311 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_312 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_313 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_314 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_315 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_316 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_317 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_318 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_319 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_320 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_321 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####DORNE#####
+e_582 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_500 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_501 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_502 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_503 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_504 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_505 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_506 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_507 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_508 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_509 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_511 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_512 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_513 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_514 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_515 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_516 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_517 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_518 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_519 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_520 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_521 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_522 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_523 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_524 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_525 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_526 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_527 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_528 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_529 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_530 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_531 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_532 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_533 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_534 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_535 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_536 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_537 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_538 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_539 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_540 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_541 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_542 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_543 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_544 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_545 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_546 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_547 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_550 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_551 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_577 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_579 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_581 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_582 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE REACH#####
+e_604 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_600 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_602 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_603 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_604 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_606 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_607 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_608 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_609 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_610 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_611 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_612 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_613 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_614 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_615 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_616 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_617 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_618 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_619 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_621 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_622 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_623 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_625 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_626 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_627 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_629 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_630 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_632 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_634 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_635 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_636 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_637 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_638 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_639 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_640 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_642 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_643 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_644 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_645 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_646 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_647 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_648 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_649 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_650 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_651 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_652 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_653 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_654 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_655 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_656 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_657 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_658 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_659 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_660 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_661 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_662 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_663 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_666 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_667 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_669 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_671 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_672 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_673 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_674 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_675 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_676 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_680 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE WESTERLANDS#####
+k_700 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+d_700 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_700 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_701 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_702 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_703 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_704 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_705 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_706 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_707 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_711 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_712 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_713 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_714 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_715 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_716 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_717 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_718 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_719 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_720 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_721 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_722 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_723 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_724 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_725 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_726 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_727 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_728 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_729 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_730 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_731 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_732 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_733 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_734 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_735 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_736 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_737 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_738 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_739 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+
+c_741 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_756 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_757 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_758 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE STORMLANDS#####
+e_800 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+d_800 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_800 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_801 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_802 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_803 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_804 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_805 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_806 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_807 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_808 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_809 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_810 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_811 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_812 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_813 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_814 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_815 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_816 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_817 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_818 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_819 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_820 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_821 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_822 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_823 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_824 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_825 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_826 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_827 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_828 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_830 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_831 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_832 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_833 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_834 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_835 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_836 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE DUSKLANDS#####
+c_900 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_901 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_902 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_903 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_904 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_905 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_906 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_907 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_908 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_909 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_910 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_911 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_912 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_913 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_914 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_915 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_916 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_917 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_918 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_919 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_920 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_921 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_922 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_923 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_924 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_925 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_926 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_928 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_929 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_930 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_931 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_932 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####OTHERS#####
+c_1112 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1617 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1634 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1635 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####ANDAL KNIGHTS#####
+c_1801 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1802 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1803 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1804 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1805 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1806 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1807 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1808 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1809 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_1810 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#####THE CROWNLANDS#####
+c_10001 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10003 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10004 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10005 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10007 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10008 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10009 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10010 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10011 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10013 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10014 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10015 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10016 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10017 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10018 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10019 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_10029 = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}

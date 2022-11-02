@@ -1,0 +1,28 @@
+# c_the_shadow_town
+
+# County Title
+title = c_the_shadow_town
+
+# Settlements
+max_settlements = 4
+
+b_the_shadow_town = castle
+#b_the_shadow_town_2 = city
+#b_the_shadow_town_3 = temple
+#b_the_shadow_town_4 = castle
+#b_the_shadow_town_5 = city
+#b_the_shadow_town_6 = temple
+#b_the_shadow_town_7 = castle
+
+# Misc
+culture = spearmen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7298.1.1 = {
+	culture = salt_dornish
+}

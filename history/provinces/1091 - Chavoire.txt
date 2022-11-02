@@ -1,0 +1,24 @@
+# c_chavoire
+
+# County Title
+title = c_chavoire
+
+# Settlements
+max_settlements = 3
+
+b_chavoire = castle
+#b_terrossa = city
+#b_chavoire_2 = temple
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+    culture = bronzemen
+	religion = the_seven
+}
+6800.1.1 = {
+    culture = lowland_valemen
+}

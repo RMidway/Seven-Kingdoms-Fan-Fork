@@ -1,0 +1,21 @@
+# c_darkden
+
+# County Title
+title = c_darkden
+
+# Settlements
+max_settlements = 2
+
+b_darkden = castle
+#b_darkden_2 = city
+#b_darkden_3 = temple
+#b_darkden_4 = castle
+#b_darkden_5 = city
+#b_darkden_6 = temple
+#b_darkden_7 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

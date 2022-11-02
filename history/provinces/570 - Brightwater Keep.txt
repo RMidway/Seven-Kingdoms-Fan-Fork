@@ -1,0 +1,28 @@
+# c_brightwater_keep
+
+# County Title
+title = c_brightwater_keep
+
+# Settlements
+max_settlements = 6
+
+b_brightwater_keep = castle
+b_foxfeast = city
+#b_quicktrap = temple
+#b_puces = castle
+#b_stoepe = city
+#b_alestor_keep = temple
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+
+
+}
+6800.1.1 = {
+	culture = wynelander
+	religion = the_seven
+}

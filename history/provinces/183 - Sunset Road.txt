@@ -1,0 +1,21 @@
+# c_sunset_road
+
+# County Title
+title = c_sunset_road
+
+# Settlements
+max_settlements = 3
+
+b_sunset_road = castle
+#b_sunset_road_2 = city
+b_harvest_road = temple
+#b_sunset_road_3 = castle
+#b_sunset_road_4 = city
+#b_sunset_road_5 = temple
+#b_sunset_road_6 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = hills
+#History

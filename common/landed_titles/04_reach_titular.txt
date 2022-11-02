@@ -1,0 +1,50 @@
+k_starpike = {
+    color={ 191 132 91 }
+    color2={ 255 255 255 }
+
+    capital = 529
+   allow = {
+		num_of_duke_titles = 2
+		primary_title = { 
+		    title = c_starpike
+		}
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				 
+			}
+		}
+		# NOT = { has_dlc = "Charlemagne" }
+	}
+}
+
+k_the_first_men = {
+    color={ 40 77 45 }
+    color2={ 255 255 255 }
+    title = "REACH_RULER_E"
+    title_female = "REACH_RULER_E_F"
+    allow = {
+	ai = no
+    }
+}
+
+k_tumbleton = {
+    color={ 70 115 70 }
+    color2={ 255 255 255 }
+    title = "LORD_TITLE"
+    title_female = "LORD_TITLE_F"
+	capital = 619 # Tumbleton 
+    allow = {
+		num_of_duke_titles = 2
+		primary_title = { title = d_tumbleton }
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes
+				 
+			}
+		}
+		# NOT = { has_dlc = "Charlemagne" }
+	}
+}

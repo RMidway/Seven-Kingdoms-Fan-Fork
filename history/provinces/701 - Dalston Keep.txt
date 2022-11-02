@@ -1,0 +1,24 @@
+# c_dalston_keep
+
+# County Title
+title = c_dalston_keep
+
+# Settlements
+max_settlements = 3
+
+b_dalston_keep = castle
+#b_gensen = city
+#b_dalston_keep_2 = temple
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = hills
+#History
+6400.1.1 = {
+	culture = wendmen
+}
+7000.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

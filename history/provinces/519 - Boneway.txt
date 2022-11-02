@@ -1,0 +1,22 @@
+# c_boneway
+
+# County Title
+title = c_boneway
+
+# Settlements
+max_settlements = 4
+
+b_boneway_keep = castle
+b_strongbone = city
+#b_gods_teeth = temple
+#b_boneway = castle
+
+# Misc
+culture = bonemen
+religion = vulture_god
+terrain = plains
+#History
+6800.1.1 = {
+	culture = stone_dornish
+    religion = the_seven 
+}

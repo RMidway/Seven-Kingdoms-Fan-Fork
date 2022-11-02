@@ -1,0 +1,28 @@
+# c_castle_black
+
+# County Title
+title = c_castle_black
+
+# Settlements
+max_settlements = 7
+
+b_castle_black = castle
+b_black_central_keep = castle
+b_black_holdfast = castle
+b_black_gate = castle
+b_black_wall = castle
+b_black_corridor = castle
+b_black_fort = castle
+
+# Misc
+culture = northmen
+religion = old_gods
+terrain = hills
+#History
+30.1.1 = { 
+	build_wonder = wonder_castle_black
+	set_wonder_stage = 1
+}
+6000.1.1 = { 
+	set_wonder_stage = 2
+}

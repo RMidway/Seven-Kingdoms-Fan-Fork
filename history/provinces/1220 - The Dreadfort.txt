@@ -1,0 +1,29 @@
+# c_the_dreadfort
+
+# County Title
+title = c_the_dreadfort
+
+# Settlements
+max_settlements = 6
+
+b_the_dreadfort = castle
+b_curig = city
+b_caerleoq = temple
+#b_fishguard = castle
+#b_tyndrum = city
+#b_the_dreadfort_2 = temple
+
+# Misc
+culture = northmen
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+
+
+
+
+
+
+
+}

@@ -1,0 +1,21 @@
+# c_horsa
+
+# County Title
+title = c_horsa
+
+# Settlements
+max_settlements = 7
+
+b_zorzi = castle
+#b_zorzi_2 = city
+#b_zorzi_3 = temple
+#b_zorzi_4 = castle
+#b_zorzi_5 = city
+#b_zorzi_6 = temple
+#b_zorzi_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

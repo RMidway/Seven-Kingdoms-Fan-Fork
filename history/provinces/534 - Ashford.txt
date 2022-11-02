@@ -1,0 +1,23 @@
+# c_ashford
+
+# County Title
+title = c_ashford
+
+# Settlements
+max_settlements = 5
+
+b_ashford = castle
+b_cinderwatch = city
+b_blazekeep = castle
+#b_engis = castle
+#b_chanxhe = city
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = marcher
+    religion = the_seven
+}

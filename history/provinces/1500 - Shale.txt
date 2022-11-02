@@ -1,0 +1,18 @@
+# c_shale
+
+# County Title
+title = c_shale
+
+# Settlements
+max_settlements = 4
+
+b_shale = tribal
+#b_shale_2 = city
+#b_shale_3 = temple
+#b_shale_4 = castle
+
+# Misc
+culture = hill_clansmen
+religion = old_gods
+terrain = hills
+#History

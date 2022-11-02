@@ -1,0 +1,22 @@
+# c_belham
+
+# County Title
+title = c_belham
+
+# Settlements
+max_settlements = 4
+
+b_belham = castle
+#b_annenheim = city
+#b_drautendorf = temple
+#b_belham_2 = castle
+
+# Misc
+culture = gatesmen
+religion = old_gods
+terrain = hills
+#History
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

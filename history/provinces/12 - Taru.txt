@@ -1,0 +1,21 @@
+# c_taru
+
+# County Title
+title = c_taru
+
+# Settlements
+max_settlements = 7
+
+b_taru = castle
+#b_taru_2 = city
+#b_taru_3 = temple
+#b_taru_4 = castle
+#b_taru_5 = city
+#b_taru_6 = temple
+#b_taru_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

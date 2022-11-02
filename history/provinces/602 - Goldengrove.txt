@@ -1,0 +1,28 @@
+# c_goldengrove
+
+# County Title
+title = c_goldengrove
+
+# Settlements
+max_settlements = 6
+
+b_goldengrove = castle
+b_roua = temple
+b_dungen = city
+#b_boomkens = castle
+#b_sommelans = city
+#b_goldengrove_2 = temple
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+
+
+}
+6800.1.1 = {
+	culture = grovelander
+    religion = the_seven 
+}

@@ -1,0 +1,814 @@
+# tsk_missionary_evt.1 - Missionary Arrives on your doorstep, invite or turn away
+# tsk_missionary_evt.2 - Convert, ask them to leave or kill the missionary
+# tsk_missionary_evt.3 - Missionary returns with troops, fight or bribe
+# tsk_missionary_evt.4 - Missionary returns after bribe with even more men
+
+namespace = tsk_missionary_evt
+
+# A Missionary arrives
+
+character_event = {
+    id = tsk_missionary_evt.1
+    desc = EVTDESCTSK_MSS_EVT_1
+	picture = GFX_evt_bishop
+
+    trigger = {
+        can_change_religion = yes
+        
+        NOT = {
+            has_game_rule = {
+                name = missionary_system
+                value = missionary_system_disabled
+            }
+        }
+        
+        is_religion_spread_region_allowed_trigger = yes
+        
+        NOT = {
+            is_inaccessible_trigger = yes
+        }
+        
+        OR = {
+            any_demesne_title = { # Neighbouring province is foreign religion
+                any_neighbor_province = {
+                    OR = {
+                        AND = {
+                            NOT = { religion = ROOT }
+                            is_following_spreadable_religion_trigger = yes
+                        }
+                        owner = {
+                            NOT = { religion = ROOT }
+                            is_following_spreadable_religion_trigger = yes
+                        }
+                    }
+                }
+            }
+            any_demesne_title = { # Directly controlling foreign religion provinces
+                tier = count
+                
+                OR = {
+                    AND = {
+                        NOT = { religion = ROOT }
+                        is_following_spreadable_religion_trigger = yes
+                    }
+                    owner = {
+                        NOT = { religion = ROOT }
+                        is_following_spreadable_religion_trigger = yes
+                    }
+                }
+            }
+            any_vassal = { # Sends missionary to liege
+                NOR = {
+                    character = ROOT
+                    religion = ROOT
+                    trait = incapable
+                    is_inaccessible_trigger = yes
+                }
+            }
+        }
+    }
+    
+    # Rulers within diplo range can spread as a fallback.
+    # Neighbouring provinces and held provinces can spread even if their owner does not follow that religion.
+    immediate = {
+        random_province = { # Fallback
+            limit = {
+                owner = { is_within_diplo_range = ROOT }
+                owner = {
+                    NOR = { religion = ROOT }
+                    is_following_spreadable_religion_trigger = yes
+                }
+                is_following_spreadable_religion_trigger = yes
+            }
+            save_event_target_as = missionary_religion_from
+        }
+        random_demesne_province = {
+            limit = {
+                any_neighbor_province = {
+                    NOR = {
+                        owner = { character = ROOT }
+                        religion = ROOT
+                    }
+                    is_following_spreadable_religion_trigger = yes
+                } 
+            }
+            random_neighbor_province = {
+                limit = {
+                    NOR = {
+                        owner = {character = ROOT }
+                        religion = ROOT
+                    }
+                    is_following_spreadable_religion_trigger = yes
+                }
+                save_event_target_as = missionary_religion_from
+            }
+        }
+        random_vassal = {
+            limit = { NOT = { religion = ROOT } }
+            save_event_target_as = missionary_religion_from
+        }
+    }
+  
+    mean_time_to_happen = {
+        months = 180 # 15 Years
+        
+        modifier = {
+            factor = 1.5
+            has_game_rule = {
+                name = religious_conversion
+                value = slower
+            }
+        }
+        
+        modifier = {
+            factor = 1.5
+            religion_authority = 0.6
+        }
+        modifier = {
+            factor = 1.5
+            religion_authority = 0.7
+        }
+        modifier = {
+            factor = 1.5
+            religion_authority = 0.8
+        }
+        modifier = {
+            factor = 2.0
+            religion_authority = 0.9
+        }
+        
+        modifier = {
+            factor = 1.25
+            
+            is_resistant_religion_trigger = yes
+        }
+        
+        modifier = {
+            factor = 0.5
+            
+            NOT = { religion_authority = 0.2 }
+        }
+        modifier = {
+            factor = 0.75
+            
+            NOT = { religion_authority = 0.3 }
+        }
+        modifier = {
+            factor = 0.75
+            
+            NOT = { religion_authority = 0.4 }
+        }
+        modifier = {
+            factor = 0.75
+            
+            NOT = { religion_authority = 0.5 }
+        }
+        
+        modifier = {
+            factor = 0.75
+            
+            trait = cynical
+        }
+    }
+  
+    # Turn them away
+    option = {
+        name = EVTOPTTSK_MSS_EVT1a
+    
+        prestige = 25
+        piety = 25
+        
+        hidden_effect = {
+            random_list = {
+                30 = { }
+                70 = { character_event = { id = tsk_missionary_evt.3 } }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+            
+            modifier = {
+                factor = 1.5
+                trait = cynical
+                trait = wroth
+            }
+            modifier = {
+                factor = 5
+                trait = zealous
+                NOT = { trait = cruel}
+            }
+            modifier = {
+                factor = 1.5
+                trait = brave
+            }
+        }
+    }
+    
+    # Invite them in
+    option = {
+        name = EVTOPTTSK_MSS_EVT1b
+    
+        piety = -25
+    
+        character_event = { id = tsk_missionary_evt.2 }
+    
+        ai_chance = {
+            factor = 1
+            
+            modifier = {
+                factor = 3
+                trait = cynical
+            }
+            modifier = {
+                factor = 5
+                trait = zealous
+                trait = cruel
+            }
+            modifier = {
+                factor = 2
+                trait = arbitrary
+            }
+            modifier = {
+                factor = 2
+                trait = patient
+            }
+            modifier = {
+                factor = 0.5
+                trait = wroth
+            }
+        }
+    }
+}
+
+# Invited in
+
+character_event = {
+    id = tsk_missionary_evt.2
+    desc = EVTDESCTSK_MSS_EVT_2
+	picture = GFX_evt_bishop
+
+    is_triggered_only = yes
+
+    # Accept their offer (convert)
+    option = {
+        name = EVTOPTTSK_MSS_EVT2a
+        
+        prestige = -50
+        piety = -200
+        
+        event_target:missionary_religion_from = {
+            reverse_religion = ROOT
+        }
+        
+        ai_chance = {
+            factor = 1
+            
+            modifier = {
+                factor = 2
+                trait = cynical
+                trait = kind
+            }
+            modifier = {
+                factor = 2
+                trait = cynical
+                trait = patient
+            }
+            modifier = {
+                factor = 1.5
+                trait = cynical
+            }
+        }
+    }
+    # Decline their offer.
+    option = {
+        name = EVTOPTTSK_MSS_EVT2b
+        
+        piety = 100
+        
+        hidden_effect = {
+            random_list = {
+                50 = { }
+                50 = { character_event = { id = tsk_missionary_evt.3 } }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+            
+            modifier = {
+                factor = 2
+                trait = zealous
+                trait = kind
+            }
+            modifier = {
+                factor = 2
+                trait = zealous
+                trait = patient
+            }
+        }
+    }
+    # Have them killed (end chain)
+    option = {
+        name = EVTOPTTSK_MSS_EVT2c
+        
+        piety = 25
+        prestige = 100
+        
+        if = {
+            limit = {
+                trait = cruel
+            }
+            add_trait = heartless
+        }
+        
+        if = {
+            limit = {
+                trait = kind
+            }
+            remove_trait = kind
+        }
+        
+        if = {
+            limit = {
+                NOR = {
+                    trait = kind
+                    trait = heartless
+                    trait = cruel
+                }
+            }
+            add_trait = cruel
+        }
+        
+        ai_chance = {
+            factor = 1
+            
+            modifier = {
+                factor = 4
+                trait = zealous
+                trait = cruel
+            }
+            modifier = {
+                factor = 2
+                trait = zealous
+                trait = wroth
+            }
+            modifier = {
+                factor = 4
+                trait = cruel
+            }
+        }
+    }
+}
+
+# Returns with soldiers
+
+character_event = {
+    id = tsk_missionary_evt.3
+    desc = EVTDESCTSK_MSS_EVT_3
+	picture = GFX_evt_bishop
+
+    is_triggered_only = yes
+
+    # Accept their demands (forcefully convert, loss of prestige)
+    option = {
+        name = EVTOPTTSK_MSS_EVT3a
+        
+        prestige = -250
+        piety = -50
+        
+        event_target:missionary_religion_from = {
+            reverse_religion = ROOT
+        }
+    }
+    # Fight them
+    option = {
+        name = EVTOPTTSK_MSS_EVT3b
+        
+        piety = 50
+        prestige = 50
+        
+        character_event = { id = tsk_missionary_evt.4 }
+    }
+    # Pay them off with gold (chance of failure, take gold either way).
+    option = {
+        name = EVTOPTTSK_MSS_EVT3c
+        
+        scaled_wealth = -0.9
+        
+        piety = 50
+        prestige = -25
+
+        hidden_effect = {
+            random_list = {
+                95 = { }
+                5 = {
+                    character_event = { id = tsk_missionary_evt.4 }
+                    set_character_flag = bribe_offered
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.5
+                trait = greedy
+            }
+            modifier = {
+                factor = 4
+                OR = {
+                    trait = midas_touched
+                    trait = elusive_shadow
+                }
+            }
+            modifier = {
+                factor = 2
+                OR = {
+                    trait = intricate_webweaver
+                    trait = flamboyant_schemer
+                    trait = amateurish_plotter
+                    trait = fortune_builder
+                    trait = thrifty_clerk
+                    trait = indulgent_wastrel
+                }
+            }
+        }
+    }
+}
+
+character_event = {
+    id = tsk_missionary_evt.4
+    desc = EVTDESCTSK_MSS_EVT_4
+	picture = GFX_evt_bishop
+
+    is_triggered_only = yes
+
+    immediate = {
+        capital_scope = { # PREVPREV
+			location = {
+				create_character = {#leader
+					random_traits = yes
+					dynasty = none
+					religion = event_target:missionary_religion_from 
+					culture = ROOT
+					female = no
+					age = 25
+					attributes = {
+						martial = 5
+					}
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+
+				new_character = { #Leader
+					create_title = {
+						tier = DUKE
+						landless = yes
+						temporary = yes
+						rebel = yes
+						culture = ROOT
+						name = "PEASANT_REVOLT"
+						holder = THIS
+					}
+
+					wealth = 500
+					prestige = 100
+
+					#spawn_heretic_army_effect = yes
+					
+					#
+				spawn_unit = { #Leader's Unit
+					province = PREV
+					home = PREV
+					owner = THIS
+					leader = THIS
+					match_character = ROOT
+					match_mult = 0.2
+					#earmark = decadence_revolters
+					reinforces = yes
+					reinforce_rate_multiplier = 0.25
+					
+					#scaled_by_biggest_garrison = 1.0
+					#troops = {
+					#	archers = { 6 6 }
+					#	light_cavalry = { 4 4 }
+					#	light_infantry = { 10 10 }
+					#}
+					attrition = 1.0
+				}
+				create_character = {#Commander1
+					random_traits = yes
+					dynasty = none
+					religion = event_target:missionary_religion_from 
+					culture = ROOT
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+						spawn_unit = {#commander unit 1
+							province = PREVPREV
+							home = PREVPREV
+							owner = PREV
+							#leader = THIS
+							match_character = ROOT
+							match_mult = 0.2
+							attrition = 1.0
+							disband_on_peace = yes
+						}
+					}
+				#
+					if = {
+						limit = {
+							has_character_flag  = bribe_offered
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 23
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#Bribe revolters
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								#match_settlement = ROOT = {capital_holding}
+								match_mult = 0.1
+								attrition = 1.0
+								#disband_on_peace = yes
+							}
+						}
+						clr_character_flag = bribe_offered
+					}
+
+					if = {
+						limit = {
+							has_game_rule = {
+								name = provincial_revolt_strength
+								value = powerful
+							}
+						}
+						#spawn_heretic_army_effect = yes
+						create_character = {#Commander1
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 30
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#Bigger revolt army
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						wealth = 550
+					}
+
+					if = {
+						limit = {
+							has_game_rule = {
+								name = provincial_revolt_strength
+								value = very_powerful
+							}
+						}
+						#spawn_heretic_army_effect = yes
+						#spawn_heretic_army_effect = yes
+						#spawn_heretic_army_effect = yes
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 24
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#Very powerful 1
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 35
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#Very powerful 2
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 43
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#Very powerful 3
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+					
+						wealth = 650
+					}
+
+					if = {
+						limit = {
+							has_game_rule = {
+								name = provincial_revolt_strength
+								value = extremely_powerful
+							}
+						}
+						#spawn_heretic_army_effect = yes
+						#spawn_heretic_army_effect = yes
+						#spawn_heretic_army_effect = yes
+						#spawn_heretic_army_effect = yes
+						#spawn_heretic_army_effect = yes
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 23
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#extreme powerful 1
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 32
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#extreme powerful 2
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 54
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#extreme powerful 3
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 23
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#extreme powerful 4
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						create_character = {
+							random_traits = yes
+							dynasty = none
+							religion = event_target:missionary_religion_from 
+							culture = ROOT
+							female = no
+							age = 34
+							trait = peasant_leader
+							trait = tough_soldier
+						}
+						new_character = {
+							spawn_unit = {#extreme powerful 5
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								#leader = THIS
+								match_character = ROOT
+								match_mult = 0.1
+								attrition = 1.0
+								disband_on_peace = yes
+							}
+						}
+						
+						wealth = 750
+					}
+					
+					ROOT = { # THIS
+					  reverse_war = {
+						  target = PREV # Revolter
+						  casus_belli = peasant_revolt
+						  thirdparty_title = PREVPREV # Province
+					  }
+					  reverse_opinion = {
+						  who = PREV # Revolter
+						  modifier = opinion_evil_tyrant
+					  }
+					}
+				}
+			
+			}
+		}
+    }
+    
+    # Deal with it
+    option = {
+        name = EVTOPTTSK_MSS_EVT4a
+    }
+}

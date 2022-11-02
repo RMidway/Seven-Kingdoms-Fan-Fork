@@ -1,0 +1,21 @@
+# c_grattacasolo
+
+# County Title
+title = c_grattacasolo
+
+# Settlements
+max_settlements = 3
+
+b_grattacasolo = castle
+#b_grattacasolo_2 = city
+#b_grattacasolo_3 = temple
+#b_grattacasolo_4 = castle
+#b_grattacasolo_5 = city
+#b_grattacasolo_6 = temple
+#b_grattacasolo_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = hills
+#History

@@ -1,0 +1,431 @@
+############
+# ID RANGE #
+# 300-399  #
+############
+
+
+300=
+{
+	used_for_random=no
+	name="Greyjoy"
+	culture="pykem"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+301=
+{
+	used_for_random=no
+	name="Harlaw" #Grey Garden#
+	culture="harlawn"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+302=
+{
+	used_for_random=no
+	name="Harlaw" #Harlaw Hill#
+	culture="harlawn"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+303=
+{
+	used_for_random=no
+	name="Harlaw" #Harridan Hill / Hangmyre#
+	culture="harlawn"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+304=
+{
+	used_for_random=no
+	name="Harlaw" #Ten Towers#
+	culture="harlawn"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+305=
+{
+	used_for_random=no
+	name="Harlaw" #Tower of Glimm#
+	culture="harlawn"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+306=
+{
+	used_for_random=no
+	name="Merlyn"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+307=
+{
+	used_for_random=no
+	name="Goodbrother"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+308=
+{
+	used_for_random=no
+	name="Drumm"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+309=
+{
+	used_for_random=no
+	name="Farwynd"
+	culture="iron_islander"
+	religion="storm_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+310=
+{
+	used_for_random=no
+	name="Blacktyde"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+311=
+{
+	used_for_random=no
+    name="Hoare"
+    culture="iron_islander"
+    religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+312=
+{
+	used_for_random=no
+	name="Volmark"
+	culture="harlawn"
+	religion="storm_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+313=
+{
+	used_for_random=no
+	name="Codd"
+	culture="pykem"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+314=
+{
+	used_for_random=no
+	name="Botley"
+	culture="pykem"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+315=
+{
+	used_for_random=no
+	name="Stonehouse"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+316=
+{
+	used_for_random=no
+	name="Sparr"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+317=
+{
+	used_for_random=no
+	name="Wynch"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+318=
+{
+	used_for_random=no
+	name="Stonetree"
+	culture="harlawn"
+	religion="storm_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+319=
+{
+	used_for_random=no
+	name="Sunderly"
+	culture="harlawn"
+	religion="storm_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+320=
+{
+	used_for_random=no
+	name="Myre"
+	culture="pykem"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+321=
+{
+	used_for_random=no
+	name="Greyiron"
+	culture="iron_islander"
+	religion="drowned_god"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 18
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+322=
+{
+	used_for_random=no
+	name="Stonecape"
+	culture="iron_islander"
+	religion="drowned_god"
+}

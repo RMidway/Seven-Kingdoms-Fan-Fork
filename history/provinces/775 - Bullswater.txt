@@ -1,0 +1,22 @@
+# c_bullswater
+
+# County Title
+title = c_bullswater
+
+# Settlements
+max_settlements = 4
+
+b_bullswater = castle
+#b_ozero = city
+#b_videykyda = temple
+#b_bullswater_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

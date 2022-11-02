@@ -1,0 +1,21 @@
+# c_blue_grove
+
+# County Title
+title = c_blue_grove
+
+# Settlements
+max_settlements = 3
+
+b_blue_grove = castle
+#b_hadergab = city
+#b_blue_grove_2 = temple
+
+# Misc
+culture = rainlander
+religion = old_gods
+terrain = woods
+#History
+6500.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

@@ -1,0 +1,22 @@
+# c_lolliston
+
+# County Title
+title = c_lolliston
+
+# Settlements
+max_settlements = 4
+
+b_lolliston = castle
+b_ispoure = city
+#b_marqueoiex = temple
+#b_lolliston_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven 
+    culture = riverlander
+}

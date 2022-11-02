@@ -1,0 +1,21 @@
+# c_lightburg
+
+# County Title
+title = c_lightburg
+
+# Settlements
+max_settlements = 3
+
+b_lightburg = castle
+b_zingsheim = city
+#b_lightburg_2 = temple
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

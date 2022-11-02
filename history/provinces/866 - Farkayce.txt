@@ -1,0 +1,22 @@
+# c_farkayce
+
+# County Title
+title = c_farkayce
+
+# Settlements
+max_settlements = 4
+
+b_farkayce = castle
+#b_portikayce = city
+#b_landercoast = temple
+#b_farkayce_2 = castle
+
+# Misc
+culture = fairmen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

@@ -1,0 +1,23 @@
+# c_galemont
+
+# County Title
+title = c_galemont
+
+# Settlements
+max_settlements = 5
+
+b_galemont = castle
+#b_domnitz = city
+#b_ruderats = temple
+#b_galehofen = castle
+#b_galemont_2 = city
+
+# Misc
+culture = stormmen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = stormlander
+    religion = the_seven
+}

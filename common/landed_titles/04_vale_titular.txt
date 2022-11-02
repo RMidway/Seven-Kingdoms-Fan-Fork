@@ -1,0 +1,18 @@
+k_gulltown = {
+	color={ 74 54 36 }
+	allow = {
+		num_of_duke_titles = 2
+		primary_title = { 
+		    title = d_gulltown
+		}
+		custom_tooltip = {
+			text = TOOLTIPINDEPENDENTCONDITION
+			hidden_tooltip = {
+				independent = yes	 
+			}
+		}
+		# NOT = { has_dlc = "Charlemagne" }
+	}
+}
+
+

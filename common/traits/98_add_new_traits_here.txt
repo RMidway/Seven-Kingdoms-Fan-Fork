@@ -1,0 +1,1 @@
+# Add new traits here. They should later be added to 11_custom_traits.

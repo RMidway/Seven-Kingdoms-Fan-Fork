@@ -1,0 +1,22 @@
+# c_grassy_vale
+
+# County Title
+title = c_grassy_vale
+
+# Settlements
+max_settlements = 5
+
+b_grassy_vale = castle
+b_comlieu = city
+b_ybourgues = castle
+b_hundsbach = temple
+#b_parsange = city
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+    religion = the_seven
+}

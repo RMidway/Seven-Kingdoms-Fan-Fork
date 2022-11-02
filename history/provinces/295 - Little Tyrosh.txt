@@ -1,0 +1,33 @@
+# c_little_tyrosh
+
+# County Title
+title = c_little_tyrosh
+
+# Settlements
+max_settlements = 3
+
+b_little_tyrosh = city
+b_temple_of_little_tyrosh = temple
+#b_little_tyrosh_2 = temple
+#b_little_tyrosh_3 = castle
+#b_little_tyrosh_4 = city
+#b_little_tyrosh_5 = temple
+#b_little_tyrosh_6 = castle
+
+# Misc
+culture = tyroshi
+religion = the_weeping_lady
+terrain = farmlands
+#History
+6500.1.1 = {	
+
+
+
+
+
+
+
+
+
+
+}

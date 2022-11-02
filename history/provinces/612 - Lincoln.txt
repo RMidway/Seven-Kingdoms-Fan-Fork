@@ -1,0 +1,21 @@
+# c_lincoln
+
+# County Title
+title = c_lincoln
+
+# Settlements
+max_settlements = 3
+
+b_lincoln = castle
+#b_hazevind = city
+#b_havre = temple
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = reachmen
+    religion = the_seven
+}

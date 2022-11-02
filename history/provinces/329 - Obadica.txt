@@ -1,0 +1,21 @@
+# c_obadica
+
+# County Title
+title = c_obadica
+
+# Settlements
+max_settlements = 2
+
+b_obadica = castle
+#b_obadica_2 = city
+#b_obadica_3 = temple
+#b_obadica_4 = castle
+#b_obadica_5 = city
+#b_obadica_6 = temple
+#b_obadica_7 = castle
+
+# Misc
+culture = tyroshi
+religion = trios
+terrain = plains
+#History

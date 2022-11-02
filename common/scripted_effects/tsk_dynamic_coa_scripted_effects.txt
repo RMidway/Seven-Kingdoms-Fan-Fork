@@ -1,0 +1,1179 @@
+# -*- ck2.scripted_triggers -*-
+
+is_dynamic_coa = {
+	any_demesne_title = {
+		has_title_flag = is_dynamic_coa
+	}
+}
+	
+set_dynamic_coa = {
+####THE NORTH#####
+	if = { limit = { dynasty = 1 }
+		any_demesne_title = { set_coa = c_1 }
+	}
+	if = { limit = { dynasty = 2 }
+		any_demesne_title = { set_coa = c_2 }
+	}
+	if = { limit = { dynasty = 3 }
+		any_demesne_title = { set_coa = c_3 }
+	}
+	if = { limit = { dynasty = 4 }
+		any_demesne_title = { set_coa = c_4 }
+	}
+	if = { limit = { dynasty = 5 }
+		any_demesne_title = { set_coa = c_5 }
+	}
+	if = { limit = { dynasty = 6 }
+		any_demesne_title = { set_coa = c_6 }
+	}
+	if = { limit = { dynasty = 7 }
+		any_demesne_title = { set_coa = c_7 }
+	}
+	if = { limit = { dynasty = 8 }
+		any_demesne_title = { set_coa = c_8 }
+	}
+	if = { limit = { dynasty = 9 }
+		any_demesne_title = { set_coa = c_9 }
+	}
+	if = { limit = { dynasty = 10 }
+		any_demesne_title = { set_coa = c_10 }
+	}
+	if = { limit = { dynasty = 11 }
+		any_demesne_title = { set_coa = c_11 }
+	}
+	if = { limit = { dynasty = 12 }
+		any_demesne_title = { set_coa = c_12 }
+	}
+	if = { limit = { dynasty = 13 }
+		any_demesne_title = { set_coa = c_13 }
+	}
+	if = { limit = { dynasty = 15 }
+		any_demesne_title = { set_coa = c_15 }
+	}
+	if = { limit = { dynasty = 16 }
+		any_demesne_title = { set_coa = c_16 }
+	}
+	if = { limit = { dynasty = 17 }
+		any_demesne_title = { set_coa = c_17 }
+	}
+	if = { limit = { dynasty = 18 }
+		any_demesne_title = { set_coa = c_18 }
+	}
+	if = { limit = { dynasty = 19 }
+		any_demesne_title = { set_coa = c_19 }
+	}
+	if = { limit = { dynasty = 20 }
+		any_demesne_title = { set_coa = c_20 }
+	}
+	if = { limit = { dynasty = 21 }
+		any_demesne_title = { set_coa = c_21 }
+	}
+	if = { limit = { dynasty = 22 }
+		any_demesne_title = { set_coa = c_22 }
+	}
+	if = { limit = { dynasty = 23 }
+		any_demesne_title = { set_coa = c_23 }
+	}
+	if = { limit = { dynasty = 24 }
+		any_demesne_title = { set_coa = c_24 }
+	}
+	if = { limit = { dynasty = 25 }
+		any_demesne_title = { set_coa = c_25 }
+	}
+	if = { limit = { dynasty = 26 }
+		any_demesne_title = { set_coa = c_26 }
+	}
+	if = { limit = { dynasty = 27 }
+		any_demesne_title = { set_coa = c_27 }
+	}
+	if = { limit = { dynasty = 32 }
+		any_demesne_title = { set_coa = c_32 }
+	}
+	if = { limit = { dynasty = 33 }
+		any_demesne_title = { set_coa = c_33 }
+	}
+	if = { limit = { dynasty = 35 }
+		any_demesne_title = { set_coa = c_35 }
+	}
+	if = { limit = { dynasty = 41 }
+		any_demesne_title = { set_coa = c_41 }
+	}
+	if = { limit = { dynasty = 42 }
+		any_demesne_title = { set_coa = c_42 }
+	}
+	if = { limit = { dynasty = 43 }
+		any_demesne_title = { set_coa = c_43 }
+	}
+	if = { limit = { dynasty = 44 }
+		any_demesne_title = { set_coa = c_44 }
+	}
+	if = { limit = { dynasty = 46 }
+		any_demesne_title = { set_coa = c_46 }
+	}
+	if = { limit = { dynasty = 47 }
+		any_demesne_title = { set_coa = c_47 }
+	}
+	if = { limit = { dynasty = 51 }
+		any_demesne_title = { set_coa = c_51 }
+	}
+	if = { limit = { dynasty = 55 }
+		any_demesne_title = { set_coa = c_55 }
+	}
+	if = { limit = { dynasty = 59 }
+		any_demesne_title = { set_coa = c_59 }
+	}
+####THE VALE#####
+	if = { limit = { dynasty = 138 }
+		any_demesne_title = { set_coa = c_138 }
+	}
+	if = { limit = { dynasty = 140 }
+		any_demesne_title = { set_coa = c_140 }
+	}
+	if = { limit = { dynasty = 151 }
+		any_demesne_title = { set_coa = c_151 }
+	}
+	if = { limit = { dynasty = 152 }
+		any_demesne_title = { set_coa = c_152 }
+	}
+	if = { limit = { dynasty = 156 }
+		any_demesne_title = { set_coa = c_156 }
+	}
+	if = { limit = { dynasty = 157 }
+		any_demesne_title = { set_coa = c_157 }
+	}
+	if = { limit = { dynasty = 160 }
+		any_demesne_title = { set_coa = c_160 }
+	}
+	if = { limit = { dynasty = 162 }
+		any_demesne_title = { set_coa = c_162 }
+	}
+	if = { limit = { dynasty = 165 }
+		any_demesne_title = { set_coa = c_165 }
+	}
+	if = { limit = { dynasty = 166 }
+		any_demesne_title = { set_coa = c_166 }
+	}
+	if = { limit = { dynasty = 169 }
+		any_demesne_title = { set_coa = c_169 }
+	}
+	if = { limit = { dynasty = 172 }
+		any_demesne_title = { set_coa = c_172 }
+	}
+	if = { limit = { dynasty = 173 }
+		any_demesne_title = { set_coa = c_173 }
+	}
+	if = { limit = { dynasty = 174 }
+		any_demesne_title = { set_coa = c_174 }
+	}
+	if = { limit = { dynasty = 175 }
+		any_demesne_title = { set_coa = c_175 }
+	}
+	if = { limit = { dynasty = 176 }
+		any_demesne_title = { set_coa = c_176 }
+	}
+	if = { limit = { dynasty = 177 }
+		any_demesne_title = { set_coa = c_177 }
+	}
+	if = { limit = { dynasty = 178 }
+		any_demesne_title = { set_coa = c_178 }
+	}
+	if = { limit = { dynasty = 179 }
+		any_demesne_title = { set_coa = c_179 }
+	}
+	if = { limit = { dynasty = 180 }
+		any_demesne_title = { set_coa = c_180 }
+	}
+	if = { limit = { dynasty = 181 }
+		any_demesne_title = { set_coa = c_181 }
+	}
+	if = { limit = { dynasty = 182 }
+		any_demesne_title = { set_coa = c_182 }
+	}
+	if = { limit = { dynasty = 185 }
+		any_demesne_title = { set_coa = c_185 }
+	}
+	if = { limit = { dynasty = 186 }
+		any_demesne_title = { set_coa = c_186 }
+	}
+	if = { limit = { dynasty = 189 }
+		any_demesne_title = { set_coa = c_189 }
+	}
+	if = { limit = { dynasty = 190 }
+		any_demesne_title = { set_coa = c_190 }
+	}
+	if = { limit = { dynasty = 191 }
+		any_demesne_title = { set_coa = c_191 }
+	}
+	if = { limit = { dynasty = 192 }
+		any_demesne_title = { set_coa = c_192 }
+	}
+	if = { limit = { dynasty = 193 }
+		any_demesne_title = { set_coa = c_193 }
+	}
+	if = { limit = { dynasty = 194 }
+		any_demesne_title = { set_coa = c_194 }
+	}
+	if = { limit = { dynasty = 196 }
+		any_demesne_title = { set_coa = c_196 }
+	}
+	if = { limit = { dynasty = 197 }
+		any_demesne_title = { set_coa = c_197 }
+	}
+	if = { limit = { dynasty = 199 }
+		any_demesne_title = { set_coa = c_199 }
+	}
+	
+####THE RIVERLANDS#####
+	if = { limit = { dynasty = 200 }
+		any_demesne_title = { set_coa = c_200 }
+	}
+	if = { limit = { dynasty = 201 }
+		any_demesne_title = { set_coa = c_201 }
+	}
+	if = { limit = { dynasty = 202 }
+		any_demesne_title = { set_coa = c_202 }
+	}
+	if = { limit = { dynasty = 204 }
+		any_demesne_title = { set_coa = c_204 }
+	}
+	if = { limit = { dynasty = 205 }
+		any_demesne_title = { set_coa = c_205 }
+	}
+	if = { limit = { dynasty = 206 }
+		any_demesne_title = { set_coa = c_206 }
+	}
+	if = { limit = { dynasty = 207 }
+		any_demesne_title = { set_coa = c_207 }
+	}
+	if = { limit = { dynasty = 208 }
+		any_demesne_title = { set_coa = c_208 }
+	}
+	if = { limit = { dynasty = 209 }
+		any_demesne_title = { set_coa = c_209 }
+	}
+	if = { limit = { dynasty = 210 }
+		any_demesne_title = { set_coa = c_210 }
+	}
+	if = { limit = { dynasty = 213 }
+		any_demesne_title = { set_coa = c_213 }
+	}
+	if = { limit = { dynasty = 215 }
+		any_demesne_title = { set_coa = c_215 }
+	}
+	if = { limit = { dynasty = 216 }
+		any_demesne_title = { set_coa = c_216 }
+	}
+	if = { limit = { dynasty = 220 }
+		any_demesne_title = { set_coa = c_220 }
+	}
+	if = { limit = { dynasty = 221 }
+		any_demesne_title = { set_coa = c_221 }
+	}
+	if = { limit = { dynasty = 222 }
+		any_demesne_title = { set_coa = c_222 }
+	}
+	if = { limit = { dynasty = 223 }
+		any_demesne_title = { set_coa = c_223 }
+	}
+	if = { limit = { dynasty = 224 }
+		any_demesne_title = { set_coa = c_224 }
+	}
+	if = { limit = { dynasty = 228 }
+		any_demesne_title = { set_coa = c_228 }
+	}
+	if = { limit = { dynasty = 230 }
+		any_demesne_title = { set_coa = c_230 }
+	}
+	if = { limit = { dynasty = 232 }
+		any_demesne_title = { set_coa = c_232 }
+	}
+	if = { limit = { dynasty = 233 }
+		any_demesne_title = { set_coa = c_233 }
+	}
+	if = { limit = { dynasty = 234 }
+		any_demesne_title = { set_coa = c_234 }
+	}
+	if = { limit = { dynasty = 235 }
+		any_demesne_title = { set_coa = c_235 }
+	}
+	if = { limit = { dynasty = 237 }
+		any_demesne_title = { set_coa = c_237 }
+	}
+	if = { limit = { dynasty = 241 }
+		any_demesne_title = { set_coa = c_241 }
+	}
+	if = { limit = { dynasty = 242 }
+		any_demesne_title = { set_coa = c_242 }
+	}
+	if = { limit = { dynasty = 243 }
+		any_demesne_title = { set_coa = c_243 }
+	}
+	if = { limit = { dynasty = 244 }
+		any_demesne_title = { set_coa = c_244 }
+	}
+	if = { limit = { dynasty = 245 }
+		any_demesne_title = { set_coa = c_245 }
+	}
+	if = { limit = { dynasty = 246 }
+		any_demesne_title = { set_coa = c_246 }
+	}
+	if = { limit = { dynasty = 248 }
+		any_demesne_title = { set_coa = c_248 }
+	}
+	if = { limit = { dynasty = 252 }
+		any_demesne_title = { set_coa = c_252 }
+	}
+	if = { limit = { dynasty = 253 }
+		any_demesne_title = { set_coa = c_253 }
+	}
+####THE IRON ISLANDS#####
+	if = { limit = { dynasty = 300 }
+		any_demesne_title = { set_coa = c_300 }
+	}
+	if = { limit = { dynasty = 301 }
+		any_demesne_title = { set_coa = c_301 }
+	}
+	if = { limit = { dynasty = 302 }
+		any_demesne_title = { set_coa = c_302 }
+	}
+	if = { limit = { dynasty = 303 }
+		any_demesne_title = { set_coa = c_303 }
+	}
+	if = { limit = { dynasty = 304 }
+		any_demesne_title = { set_coa = c_304 }
+	}
+	if = { limit = { dynasty = 305 }
+		any_demesne_title = { set_coa = c_305 }
+	}
+	if = { limit = { dynasty = 306 }
+		any_demesne_title = { set_coa = c_306 }
+	}
+	if = { limit = { dynasty = 307 }
+		any_demesne_title = { set_coa = c_307 }
+	}
+	if = { limit = { dynasty = 308 }
+		any_demesne_title = { set_coa = c_308 }
+	}
+	if = { limit = { dynasty = 309 }
+		any_demesne_title = { set_coa = c_309 }
+	}
+	if = { limit = { dynasty = 310 }
+		any_demesne_title = { set_coa = c_310 }
+	}
+	if = { limit = { dynasty = 311 }
+		any_demesne_title = { set_coa = c_311 }
+	}
+	if = { limit = { dynasty = 312 }
+		any_demesne_title = { set_coa = c_312 }
+	}
+	if = { limit = { dynasty = 313 }
+		any_demesne_title = { set_coa = c_313 }
+	}
+	if = { limit = { dynasty = 314 }
+		any_demesne_title = { set_coa = c_314 }
+	}
+	if = { limit = { dynasty = 315 }
+		any_demesne_title = { set_coa = c_315 }
+	}
+	if = { limit = { dynasty = 316 }
+		any_demesne_title = { set_coa = c_316 }
+	}
+	if = { limit = { dynasty = 317 }
+		any_demesne_title = { set_coa = c_317 }
+	}
+	if = { limit = { dynasty = 318 }
+		any_demesne_title = { set_coa = c_318 }
+	}
+	if = { limit = { dynasty = 319 }
+		any_demesne_title = { set_coa = c_319 }
+	}
+	if = { limit = { dynasty = 320 }
+		any_demesne_title = { set_coa = c_320 }
+	}
+	if = { limit = { dynasty = 321 }
+		any_demesne_title = { set_coa = c_321 }
+	}
+####DORNE#####
+	if = { limit = { dynasty = 500 }
+		any_demesne_title = { set_coa = c_500 }
+	}
+	if = { limit = { dynasty = 501 }
+		any_demesne_title = { set_coa = c_501 }
+	}
+	if = { limit = { dynasty = 502 }
+		any_demesne_title = { set_coa = c_502 }
+	}
+	if = { limit = { dynasty = 503 }
+		any_demesne_title = { set_coa = c_503 }
+	}
+	if = { limit = { dynasty = 504 }
+		any_demesne_title = { set_coa = c_504 }
+	}
+	if = { limit = { dynasty = 505 }
+		any_demesne_title = { set_coa = c_505 }
+	}
+	if = { limit = { dynasty = 506 }
+		any_demesne_title = { set_coa = c_506 }
+	}
+	if = { limit = { dynasty = 507 }
+		any_demesne_title = { set_coa = c_507 }
+	}
+	if = { limit = { dynasty = 508 }
+		any_demesne_title = { set_coa = c_508 }
+	}
+	if = { limit = { dynasty = 509 }
+		any_demesne_title = { set_coa = c_509 }
+	}
+	if = { limit = { dynasty = 511 }
+		any_demesne_title = { set_coa = c_511 }
+	}
+	if = { limit = { dynasty = 512 }
+		any_demesne_title = { set_coa = c_512 }
+	}
+	if = { limit = { dynasty = 513 }
+		any_demesne_title = { set_coa = c_513 }
+	}
+	if = { limit = { dynasty = 514 }
+		any_demesne_title = { set_coa = c_514 }
+	}
+	if = { limit = { dynasty = 515 }
+		any_demesne_title = { set_coa = c_515 }
+	}
+	if = { limit = { dynasty = 516 }
+		any_demesne_title = { set_coa = c_516 }
+	}
+	if = { limit = { dynasty = 517 }
+		any_demesne_title = { set_coa = c_517 }
+	}
+	if = { limit = { dynasty = 518 }
+		any_demesne_title = { set_coa = c_518 }
+	}
+	if = { limit = { dynasty = 519 }
+		any_demesne_title = { set_coa = c_519 }
+	}
+	if = { limit = { dynasty = 520 }
+		any_demesne_title = { set_coa = c_520 }
+	}
+	if = { limit = { dynasty = 521 }
+		any_demesne_title = { set_coa = c_521 }
+	}
+	if = { limit = { dynasty = 522 }
+		any_demesne_title = { set_coa = c_522 }
+	}
+	if = { limit = { dynasty = 523 }
+		any_demesne_title = { set_coa = c_523 }
+	}
+	if = { limit = { dynasty = 524 }
+		any_demesne_title = { set_coa = c_524 }
+	}
+	if = { limit = { dynasty = 525 }
+		any_demesne_title = { set_coa = c_525 }
+	}
+	if = { limit = { dynasty = 526 }
+		any_demesne_title = { set_coa = c_526 }
+	}
+	if = { limit = { dynasty = 527 }
+		any_demesne_title = { set_coa = c_527 }
+	}
+	if = { limit = { dynasty = 528 }
+		any_demesne_title = { set_coa = c_528 }
+	}
+	if = { limit = { dynasty = 529 }
+		any_demesne_title = { set_coa = c_529 }
+	}
+	if = { limit = { dynasty = 530 }
+		any_demesne_title = { set_coa = c_530 }
+	}
+	if = { limit = { dynasty = 531 }
+		any_demesne_title = { set_coa = c_531 }
+	}
+	if = { limit = { dynasty = 532 }
+		any_demesne_title = { set_coa = c_532 }
+	}
+	if = { limit = { dynasty = 533 }
+		any_demesne_title = { set_coa = c_533 }
+	}
+	if = { limit = { dynasty = 534 }
+		any_demesne_title = { set_coa = c_534 }
+	}
+	if = { limit = { dynasty = 535 }
+		any_demesne_title = { set_coa = c_535 }
+	}
+	if = { limit = { dynasty = 536 }
+		any_demesne_title = { set_coa = c_536 }
+	}
+	if = { limit = { dynasty = 537 }
+		any_demesne_title = { set_coa = c_537 }
+	}
+	if = { limit = { dynasty = 538 }
+		any_demesne_title = { set_coa = c_538 }
+	}
+	if = { limit = { dynasty = 539 }
+		any_demesne_title = { set_coa = c_539 }
+	}
+	if = { limit = { dynasty = 540 }
+		any_demesne_title = { set_coa = c_540 }
+	}
+	if = { limit = { dynasty = 541 }
+		any_demesne_title = { set_coa = c_541 }
+	}
+	if = { limit = { dynasty = 542 }
+		any_demesne_title = { set_coa = c_542 }
+	}
+	if = { limit = { dynasty = 543 }
+		any_demesne_title = { set_coa = c_543 }
+	}
+	if = { limit = { dynasty = 544 }
+		any_demesne_title = { set_coa = c_544 }
+	}
+	if = { limit = { dynasty = 545 }
+		any_demesne_title = { set_coa = c_545 }
+	}
+	if = { limit = { dynasty = 546 }
+		any_demesne_title = { set_coa = c_546 }
+	}
+	if = { limit = { dynasty = 550 }
+		any_demesne_title = { set_coa = c_550 }
+	}
+	if = { limit = { dynasty = 551 }
+		any_demesne_title = { set_coa = c_551 }
+	}
+	if = { limit = { dynasty = 577 }
+		any_demesne_title = { set_coa = c_577 }
+	}
+	if = { limit = { dynasty = 579 }
+		any_demesne_title = { set_coa = c_579 }
+	}
+	if = { limit = { dynasty = 581 }
+		any_demesne_title = { set_coa = c_581 }
+	}
+	if = { limit = { dynasty = 582 }
+		any_demesne_title = { set_coa = c_582 }
+	}
+####THE REACH#####
+	if = { limit = { dynasty = 600 }
+		any_demesne_title = { set_coa = c_600 }
+	}
+	if = { limit = { dynasty = 602 }
+		any_demesne_title = { set_coa = c_602 }
+	}
+	if = { limit = { dynasty = 603 }
+		any_demesne_title = { set_coa = c_603 }
+	}
+	if = { limit = { dynasty = 604 }
+		any_demesne_title = { set_coa = c_604 }
+	}
+	if = { limit = { dynasty = 606 }
+		any_demesne_title = { set_coa = c_606 }
+	}
+	if = { limit = { dynasty = 607 }
+		any_demesne_title = { set_coa = c_607 }
+	}
+	if = { limit = { dynasty = 608 }
+		any_demesne_title = { set_coa = c_608 }
+	}
+	if = { limit = { dynasty = 609 }
+		any_demesne_title = { set_coa = c_609 }
+	}
+	if = { limit = { dynasty = 610 }
+		any_demesne_title = { set_coa = c_610 }
+	}
+	if = { limit = { dynasty = 611 }
+		any_demesne_title = { set_coa = c_611 }
+	}
+	if = { limit = { dynasty = 612 }
+		any_demesne_title = { set_coa = c_612 }
+	}
+	if = { limit = { dynasty = 613 }
+		any_demesne_title = { set_coa = c_613 }
+	}
+	if = { limit = { dynasty = 614 }
+		any_demesne_title = { set_coa = c_614 }
+	}
+	if = { limit = { dynasty = 615 }
+		any_demesne_title = { set_coa = c_615 }
+	}
+	if = { limit = { dynasty = 616 }
+		any_demesne_title = { set_coa = c_616 }
+	}
+	if = { limit = { dynasty = 617 }
+		any_demesne_title = { set_coa = c_617 }
+	}
+	if = { limit = { dynasty = 618 }
+		any_demesne_title = { set_coa = c_618 }
+	}
+	if = { limit = { dynasty = 619 }
+		any_demesne_title = { set_coa = c_619 }
+	}
+	if = { limit = { dynasty = 621 }
+		any_demesne_title = { set_coa = c_621 }
+	}
+	if = { limit = { dynasty = 622 }
+		any_demesne_title = { set_coa = c_622 }
+	}
+	if = { limit = { dynasty = 623 }
+		any_demesne_title = { set_coa = c_623 }
+	}
+	if = { limit = { dynasty = 625 }
+		any_demesne_title = { set_coa = c_625 }
+	}
+	if = { limit = { dynasty = 626 }
+		any_demesne_title = { set_coa = c_626 }
+	}
+	if = { limit = { dynasty = 627 }
+		any_demesne_title = { set_coa = c_627 }
+	}
+	if = { limit = { dynasty = 629 }
+		any_demesne_title = { set_coa = c_629 }
+	}
+	if = { limit = { dynasty = 630 }
+		any_demesne_title = { set_coa = c_630 }
+	}
+	if = { limit = { dynasty = 632 }
+		any_demesne_title = { set_coa = c_632 }
+	}
+	if = { limit = { dynasty = 634 }
+		any_demesne_title = { set_coa = c_634 }
+	}
+	if = { limit = { dynasty = 635 }
+		any_demesne_title = { set_coa = c_635 }
+	}
+	if = { limit = { dynasty = 636 }
+		any_demesne_title = { set_coa = c_636 }
+	}
+	if = { limit = { dynasty = 637 }
+		any_demesne_title = { set_coa = c_637 }
+	}
+	if = { limit = { dynasty = 638 }
+		any_demesne_title = { set_coa = c_638 }
+	}
+	if = { limit = { dynasty = 639 }
+		any_demesne_title = { set_coa = c_639 }
+	}
+	if = { limit = { dynasty = 640 }
+		any_demesne_title = { set_coa = c_640 }
+	}
+	if = { limit = { dynasty = 640 }
+		any_demesne_title = { set_coa = c_640 }
+	}
+	if = { limit = { dynasty = 642 }
+		any_demesne_title = { set_coa = c_642 }
+	}
+	if = { limit = { dynasty = 643 }
+		any_demesne_title = { set_coa = c_643 }
+	}
+	if = { limit = { dynasty = 644 }
+		any_demesne_title = { set_coa = c_644 }
+	}
+	if = { limit = { dynasty = 645 }
+		any_demesne_title = { set_coa = c_645 }
+	}
+	if = { limit = { dynasty = 646 }
+		any_demesne_title = { set_coa = c_646 }
+	}
+	if = { limit = { dynasty = 647 }
+		any_demesne_title = { set_coa = c_647 }
+	}
+	if = { limit = { dynasty = 648 }
+		any_demesne_title = { set_coa = c_648 }
+	}
+	if = { limit = { dynasty = 649 }
+		any_demesne_title = { set_coa = c_649 }
+	}
+	if = { limit = { dynasty = 650 }
+		any_demesne_title = { set_coa = c_650 }
+	}
+	if = { limit = { dynasty = 651 }
+		any_demesne_title = { set_coa = c_651 }
+	}
+	if = { limit = { dynasty = 652 }
+		any_demesne_title = { set_coa = c_652 }
+	}
+	if = { limit = { dynasty = 653 }
+		any_demesne_title = { set_coa = c_653 }
+	}
+	if = { limit = { dynasty = 654 }
+		any_demesne_title = { set_coa = c_654 }
+	}
+	if = { limit = { dynasty = 655 }
+		any_demesne_title = { set_coa = c_655 }
+	}
+	if = { limit = { dynasty = 656 }
+		any_demesne_title = { set_coa = c_656 }
+	}
+	if = { limit = { dynasty = 657 }
+		any_demesne_title = { set_coa = c_657 }
+	}
+	if = { limit = { dynasty = 658 }
+		any_demesne_title = { set_coa = c_658 }
+	}
+	if = { limit = { dynasty = 659 }
+		any_demesne_title = { set_coa = c_659 }
+	}
+	if = { limit = { dynasty = 660 }
+		any_demesne_title = { set_coa = c_660 }
+	}
+	if = { limit = { dynasty = 661 }
+		any_demesne_title = { set_coa = c_661 }
+	}
+	if = { limit = { dynasty = 662 }
+		any_demesne_title = { set_coa = c_662 }
+	}
+	if = { limit = { dynasty = 663 }
+		any_demesne_title = { set_coa = c_663 }
+	}
+	if = { limit = { dynasty = 666 }
+		any_demesne_title = { set_coa = c_666 }
+	}
+	if = { limit = { dynasty = 667 }
+		any_demesne_title = { set_coa = c_667 }
+	}
+	if = { limit = { dynasty = 669 }
+		any_demesne_title = { set_coa = c_669 }
+	}
+	if = { limit = { dynasty = 671 }
+		any_demesne_title = { set_coa = c_671 }
+	}
+	if = { limit = { dynasty = 672 }
+		any_demesne_title = { set_coa = c_672 }
+	}
+	if = { limit = { dynasty = 673 }
+		any_demesne_title = { set_coa = c_673 }
+	}
+	if = { limit = { dynasty = 674 }
+		any_demesne_title = { set_coa = c_674 }
+	}
+	if = { limit = { dynasty = 675 }
+		any_demesne_title = { set_coa = c_675 }
+	}
+	if = { limit = { dynasty = 676 }
+		any_demesne_title = { set_coa = c_676 }
+	}
+	if = { limit = { dynasty = 680 }
+		any_demesne_title = { set_coa = c_680 }
+	}
+####THE WESTERLANDS#####
+	if = { limit = { dynasty = 700 }
+		any_demesne_title = { set_coa = c_700 }
+	}
+	if = { limit = { dynasty = 701 }
+		any_demesne_title = { set_coa = c_701 }
+	}
+	if = { limit = { dynasty = 702 }
+		any_demesne_title = { set_coa = c_702 }
+	}
+	if = { limit = { dynasty = 703 }
+		any_demesne_title = { set_coa = c_703 }
+	}
+	if = { limit = { dynasty = 704 }
+		any_demesne_title = { set_coa = c_704 }
+	}
+	if = { limit = { dynasty = 705 }
+		any_demesne_title = { set_coa = c_705 }
+	}
+	if = { limit = { dynasty = 706 }
+		any_demesne_title = { set_coa = c_706 }
+	}
+	if = { limit = { dynasty = 707 }
+		any_demesne_title = { set_coa = c_707 }
+	}
+	if = { limit = { dynasty = 711 }
+		any_demesne_title = { set_coa = c_711 }
+	}
+	if = { limit = { dynasty = 712 }
+		any_demesne_title = { set_coa = c_712 }
+	}
+	if = { limit = { dynasty = 713 }
+		any_demesne_title = { set_coa = c_713 }
+	}
+	if = { limit = { dynasty = 714 }
+		any_demesne_title = { set_coa = c_714 }
+	}
+	if = { limit = { dynasty = 715 }
+		any_demesne_title = { set_coa = c_715 }
+	}
+	if = { limit = { dynasty = 716 }
+		any_demesne_title = { set_coa = c_716 }
+	}
+	if = { limit = { dynasty = 717 }
+		any_demesne_title = { set_coa = c_717 }
+	}
+	if = { limit = { dynasty = 718 }
+		any_demesne_title = { set_coa = c_718 }
+	}
+	if = { limit = { dynasty = 719 }
+		any_demesne_title = { set_coa = c_719 }
+	}
+	if = { limit = { dynasty = 720 }
+		any_demesne_title = { set_coa = c_720 }
+	}
+	if = { limit = { dynasty = 721 }
+		any_demesne_title = { set_coa = c_721 }
+	}
+	if = { limit = { dynasty = 722 }
+		any_demesne_title = { set_coa = c_722 }
+	}
+	if = { limit = { dynasty = 723 }
+		any_demesne_title = { set_coa = c_723 }
+	}
+	if = { limit = { dynasty = 724 }
+		any_demesne_title = { set_coa = c_724 }
+	}
+	if = { limit = { dynasty = 725 }
+		any_demesne_title = { set_coa = c_725 }
+	}
+	if = { limit = { dynasty = 726 }
+		any_demesne_title = { set_coa = c_726 }
+	}
+	if = { limit = { dynasty = 727 }
+		any_demesne_title = { set_coa = c_727 }
+	}
+	if = { limit = { dynasty = 728 }
+		any_demesne_title = { set_coa = c_728 }
+	}
+	if = { limit = { dynasty = 729 }
+		any_demesne_title = { set_coa = c_729 }
+	}
+	if = { limit = { dynasty = 730 }
+		any_demesne_title = { set_coa = c_730 }
+	}
+	if = { limit = { dynasty = 731 }
+		any_demesne_title = { set_coa = c_731 }
+	}
+	if = { limit = { dynasty = 732 }
+		any_demesne_title = { set_coa = c_732 }
+	}
+	if = { limit = { dynasty = 733 }
+		any_demesne_title = { set_coa = c_733 }
+	}
+	if = { limit = { dynasty = 734 }
+		any_demesne_title = { set_coa = c_734 }
+	}
+	if = { limit = { dynasty = 735 }
+		any_demesne_title = { set_coa = c_735 }
+	}
+	if = { limit = { dynasty = 736 }
+		any_demesne_title = { set_coa = c_736 }
+	}
+	if = { limit = { dynasty = 737 }
+		any_demesne_title = { set_coa = c_737 }
+	}
+	if = { limit = { dynasty = 738 }
+		any_demesne_title = { set_coa = c_738 }
+	}
+	if = { limit = { dynasty = 739 }
+		any_demesne_title = { set_coa = c_739 }
+	}
+	if = { limit = { dynasty = 756 }
+		any_demesne_title = { set_coa = c_756 }
+	}
+	if = { limit = { dynasty = 757 }
+		any_demesne_title = { set_coa = c_757 }
+	}
+	if = { limit = { dynasty = 758 }
+		any_demesne_title = { set_coa = c_758 }
+	}
+####THE STORMLANDS#####
+	if = { limit = { dynasty = 800 }
+		any_demesne_title = { set_coa = c_800 }
+	}
+	if = { limit = { dynasty = 801 }
+		any_demesne_title = { set_coa = c_801 }
+	}
+	if = { limit = { dynasty = 802 }
+		any_demesne_title = { set_coa = c_802 }
+	}
+	if = { limit = { dynasty = 803 }
+		any_demesne_title = { set_coa = c_803 }
+	}
+	if = { limit = { dynasty = 804 }
+		any_demesne_title = { set_coa = c_804 }
+	}
+	if = { limit = { dynasty = 805 }
+		any_demesne_title = { set_coa = c_805 }
+	}
+	if = { limit = { dynasty = 806 }
+		any_demesne_title = { set_coa = c_806 }
+	}
+	if = { limit = { dynasty = 807 }
+		any_demesne_title = { set_coa = c_807 }
+	}
+	if = { limit = { dynasty = 808 }
+		any_demesne_title = { set_coa = c_808 }
+	}
+	if = { limit = { dynasty = 809 }
+		any_demesne_title = { set_coa = c_809 }
+	}
+	if = { limit = { dynasty = 810 }
+		any_demesne_title = { set_coa = c_810 }
+	}
+	if = { limit = { dynasty = 811 }
+		any_demesne_title = { set_coa = c_811 }
+	}
+	if = { limit = { dynasty = 812 }
+		any_demesne_title = { set_coa = c_812 }
+	}
+	if = { limit = { dynasty = 813 }
+		any_demesne_title = { set_coa = c_813 }
+	}
+	if = { limit = { dynasty = 814 }
+		any_demesne_title = { set_coa = c_814 }
+	}
+	if = { limit = { dynasty = 815 }
+		any_demesne_title = { set_coa = c_815 }
+	}
+	if = { limit = { dynasty = 816 }
+		any_demesne_title = { set_coa = c_816 }
+	}
+	if = { limit = { dynasty = 817 }
+		any_demesne_title = { set_coa = c_817 }
+	}
+	if = { limit = { dynasty = 818 }
+		any_demesne_title = { set_coa = c_818 }
+	}
+	if = { limit = { dynasty = 819 }
+		any_demesne_title = { set_coa = c_819 }
+	}
+	if = { limit = { dynasty = 820 }
+		any_demesne_title = { set_coa = c_820 }
+	}
+	if = { limit = { dynasty = 821 }
+		any_demesne_title = { set_coa = c_821 }
+	}
+	if = { limit = { dynasty = 822 }
+		any_demesne_title = { set_coa = c_822 }
+	}
+	if = { limit = { dynasty = 823 }
+		any_demesne_title = { set_coa = c_823 }
+	}
+	if = { limit = { dynasty = 824 }
+		any_demesne_title = { set_coa = c_824 }
+	}
+	if = { limit = { dynasty = 825 }
+		any_demesne_title = { set_coa = c_825 }
+	}
+	if = { limit = { dynasty = 826 }
+		any_demesne_title = { set_coa = c_826 }
+	}
+	if = { limit = { dynasty = 827 }
+		any_demesne_title = { set_coa = c_827 }
+	}
+	if = { limit = { dynasty = 828 }
+		any_demesne_title = { set_coa = c_828 }
+	}
+	if = { limit = { dynasty = 830 }
+		any_demesne_title = { set_coa = c_830 }
+	}
+	if = { limit = { dynasty = 831 }
+		any_demesne_title = { set_coa = c_831 }
+	}
+	if = { limit = { dynasty = 832 }
+		any_demesne_title = { set_coa = c_832 }
+	}
+	if = { limit = { dynasty = 833 }
+		any_demesne_title = { set_coa = c_833 }
+	}
+	if = { limit = { dynasty = 834 }
+		any_demesne_title = { set_coa = c_834 }
+	}
+	if = { limit = { dynasty = 835 }
+		any_demesne_title = { set_coa = c_835 }
+	}
+	if = { limit = { dynasty = 836 }
+		any_demesne_title = { set_coa = c_836 }
+	}
+####THE DUSKLANDS#####
+	if = { limit = { dynasty = 900 }
+		any_demesne_title = { set_coa = c_900 }
+	}
+	if = { limit = { dynasty = 901 }
+		any_demesne_title = { set_coa = c_901 }
+	}
+	if = { limit = { dynasty = 902 }
+		any_demesne_title = { set_coa = c_902 }
+	}
+	if = { limit = { dynasty = 903 }
+		any_demesne_title = { set_coa = c_903 }
+	}
+	if = { limit = { dynasty = 904 }
+		any_demesne_title = { set_coa = c_904 }
+	}
+	if = { limit = { dynasty = 905 }
+		any_demesne_title = { set_coa = c_905 }
+	}
+	if = { limit = { dynasty = 906 }
+		any_demesne_title = { set_coa = c_906 }
+	}
+	if = { limit = { dynasty = 907 }
+		any_demesne_title = { set_coa = c_907 }
+	}
+	if = { limit = { dynasty = 908 }
+		any_demesne_title = { set_coa = c_908 }
+	}
+	if = { limit = { dynasty = 909 }
+		any_demesne_title = { set_coa = c_909 }
+	}
+	if = { limit = { dynasty = 910 }
+		any_demesne_title = { set_coa = c_910 }
+	}
+	if = { limit = { dynasty = 911 }
+		any_demesne_title = { set_coa = c_911 }
+	}
+	if = { limit = { dynasty = 912 }
+		any_demesne_title = { set_coa = c_912 }
+	}
+	if = { limit = { dynasty = 913 }
+		any_demesne_title = { set_coa = c_913 }
+	}
+	if = { limit = { dynasty = 914 }
+		any_demesne_title = { set_coa = c_914 }
+	}
+	if = { limit = { dynasty = 915 }
+		any_demesne_title = { set_coa = c_915 }
+	}
+	if = { limit = { dynasty = 916 }
+		any_demesne_title = { set_coa = c_916 }
+	}
+	if = { limit = { dynasty = 917 }
+		any_demesne_title = { set_coa = c_917 }
+	}
+	if = { limit = { dynasty = 918 }
+		any_demesne_title = { set_coa = c_918 }
+	}
+	if = { limit = { dynasty = 919 }
+		any_demesne_title = { set_coa = c_919 }
+	}
+	if = { limit = { dynasty = 920 }
+		any_demesne_title = { set_coa = c_920 }
+	}
+	if = { limit = { dynasty = 921 }
+		any_demesne_title = { set_coa = c_921 }
+	}
+	if = { limit = { dynasty = 922 }
+		any_demesne_title = { set_coa = c_922 }
+	}
+	if = { limit = { dynasty = 923 }
+		any_demesne_title = { set_coa = c_923 }
+	}
+	if = { limit = { dynasty = 924 }
+		any_demesne_title = { set_coa = c_924 }
+	}
+	if = { limit = { dynasty = 925 }
+		any_demesne_title = { set_coa = c_925 }
+	}
+	if = { limit = { dynasty = 926 }
+		any_demesne_title = { set_coa = c_926 }
+	}
+	if = { limit = { dynasty = 928 }
+		any_demesne_title = { set_coa = c_928 }
+	}
+	if = { limit = { dynasty = 929 }
+		any_demesne_title = { set_coa = c_929 }
+	}
+	if = { limit = { dynasty = 930 }
+		any_demesne_title = { set_coa = c_930 }
+	}
+	if = { limit = { dynasty = 931 }
+		any_demesne_title = { set_coa = c_931 }
+	}
+	if = { limit = { dynasty = 932 }
+		any_demesne_title = { set_coa = c_932 }
+	}
+####VALYRIAN AND ESSOSI ANDALS AND OTHERS####
+	if = { limit = { dynasty = 1112 }
+		any_demesne_title = { set_coa = c_1112 }
+	}
+	if = { limit = { dynasty = 1617 }
+		any_demesne_title = { set_coa = c_1617 }
+	}
+	if = { limit = { dynasty = 1634 }
+		any_demesne_title = { set_coa = c_1634 }
+	}
+	if = { limit = { dynasty = 1635 }
+		any_demesne_title = { set_coa = c_1635 }
+	}
+####ANDAL KNIGHTS#####
+	if = { limit = { dynasty = 1801 }
+		any_demesne_title = { set_coa = c_1801 }
+	}
+	if = { limit = { dynasty = 1802 }
+		any_demesne_title = { set_coa = c_1802 }
+	}
+	if = { limit = { dynasty = 1803 }
+		any_demesne_title = { set_coa = c_1803 }
+	}
+	if = { limit = { dynasty = 1804 }
+		any_demesne_title = { set_coa = c_1804 }
+	}
+	if = { limit = { dynasty = 1805 }
+		any_demesne_title = { set_coa = c_1805 }
+	}
+	if = { limit = { dynasty = 1806 }
+		any_demesne_title = { set_coa = c_1806 }
+	}
+	if = { limit = { dynasty = 1807 }
+		any_demesne_title = { set_coa = c_1807 }
+	}
+	if = { limit = { dynasty = 1808 }
+		any_demesne_title = { set_coa = c_1808 }
+	}
+	if = { limit = { dynasty = 1809 }
+		any_demesne_title = { set_coa = c_1809 }
+	}
+	if = { limit = { dynasty = 1810 }
+		any_demesne_title = { set_coa = c_1810 }
+	}
+####THE CROWNLANDS#####
+	if = { limit = { dynasty = 10001 }
+		any_demesne_title = { set_coa = c_10001 }
+	}
+	if = { limit = { dynasty = 10003 }
+		any_demesne_title = { set_coa = c_10003 }
+	}
+	if = { limit = { dynasty = 10004 }
+		any_demesne_title = { set_coa = c_10004 }
+	}
+	if = { limit = { dynasty = 10005 }
+		any_demesne_title = { set_coa = c_10005 }
+	}
+	if = { limit = { dynasty = 10007 }
+		any_demesne_title = { set_coa = c_10007 }
+	}
+	if = { limit = { dynasty = 10008 }
+		any_demesne_title = { set_coa = c_10008 }
+	}
+	if = { limit = { dynasty = 10009 }
+		any_demesne_title = { set_coa = c_10009 }
+	}
+	if = { limit = { dynasty = 10010 }
+		any_demesne_title = { set_coa = c_10010 }
+	}
+	if = { limit = { dynasty = 10011 }
+		any_demesne_title = { set_coa = c_10011 }
+	}
+	if = { limit = { dynasty = 10013 }
+		any_demesne_title = { set_coa = c_10013 }
+	}
+	if = { limit = { dynasty = 10014 }
+		any_demesne_title = { set_coa = c_10014 }
+	}
+	if = { limit = { dynasty = 10015 }
+		any_demesne_title = { set_coa = c_10015 }
+	}
+	if = { limit = { dynasty = 10016 }
+		any_demesne_title = { set_coa = c_10016 }
+	}
+	if = { limit = { dynasty = 10017 }
+		any_demesne_title = { set_coa = c_10017 }
+	}
+	if = { limit = { dynasty = 10018 }
+		any_demesne_title = { set_coa = c_10018 }
+	}
+	if = { limit = { dynasty = 10019 }
+		any_demesne_title = { set_coa = c_10019 }
+	}
+	if = { limit = { dynasty = 10029 }
+		any_demesne_title = { set_coa = c_10029 }
+	}
+	
+}

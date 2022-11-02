@@ -1,0 +1,22 @@
+# c_morbach
+
+# County Title
+title = c_morbach
+
+# Settlements
+max_settlements = 4
+
+b_morbach = castle
+#b_theuern = city
+#b_lerchenfeld = temple
+#b_morbach_2 = castle
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = plains
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

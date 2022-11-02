@@ -1,0 +1,20 @@
+# c_nastbukt
+
+# County Title
+title = c_nastbukt
+
+# Settlements
+max_settlements = 3
+
+b_nastbukt = castle
+#b_dalbygda = city
+#b_nastbukt_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = mountain_clansmen
+}

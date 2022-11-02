@@ -1,0 +1,20 @@
+# c_mountainton
+
+# County Title
+title = c_mountainton
+
+# Settlements
+max_settlements = 3
+
+b_mountainton = castle
+#b_giraud = city
+#b_mountainton_2 = temple
+
+# Misc
+culture = crabmen
+religion = old_gods
+terrain = marsh
+#History
+6800.1.1 = {
+    religion = the_seven 
+}

@@ -1,0 +1,7 @@
+# e_the_north
+1.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+	liege=d_flint_cliffs
+}
+6560.1.1={holder=278}

@@ -1,0 +1,22 @@
+# c_wiggham
+
+# County Title
+title = c_wiggham
+
+# Settlements
+max_settlements = 4
+
+b_wiggham = castle
+b_juslenville = city
+#b_stalken = temple
+#b_wiggham_2 = castle
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = plains
+#History
+6554.1.1 = {
+	culture = reachmen
+	religion = the_seven
+}

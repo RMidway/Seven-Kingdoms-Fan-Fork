@@ -1,0 +1,2022 @@
+		      ###############
+		      #   ID RANGE  #
+		      # 75001-80000 #
+		      ###############
+			  
+		#######################
+		#### House Redwyne ####
+		#######################
+	
+75001 = {
+    name = "Line of Paxter"
+    dynasty = 600 # Redwyne
+    father = 1201
+	occluded = yes
+    religion = the_seven
+    culture = wynelander
+
+    6610.1.1 = { birth = yes }
+    7150.1.1 = { death = yes }
+}
+
+75002 = {
+    name = "Addam" ### Lord of the Arbor
+    dynasty = 600 # Redwyne
+    father = 75001
+
+	trait = knight
+	trait = dueling_skilled
+	
+    religion = the_seven
+    culture = wynelander
+
+    7150.1.1 = { birth = yes }
+    7188.1.1 = { death = { death_reason = death_battle } }
+}
+
+75003 = {
+    name = "Esme" 
+    dynasty = 600 # Redwyne
+    father = 75002
+	female = yes
+    religion = the_seven
+    culture = wynelander
+
+    7167.1.1 = { birth = yes }
+    7222.1.1 = { death = yes }
+}
+
+75004 = {
+    name = "Ector" ### Lord of the Arbor
+    dynasty = 600 # Redwyne
+    father = 75002
+	
+	trait = knight
+	trait = just
+	trait = dueling_novice
+	trait = charitable
+		
+    religion = the_seven
+    culture = wynelander
+
+    7167.1.1 = { birth = yes }
+	7188.1.1 = { give_nickname = nick_the_young_vine }
+    7217.1.1 = { death = { death_reason = death_murder } }
+}
+
+75005 = {
+    name = "Mordred"
+    dynasty = 600 # Redwyne
+    father = 75002
+	
+	trait = heartless
+	trait = deceitful
+	trait = envious
+	
+    religion = the_seven
+    culture = wynelander
+
+    7167.1.1 = { birth = yes }
+    7220.1.1 = { death = { death_reason = death_execution_wine } }
+}
+
+75006 = {
+    name = "Cliffyrd" ### Lord of the Arbor
+    dynasty = 600 # Redwyne
+    father = 75005
+	
+	trait = knight
+	trait = dueling_master
+		
+    religion = the_seven
+    culture = wynelander
+
+    7190.1.1 = { birth = yes }
+    7253.1.1 = { death = yes }
+}
+
+75007 = {
+    name = "Cleyton" 
+    dynasty = 600 # Redwyne
+    father = 75005
+	
+	trait = septon
+	trait = martial_cleric
+	trait = zealous
+	trait = ambitious
+		
+    religion = the_seven
+    culture = wynelander
+
+    7193.1.1 = { birth = yes }
+	7222.1.1 = { give_nickname = nick_the_cleric }
+    7244.1.1 = { death = yes }
+}
+
+75008 = {
+    name = "Cymoril" 
+    dynasty = 600 # Redwyne
+    father = 75005
+	
+	female = yes
+		
+    religion = the_seven
+    culture = wynelander
+
+    7194.1.1 = { birth = yes }
+    7216.1.1 = { death = { death_reason = death_rabble } }
+}
+
+75009 = {
+    name = "Elvira" 
+    dynasty = 600 # Redwyne
+    father = 75006
+	
+	female = yes
+	trait = kind
+	trait = trusting
+	trait = honest
+	trait = honourable
+	trait = humble
+	trait = charitable
+		
+    religion = the_seven
+    culture = wynelander
+
+    7213.1.1 = { birth = yes }
+    7270.1.1 = { death = yes }
+}
+
+75010 = {
+    name = "Anastasia" 
+    dynasty = 600 # Redwyne
+    father = 75006
+	
+	female = yes
+	trait = lustful
+	trait = hedonist
+	trait = ambitious
+	trait = heartless
+	trait = sociopath
+		
+    religion = the_seven
+    culture = wynelander
+
+    7215.1.1 = { birth = yes }
+    7266.1.1 = { death = yes }
+}
+
+75011 = {
+    name = "Runceford" ### Lord of the Arbor
+    dynasty = 600 # Redwyne
+    father = 75006
+	
+	trait = knight
+	trait = dueling_skilled
+		
+    religion = the_seven
+    culture = wynelander
+
+    7218.1.1 = { birth = yes }
+    7280.1.1 = { death = yes }
+}
+
+75012 = {
+    name = "Reymund" 
+    dynasty = 600 # Redwyne
+    father = 75006
+	
+	trait = knight
+	trait = dueling_expert
+		
+    religion = the_seven
+    culture = wynelander
+
+    7221.1.1 = { birth = yes }
+    7264.1.1 = { death = { death_reason = death_battle } }
+}
+
+75013 = {
+    name = "Orton" 
+    dynasty = 600 # Redwyne
+    father = 75012
+	
+	trait = knight
+	trait = dueling_adept
+		
+    religion = the_seven
+    culture = wynelander
+
+    7247.1.1 = { birth = yes }
+    7304.1.1 = { death = { death_reason = death_battle } }
+}
+
+75014 = {
+    name = "Lyonel" 
+    dynasty = 600 # Redwyne
+    father = 75012
+		
+    religion = the_seven
+    culture = wynelander
+
+    7250.1.1 = { birth = yes }
+    7308.1.1 = { death = yes }
+}
+
+75015 = {
+    name = "Maege" 
+    dynasty = 600 # Redwyne
+    father = 75012
+		
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+
+    7253.1.1 = { birth = yes }
+    7300.1.1 = { death = yes }
+}
+
+75016 = {
+    name = "Harlen" 
+    dynasty = 600 # Redwyne
+    father = 75013
+	
+	trait = knight
+	trait = dueling_skilled
+		
+    religion = the_seven
+    culture = wynelander
+
+    7270.1.1 = { birth = yes }
+    7322.1.1 = { death = yes }
+}
+
+75017 = {
+    name = "Talla" 
+    dynasty = 600 # Redwyne
+    father = 75013
+	
+	female = yes
+		
+    religion = the_seven
+    culture = wynelander
+
+    7274.1.1 = { birth = yes }
+    7330.1.1 = { death = yes }
+}
+
+75018 = {
+    name = "Titus" ### Lord of the Arbor
+    dynasty = 600 # Redwyne
+    father = 75011
+	
+	trait = skilled_tactician
+	trait = knight
+	trait = dueling_novice
+	trait = tall
+	trait = slothful
+	trait = just
+	trait = zealous
+	trait = ambitious
+	trait = infirm
+		
+    religion = the_seven
+    culture = wynelander
+
+    7240.1.1 = { birth = yes }
+	7240.1.1 = { give_nickname = nick_the_titan }
+    7304.1.1 = { death = yes }
+}
+
+75019 = {
+    name = "Garibald" 
+    dynasty = 600 # Redwyne
+    father = 75011
+	
+	trait = knight
+	trait = dueling_expert
+	trait = envious
+	trait = quick
+		
+    religion = the_seven
+    culture = wynelander
+
+    7244.1.1 = { birth = yes }
+    7302.1.1 = { death = yes }
+}
+
+75020 = {
+    name = "Bethany" 
+    dynasty = 600 # Redwyne
+    father = 75011
+	
+	female = yes
+	health = 15
+		
+    religion = the_seven
+    culture = wynelander
+	
+    7249.1.1 = { birth = yes }
+    7322.1.1 = { death = yes }
+}
+
+75021 = {
+    name = "Ceryse" ### Daughter of Lord Titus
+    dynasty = 600 # Redwyne
+    father = 75018
+		
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+
+    7270.1.1 = { birth = yes }
+    7327.1.1 = { death = yes }
+}
+
+75022 = {
+    name = "Syrella" ### Daughter of Lord Titus
+    dynasty = 600 # Redwyne
+    father = 75018
+		
+	female = yes	
+		
+    religion = the_seven
+    culture = wynelander
+
+    7272.1.1 = { birth = yes }
+    7320.1.1 = { death = yes }
+}
+
+75023 = {
+    name = "Sabitha" ### Daughter of Lord Titus
+    dynasty = 600 # Redwyne
+    father = 75018
+		
+	female = yes	
+		
+    religion = the_seven
+    culture = wynelander
+
+    7273.1.1 = { birth = yes }
+    7330.1.1 = { death = yes }
+}
+
+75024 = {
+    name = "Willas" ### Son and Heir of Lord Titus
+    dynasty = 600 # Redwyne
+    father = 75018
+		
+	trait = knight
+	trait = tall
+	trait = brave
+	trait = just
+	trait = content
+	trait = patient
+	trait = fair
+	trait = tough_soldier
+	trait = dueling_expert
+		
+    religion = the_seven
+    culture = wynelander
+
+    7275.1.1 = { birth = yes }
+    7340.1.1 = { death = yes }
+}
+
+75025 = {
+    name = "Robb" ### Son of Lord Titus
+    dynasty = 600 # Redwyne
+    father = 75018
+		
+	trait = dueling_master
+	trait = knight
+		
+    religion = the_seven
+    culture = wynelander
+
+    7276.1.1 = { birth = yes }
+    7330.1.1 = { death = yes }
+}
+
+		#########################
+		#### House Hightower ####
+		#########################
+
+75026 = {
+    name = "Line of Triston"
+    dynasty = 602 # Hightower
+    occluded = yes
+	father = 1208
+
+    religion = the_seven
+    culture = wynelander
+
+    6615.1.1 = { birth = yes }
+	7175.1.1 = { death = yes }
+}
+
+75027 = {
+    name = "Morgil" ### Lord of Oldtown
+    dynasty = 602 # Hightower
+    father = 75026
+	
+	trait = knight
+	trait = dueling_skilled
+
+    religion = the_seven
+    culture = wynelander
+
+    7175.1.1 = { birth = yes }
+	7227.1.1 = { death = yes }
+}
+
+75028 = {
+    name = "Hectyr" 
+    dynasty = 602 # Hightower
+    father = 75027
+	
+	trait = knight
+	trait = dueling_skilled
+
+    religion = the_seven
+    culture = wynelander
+
+    7195.1.1 = { birth = yes }
+	7217.1.1 = { death = { death_reason = death_battle } }
+}
+
+75029 = {
+    name = "Erren" 
+    dynasty = 602 # Hightower
+    father = 75027
+	
+	trait = knight
+	trait = dueling_adept
+
+    religion = the_seven
+    culture = wynelander
+
+    7198.1.1 = { birth = yes }
+	7217.1.1 = { death = { death_reason = death_battle } }
+}
+
+75030 = {
+    name = "Nestor" 
+    dynasty = 602 # Hightower
+    father = 75027
+	
+	trait = knight
+	trait = dueling_master
+
+    religion = the_seven
+    culture = wynelander
+
+    7200.1.1 = { birth = yes }
+	7217.1.1 = { death = { death_reason = death_battle } }
+}
+
+75031 = {
+    name = "Alison" 
+    dynasty = 602 # Hightower
+    father = 75029
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    7214.1.1 = { birth = yes }
+	7273.1.1 = { death = yes }
+}
+
+75032 = {
+    name = "Mace" ### Lord of Oldtown
+    dynasty = 602 # Hightower
+    father = 75029
+	
+	trait = knight
+	trait = dueling_adept
+	trait = just
+	trait = kind
+	trait = patient
+	trait = diligent
+
+    religion = the_seven
+    culture = wynelander
+
+    7216.1.1 = { birth = yes }
+	7290.1.1 = { death = yes }
+}
+
+75033 = {
+    name = "Alekyne" 
+    dynasty = 602 # Hightower
+    father = 75032
+	
+	trait = knight
+	trait = dueling_master
+	trait = fair
+
+    religion = the_seven
+    culture = wynelander
+
+    7232.1.1 = { birth = yes }
+	7289.1.1 = { death = yes }
+}
+
+75034 = {
+    name = "Lucas" 
+    dynasty = 602 # Hightower
+    father = 75032
+
+    religion = the_seven
+    culture = wynelander
+
+    7234.1.1 = { birth = yes }
+	7286.1.1 = { death = yes }
+}
+
+75035 = {
+    name = "Lynesse" 
+    dynasty = 602 # Hightower
+    father = 75032
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+
+    7235.1.1 = { birth = yes }
+	7290.1.1 = { death = yes }
+}
+
+75036 = {
+    name = "Erryk" 
+    dynasty = 602 # Hightower
+    father = 75032
+	
+	trait = knight
+	trait = dueling_skilled
+	
+    religion = the_seven
+    culture = wynelander
+
+    7235.1.1 = { birth = yes }
+	7270.1.1 = { death = { death_reason = death_battle } }
+}
+
+75037 = {
+    name = "Joy" 
+    dynasty = 602 # Hightower
+    father = 75034
+	
+	female = yes
+	trait = twin
+    religion = the_seven
+    culture = wynelander
+
+    7260.1.1 = { birth = yes }
+	7309.1.1 = { death = yes }
+}
+
+75038 = {
+    name = "Ellana" 
+    dynasty = 602 # Hightower
+    father = 75034
+	
+	female = yes
+	trait = twin
+    religion = the_seven
+    culture = wynelander
+
+    7260.1.1 = { birth = yes }
+	7318.1.1 = { death = yes }
+}
+
+75039 = {
+    name = "Marge" 
+    dynasty = 602 # Hightower
+    father = 75033
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    7250.1.1 = { birth = yes }
+	7312.1.1 = { death = yes }
+}
+
+75040 = {
+    name = "Jon" ### Lord of Oldtown
+    dynasty = 602 # Hightower
+    father = 75033
+	
+	trait = knight
+	trait = dueling_skilled
+
+    religion = the_seven
+    culture = wynelander
+
+    7252.1.1 = { birth = yes }
+	7292.1.1 = { death = { death_reason = death_murder } }
+}
+
+75041 = {
+    name = "Nestor" 
+    dynasty = 602 # Hightower
+    father = 75033
+	
+	trait = knight
+	trait = dueling_adept
+
+    religion = the_seven
+    culture = wynelander
+
+    7253.1.1 = { birth = yes }
+	7292.1.1 = { death = { death_reason = death_murder } }
+}
+
+75042 = {
+    name = "Abelar" 
+    dynasty = 602 # Hightower
+    father = 75040
+	
+	trait = knight
+	trait = dueling_adept
+	trait = just
+	trait = quick
+	trait = midas_touched
+
+    religion = the_seven
+    culture = wynelander
+
+    7272.1.1 = { birth = yes }
+	7292.1.1 = { death = { death_reason = death_murder } }
+}
+
+75043 = {
+    name = "Lynae" ### Lady of the Hightower
+    dynasty = 602 # Hightower
+    father = 75040
+	
+	dna = "bbfchohagcmaggdfwcnvs"
+	properties = "vt0eid"
+	
+	female = yes
+	trait = kind
+	trait = humble
+	trait = patient
+	trait = trusting
+	trait = charismatic_negotiator
+	trait = fair
+
+    religion = the_seven
+    culture = wynelander
+
+    7274.1.1 = { birth = yes }
+	7295.1.1 = {
+		add_matrilineal_spouse = 70006 # Maron Martell
+	}
+	7331.1.1 = { death = yes }
+}
+
+75044 = {
+    name = "Maelora"
+    dynasty = 602 # Hightower
+    father = 75040
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    7276.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+75045 = {
+    name = "Helaena"
+    dynasty = 602 # Hightower
+    father = 75040
+	
+	female = yes
+	
+	trait = cruel
+	trait = ambitious
+	trait = envious
+	trait = proud
+	trait = greedy
+	trait = flamboyant_schemer
+
+    religion = the_seven
+    culture = wynelander
+
+    7278.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+75046 = {
+    name = "Arys" ### Son and Heir of Lady Lynae
+    dynasty = 602 # Hightower
+    mother = 75043 # Lynae Hightower
+	father = 70006 # Maron Martell
+
+	trait = quick
+	health = 8
+
+    religion = the_seven
+    culture = wynelander
+
+    7297.1.1 = { birth = yes }
+	7352.1.1 = { death = yes }
+}
+
+75047 = {
+    name = "Lydia" 
+    dynasty = 602 # Hightower
+    father = 75041
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    7273.1.1 = { birth = yes }
+	7330.1.1 = { death = yes }
+}
+
+75048 = {
+    name = "Janna" 
+    dynasty = 602 # Hightower
+    father = 75041
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    7275.1.1 = { birth = yes }
+	7338.1.1 = { death = yes }
+}
+
+75049 = {
+    name = "Cassandra" 
+    dynasty = 602 # Hightower
+    father = 75041
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    7278.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+		##########################
+		#### House Pommingham ####
+		##########################
+	
+75050 = {
+    name = "Line of Androw" 
+    dynasty = 667 # Pommingham
+    father = 4133
+
+	occluded = yes
+
+    religion = the_seven
+    culture = wynelander
+
+    6614.6.11 = { birth = yes }
+	7225.1.1 = { death = yes }
+}	
+
+75051 = {
+    name = "Petyr" ### Ser of the Grey Garden
+    dynasty = 667 # Pommingham
+    father = 75050
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = knight
+	trait = dueling_skilled
+
+    7225.1.1 = { birth = yes }
+	7291.1.1 = { death = yes }
+}		
+		
+75052 = {
+    name = "Hector" ### Ser of the Grey Garden
+    dynasty = 667 # Pommingham
+    father = 75051
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = knight
+	trait = dueling_adept
+	trait = greedy
+	trait = ambitious
+	trait = twin
+
+    7250.1.1 = { birth = yes }
+	7307.1.1 = { death = yes }
+}	
+
+75053 = {
+    name = "Jaxon" 
+    dynasty = 667 # Pommingham
+    father = 75051
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = septon
+	trait = martial_cleric
+	trait = zealous
+	trait = chaste
+	trait = twin
+	learning = 7
+
+    7250.1.1 = { birth = yes }
+	7311.1.1 = { death = yes }
+}	
+
+75054 = {
+    name = "Hectyr" 
+    dynasty = 667 # Pommingham
+    father = 75052
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = knight
+	trait = dueling_expert
+	trait = fair
+	trait = brave
+	trait = gregarious
+	trait = skilled_tactician
+
+    7277.1.1 = { birth = yes }
+	7344.1.1 = { death = yes }
+}
+
+75055 = {
+    name = "Jason" 
+    dynasty = 667 # Pommingham
+    father = 75052
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = dueling_novice
+
+    7278.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}
+
+75056 = {
+    name = "Mya" 
+    dynasty = 667 # Pommingham
+    father = 75052
+
+    religion = the_seven
+    culture = wynelander
+
+	female = yes
+
+    7278.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}
+
+		########################
+		#### House Costayne ####
+		########################
+		
+75057 = {
+    name = "Line of Arthur" 
+    dynasty = 621 # Costayne
+    father = 1301
+
+    religion = the_seven
+    culture = wynelander
+
+	occluded = yes
+
+    6613.8.4 = { birth = yes }
+	7200.1.1 = { death = yes }
+}
+	
+75058 = {
+    name = "Bryen" ### Lord of the Three Towers
+    dynasty = 621 # Costayne
+    father = 75057
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = knight
+	trait = dueling_adept
+
+    7200.1.1 = { birth = yes }
+	7261.1.1 = { death = yes }
+}	
+		
+75059 = {
+    name = "Cersei" 
+    dynasty = 621 # Costayne
+    father = 75058
+
+    religion = the_seven
+    culture = wynelander
+
+	female = yes
+
+    7224.1.1 = { birth = yes }
+	7277.1.1 = { death = yes }
+}		
+		
+75060 = {
+    name = "Arwyn" 
+    dynasty = 621 # Costayne
+    father = 75058
+
+    religion = the_seven
+    culture = wynelander
+
+	female = yes
+
+    7225.1.1 = { birth = yes }
+	7283.1.1 = { death = yes }
+}	
+		
+75061 = {
+    name = "Martyn" ### Lord of the Three Towers
+    dynasty = 621 # Costayne
+    father = 75058
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = knight
+	trait = dueling_skilled
+
+    7228.1.1 = { birth = yes }
+	7290.1.1 = { death = yes }
+}	
+
+75062 = {
+    name = "Jason" 
+    dynasty = 621 # Costayne
+    father = 75058
+
+    religion = the_seven
+    culture = wynelander
+
+
+    7230.1.1 = { birth = yes }
+	7279.1.1 = { death = yes }
+}		
+
+75063 = {
+    name = "Harrold" ### Lord of the Three Towers
+    dynasty = 621 # Costayne
+    father = 75061
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = knight
+	trait = dueling_novice
+	trait = genius
+	trait = midas_touched
+	trait = temperate
+	trait = humble
+	trait = trusting
+	trait = ambitious
+
+    7250.1.1 = { birth = yes }
+	7308.1.1 = { death = yes }
+}	
+
+75064 = {
+    name = "Alys" 
+    dynasty = 621 # Costayne
+    father = 75061
+
+    religion = the_seven
+    culture = wynelander
+	
+	female = yes
+
+    7255.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}	
+
+75065 = {
+    name = "Meredyth" 
+    dynasty = 621 # Costayne
+    father = 75061
+
+    religion = the_seven
+    culture = wynelander
+	
+	female = yes
+
+    7258.1.1 = { birth = yes }
+	7317.1.1 = { death = yes }
+}
+
+75066 = {
+    name = "Erryk" 
+    dynasty = 621 # Costayne
+    father = 75061
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = dueling_expert
+	trait = knight
+
+    7259.1.1 = { birth = yes }
+	7306.1.1 = { death = yes }
+}
+
+75067 = {
+    name = "Simon" 
+    dynasty = 621 # Costayne
+    father = 75066
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = dueling_adept
+	trait = knight
+	trait = kind
+	trait = tough_soldier
+
+    7279.1.1 = { birth = yes }
+	7344.1.1 = { death = yes }
+}
+
+75068 = {
+    name = "Tommen" ### Son of Lord Harrold
+    dynasty = 621 # Costayne
+    father = 75063
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = septon
+	trait = zealous
+	trait = martial_cleric
+	trait = ambitious
+
+    7272.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}	
+
+75069 = {
+    name = "Garrett" ### Son and Heir of Lord Harrold
+    dynasty = 621 # Costayne
+    father = 75063
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = knight
+	trait = dueling_skilled
+	trait = lustful
+
+    7274.1.1 = { birth = yes }
+	7333.1.1 = { death = yes }
+}	
+
+		#######################
+		#### House Ambrose ####
+		#######################
+		
+75070 = {
+    name = "Line of Ambrose" 
+    dynasty = 669 # Ambrose
+    father = 4143
+
+    religion = the_seven
+    culture = wynelander
+
+	occluded = yes
+
+    6626.6.30 = { birth = yes }
+	7240.1.1 = { death = yes }
+}
+
+75071 = {
+    name = "Arthur" 
+    dynasty = 669 # Ambrose
+    father = 75070
+
+    religion = the_seven
+    culture = wynelander
+
+	trait = tall
+	trait = knight
+	trait = dueling_master
+	trait = skilled_tactician
+	trait = brave
+	trait = diligent
+	trait = patient
+	martial = 7
+	trait = honest
+
+    7240.1.1 = { birth = yes }
+	7306.1.1 = { death = yes }
+}
+
+75072 = {
+    name = "Aubrey" 
+    dynasty = 669 # Ambrose
+    father = 75071
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = knight
+	trait = dueling_legend
+	trait = strong
+	trait = wroth
+	trait = brave
+	trait = ambitious
+	trait = tough_soldier
+	martial = 7
+
+    7264.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+75073 = {
+    name = "Alyn" 
+    dynasty = 669 # Ambrose
+    father = 75071
+
+    religion = the_seven
+    culture = wynelander
+	
+	trait = weak
+	trait = dwarf
+
+    7267.1.1 = { birth = yes }
+	7301.1.1 = { death = yes }
+}
+
+		###################
+		#### House Cuy ####
+		###################
+
+75074 = {
+    name = "Line of Alester" 
+    dynasty = 619 # Cuy
+    father = 1291
+	
+	occluded = yes
+
+    religion = the_seven
+    culture = wynelander
+	
+    6610.7.23 = { birth = yes }
+	7200.1.1 = { death = yes }
+}	
+	
+75075 = {
+    name = "Corliss" ### Lord of Sun House
+    dynasty = 619 # Cuy
+    father = 75074
+	
+	trait = knight
+	trait = dueling_adept
+
+    religion = the_seven
+    culture = wynelander
+	
+    7200.1.1 = { birth = yes }
+	7257.1.1 = { death = yes }
+}	
+
+75076 = {
+    name = "Colin" ### Lord of Sun House
+    dynasty = 619 # Cuy
+    father = 75075
+	
+	trait = knight
+	trait = dueling_expert
+
+    religion = the_seven
+    culture = wynelander
+	
+    7217.1.1 = { birth = yes }
+	7280.1.1 = { death = yes }
+}	
+
+75077 = {
+    name = "Emmon" ### Current TSK Lord of Sun House
+    dynasty = 619 # Cuy
+    father = 75076
+	
+	trait = knight
+	trait = dueling_novice
+
+    religion = the_seven
+    culture = wynelander
+	
+    7240.1.1 = { birth = yes }
+	7302.1.1 = { death = yes }
+}
+
+75078 = {
+    name = "Selyse" 
+    dynasty = 619 # Cuy
+    father = 75076
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+	
+    7238.1.1 = { birth = yes }
+	7295.1.1 = { death = yes }
+}
+
+75079 = {
+    name = "Robin" 
+    dynasty = 619 # Cuy
+    father = 75076
+	
+	trait = septon
+	trait = mastermind_theologian
+	trait = zealous
+	trait = chaste
+	trait = humble
+	trait = just
+	learning = 8
+	health = 12
+
+    religion = the_seven
+    culture = wynelander
+	
+    7241.1.1 = { birth = yes }
+	7327.1.1 = { death = yes }
+}
+
+75080 = {
+    name = "Mordane" 
+    dynasty = 619 # Cuy
+    father = 75077
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+	
+    7264.1.1 = { birth = yes }
+	7320.1.1 = { death = yes }
+}
+
+75081 = {
+    name = "Talla" 
+    dynasty = 619 # Cuy
+    father = 75077
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+	
+    7265.1.1 = { birth = yes }
+	7323.1.1 = { death = yes }
+}
+
+75082 = {
+    name = "Victor" ### Son and Heir to Lord Emmon 
+    dynasty = 619 # Cuy
+    father = 75077
+	
+	trait = knight
+	trait = dueling_skilled
+
+    religion = the_seven
+    culture = wynelander
+	
+    7267.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}
+
+75083 = {
+    name = "Ronnel" 
+    dynasty = 619 # Cuy
+    father = 75082
+	
+	trait = dueling_adept
+
+    religion = the_seven
+    culture = wynelander
+	
+    7287.1.1 = { birth = yes }
+	7342.1.1 = { death = yes }
+}
+
+75084 = {
+    name = "Marissa" 
+    dynasty = 619 # Cuy
+    father = 75082
+	
+	female = yes
+
+    religion = the_seven
+    culture = wynelander
+	
+    7288.1.1 = { birth = yes }
+	7330.1.1 = { death = yes }
+}
+
+75085 = {
+    name = "Silas" 
+    dynasty = 619 # Cuy
+    father = 75082
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7291.1.1 = { birth = yes }
+	7354.1.1 = { death = yes }
+}
+
+
+		#########################
+		#### House Hutcheson ####
+		#########################
+		
+75086 = {
+    name = "Line of Kyle" 
+    dynasty = 671 # Hutcheson
+    father = 4153
+	
+	occluded = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    6606.3.26 = { birth = yes }
+	7250.1.1 = { death = yes }
+}
+
+75087 = {
+    name = "Harlen" ### Ser of Redsun
+    dynasty = 671 # Hutcheson
+    father = 75086
+	
+	trait = knight
+	trait = dueling_skilled
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7250.1.1 = { birth = yes }
+	7309.1.1 = { death = yes }
+}
+		
+75088 = {
+    name = "Ceryse" 
+    dynasty = 671 # Hutcheson
+    father = 75087
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7272.1.1 = { birth = yes }
+	7320.1.1 = { death = yes }
+}
+
+75089 = {
+    name = "Emma" 
+    dynasty = 671 # Hutcheson
+    father = 75087
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7275.1.1 = { birth = yes }
+	7332.1.1 = { death = yes }
+}	
+
+75090 = {
+    name = "Rycherd" 
+    dynasty = 671 # Hutcheson
+    father = 75087
+	
+	trait = knight
+	trait = dueling_expert
+	trait = strong
+	trait = tough_soldier
+	trait = brave
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7279.1.1 = { birth = yes }
+	7332.1.1 = { death = yes }
+}	
+
+		####################
+		#### House Ball ####
+		####################
+	
+75091 = {
+    name = "Line of Leyton" 
+    dynasty = 666 # Ball
+    father = 4128
+	
+	occluded = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    6601.11.2 = { birth = yes }
+	7200.1.1 = { death = yes }
+}		
+
+75092 = {
+    name = "Eustace" ### Lord of Oldcrown
+    dynasty = 666 # Ball
+    father = 75091
+	
+	trait = knight
+	trait = dueling_adept
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7200.1.1 = { birth = yes }
+	7251.1.1 = { death = yes }
+}	
+
+75093 = {
+    name = "Brynden" ### Lord of Oldcrown
+    dynasty = 666 # Ball
+    father = 75092
+	
+	trait = knight
+	trait = dueling_adept
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7225.1.1 = { birth = yes }
+	7284.1.1 = { death = yes }
+}	
+
+75094 = {
+    name = "Harys" ### Lord of Oldcrown
+    dynasty = 666 # Ball
+    father = 75093
+	
+	trait = knight
+	trait = dueling_master
+	trait = skilled_tactician
+	trait = strong
+	trait = zealous
+	trait = wroth
+	trait = brave
+	trait = content
+	
+	fertility = 2
+	health = 9
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7260.1.1 = { birth = yes }
+	7280.1.1 = { give_nickname = nick_hellball }
+	7320.1.1 = { death = yes }
+}		
+		
+		######################
+		#### House Bulwer ####
+		######################
+		
+75095 = {
+    name = "Line of Petyr" 
+    dynasty = 622 # Bulwer
+    father = 1309
+	
+	occluded = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    6630.7.29 = { birth = yes }
+	7200.1.1 = { death = yes }
+}
+
+75096 = {
+    name = "Gerold" ### Lord of Blackcrown
+    dynasty = 622 # Bulwer
+    father = 75095
+	
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7200.1.1 = { birth = yes }
+	7257.1.1 = { death = yes }
+}	
+
+75097 = {
+    name = "Annet" 
+    dynasty = 622 # Bulwer
+    father = 75096
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7229.1.1 = { birth = yes }
+	7285.1.1 = { death = yes }
+}	
+
+75098 = {
+    name = "Marq" ### Lord of Blackcrown
+    dynasty = 622 # Bulwer
+    father = 75096
+	
+	trait = knight
+	trait = just
+	trait = dueling_novice
+	trait = kind
+	trait = naive_appeaser
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7235.1.1 = { birth = yes }
+	7299.1.1 = { death = yes }
+}
+
+75099 = {
+    name = "Ben" ### Lord of Blackcrown
+    dynasty = 622 # Bulwer
+    father = 75098
+	
+	trait = knight
+	trait = tall
+	trait = dueling_skilled
+	trait = wroth
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7257.1.1 = { birth = yes }
+	7280.1.1 = { give_nickname = nick_the_brute }
+	7311.1.1 = { death = yes }
+}	
+
+75100 = {
+    name = "Addam" 
+    dynasty = 622 # Bulwer
+    father = 75099
+	
+	trait = knight
+	trait = tall
+	trait = dueling_adept
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7280.1.1 = { birth = yes }
+	7332.1.1 = { death = yes }
+}	
+
+75101 = {
+    name = "Bethany" 
+    dynasty = 622 # Bulwer
+    father = 75099
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7281.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}			
+
+		########################
+		#### House Beesbury ####
+		########################
+		
+75102 = {
+    name = "Line of Titus" 
+    dynasty = 618 # Beesbury
+    father = 1288
+	
+	occluded = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    6616.12.5 = { birth = yes }
+	7190.1.1 = { death = yes }
+}	
+
+75103 = {
+    name = "Braxton" ### Lord of Honeyholt 
+    dynasty = 618 # Beesbury
+    father = 75102
+	
+	trait = knight
+	trait = dueling_skilled
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7190.1.1 = { birth = yes }
+	7248.1.1 = { death = yes }
+}
+
+75104 = {
+    name = "Dyanna" 
+    dynasty = 618 # Beesbury
+    father = 75103
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7212.1.1 = { birth = yes }
+	7273.1.1 = { death = yes }
+}
+
+75105 = {
+    name = "Jocelyn" 
+    dynasty = 618 # Beesbury
+    father = 75103
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7214.1.1 = { birth = yes }
+	7268.1.1 = { death = yes }
+}
+
+75106 = {
+    name = "Louis" ### Lord of Honeyholt
+    dynasty = 618 # Beesbury
+    father = 75103
+	
+	trait = knight
+	trait = dueling_novice
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7218.1.1 = { birth = yes }
+	7280.1.1 = { death = yes }
+}
+
+75107 = {
+    name = "Henri" ### Lord of Honeyholt
+    dynasty = 618 # Beesbury
+    father = 75106
+	
+	trait = knight
+	trait = dueling_adept
+	trait = charismatic_negotiator 
+	trait = just
+	trait = craven
+	trait = erudite
+	trait = humble
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7246.1.1 = { birth = yes }
+	7309.1.1 = { death = yes }
+}
+
+75108 = {
+    name = "Edouard" 
+    dynasty = 618 # Beesbury
+    father = 75106
+	
+	trait = knight
+	trait = dueling_expert
+	trait = tough_soldier
+	trait = just
+	trait = brave
+	trait = patient
+	trait = content
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7248.1.1 = { birth = yes }
+	7310.1.1 = { death = yes }
+}
+
+75109 = {
+    name = "Elodie" 
+    dynasty = 618 # Beesbury
+    father = 75106
+	
+	female = yes
+	
+	trait = kind
+	trait = ambitious
+	trait = groomed
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7251.1.1 = { birth = yes }
+	7306.1.1 = { death = yes }
+}
+
+75110 = {
+    name = "Marcel" 
+    dynasty = 618 # Beesbury
+    father = 75106
+	
+	
+	trait = knight
+	trait = dueling_adept
+	trait = diligent
+	trait = wroth
+	trait = skilled_tactician
+	trait = quick
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7259.1.1 = { birth = yes }
+	7314.1.1 = { death = yes }
+}
+
+#### Children of Henri Beesbury
+
+75111 = {
+    name = "Mirielle" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7268.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+75112 = {
+    name = "Lisette" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7269.1.1 = { birth = yes }
+	7318.1.1 = { death = yes }
+}
+
+75113 = {
+    name = "Aemon" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	trait = wroth
+	trait = lunatic
+	trait = ambitious
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7275.1.1 = { birth = yes }
+	7326.1.1 = { death = yes }
+}
+
+75114 = {
+    name = "Philippe" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	trait = deceitful
+	trait = intricate_webweaver
+	trait = dueling_skilled
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7276.1.1 = { birth = yes }
+	7333.1.1 = { death = yes }
+}
+
+75115 = {
+    name = "Louise" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	female = yes
+	
+	trait = genius
+	trait = lustful
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7279.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}
+
+75116 = {
+    name = "Damien" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	trait = knight
+	trait = dueling_expert
+	trait = tough_soldier
+	trait = patient
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7280.1.1 = { birth = yes }
+	7338.1.1 = { death = yes }
+}
+
+75117 = {
+    name = "Nynette" 
+    dynasty = 618 # Beesbury
+    father = 75107
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7283.1.1 = { birth = yes }
+	7342.1.1 = { death = yes }
+}
+
+#### Children of Edouard Beesbury
+
+75118 = {
+    name = "Jasper" 
+    dynasty = 618 # Beesbury
+    father = 75108
+	
+	trait = knight
+	trait = dueling_adept
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7274.1.1 = { birth = yes }
+	7322.1.1 = { death = yes }
+}
+
+75119 = {
+    name = "Ellyn" 
+    dynasty = 618 # Beesbury
+    father = 75108
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7275.1.1 = { birth = yes }
+	7330.1.1 = { death = yes }
+}
+
+75120 = {
+    name = "Quentin" 
+    dynasty = 618 # Beesbury
+    father = 75108
+	
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7277.1.1 = { birth = yes }
+	7340.1.1 = { death = yes }
+}
+
+75121 = {
+    name = "Marq" 
+    dynasty = 618 # Beesbury
+    father = 75108
+	
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7278.1.1 = { birth = yes }
+	7331.1.1 = { death = yes }
+}
+
+75122 = {
+    name = "Cerenne" 
+    dynasty = 618 # Beesbury
+    father = 75108
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7281.1.1 = { birth = yes }
+	7344.1.1 = { death = yes }
+}
+
+#### Ser Nicholas Beesbury and his Children
+
+75123 = {
+    name = "Nicholas" 
+    dynasty = 618 # Beesbury
+    father = 75106
+	
+	trait = knight
+	trait = dueling_expert
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7249.1.1 = { birth = yes }
+	7279.1.1 = { death = yes }
+}
+
+75124 = {
+    name = "Jaxon" 
+    dynasty = 618 # Beesbury
+    father = 75123
+	
+	trait = knight
+	trait = dueling_adept
+	trait = twin
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7272.1.1 = { birth = yes }
+	7330.1.1 = { death = yes }
+}
+
+75125 = {
+    name = "Hector" 
+    dynasty = 618 # Beesbury
+    father = 75123
+	
+	trait = knight
+	trait = dueling_skilled
+	trait = twin
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7272.1.1 = { birth = yes }
+	7331.1.1 = { death = yes }
+}
+
+#### Sister of Lord Henri 
+
+75126 = {
+    name = "Vivien" 
+    dynasty = 618 # Beesbury
+    father = 75106
+	
+	trait = stubborn
+	trait = wroth
+	trait = quick
+	
+	female = yes
+	
+    religion = the_seven
+    culture = wynelander
+	
+    7253.1.1 = { birth = yes }
+	7312.1.1 = { death = yes }
+}

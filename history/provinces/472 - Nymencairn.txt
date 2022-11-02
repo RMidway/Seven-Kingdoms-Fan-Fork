@@ -1,0 +1,20 @@
+# c_nymencairn
+
+# County Title
+title = c_nymencairn
+
+# Settlements
+max_settlements = 2
+
+b_nymencairn = castle
+#b_nymencairn_2 = city
+
+# Misc
+culture = scourgemen
+religion = old_gods
+terrain = desert
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}

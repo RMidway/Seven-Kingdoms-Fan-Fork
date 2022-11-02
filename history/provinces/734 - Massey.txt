@@ -1,0 +1,26 @@
+# c_massey
+
+# County Title
+title = c_massey
+
+# Settlements
+max_settlements = 6
+
+b_masseys_hearth = castle
+b_lottorf = city
+b_sietow = temple
+#b_binnings = castle
+#b_herelse = city
+#b_massey = temple
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = farmlands
+#History
+6540.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

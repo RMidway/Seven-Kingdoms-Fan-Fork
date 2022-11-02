@@ -1,0 +1,25 @@
+# c_sandgate
+
+# County Title
+title = c_sandgate
+
+# Settlements
+max_settlements = 4
+
+b_sandgate = castle
+#b_sandgate_2 = city
+#b_sandgate_3 = temple
+#b_sandgate_4 = castle
+#b_sandgate_5 = city
+#b_sandgate_6 = temple
+#b_sandgate_7 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6900.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}

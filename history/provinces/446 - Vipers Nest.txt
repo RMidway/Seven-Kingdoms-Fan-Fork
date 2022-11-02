@@ -1,0 +1,25 @@
+# c_vipers_nest
+
+# County Title
+title = c_vipers_nest
+
+# Settlements
+max_settlements = 3
+
+b_vipers_nest = castle
+#b_quickbite = city
+#b_vipers_nest_2 = temple
+#b_vipers_nest_3 = castle
+#b_vipers_nest_4 = city
+#b_vipers_nest_5 = temple
+#b_vipers_nest_6 = castle
+
+# Misc
+culture = tormen
+religion = old_gods
+
+#History
+6300.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}

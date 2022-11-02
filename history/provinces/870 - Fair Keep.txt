@@ -1,0 +1,24 @@
+# c_fair_keep
+
+# County Title
+title = c_fair_keep
+
+# Settlements
+max_settlements = 6
+
+b_fair_keep = castle
+b_yoir = temple
+b_faikton = city
+#b_selkeep = castle
+#b_fairford = city
+#b_fair_chapel = temple
+
+# Misc
+culture = fairmen
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

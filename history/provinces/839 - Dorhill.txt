@@ -1,0 +1,25 @@
+# c_dorhill
+
+# County Title
+title = c_dorhill
+
+# Settlements
+max_settlements = 4
+
+b_dorhill = castle
+#b_tomci = city
+#b_dorada = temple
+#b_dorhill_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = dusklander
+	religion = the_seven
+}
+6850.1.1 = {
+	culture = riverlander
+}

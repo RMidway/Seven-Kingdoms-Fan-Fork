@@ -1,0 +1,22 @@
+# c_dawntower
+
+# County Title
+title = c_dawntower
+
+# Settlements
+max_settlements = 4
+
+b_dawntower = castle
+b_growingnight = city
+#b_silversky = temple
+#b_bonlez = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

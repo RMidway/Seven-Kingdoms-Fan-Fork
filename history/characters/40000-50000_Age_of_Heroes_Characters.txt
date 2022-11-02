@@ -1,0 +1,360 @@
+###############
+#   ID RANGE  #
+# 40000-50000 #
+###############
+
+# Frozen Lands #
+
+40000={
+	name=Rowan
+	dynasty=10123
+	culture=wildling
+	religion=old_gods_beyond_white
+	trait=dueling_master
+	health=10
+	1.1.1={
+		birth=yes
+	}
+	60.1.1={
+		death=yes
+	}
+}
+40001={
+	name="Line of Rowan"
+	dynasty=10123
+	culture=wildling
+	religion=old_gods_beyond_white
+	#occluded=yes
+	father=40000
+	55.1.1={
+		birth=yes
+	}
+	6525.1.1={
+		death=yes
+	}
+}
+
+# House Dayne #
+
+41101={
+	name=Samwell
+	dynasty=500
+	culture=daynefm
+	religion=old_gods
+	health=10
+	trait=brilliant_strategist
+	trait=dueling_legend
+	trait=brave
+	trait=just
+	trait=diligent
+	fertility=1.0
+	dna="ccfgd0bc000"
+	properties="an0ccb00000000"
+	12.1.1={
+		birth=yes
+		create_bloodline = {
+			type = bloodline_dayne
+			has_dlc = "Holy Fury"
+		}
+	}
+	20.1.1={ 
+		give_nickname=nick_starsmith
+	}
+	90.1.1={
+		death=yes
+	}
+}
+	
+41102={
+	name= "Line of Samwell"
+	dynasty=500
+	culture=torrentine
+	religion=old_gods
+	father=41101
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	5560.1.1={
+		death=yes
+	}
+}
+
+
+# House Harlaw #
+
+41110={
+	name=Rodrik
+	dynasty=304
+	culture=harlawn
+	religion=drowned_god
+	health=10
+	12.1.1={
+		birth=yes
+		create_bloodline = {
+			type = bloodline_harlaw
+			has_dlc = "Holy Fury"
+		}
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41111={
+	name="Line of Rodrick"
+	dynasty=304
+	culture=harlawn
+	religion=drowned_god
+	father=41110
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	4500.1.1={
+		death=yes
+	}
+}
+
+
+# House Hightower #
+
+41200={
+	name=Uthor
+	dynasty=602
+	culture=wynelander
+	religion=old_gods
+	health=10
+	12.1.1={
+		birth=yes
+		create_bloodline = {
+			type = bloodline_hightower
+			has_dlc = "Holy Fury"
+		}
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+
+# House Mudd #
+
+41300={
+	name=Tristifer
+	dynasty=201
+	culture=muddish
+	religion=old_gods
+	health=10
+	12.1.1={
+		birth=yes
+		create_bloodline = {
+			type = bloodline_mudd
+			has_dlc = "Holy Fury"
+		}
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41301={
+	name= "Line of Tristifer"
+	dynasty=201
+	culture=muddish
+	religion=old_gods
+	father=41300
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	5610.1.1={
+		death=yes
+	}
+}
+
+
+# Night's Watch #
+
+41400={
+	name=Alaric
+	culture=northmen
+	religion=old_gods
+	health=10.0
+	12.1.1={
+		birth=yes
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+
+# House Bolton #
+
+41500={
+	name=Domeric
+	dynasty=2
+	culture=northmen
+	religion=old_gods
+	health=10.0
+	12.1.1={
+		birth=yes
+		create_bloodline = {
+			type = bloodline_bolton
+			has_dlc = "Holy Fury"
+		}
+	}
+	30.1.1={
+		give_nickname=nick_the_deceiver
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41501={
+	name="Line of Domeric"
+	dynasty=2
+	culture=northmen
+	religion=old_gods
+	father=41500
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	6105.1.1={
+		death=yes
+	}
+}
+
+
+# House Blackwood #
+
+41600={
+	name=Benjicot
+	dynasty=207
+	culture=northmen
+	religion=old_gods
+	health=10.0
+	12.1.1={
+		birth=yes
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41601={
+	name="Line of Benjicot"
+	dynasty=207
+	culture=northmen
+	religion=old_gods
+	father=41600
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	6500.1.1={
+		death=yes
+	}
+}
+
+
+# House Bracken #
+
+41700={
+	name=Benfrey
+	dynasty=208
+	culture=rivermen
+	religion=old_gods
+	health=10.0
+	12.1.1={
+		birth=yes
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41701={
+	name="Line of Benfrey"
+	dynasty=208
+	culture=rivermen
+	religion=old_gods
+	father=41700
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	6410.1.1={
+		death=yes
+	}
+}
+
+
+# House Caron #
+
+41800={
+	name=Cortnay
+	dynasty=804
+	culture=marchmen
+	religion=old_gods
+	health=10.0
+	12.1.1={
+		birth=yes
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41801={
+	name="Line of Cortnay"
+	dynasty=804
+	culture=marchmen
+	religion=old_gods
+	father=41800
+	occluded=yes
+	80.1.1={
+		birth=yes
+	}
+	6559.1.1={
+		death=yes
+	}
+}
+
+
+# House Crakehall #
+
+41900={
+	name=Crake
+	dynasty=705
+	culture=cornmen
+	religion=old_gods
+	health=10.0
+	12.1.1={
+		birth=yes
+	}
+	30.1.1={
+		give_nickname=nick_the_boarkiller
+	}
+	90.1.1={
+		death=yes
+	}
+}
+
+41901={
+	name="Line of Crake"
+	dynasty=705
+	culture=cornmen
+	religion=old_gods
+	occluded=yes
+	father=41900
+	80.1.1={
+		birth=yes
+	}
+	6420.1.1={
+		death=yes
+	}
+}

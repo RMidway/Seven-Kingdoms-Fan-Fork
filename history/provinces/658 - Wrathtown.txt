@@ -1,0 +1,21 @@
+# c_wrathtown
+
+# County Title
+title = c_wrathtown
+
+# Settlements
+max_settlements = 3
+
+b_wrathtown = castle
+#b_schuenehof = city
+#b_wrathtown_2 = temple
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

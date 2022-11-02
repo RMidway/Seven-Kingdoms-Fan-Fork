@@ -1,0 +1,21 @@
+# c_lingen
+
+# County Title
+title = c_lingen
+
+# Settlements
+max_settlements = 3
+
+b_lingen = castle
+#b_atting = city
+#b_lingen_2 = temple
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = woods
+#History
+6300.1.1 = {
+	culture = watermen
+    religion = the_seven
+}

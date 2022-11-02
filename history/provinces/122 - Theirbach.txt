@@ -1,0 +1,21 @@
+# c_theirbach
+
+# County Title
+title = c_theirbach
+
+# Settlements
+max_settlements = 3
+
+b_theirbach = castle
+#b_theirbach_2 = city
+#b_theirbach_3 = temple
+#b_theirbach_4 = castle
+#b_theirbach_5 = city
+#b_theirbach_6 = temple
+#b_theirbach_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = hills
+#History

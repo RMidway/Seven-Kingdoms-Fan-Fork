@@ -1,0 +1,24 @@
+# c_brimstone
+
+# County Title
+title = c_brimstone
+
+# Settlements
+max_settlements = 3
+
+b_brimstone = castle
+#b_boilingstone = city
+#b_brimstone_2 = temple
+
+# Misc
+culture = scourgemen
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7400.1.1 = {
+	culture = salt_dornish
+}

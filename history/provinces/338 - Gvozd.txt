@@ -1,0 +1,21 @@
+# c_gvozd
+
+# County Title
+title = c_gvozd
+
+# Settlements
+max_settlements = 3
+
+b_gvozd = castle
+#b_gvozd_2 = city
+#b_gvozd_3 = temple
+#b_gvozd_4 = castle
+#b_gvozd_5 = city
+#b_gvozd_6 = temple
+#b_gvozd_7 = castle
+
+# Misc
+culture = tyroshi
+religion = trios
+terrain = farmlands
+#History

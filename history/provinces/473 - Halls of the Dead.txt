@@ -1,0 +1,24 @@
+# c_halls_of_the_dead
+
+# County Title
+title = c_halls_of_the_dead
+
+# Settlements
+max_settlements = 3
+
+b_halls_of_the_dead = castle
+#b_halls_of_the_dead_2 = city
+#b_halls_of_the_dead_3 = temple
+
+# Misc
+culture = scourgemen
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7400.1.1 = {
+	culture = salt_dornish
+}

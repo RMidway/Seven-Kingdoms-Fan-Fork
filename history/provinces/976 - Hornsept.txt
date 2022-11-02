@@ -1,0 +1,22 @@
+# c_hornsept
+
+# County Title
+title = c_hornsept
+
+# Settlements
+max_settlements = 4
+
+b_hornsept = castle
+#b_clanay = city
+#b_mutigney = temple
+#b_hornsept_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}

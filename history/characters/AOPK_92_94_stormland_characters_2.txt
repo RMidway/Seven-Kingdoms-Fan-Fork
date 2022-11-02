@@ -1,0 +1,567 @@
+################
+#   ID RANGE   #
+# 9200 - 9400  #
+################
+
+######################
+### House Wendwater ##
+######################
+
+9200 = {
+	name = Jason
+	dynasty = 10015
+	father = 9201
+	culture = watermen
+	religion = the_seven
+	6500.1.1 = {birth=yes}
+	6560.10.26 = {death=yes}
+}
+9201 = {
+	name = Jon
+	dynasty = 10015
+	father = 9202
+	culture = watermen
+	religion = the_seven
+	6479.1.1 = {birth=yes}
+	6536.10.26 = {death=yes}
+}
+9202 = {
+	name = Josua
+	dynasty = 10015
+	father = 9203
+	culture = watermen
+	religion = the_seven
+	6455.1.1 = {birth=yes}
+	6512.10.26 = {death=yes}
+}
+9203 = {
+	name = Walen
+	trait = knight
+	trait = dueling_master
+	culture = watermen
+	religion = the_seven
+	6430.1.1 = {birth=yes}
+	6446.1.1 = { effect = { give_minor_title = title_generic_ser } }
+	6496.10.26 = {death=yes}
+}
+
+######################
+### House Durrandon ##
+######################
+
+9204 = {
+	name="Renly" 
+
+	dynasty=800
+	father = 5065
+	religion="old_gods"
+	culture="durrandonan"
+    trait = dueling_expert
+	trait = strong
+	6520.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormlander
+		}
+	}
+    6588.1.1 = { death=yes }
+
+
+}
+
+9205 = {
+	name="Robert" 
+
+	dynasty=800
+	father = 5065
+	religion="old_gods"
+	culture="durrandonan"
+    trait = dueling_expert
+	trait = tall
+	6524.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+	6588.1.1 = { death=yes }
+}
+
+###################
+### House Tarth ###
+###################
+
+9206 = {
+	name = Selwyn
+    father = 9207
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6500.1.1 = { birth=yes }
+	6560.1.1 = { death=yes }
+}
+
+9207 = {
+	name = Selwyn
+	father = 9208
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6475.1.1 = { birth=yes }
+	6531.1.1 = { death=yes }
+}
+
+9208 = {
+	name = Quentyn
+	father = 9209
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6451.1.1 = { birth=yes }
+	6512.1.1 = { death=yes }
+}
+
+9209 = {
+	name = Endrew
+	father = 9210
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6430.1.1 = { birth=yes }
+	6500.1.1 = { death=yes }
+}
+
+9210 = {
+	name = Endrew
+	father = 9211
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6405.1.1 = { birth=yes }
+	6470.1.1 = { death=yes }
+}
+
+9211 = {
+	name = Quentyn
+	father = 9212
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6380.1.1 = { birth=yes }
+	6441.1.1 = { death=yes }
+}
+
+9212 = {
+	name = Selwyn
+	father = 9213
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6357.1.1 = { birth=yes }
+	6421.1.1 = { death=yes }
+}
+
+9213 = {
+	name = Edwyn
+	father = 9214
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6332.1.1 = { birth=yes }
+	6400.1.1 = { death=yes }
+}
+
+9214 = {
+	name = Edwyn
+	father = 9215
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6310.1.1 = { birth=yes }
+	6368.1.1 = { death=yes }
+}
+
+9215 = {
+	name = Endrew
+        father = 9216
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6290.1.1 = { birth=yes }
+	6349.1.1 = { death=yes }
+}
+
+9216 = {
+	name = Quentyn
+        father = 9217
+	dynasty = 828
+	
+	religion = old_gods
+	culture = evenstar
+	6270.1.1 = { birth=yes }
+	6334.1.1 = { death=yes }
+}
+
+9217 = {
+	name = Selwyn
+        
+	dynasty = 828
+	trait = midas_touched
+    trait = genius
+    trait = dueling_legend
+    trait = just
+    trait = bleeding_heart
+    trait = patient
+    trait = diligent
+	religion = old_gods
+	culture = evenstar
+	6240.1.1 = { birth=yes }
+	6277.1.1 = {
+		create_bloodline = {
+			type = bloodline_tarth
+			has_dlc = "Holy Fury"
+		}
+	}
+	6300.1.1 = { death=yes }
+}
+
+########################
+### House Dondarrion ###
+########################
+
+9218 = {
+	name = Edric
+        father = 9219
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6504.1.1 = { birth=yes }
+	6560.1.1 = { death=yes }
+}
+
+9219 = {
+	name = Jonothor
+        father = 9220
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6479.1.1 = { birth=yes }
+	6532.1.1 = { death=yes }
+}
+
+9220 = {
+	name = Jon
+        father = 9221
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6450.1.1 = { birth=yes }
+	6507.1.1 = { death=yes }
+}
+
+9221 = {
+	name = "Line of Davos"
+        father = 9222
+	dynasty = 807
+	occluded = yes
+	religion = old_gods
+	culture = stormlander
+	5781.1.1 = { birth=yes }
+	6451.1.1 = { death=yes }
+}
+
+9222 = {
+	name = Davos
+	dynasty = 807
+	trait = tough_soldier
+	trait = dueling_skilled
+	trait = strong
+	trait = brave
+	trait = gregarious
+	trait = patient
+	trait = humble
+	religion = old_gods
+	culture = marcher
+	5718.1.1 = { birth=yes }
+	5740.1.1 = { give_nickname=nick_the_timely }
+	5740.1.1 = {
+		create_bloodline = {
+			type = bloodline_dondarrion
+			has_dlc = "Holy Fury"
+		}
+	}
+	5780.1.1 = { death=yes }
+}
+#######################################
+9223 = {
+	name = Barristan
+        father = 9219
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6510.1.1 = { birth=yes }
+	6571.1.1 = { death=yes }
+}
+
+9224 = {
+	name = Amory
+        father = 9223
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6538.1.1 = { birth=yes }
+	6600.1.1 = { death=yes }
+}
+
+9225 = {
+	name = Gendry
+        father = 9223
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6541.1.1 = { birth=yes }
+	6605.1.1 = { death=yes }
+}
+
+9226 = {
+	name = Boros
+        father = 9224
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6558.1.1 = { birth=yes }
+	6621.1.1 = { death=yes }
+}
+
+9227 = {
+	name = Meryn
+        father = 9224
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6560.1.1 = { birth=yes }
+	6619.1.1 = { death=yes }
+}
+
+9228 = {
+	name = Shireen
+        father = 9225
+	dynasty = 807
+ 	female = yes
+	religion = old_gods
+	culture = marcher
+	6561.1.1 = { birth=yes }
+	6621.1.1 = { death=yes }
+}
+
+9229 = {
+	name = Lyra
+        father = 9225
+	dynasty = 807
+ 	female = yes
+	religion = old_gods
+	culture = marcher
+	6563.1.1 = { birth=yes }
+	6611.1.1 = { death=yes }
+}
+
+9230 = {
+	name = Ben
+        father = 9225
+	dynasty = 807
+
+	religion = old_gods
+	culture = marcher
+	6565.1.1 = { birth=yes }
+	6630.1.1 = { death=yes }
+}
+
+9231 = {
+	name = Marq
+
+	dynasty = 807
+	father = 9218
+	religion = old_gods
+	culture = marcher
+	trait = dueling_adept
+	6540.1.1 = { birth=yes }
+	6605.1.1 = { death=yes }
+}
+
+9232 = {
+	name = Gawen
+
+	dynasty = 807
+	father = 9218
+	religion = old_gods
+	culture = marcher
+	trait = dueling_skilled
+	6542.1.1 = { birth=yes }
+	6605.1.1 = { death=yes }
+}
+
+9233 = {
+	name = Uthor
+
+	dynasty = 807
+	father = 9218
+	religion = the_seven
+	trait = knight
+	trait = tough_soldier
+	trait = strong
+	trait = patient
+	trait = diligent
+	trait = brave
+	trait = humble
+	culture = marcher
+	trait = dueling_master
+	6545.1.1 = { birth=yes }
+	6562.1.1 = { give_nickname=nick_the_purple_knight }
+    6563.1.1 = { effect = { give_minor_title = title_generic_ser } }
+	6605.1.1 = { death=yes }
+}
+
+# House Greenstone - Andals #
+
+9234={
+	name=Osric
+	dynasty=879
+	dna="cialeajbaoa"
+	culture=stormlander 
+	religion=the_seven
+	martial=5 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=7 
+	learning=6
+	trait=grey_eminence 
+	trait=cruel 
+	trait=humble 
+	trait=paranoid 
+	trait=envious 
+	trait=ambitious 
+	trait=shy 
+	6533.2.6={ birth=yes }
+	6600.11.30={ death=yes }
+}
+9235={
+	name=Eddison
+	dynasty=879
+	dna="oojleanbada"
+	culture=stormlander 
+	religion=the_seven
+	father=9234	#Osric
+	6561.6.19={ birth=yes }
+	6608.11.25={ death=yes }
+}
+9236={
+	name=Ryella
+	female=yes
+	dynasty=879
+	dna="jiakpagiaob"
+	culture=stormlander 
+	religion=the_seven
+	father=9234	#Osric
+	6566.1.1={ birth=yes }
+	6618.10.29={ death=yes }
+}
+
+# Stormland High Kings (to fill up the history for such an important title) #
+
+9237 = {
+	name = Baldric #King Baldric
+	dynasty = 800 #Durrandon
+	culture = stormlander
+	religion = old_gods
+	martial=5
+	intrigue=10
+	diplomacy=9
+	stewardship=5
+	learning=4
+	trait=elusive_shadow
+	trait=quick
+	trait=deceitful
+	trait=patient
+	trait=proud
+	father = 1800
+	mother = 1556
+	6563.1.1 = { birth=6563.1.1 }
+	6617.1.1 = { death=6617.1.1 }
+}
+9238 = {
+	name = Durran #King Durran
+	dynasty = 800 #Durrandon
+	culture = stormlander
+	religion = old_gods
+	martial=8
+	intrigue=6
+	diplomacy=11
+	stewardship=4
+	learning=3
+	trait=grey_eminence
+	trait=quick
+	trait=just
+	trait=ambitious
+	father = 9237
+	6585.1.1 = { birth=6585.1.1 }
+	6632.1.1 = { death=6632.1.1 }
+}
+9239 = {
+	name = Cleoden
+	dynasty = 800 #Durrandon
+	culture = stormlander
+	religion = old_gods
+	martial=7
+	diplomacy=10
+	intrigue=5
+	stewardship=4
+	learning=5
+	trait=skilled_tactician
+	trait=strong
+	trait=diligent
+	trait=honourable
+	trait=just
+	father = 9238
+	6617.1.1 = { birth=6617.1.1 }
+	6647.1.1 = { death=6647.1.1 }
+}
+9240 = {
+	name = Maldon
+	dynasty = 800 #Durrandon
+	culture = stormlander
+	religion = old_gods
+	trait=patient
+	trait=charismatic_negotiator
+	trait=cynical
+	trait=honourable
+	father = 9239
+	6635.1.1 = { birth=6635.1.1 }
+	6678.1.1 = { death=6678.1.1 }
+}
+9241 = {
+	name = Durran
+	dynasty = 800 #Durrandon
+	culture = stormlander
+	religion = old_gods
+	father = 9239
+	6633.1.1 = { birth=6633.1.1 }
+	6650.1.1 = { death=6650.1.1 }
+}

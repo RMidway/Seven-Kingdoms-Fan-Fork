@@ -1,0 +1,26 @@
+# c_estermont
+
+# County Title
+title = c_estermont
+
+# Settlements
+max_settlements = 5
+
+b_estermont = castle
+b_schmie = city
+#b_kelsterbach = temple
+#b_estermont_2 = castle
+#b_estermont_3 = city
+
+# Misc
+culture = rainlander
+religion = old_gods
+terrain = mountain
+#History
+6300.1.1 = {
+    culture = stormlander
+}
+6800.1.1 = {
+    religion = the_seven 
+}
+

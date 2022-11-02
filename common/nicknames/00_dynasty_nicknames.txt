@@ -1,0 +1,172 @@
+######################
+# Dynastic Nicknames #
+######################
+
+##### House Stark
+nick_wolfblood = {
+	allow = {
+		age = 16
+		dynasty = 1
+		trait = wroth
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_she_wolf = {
+	allow = {
+		age = 16
+		is_female = yes
+		dynasty = 1
+		martial = 18
+	}
+	chance = {
+		factor = 10
+	}
+}
+nick_the_old_wolf = {
+	allow = {
+		age = 50
+		dynasty = 1
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_lost_wolf = {
+ allow = {
+		age = 16
+		dynasty = 1
+	}
+	chance = {
+		factor = 1
+	}
+}
+nick_the_hungry_wolf = {
+	allow = {
+		age = 16
+		dynasty = 1
+		trait = gluttonous
+	}
+	chance = {
+		factor = 10
+	}
+}
+nick_the_grey_wolf = {}
+nick_the_quiet_wolf = {}
+nick_the_wild_wolf = {}
+nick_the_wolf_maid = {}
+nick_the_white_wolf = {}
+nick_the_black_wolf = {}
+
+##### House Arryn
+nick_the_falconknight = {}
+nick_the_great_falcon = {}
+nick_the_old_falcon = {}
+nick_sweetrobin = {}
+
+##### House Lannister
+nick_the_golden_lion = {}
+nick_the_little_lion = {}
+nick_greatlion = {}
+nick_the_golden = {}
+nick_the_red_lion = {}
+
+##### House Mudd
+
+
+##### House Gardener
+
+
+##### House Greyjoy
+
+
+##### House Darklyn
+nick_the_dusk_bringer = {}
+nick_darkrobin = {}
+nick_shadowborne = {}
+nick_blacksword = {}
+nick_stagsbane = {}
+nick_blackseed = {}
+nick_the_dim = {}
+nick_the_unfortunate = {}
+nick_the_heathen = {}
+nick_shadowbitch = {}
+nick_the_shadow = {}
+nick_fair_maid = {}
+
+##### House Heliarus
+nick_the_rising_sun = {}
+nick_the_setting_sun = {}
+nick_brightsun = {}
+nick_the_bright_lord = {}
+
+##### House Hightower
+nick_the_sea_lion = {}
+nick_smalltower = {}
+nick_greystone = {}
+nick_the_twisted = {}
+
+##### House Redwyne
+
+##### House Bolton
+nick_the_dreaded = {}
+nick_the_flayer = {}
+nick_the_deceiver = {}
+nick_the_bane_of_winterfell = {}
+nick_wolfkiller = {}
+nick_the_flayed_man = {}
+nick_the_red_king = {}
+
+##### House Royce
+
+##### House Osgrey
+
+
+##### House Reyne
+
+nick_the_bloody_king = {}
+nick_the_red_champion = {}
+nick_the_red_ruler = {}
+nick_the_red_bane = {}
+nick_the_lion_tamer = {}
+
+##### House Dayne
+
+nick_the_sword_of_the_morning = {}
+nick_starsmith = {}
+nick_starfire = {}
+nick_the_eager_dawn = {}
+nick_the_sword_dawn = {}
+nick_the_deadly = {}
+nick_the_defiant = {}
+nick_the_daring = {}
+nick_the_fallen_star = {}
+nick_the_risen_star = {}
+nick_the_sword_of_the_evening = {}
+nick_the_sword_of_palestone = {}
+nick_the_paleman = {}
+nick_the_wielder_of_dawn = {}
+nick_the_meteor = {}
+nick_the_sword_of_the_night = {}
+nick_the_sword_of_the_hour = {}
+
+#### House Corbray
+
+nick_ravensword = {}
+nick_the_raven = {}
+nick_lord_five_fingers = {}
+
+#### House Manderly
+
+nick_the_merman = {}
+nick_the_mermaid = {}
+
+#### House Osgrey
+
+nick_chequy_lion = {}
+
+#### House Umber
+
+nick_the_giant_slayer = {}
+nick_the_hooded_man = {}

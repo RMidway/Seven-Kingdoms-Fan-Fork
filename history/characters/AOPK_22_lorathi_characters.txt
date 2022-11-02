@@ -1,0 +1,1959 @@
+##############
+# ID RANGE   #
+# 2200-2399  #
+##############
+
+####################
+### MAJOR HOUSES ###
+####################
+
+# Head of House Bonifa
+
+2200={
+	name=Faro
+	dynasty=1000
+	dna="babbcojikfd"
+	culture=lorathi 
+	religion=boashi
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=wroth 
+	trait=lustful 
+	trait=charitable 
+	trait=envious 
+	father=2205	#Bassiano
+	mother=2213	#Ermenegilda
+	6527.1.6={ birth=yes }
+	6548.1.1={ add_spouse=2214 }
+	6590.4.5={ death=yes }
+}
+
+# The Sealord of Domia
+2201 = {
+    name = Uthero
+    dynasty=1001
+	dna="kahibemneim"
+	culture=lorathi 
+	religion=boashi
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=detached_priest 
+	trait=kind 
+	trait=trusting 
+	father=2215	#Rainero
+	mother=2223	#Bianca
+	6538.3.14 = { birth=yes }
+	6556.1.1={ add_spouse=2224 }
+    6612.9.3 = { death=yes }
+}
+
+# Head of House Mateon - grandfather and father abdicated (for now)
+
+2202 = {
+    name = Landar
+    dynasty = 1002 # Mateon
+    culture = lorathi
+	religion = rhllor
+	martial=5 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=5 
+	learning=4
+	trait=intricate_webweaver 
+	trait=charitable 
+	trait=kind 
+	trait=proud 
+	trait=patient 
+	father=2226 #Alvise
+	mother=2235	#Antonia
+    6551.1.4 = { birth=yes }
+    6632.11.2 = { death=yes }
+}
+
+# Head of House Postio
+
+2203 = {
+    name = Zotto
+    dynasty = 1003 # Postio
+    culture = lorathi
+	religion = bearded_priests
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=7 
+	learning=7
+	trait=detached_priest 
+	trait=cynical 
+	trait=cruel
+	father=2236	#Giano
+	mother=2242	#Myrmellios
+    6539.3.13 = { birth=yes }
+    6613.4.7 = { death=yes }
+}
+
+# Head of House Orsilini
+
+2204 = {
+    name = Odilo
+    dynasty = 1004 # Orsilini
+    culture = lorathi
+	religion = the_seven
+	martial=4 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=5 
+	learning=7
+	trait=intricate_webweaver 
+	trait=kind 
+	trait=greedy 
+	trait=shy 
+	trait=wounded 
+	father=2243	#Niccolò
+	mother=2250	#Giovanna
+    6534.3.14 = { birth=yes }
+	6553.1.1={ add_spouse=2251 }
+    6612.9.3 = { death=yes }
+}
+
+
+# House Bonifa #
+
+2205={
+	name=Bassiano
+	dynasty=1000
+	dna="mcfbpfjhhad"
+	culture=lorathi 
+	religion=boashi
+	6500.4.14={ birth=yes }
+	6521.1.1={ add_spouse=2213 }
+	6557.4.8={ death=yes }
+}
+2206={
+	name=Yorka
+	female=yes
+	dynasty=1000
+	dna="mcogpfihhad"
+	culture=lorathi 
+	religion=boashi
+	father=2205	#Bassiano
+	mother=2213	#Ermenegilda
+	6525.6.1={ birth=yes }
+	6584.6.8={ death=yes }
+}
+2207={
+	name=Margherita
+	female=yes
+	dynasty=1000
+	dna="bebbcmjikpj"
+	culture=lorathi 
+	religion=boashi
+	father=2200	#Faro
+	mother=2214	#Serala
+	6554.4.26={ birth=yes }
+	6616.2.2={ death=yes }
+}
+2208={
+	name=Lodovico
+	dynasty=1000
+	dna="badagojpkfn"
+	culture=lorathi 
+	religion=boashi
+	trait=temperate
+	trait=honest 
+	father=2200	#Faro
+	mother=2214	#Serala
+	6556.7.9={ birth=yes }
+	6605.6.22={ death=yes }
+}
+2209={
+	name=Ottavio
+	dynasty=1000
+	dna="aabbeonmodc"
+	culture=lorathi 
+	religion=boashi
+	trait=diligent 
+	father=2200	#Faro
+	mother=2214	#Serala
+	6558.12.8={ birth=yes }
+	6605.11.21={ death=yes }
+}
+2210={
+	name=Gerardo
+	dynasty=1000
+	dna="hhbbonbhphd"
+	culture=lorathi 
+	religion=boashi
+	trait=diligent 
+	father=2200	#Faro
+	mother=2214	#Serala
+	6561.7.12={ birth=yes }
+	6600.7.6={ death=yes }
+}
+2211={
+	name=Violante
+	female=yes
+	dynasty=1000
+	dna="fabbcojekfa"
+	culture=lorathi 
+	religion=boashi
+	father=2200	#Faro
+	mother=2214	#Serala
+	6563.7.4={ birth=yes }
+	6634.1.12={ death=yes }
+}
+2212={
+	name=Battista
+	dynasty=1000
+	dna="haobcojdkff"
+	culture=lorathi 
+	religion=boashi
+	father=2200	#Faro
+	mother=2214	#Serala
+	6566.3.6={ birth=yes }
+	6617.10.11={ death=yes }
+}
+2213={
+	name=Ermenegilda
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6500.5.2={ birth=yes }
+	6557.7.15={ death=yes }
+}
+2214={
+	name=Serala
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6527.5.2={ birth=yes }
+	6590.7.15={ death=yes }
+}
+
+# House Domia #
+
+2215={
+	name=Rainero
+	dynasty=1001
+	dna="ecjgpnmhbok"
+	culture=lorathi 
+	religion=boashi
+	6500.9.16={ birth=yes }
+	6521.1.1={ add_spouse=2223 }
+	6547.3.28={ death=yes }
+}
+2216={
+	name=Ugolino
+	dynasty=1001
+	dna="empgbjmhakk"
+	culture=lorathi 
+	religion=boashi
+	martial=4 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=8 
+	learning=7
+	trait=detached_priest 
+	trait=hunter 
+	trait=brave 
+	trait=slothful 
+	father=2215	#Rainero
+	mother=2223	#Bianca
+	6532.2.16={ birth=yes }
+	6613.6.29={ death=yes }
+}
+2217={
+	name=Orios
+	female=yes
+	dynasty=1001
+	dna="gfjapjmonfk"
+	culture=lorathi 
+	religion=boashi
+	father=2215	#Rainero
+	mother=2223	#Bianca
+	6537.6.7={ birth=yes }
+	6597.6.27={ death=yes }
+}
+2218={
+	name=Stefania
+	female=yes
+	dynasty=1001
+	dna="habnfbmhbgk"
+	culture=lorathi 
+	religion=boashi
+	father=2215	#Rainero
+	mother=2223	#Bianca
+	6540.7.14={ birth=yes }
+	6586.7.15={ death=yes }
+}
+2219={
+	name=Ezio
+	dynasty=1001
+	dna="gfacbldnpim"
+	culture=lorathi 
+	religion=boashi 
+	trait=arbitrary 
+	trait=gluttonous 
+	father=2201	#Uthero
+	mother=2224	#Alessandra
+	6556.5.23={ birth=yes }
+	6607.7.2={ death=yes }
+}
+2220={
+	name=Pio
+	dynasty=1001
+	dna="kahibemkeia"
+	culture=lorathi 
+	religion=boashi
+	trait=zealous 
+	trait=genius 
+	father=2201	#Uthero
+	mother=2224	#Alessandra
+	6558.4.23={ birth=yes }
+	6607.5.24={ death=yes }
+}
+2221={
+	name=Gelasio
+	dynasty=1001
+	dna="dahcbemnelp"
+	culture=lorathi 
+	religion=boashi
+	father=2201	#Uthero
+	mother=2224	#Alessandra
+	6562.7.13={ birth=yes }
+	6618.1.13={ death=yes }
+}
+2222={
+	name=Adelaida
+	female=yes
+	dynasty=1001
+	dna="kachkfonhlm"
+	culture=lorathi 
+	religion=boashi
+	father=2201	#Uthero
+	mother=2224	#Alessandra
+	6564.12.13={ birth=yes }
+	6596.1.22={ death=yes }
+}
+2223={
+	name=Bianca
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6500.5.2={ birth=yes }
+	6547.7.15={ death=yes }
+}
+2224={
+	name=Alessandra
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6538.5.2={ birth=yes }
+	6612.7.15={ death=yes }
+}
+
+# House Mateon #
+
+2225={
+	name=Goffredo
+	dynasty=1002
+	dna="jpgmnfkckpf"
+	culture=lorathi 
+	religion=rhllor
+	martial=6 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=lustful 
+	trait=zealous 
+	trait=craven 
+	trait=gluttonous 
+	trait=just 
+	6513.10.9={ birth=yes }
+	6533.1.1={ add_spouse=2234 }
+	6575.12.2={ death=yes }
+}
+2226={
+	name=Alvise
+	dynasty=1002
+	dna="jpgmnnhikcf"
+	culture=lorathi 
+	religion=rhllor
+	martial=5 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=5 
+	learning=5
+	trait=detached_priest 
+	trait=zealous 
+	trait=envious 
+	trait=cruel 
+	trait=just 
+	father=2225	#Goffredo
+	mother=2234	#Argentina
+	6533.5.2={ birth=yes }
+	6551.1.1={ add_spouse=2235 }
+	6603.7.21={ death=yes }
+}
+2227={
+	name=Sciarra
+	dynasty=1002
+	dna="gdjjefkckmb"
+	culture=lorathi 
+	religion=rhllor
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	trait=detached_priest 
+	trait=content 
+	trait=wroth 
+	trait=shy 
+	trait=cruel 
+	trait=charitable 
+	trait=trusting 
+	father=2225	#Goffredo
+	mother=2234	#Argentina
+	6537.6.27={ birth=yes }
+	6598.3.13={ death=yes }
+}
+2228={
+	name=Fosca
+	female=yes
+	dynasty=1002
+	dna="flgdlikckof"
+	culture=lorathi 
+	religion=rhllor
+	father=2225	#Goffredo
+	mother=2234	#Argentina
+	6538.7.5={ birth=yes }
+	6613.10.31={ death=yes }
+}
+2229={
+	name=Buonconte
+	dynasty=1002
+	dna="dpmpmhcckek"
+	culture=lorathi 
+	religion=rhllor
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=7 
+	learning=6
+	trait=detached_priest 
+	trait=duelist 
+	trait=gluttonous 
+	trait=wroth 
+	trait=humble 
+	trait=cynical 
+	trait=deceitful 
+	trait=lustful 
+	father=2225	#Goffredo
+	mother=2234	#Argentina
+	6542.10.5={ birth=yes }
+	6589.11.15={ death=yes }
+}
+2230={
+	name=Torquato
+	dynasty=1002
+	dna="jpginfcaaph"
+	culture=lorathi 
+	religion=rhllor
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=mystic 
+	trait=cynical 
+	trait=honest 
+	father=2225	#Goffredo
+	mother=2234	#Argentina
+	6546.4.3={ birth=yes }
+	6600.10.2={ death=yes }
+}
+2231={
+	name=Michelangelo
+	dynasty=1002
+	dna="lpdiknpikhh"
+	culture=lorathi 
+	religion=rhllor
+	trait=chaste
+	father=2226	#Alvise
+	mother=2235	#Antonia
+	6559.2.6={ birth=yes }
+	6624.12.3={ death=yes }
+}
+2232={
+	name=Tomasina
+	female=yes
+	dynasty=1002
+	dna="mpngnifmjbe"
+	culture=lorathi 
+	religion=rhllor
+	father=2226	#Alvise
+	mother=2235	#Antonia
+	6560.12.6={ birth=yes }
+	6624.10.23={ death=yes }
+}
+2233={
+	name=Sinibaldo
+	dynasty=1002
+	dna="jgafldnakcf"
+	culture=lorathi 
+	religion=rhllor
+	father=2226	#Alvise
+	mother=2235	#Antonia
+	6563.7.24={ birth=yes }
+	6631.1.15={ death=yes }
+}
+2234={
+	name=Argentina
+	female=yes
+	culture=lorathi
+	religion=rhllor
+	6513.5.2={ birth=yes }
+	6575.7.15={ death=yes }
+}
+2235={
+	name=Antonia
+	female=yes
+	culture=lorathi
+	religion=rhllor
+	6533.5.2={ birth=yes }
+	6603.7.15={ death=yes }
+}
+
+# House Postio #
+
+2236={
+	name=Giano
+	dynasty=1003
+	dna="mjljfbdckni"
+	culture=lorathi 
+	religion=bearded_priests 
+	6511.1.27={ birth=yes }
+	6532.1.1={ add_spouse=2242 }
+	6565.1.16={ death=yes }
+}
+2237={
+	name=Giacomo
+	dynasty=1003
+	dna="mpjmdbkcknp"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=4 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=midas_touched 
+	trait=cruel 
+	trait=kind 
+	trait=deceitful 
+	trait=depressed 
+	father=2236	#Giano
+	mother=2242	#Myrmellios
+	6540.11.25={ birth=yes }
+	6620.7.12={ death=yes }
+}
+2238={
+	name=Lanna
+	female=yes
+	dynasty=1003
+	dna="kjbjnkflkni"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2236	#Giano
+	mother=2242	#Myrmellios
+	6541.6.1={ birth=yes }
+	6594.9.29={ death=yes }
+}
+2239={
+	name=Benvenuto
+	dynasty=1003
+	dna="kjhfebdcici"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=7 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=7 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=gregarious 
+	trait=cruel 
+	father=2236	#Giano
+	mother=2242	#Myrmellios
+	6546.7.2={ birth=yes }
+	6615.9.16={ death=yes }
+}
+2240={
+	name=Iacopo
+	dynasty=1003
+	dna="mclmfhdokji"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=just 
+	trait=charitable 
+	trait=trusting 
+	trait=chaste 
+	trait=wroth 
+	trait=cruel 
+	trait=depressed 
+	father=2236	#Giano
+	mother=2242	#Myrmellios
+	6550.12.19={ birth=yes }
+	6624.11.14={ death=yes }
+}
+2241={
+	name=Lidia
+	female=yes
+	dynasty=1003
+	dna="mjkcofkjknn"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2236	#Giano
+	mother=2242	#Myrmellios
+	6553.6.23={ birth=yes }
+	6600.11.11={ death=yes }
+}
+2242={
+	name=Myrmellios
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6511.5.2={ birth=yes }
+	6565.7.15={ death=yes }
+}
+
+# House Orsilini #
+
+2243={
+	name=Niccolò
+	dynasty=1004
+	dna="iephfjmdhkb"
+	culture=lorathi 
+	religion=the_seven
+	martial=4 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=grey_eminence 
+	trait=poet 
+	trait=cruel 
+	trait=humble 
+	trait=cynical 
+	trait=lustful 
+	trait=greedy 
+	6504.11.4={ birth=yes }
+	6525.1.1={ add_spouse=2250 }
+	6577.1.25={ death=yes }
+}
+2244={
+	name=Guido
+	dynasty=1004
+	dna="depbfpmockb"
+	culture=lorathi 
+	religion=the_seven
+	martial=7 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=7 
+	learning=4
+	trait=tough_soldier 
+	trait=envious 
+	trait=zealous 
+	trait=chaste 
+	trait=diligent 
+	father=2243	#Niccolò
+	mother=2250	#Giovanna
+	6529.5.7={ birth=yes }
+	6603.7.28={ death=yes }
+}
+2245={
+	name=Rogga
+	female=yes
+	dynasty=1004
+	dna="imphpjekhke"
+	culture=lorathi 
+	religion=the_seven
+	father=2243	#Niccolò
+	mother=2250	#Giovanna
+	6533.5.16={ birth=yes }
+	6594.2.13={ death=yes }
+}
+2246={
+	name=Ternesio
+	dynasty=1004
+	dna="iemkljjehik"
+	culture=lorathi 
+	religion=the_seven
+	martial=7 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=6
+	trait=midas_touched 
+	trait=kind 
+	trait=gluttonous 
+	trait=lustful 
+	trait=proud 
+	father=2243	#Niccolò
+	mother=2250	#Giovanna
+	6536.5.22={ birth=yes }
+	6599.10.28={ death=yes }
+}
+2247={
+	name=Pietro
+	dynasty=1004
+	dna="kenbfpmjjkb"
+	culture=lorathi 
+	religion=the_seven
+	trait=wroth 
+	trait=proud
+	trait=shy 
+	father=2204	#Guido
+	mother=2251	#Tomasina
+	6553.8.10={ birth=yes }
+	6620.6.4={ death=yes }
+}
+2248={
+	name=Taena
+	female=yes
+	dynasty=1004
+	dna="eogbpdldikb"
+	culture=lorathi 
+	religion=the_seven
+	father=2204	#Guido
+	mother=2251	#Tomasina
+	6556.7.3={ birth=yes }
+	6602.10.11={ death=yes }
+}
+2249={
+	name=Argentina
+	female=yes
+	dynasty=1004
+	dna="eepjfpmonkl"
+	culture=lorathi 
+	religion=the_seven
+	father=2204	#Guido
+	mother=2251	#Tomasina
+	6562.8.11={ birth=yes }
+	6624.2.12={ death=yes }
+}
+2250={
+	name=Giovanna
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6504.5.2={ birth=yes }
+	6577.7.15={ death=yes }
+}
+2251={
+	name=Tomasina
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6538.5.2={ birth=yes }
+	6612.7.15={ death=yes }
+}
+
+# House Piskuci #
+
+2252={
+	name=Ternesio
+	dynasty=1005
+	dna="mjhldbcblci"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=4 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=4
+	trait=martial_cleric 
+	trait=temperate 
+	trait=craven 
+	6519.1.18={ birth=yes }
+	6540.1.1={ add_spouse=2259 }
+	6584.3.3={ death=yes }
+}
+2253={
+	name=Gherardo
+	dynasty=1005
+	dna="ijpkddkflci"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=hedonist 
+	trait=cynical 
+	trait=lustful 
+	trait=wroth 
+	trait=gregarious 
+	father=2252	#Ternesio
+	mother=2259	#Serra
+	6545.2.17={ birth=yes }
+	6610.8.18={ death=yes }
+}
+2254={
+	name=Aurelio
+	dynasty=1005
+	dna="oehmhbfblkn"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=6 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=detached_priest 
+	trait=greedy 
+	trait=cruel 
+	trait=cynical 
+	father=2252	#Ternesio
+	mother=2259	#Serra
+	6548.4.15={ birth=yes }
+	6613.5.20={ death=yes }
+}
+2255={
+	name=Albino
+	dynasty=1005
+	dna="mchbdbcblcm"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	trait=martial_cleric 
+	trait=cruel 
+	trait=slothful 
+	father=2252	#Ternesio
+	mother=2259	#Serra
+	6551.3.4={ birth=yes }
+	6617.5.27={ death=yes }
+}
+2256={
+	name=Adone
+	dynasty=1005
+	dna="mjklpmcbkci"
+	culture=lorathi 
+	religion=bearded_priests
+	trait=mystic 
+	trait=honest 
+	trait=trusting 
+	father=2252	#Ternesio
+	mother=2259	#Serra
+	6553.9.19={ birth=yes }
+	6610.1.27={ death=yes }
+}
+2257={
+	name=Michele
+	dynasty=1005
+	dna="gnhlkhffpco"
+	culture=lorathi 
+	religion=bearded_priests
+	trait=content
+	trait=greedy 
+	father=2252	#Ternesio
+	mother=2259	#Serra
+	6556.1.6={ birth=yes }
+	6604.11.14={ death=yes }
+}
+2258={
+	name=Napoleone
+	dynasty=1005
+	dna="mghhfbcllki"
+	culture=lorathi 
+	religion=bearded_priests
+	trait=kind
+	father=2252	#Ternesio
+	mother=2259	#Serra
+	6561.9.17={ birth=yes }
+	6612.5.7={ death=yes }
+}
+2259={
+	name=Serra
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6519.5.2={ birth=yes }
+	6584.7.15={ death=yes }
+}
+
+# House Cucialda #
+
+2260={
+	name=Gelasio
+	dynasty=1006
+	dna="hpilmejaifm"
+	culture=lorathi 
+	religion=boashi
+	martial=8 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=7
+	trait=thrifty_clerk 
+	trait=humble 
+	trait=just 
+	6531.4.2={ birth=yes }
+	6552.1.1={ add_spouse=2264 }
+	6601.1.31={ death=yes }
+}
+2261={
+	name=Damiano
+	dynasty=1006
+	dna="ogplheneefm"
+	culture=lorathi 
+	religion=boashi
+	trait=honest
+	trait=lustful
+	father=2260	#Gelasio
+	mother=2264	#Silvana
+	6555.11.3={ birth=yes }
+	6601.5.30={ death=yes }
+}
+2262={
+	name=Doménico
+	dynasty=1006
+	dna="gjjahheaibp"
+	culture=lorathi 
+	religion=boashi
+	trait=trusting 
+	father=2260	#Gelasio
+	mother=2264	#Silvana
+	6558.8.6={ birth=yes }
+	6629.10.16={ death=yes }
+}
+2263={
+	name=Illyrio
+	dynasty=1006
+	dna="hnilmpjaofc"
+	culture=lorathi 
+	religion=boashi
+	father=2260	#Gelasio
+	mother=2264	#Silvana
+	6563.3.26={ birth=yes }
+	6631.10.21={ death=yes }
+}
+2264={
+	name=Silvana
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6531.5.2={ birth=yes }
+	6601.7.15={ death=yes }
+}
+
+# House Novnega #
+
+2265={
+	name=Jacopo
+	dynasty=1007
+	dna="aejpcllfdff"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=7 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=envious 
+	trait=trusting 
+	trait=lustful 
+	trait=brave 
+	trait=ill 
+	6525.5.19={ birth=yes }
+	6546.1.1={ add_spouse=2271 }
+	6569.11.16={ death=yes }
+}
+2266={
+	name=Bernabò
+	dynasty=1007
+	dna="afppdnlfhof"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=5
+	trait=elusive_shadow 
+	trait=hunter 
+	trait=gregarious 
+	trait=zealous 
+	trait=paranoid 
+	trait=envious 
+	father=2265	#Jacopo
+	mother=2271	#Yna
+	6547.9.17={ birth=yes }
+	6607.10.18={ death=yes }
+}
+2267={
+	name=Galasso
+	dynasty=1007
+	dna="allpclpodfl"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=6 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=hunter 
+	trait=craven 
+	trait=cruel 
+	trait=just 
+	trait=gregarious 
+	father=2265	#Jacopo
+	mother=2271	#Yna
+	6549.3.13={ birth=yes }
+	6600.8.11={ death=yes }
+}
+2268={
+	name="S'vrone"
+	female=yes
+	dynasty=1007
+	dna="aejgglhlnfg"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2265	#Jacopo
+	mother=2271	#Yna
+	6552.4.8={ birth=yes }
+	6607.3.25={ death=yes }
+}
+2269={
+	name=Saverio
+	dynasty=1007
+	dna="aedphaljfff"
+	culture=lorathi 
+	religion=bearded_priests
+	trait=brave
+	trait=lustful
+	trait=envious
+	trait=lisp 
+	father=2265	#Jacopo
+	mother=2271	#Yna
+	6553.4.26={ birth=yes }
+	6642.3.23={ death=yes }
+}
+2270={
+	name=Uberto
+	dynasty=1007
+	dna="aeaphaffifc"
+	culture=lorathi 
+	religion=bearded_priests
+	trait=trusting
+	father=2265	#Jacopo
+	mother=2271	#Yna
+	6555.12.6={ birth=yes }
+	6631.9.8={ death=yes }
+}
+2271={
+	name=Yna
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6525.5.2={ birth=yes }
+	6569.7.15={ death=yes }
+}
+
+# House Inlov #
+
+2272={
+	name=Pellegrino
+	dynasty=1008
+	dna="ekllompjghp"
+	culture=lorathi 
+	religion=boashi
+	martial=6 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=5 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=diligent 
+	trait=just 
+	trait=gluttonous 
+	trait=zealous 
+	6519.9.12={ birth=yes }
+	6540.1.1={ add_spouse=2278 }
+	6585.1.8={ death=yes }
+}
+2273={
+	name=Delinda
+	female=yes
+	dynasty=1008
+	dna="pkllmfmjfhp"
+	culture=lorathi 
+	religion=boashi
+	father=2272	#Pellegrino
+	mother=2278	#Albina
+	6545.4.8={ birth=yes }
+	6608.7.5={ death=yes }
+}
+2274={
+	name=Armando
+	dynasty=1008
+	dna="ekljlcjjglp"
+	culture=lorathi 
+	religion=boashi
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=8 
+	learning=5
+	trait=martial_cleric 
+	trait=mystic 
+	trait=honest 
+	trait=chaste 
+	trait=zealous 
+	trait=envious 
+	trait=gregarious 
+	father=2272	#Pellegrino
+	mother=2278	#Albina
+	6549.11.8={ birth=yes }
+	6614.7.11={ death=yes }
+}
+2275={
+	name=Armando
+	dynasty=1008
+	dna="dklaomfjlhp"
+	culture=lorathi 
+	religion=boashi
+	martial=8 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=6
+	trait=greedy 
+	trait=diligent  
+	trait=shy 
+	father=2272	#Pellegrino
+	mother=2278	#Albina
+	6551.8.2={ birth=yes }
+	6607.6.18={ death=yes }
+}
+2276={
+	name=Attilio
+	dynasty=1008
+	dna="eepaodicgdi"
+	culture=lorathi 
+	religion=boashi
+	trait=envious 
+	trait=charitable 
+	father=2272	#Pellegrino
+	mother=2278	#Albina
+	6553.8.25={ birth=yes }
+	6616.8.27={ death=yes }
+}
+2277={
+	name=Giulia
+	female=yes
+	dynasty=1008
+	dna="onlloipjghp"
+	culture=lorathi 
+	religion=boashi
+	father=2272	#Pellegrino
+	mother=2278	#Albina
+	6556.11.27={ birth=yes }
+	6614.3.14={ death=yes }
+}
+2278={
+	name=Albina
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6519.5.2={ birth=yes }
+	6585.7.15={ death=yes }
+}
+
+# House Etcu #
+
+2279={
+	name=Galeazzo
+	dynasty=1009
+	dna="lacckcggjpf"
+	culture=lorathi 
+	religion=rhllor
+	6513.6.22={ birth=yes }
+	6534.1.1={ add_spouse=2284 }
+	6554.6.23={ death=yes }
+}
+2280={
+	name=Antonia
+	female=yes
+	dynasty=1009
+	dna="dacokcggcpf"
+	culture=lorathi 
+	religion=rhllor
+	father=2279	#Galeazzo
+	mother=2284	#Lavinia
+	6537.11.12={ birth=yes }
+	6587.2.19={ death=yes }
+}
+2281={
+	name=Malacresta
+	dynasty=1009
+	dna="eaepkdganhf"
+	culture=lorathi 
+	religion=rhllor
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=8
+	trait=flamboyant_schemer
+	trait=brave 
+	trait=cruel 
+	trait=envious 
+	trait=temperate 
+	father=2279	#Galeazzo
+	mother=2284	#Lavinia
+	6542.11.9={ birth=yes }
+	6603.10.26={ death=yes }
+}
+2282={
+	name=Ermenegildo
+	dynasty=1009
+	dna="ofccjbhoekf"
+	culture=lorathi 
+	religion=rhllor
+	martial=7 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=8 
+	learning=4
+	trait=thrifty_clerk 
+	trait=mystic 
+	trait=gregarious 
+	trait=trusting 
+	trait=greedy 
+	trait=honest 
+	trait=wroth 
+	father=2279	#Galeazzo
+	mother=2284	#Lavinia
+	6543.2.22={ birth=yes }
+	6614.6.6={ death=yes }
+}
+2283={
+	name=Berto
+	dynasty=1009
+	dna="pdcckmogjlf"
+	culture=lorathi 
+	religion=rhllor
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=7 
+	learning=8
+	trait=midas_touched 
+	trait=cruel 
+	trait=wroth 
+	father=2279	#Galeazzo
+	mother=2284	#Lavinia
+	6545.3.1={ birth=yes }
+	6605.10.26={ death=yes }
+}
+2284={
+	name=Lavinia
+	female=yes
+	culture=lorathi
+	religion=rhllor
+	6513.5.2={ birth=yes }
+	6554.7.15={ death=yes }
+}
+
+# House Anamart #
+
+2285={
+	name=Gelasio
+	dynasty=1010
+	dna="eimbdnpjldk"
+	culture=lorathi 
+	religion=the_seven
+	martial=4 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=8 
+	learning=7
+	trait=misguided_warrior 
+	trait=deceitful 
+	trait=gluttonous 
+	trait=zealous 
+	trait=patient 
+	trait=proud 
+	6546.4.16={ birth=yes }
+	6604.10.3={ death=yes }
+}
+
+# House Lask #
+
+2286={
+	name=Bonifacio
+	dynasty=1011
+	dna="jjjhpaamadn"
+	culture=lorathi 
+	religion=boashi
+	martial=7 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=7 
+	learning=5
+	trait=scholarly_theologian 
+	trait=greedy 
+	trait=gregarious 
+	6529.7.8={ birth=yes }
+	6550.1.1={ add_spouse=2290 }
+	6571.8.26={ death=yes }
+}
+2287={
+	name=Serafino
+	dynasty=1011
+	dna="jjjjpaamikn"
+	culture=lorathi 
+	religion=boashi
+	martial=7 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=7 
+	learning=7
+	trait=deceitful 
+	trait=brave 
+	trait=lustful 
+	trait=diligent 
+	father=2286	#Bonifacio
+	mother=2290	#Ermenegilda
+	6551.5.1={ birth=yes }
+	6602.5.23={ death=yes }
+}
+2288={
+	name=Mysaria
+	female=yes
+	dynasty=1011
+	dna="jpbidbambdn"
+	culture=lorathi 
+	religion=boashi
+	father=2286	#Bonifacio
+	mother=2290	#Ermenegilda
+	6554.3.21={ birth=yes }
+	6623.12.19={ death=yes }
+}
+2289={
+	name=Pagano
+	dynasty=1011
+	dna="hijfpaamnpn"
+	culture=lorathi 
+	religion=boashi
+	trait=deceitful 
+	trait=zealous 
+	father=2286	#Bonifacio
+	mother=2290	#Ermenegilda
+	6556.10.26={ birth=yes }
+	6629.6.10={ death=yes }
+}
+2290={
+	name=Ermenegilda
+	female=yes
+	culture=lorathi
+	religion=boashi
+	6529.5.2={ birth=yes }
+	6571.7.15={ death=yes }
+}
+
+# House Oncliv #
+
+2291={
+	name=Bartolomeo
+	dynasty=1012
+	dna="bholfmnlcco"
+	culture=lorathi 
+	religion=the_seven
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=7 
+	learning=6
+	trait=elusive_shadow 
+	trait=mystic 
+	trait=arbitrary 
+	trait=paranoid 
+	trait=patient 
+	trait=cynical 
+	trait=drunkard 
+	6525.7.16={ birth=yes }
+	6546.1.1={ add_spouse=2297 }
+	6595.7.27={ death=yes }
+}
+2292={
+	name=Virginio
+	dynasty=1012
+	dna="bkdlfmhncoe"
+	culture=lorathi 
+	religion=the_seven
+	trait=duelist 
+	trait=brave
+	father=2291	#Bartolomeo
+	mother=2297	#Margherita
+	6552.2.11={ birth=yes }
+	6610.7.22={ death=yes }
+}
+2293={
+	name=Agalina
+	female=yes
+	dynasty=1012
+	dna="ihlmfdplcfh"
+	culture=lorathi 
+	religion=the_seven
+	father=2291	#Bartolomeo
+	mother=2297	#Margherita
+	6554.12.25={ birth=yes }
+	6603.6.1={ death=yes }
+}
+2294={
+	name=Pagano
+	dynasty=1012
+	dna="bccpnpnlclo"
+	culture=lorathi 
+	religion=the_seven
+	trait=brave 
+	trait=stressed 
+	father=2291	#Bartolomeo
+	mother=2297	#Margherita
+	6557.7.7={ birth=yes }
+	6611.9.14={ death=yes }
+}
+2295={
+	name=Violante
+	female=yes
+	dynasty=1012
+	dna="dillfhnlcch"
+	culture=lorathi 
+	religion=the_seven
+	father=2291	#Bartolomeo
+	mother=2297	#Margherita
+	6561.8.21={ birth=yes }
+	6614.4.29={ death=yes }
+}
+2296={
+	name=Eudossia
+	female=yes
+	dynasty=1012
+	dna="bpomiangjmo"
+	culture=lorathi 
+	religion=the_seven
+	father=2291	#Bartolomeo
+	mother=2297	#Margherita
+	6566.8.3={ birth=yes }
+	6641.4.1={ death=yes }
+}
+2297={
+	name=Margherita
+	female=yes
+	culture=lorathi
+	religion=the_seven
+	6525.5.2={ birth=yes }
+	6595.7.15={ death=yes }
+}
+
+# House Bukori #
+
+2298={
+	name=Durante
+	dynasty=1013
+	dna="bbcplcpdfnh"
+	culture=lorathi 
+	religion=boashi
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=4
+	trait=martial_cleric 
+	trait=brave 
+	trait=zealous 
+	trait=depressed 
+	6535.7.16={ birth=yes }
+	6605.7.27={ death=yes }
+}
+2299={
+	name=Achille
+	dynasty=1013
+	dna="agcbmhjfaoa"
+	culture=lorathi 
+	religion=boashi
+	trait=just
+	trait=paranoid 
+	father=2298 #Durante
+	6556.7.16={ birth=yes }
+	6626.7.27={ death=yes }
+}
+
+# House Cepste #
+
+2300={
+	name=Averado
+	dynasty=1014
+	dna="gehkdjmjpfd"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=8 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=8
+	trait=misguided_warrior 
+	trait=shy 
+	trait=cynical 
+	trait=cruel 
+	6511.10.6={ birth=yes }
+	6532.1.1={ add_spouse=2311 }
+	6574.10.28={ death=yes }
+}
+2301={
+	name=Baldovino
+	dynasty=1014
+	dna="gghkijplpad"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=7 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8 
+	learning=4
+	trait=grey_eminence 
+	trait=shy 
+	trait=chaste 
+	trait=ambitious 
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6537.11.10={ birth=yes }
+	6558.1.1={ add_spouse=2312 }
+	6584.7.3={ death=yes }
+}
+2302={
+	name=Napoleone
+	dynasty=1014
+	dna="hcandakhcnb"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=6 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=arbitrary 
+	trait=paranoid 
+	trait=diligent 
+	trait=cynical 
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6542.4.14={ birth=yes }
+	6594.1.14={ death=yes }
+}
+2303={
+	name=Bellonara
+	female=yes
+	dynasty=1014
+	dna="gahknjmdmad"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6544.6.18={ birth=yes }
+	6590.8.31={ death=yes }
+}
+2304={
+	name=Collio
+	dynasty=1014
+	dna="gehidhmeago"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=8 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=5 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=honest 
+	trait=greedy 
+	trait=brave 
+	trait=humble 
+	trait=arbitrary 
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6547.3.26={ birth=yes }
+	6605.5.7={ death=yes }
+}
+2305={
+	name=Galeotto
+	dynasty=1014
+	dna="gehkdahjlkj"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=5 
+	learning=6
+	trait=martial_cleric 
+	trait=gluttonous 
+	trait=cruel 
+	trait=charitable 
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6549.1.3={ birth=yes }
+	6599.4.22={ death=yes }
+}
+2306={
+	name=Filippa
+	female=yes
+	dynasty=1014
+	dna="ggmmljmppfh"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6551.6.14={ birth=yes }
+	6605.12.7={ death=yes }
+}
+2307={
+	name=Urbano
+	dynasty=1014
+	dna="gnkkdjmkpfd"
+	culture=lorathi 
+	religion=bearded_priests
+	trait=zealous
+	trait=proud 
+	trait=stressed 
+	father=2300	#Averado
+	mother=2311	#Elisabetta
+	6553.4.5={ birth=yes }
+	6618.5.23={ death=yes }
+}
+2308={
+	name=Albino
+	dynasty=1014
+	dna="aofkihplpad"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2301	#Baldovino
+	mother=2312	#Adelasia
+	6560.3.6={ birth=yes }
+	6616.5.29={ death=yes }
+}
+2309={
+	name=Anselmo
+	dynasty=1014
+	dna="jghkijjlhjp"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2301	#Baldovino
+	mother=2312	#Adelasia
+	6562.3.18={ birth=yes }
+	6640.11.26={ death=yes }
+}
+2310={
+	name=Giulia
+	female=yes
+	dynasty=1014
+	dna="ogfknaacbdd"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2301	#Baldovino
+	mother=2312	#Adelasia
+	6566.4.14={ birth=yes }
+	6596.12.14={ death=yes }
+}
+2311={
+	name=Elisabetta
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6511.5.2={ birth=yes }
+	6574.7.15={ death=yes }
+}
+2312={
+	name=Adelasia
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6537.5.2={ birth=yes }
+	6584.7.15={ death=yes }
+}
+
+# House Palajur #
+
+2313={
+	name=Ciuccio
+	dynasty=1015
+	dna="ckcpmeaedhf"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=7 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=craven 
+	trait=kind 
+	trait=cruel 
+	trait=charitable 
+	trait=deceitful 
+	trait=weak 
+	6518.7.17={ birth=yes }
+	6539.1.1={ add_spouse=2317 }
+	6587.7.25={ death=yes }
+}
+2314={
+	name=Delinda
+	female=yes
+	dynasty=1015
+	dna="ckcpmeaephd"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2313	#Ciuccio
+	mother=2317	#Serala
+	6547.3.20={ birth=yes }
+	6604.6.20={ death=yes }
+}
+2315={
+	name=Gaspare
+	dynasty=1015
+	dna="ikenneaffhf"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=4 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=craven 
+	trait=temperate 
+	trait=arbitrary 
+	trait=cruel 
+	trait=paranoid 
+	trait=ambitious 
+	father=2313	#Ciuccio
+	mother=2317	#Serala
+	6550.11.26={ birth=yes }
+	6614.4.17={ death=yes }
+}
+2316={
+	name=Tibaldo
+	dynasty=1015
+	dna="ckmceeaephj"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=8
+	trait=wroth 
+	trait=greedy 
+	trait=deceitful 
+	trait=ambitious 
+	trait=slothful 
+	trait=depressed 
+	father=2313	#Ciuccio
+	mother=2317	#Serala
+	6551.12.19={ birth=yes }
+	6600.2.15={ death=yes }
+}
+2317={
+	name=Serala
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6518.5.2={ birth=yes }
+	6587.7.15={ death=yes }
+}
+
+# House Gucosl #
+
+2318={
+	name=Leonardo
+	dynasty=1016
+	dna="ldlgonchdmi"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=8 
+	learning=5
+	trait=elusive_shadow 
+	trait=patient 
+	trait=honest 
+	6540.5.11={ birth=yes }
+	6607.10.28={ death=yes }
+}
+2319={
+	name=Igino
+	dynasty=1016
+	dna="lildnnhdddm"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2318	#Leonardo
+	6566.1.23={ birth=yes }
+	6630.8.3={ death=yes }
+}
+
+# House Roc #
+
+2320={
+	name=Severino
+	dynasty=1017
+	dna="fadicniapme"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=5 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=8 
+	learning=6
+	trait=midas_touched 
+	trait=honest 
+	trait=content 
+	trait=brave 
+	6536.6.2={ birth=yes }
+	6557.1.1={ add_spouse=2324 }
+	6600.11.27={ death=yes }
+}
+2321={
+	name=Doreah
+	female=yes
+	dynasty=1017
+	dna="ffnicdmapme"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2320	#Severino
+	mother=2324	#Clotilde
+	6561.11.11={ birth=yes }
+	6611.9.9={ death=yes }
+}
+2322={
+	name=Edda
+	female=yes
+	dynasty=1017
+	dna="pmpeclhnnje"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2320	#Severino
+	mother=2324	#Clotilde
+	6564.4.19={ birth=yes }
+	6623.3.31={ death=yes }
+}
+2323={
+	name=Cosimo
+	dynasty=1017
+	dna="fmdicmmobmo"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2320	#Severino
+	mother=2324	#Clotilde
+	6566.1.12={ birth=yes }
+	6618.6.29={ death=yes }
+}
+2324={
+	name=Clotilde
+	female=yes
+	culture=lorathi
+	religion=bearded_priests
+	6536.5.2={ birth=yes }
+	6600.7.15={ death=yes }
+}
+
+# House Sorsi #
+
+2325={
+	name=Lorenzo
+	dynasty=1018
+	dna="efmfnilodpm"
+	culture=lorathi 
+	religion=rhllor
+	martial=4 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=7 
+	learning=7
+	trait=elusive_shadow 
+	trait=scholar 
+	trait=paranoid 
+	trait=cruel 
+	trait=humble 
+	6543.10.5={ birth=yes }
+	6599.4.11={ death=yes }
+}
+2326={
+	name=Albano
+	dynasty=1018
+	dna="efgfiiefijb"
+	culture=lorathi 
+	religion=rhllor
+	father=2325	#Lorenzo
+	6565.12.12={ birth=yes }
+	6611.4.12={ death=yes }
+}
+
+# House Parrim #
+
+2327={
+	name=Myrmellios
+	dynasty=1018
+	dna="npibklkaffl"
+	culture=lorathi 
+	religion=bearded_priests
+	martial=7 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=7 
+	learning=6
+	trait=martial_cleric 
+	trait=mystic 
+	trait=wroth 
+	trait=arbitrary 
+	trait=slothful  
+	6540.10.5={ birth=yes }
+	6596.4.11={ death=yes }
+}
+2328={
+	name=Niccolò
+	dynasty=1018
+	dna="jmpbelambel"
+	culture=lorathi 
+	religion=bearded_priests
+	father=2327	#Myrmellios
+	6562.12.12={ birth=yes }
+	6608.4.12={ death=yes }
+}

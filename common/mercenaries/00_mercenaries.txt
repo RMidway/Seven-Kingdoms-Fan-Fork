@@ -1,0 +1,307 @@
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+
+#historical mercs#
+
+poor_fellows = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 500
+	light_cavalry = 500
+	archers = 1000
+	pikemen = 1000
+}
+warriors_sons = {
+	levy_size = 1
+	light_infantry = 1000
+	heavy_infantry = 1000
+	light_cavalry = 100
+	knights = 200
+	archers = 750
+	pikemen = 250
+}
+maidens_men = {
+	levy_size = 1
+	light_cavalry = 500
+	archers = 250
+	heavy_infantry = 500
+	knights = 150
+}
+ragged_standard = {
+	levy_size = 1
+	archers = 500
+	light_infantry = 1000
+	light_cavalry = 150
+}
+second_sons = {
+	levy_size = 1
+	archers = 250
+	heavy_infantry = 250
+	light_cavalry = 1000
+	knights = 100
+}
+stormcrows = {
+	levy_size = 1
+	light_infantry = 300
+	heavy_infantry = 800
+	light_cavalry = 300
+}
+long_lances = {
+	levy_size = 1
+	light_cavalry = 1250
+	knights = 250
+}
+iron_shields = {
+	levy_size = 1
+	light_infantry = 1400
+	light_cavalry = 100
+}
+gallant_men = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 500
+	light_cavalry = 100
+	archers = 300
+	knights = 50
+}
+company_of_the_cat = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 500
+	archers = 250
+}
+bright_banners = {
+	levy_size = 1
+	knights = 150
+	heavy_infantry = 800
+	light_cavalry = 200
+}
+
+### Essosi Mercs ###
+
+myrish_crossbowmen = {
+	levy_size = 1
+	archers = 1000
+	pikemen = 250
+}
+tyroshi_lancers = {
+	levy_size = 1
+	light_cavalry = 750
+	pikemen = 150
+	knights = 150
+}
+lysene_swordsmen = {
+	levy_size = 1
+	heavy_infantry = 800
+	pikemen = 200
+	archers = 250
+}
+pentoshi_archers = {
+	levy_size = 1
+	archers = 1000
+	pikemen = 250
+}
+braavosi_sellswords = {
+	levy_size = 1
+	light_infantry = 750
+	heavy_infantry = 250
+	archers = 200
+}
+the_silver_company = {
+	levy_size = 1
+	knights = 200
+	heavy_infantry = 800
+	archers = 400
+}
+tyroshi_freeriders = {
+	levy_size = 1
+	light_cavalry = 1000
+	knights = 250
+}
+lysene_pikemen = {
+	levy_size = 1
+	pikemen = 1000
+	archers = 250
+}
+
+### Valyrian
+archons_chosen = {
+	levy_size = 1
+	pikemen = 2500
+	knights = 1000
+	archers = 750
+}
+
+### Westerosi Knights
+hedge_knights = {
+	levy_size = 1
+	knights = 250
+	heavy_infantry = 500
+}
+disgraced_knights = {
+	levy_size = 1
+	knights = 400
+	heavy_infantry = 500
+}
+
+###other###
+
+bearded_priests = {
+	levy_size = 1
+	light_infantry = 400
+	heavy_infantry = 100
+	light_cavalry = 100
+	knights = 300
+	pikemen = 100
+}
+boashi = {
+	levy_size = 1
+	light_infantry = 400
+	heavy_infantry = 400
+	light_cavalry = 300
+	knights = 100
+	archers = 200
+}
+moonsingers = {
+	levy_size = 1
+	light_infantry = 100
+	heavy_infantry = 300
+	light_cavalry = 400
+	archers = 600
+}
+wildling = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 100
+}
+maiden_of_the_harvest = {
+	levy_size = 1
+	light_infantry = 200
+	heavy_infantry = 300
+	light_cavalry = 200
+	knights = 200
+	pikemen = 300
+}
+rhllor = {
+	levy_size = 1
+	heavy_infantry = 300
+	light_cavalry = 100
+	knights = 200
+	archers = 300
+	pikemen = 400
+}
+trios = {
+	levy_size = 1
+	light_infantry = 100
+	heavy_infantry = 100
+	light_cavalry = 200
+	knights = 200
+	archers = 300
+	pikemen = 100
+}
+weeping_lady = {
+	levy_size = 1
+	light_infantry = 200
+	heavy_infantry = 100
+	light_cavalry = 200
+	knights = 200
+	archers = 200
+	pikemen = 100
+}
+valyrian = {
+	levy_size = 1
+	light_infantry = 100
+	light_cavalry = 300
+	knights = 200
+	archers = 200
+	pikemen = 200
+}
+lady_of_the_rocks = {
+	levy_size = 1
+	light_infantry = 100
+	heavy_infantry = 300
+	light_cavalry = 200
+	knights = 200
+	archers = 100
+	pikemen = 100
+}
+black_flag = {
+	levy_size = 1
+	light_infantry = 200
+	heavy_infantry = 200
+	light_cavalry = 100
+	archers = 300
+	pikemen = 200
+}
+old_gods = {
+	levy_size = 1
+	light_infantry = 300
+	heavy_infantry = 300
+	light_cavalry = 250
+	knights = 150
+	archers = 100
+	pikemen = 200
+}
+skagosi = {
+	levy_size = 1
+	heavy_infantry = 400
+	light_cavalry = 100
+	knights = 100
+	pikemen = 300
+	archers = 100
+}
+peasants = {
+	levy_size = 1
+	light_infantry = 900
+	pikemen = 100
+}
+infantry = {
+	levy_size = 1
+	heavy_infantry = 900
+	light_infantry = 100
+}
+riders = {
+	levy_size = 1
+	light_cavalry = 900
+	knights = 100
+}
+knights = {
+	levy_size = 1
+	knights = 900
+	light_cavalry = 100
+}
+pikes = {
+	levy_size = 1
+	pikemen = 900
+	archers = 100
+}
+archers = {
+	levy_size = 1
+	archers = 900
+	pikemen = 100
+}
+fleet = {
+	levy_size = 1
+	galleys = 25
+}
+drowned_god = {
+	levy_size = 1
+	light_infantry = 150
+	heavy_infantry = 150
+	light_cavalry = 150
+	knights = 50
+	archers = 300
+	pikemen = 200
+}
+slaves = {
+	levy_size = 1
+	light_infantry = 3000
+}
+valyrian_legion = {
+	levy_size = 1
+	knights = 250
+	pikemen = 1000
+	archers = 250
+	heavy_infantry = 500
+}

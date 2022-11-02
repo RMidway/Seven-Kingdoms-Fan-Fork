@@ -1,0 +1,21 @@
+# c_entraman
+
+# County Title
+title = c_entraman
+
+# Settlements
+max_settlements = 3
+
+b_entraman = castle
+#b_golderhees = city
+#b_lathuy = temple
+
+# Misc
+culture = manderish
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+    culture = reachmen
+	religion = the_seven
+}

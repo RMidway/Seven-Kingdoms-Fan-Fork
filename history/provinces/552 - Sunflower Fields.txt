@@ -1,0 +1,22 @@
+# c_sunflower_fields
+
+# County Title
+title = c_sunflower_fields
+
+# Settlements
+max_settlements = 4
+
+b_morningthaw_manor = castle
+b_warmfield = city
+b_forgiving_meadow = city
+#b_singingseeds = castle
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

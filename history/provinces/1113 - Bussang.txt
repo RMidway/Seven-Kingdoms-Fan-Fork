@@ -1,0 +1,21 @@
+# c_bussang
+
+# County Title
+title = c_bussang
+
+# Settlements
+max_settlements = 3
+
+b_bussang = castle
+#b_kleinin = city
+#b_bussang_2 = temple
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = mountain
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

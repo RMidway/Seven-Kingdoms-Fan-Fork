@@ -1,0 +1,21 @@
+# c_naing
+
+# County Title
+title = c_naing
+
+# Settlements
+max_settlements = 2
+
+b_naing = castle
+#b_naing_2 = city
+#b_naing_3 = temple
+#b_naing_4 = castle
+#b_naing_5 = city
+#b_naing_6 = temple
+#b_naing_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = farmlands
+#History

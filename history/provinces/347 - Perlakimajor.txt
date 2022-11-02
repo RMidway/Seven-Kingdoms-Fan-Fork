@@ -1,0 +1,21 @@
+# c_perlakimajor
+
+# County Title
+title = c_perlakimajor
+
+# Settlements
+max_settlements = 2
+
+b_perlakimajor = city
+b_perlaki = temple
+#b_perlakimajor_2 = temple
+#b_perlakimajor_3 = castle
+#b_perlakimajor_4 = city
+#b_perlakimajor_5 = temple
+#b_perlakimajor_6 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

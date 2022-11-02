@@ -1,0 +1,45 @@
+e_nothing = {
+	color={ 0 0 0 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+k_nothing = {
+	color={ 0 0 0 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+d_duskentown = {
+	color = { 80 30 60 }
+	color2 = { 255 255 255 }
+}
+d_rosby2 = {
+	color = { 164 77 101 }
+	color2 = { 255 255 255 }
+}
+d_highrose = {
+	color = { 45 100 50 }
+	color2 = { 255 255 255 }
+}
+d_gulltown2 = {
+	color = { 53 180 200 }
+	color2 = { 255 255 255 }
+}
+d_ryamsport = {
+	color = { 90 40 60 }
+	color2 = { 255 255 255 }
+}
+d_oldtown2 = {
+	color = { 10 28 13 }
+	color2 = { 255 255 255 }
+}
+
+d_highley = {
+	color = { 135 28 240 }
+	color2 = { 255 255 255 }
+}

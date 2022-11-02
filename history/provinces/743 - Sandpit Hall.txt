@@ -1,0 +1,23 @@
+# c_sandpit_hall
+
+# County Title
+title = c_sandpit_hall
+
+# Settlements
+max_settlements = 3
+
+b_sandpit_hall = castle
+#b_bickhusen = city
+#b_buchar = temple
+
+# Misc
+culture = hookmen
+religion = old_gods
+terrain = plains
+#History
+6540.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = watermen
+}

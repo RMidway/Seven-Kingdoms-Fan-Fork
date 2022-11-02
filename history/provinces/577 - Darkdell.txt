@@ -1,0 +1,21 @@
+# c_darkdell
+
+# County Title
+title = c_darkdell
+
+# Settlements
+max_settlements = 3
+
+b_darkdell = castle
+b_alford = city
+#b_raglan = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6800.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

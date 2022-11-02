@@ -1,0 +1,21 @@
+# c_ghetta
+
+# County Title
+title = c_ghetta
+
+# Settlements
+max_settlements = 7
+
+b_ghetta = castle
+#b_ghetta_2 = city
+#b_ghetta_3 = temple
+#b_ghetta_4 = castle
+#b_ghetta_5 = city
+#b_ghetta_6 = temple
+#b_ghetta_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = mountain
+#History

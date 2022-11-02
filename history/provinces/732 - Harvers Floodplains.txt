@@ -1,0 +1,22 @@
+# c_harvers_floodplains
+
+# County Title
+title = c_harvers_floodplains
+
+# Settlements
+max_settlements = 4
+
+b_floodplains = castle
+#b_bayahren = city
+#b_renavos = temple
+#b_harvers_floodplains = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

@@ -1,0 +1,22 @@
+# c_eastport
+
+# County Title
+title = c_eastport
+
+# Settlements
+max_settlements = 4
+
+b_eastport = castle
+b_springbiel = city
+#b_nueunheerse = temple
+#b_eastport_2 = castle
+
+# Misc
+culture = wrathmen
+religion = old_gods
+terrain = woods
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = wrathlander
+}

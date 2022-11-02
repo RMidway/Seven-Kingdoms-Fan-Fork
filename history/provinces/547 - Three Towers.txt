@@ -1,0 +1,23 @@
+# c_three_towers
+
+# County Title
+title = c_three_towers
+
+# Settlements
+max_settlements = 5
+
+b_three_towers = castle
+b_stonewage = city
+b_herloz = temple
+b_cugnon = castle
+b_aunoit = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

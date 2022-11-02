@@ -1,0 +1,21 @@
+# c_bandland
+
+# County Title
+title = c_bandland
+
+# Settlements
+max_settlements = 3
+
+b_bandland = castle
+b_bannersong = city
+#b_vurst = temple
+
+# Misc
+culture = wynemen
+religion = old_gods
+terrain = farmlands
+#History
+6566.1.1 = {
+	culture = wynelander
+    religion = the_seven
+}

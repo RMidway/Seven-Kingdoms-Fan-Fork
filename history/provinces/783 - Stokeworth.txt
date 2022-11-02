@@ -1,0 +1,23 @@
+# c_stokeworth
+
+# County Title
+title = c_stokeworth
+
+# Settlements
+max_settlements = 5
+
+b_stokeworth = castle
+b_zdar = city
+b_ahrendorf = temple
+#b_homokham = castle
+#b_stokeworth_2 = city
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = hills
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

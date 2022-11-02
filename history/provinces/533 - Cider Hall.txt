@@ -1,0 +1,23 @@
+# c_cider_hall
+
+# County Title
+title = c_cider_hall
+
+# Settlements
+max_settlements = 5
+
+b_cider_hall = castle
+b_applekeg = city
+b_beys = castle
+#b_splete = castle
+#b_ciderton = city
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = plains
+#History
+6800.1.1 = {
+	culture = marcher
+    religion = the_seven
+}

@@ -1,0 +1,21 @@
+# c_lustosa
+
+# County Title
+title = c_lustosa
+
+# Settlements
+max_settlements = 3
+
+b_lustosa = castle
+#b_lustosa_2 = city
+#b_lustosa_3 = temple
+#b_lustosa_4 = castle
+#b_lustosa_5 = city
+#b_lustosa_6 = temple
+#b_lustosa_7 = castle
+
+# Misc
+culture = lysene
+religion = rhllor
+terrain = woods
+#History

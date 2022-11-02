@@ -1,0 +1,21 @@
+# c_loye
+
+# County Title
+title = c_loye
+
+# Settlements
+max_settlements = 3
+
+b_loye = castle
+#b_loye_2 = city
+#b_loye_3 = temple
+#b_loye_4 = castle
+#b_loye_5 = city
+#b_loye_6 = temple
+#b_loye_7 = castle
+
+# Misc
+culture = andal
+religion = the_seven
+terrain = farmlands
+#History

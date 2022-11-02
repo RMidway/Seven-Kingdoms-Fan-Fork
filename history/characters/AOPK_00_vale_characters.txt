@@ -1,0 +1,2017 @@
+############
+# ID RANGE #
+#   3-199  #
+############
+
+###################
+### House Bael ####
+###################
+
+3 = {
+    name = George
+    dynasty = 188 # Bael
+    
+    religion = the_seven
+    culture = lowland_valemen
+	trait="dueling_skilled"
+
+    6540.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+34 = {
+    name = Petyr
+    dynasty = 188 # Bael
+    father = 3
+    religion = the_seven
+    culture = lowland_valemen
+
+    6563.1.1 = { birth=yes }
+    6631.1.1 = { death=yes }
+}
+
+35 = {
+    name = Josua
+    dynasty = 188 # Bael
+    father = 3
+    religion = the_seven
+    culture = lowland_valemen
+
+    6565.1.1 = { birth=yes }
+    6634.1.1 = { death=yes }
+}
+ 
+
+
+
+#####################
+### House Redfort ###
+#####################
+
+6 = {
+    name = Horton
+    dynasty = 174 # Redfort
+    
+    religion = the_seven
+    culture = bronzemen
+	trait = dueling_expert
+
+    6540.1.1 = { birth=yes }
+    6597.1.1 = { death=yes }
+}
+
+39 = {
+    name = Horton
+    dynasty = 174 # Redfort
+    father = 6
+    religion = the_seven
+    culture = lowland_valemen
+
+    6560.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+######################
+### House Waynwood ###
+######################
+
+7 = {
+    name = Morton
+    dynasty = 175 # Waynwood
+    
+    religion = the_seven
+    culture = lowland_valemen
+	trait = dueling_skilled
+
+    6543.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+40 = {
+    name = Jon
+    dynasty = 175 # Waynwood
+    father = 7 	
+    religion = the_seven
+    culture = lowland_valemen
+
+    6563.1.1 = { birth=yes }
+    6631.1.1 = { death=yes }
+}
+####################
+### House Hunter ###
+####################
+
+8 = {
+    name = Eustace
+    dynasty = 176 # Hunter
+    
+    religion = the_seven
+    culture = lowlander
+	trait = dueling_skilled
+
+    6546.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+41 = {
+    name = Gilwood
+    dynasty = 176 # Hunter
+    father = 8
+    religion = the_seven
+    culture = lowlander
+
+    6564.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+42 = {
+    name = Lyanna
+    dynasty = 176 # Hunter
+    female = yes
+    father = 8
+    religion = the_seven
+    culture = lowlander
+
+    6565.1.1 = { birth=yes }
+    6624.1.1 = { death=yes }
+}
+#####################
+### House Melcolm ###
+#####################
+
+9 = {
+    name = Mel
+    dynasty = 177 # Melcolm
+    
+    religion = the_seven
+    culture = lowland_valemen
+	trait = dueling_skilled
+
+    6547.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}		 		   	
+
+43 = {
+    name = Malcolm
+    dynasty = 177 # Melcolm
+    father = 9
+    religion = the_seven
+    culture = lowland_valemen
+
+    6564.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}		 	
+##################
+### House Pass ###
+##################
+
+10 = {
+    name = Jon
+    dynasty = 178 # Pass
+    
+    religion = the_seven
+    culture = valemen
+	trait = dueling_expert
+
+    6543.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+44 = {
+    name = Minissa
+    dynasty = 178 # Pass
+    female = yes
+    father = 10	
+    religion = the_seven
+    culture = valemen
+
+    6560.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+45 = {
+    name = Alyn
+    dynasty = 178 # Pass
+    
+    father = 10	
+    religion = the_seven
+    culture = valemen
+
+    6562.1.1 = { birth=yes }
+    6624.1.1 = { death=yes }
+}
+###################
+### House Moore ###
+###################
+
+### Moved to Vale_Characters
+
+#####################
+### House Belmore ###
+#####################
+
+### Moved to Vale Characters
+
+#######################
+### House Pointgard ###
+#######################
+
+15 = {
+    name = Joseph
+    dynasty = 183 # Pointgard
+    
+    religion = old_gods
+    culture = lowlander
+	trait = dueling_skilled
+
+    6545.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+52 = {
+    name = Ronnel
+    dynasty = 183 # Pointgard
+    father = 15
+    religion = old_gods
+    culture = lowlander
+
+    6561.1.1 = { birth=yes }
+    6615.1.1 = { death=yes }
+}
+######################
+### House Wycliffe ###
+######################
+
+16 = {
+    name = Willem
+    dynasty = 184 # Wycliffe
+    
+    religion = the_seven
+    culture = lowland_valemen
+	trait = dueling_skilled
+
+    6535.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+
+53 = {
+    name = William
+    dynasty = 184 # Wycliffe
+    father = 16
+    religion = the_seven
+    culture = lowland_valemen
+	trait = dueling_novice
+
+    6556.1.1 = { birth=yes }
+    6606.1.1 = { death=yes }
+}
+######################
+### House Lynderly ###
+######################
+
+17 = {
+    name = Terrance
+    dynasty = 185 # Lynderly
+    
+    religion = the_seven
+    culture = lowland_valemen
+	trait = dueling_skilled
+
+    6533.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+54 = {
+    name = Jon
+    dynasty = 185 # Lynderly
+    father = 17
+    religion = the_seven
+    culture = lowland_valemen
+	trait = dueling_adept
+
+    6550.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+##################
+### House Egen ###
+##################
+
+18 = {
+    name = Vardis
+    dynasty = 186 # Egen
+    father = 20
+    religion = the_seven
+    culture = fingermen
+	trait = dueling_skilled
+
+    6537.1.1 = { birth=yes }
+    6610.1.1 = { death=yes }
+}
+
+20 = {
+    name = Ethan
+    dynasty = 186 # Egen
+    
+    religion = the_seven
+    culture = fingermen
+	trait = dueling_skilled
+
+    6510.1.1 = { birth=yes }
+    6575.1.1 = { death=yes }
+}
+
+55 = {
+    name = Ethan
+    dynasty = 186 # Egen
+    father = 18
+    religion = the_seven
+    culture = fingermen
+
+    6557.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+
+###################
+### House Hersy ###
+###################
+
+24 = {
+    name = Harold
+    dynasty = 190 # Hersy
+    
+    religion = old_gods
+    culture = fingermen
+	trait = dueling_skilled
+
+    6543.1.1 = { birth=yes }
+    6611.1.1 = { death=yes }
+}	
+
+
+25 = {
+    name = Jon
+    dynasty = 190 # Hersy
+    father = 24
+    culture = fingermen
+    religion = old_gods
+	
+
+    6564.1.1 = { birth=yes }
+    6632.1.1 = { death=yes }
+}	
+
+#######################
+### House Coldwater ###
+#######################	 
+
+26 = {
+    name = Royce
+    dynasty = 191 # Coldwater
+    
+    religion = the_seven
+    culture = valemen
+	trait = dueling_skilled
+
+    6526.1.1 = { birth=yes }
+    6592.1.1 = { death=yes }
+}
+
+27 = {
+    name = Peter
+    dynasty = 191 # Coldwater
+    father = 26
+    religion = the_seven
+    culture = valemen
+	trait = dueling_skilled
+
+    6546.1.1 = { birth=yes }
+    6592.1.1 = { death=yes }
+}
+
+28 = {
+    name = Rowan
+    dynasty = 191 # Coldwater
+    father = 26
+    religion = the_seven
+    culture = valemen
+	trait = dueling_adept
+
+    6554.1.1 = { birth=yes }
+    6592.1.1 = { death=yes }
+}	
+
+###################
+### House Pryor ###
+###################
+
+29 = {
+    name = Pate
+    dynasty = 192 # Pryor
+    
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_skilled
+
+    6549.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}	
+
+30 = {
+    name = Philip
+    dynasty = 192 # Pryor
+    father = 29
+    religion = lady_of_the_waves
+    culture = sistermen
+
+    6565.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}	
+
+165 = {
+    name = Anna
+    dynasty = 192 # Pryor
+    female = yes
+    father = 29
+    religion = lady_of_the_waves
+    culture = sistermen
+
+    6565.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+#####################
+### House Elesham ###
+#####################	
+
+31 = {
+    name = Evan
+    dynasty = 193 # Elesham
+    
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_expert
+
+    6537.1.1 = { birth=yes }
+    6599.1.1 = { death=yes }
+}
+
+32 = {
+    name = Eva
+    dynasty = 193 # Elesham
+    father = 31
+    female = yes	
+    religion = lady_of_the_waves
+    culture = sistermen
+
+    6553.1.1 = { birth=yes }
+    6617.1.1 = { death=yes }
+}
+
+33 = {
+    name = Evan
+    dynasty = 193 # Elesham
+    father = 31
+    	
+    religion = lady_of_the_waves
+    culture = sistermen
+
+    6555.1.1 = { birth=yes }
+    6624.1.1 = { death=yes }
+}
+
+#####################
+### House Tollett ###
+#####################	
+	
+57 = {
+    name = Torgold
+    dynasty = 194 # Tollett
+    martial = 3
+    trait = misguided_warrior
+    trait = dueling_expert
+    trait = temperate
+    trait = kind
+    trait = honest
+    trait = brave
+    trait = humble	
+    religion = the_seven
+    culture = bronzemen
+
+    6532.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+58 = {
+    name = Eddison
+    dynasty = 194 # Tollett
+    father = 57	
+    religion = the_seven
+    culture = bronzemen
+	trait = dueling_adept
+
+    6556.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}	
+
+59 = {
+    name = Uthor
+    dynasty = 194 # Tollett
+    father = 57	
+    
+    religion = the_seven
+    culture = bronzemen
+
+    6560.1.1 = { birth=yes }
+    6630.1.1 = { death=yes }
+}
+
+#####################
+### House Torrent ###
+#####################
+
+60 = {
+    name = Alesandor
+    dynasty = 195 # Torrent
+    	
+    religion = lady_of_the_waves
+    culture = sistermen	
+	trait = dueling_skilled
+
+    6540.1.1 = { birth=yes }
+    6604.1.1 = { death=yes }
+}
+
+61 = {
+    name = Samuel
+    dynasty = 195 # Torrent
+    father = 60
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_adept	
+
+    6556.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}	
+
+#####################
+### House Borrell ###
+#####################
+
+62 = {
+    name = Godric
+    dynasty = 196 # Borrell
+    
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_skilled
+
+    6550.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+63 = {
+    name = Godfrey
+    dynasty = 196 # Borrell
+    father = 62
+    religion = lady_of_the_waves
+    culture = sistermen	
+
+    6566.1.1 = { birth=yes }
+    6631.1.1 = { death=yes }
+}
+
+########################
+### House Sunderland ###
+########################
+
+64 = {
+    name = Triston
+    dynasty = 197 # Sunderland
+  
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_expert
+
+    6526.1.1 = { birth=yes }
+    6601.1.1 = { death=yes }
+}
+
+65 = {
+    name = Marla
+    dynasty = 197 # Sunderland
+    father = 64
+    female = yes	
+    religion = lady_of_the_waves
+    culture = sistermen	
+
+    6546.1.1 = { birth=yes }
+    6628.1.1 = { death=yes }
+}
+
+66 = {
+    name = Davos
+    dynasty = 197 # Sunderland
+    father = 64
+    	
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_skilled
+
+    6551.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+########################
+### House Longthorpe ###
+########################
+
+67 = {
+    name = Jared
+    dynasty = 198 # Longthorpe
+    	
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_skilled
+
+    6536.1.1 = { birth=yes }
+    6613.1.1 = { death=yes }
+}
+
+68 = {
+    name = Jacob
+    dynasty = 198 # Longthorpe
+    father = 67
+    religion = lady_of_the_waves
+    culture = sistermen
+	trait = dueling_skilled	
+
+    6552.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+#####################
+### House Hardyng ###
+#####################
+
+### Moved to Vale Characters
+
+##################
+### House Yohn ###
+##################
+
+73={
+name="Baldrik"
+dynasty=170
+dna="eimblojiiof"
+culture=bronzemen
+religion=the_seven
+6525.5.1={birth=yes}
+6548.12.28 = {add_spouse=74}
+6589.1.6={death=yes}
+}
+
+74={
+name="Mya"
+female=yes
+
+dna="gfbbpjcaddh"
+culture=bronzemen
+religion=the_seven
+6525.8.17={birth=yes}
+6548.12.28 = {add_spouse=73}
+6571.4.13={death=yes}
+}
+
+75={
+name="Rhonda"
+female=yes
+dynasty=170
+dna="eimblocaioh"
+culture=bronzemen
+religion=the_seven
+father=73
+mother=74
+6554.7.21={birth=yes}
+6610.5.21={death=yes}
+}
+
+76={
+name="Torgold"
+dynasty=170
+dna="eibblojidoh"
+culture=bronzemen
+religion=the_seven
+father=73
+mother=74
+6555.12.15={birth=yes}
+6597.7.29={death=yes}
+}
+
+####################
+### House Waxley ###
+####################
+
+77={
+name="Waymar"
+dynasty=169
+culture=bronzemen
+religion=the_seven
+6538.7.1={birth=yes}
+6556.2.27 = {add_spouse=78}
+6591.5.16={death=yes}
+}
+
+78={
+name="Barb"
+female=yes
+culture=bronzemen
+religion=the_seven
+6538.3.1={birth=yes}
+6556.2.27 = {add_spouse=77}
+6594.3.25={death=yes}
+}
+
+79={
+name="Robar"
+dynasty=169
+culture=bronzemen
+religion=the_seven
+father=77
+mother=78
+6560.1.8={birth=yes}
+6630.11.28={death=yes}
+}
+
+80={
+name="Terronce"
+dynasty=169
+culture=bronzemen
+religion=the_seven
+father=77
+mother=78
+6562.4.8={birth=yes}
+6608.9.7={death=yes}
+}
+
+###################
+### House Titan ###
+###################
+
+81={
+name="Torgold"
+dynasty=168
+dna="ejkpjimfjlk"
+culture=bronzemen
+religion=the_seven
+trait = dueling_skilled
+6524.11.1={birth=yes}
+6540.5.30 = {add_spouse=82}
+6590.10.15={death=yes}
+}
+
+82={
+name="Lyona"
+female=yes
+
+dna="pcbgpednlok"
+culture=bronzemen
+religion=the_seven
+6524.7.22={birth=yes}
+6576.11.11={death=yes}
+}
+
+83={
+name="Jon"
+dynasty=168
+dna="eckopednjok"
+culture=bronzemen
+religion=the_seven
+father=81
+mother=82
+6565.11.9={birth=yes}
+6634.6.20={death=yes}
+}
+
+84={
+name="Eddison"
+dynasty=168
+dna="pccppegfllk"
+culture=bronzemen
+religion=the_seven
+father=81
+mother=82
+6563.1.9={birth=yes}
+6590.2.21={death=yes}
+}
+
+85={
+name="Aletta"
+female=yes
+dynasty=168
+dna="ejkgpimnllk"
+culture=bronzemen
+religion=the_seven
+father=81
+mother=82
+6561.4.15={birth=yes}
+6626.6.19={death=yes}
+}
+
+######################
+### House Oldfaith ###
+######################
+	
+86={
+name="Horton"
+dynasty=167
+dna="pgnfjjfjgbj"
+culture=bronzemen
+religion=the_seven
+6532.5.1={birth=yes}
+6548.5.29 = {add_spouse=87}
+6593.6.22={death=yes}
+}
+
+87={
+name="Dyane"
+female=yes
+
+dna="jcklkmpdbgo"
+culture=bronzemen
+religion=the_seven
+6532.5.8={birth=yes}
+6590.12.14={death=yes}
+}
+
+88={
+name="Rhonda"
+female=yes
+dynasty=167
+dna="pgnljjfpgbj"
+culture=bronzemen
+religion=the_seven
+father=86
+mother=87
+6548.10.29={birth=yes}
+6604.8.6={death=yes}
+}
+
+89={
+name="Harrold"
+dynasty=167
+dna="pgnfkjpjggo"
+culture=bronzemen
+religion=the_seven
+father=86
+mother=87
+6552.6.10={birth=yes}
+6598.1.31={death=yes}
+}
+
+
+
+########################
+### House Ruthermont ###
+########################
+
+95={
+name="Gyles"
+dynasty=165
+dna="mpmgfbbjoee"
+culture=lowland_valemen
+religion=the_seven
+6528.5.1={birth=yes}
+6548.3.8 = {add_spouse=96}
+6581.6.24={death=yes}
+}
+
+96={
+name="Lyona"
+female=yes
+
+dna="chanbmlgcdc"
+culture=lowland_valemen
+religion=the_seven
+6529.4.14={birth=yes}
+6548.3.8 = {add_spouse=95}
+6595.3.31={death=yes}
+}
+
+97={
+name="Aletta"
+female=yes
+dynasty=165
+dna="cnlgbbbgkdc"
+culture=lowland_valemen
+religion=the_seven
+father=95
+mother=96
+6550.5.5={birth=yes}
+6606.7.26={death=yes}
+}
+
+98={
+name="Aletta"
+female=yes
+dynasty=165
+dna="chmhbbbgcee"
+culture=lowland_valemen
+religion=the_seven
+father=95
+mother=96
+6556.5.19={birth=yes}
+6618.2.6={death=yes}
+}
+
+99={
+name="Lyona"
+female=yes
+dynasty=165
+dna="cpigfbbjcdc"
+culture=lowland_valemen
+religion=the_seven
+father=95
+mother=96
+6559.10.27={birth=yes}
+6605.5.7={death=yes}
+}
+
+100={
+name="Lyon"
+dynasty=165
+dna="mpanfmlgcdc"
+culture=lowland_valemen
+religion=the_seven
+father=95
+mother=96
+6563.8.8={birth=yes}
+6638.3.8={death=yes}
+}
+
+######################
+### House Starfish ###
+######################
+
+101={
+name="Kyle"
+dynasty=164
+dna="fcmpgnolnag"
+culture=lowland_valemen
+religion=the_seven
+6526.9.1={birth=yes}
+6548.1.26 = {add_spouse=102}
+6590.9.11={death=yes}
+}
+
+102={
+name="Jyana"
+female=yes
+
+dna="paddbhajfpo"
+culture=lowland_valemen
+religion=the_seven
+6527.9.27={birth=yes}
+6548.1.26 = {add_spouse=101}
+6590.8.21={death=yes}
+}
+
+103={
+name="Lyarra"
+female=yes
+dynasty=164
+dna="paddghalnag"
+culture=lowland_valemen
+religion=the_seven
+father=101
+mother=102
+6550.7.8={birth=yes}
+6609.4.15={death=yes}
+}
+
+104={
+name="Baldrik"
+dynasty=164
+dna="pcmpbnolfao"
+culture=lowland_valemen
+religion=the_seven
+father=101
+mother=102
+6553.12.11={birth=yes}
+6634.8.24={death=yes}
+}
+
+######################
+### House Fletcher ###
+######################	
+
+105={
+name="Yorwyck"
+dynasty=163
+dna="fmpclapnddi"
+culture=lowland_valemen
+religion=the_seven
+6538.3.1={birth=yes}
+6560.9.2 = {add_spouse=106}
+6595.11.18={death=yes}
+}
+
+106={
+name="Charlett"
+female=yes
+
+dna="napmjggjhgm"
+culture=lowland_valemen
+religion=the_seven
+6539.1.18={birth=yes}
+6614.5.6={death=yes}
+}
+
+107={
+name="Eddison"
+dynasty=163
+dna="fakclagndde"
+culture=lowland_valemen
+religion=the_seven
+father=105
+mother=106
+6561.4.16={birth=yes}
+6613.12.1={death=yes}
+}
+
+108={
+name="Ysilla"
+female=yes
+dynasty=163
+dna="nmpcjapnddm"
+culture=lowland_valemen
+religion=the_seven
+father=105
+mother=106
+6564.7.8={birth=yes}
+6619.1.19={death=yes}
+}
+
+
+######################
+### House Donniger ###
+######################
+
+109={
+name="Donnel"
+dynasty=162
+dna="iadokfliogf"
+culture=lowland_valemen
+religion=the_seven
+6538.9.1={birth=yes}
+6556.3.27 = {add_spouse=110}
+6610.11.14={death=yes}
+}
+
+110={
+name="Heyne"
+female=yes
+
+dna="cigialdhpaf"
+culture=lowland_valemen
+religion=the_seven
+6539.2.28={birth=yes}
+6556.3.27 = {add_spouse=109}
+6609.12.28={death=yes}
+}
+
+111={
+name="Elbena"
+female=yes
+dynasty=162
+dna="iadlaflhhaf"
+culture=lowland_valemen
+religion=the_seven
+father=109
+mother=110
+6562.1.6={birth=yes}
+6625.8.18={death=yes}
+}
+
+112={
+name="Elbert"
+dynasty=162
+dna="cadokfdhpaf"
+culture=lowland_valemen
+religion=the_seven
+father=109
+mother=110
+6564.7.18={birth=yes}
+6631.4.28={death=yes}
+}
+
+###################
+### House Creek ###
+###################
+
+113={
+name="Hugh"
+dynasty=161
+dna="kbnolbgoanb"
+culture=lowland_valemen
+religion=the_seven
+martial=1
+diplomacy=4
+stewardship=5
+intrigue=1
+learning=2
+trait="elusive_shadow"
+trait = dueling_expert
+trait="slothful"
+trait="brave"
+trait="humble"
+trait="temperate"
+trait="greedy"
+6547.11.1={birth=yes}
+6587.9.4={death=yes}
+}
+
+#####################
+### House Upcliff ###
+#####################
+
+114={
+name="Ursula"
+female=yes
+dynasty=160
+culture=valemen
+religion=old_gods
+martial=0
+diplomacy=6
+stewardship=5
+intrigue=9
+learning=9
+trait="elusive_shadow"
+trait = dueling_adept
+trait="deceitful"
+trait="wroth"
+trait="zealous"
+trait="lunatic"
+trait="quick"
+trait="temperate"
+trait="paranoid"
+6536.7.1={birth=yes}
+6558.7.6 = {add_spouse=115}
+6581.6.20={death=yes}
+}
+
+115={
+name="Jasper"
+culture=valemen
+religion=old_gods
+6536.4.23={birth=yes}
+6558.7.6 = {add_spouse=114}
+6570.6.7={death=yes}
+}
+
+116={
+name="Hugh"
+dynasty=160
+culture=valemen
+religion=old_gods
+father=115
+mother=114
+6559.10.12={birth=yes}
+6628.10.11={death=yes}
+}
+
+117={
+name="Jasper"
+dynasty=160
+culture=valemen
+religion=old_gods
+father=115
+mother=114
+6561.5.14={birth=yes}
+6610.1.6={death=yes}
+}
+
+######################
+### House Downhill ###
+######################	
+
+118={
+name="Donald"
+dynasty=159
+dna="blidkjiclfg"
+culture=lowlander
+religion=old_gods
+martial=4
+diplomacy=4
+stewardship=8
+intrigue=3
+learning=4
+trait="flamboyant_schemer"
+trait = dueling_novice
+trait="craven"
+trait="trusting"
+trait="charitable"
+trait="chaste"
+trait="deceitful"
+6538.7.1={birth=yes}
+6557.1.27 = {add_spouse=119}
+6593.3.9={death=yes}
+}
+
+119={
+name="Alys"
+female=yes
+
+dna="fjjcieldkdo"
+culture=lowlander
+religion=old_gods
+martial=2
+diplomacy=4
+stewardship=6
+intrigue=4
+learning=1
+trait="thrifty_clerk"
+trait="gregarious"
+trait="brave"
+trait="gluttonous"
+trait="deceitful"
+trait="patient"
+trait="cruel"
+6538.7.3={birth=yes}
+6557.1.27 = {add_spouse=118}
+6594.6.9={death=yes}
+}
+
+120={
+name="Donella"
+female=yes
+dynasty=159
+dna="bpidkjidlfo"
+culture=lowlander
+religion=old_gods
+martial=6
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=2
+trait="underhanded_rogue"
+trait="arbitrary"
+trait="trusting"
+trait="craven"
+trait="honest"
+father=118
+mother=119
+6559.2.14={birth=yes}
+6633.3.20={death=yes}
+}
+
+121={
+name="Hugor"
+dynasty=159
+dna="bjickelcldg"
+culture=lowlander
+religion=old_gods
+martial=4
+diplomacy=1
+stewardship=5
+intrigue=3
+learning=5
+trait="skilled_tactician"
+trait="shy"
+trait="proud"
+trait="just"
+trait="charitable"
+trait="kind"
+trait="wroth"
+father=118
+mother=119
+6561.8.30={birth=yes}
+6611.1.28={death=yes}
+}
+
+######################
+### House Godmoore ###
+######################
+
+122={
+name="Humfrey"
+dynasty=158
+dna="ofpjjdlcdeg"
+culture=valemen
+religion=the_seven
+martial=1
+diplomacy=5
+stewardship=3
+intrigue=2
+learning=8
+trait="elusive_shadow"
+trait = dueling_skilled
+trait="proud"
+trait="zealous"
+trait="brave"
+trait="diligent"
+trait="kind"
+trait="charitable"
+6540.1.1={birth=yes}
+6561.8.19 = {add_spouse=123}
+6582.8.23={death=yes}
+}
+
+123={
+name="Abigail"
+female=yes
+
+dna="aheafdioajn"
+culture=valemen
+religion=the_seven
+martial=7
+diplomacy=5
+stewardship=3
+intrigue=7
+learning=2
+trait="charismatic_negotiator"
+trait="gluttonous"
+trait="gregarious"
+trait="kind"
+trait="trusting"
+6541.2.28={birth=yes}
+6561.8.19 = {add_spouse=122}
+6595.9.30={death=yes}
+}
+
+124={
+name="Lysa"
+female=yes
+dynasty=158
+dna="afejjglcdjg"
+culture=valemen
+religion=the_seven
+martial=6
+diplomacy=5
+stewardship=2
+intrigue=8
+learning=6
+trait="grey_eminence"
+trait="gluttonous"
+trait="arbitrary"
+trait="brave"
+father=122
+mother=123
+6563.11.8={birth=yes}
+6619.12.21={death=yes}
+}
+
+125={
+name="Harrold"
+dynasty=158
+dna="ohejfdicdjg"
+culture=valemen
+religion=the_seven
+martial=2
+diplomacy=4
+stewardship=8
+intrigue=5
+learning=8
+trait="indulgent_wastrel"
+trait="proud"
+trait="envious"
+trait="lustful"
+trait="just"
+trait="cruel"
+trait="honest"
+father=122
+mother=123
+6565.8.20={birth=yes}
+6609.11.11={death=yes}
+}
+
+#######################
+### House Templeton ###
+#######################
+
+126={
+name="Oswell"
+dynasty=157
+dna="jhhdnakkonj"
+culture=valemen
+religion=the_seven
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=7
+learning=0
+trait="tough_soldier"
+trait = dueling_skilled
+trait="charitable"
+trait="diligent"
+trait="temperate"
+trait="ambitious"
+trait="brave"
+trait="paranoid"
+trait="wroth"
+6530.11.1={birth=yes}
+6549.3.24 = {add_spouse=127}
+6598.4.3={death=yes}
+}
+
+127={
+name="Donella"
+female=yes
+
+dna="jcekdiapalc"
+culture=valemen
+religion=the_seven
+martial=7
+diplomacy=5
+stewardship=5
+intrigue=0
+learning=1
+trait="elusive_shadow"
+trait="cynical"
+trait="lustful"
+trait="greedy"
+trait="brave"
+trait="cruel"
+trait="content"
+6530.8.25={birth=yes}
+6549.3.24 = {add_spouse=126}
+6614.2.4={death=yes}
+}
+
+128={
+name="Sharra"
+female=yes
+dynasty=157
+dna="jhedniakalj"
+culture=valemen
+religion=the_seven
+martial=2
+diplomacy=6
+stewardship=2
+intrigue=4
+learning=2
+trait="elusive_shadow"
+trait="proud"
+trait="zealous"
+trait="kind"
+trait="chaste"
+trait="greedy"
+father=126
+mother=127
+6558.7.26={birth=yes}
+6628.5.22={death=yes}
+}
+
+129={
+name="Luceon"
+dynasty=157
+dna="jchddiakolj"
+culture=valemen
+religion=the_seven
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=6
+learning=2
+trait="tough_soldier"
+trait = dueling_skilled
+trait="craven"
+trait="honest"
+trait="gregarious"
+trait="humble"
+trait="temperate"
+trait="wroth"
+father=126
+mother=127
+6550.11.3={birth=yes}
+6612.8.3={death=yes}
+}
+
+130={
+name="Robert"
+dynasty=157
+dna="jhebdikeolc"
+culture=valemen
+religion=the_seven
+martial=5
+diplomacy=2
+stewardship=4
+intrigue=5
+learning=3
+trait="elusive_shadow"
+trait="diligent"
+trait="craven"
+trait="gluttonous"
+trait="envious"
+trait="patient"
+father=126
+mother=127
+6564.9.29={birth=yes}
+6622.12.20={death=yes}
+}
+
+####################
+### House Wydman ###
+####################
+
+131={
+name="Alestor"
+dynasty=156
+dna="micmagchcem"
+culture=lowland_valemen
+religion=the_seven
+martial=0
+diplomacy=1
+stewardship=0
+intrigue=2
+learning=4
+trait="grey_eminence"
+trait = dueling_expert
+trait="lustful"
+6530.3.1={birth=yes}
+6550.3.22 = {add_spouse=132}
+6583.5.2={death=yes}
+}
+
+132={
+name="Danella"
+female=yes
+
+dna="ofepdpebpgj"
+culture=lowland_valemen
+religion=the_seven
+martial=4
+diplomacy=7
+stewardship=1
+intrigue=4
+learning=3
+trait="detached_priest"
+trait="cruel"
+trait="temperate"
+trait="arbitrary"
+trait="envious"
+trait="lustful"
+trait="charitable"
+6530.6.3={birth=yes}
+6550.3.22 = {add_spouse=131}
+6583.9.10={death=yes}
+}
+
+133={
+name="Elbena"
+female=yes
+dynasty=156
+dna="ofdpdgebpgj"
+culture=lowland_valemen
+religion=the_seven
+martial=0
+diplomacy=2
+stewardship=8
+intrigue=3
+learning=6
+trait="intricate_webweaver"
+trait="kind"
+trait="brave"
+trait="lustful"
+trait="just"
+father=131
+mother=132
+6552.10.1={birth=yes}
+6604.3.21={death=yes}
+}
+
+134={
+name="Alyssa"
+female=yes
+dynasty=156
+dna="oiepagebpej"
+culture=lowland_valemen
+religion=the_seven
+martial=2
+diplomacy=5
+stewardship=5
+intrigue=4
+learning=5
+trait="fortune_builder"
+trait="honest"
+trait="diligent"
+trait="content"
+trait="patient"
+trait="just"
+trait="lustful"
+trait="paranoid"
+father=131
+mother=132
+6554.9.12={birth=yes}
+6616.9.27={death=yes}
+}
+
+135={
+name="Sharra"
+female=yes
+dynasty=156
+dna="miemdgchcem"
+culture=lowland_valemen
+religion=the_seven
+martial=4
+diplomacy=4
+stewardship=4
+intrigue=0
+learning=6
+trait="skilled_tactician"
+trait="diligent"
+trait="humble"
+trait="kind"
+trait="deceitful"
+trait="charitable"
+father=131
+mother=132
+6559.4.4={birth=yes}
+6607.8.5={death=yes}
+}
+
+136={
+name="Artos"
+dynasty=156
+dna="oiemaechcgj"
+culture=lowland_valemen
+religion=the_seven
+martial=6
+diplomacy=2
+stewardship=5
+intrigue=4
+learning=2
+trait="charismatic_negotiator"
+trait="ambitious"
+trait="brave"
+trait="lustful"
+trait="temperate"
+trait="kind"
+father=131
+mother=132
+6562.2.23={birth=yes}
+6602.12.7={death=yes}
+}
+
+
+#####################
+### House Moonman ###
+#####################
+
+137={
+name="Morton"
+dynasty=155
+dna="engjpbhjnkj"
+culture=fingermen
+religion=the_seven
+martial=7
+diplomacy=5
+stewardship=8
+intrigue=4
+learning=2
+trait="skilled_tactician"
+trait = dueling_adept
+trait="deceitful"
+trait="shy"
+trait="craven"
+trait="zealous"
+trait="humble"
+6527.7.1={birth=yes}
+6547.1.5 = {add_spouse=138}
+6585.5.16={death=yes}
+}
+
+138={
+name="Serra"
+female=yes
+
+dna="bpipbhndekm"
+culture=fingermen
+religion=the_seven
+martial=1
+diplomacy=3
+stewardship=2
+intrigue=1
+learning=7
+trait="charismatic_negotiator"
+trait="chaste"
+trait="cruel"
+trait="gluttonous"
+trait="proud"
+trait="craven"
+trait="content"
+6528.11.26={birth=yes}
+6578.12.15={death=yes}
+}
+
+139={
+name="Jasper"
+dynasty=155
+dna="bnijghhdekj"
+culture=fingermen
+religion=the_seven
+martial=4
+diplomacy=5
+stewardship=5
+intrigue=6
+learning=3
+trait="fortune_builder"
+trait = dueling_skilled
+trait="cynical"
+trait="paranoid"
+trait="cruel"
+trait="diligent"
+father=137
+mother=138
+6549.12.11={birth=yes}
+6618.12.6={death=yes}
+}
+
+140={
+name="Osgood"
+dynasty=155
+dna="epgjbbhdehm"
+culture=fingermen
+religion=the_seven
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=3
+learning=6
+trait="fortune_builder"
+trait = dueling_skilled
+trait="arbitrary"
+trait="patient"
+trait="craven"
+father=137
+mother=138
+6547.2.13={birth=yes}
+6592.7.13={death=yes}
+}
+
+####################
+### House Rosesk ###
+####################
+
+141={
+name="Donnel"
+dynasty=154
+culture=fingermen
+religion=old_gods
+6538.3.1={birth=yes}
+6560.4.2 = {add_spouse=142}
+6606.2.2={death=yes}
+}
+
+142={
+name="Danella"
+female=yes
+culture=fingermen
+religion=old_gods
+6536.12.4={birth=yes}
+6586.1.31={death=yes}
+}
+
+143={
+name="Helena"
+female=yes
+dynasty=154
+culture=fingermen
+religion=old_gods
+father=141
+mother=142
+6560.4.3={birth=yes}
+6617.6.17={death=yes}
+}
+
+144={
+name="Lysa"
+female=yes
+dynasty=154
+culture=fingermen
+religion=old_gods
+father=141
+mother=142
+6563.9.30={birth=yes}
+6618.9.7={death=yes}
+}
+
+145={
+name="Humfrey"
+dynasty=154
+dna="moknfmpgnbj"
+culture=fingermen
+religion=old_gods
+father=141
+mother=142
+6565.8.11={birth=yes}
+6623.1.19={death=yes}
+}
+
+####################
+### House Badics ###
+####################
+
+146={
+name="Robert"
+dynasty=153
+culture=fingermen
+religion=old_gods
+6538.1.1={birth=yes}
+6557.9.8 = {add_spouse=147}
+6582.9.15={death=yes}
+}
+
+147={
+name="Rowena"
+female=yes
+culture=fingermen
+religion=old_gods
+6538.7.7={birth=yes}
+6557.9.8 = {add_spouse=146}
+6584.5.29={death=yes}
+}
+
+148={
+name="Serra"
+female=yes
+dynasty=153
+culture=fingermen
+religion=old_gods
+father=146
+mother=147
+6558.8.9={birth=yes}
+6609.4.2={death=yes}
+}
+
+149={
+name="Harrold"
+dynasty=153
+culture=fingermen
+religion=old_gods
+father=146
+mother=147
+6561.12.23={birth=yes}
+6618.9.27={death=yes}
+}
+
+150={
+name="Rhonda"
+female=yes
+dynasty=153
+culture=fingermen
+religion=old_gods
+father=146
+mother=147
+6563.8.31={birth=yes}
+6633.7.25={death=yes}
+}
+
+151={
+name="Jon"
+dynasty=153
+culture=fingermen
+religion=old_gods
+father=146
+mother=147
+6565.12.6={birth=yes}
+6625.7.10={death=yes}
+}
+
+
+
+####################
+### House Button ###
+####################
+
+154 = {
+    name = Ronnel
+    dynasty = 152 # Button
+    
+    religion = the_seven
+    culture = andal
+    
+    6500.1.1 = { birth=yes }
+    6559.1.1 = { death=yes }
+}
+
+155 = {
+    name = Joffrey
+    dynasty = 152 # Button
+    father = 154
+    religion = the_seven
+    culture = valemen
+    trait = dueling_skilled
+    6527.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}	
+
+156 = {
+    name = Jack
+    dynasty = 152 # Button
+    father = 155
+    religion = the_seven
+    culture = valemen
+    trait = fair
+    trait = dueling_expert
+    6549.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+157 = {
+    name = Jaime
+    dynasty = 152 # Button
+    father = 155
+    religion = the_seven
+    culture = valemen
+    trait = dueling_skilled
+    6550.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}			
+
+#####################
+### House Porter ####
+#####################
+
+158 = {
+    name = Harrold
+    dynasty = 151 # Porter
+   
+    religion = the_seven
+    culture = valemen
+    trait = dueling_skilled
+    trait = tough_soldier
+    trait = brave
+    trait = kind
+    trait = humble
+    6545.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}	
+
+159 = {
+    name = Jon
+    dynasty = 151 # Porter
+    father = 158
+    religion = the_seven
+    culture = valemen
+    
+    6565.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}	
+
+160 = {
+    name = Shyra
+    dynasty = 151 # Porter
+    father = 158
+    female = yes
+    religion = the_seven
+    culture = valemen
+    trait = twin
+    6566.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+161 = {
+    name = Samwell
+    dynasty = 151 # Porter
+    father = 158
+    religion = the_seven
+    culture = valemen
+    trait = twin
+    6566.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+
+#####################
+### House Falcon ####
+#####################	
+
+162 = {
+    name = Theo
+    dynasty = 150 
+   
+    religion = the_seven
+    culture = valemen
+    trait = dueling_skilled
+    6540.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}
+163 = {
+    name = Josua
+    dynasty = 150
+    father = 162
+    religion = the_seven
+    culture = valemen
+    
+    6560.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}	
+164 = {
+    name = Michael
+    dynasty = 150
+    father = 162
+    religion = the_seven
+    culture = valemen
+    
+    6561.1.1 = { birth=yes }
+    6580.1.1 = { death=yes }
+}																															 				 					 				 					 				 		

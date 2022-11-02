@@ -1,0 +1,21 @@
+# c_provessa
+
+# County Title
+title = c_provessa
+
+# Settlements
+max_settlements = 3
+
+b_provessa = city
+#b_provessa_2 = city
+#b_provessa_3 = temple
+#b_provessa_4 = castle
+#b_provessa_5 = city
+#b_provessa_6 = temple
+#b_provessa_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

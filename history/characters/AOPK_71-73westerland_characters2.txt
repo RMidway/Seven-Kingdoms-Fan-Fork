@@ -1,0 +1,253 @@
+##############
+#  ID RANGE  #
+#  7100-7300 #
+##############
+
+####################
+### House Reyne ####
+####################
+
+
+
+
+7100 = {
+     name = Alyce
+     dynasty = 730 # Reyne
+     dna="cc0gf0jaeb0"
+     properties="pb0k0k00000000"
+     father = 5318
+     female = yes
+     religion = old_gods
+     culture = westermen
+    
+     6529.1.1 = { birth=yes }
+     6601.1.1 = { death=yes }
+}
+
+7101 = {
+     name = Reynard
+     dynasty = 730 # Reyne
+     father = 5318
+     religion = old_gods
+     culture = westermen
+     trait = dueling_master
+     6533.1.1 = { birth=yes }
+     6601.1.1 = { death=yes }
+}
+
+
+
+####################
+### House Lydden ###
+####################
+
+7103 = {
+     name = Lyonel
+     dynasty = 713 
+     father = 7104
+     religion = old_gods
+     culture = goldmen
+     6500.1.1 = { birth=yes }
+     6560.1.1 = { death=yes }
+}
+
+7104 = {
+     name = Lyonel
+     dynasty = 713 
+     father = 7105
+     religion = old_gods
+     culture = goldmen
+     6476.1.1 = { birth=yes }
+     6528.1.1 = { death=yes }
+}
+
+7105 = {
+     name = Lewys
+     dynasty = 713 
+     trait = midas_touched
+     trait = quick
+     trait = temperate
+     trait = patient
+     trait = diligent
+     religion = old_gods
+     culture = goldmen
+     6450.1.1 = { birth=yes }
+     6511.1.1 = { death=yes }
+}
+
+#####################
+### House Banefort ###
+#####################
+
+7114 = {
+     name = "Preston"
+     dynasty = 729
+     father = 7115
+     religion = old_gods
+     culture = craggon
+     6500.1.1 = { birth=yes }
+     6560.1.1 = { death=yes }
+}
+
+7115 = {
+     name = "Line of Morgon I"
+     dynasty = 729
+     father = 7113
+     religion = old_gods
+     culture = craggon
+     occluded = yes
+     450.1.1 = { birth=yes }
+     6530.1.1 = { death=yes }
+}
+
+7113 = {
+     name = Morgon
+     dynasty = 729
+     father = 7116
+     religion = old_gods
+     culture = craggon
+     379.1.1 = { birth=yes }
+     450.1.1 = { death=yes }
+}
+
+7116 = {
+     name = "Line of the Hooded Man"
+	 dynasty = 729
+     father = 7117
+     religion = old_gods
+     culture = craggon
+     occluded = yes
+     209.1.1 = { birth=yes }
+     410.1.1 = { death=yes }
+}
+
+7117 = {
+     name = "The Hooded Man"
+	 dynasty = 729
+     religion = old_gods
+     culture = craggon
+	 diplomacy = 5
+	 martial = 5
+	 stewardship = 5
+	 intrigue = 30
+	 learning = 5
+     trait = quick
+     trait = elusive_shadow
+     trait = deceitful
+     trait = cynical
+     trait = paranoid
+     trait = sociopath
+     trait = heartless
+	 health = 15
+     16.1.1 = { birth=yes }
+     30.1.1 = {
+		create_bloodline = {
+			type = bloodline_banefort
+			has_dlc = "Holy Fury"
+		}
+	}
+     209.1.1={
+		death = {
+			death_reason = death_missing
+		}
+	}
+}
+
+####################
+### House Farman ###
+####################
+
+7118 = {
+     name = Gylbert
+     dynasty = 738
+     father = 7119
+     religion = old_gods
+     culture = fairmen
+     6500.1.1 = { birth=yes }
+     6560.1.1 = { death=yes }
+}
+
+7119 = {
+     name = Gyles
+     dynasty = 738
+     father = 7120
+     religion = old_gods
+     culture = fairmen
+     6476.1.1 = { birth=yes }
+     6534.1.1 = { death=yes }
+}
+
+7120 = {
+     name = Gyles
+     dynasty = 738
+     father = 7121
+     religion = old_gods
+     culture = fairmen
+     6450.1.1 = { birth=yes }
+     6511.1.1 = { death=yes }
+}
+
+7121 = {
+     name = Gylbert
+     dynasty = 738
+     father = 7122
+     religion = old_gods
+     culture = fairmen
+     6428.1.1 = { birth=yes }
+     6490.1.1 = { death=yes }
+}
+
+7122 = {
+     name = Gylbert
+     dynasty = 738
+     father = 7123
+     religion = old_gods
+     culture = fairmen
+     6400.1.1 = { birth=yes }
+     6464.1.1 = { death=yes }
+}
+
+7123 = {
+     name = Garth
+     dynasty = 738
+     father = 7124
+     religion = old_gods
+     culture = fairmen
+     6380.1.1 = { birth=yes }
+     6439.1.1 = { death=yes }
+}
+
+7124 = {
+     name = Gylbert
+     dynasty = 738
+     
+     religion = old_gods
+     culture = fairmen
+     6353.1.1 = { birth=yes }
+     6410.1.1 = { death=yes }
+}
+
+# House Banefort, 7299 #
+
+7127 = {
+    name = "Line of Quenten"
+    dynasty = 729 # Banefort
+    father = 511
+    religion = the_seven
+    culture = westerlander
+	occluded = yes
+	
+    6628.1.1 = { birth=yes }
+    7276.1.1 = { death=yes }
+}
+
+7128 = {
+    name = "Eldon"
+    dynasty = 729 # Banefort
+    father = 7127
+    religion = the_seven
+    culture = westerlander
+	
+    7275.1.1 = { birth=yes }
+    7335.1.1 = { death=yes }
+}

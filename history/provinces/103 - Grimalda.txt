@@ -1,0 +1,21 @@
+# c_grimalda
+
+# County Title
+title = c_grimalda
+
+# Settlements
+max_settlements = 7
+
+b_grimalda = castle
+#b_grimalda_2 = city
+#b_grimalda_3 = temple
+#b_grimalda_4 = castle
+#b_grimalda_5 = city
+#b_grimalda_6 = temple
+#b_grimalda_7 = castle
+
+# Misc
+culture = lorathi
+religion = boashi
+terrain = hills
+#History

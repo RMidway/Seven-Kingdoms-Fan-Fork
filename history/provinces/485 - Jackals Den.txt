@@ -1,0 +1,24 @@
+# c_jackals_den
+
+# County Title
+title = c_jackals_den
+
+# Settlements
+max_settlements = 3
+
+b_jackals_den = castle
+#b_lostbones = city
+#b_jackals_den_2 = temple
+
+# Misc
+culture = scourgemen
+religion = old_gods
+
+#History
+6800.1.1 = {
+	culture = andal_dornish
+    religion = the_seven
+}
+7400.1.1 = {
+	culture = salt_dornish
+}

@@ -1,0 +1,20 @@
+# c_witch_isle
+
+# County Title
+title = c_witch_isle
+
+# Settlements
+max_settlements = 2
+
+b_upcliff = castle
+b_seagulls_rest = city
+
+# Misc
+culture = old_bronzemen
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+	culture = valemen
+    religion = the_seven
+}

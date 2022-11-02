@@ -1,0 +1,21 @@
+# c_eastern_lorath
+
+# County Title
+title = c_eastern_lorath
+
+# Settlements
+max_settlements = 7
+
+b_lorrico = castle
+b_lorrico_2 = city
+b_lorrico_3 = temple
+#b_lorrico_4 = castle
+#b_lorrico_5 = city
+#b_lorrico_6 = temple
+#b_lorrico_7 = castle
+
+# Misc
+culture = lorathi
+religion = boashi
+terrain = plains
+#History

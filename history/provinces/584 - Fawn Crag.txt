@@ -1,0 +1,21 @@
+# c_fawn_crag
+
+# County Title
+title = c_fawn_crag
+
+# Settlements
+max_settlements = 3
+
+b_fawn_crag = castle
+b_lips = city
+#b_chapitre = temple
+
+# Misc
+culture = south_marcher
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+	culture = reachmen
+    religion = the_seven
+}

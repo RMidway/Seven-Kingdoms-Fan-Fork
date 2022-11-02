@@ -1,0 +1,21 @@
+# c_szalmadpustza
+
+# County Title
+title = c_szalmadpustza
+
+# Settlements
+max_settlements = 2
+
+b_szalmadpustza = castle
+#b_szalmadpustza_2 = city
+#b_szalmadpustza_3 = temple
+#b_szalmadpustza_4 = castle
+#b_szalmadpustza_5 = city
+#b_szalmadpustza_6 = temple
+#b_szalmadpustza_7 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

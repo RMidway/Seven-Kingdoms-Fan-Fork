@@ -1,0 +1,29 @@
+#THE STEPSTONES & THE NARROW SEA
+technology = {
+	titles = {
+		d_bloodstone
+		d_bloody_crescent
+		d_faithless_stone
+		d_grey_gallows
+		d_hanged_mans_refuge
+		d_hells_rock
+		d_jagged_stone
+		d_sunstone
+		d_the_crimson_steps
+	}
+	1 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+	6000 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+	8800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

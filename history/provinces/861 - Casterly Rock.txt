@@ -1,0 +1,45 @@
+# c_casterly_rock
+
+# County Title
+title = c_casterly_rock
+
+# Settlements
+max_settlements = 5
+
+b_casterly_rock = castle
+b_burrock = city
+b_casterton = temple
+#b_alberrock = castle
+#b_casterbuty = city
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = farmlands
+#History
+
+31.1.1 = { 
+	build_wonder = wonder_casterly_rock
+	set_wonder_stage = 1
+}
+
+2000.1.1 = { 
+	set_wonder_stage = 2
+}
+
+6500.1.1 = {
+
+
+
+
+
+
+
+
+	set_wonder_stage = 3
+}
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+	set_wonder_stage = 4
+}

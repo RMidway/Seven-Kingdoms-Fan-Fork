@@ -1,0 +1,24 @@
+# c_rosby
+
+# County Title
+title = c_rosby
+
+# Settlements
+max_settlements = 6
+
+b_rosby = castle
+b_ruzsa = city
+b_nagyoros = temple
+b_sventybrascio = castle
+#b_pavasuokai = city
+#b_rosby_2 = temple
+
+# Misc
+culture = dusklander
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+	culture = blackwatermen
+	religion = the_seven
+}

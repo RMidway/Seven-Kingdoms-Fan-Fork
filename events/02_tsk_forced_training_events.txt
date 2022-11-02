@@ -1,0 +1,62 @@
+### Forced Training Events ###
+# Originally written by Godman, rewritten from scratch by Rowan.
+
+# Character seeks to enhance their own fighting skill
+# Cannot be improved beyond expert. Master and Legend are reserved for trained children only.
+namespace = TSK_CT
+character_event = {
+    id = TSK_CT.1
+    desc = EVTDESC_TSK_CT.1
+	picture = "GFX_evt_child_play"
+    
+    min_age = 16
+    capable_only = yes
+    prisoner = no
+    
+    trigger = {
+        NOR = {
+            has_character_flag = improved_combat_skills
+            trait = dueling_master
+            trait = dueling_legend
+        }
+        has_ambition = obj_train_dueling
+    }
+    
+    mean_time_to_happen = {
+        months = 16
+        
+        modifier = {
+            factor = 0.7
+            age = 16
+            NOT = { age = 28 }
+        }
+        modifier = {
+            factor = 0.9
+            self_serving_trigger = yes
+        }
+        modifier = {
+            factor = 0.9
+            is_smart_trigger = yes
+        }
+        modifier = {
+            factor = 1.1
+            is_female = yes
+        }
+        modifier = {
+            factor = 1.2
+            is_weak_trigger = yes
+        }
+        modifier = {
+            factor = 3.0
+            has_symptom_trigger = yes
+        }
+    }
+    
+    option = {
+        name = EVTOPTA_TSK_CT.1
+        
+        train_combat_skill_chance_dangerous = yes
+        
+        ai_chance = { factor = 100 }
+    }
+}

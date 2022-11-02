@@ -1,0 +1,21 @@
+# c_bloodstone
+
+# County Title
+title = c_bloodstone
+
+# Settlements
+max_settlements = 4
+
+b_bloodstone = castle
+b_blood_temple = temple
+#b_bloodstone_2 = temple
+#b_bloodstone_3 = castle
+#b_bloodstone_4 = city
+#b_bloodstone_5 = temple
+#b_bloodstone_6 = castle
+
+# Misc
+culture = pirate
+religion = lady_of_the_rocks
+terrain = hills
+#History

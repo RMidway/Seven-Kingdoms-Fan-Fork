@@ -1,0 +1,97 @@
+# Events by Amr
+
+namespace = DAWN
+
+# On_death event for dawn
+# Clears flag
+character_event = {
+    id = DAWN.1
+    
+    is_triggered_only = yes
+    hide_window = yes
+    
+    trigger = {
+        has_artifact = dawn
+        has_global_flag = has_dawn
+    }
+    
+    immediate = {
+        destroy_artifact = dawn
+        clr_global_flag = has_dawn
+        clr_global_flag = DAWN_event_3
+    }
+}
+
+# For when you get Dawn
+character_event = {
+    id = DAWN.2
+    desc = EVTDESCDAWN.2
+    picture = GFX_evt_large_army
+    
+    is_triggered_only = yes
+    
+    trigger = {
+        has_artifact = dawn
+    }
+    
+    option = {
+        name = "EVTOPTADAWN.2"
+        prestige = 350
+        hidden_tooltip = {
+            character_event = {
+                id = DAWN.3
+                days = 2
+            }
+        }        
+    }
+}
+
+# Fires for characters, informing them that Dawn exists?
+character_event = {
+    id = DAWN.3
+    desc = "EVTDESCDAWN.3"
+    picture = GFX_evt_large_army
+    
+    major = yes
+    
+    is_triggered_only = yes
+   
+    trigger = {
+        NOT = {
+            has_global_flag = DAWN_event_3
+        }
+        has_global_flag = has_dawn
+    }
+
+    immediate = {
+        set_global_flag = DAWN_event_3
+    }
+    
+    option = {
+        name = "EVTOPTADAWN.3"
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+                OR = {
+                    trait = kind
+                    trait = bleeding_heart
+                    trait = honourable
+                }
+            }
+        }
+    }
+    option = {
+        name = "EVTOPTBDAWN.3"
+        ai_chance = {
+            modifier = {
+                factor = 1
+                OR = {
+                    trait = cruel
+                    trait = heartless
+                    trait = dishonourable
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+# c_ortolan
+
+# County Title
+title = c_ortolan
+
+# Settlements
+max_settlements = 7
+
+b_ortolan = city
+#b_ortolan_2 = city
+#b_ortolan_3 = temple
+#b_ortolan_4 = castle
+#b_ortolan_5 = city
+#b_ortolan_6 = temple
+#b_ortolan_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = farmlands
+#History

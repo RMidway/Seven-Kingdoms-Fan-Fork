@@ -1,0 +1,22 @@
+# c_tarbeck_hall
+
+# County Title
+title = c_tarbeck_hall
+
+# Settlements
+max_settlements = 4
+
+b_tarbeck_hall = castle
+#b_fowey = city
+#b_aldeburgh = temple
+#b_tarbeck_hall_2 = castle
+
+# Misc
+culture = westermen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+    religion = the_seven 
+	culture = westerlander
+}

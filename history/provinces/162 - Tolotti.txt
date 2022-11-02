@@ -1,0 +1,21 @@
+# c_tolotti
+
+# County Title
+title = c_tolotti
+
+# Settlements
+max_settlements = 2
+
+b_tolotti = city
+#b_tolotti_2 = city
+#b_tolotti_3 = temple
+#b_tolotti_4 = castle
+#b_tolotti_5 = city
+#b_tolotti_6 = temple
+#b_tolotti_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

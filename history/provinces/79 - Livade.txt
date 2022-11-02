@@ -1,0 +1,21 @@
+# c_livade
+
+# County Title
+title = c_livade
+
+# Settlements
+max_settlements = 7
+
+b_livade = castle
+#b_livade_2 = city
+#b_livade_3 = temple
+#b_livade_4 = castle
+#b_livade_5 = city
+#b_livade_6 = temple
+#b_livade_7 = castle
+
+# Misc
+culture = lorathi
+religion = rhllor
+terrain = farmlands
+#History

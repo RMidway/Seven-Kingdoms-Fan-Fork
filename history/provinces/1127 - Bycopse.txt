@@ -1,0 +1,22 @@
+# c_bycopse
+
+# County Title
+title = c_bycopse
+
+# Settlements
+max_settlements = 4
+
+b_bycopse = castle
+#b_grossgmain = city
+#b_burgenland = temple
+#b_bycopse_2 = castle
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = plains
+#History
+6520.1.1 = {
+	culture = lowland_valemen
+    religion = the_seven
+}

@@ -1,0 +1,26 @@
+# c_hunters_point
+
+# County Title
+title = c_hunters_point
+
+# Settlements
+max_settlements = 4
+
+b_hunters_point = castle
+#b_wilderswil = city
+#b_hospental = temple
+#b_hunters_point_2 = castle
+
+# Misc
+culture = lowlander
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+}
+6520.1.1 = {
+    religion = the_seven
+}
+6800.1.1 = {
+	culture = lowland_valemen
+}

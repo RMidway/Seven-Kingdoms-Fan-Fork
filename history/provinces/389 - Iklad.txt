@@ -1,0 +1,21 @@
+# c_iklad
+
+# County Title
+title = c_iklad
+
+# Settlements
+max_settlements = 2
+
+b_iklad = city
+#b_iklad_2 = city
+#b_iklad_3 = temple
+#b_iklad_4 = castle
+#b_iklad_5 = city
+#b_iklad_6 = temple
+#b_iklad_7 = castle
+
+# Misc
+culture = lysene
+religion = valyrian
+terrain = farmlands
+#History

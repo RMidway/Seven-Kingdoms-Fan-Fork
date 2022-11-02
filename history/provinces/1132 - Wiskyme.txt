@@ -1,0 +1,22 @@
+# c_wiskyme
+
+# County Title
+title = c_wiskyme
+
+# Settlements
+max_settlements = 4
+
+b_wiskyme = castle
+#b_desco = city
+#b_mesoraca = temple
+#b_wiskyme_2 = castle
+
+# Misc
+culture = fingermen
+religion = old_gods
+terrain = hills
+#History
+6800.1.1 = {
+	culture = valemen
+    religion = the_seven 
+}

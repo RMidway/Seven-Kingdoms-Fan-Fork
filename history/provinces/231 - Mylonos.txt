@@ -1,0 +1,21 @@
+# c_mylonos
+
+# County Title
+title = c_mylonos
+
+# Settlements
+max_settlements = 4
+
+b_mylonos = city
+b_mylonos_2 = city
+#b_mylonos_3 = temple
+#b_mylonos_4 = castle
+#b_mylonos_5 = city
+#b_mylonos_6 = temple
+#b_mylonos_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

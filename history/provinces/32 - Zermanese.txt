@@ -1,0 +1,25 @@
+# c_zermanese
+
+# County Title
+title = c_zermanese
+
+# Settlements
+max_settlements = 7
+
+b_zermanese = castle
+#b_zermanese_2 = city
+#b_zermanese_3 = temple
+#b_zermanese_4 = castle
+#b_zermanese_5 = city
+#b_zermanese_6 = temple
+#b_zermanese_7 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History
+6400.1.1 = {	
+    religion = the_seven 
+    culture = andal
+}

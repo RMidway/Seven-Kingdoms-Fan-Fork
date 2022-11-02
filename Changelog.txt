@@ -1,0 +1,793 @@
+# LEGEND
+# * Major Change
+# ~ Minor Change
+# + Addition
+# = Fix
+# - Removal
+# ! Notice
+###################################################################################################
+Beta2 Hotfix
+
+	~ Extended the Green Fork up to the marshes south of the neck to create a bottleneck at the Twins.
+	~ Tweaked the de-jure layout around the Twins
+	~ Added the following rivers: 
+		- Weeping Water 
+		- Karhold River
+		- Rivers near Red Lake
+	~ Added the Red Lake .
+	~ Fixed the neck canal bug.
+	~ Overhauled portrait properties and portrait backgrounds.
+	~ A few culture gfx tweaks.
+	~ Cultural levy balancing. 
+	~ Fixed all broken laws fixing...
+		- Bishoprics reverting to lieges.
+		- Investiture laws not working properly.
+	~ Added a military command government for...
+		- The Bloody Gate
+		- Gate of the Moon
+		- Moat Cailin 
+		- Lannisgate
+	~ Added many temples in and around the Vale. 
+	~ Fixed broken Muslim portraits.
+	~ Added portraits for the Dothraki and Ghiscari cultures.
+	~ The Tyrells now control the High Lordship of Manderford.
+	~ Misc. Localisation tweaks and fixes. 
+	~ Renamed the Principality of Driftmark to the Obsidian Isle.
+	~ Extended House Lannister for the Andal Invasion bookmark.
+	~ Many small bugfixes.
+	~ The Red Lake has been added to the province of Red Lake.
+	~ Government GFX tweaks.
+	~ Created the Marshalship of Tumbleton, controlled by House Footly.
+	~ King tier vassals now wear royal clothing as befitting their rank. 
+	~ Tweaked the Culture Levy buildings.
+	~ Character GFX tweaks.
+	~ Various history additions for the Andal Invasion bookmark. 
+	~ Fixed the Pledge Peace ambition bug. 
+	~ Tweaked many traits. 
+	
+###################################################################################################
+	* Updated to CK2 version 2.8.3.2
+	* Countless Portait GFX tweaks
+	* An updated UI for the offmap Valyrian Freehold
+	* A complete northern history overhaul 
+	* The Ruler Designer no longer causes a crash
+	* Countless typos corrected
+	* Many map terrain tweaks
+	* Implemented the EMF faction system 
+	* New ambitions
+	* Coronations 
+	* A complete overhaul of the North.
+	
+    ~ North Overhaul:
+		~ Duchy of Northern Clans (in the North) split into 3 duchies, Western, Central, & Northern Clans, each with 5 provinces each
+			~ New houses and characters for the clans as well, filling in gaps.
+			~ All 3 clan duchy titles still vassals of Wolfswood.
+		~ The Weeping Shore duchy (Karhold before the Karstarks) given a holder and re-organized.
+		~ Hornwood (vassal of White Knife) given another county to fill in gap.
+		~ Flint Clansmen titles given to sons, where appropriate.
+		~ The Warden of Tall Trees now acts as a march for the Kingdom of Wolfswood.
+		~ Symond Sevenstars continues his grandfathers invasion of the North.
+		~ A de-jure Kingdom of the Hill Clans can now be created.
+		~ The hill clans are now independent from the Wolfswood. 
+		~ Many family extensions for various houses around the North. 
+		~ The Kingdom of Stone now has holdings on the mainland to help them invade the North.
+		~ The Kingdom of Last Hearth is now a de-jure Kingdom.
+		
+	~ Economic tweaks to lower development at the beginning of the Andal Invasion bookmark. 
+	~ Many of the Petty Knigdoms now require you to hold at least two duchies and be independent to create them.
+	~ The Faith of the Seven Holy Orders have been fixed.
+	~ Unique cultural levy buildings have been heavily nerfed and tweaked. 
+	~ "The Wall" special building now gives less levy but provides a larger garrison. 
+	~ All Kingdom Capitals should now be correctly assigned. 
+	~ The Ser and Septon minor titles will now be handed out correctly.
+	~ Fixed all issues relating to the Knight trait.
+	~ You can now join the Knighthood of the Seven without issue. 
+	~ The Valyrian Freehold now properly says "Valyrian Freehold"
+	~ Brand new loading screens.
+	~ The loading music can been reverted back to its original.
+	~ Various Kingdom color tweaks.
+	~ Vanilla map GFX items such as Hadrian's Wall have been removed from the map.
+	~ House Gardener and Rowan have been expanded to reduce their chance of going extinct. 
+	~ Changed the name of the Eastmarch to the Dornish Marches.
+	~ The chance of an independence faction forming should be reduced. 
+	~ All port map posistions fixed (no more boats on land.)
+	~ Provinces can now change cultures, this can be tunred off by changing the rule.
+	~ Southstone and Starpike are now de-jure Kingdoms rather than simply titular.
+	~ The duchy of Dragonstone no longer is apart of the de=jure Massey's Hook Kingdom
+	
+	
+    + More tribal buildings added.
+    + Mercenaries added for Essos, Valyria, North, Iron Islands, Riverlands.
+    + Holy order added for the Drowned God religion.
+	+ Some count-tier vassals added for various titles in the Riverlands.
+	+ Lorathi vassals added.
+	+ Added figurehead trait for the First Speaker of the Blackwater.
+	+ Bastards born in Westeros will now be given their repective bastard surnames. 
+	+ Added the Andal Kings of Spottswood and Greenmont.
+	+ Hundreds of new dynasty names for the cultures of Westeros. 
+	+ A new survey the realm event chain. 
+	+ Added various new flavor events. 
+	+ Many characters will now receive custom opening events pretaining to their situation. 
+	+ Added the Rhoynish Colonies in Western Andalos.
+	+ Implemented new religious traits including: 
+		+ Septon
+		+ Septa
+		+ Silent Sister
+		+ Red Priest
+		+ Drowned 
+		+ Bearded Priest 
+	+ Many new mercenary companies added.
+	+ A few new additions to the history of the Vale. 
+	+ Created a basic "Form Westeros" decision which requires you to hold four empire-tier Kingdoms.
+	+ New Andal and Freefolk character graphics. 
+	+ Created the Kingdom tier titles of Redroost (Lord Sentinel) and the Kingswood (Warden) within the Stormlands.
+	+ Added the ambition to create your respective de-jure High Kingdom.
+		+ Once taken you will gain access to the Subjugation CB to help you form the High Kingdom.
+	+ Incorporated the Coronation engine from EMF.
+	+ Added many new ambitions courtesy of the EMF team.
+	+ Added a de-jure duchy of Southstone. 
+	+ Created a new Township government as an excuse to have republics in Westeros. 
+		+ Lannisport 
+		+ Highgarden 
+		+ Oldtown 
+		+ The Arbor 
+		+ Rosby 
+		+ Duskendale 
+		+ Gulltown 
+		+ White Harbor 
+	+ The Celtigars now begin the bookmark in the middle of their invasion of the Claw.
+	+ Age of Heroes Bookmark: Many great heroes and their kids have been added Beyond the Wall.
+	
+	
+	
+    ! All cultures have their first level of cultural "levy" buildings implemented.
+		! Culture buildings now have prereq's for building them, involving the "town" building chains.
+
+###################################################################################################
+xxxxx-?-A??
+
+    * Casus Belli overhaul, offering a number of new CB types. AI can and will now make full use of the CB types, resulting in a more dynamic world with rising and falling threats.
+    * Completely Dynamic resource system, assigning resources and modifiers to every single province. Can be enabled or disabled through gamerules.
+    * Major map changes, including new provinces and islands. Many new minor rivers and further increase in forest density across the world. Heightmap and colourmap improvements, making improving map visuals.
+    * Missionary events that can spawn under certain circumstances, spreading religion not only within a realm, but into neighbouring realms.
+    * Uprisings in the Stepstones and in the lands beyond the wall limit expansion by making these regions difficult to maintain control over as a foreign power.
+	* Common weapons (sword, pike, lance, axe, mace, & bow) added as artifacts.
+
+    ~ Tweaked many unique buildings to increase balance.
+    ~ The Riverlands now starts out at war in the "Second War of the Red Fork."
+    ~ GFX tweaks to practically every portrait.
+    ~ Removed house Karstark for canon reasons. Karhold is now held by the Boltons.
+    ~ Overhauled numerous Coat of Arms for numerous houses.
+    ~ Overhauled and expanded numerous houses.
+    ~ Overhauled the history of House Stark
+    ~ Loadingscreen edits.
+    ~ Countless DNA edits.
+    ~ Changed the age of training combat traits for children from 6 to 8 and increase the MTTH(mean time to happen) from 21 months to 30.
+    ~ Improved Rhllor and Old Gods religion icons.
+    ~ Main menu camera position adjusted.
+    ~ Many balance changes in regards to characters.
+    ~ New icons for a number of traits (Duel traits, Tall/short, irrational).
+    ~ New icons for most government types.
+    ~ New icons for most vanilla good/bad traits, created by Korbah.
+    ~ Religion and cultural makeup of Essos given a small overhaul.
+    ~ Stepstone duchies recoloured, making them less of an eyesore when formed.
+    ~ Tweaked unqiue building modifier of The Barrows.
+    ~ Tweaked the Wall's fort level, to balance it vs. other "unique" landmarks & castles.
+    ~ Tweaked max amount and starting holding situation Beyond the Wall & in the Gift.
+    ~ Valyrian Domain is now a merchant republic type government, with five Valyrian houses vying for control.
+	
+    + Council sizes have been increased to simulate internal politics for:
+	- The Blackwater - The High Council 
+	- The Western Valyrian Territories - The Council of Freeholders
+    + Added new tributary types:
+	- Andal Confederation
+	- March
+	- Valyrian Territory
+    + Added the offmap power of the Valyrian Freehold, includes:
+	- New GFX
+	- New cultures & religions such as the Rhoynish, Ghiscari, and Dothraki.
+	- Completely overhauled events.
+    + Added the First Man Kingdom of Darry.
+    + Crated the Andal Kingdoms of Acorn's Ridge and Hornvale.
+    + Added new governments (new gfx included):
+	- Merchant Kingdom 
+	- Theocratic Kingdom 
+	- Storm Kingdom
+	- The Knights of the Vale
+	- The Reach
+	- Royal March
+	- The Westerlands
+	- The Iron Islands
+	- Principality 
+	- Bureaucratic Council - comes with many new minor titles and mechanics 
+	- Winter Kingdom (the North)
+    + Added numerous minor titles such as:
+	- Knight of the Greenhand
+	- King's Justice
+	- Captain of the Household Guard
+    + Added the Hand of the King council position.
+    + Added Pirate Portraits, currently only can be seen by those that have the Iberian Portrait DLC. 
+    + Andals added to the Stepstones, per a forum suggestion
+    + Many cultures given cultural buildings.
+    + Feudal vassals added for the Free Cities of Lys, Tyrosh, & Myr.
+    + Four new music tracks have been added
+    + Holy orders added: Warrior's Sons & Poor Fellows, Moonsingers, Maiden of the Harvest, Rhllor, Trios, The Weeping Lady, Valyrian, Lady of the Rocks, Black Flag & Old Gods
+    + Ruling houses of Lys, Tyrosh, & Myr expanded & given correct holdings.
+    + Valyrian families expanded & Valyrian vassals added for the Free City of Lys.
+    + Added 2 natural features Beyond the Wall (Hardhome & Fist of the First Men).
+    + Added some more tribal buildings.
+    + VERY WIP: Added reformable versions for Bearded Priests & Boashi, and made their holy orders locked behind reformation.
+    + Cultural mercenaries added: all wildling/Free Folk cultures
+	+ The Smith religion (heresy of Faith of the Seven) added.
+
+    = Fixed a wallportion being in one of Dorne's provinces instead of being at the actual Wall (no wildlings to be found in Dorne)
+    = Fixed various geographical region assignments and expanded upon existing geographical region defines.
+    = Governments given further changes in regards to issues with government switching. Wildling Government will no longer pick tribal holdings over feudal baronies.
+    = Many minor fixes to many events, traits, decisions, objectives and much more.
+    = Fixed a few instances of provinces having pixels of another province inside them.
+
+
+####################################################################################################
+
+3/8/17-S-A8b
+
+    + Added even more Duskland History
+    
+    = Fixed oceans being classified as rivers, which resulted in ships being removed.
+    = Fixed Dragonstone, Obsidian, Smouldering isle and Driftmark so they have biw been correctly assigned as uncolonized provinces or otherwise undeveloped provinces.
+    = Fixed Dawn notification event so it will no longer fire for the character who claimed the weapon.
+    = Fixed characters who have reached legendary duel skill getting events informing them of further skill improvements.
+    = Fixed localisation priority as some localisations were loaded later and therefore were not showing ingame.
+    
+    - e_the_iron_isles is no longer held nor can be created, avoiding issues with the empire going to one character whilst the kingdom goes to another.
+
+####################################################################################################
+
+2/8/17-S-A8
+
+! This is a save-game breaking patch! Using it with existing saves may lead to errors or obscure issues. Multiplayer saves will be broken by it!
+    
+    * Every single cultural clothing selection has been overhauled, with greater diversity, with unique armour for Kings (Empire-tier).
+    * Many history edits
+        ~ Garth 'the Sage' now starts out as the King of the Reach.
+        ~ Ser Alester Tyrell will now appear in the court of House Gardener.
+        ~ Rivers and Hills now start at war with Euron Ironman.
+        ~ Robin 'Darkrobin' is now the heir to the Dusklands.
+        ~ Houses Gardener, Lannister, Hightower, Stark, Durrandon, Casterly and of the Iron Isles overhauled.
+        ~ Extended house Arryn with a secondary branch that includes Ser Denys Arryn.
+        ~ Lann I now has the nickname 'the Clever'
+        + Added history for Dargood, Darkwood, Banefort, Lydden, Farman, Vance, Mooton, Wendwater, Glover, Tarth.
+        + Added Euron Greyjoy
+        + Added
+    * Added Knightly Order of the Seven Faith, which can be joined and climbed by any member of the Seven Faith.
+        + Added traits: Page, Squire, Dragon Knight (Valyrian), Red Knight (Rhllor), Knight (Seven) and Hedge Knight (Generic).
+        ~ Uses Silver Stars as an internal currency. Currently only used for ranking up and requesting a Knighthood.
+        ~ You can request a Knighthood as a member of the Order, so long as you are at least rank two.
+        ~ You can Knight a character as a Knight. Cost is reduced if they are a squire or page.
+        ~ You can declare any character a squire, or children as a page, so long as they are in your court.
+            ~ To be declared a Page, the target character must be at least 6 years of age. Trait will be lost at 17. To be declared a squire, character must be at least age 10, will last forever. To be declared a Knight, character must be at least age 15, will last forever.
+    * Completely rewritten martial/duel/warrior education system and the way the traits are passed down.
+        ~ Can now employ a great warrior with very high combat traits. Expensive, but may make a good commander or an ideal trainer.
+        ~ Characters hired through the employ a soldier decision have a chance of having some sort of combat trait, but will rarely be master and can never be legendary.
+        ~ Characters will no longer improve fighting skills when educated by a non-fighter, and may not be trained above their level.
+        ~ Characters with a higher base fighting skill will train their wards faster and more easily.
+        ~ Many traits increase or decrease the time it takes to achieve each stage.
+        ~ Women are far less likely to gain the traits and require either realm laws with greater woman's rights, or an educator from the free cities, Dorne or of a Valyrian background.
+        ~ You can improve your dueling skill through an ambition, which can be repeatedy many times until you successfully improve your skill. However, there is a good chance of injury or even a slim chance of death.
+    * Restored many missing scripted effects. As a result many broken events will now function correctly.
+    
+    ~ Many mercenary bands have been reduced in size
+    ~ Many flag tweaks and modifications.
+    ~ Many name modifications for duchies and provinces.
+    ~ Many loading screens tweaked.
+    ~ Many characters modified for balance.
+    ~ Women can now hold certain council positions or lead mercenary companies under certain conditions.
+    ~ Rebalanced a number of religions. Old Gods sould now be somewhat more attractive to maintain, if you want to.
+    ~ Reduced the frequency in which mercenary companies break away significantly.
+    ~ Ruler designer traits are now free.
+    ~ Tweaked the effects of various focuses and modifiers to better fit balance.
+    ~ Tweaked the rate of injury in combat. Head injuries, maiming and death have been lowered even further.
+    ~ Revamped all existing household sword graphics.
+    ~ Dawn can now be claimed through a decision and resulting event by skilled warriors.
+        
+    + Added a number of new household swords.
+    + Added duel traits to many characters, including but not limited to the Wildlings.
+    + Added Temple buildings.
+    + Added a number of playable duchy-tier pirate rulers.
+    + Added a new pirate heresy.
+    + Added many execution methods.
+    + Added many new nicknames
+    + Added many new mercenary companies for various cultures and regions.
+    + Added localisation for the Maiden of the Harvest faith and a number of unique buildings.
+    + Added a handful of icons for traits, as well as a number of special traits.
+    + Added traits: Green Dreamer (incredibly rare, can be generated on any child, 10% chance of inheritance), Awakening Greensight, Awakened Greensight and Greenseer.
+    + Custom mini-map, with customized interface. Far from perfect, but should be good enough for the time being. Please report any issues you may run into!
+    
+    = Fixed many nicknames.
+    = Fixed unit and building sprites for many cultures. The fallback for each culture group has been set correctly, in case of missing dlc.
+    = Fixed localisation of the custom governments.
+    = Fixed mountain terrain to use correct distribution
+    = Fixed helmets and other armour pieces appearing on non-commanders.
+    = Fixed localisation for various traits, events and buildings.
+    = Fixed Dragon traits being acquired when turning sixteen.
+    = Fixed faction loyalists being subject to disassociation demands.
+    = Fixed invisible trait icon for left-handed.
+    = Fixed Night's Watch traits being distributed to randomly generated characters.
+    = Theocracy governments should no longer be broken.
+    
+    - Cultural buildings removed due to pending overhaul.
+    
+####################################################################################################
+
+8/7/17-S-A7 
+
+! As usual, please remove old versions before installing new versions.
+
+! Feature Highlights
+    - Unique portraits for many of the cultures in Westeros aswell as Valyrian portraits. 
+    - Completely overhauled the entire history of the Vale to increase historical accuracy, with a number of terrain edits.
+    - Countless fixes and tweaks, including some much-needed love for government types.
+
+! Vierwood
+   
+
+    ~ Corrected the 'Northing' Stepstones name. 
+    ~ Nerfed Storm's End. 
+    ~ Tweaked countless title flags and CoAs.
+    ~ Countless small history tweaks.
+    ~ Tweaked the duchy colors in the Dusklands and Stormlands. 
+    ~ Completely overhauled the entire history of the Vale to increase historical accuracy.
+    ~ Localised the Valyrian Freehold government type.
+    ~ Renamed the Bone King to 'Bloodroyal'
+    ~ Tweaked the stats and DNA (portraits) of many characters, including Mern The Madling.
+    ~ Tweaked many title flags and CoAs.
+
+    + Added many new loadingscreens. 
+    + House Martell added on the eastern coast of Sunspear. 
+    + Created the custom scenario of the Bronzemen Rebellion. 
+    + Introduced unique eye colours for the Valyrians.
+    + Introduced unique hair colours for the Tyroshi.
+    + Introduced unique child portraits for the Valyrians.
+    + Introduced unique portraits for the Northmen/Crannogmen/Clansmen/Bronzeman/Craggon cultures.
+    + Introduced unique portraits for the Muddish culture.
+    + Introduced unique portraits for the Valeman culture.
+    + Introduced unique portraits for the Riverlander culture.
+    + Introduced unique portraits for the Dusklander/Blackwaterman/Crackclawmen cultures.
+    + Introduced unique portraits for the Stormlander/Evenstar/Waterman/Wrathman/Rainlander cultures.
+    + Introduced unique portraits for the Ironborn/Pykem/Harlawn cultures.
+    + Introduced unique portraits for the Westerlander/Goldlander/Cornlander/Fairman cultures.
+    + Introduced unique portraits for the Reachman/Manderish/North Marcher cultures.
+    + Introduced unique portraits for the Wynelander culture.
+    + Introduced unique portaits for the Dornish cultures.
+    + Added many Wiki of Ice and Fire links to characters around Westeros.
+
+! Rowan / N0body
+    - Removed some minor rivers in the Vale.
+    - Removed vanilla customizable localisation
+    
+    ~ Fixed duplicated ambitions.
+    ~ Fixed forming of Dragonstone Kingdom.
+    ~ Fixed law related issues.
+        - High Valyrians, Valyrian Faith, Rhllor, Dornish, Old Gods, Boashi and The Mother (Seven Heresy) can now go so far as true cognatic in regards to succession.
+    ~ Fixed broken city (baron/count) and merchant (duke and higher) republic governments so they properly persist and are no longer inherited by their liege.
+    ~ Fixed broken government flavours and restored missing government flavours.
+    ~ Fixed broken minor rivers in the Reach.
+    ~ Fixed broken temple governments to avoid them flipping to nomadic hordes. All religions can now have theocracies.
+    ~ Fixed governments and granted certain governments, like the Freehold, the ability to assign titles to characters of foreign government types.
+    ~ Fixed incorrect prestige cost handling for the Kingdom Subjugation casus belli.
+    ~ Iqta renamed to Eastern Feudal, and now has no opinion malus towards their republic overlords for wrong government type.
+    ~ Modified the topology map in a number of locations. Notable changes include:
+        ~ Modified the height of mountains in the Vale, Dorne and a few other locations.
+    ~ Modified province sizes and shapes in a few locations, mostly in the Vale.
+    ~ Modified tree map to have more or less trees in some areas. Lys now actually has trees on the isle too, now!
+    ~ Tweaked Wynelander custom portraits to use their colours.
+    
+    + Added Maiden of the Harvest religion, which is dominant in Pentos. Furthermore, all holy sites can be found within Pentos.
+    + Added Star Isle, at the mouth of the Torrentine.
+    + Added Sweetport Sound, an isle of the coast of Massey's Hook.
+    + Added two navigable rivers to the Vale.
+    + Added Vine Isle, part of the Duchy of Sunhouse
+    + Added Witch Isle, part of the Duchy of Gulltown
+    
+
+! ZeroFighterR
+    ~ Introduced unique hair colours for the Valyrians.
+
+! tsf4
+    ~ A few temple buildings added.
+    ~ Bugfixes for Northern characters (wrong dates, duplicated traits, etc)
+    ~ Cultural buildings added for Westerlander, Muddish, Craggon, & Sisterman (lvls 1-2) cultures.
+    ~ All wildling characters added, and all titles Beyond the Wall assigned.
+    ~ A few nicknames and dueling traits given to some wildlings.
+
+! Amr
+    ~ Artifacts such as Red Rain, Lady Forlorn, and Vigilance are now in the game. Aswell as Dawn, and The Hammer of Justice.
+
+####################################################################################################
+
+
+22617-S-A6b (Hotfix)
+
+! As usual, please remove old versions before installing new versions.
+
+! Rowan / N0body
+    ~ Fixed Iron Island not being elective.
+
+
+####################################################################################################
+
+22617-S-A6
+
+! As usual, please remove old versions before installing new versions.
+
+! Feature Highlights
+    - New Realm consolidation, allowing you to unite a fully controlled Kingdom (ie Dorne) under a single de jure King.
+    - You may now swear an oath fealty to the AI (King to King), so long as their opinion is at least 30 of you and you are of the same religion and cultural group.
+    - New main menu title and loading bar.
+    - Many new houses, characters and tweaks to the world.
+    - Many bug fixes (thanks all for the reports!) and balance changes, notably levy sizes and unique building balance.
+
+! tsf4
+    ~ Fixed the Dun Tower building.
+    ~ Fixed dueling ambition missing bracket. May have not been functioning correctly due to this issue.
+    ~ Fixed missing bracket in the Charlemagne event chain relating to a meddling mother.
+    ~ Cultural buildings added: Cornlander, Copperlander, & Goldman (all located in the Westerlands)
+    ~ Hartenn wildlings added in the new Kingdom of the Hartshore, with the Men of the Frozen Shore as vassals.
+    ~ Saliosi & Thenn wildlings added in the new Kingdom of Northern Highlands, with the Thenns holding the title.
+
+! Vierwood
+    ~ Iron Islands united under a single title. 
+    ~ Reynelands and the Rock colours switched around, making the rock the more crimson of the two.
+    ~ Evenstar Kingdom renamed to Straights of Tarth.
+    ~ House Mudd tweaked somewhat. Primary heir is now a viable ruler, even if not preferred over the hammer.
+    ~ House Mormont is now a loyal house within the court of the Starks - Bear island now falls under the control of the ironborn.
+    ~ Fixed the Crake Queen title. 
+    ~ Edited the Mountain of The Moon, and Gate of the Moon province layout to make it more strategic. 
+    ~ Corrected the title flag for the Empire of The Dusklands, with tweaks to a number of existing flags.
+    ~ Gulltown is now under Mountains and Moon instead of Runestone, to reflect that house Grafton had invaded and taken the county.
+    ~ Tweaks to selectable bookmark characters appearances.
+    ~ Many character trait and appearance edits.
+    ~ Edits to the Pick Era bookmark icon.
+    ~ Added localisation for the new Consolidate Realm decision.
+    ~ Tweaked the title flag for The Kingdom of The God's Eye.
+    ~ Corrected Durran 'Half-Blood's nickname. 
+    ~ Changed house Shett's religion to the Seven.
+    ~ Tweaked house Royce. 
+    ~ Changed house Tollett's religion to the Seven.
+    ~ Changed the Kingdom of the Deep Hill's religion to the Seven. 
+    ~ Changed the name of the Kingdom of The Deep Hills to the Kingdom of The Golden Hills.
+    ~ No one now holds the Kingdom of the Eastmarch.
+    ~ Corrected the capitals for most of the Petty Kingdoms.
+    ~ Expanded the Kingdom of The Marches into the Stormlands.
+    ~ Ursula Upcliff is now the head of house Upcliff.
+    ~ The High Lordship of Plancard/Upcliff is now underneath the Kingdom of Runestone.
+    ~ A few province names have changed. 
+
+    + New Dragonstone sigil.
+    + Created the Titular Kingdom of Gulltown for house Shett.
+    + Created the Titular Kingdom of The Red Fork for house Bracken.
+    + Created the Titular Kingdom of The Marches for house Peake.
+    + Created the Titular Kingdom of Last Hearth for House Umber.
+    + Created the Lordship (Kingdom title) of Karhold for House Karstark.
+    + Added ancestors for house Shett.
+    + Added ancestors and living dynasty members for house Umber. 
+    + Added ancestors and living dynasty members for house Peake. 
+    + Added custom localisation for temple baronies and their holders, varying based on religion.
+    + Added a custom menu title.
+    + Added title flags for the Kingdom and Empire of the Stepstones & the Kingdom of the North.
+    + Added a custom loading bar. 
+
+! Rowan / N0body
+    - Fit trait removed. May return in another form at a later date.
+    - Removed Drowned God planned invasion.
+    
+    ~ AI will prioritise many titles over less prestigious titles now, due to dignity being set for just about every Kingdom and up.
+    ~ Braavos as a nation will now be completely undeveloped at the game start, due to a development nerf.
+    ~ Casus belli tweaks and edits.
+        ! AI, under certain traits (ambitious, greedy, matrial and high intrigue) will now also use them.
+        ! Kingdom subjugate will now subjugate an entire King-tier realm, instead of stripping away one Kingdom at a time.
+        ! You can also now use the Kingdom subjugate if you have either Ambitious (as before), Socipath or Brilliant Strategist (war-minded).
+    ~ Fixed the broke (minor) River in the White Knife region.
+    ~ Hospital buildings offer tech related bonuses have been modified, giving either prestige or extra disease defence.
+    ~ Iron Islands now has a heavily decentralised government, with a fully empowered council and elective succession.
+    ~ Maimed, wounded and killed are more likely to fire in combat. Combat traits also generally decrease the chance of death, but do however increase the chance of injury.
+    ~ Major rebalance of buildings, including minor edits to most uniques as well as some more significant edits to the following:
+        - Braavosi Titan nerfed heavily.
+        - Castles and temples produce high quality levies, whilst cities regain levy faster but produce worse men morale-wise and number wise.
+        - Castles and their core levels no longer grant light cavalry units, and give half the number of (base) levy, creating greater emphasis on other buildings, such as stables and recruitment posts.
+        - Eyrie now has the highest fort level of any holding when built, but takes a big hit to garrison size.
+        - Levy reinforcement reduced in castles, making levy reinforcement buildings more important.
+        - Many unique buildings reduce overall tax income by a percentage, rather than by a fixed value, to make their impact on economy more significant.
+        - Pirate and wildling buildings are now destroyed when conquered by a foreign culture.
+        - Pirate and wildling buildings nerfed (for castles and tribal) and higher levels are now also less common.
+        - Shipyard buildings, in general, have been modified somewhat to create a greater difference between the uniques.
+        - Static modifier values for castles/cities/temples edited.
+        - Temples provide a small number of knights.
+        - Viceroy's Palace nerfed, no longer needs to be so strong and avoids player-driven exploits for the holding.
+    ~ Mountain and Hills terrain distributed to a number of areas where it would make sense.
+        - Hill Clansmen region in the North has been downgraded from Mountains terrain to Hills.
+        ~ Mountains of the Moon, Bloody Gate and the Mountain Clans region are among them.
+    ~ Night's Watch is no longer de jure North.
+    ~ Restored Strong & Weak to their former vanilla function. Once again congenital traits, due to the presence of Zeus Brawny and frail. Effect is lower than vanilla, and offers no fertility bonus.
+    ~ Strong / Weak Physique renamed to Strong/Weak Constitution, with a bigger impact on health and a boost to fertility.
+    ~ The 'Pope' (High Septon) is no longer landed as a baron in oldtown, but landless.
+    ~ Trait edits.
+        - Gregarious grants a single point into intrigue, as social characters may decieve others more easily or learn things they otherwise would not.
+        - Heartless now correctly conflicts with cruel.
+        - Slothful now grants a small learning boost, since lazy characters may be more inclined to read.
+        - Sociopath now conflicts with content, humble, shy and trusting to better reflect more common traits associated with it.
+    ~ Valyria will now face independence revolts if ruled by a foreign house, be it Valyrian or not to prevent exploiting of mechanics.
+    ~ You are no longer able to convert to spouse religion when you already share their religion (thanks for multiple community reports!).
+    ~ You should now be able to swear fealty to the AI (King-to-King), so long as they like you (have at least 30 opinion).
+
+    + A number of new rivers and streams in the North and the Vale.
+    + Consolidation of Realms decision. Can be repeated for each of the Seven Kingdoms, destroying all Kingdoms in favour of a single Kingdom. Also grants 2k prestige.
+    + Mostly unqiue unit modifiers for most of the cultures.
+    + Restored settlement decisions. You can now change the capital barony in provinces again.
+
+! ZeroFighterR
+	~ Cancer is somewhat less common now
+    ~ Higher chance of an event, in general, firing during combat.
+	~ Skagosi Shipyard fixed. Now they are properly tiered.
+	
+! Other
+    ~ Thanks to blackninja9939 for a couple of fixes.
+
+
+####################################################################################################
+
+9617-S-A5b
+
+! As usual, please remove old versions before installing new versions.
+
+~ Version numbering changed to a more simplistic system, with version based on the release.
+~ Fixed Greenblood Title.
+~ Colour tweaks to just about every title, including the republics and beyond the wall.
+~ Crown laws fix, removed reference to vanilla pagan religion.
+~ Manderly Flag Tweaked
+~ Kingdom of the Mander is now directly held by the King in Highgarden.
+~ Stepstones pirates may now use the conquest CB freely.
+~ Runestone nerfed.
+~ New, requested houses; Button, Porter and Ninja.
+~ Minor tweaks to Valyria, vassals and culture/religion distribution.
+~ Many port locations tweaked, including reported ports in the Westerlands.
+~ Many tweaks and changes to provinces across the world.
+~ Edits to house Mudd.
+~ Nicknames fixed / tweaked.
++ Free city flags.
++ New Nicknames
++ New Culture Buildings: Fairman, North Marcher, Manderish, Shield Islander, and Reachman
++ A number of new characters:
+    - Wildlings: Dumhic, Cavemen, and Frozen Shore
+    - Braavosi characters.
+
+####################################################################################################
+
+2617-S-1.4A
+
+- Old cultural buildings removed - tsf4 is pending an overhaul of them.
+	- New culture buildings added for Ironborn group (Islander, Harlawn, & Pykem), Skagosi, & Fairman
+~ Globally increased movement speed.
+~ Title colour overhaul. Many Kingdom and Empire tier titles have had their colours adjusted due to popular request.
+    - More colour variation in areas where the colours were too similar. Dorne and the North are notable examples, with more variety now.
+    - Colours are now more colourful and vibrant, with more 'full' Empire tier titles.
+~ Union Tweaks and New Unions
+    - Unions now vary in cost based on the religion of the one swearing the oath. You can also only swear to same religion and culture group now .
+    - The Seven and Rhllor pay 1500 prestige to swear the oath.
+    - Old Gods pay 2500 prestige to swear the oath.
+    - Other religions pay 3000 prestige to swear the oath.
+    - If offering an oath of fealty to the Rock, Title The Rock and Hills will be formed.
+    - If offering an oath of fealty to the Mountains and Moon, Title Moon and Stars will be formed.
+    - If offering an oath of fealty to the Dornish as Dornish, Dorne can be formed.
+    - If offering an oath of fealty to the Blackwood Vale (which rules over riverrun) or Rivers and Hills, Trident will be formed.
+    - If offering an oath of fealty to the Winter King (Wintefell), the Kingdom of Winter will be formed.
+    - If offering an oath of fealty to the Evenstar, the Kingdom of Evenstar will be formed.
+    - If offering an oath of fealty to the Runestone, Kingdom of Rune and Mountain will be formed.
+    - If offering an oath of fealty to the isle of Skagos, Stone and sea will be formed.
+    - If offering an oath of fealty to the greenblood, the Everflow will be formed.
+~ You can now swear fealty to the AI, so long as the character has at least 25 opinion of you.
+~ The realm you are swearing to must be stronger than yours by at least 3000 men.
+~ A number of traits will prevent you from giving up your crown so long as you do not have less than 10k men than them.
+~ Many new Ruler titles for the landed titles that can be held.
+~ Fixed the conversion decisions giving all of the Buddhist and Jain traits on conversion.
+~ Fixed conversion decision checking for sympathy_westerosi_pagan instead of westerosi_pagan_group
+~ Life span should be a little longer.
+~ Zealous and Glutton no longer reduce health, due to issue of people randomly dying due to being zealous at young age.
+    - Zealous as a result now reduces tax instead of improving it. Rather than attracting more tax from zealous peasants, it can be regarded as their zeal encouraging them to donate to their church or cause.
+~ Zealous is now correctly set to be the opposite of the Westeros and Essos sympathy religion traits.
+~ Modified AI effects caused by a few traits. Dishonourable, Honourable and Irrational should have a bigger impact on AI.
+~ Irrational has less of an impact on liege opinion, but however a biggy impact on dynasty opinion.
+~ CB rebalance, again. Since prestige generally piles up, costs have been increased to help slow down some of the more rapid conquest.
+    - County CB still requires 50 prestige per province.
+    - Duchy CB now requires 500 prestige per duchy.
+    - Kingdom CB now requires 1500 prestige per Kingdom.
+~ Highgarden development nerfed a little. Two fewer castle holdings are now present and fewer administration improvements start built.
+~ Oldtown is now a level seven holding instead of a level six.
+~ Minor fix to spouse conversion decision.
+~ Tweaks to graphical culture type used by the various Pagan religions.
++ GrandiSlayer - added unique descriptions for most of the religions.
++ Added some basic tribal core holdings. Groundwork for their building system.
++ Frostfang Kings added by tsf4 - beyond the wall, with the extra buildings, should start to get interesting for play.
++ Added anacestors, and/or expanded houses:
+	- Darklyn 
+	- Corbray 
+	- Tarly
+	- Manderly
+	- Osgrey 
+	- Florent 
++ Added house Sentinel of Rivergard 
+
+####################################################################################################
+
+27517-S-1.3A
+~ CB Tweaks and Fixes:
+    - Conquest CB should no longer fail when used against same faith.
+    - County Conquest CB cost reduced to 50 prestige a pop, due to negative effects sustained from owning a county outside of a duchy you own.
+    - Duchy Conquest CB cost reduced to 250 prestige a pop, to bring it in line with the county conquest.
+    - Kingdom Conquest CB cost reduced to 800 prestige a pop, to bring it in line with the county and duchy conquests.
+    - Kingdom and Duchy Conquest CB can be used against same religion now, until we have seperate Casus Belli for different religions.
+~ Skagosi should no longer be forced to wildling tribal government due to movement of Skagosi culture into first men.
+~ Modified all factions to use our scripted join requirement. Should prevent all from joining factions against Valyria and The Night's Watch.
+~ A number of attrition tweaks.
+    - Reduced winter attrition across the board somewhat.
+    - Reduced rate of attrition across the board somewhat.
+    - Supply limit for all terrain (excl. barrens) types increased slightly.
+~ Oldstones increased to a level eight settlement from level seven.
+    - Further tweaks to ownership of the sub baronies.
+~ The Dreadlands have been modified somewhat.
+    - The Sheep Hills is now under House Bolton.
+    - The Karstarks of House Bolton are now independent.
+    ? This change was made to better balance the dreadfort. The Karstarks were rather strong, often forming independence factions against the boltons.
+    ? It also did not make a whole lot of sense for the (Kar)starks to be under house Bolton. Furthermore, the change should make Bolton expansion somewhat easier.
+~ North Empire tier colour adjusted to be lighter and more white, but with a blue tint.
+~ A number of new nicknames, many of them specific to certain houses.
+~ An array of nerfs, reducing the effective strength of many characters.
+~ Halved the levy size of the stepstone pirates and reduced both their tech and the frequency of higher level shipyards.
+~ Combat education fixed, now correctly checking the educator instead of deprecated guardian.
+~ Corrected the Wynelands title flag.
+~ Changed the color of the De-Jure Stepstones.
+~ Removed the celibate traits from many children.
++ Added House Trait.
+    ? Very basic trait. Pulls the Dynasty of your character's grandfather and displays it.
+    ? Will be improved in future versions, by giving it to daughters as well as sons.
+    ? Basically a modified Muslim trait.
++ Added a number of new resources and province modifiers, which will distributed across the world.
+    - Many provinces have been set to either major/minor trade and population hubs. Unique effects will be added down the line.
+    - A number of natural harbours have been added - unique buildings will be added for these locations down the line.
++ Added Dragonstone and Dragonmont Buildings.
++ Added Sisterman Shipyards.
++ Added the twins as a buildable structure, split between the eastern and western provinces, capital restricted.
++ Added the Banefort and nerfed the Craggon Keeps somewhat.
++ Number of new flags for the Rivers and Hills have been added.
++ Some new custom music files have been added by ZeroFighterR. Authors have been listed in our readme.
++ Expanded and added ancestors and/or members to houses:
+    - Dayne
+    - Darklyn 
+    - Rowan
+    - Vhassar (Valyrian Freehold)
++ Many additions and edits to the Wildlings, from new characters, traits to ancestors.
++ Added resources to a number of locations.
+    - Honeyholt now has honey.
+    - Some Crackclaw provinces got tin.
+    - Casterly Rock and Castamere got Gold instead of silver. A number of Westerland provinces were also tweaked resource wise.
+    - White Knife given precious fabrics (furs) instead of silver.
+    ? Neither tin nor honey have buildings at the moment, however, only a minor province effects.
+    
+####################################################################################################
+
+23517-S-1.2A
+= Quite a lot, but too much to put into the changelog. Changes are very extensive.
+- Stripped music from the mod. Back to vanilla music until we find music we can use without possibly infringing on copyrights. Music included was uncertain, so removing so to be safe than sorry.
+~ Every single Vanilla event and Decision has been edited heavily. Many events have been excluded from the mod, to avoid issues relating to them.
+~ Fixed starting buildings for a number of holdings, including but not limited to Oldstones, Oldtown, Arbor, Highgarden, Casterly Rock and Storm's End.
+~ Modified ambition events and stripped out all buddhist related events and a (vanilla issue) duplicated paragon objective.
+~ Modified factions, removing references to muslim and catholic faiths and pagan related restrictions.
+~ Modified positions of every single port and army location, as well as many city locations. A good few hundred provinces touched, so some may have been overlooked.
+~ Modified plots, removing references to vanilla religions.
+~ Modified focuses, removing references to vanilla religions.
+~ Buffed the base value of cities, castles and temples for a number of reasons. Should also help make raiding more worthwhile, as there will be more to raid.
+~ Extensive number of custom scripted triggers, used to enhance factions
+    - Dornish are now less likely to join factions against their liege so long as their liege is Dornish.
+    - Marcher cultures are now less likely to join factions against their liege so long as their liege is of the same group.
+    - Old Gods followers are more loyal to their own people.
+    - Drowned, Valyrian, Seven and Eastern Pagans are far less loyal when under a foreign religion.
+    - Valyrians (culture) are just more ambitious.
+    - Council members are more loyal, even with no empowered council. However, they are also more dangerous if they do not like you (and are not empowered).
+    - Eastern Religion group and cultures are generally less likely to form factions.
+~ Dukes may now form or join the loyalist faction.
+~ Moved reachman, manderish and shield islander into first man group.
+~ Factions have been overhauled with a wide variety of conditions and scripted effects.
+    - Vassals who like you should be overall less likely to join factions against you.
+    - Distance, Culture and Religion have a big impact on joining loyalist or independence factions.
+    - Some groups are just more likely to split off, whilst others are more tolerant. The iron born, for example, will be far less tolerant of weaker rulers.
+    - Your heir, so long as they like you and share the same culture and religion, will be very loyal.
+    - Don't trust sociopaths - they don't care if you are a good person or not.
+    - Factions will not form against Valyria before the year 7000, due to the power behind the Valyrian Empire. However, the opinion bonus for the Valyrian Viceroy has been nerfed, so expect intrigue and assassination.
+~ Many traits have been modified. Mod specific traits that were missing effects have been given actual effects.
+~ A number of nicknames have been modified or fixed.
+~ Many more characters have been giving fighting/dueling traits, which in turn have been named into "[Rank] Warrior" rather than "[Rank] Duelist" to better reflect their current role.
+~ Localisation has been tweaked by SweetThose, so we are no longer using the silly generated adjectives, but some much more sensical hand-made ones by him. Thanks!
+~ A number of defines tweaks have been integrated at the suggestiong of SweetThose, including but not limited to reduced loss of levy on disband, making it overall less punishing.
+~ Wildling characters have been expanded upon by tsf4, and a wide array of traits have been added, making the region far more interesting to play in!
+~ Many more flags have been added, although many are placeholders.
++ Added shipyard building for Tarth.
++ More family members, and ancestors for houses:
+	- Stark
+	- Karstark
+	- Redwyne
+	- Hightower
+	- Gardener
+	- Darry
+	- Bracken
+	- Greystark 
+	- Reyne
++ Created the Kingdom of the Blackwood Vale, and gave it to house Blackwood.
++ Created the Kingdom of the Reynelands, and gave it to house Reyne.
+
+####################################################################################################
+
+21517-US-1.1A
+- Removed vanilla societies.
+- Removed achievement events (unused).
+- Removed Jewish Physician and indian/muslim variants.
+  = Additionally made it so the 'the_seven_group' characters will be properly assigned monk if applicable.
+- Stripped Vanilla charlemange events that were inactive.
+- Stripped Vanilla charlemagne culture conversion events that were inactive.
+- Stripped Vanilla muslim order events, and some byzantine events.
+- Removed decadence events.
+- Removed a number of decadence lowering ambition events.
+- Removed event file mnm_secret_religious_societies_events.txt
+- Removed event file soa_holy_order_events.txt
+- Removed event file soa_jewish_events.txt
+- Removed event file soa_muslim_schools.txt
+~ Fixed the Gulltown building, so it is now correctly assigned to Gull Keep.
+~ Faith Tweaks. Seven Gods heresy and Mother heresy effects fixed.
+~ Home modifiers for a number of 'pagan' religions. Reduced overall modifiers in favour of moving some to home restricted.
+  = Old Gods are much better at defending in their own realm, but have no defensive buffs outside of home territory.
+  = Drowned / Storm Gods have stronger offensive attacks, but no defensive bonuses outside of home territory.
+  = Moonsingers and faceless men no longer have military buffs outside of home territory. They are somewhat stronger now too.
+~ The Seven no longer have improved light cavalry, but instead have a major buff to levy infantry offensive.
+~ The Viceroy of Valyria will have his/her modifiers correctly assigned so long as they are AI OR a player playing as one of the default ruling dynasties.
+  = If AI and they somehow become anything other than Valyrian, the event will convert them.
+~ Fixed employment decision assigning brahmin.
+~ Set Northman culture to Celticgfx
+~ Modified birth events to correctly take into account modded religions, rather than the non-existant vanilla religions.
+~ War Elephants restricted to Rhllor and Valyrian religion now. Will probably introduced imported Elephants from Volantis later.
+~ Title localisation fixes (hopefully).
+~ Tweaked Eunuch event somewhat. Should give our cultures now rather than noculture.
+~ Removed tzykanion events.
+~ Tweaked Bastard events to use rhllor instead of Muslim group.
+~ Vanilla Male remove homosexual (muslim) event removed.
+~ Vanilla Male remove homosexual no longer fires for Dornish (tolerant).
+~ Vanilla Female remove homosexual no longer fires for Dornish (tolerant).
+~ Vanilla Female homosexual event takes into consideration the trusting trait.
+~ Cynical and Zealous childhood events that were previously restricted to muslim faith are now rhllor restricted.
+~ Doubled diplomatic range (over vanilla values).
+~ Switched Adept and Skilled trait icons around.
+~ Fixed councillor events.
+~ Modified Court Events to reference world religions rather than muslim/christian.
+~ Modified crusader events to reference world religions rather than muslim/christian. Most won't function at all, given the lack of crusaders and religious CB.
+~ Modified female councillor events.
+~ Modified Feudal Life Events to take into account world religions. Rhllor may have pig and wolf related events.
+~ Modified Mercenary captain event to take world religions into account rather than vanilla.
+~ Potentially Fixed the Artefact event giving all artefacts.
+~ Huge number of files edited...
+~ Reduced effects of bleak/desolate/ravaged.
+~ Vierwood - Dun Fort and Duskendale Switched.
+~ Increased defensive and offensive bonuses / maluses.
++ Added a number of age-related modifiers. The old will be less healthy, but wiser, whilst the young will be adored by their own, but less suited for ruling.
++ Assigned allow_looting = yes & seafarer = yes to the Pirate culture.
++ Assigned allow_looting = yes & seafarer = yes to the Fairman culture.
++ Assigned allow_looting = yes & seafarer = yes to the Sisterman culture.
++ Added Skagosi shipyards. Three levels, providing a small number of ships. Level one is assured, level two has a good chance but level three will never be generated.
++ Added placeholder culture modifiers to the static_modifiers.txt -- although they currently have no effect, it is the groundwork for actual effects.
++ Godman - Added dueling traits to more characters.
++ Tanner - Added traits to a number of wildlings and removed redundant characters/dynasties
+
+####################################################################################################
+
+20517-S-1.0A
+- First public alpha release.
+- Bugs are to be expected, but it should be stable for play.
+
+####################################################################################################

@@ -1,0 +1,746 @@
+##############
+# ID RANGE   #
+# 2800-2999  #
+##############
+
+# Start Date is 6566
+
+####################
+### MAJOR HOUSES ###
+####################
+
+# Head of House Drahar
+
+2805 = {
+    name = Durwel
+    dynasty = 1300 # Drahar
+    #father = 2805
+    culture = myrmen
+    religion = rhllor
+
+    6520.1.1 = { birth=yes }
+    6589.1.7 = { death=yes }
+}
+
+2800 = {
+    name = Darius
+    dynasty = 1300 # Drahar
+    father = 2805
+    culture = myrmen
+    religion = rhllor
+
+    6543.1.1 = { birth=yes }
+    6614.1.7 = { death=yes }
+}
+
+2806 = {
+    name = Serella
+    dynasty = 1300 # Drahar
+    father = 2805
+    culture = myrmen
+    religion = rhllor
+    female = yes
+    6545.1.1 = { birth=yes }
+    6611.1.7 = { death=yes }
+}
+
+2807 = {
+    name = Zothelo
+    dynasty = 1300 # Drahar
+    father = 2800
+    culture = myrmen
+    religion = rhllor
+
+    6564.1.1 = { birth=yes }
+    6633.1.7 = { death=yes }
+}
+
+2808 = {
+    name = Zottos
+    dynasty = 1300 # Drahar
+    father = 2800
+    culture = myrmen
+    religion = rhllor
+
+    6565.1.1 = { birth=yes }
+    6631.1.7 = { death=yes }
+}
+
+# Head of House Zarha
+
+2809 = {
+    name = Zanos
+    dynasty = 1301 # Zarha
+    
+    culture = myrmen
+    religion = rhllor
+
+    6515.1.1 = { birth=yes }
+    6565.1.1 = { death=yes }
+}
+
+2801 = {
+    name = Zereld
+    dynasty = 1301 # Zarha
+    father = 2809
+    culture = myrmen
+    religion = rhllor
+
+    6538.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+2810 = {
+    name = Jono
+    dynasty = 1301 # Zarha
+    father = 2809
+    culture = myrmen
+    religion = rhllor
+
+    6535.1.1 = { birth=yes }
+    6597.1.1 = { death=yes }
+}
+
+2811 = {
+    name = Zaerys
+    dynasty = 1301 # Zarha
+    father = 2810
+    culture = myrmen
+    religion = rhllor
+
+    6560.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+2812 = {
+    name = Sassa
+    dynasty = 1301 # Zarha
+    father = 2810
+    culture = myrmen
+    religion = rhllor
+    female = yes
+    6563.1.1 = { birth=yes }
+    6620.1.1 = { death=yes }
+}
+
+# Head of House Elidoto
+
+2813 = {
+    name = El
+    dynasty = 1302 # Elidoto
+    
+    culture = myrmen
+    religion = rhllor
+
+    6500.1.1 = { birth=yes }
+    6563.1.1 = { death=yes }
+}
+
+2802 = {
+    name = Landar
+    dynasty = 1302 # Elidoto
+    father = 2813
+    culture = myrmen
+    religion = rhllor
+
+    6534.1.1 = { birth=yes }
+    6600.1.1 = { death=yes }
+}
+
+2814 = {
+    name = Lando
+    dynasty = 1302 # Elidoto
+    father = 2813
+    culture = myrmen
+    religion = rhllor
+
+    6537.1.1 = { birth=yes }
+    6597.1.1 = { death=yes }
+}
+
+2815 = {
+    name = Lars
+    dynasty = 1302 # Elidoto
+    father = 2813
+    culture = myrmen
+    religion = rhllor
+
+    6540.1.1 = { birth=yes }
+    6609.1.1 = { death=yes }
+}
+
+
+# Head of House Gelaryon
+
+2816 = {
+    name = Gaelen
+    dynasty = 1303 # Gelaryon
+    
+    culture = myrmen
+    religion = rhllor
+    6513.1.1 = { birth=yes }
+    6570.1.1 = { death=yes }
+}
+
+2803 = {
+    name = Zotto
+    dynasty = 1303 # Gelaryon
+    father = 2816
+    culture = myrmen
+    religion = rhllor
+    6539.1.1 = { birth=yes }
+    6613.1.1 = { death=yes }
+}
+
+2817 = {
+    name = Zera
+    dynasty = 1303 # Gelaryon
+    father = 2816
+    culture = myrmen
+    female = yes
+    religion = rhllor
+    6544.1.1 = { birth=yes }
+    6607.1.1 = { death=yes }
+}
+
+2818 = {
+    name = Moela
+    dynasty = 1303 # Gelaryon
+    father = 2803
+    culture = myrmen
+    religion = rhllor
+    6560.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+2819 = {
+    name = Illyr
+    dynasty = 1303 # Gelaryon
+    father = 2803
+    culture = myrmen
+    religion = rhllor
+    6563.1.1 = { birth=yes }
+    6621.1.1 = { death=yes }
+}
+
+# Head of House Livarys
+
+2820 = {
+    name = Livarys 
+    dynasty = 1304 # Livarys
+
+    culture = myrmen
+    religion = rhllor
+    #father = 2820
+    6518.1.1 = { birth=yes }
+    6566.1.1 = { death=yes }
+}
+
+2804 = {
+    name = Odilo
+    dynasty = 1304 # Livarys
+    culture = myrmen
+    religion = rhllor
+    father = 2820
+    6538.1.1 = { birth=yes }
+    6612.1.1 = { death=yes }
+}
+
+2821 = {
+    name = Lionel
+    dynasty = 1304 # Livarys
+    father = 2804
+    culture = myrmen
+    religion = rhllor
+
+    6558.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+2822 = {
+    name = Harrold
+    dynasty = 1304 # Livarys
+    father = 2804
+    culture = myrmen
+    religion = rhllor
+
+    6559.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+2823 = {
+    name = John
+    dynasty = 1304 # Livarys
+    father = 2804
+    culture = myrmen
+    religion = rhllor
+
+    6561.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+2824 = {
+    name = Jos
+    dynasty = 1304 # Livarys
+    father = 2804
+    culture = myrmen
+    religion = rhllor
+    female = yes
+    6563.1.1 = { birth=yes }
+    6625.1.1 = { death=yes }
+}
+
+###################
+##House Savarmudo##
+###################
+
+2825={
+	name=Mero
+	dynasty=1305
+	dna="akhkcgdljfg"
+	culture=myrmen 
+	religion=rhllor
+	6500.10.1={ birth=yes }
+	6521.1.1={ add_spouse=2835 }
+	6564.4.22={ death=yes }
+}
+2826={
+	name=Tagganaro
+	dynasty=1305
+	dna="akhocgbmcfg"
+	culture=myrmen 
+	religion=rhllor
+	martial=4 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=martial_cleric 
+	trait=deceitful 
+	trait=temperate 
+	trait=wroth 
+	trait=chaste 
+	trait=depressed 
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6522.4.5={ birth=yes }
+	6543.1.1={ add_spouse=2836 }
+	6577.9.18={ death=yes }
+}
+2827={
+	name=Pynto
+	dynasty=1305
+	dna="gkfhegdljnp"
+	culture=myrmen 
+	religion=rhllor
+	martial=5 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=7 
+	learning=4
+	trait=grey_eminence 
+	trait=hunter 
+	trait=brave 
+	trait=patient 
+	trait=cruel 
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6524.9.26={ birth=yes }
+	6588.12.23={ death=yes }
+}
+2828={
+	name=Ezzelyno
+	dynasty=1305
+	dna="akhkjmalleg"
+	culture=myrmen 
+	religion=rhllor
+	martial=5 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=poet 
+	trait=zealous 
+	trait=humble 
+	trait=content 
+	trait=slothful 
+	trait=charitable 
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6527.10.13={ birth=yes }
+	6589.7.22={ death=yes }
+}
+2829={
+	name=Serra
+	female=yes
+	dynasty=1305
+	dna="akhkhgglefg"
+	culture=myrmen 
+	religion=rhllor
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6532.7.8={ birth=yes }
+	6576.8.5={ death=yes }
+}
+2830={
+	name=Brea
+	female=yes
+	dynasty=1305
+	dna="dkhkcgokgfg"
+	culture=myrmen 
+	religion=rhllor
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6534.5.22={ birth=yes }
+	6588.5.15={ death=yes }
+}
+2831={
+	name=Ordello
+	dynasty=1305
+	dna="aknkniddifb"
+	culture=myrmen 
+	religion=rhllor
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=4
+	trait=elusive_shadow 
+	trait=paranoid 
+	trait=content 
+	trait=chaste 
+	trait=humble 
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6538.9.9={ birth=yes }
+	6585.9.22={ death=yes }
+}
+2832={
+	name=Groleo
+	dynasty=1305
+	dna="fppcckchiag"
+	culture=myrmen 
+	religion=rhllor
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=7 
+	learning=8
+	trait=detached_priest 
+	trait=shy 
+	trait=paranoid 
+	trait=slothful 
+	trait=brave 
+	father=2825	#Mero
+	mother=2835 #Doreah
+	6541.3.19={ birth=yes }
+	6611.1.28={ death=yes }
+}
+2833={
+	name=Taena
+	female=yes
+	dynasty=1305
+	dna="jcpnonelcfg"
+	culture=myrmen 
+	religion=rhllor
+	father=2826	#Tagganaro
+	mother=2836	#Jaqea
+	6550.1.6={ birth=yes }
+	6601.3.19={ death=yes }
+}
+2834={
+	name=Ordello
+	dynasty=1305
+	dna="ajhoggbdomg"
+	culture=myrmen 
+	religion=rhllor
+	trait=greedy 
+	trait=proud 
+	trait=lustful 
+	trait=shy 
+	trait=content 
+	father=2826	#Tagganaro
+	mother=2836	#Jaqea
+	6553.3.16={ birth=yes }
+	6598.2.22={ death=yes }
+}
+2835={
+	name=Doreah
+	female=yes
+	culture=myrmen 
+	religion=rhllor
+	6500.5.2={ birth=yes }
+	6564.7.15={ death=yes }
+}
+2836={
+	name=Jaqea
+	female=yes
+	culture=myrmen 
+	religion=rhllor
+	6522.5.2={ birth=yes }
+	6577.7.15={ death=yes }
+}
+
+###################
+##House Mallorgnano##
+###################
+
+2837={
+	name=Zaccaria
+	dynasty=1306
+	dna="kagcdgnjebc"
+	culture=myrmen 
+	religion=rhllor
+	6500.11.15={ birth=yes }
+	6521.1.1={ add_spouse=2844 }
+	6546.1.7={ death=yes }
+}
+2838={
+	name=Corrado
+	dynasty=1306
+	dna="lagcdajpecc"
+	culture=myrmen 
+	religion=rhllor
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=content 
+	trait=envious 
+	trait=honest 
+	trait=ill 
+	trait=stutter 
+	father=2837	#Zaccaria
+	mother=2844	#Torma
+	6526.3.25={ birth=yes }
+	6547.1.1={ add_spouse=2845 }
+	6572.8.29={ death=yes }
+}
+2839={
+	name=Anastasio
+	dynasty=1306
+	dna="capcodeeabi"
+	culture=myrmen 
+	religion=rhllor
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=scholarly_theologian 
+	trait=trusting 
+	trait=chaste 
+	trait=arbitrary 
+	father=2837	#Zaccaria
+	mother=2844	#Torma
+	6529.2.8={ birth=yes }
+	6576.2.26={ death=yes }
+}
+2840={
+	name=Valerio
+	dynasty=1306
+	dna="eaaadedjgdj"
+	culture=myrmen 
+	religion=rhllor
+	martial=8 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=detached_priest 
+	trait=mystic 
+	trait=cruel 
+	trait=arbitrary 
+	trait=temperate 
+	trait=kind 
+	trait=patient 
+	father=2837	#Zaccaria
+	mother=2844	#Torma
+	6534.6.8={ birth=yes }
+	6586.5.15={ death=yes }
+}
+2841={
+	name=Claudia
+	female=yes
+	dynasty=1306
+	dna="hagcdlngedc"
+	culture=myrmen 
+	religion=rhllor
+	father=2837	#Zaccaria
+	mother=2844	#Torma
+	6538.5.13={ birth=yes }
+	6595.2.3={ death=yes }
+}
+2842={
+	name=Patrizio
+	dynasty=1306
+	dna="amglkigimpd"
+	culture=myrmen 
+	religion=rhllor
+	martial=4 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=8 
+	learning=5
+	trait=naive_appeaser 
+	trait=kind 
+	trait=deceitful 
+	trait=gregarious 
+	trait=proud 
+	trait=chaste 
+	father=2838	#Corrado
+	mother=2845	#Stefania
+	6553.8.19={ birth=yes }
+	6614.10.27={ death=yes }
+}
+2843={
+	name=Ambrosia
+	female=yes
+	dynasty=1306
+	dna="lmcidnjkokc"
+	culture=myrmen 
+	religion=rhllor
+	father=2838	#Corrado
+	mother=2845	#Stefania
+	6556.10.16={ birth=yes }
+	6608.5.20={ death=yes }
+}
+2844={
+	name=Torma
+	female=yes
+	culture=myrmen 
+	religion=rhllor
+	6500.5.2={ birth=yes }
+	6546.7.15={ death=yes }
+}
+2845={
+	name=Stefania
+	female=yes
+	culture=myrmen 
+	religion=rhllor
+	6526.5.2={ birth=yes }
+	6576.7.15={ death=yes }
+}
+
+###################
+##House Lacetelas##
+###################
+
+2846={
+	name=Fiorello
+	dynasty=1307
+	dna="nagfpkdeckc"
+	culture=myrmen 
+	religion=rhllor
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=martial_cleric 
+	trait=kind 
+	trait=cruel 
+	trait=chaste 
+	trait=slothful 
+	trait=honest 
+	6499.1.19={ birth=yes }
+	6520.1.1={ add_spouse=2852 }
+	6567.9.11={ death=yes }
+}
+2847={
+	name=Flavia
+	female=yes
+	dynasty=1307
+	dna="njgoeehegka"
+	culture=myrmen 
+	religion=rhllor
+	father=2846	#Fiorello
+	mother=2852	#Mysaria
+	6523.9.9={ birth=yes }
+	6579.1.7={ death=yes }
+}
+2848={
+	name=Azzo
+	dynasty=1307
+	dna="dnggpeheckk"
+	culture=myrmen 
+	religion=rhllor
+	martial=4 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=proud 
+	trait=charitable 
+	trait=deceitful 
+	trait=patient 
+	trait=arbitrary 
+	father=2846	#Fiorello
+	mother=2852	#Mysaria
+	6527.3.18={ birth=yes }
+	6548.1.1={ add_spouse=2853 }
+	6577.3.1={ death=yes }
+}
+2849={
+	name=Gylora
+	female=yes
+	dynasty=1307
+	dna="dhapfehickk"
+	culture=myrmen 
+	religion=rhllor
+	father=2848	#Azzo
+	mother=2853	#Lothea
+	6552.1.6={ birth=yes }
+	6603.7.15={ death=yes }
+}
+2850={
+	name=Pynto
+	dynasty=1307
+	dna="dnmmfehbcdi"
+	culture=myrmen 
+	religion=rhllor
+	martial=4 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=8 
+	learning=5
+	trait=intricate_webweaver 
+	trait=content 
+	trait=trusting 
+	father=2848	#Azzo
+	mother=2853	#Lothea
+	6555.3.6={ birth=yes }
+	6625.9.17={ death=yes }
+}
+2851={
+	name=Ternesia
+	female=yes
+	dynasty=1307
+	dna="anlapfnlckg"
+	culture=myrmen 
+	religion=rhllor
+	father=2848	#Azzo
+	mother=2853	#Lothea
+	6559.7.19={ birth=yes }
+	6593.2.26={ death=yes }
+}
+2852={
+	name=Mysaria
+	female=yes
+	culture=myrmen 
+	religion=rhllor
+	6500.5.2={ birth=yes }
+	6567.7.15={ death=yes }
+}
+2853={
+	name=Lothea
+	female=yes
+	culture=myrmen 
+	religion=rhllor
+	6527.5.2={ birth=yes }
+	6577.7.15={ death=yes }
+}

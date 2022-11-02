@@ -1,0 +1,21 @@
+# c_padjeni
+
+# County Title
+title = c_padjeni
+
+# Settlements
+max_settlements = 2
+
+b_padjeni = city
+#b_padjeni_2 = city
+#b_padjeni_3 = temple
+#b_padjeni_4 = castle
+#b_padjeni_5 = city
+#b_padjeni_6 = temple
+#b_padjeni_7 = castle
+
+# Misc
+culture = lysene
+religion = the_weeping_lady
+terrain = farmlands
+#History

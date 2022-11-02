@@ -1,0 +1,22 @@
+# c_tottering
+
+# County Title
+title = c_tottering
+
+# Settlements
+max_settlements = 4
+
+b_tottering = castle
+b_strate = city
+#b_vierhuizen = temple
+#b_tottering_2 = castle
+
+# Misc
+culture = north_marcher
+religion = old_gods
+terrain = plains
+#History
+6554.1.1 = {
+	culture = reachmen
+	religion = the_seven
+}

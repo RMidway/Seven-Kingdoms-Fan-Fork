@@ -1,0 +1,21 @@
+# c_zorzi
+
+# County Title
+title = c_zorzi
+
+# Settlements
+max_settlements = 7
+
+b_zorzi_8 = castle
+#b_zorzi_9 = city
+#b_zorzi_10 = temple
+#b_zorzi_11 = castle
+#b_zorzi_12 = city
+#b_zorzi_13 = temple
+#b_zorzi_14 = castle
+
+# Misc
+culture = braavosi
+religion = moonsingers
+terrain = hills
+#History

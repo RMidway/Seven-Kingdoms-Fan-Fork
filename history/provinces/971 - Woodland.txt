@@ -1,0 +1,22 @@
+# c_woodland
+
+# County Title
+title = c_woodland
+
+# Settlements
+max_settlements = 4
+
+b_woodland = castle
+#b_moncla = city
+#b_chaudeyrac = temple
+#b_woodland_2 = castle
+
+# Misc
+culture = rivermen
+religion = old_gods
+terrain = plains
+#History
+6500.1.1 = {
+	culture = riverlander
+	religion = the_seven
+}

@@ -1,0 +1,22 @@
+# c_stevage
+
+# County Title
+title = c_stevage
+
+# Settlements
+max_settlements = 4
+
+b_stevage = castle
+#b_crewkerne = city
+#b_canderbury = temple
+#b_stevage_2 = castle
+
+# Misc
+culture = copperlander
+religion = old_gods
+terrain = hills
+#History
+6300.1.1 = {
+	culture = goldmen
+    religion = the_seven
+}

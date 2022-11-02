@@ -1,0 +1,49 @@
+### Statuses are modifiers so they can contain the same things are other modifiers
+# however they are not applied to a character but to the offmap_power
+# they can also have flags that can be tested from the offmap_power scope
+
+china_stable = {
+	frame = 1
+}
+
+china_unrest = {
+	frame = 2
+}
+
+china_civil_war = {
+	frame = 3
+}
+
+china_internal_purge = {
+	frame = 3
+}
+
+china_dothraki_invasion = {
+	frame = 4
+}
+
+china_rhoynish_invasion = {
+	frame = 5
+}
+
+china_ghiscari_invasion = {
+	frame = 5
+}
+
+china_famine = {
+	flags = { disallow_interactions disallow_troops }
+	frame = 6
+}
+
+china_economic_ruin = {
+	flags = { disallow_interactions disallow_troops }
+	frame = 6
+}
+
+china_plague = {
+	frame = 7
+}
+
+china_golden_age = {
+	frame = 8
+}

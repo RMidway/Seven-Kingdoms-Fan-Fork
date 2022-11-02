@@ -1,0 +1,21 @@
+# c_sardo
+
+# County Title
+title = c_sardo
+
+# Settlements
+max_settlements = 2
+
+b_sardo = castle
+#b_sardo_2 = city
+#b_sardo_3 = temple
+#b_sardo_4 = castle
+#b_sardo_5 = city
+#b_sardo_6 = temple
+#b_sardo_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

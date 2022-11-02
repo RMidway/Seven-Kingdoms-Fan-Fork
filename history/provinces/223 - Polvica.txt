@@ -1,0 +1,21 @@
+# c_polvica
+
+# County Title
+title = c_polvica
+
+# Settlements
+max_settlements = 2
+
+b_polvica = city
+#b_polvica_2 = city
+#b_polvica_3 = temple
+#b_polvica_4 = castle
+#b_polvica_5 = city
+#b_polvica_6 = temple
+#b_polvica_7 = castle
+
+# Misc
+culture = pentoshi
+religion = maiden_of_the_harvest
+terrain = farmlands
+#History

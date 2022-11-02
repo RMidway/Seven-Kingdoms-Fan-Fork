@@ -1,0 +1,23 @@
+# c_muddland
+
+# County Title
+title = c_muddland
+
+# Settlements
+max_settlements = 3
+
+b_muddland = castle
+#b_miers = city
+#b_goya = temple
+
+# Misc
+culture = muddish
+religion = old_gods
+terrain = farmlands
+#History
+6500.1.1 = {
+}
+6800.1.1 = {
+    religion = the_seven  
+    culture = freymen
+}

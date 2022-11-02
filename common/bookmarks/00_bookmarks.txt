@@ -1,0 +1,264 @@
+###########################
+#### THE AGE OF HEROES ####
+###########################
+
+bm_the_age_of_heroes = {
+	name = "AOH_START_NAME"
+	desc = "AOH_START_DESC"
+	date = 32.1.1
+
+	era = yes## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	 
+	selectable_character = {
+		id = 9607 # LANN LANNISTER
+		age = 22
+		name = LANN_LANNISTER
+		title = d_700
+		title_name = CASTERLY_ROCK
+		
+		character = {
+			dna= "clf0d0if000"
+			properties = "pk0f0k00000000"
+			religion="old_gods"
+			culture="lannisterfm"
+			government = feudal_government
+			dynasty=700
+		}
+	}
+	 
+	selectable_character = {
+		id = 5121 # DURRAN GODSGRIEF
+		age = 31
+		name = DURRAN_GODSGRIEF
+		title = d_800
+		title_name = STORMS_END
+		
+		character = {
+			dna="bd0af0eaa00"
+			properties = "ce0dbd00000000"
+			religion="old_gods"
+			culture="stormlander"
+			government = feudal_government
+			dynasty=800
+		}
+	}
+	 
+	selectable_character = {
+		id = 13001 # BRANDON BUILDER
+		age = 17
+		name = BRANDON_BUILDER
+		title = d_1
+		title_name = LORD_WINTERFELL
+		
+		character = {
+			dna="mpkannstbwp"
+			properties = "ge0chk00000000"
+			religion="old_gods"
+			culture="northmen"
+			government = feudal_government
+			dynasty=1
+		}
+	}
+}
+
+############################
+#### THE ANDAL INVASION ####
+############################
+
+bm_the_andal_invasion = {
+	name = "TAI_START_NAME"
+	desc = "TAI_START_DESC"
+	date = 6566.4.1
+
+	era = yes## Will be shown on Era screen.
+	picture = GFX_pick_era_image_2
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+
+	selectable_character = {
+		id = 7803 # Osric Arryn
+		age = 55
+		name = OSRIC_ARRYN
+		title = e_180
+		title_name = VALE
+		
+		character = {
+			dna="lczwhzhrvxa"
+    		properties="aepdn000000000000000000000000000000000"
+			religion="the_seven"
+			culture="valemen"
+			government = vale_government
+			dynasty=180
+		}
+	}
+
+
+	selectable_character = {
+		id = 605 # Tristifer Mudd
+		age = 24
+		name = TRISTIFER_MUDD
+		title = k_rivers_and_hills
+		title_name = RIVERS_AND_HILLS
+		
+		character = {
+			dna="dlmkfqkcfbk"
+   		    properties="aj0aka00000000"
+			religion="old_gods"
+			culture="muddish"
+			government = feudal_government
+			dynasty=201
+		}
+	}
+
+
+
+	selectable_character = {
+		id = 1217 # Garth the Sage
+		age = 20
+		name = GARTH_GARDENER
+		title = e_604
+		title_name = E_THE_REACH
+		
+		character = {
+		    dna = "bcdgj00ie00"
+		    properties="nh00a000000000"
+			religion="old_gods"
+			culture="reachmen"
+			government = reach_government
+			dynasty=604
+		}
+	}
+
+
+	selectable_character = {
+		id = 1800 # Maldon Durrandon
+		age = 50
+		name = MALDON_DURRANDON
+		title = e_800
+		title_name = E_THE_STORMLANDS
+		
+		character = {
+			dna="ai0ia0ifab0"
+ 			properties="ar0aa000000000000000000000000000000000"
+			religion="the_seven"
+			culture="durrandonfm"
+			government = storm_kingdom_government
+			dynasty=800
+		}
+	}
+
+
+	selectable_character = {
+		id = 400 # Tyrion Lannister
+		age = 40
+		name = TYRION_LANNISTER
+		title = k_700
+		title_name = K_THE_ROCK
+		
+		character = {
+			dna="cjadb0ia0b0"
+   		    properties="cc00da00000000000000000000000000000000"
+			religion="old_gods"
+			culture="lannisterfm"
+			government = feudal_government
+			dynasty=700
+		}
+	}
+
+	selectable_character = {
+		id = 203 # Brandon III Stark
+		age = 46
+		name = BRANDON_STARK
+		title = k_1
+		title_name = K_WINTERFELL
+		
+		character = {
+			dna="cdfztsqajo0"
+			properties="ah0bmb00d00000000000000000000000000000"
+			religion="old_gods"
+			culture="starkfm"
+			government = winter_government
+			dynasty=1
+		}
+	}
+}
+############################
+#### NYMERIA'S LANDING #####
+############################
+
+bm_the_seven_kingdoms = {
+	name = "TSK_START_NAME"
+	desc = "TSK_START_DESC"
+	date = 7299.1.1
+
+	era = yes## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	
+	selectable_character = {
+		id = 70001 # Mors Martell
+		age = 25
+		name = MORS_MARTELL
+		title = e_dorne
+		title_name = E_DORNE
+		
+		character = {
+			dna = "dclgbxiafexhyjbnfwnoi"
+			properties = "oh0bi"
+			religion = "the_seven"
+			culture = "andal_dornish"
+			government = "dorne_government"
+			dynasty = 582
+		}
+	}
+	selectable_character = {
+		id = 9552 # Qhored I Hoare
+		age = 40
+		name = QHORED_HOARE
+		title = e_the_iron_islands
+		title_name = IRONBORN
+		
+		character = {
+			religion="drowned_god"
+			culture="iron_islander"
+			government = ironborn_government
+			dynasty=311
+		}
+	}
+}
+
+#########################
+#### AENAR THE EXILE ####
+#########################
+
+# bm_the_shadow_of_valyria = {
+	# name = "TSOV_START_NAME"
+	# desc = "TSOV_START_DESC"
+	# date = 7870.1.1
+
+# }
+
+###############################
+#### THE SHADOW OF VALYRIA ####
+###############################
+
+# bm_the_shadow_of_valyria = {
+	# name = "TSOV_START_NAME"
+	# desc = "TSOV_START_DESC"
+	# date = 7882.1.1
+
+	# era = yes## Will be shown on Era screen.
+	# picture = GFX_pick_era_image_4
+# }
+
+############################
+#### THE BLEEDING YEARS ####
+############################
+
+# bm_the_bleeding_years = {
+	# name = "TBY_START_NAME"
+	# desc = "TBY_START_DESC"
+	# date = 7996.1.1
+
+	# era = yes## Will be shown on Era screen.
+	# picture = GFX_pick_era_image_5
+# }

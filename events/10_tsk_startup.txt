@@ -1,0 +1,550 @@
+namespace = tsk_startup
+
+#	Start-up event to manage game rules and systems
+character_event = {
+	id = tsk_startup.1
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = c_oldtown
+		is_save_game = no
+	}
+	
+	hide_window = yes
+
+	immediate = {
+		any_character = {
+			if = {
+				limit = {
+					dynasty = none
+					NOT = { any_owned_bloodline = { has_bloodline_flag = special_gfx } }
+					OR = {
+						graphical_culture = valyriangfx
+						graphical_culture = dayneangfx
+						graphical_culture = daynefmgfx
+						graphical_culture = durrandonangfx
+						graphical_culture = durrandonfmgfx
+						graphical_culture = greyjoyangfx
+						graphical_culture = greyjoyfmgfx
+						graphical_culture = lannisterangfx
+						graphical_culture = lannisterfmgfx
+						graphical_culture = starkangfx
+						graphical_culture = starkfmgfx
+						graphical_culture = tullyangfx
+						graphical_culture = tullyfmgfx
+						graphical_culture = yronwoodangfx
+						graphical_culture = yronwoodfmgfx
+					}
+				}
+				character_event = { id = tsk_birth.1 } #Initiate bloodline specific gfx
+			}
+		}
+		character_event = { id = tsk_startup.6 }
+		#any_province = { province_event = { id = tsk_startup.5 } } # Disabled for now
+			
+		if = {
+			limit = {
+				has_game_rule = { name = more_great_works value = disabled }
+			}
+			character_event = { id = tsk_startup.2 }
+		}
+	}
+}
+
+#	Remove wonders and replace them with buildings
+character_event = {
+	id = tsk_startup.2
+
+	is_triggered_only = yes
+
+	hide_window = yes
+
+	option = {
+		496 = { destroy_wonder = wonder_skyreach }
+		b_skyreach = { add_building = ca_skyreach }
+		
+		898 = { destroy_wonder = wonder_banefort }
+		b_banefort = { add_building = ca_banefort }
+
+		1026 = { destroy_wonder = wonder_oldstones }
+		
+	}
+}
+
+#	Adds spouses to rulers or dynasty members with children
+character_event = {
+	id = tsk_startup.3
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { dynasty = none }
+		has_game_rule = { name = generate_spouses value = enabled }
+		is_married = no
+		can_marry = yes
+		any_child_even_if_dead = {
+			OR = {
+				AND = {
+					mother = { always = yes }
+					NOT = { father = { always = yes } }
+				}
+				AND = {
+					NOT = { mother = { always = yes } }
+					father = { always = yes }
+				}
+			}
+		}
+	}
+
+	hide_window = yes
+
+	immediate = {
+		set_flag = has_generated_spouse
+		character_event = { id = tsk_startup.4 days = 1 } # Clears startup flag a day later in order to prevent marriage event [ 500 ]
+		if = {
+			limit = {
+				NOT = { is_female = yes }
+			}
+			if = {
+				limit = {
+					age >= 44
+				}
+				create_character = {
+					age = 44
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 40
+				}
+				create_character = {
+					age = 40
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 35
+				}
+				create_character = {
+					age = 35
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 30
+				}
+				create_character = {
+					age = 30
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 27
+				}
+				create_character = {
+					age = 27
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 25
+				}
+				create_character = {
+					age = 25
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 20
+				}
+				create_character = {
+					age = 20
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 18
+				}
+				create_character = {
+					age = 18
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 16
+				}
+				create_character = {
+					age = 16
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			new_character = {
+				trigger_switch = {
+					on_trigger = tier
+					EMPEROR = { prestige = 400 }
+					KING = { prestige = 300 }
+					DUKE = { prestige = 200 }
+					COUNT = { prestige = 100 }
+				}
+				add_spouse = ROOT
+				save_event_target_as = new_mother_target
+			}
+			any_child_even_if_dead = {
+				limit = { NOT = { mother = { always = yes } } }
+				set_mother = event_target:new_mother_target
+			}
+		}
+		else_if = {
+			limit = {
+				is_female = yes
+			}
+			if = {
+				limit = {
+					age >= 44
+				}
+				create_character = {
+					age = 44
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 40
+				}
+				create_character = {
+					age = 40
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 35
+				}
+				create_character = {
+					age = 35
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 30
+				}
+				create_character = {
+					age = 30
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 27
+				}
+				create_character = {
+					age = 27
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 25
+				}
+				create_character = {
+					age = 25
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 20
+				}
+				create_character = {
+					age = 20
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 18
+				}
+				create_character = {
+					age = 18
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			else_if = {
+				limit = {
+					age >= 16
+				}
+				create_character = {
+					age = 16
+					religion = ROOT
+					culture = ROOT
+					dynasty = actually_culture
+					random_traits = yes
+				}
+			}
+			new_character = {
+				trigger_switch = {
+					on_trigger = tier
+					EMPEROR = { prestige = 400 }
+					KING = { prestige = 300 }
+					DUKE = { prestige = 200 }
+					COUNT = { prestige = 100 }
+				}
+				add_spouse_matrilineal = ROOT
+				save_event_target_as = new_father_target
+			}
+			any_child_even_if_dead = {
+				limit = { NOT = { father = { always = yes } } }
+				set_mother = event_target:new_father_target
+			}
+		}
+	}
+}
+
+# Assigns custom terrain defender bonuses | disabled
+province_event = {
+	id = tsk_startup.4
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		clr_flag = has_generated_spouse
+	}
+}
+
+# Assigns custom terrain defender bonuses | disabled
+province_event = {
+	id = tsk_startup.5
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		trigger_switch = {
+			on_trigger = terrain
+			arctic = { add_province_modifier = { name = terrain_defenderbonus_arctic duration = -1 } }
+			farmlands = { add_province_modifier = { name = terrain_defenderbonus_farmlands duration = -1 } }
+			forest = { add_province_modifier = { name = terrain_defenderbonus_forest duration = -1 } }
+			hills = { add_province_modifier = { name = terrain_defenderbonus_hills duration = -1 } }
+			woods = { add_province_modifier = { name = terrain_defenderbonus_woods duration = -1 } }
+			mountain = { add_province_modifier = { name = terrain_defenderbonus_mountain duration = -1 } }
+			volcanic_mountain = { add_province_modifier = { name = terrain_defenderbonus_volcanic_mountain duration = -1 } }
+			#impassable_mountains = { add_province_modifier = { name = terrain_defenderbonus_impassable_mountains duration = -1 } }
+			steppe = { add_province_modifier = { name = terrain_defenderbonus_steppe duration = -1 } }
+			plains = { add_province_modifier = { name = terrain_defenderbonus_plains duration = -1 } }
+			jungle = { add_province_modifier = { name = terrain_defenderbonus_jungle duration = -1 } }
+			fens = { add_province_modifier = { name = terrain_defenderbonus_fens duration = -1 } }
+			marsh = { add_province_modifier = { name = terrain_defenderbonus_marsh duration = -1 } }
+			desert = { add_province_modifier = { name = terrain_defenderbonus_desert duration = -1 } }
+			barrens = { add_province_modifier = { name = terrain_defenderbonus_barrens duration = -1 } }
+			coastal_desert = { add_province_modifier = { name = terrain_defenderbonus_coastal_desert duration = -1 } }
+			mountain_desert = { add_province_modifier = { name = terrain_defenderbonus_mountain_desert duration = -1 } }
+		}
+	}
+}
+
+# Sets right de facto rank for king various titles | 1 = COUNT; 2 = DUKE; 3 = KING
+province_event = {
+	id = tsk_startup.6
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				year = 6500
+			}
+			k_the_eastmarch = { set_variable = { which = de_facto_rank value = 2 } }
+			k_redroost = { set_variable = { which = de_facto_rank value = 2 } }
+			k_kingswood = { set_variable = { which = de_facto_rank value = 2 } }
+			k_the_westmarch = { set_variable = { which = de_facto_rank value = 2 } }
+			k_starpike = { set_variable = { which = de_facto_rank value = 2 } }
+			k_tumbleton = { set_variable = { which = de_facto_rank value = 2 } }
+			k_the_northmarch = { set_variable = { which = de_facto_rank value = 2 } }
+			k_runestone = { set_variable = { which = de_facto_rank value = 3 } }
+			any_title = {
+				limit = {
+					higher_tier_than = DUKE
+					NOR = {
+						is_variable_equal = { which = de_facto_rank value = 1 }
+						is_variable_equal = { which = de_facto_rank value = 2 }
+					}
+				}
+				set_variable = { which = de_facto_rank value = 3 }
+			}
+		}
+		any_playable_ruler = {
+			character_event = { id = tsk_maintenance.1 }
+		}
+		any_playable_ruler = {
+			limit = {
+				emf_needs_coronation = yes
+				#emf_uses_furry_coronation = no
+			}
+			character_event = { id = emf_coronation.1100 }
+		}
+	}
+}
+
+# BUG FIXING:
+
+# Removes Pregnancy Finishing trait
+character_event = {
+	id = tsk_startup.20000
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		is_pregnant = no
+		trait = pregnancy_finishing
+	}
+	
+	option = {
+		remove_trait = pregnancy_finishing
+		remove_trait = in_hiding
+		remove_trait = travelling
+		remove_character_modifier = mother_praying_health
+		remove_character_modifier = mother_resting_health
+		remove_character_modifier = mother_partying_health
+		clr_character_flag = mother_asked_retirement 
+		clr_character_flag = flag_mother_dark_rest
+		clr_character_flag = mother_gossip_listening #Safety check, they should already have been removed
+		clr_character_flag = mother_gossip_talking
+		clr_character_flag = mother_gossip_trusting
+		clr_character_flag = mother_gossip_plotting
+		clr_character_flag = mother_gossip_envious
+		clr_character_flag = mother_gossip_shy
+		clr_character_flag = mother_gossip_learning
+		clr_character_flag = mother_gossip_content
+		clr_character_flag = mother_gossip_gluttonous
+
+		character_event = { id = HFP.20597 days = 35 } #Clears persistent Physician targets. They are still on on_birth since post-partum complications may require their services.
+		log = "PregnancyError: [This.GetID]"
+	}
+}
+
+# Prevents characters from being bastards if they actually aren't
+character_event = {
+	id = tsk_startup.20001
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		age = 0
+		trait = bastard
+		father_even_if_dead = {
+			ROOT = {
+				mother_even_if_dead = {
+					is_married = PREVPREV
+				}
+			}
+		}
+	}
+	
+	option = {
+		remove_trait = bastard
+		if = {
+			limit = {
+				father_even_if_dead = {
+					ROOT = {
+						mother_even_if_dead = {
+							is_married = PREVPREV
+							is_married_matrilineally = yes
+						}
+					}
+				}
+			}
+			dynasty = mother
+		}
+		if = {
+			limit = {
+				father_even_if_dead = {
+					ROOT = {
+						mother_even_if_dead = {
+							is_married = PREVPREV
+							is_married_matrilineally = no
+						}
+					}
+				}
+			}
+			dynasty = father
+		}
+		log = "BastardError: [This.GetID]"
+	}
+}

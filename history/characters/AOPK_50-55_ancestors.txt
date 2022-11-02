@@ -1,0 +1,5338 @@
+################
+#    ID RANGE  #
+#  5000 - 5600 #
+################
+
+##################
+### House Mudd ###
+##################
+
+5028 = {
+    name = Tristifer
+    dynasty = 201
+    father = 5029
+    religion = old_gods
+    culture = muddish
+   
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5029 = {
+    name = Myles
+    dynasty = 201
+    father = 5030
+    religion = old_gods
+    culture = muddish
+   
+    6484.1.1 = { birth=yes }
+    6542.1.1 = { death=yes }
+}
+
+5030 = {
+    name = Brynden
+    dynasty = 201
+    father = 5031
+    religion = old_gods
+    culture = muddish
+   
+    6451.1.1 = { birth=yes }
+    6515.1.1 = { death=yes }
+}
+
+5031 = {
+    name = Brynden
+    dynasty = 201
+    father = 5032
+    religion = old_gods
+    culture = muddish
+   
+    6424.1.1 = { birth=yes }
+    6487.1.1 = { death=yes }
+}
+
+5032 = {
+    name = Tristifer
+    dynasty = 201
+    father = 5033
+    religion = old_gods
+    culture = muddish
+   
+    6400.1.1 = { birth=yes }
+    6462.1.1 = { death=yes }
+}
+
+5033 = {
+    name = Edmure
+    dynasty = 201
+    father = 5034
+    religion = old_gods
+    culture = muddish
+   
+    6376.1.1 = { birth=yes }
+    6437.1.1 = { death=yes }
+}
+
+5034 = {
+    name = Patrek
+    dynasty = 201
+    father = 5035
+    religion = old_gods
+    culture = muddish
+   
+    6349.1.1 = { birth=yes }
+    6408.1.1 = { death=yes }
+}
+
+5035 = {
+    name = Patrek
+    dynasty = 201
+    father = 5036
+    religion = old_gods
+    culture = muddish
+   
+    6328.1.1 = { birth=yes }
+    6381.1.1 = { death=yes }
+}
+
+5036 = {
+    name = Brynden
+    dynasty = 201
+    father = 5037
+    religion = old_gods
+    culture = muddish
+   
+    6300.1.1 = { birth=yes }
+    6362.1.1 = { death=yes }
+}
+
+5037 = {
+    name = Tristifer
+    dynasty = 201
+    father = 5038
+    religion = old_gods
+    culture = muddish
+   
+    6276.1.1 = { birth=yes }
+    6342.1.1 = { death=yes }
+}
+
+5038 = {
+    name = Brynden
+    dynasty = 201
+    father = 5039
+    religion = old_gods
+    culture = muddish
+   
+    6247.1.1 = { birth=yes }
+    6309.1.1 = { death=yes }
+}
+
+5039 = {
+    name = Jojen
+    dynasty = 201
+    father = 5040
+    religion = old_gods
+    culture = muddish
+   
+    6224.1.1 = { birth=yes }
+    6287.1.1 = { death=yes }
+}
+
+5040 = {
+    name = Edmure
+    dynasty = 201
+    father = 5041
+    religion = old_gods
+    culture = muddish
+   
+    6200.1.1 = { birth=yes }
+    6264.1.1 = { death=yes }
+}
+
+5041 = {
+    name = Tristan
+    dynasty = 201
+    father = 5042
+    religion = old_gods
+    culture = muddish
+   
+    6176.1.1 = { birth=yes }
+    6240.1.1 = { death=yes }
+}
+
+5042 = {
+    name = Brynden
+    dynasty = 201
+    father = 5043
+    religion = old_gods
+    culture = muddish
+   
+    6151.1.1 = { birth=yes }
+    6217.1.1 = { death=yes }
+}
+
+5043 = {
+    name = Tristan
+    dynasty = 201
+    father = 5044
+    religion = old_gods
+    culture = muddish
+   
+    6146.1.1 = { birth=yes }
+    6200.1.1 = { death=yes }
+}
+
+5044 = {
+    name = Jojen
+    dynasty = 201
+    father = 5045
+    religion = old_gods
+    culture = muddish
+   
+    6116.1.1 = { birth=yes }
+    6170.1.1 = { death=yes }
+}
+
+5045 = {
+    name = Myles
+    dynasty = 201
+    father = 5046
+    religion = old_gods
+    culture = muddish
+   
+    6092.1.1 = { birth=yes }
+    6150.1.1 = { death=yes }
+}
+
+5046 = {
+    name = Myles
+    dynasty = 201
+    father = 5047
+    religion = old_gods
+    culture = muddish
+   
+    6061.1.1 = { birth=yes }
+    6124.1.1 = { death=yes }
+}
+
+5047 = {
+    name = Tristan
+    dynasty = 201
+    father = 5048
+    religion = old_gods
+    culture = muddish
+   
+    6041.1.1 = { birth=yes }
+    6100.1.1 = { death=yes }
+}
+
+5048 = {
+    name = Jojen
+    dynasty = 201
+    father = 5049
+    religion = old_gods
+    culture = muddish
+   
+    6015.1.1 = { birth=yes }
+    6072.1.1 = { death=yes }
+}
+
+5049 = {
+    name = Edmure
+    dynasty = 201
+    father = 5050
+    religion = old_gods
+    culture = muddish
+   
+    5987.1.1 = { birth=yes }
+    6049.1.1 = { death=yes }
+}
+
+5050 = {
+    name = Brynden
+    dynasty = 201
+    father = 5051
+    religion = old_gods
+    culture = muddish
+   
+    5965.1.1 = { birth=yes }
+    6030.1.1 = { death=yes }
+}
+
+5051 = {
+    name = Tristan
+    dynasty = 201
+    father = 5052
+    religion = old_gods
+    culture = muddish
+   
+    5931.1.1 = { birth=yes }
+    5982.1.1 = { death=yes }
+}
+
+5052 = {
+    name = Tristan
+    dynasty = 201
+    father = 5053
+    religion = old_gods
+    culture = muddish
+   
+    5900.1.1 = { birth=yes }
+    5956.1.1 = { death=yes }
+}
+
+5053 = {
+    name = Myles
+    dynasty = 201
+    father = 5054
+    religion = old_gods
+    culture = muddish
+   
+    5875.1.1 = { birth=yes }
+    5950.1.1 = { death=yes }
+}
+
+5054 = {
+    name = Edmure
+    dynasty = 201
+    father = 5055
+    religion = old_gods
+    culture = muddish
+   
+    5842.1.1 = { birth=yes }
+    5900.1.1 = { death=yes }
+}
+
+5055 = {
+    name = Edmure
+    dynasty = 201
+    father = 5056
+    religion = old_gods
+    culture = muddish
+   
+    5817.1.1 = { birth=yes }
+    5879.1.1 = { death=yes }
+}
+
+5056 = {
+    name = Tristan
+    dynasty = 201
+    father = 5057
+    religion = old_gods
+    culture = muddish
+   
+    5796.1.1 = { birth=yes }
+    5858.1.1 = { death=yes }
+}
+
+5057 = {
+    name = Myles
+    dynasty = 201
+    father = 5058
+    religion = old_gods
+    culture = muddish
+   
+    5774.1.1 = { birth=yes }
+    5840.1.1 = { death=yes }
+}
+
+5058 = {
+    name = Brynden
+    dynasty = 201
+    father = 5059
+    religion = old_gods
+    culture = muddish
+   
+    5750.1.1 = { birth=yes }
+    5814.1.1 = { death=yes }
+}
+
+5059 = {
+    name = Tristan
+    dynasty = 201
+    father = 5060
+    religion = old_gods
+    culture = muddish
+   
+    5724.1.1 = { birth=yes }
+    5789.1.1 = { death=yes }
+}
+
+5060 = {
+    name = Tristan
+    dynasty = 201
+    father = 5061
+    religion = old_gods
+    culture = muddish
+   
+    5700.1.1 = { birth=yes }
+    5761.1.1 = { death=yes }
+}
+
+5061 = {
+    name = Tristan
+    dynasty = 201
+    father = 5062
+    religion = old_gods
+    culture = muddish
+   
+    5675.1.1 = { birth=yes }
+    5750.1.1 = { death=yes }
+}
+
+5062 = {
+    name = Myles
+    dynasty = 201
+    father = 5063
+    religion = old_gods
+    culture = muddish
+   
+    5643.1.1 = { birth=yes }
+    5712.1.1 = { death=yes }
+}
+
+5063 = {
+    name = Tristan
+    dynasty = 201
+    father = 5064
+    religion = old_gods
+    culture = muddish
+   
+    5620.1.1 = { birth=yes }
+    5680.1.1 = { death=yes }
+}
+
+5064 = {
+    name = Tristifer
+    dynasty = 201
+	father=41301
+    religion = old_gods
+    culture = muddish
+   
+    5600.1.1 = { birth=yes }
+    5657.1.1 = { death=yes }
+}
+
+#######################
+### House Durrandon ###
+#######################
+
+5065 = {
+    name = Cleoden
+    dynasty = 800
+    father = 5066
+    religion = old_gods
+    culture = durrandonfm
+   
+    6496.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6560.1.1 = { death=yes }
+}
+
+5066 = {
+    name = Cleoden
+    dynasty = 800
+    father = 5067
+    religion = old_gods
+    culture = durrandonfm
+   
+    6476.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6539.1.1 = { death=yes }
+}
+
+5067 = {
+    name = Durran
+    dynasty = 800
+    father = 5068
+    religion = old_gods
+    culture = durrandonfm
+   
+    6450.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6509.1.1 = { death=yes }
+}
+
+5068 = {
+    name = Baldric
+    dynasty = 800
+    father = 5069
+    religion = old_gods
+    culture = durrandonfm
+   
+    6426.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6480.1.1 = { death=yes }
+}
+
+5069 = {
+    name = Monfryd
+    dynasty = 800
+    father = 5070
+    religion = old_gods
+    culture = durrandonfm
+   
+    6400.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6461.1.1 = { death=yes }
+}
+
+5070 = {
+    name = Qarlton
+    dynasty = 800
+    father = 5071
+    religion = old_gods
+    culture = durrandonfm
+   
+    6376.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6439.1.1 = { death=yes }
+}
+
+5071 = {
+    name = Qarlton
+    dynasty = 800
+    father = 5072
+    religion = old_gods
+    culture = durrandonfm
+   
+    6350.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6413.1.1 = { death=yes }
+}
+
+5072 = {
+    name = Erich
+    dynasty = 800
+    father = 5073
+    religion = old_gods
+    culture = durrandonfm
+   
+    6327.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6380.1.1 = { death=yes }
+}
+
+5073 = {
+    name = Morden
+    dynasty = 800
+    father = 5074
+    religion = old_gods
+    culture = durrandonfm
+   
+    6300.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6364.1.1 = { death=yes }
+}
+
+
+5074 = {
+    name = Durwald
+    dynasty = 800
+    father = 5075
+    religion = old_gods
+    culture = durrandonfm
+   
+    6278.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6340.1.1 = { death=yes }
+}
+
+5075 = {
+    name = Barron
+    dynasty = 800
+    father = 5076
+    religion = old_gods
+    culture = durrandonfm
+   
+    6250.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6313.1.1 = { death=yes }
+}
+
+5076 = {
+    name = Durran
+    dynasty = 800
+    father = 5077
+    religion = old_gods
+    culture = durrandonfm
+   
+    6231.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6300.1.1 = { death=yes }
+}
+
+5077 = {
+    name = Durran
+    dynasty = 800
+    father = 5078
+    religion = old_gods
+    culture = durrandonfm
+   
+    6207.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6268.1.1 = { death=yes }
+}
+
+5078 = {
+    name = Durran
+    dynasty = 800
+    father = 5079
+    religion = old_gods
+    culture = durrandonfm
+   
+    6185.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6251.1.1 = { death=yes }
+}
+
+5079 = {
+    name = Durran
+    dynasty = 800
+    father = 5080
+    religion = old_gods
+    culture = durrandonfm
+   
+    6161.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6224.1.1 = { death=yes }
+}
+
+5080 = {
+    name = Durran
+    dynasty = 800
+    father = 5081
+    religion = old_gods
+    culture = durrandonfm
+   
+    6141.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6200.1.1 = { death=yes }
+}
+
+5081 = {
+    name = Durran
+    dynasty = 800
+    father = 5082
+    religion = old_gods
+    culture = durrandonfm
+   
+    6116.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6163.1.1 = { death=yes }
+}
+
+5082 = {
+    name = Durran
+    dynasty = 800
+    father = 5083
+    religion = old_gods
+    culture = durrandonfm
+   
+    6100.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6157.1.1 = { death=yes }
+}
+
+5083 = {
+    name = Durran
+    dynasty = 800
+    father = 5084
+    religion = old_gods
+    culture = durrandonfm
+   
+    6078.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6135.1.1 = { death=yes }
+}
+
+5084 = {
+    name = Monfryd
+    dynasty = 800
+    father = 5085
+    religion = old_gods
+    culture = durrandonfm
+   
+    6050.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6116.1.1 = { death=yes }
+}
+
+5085 = {
+    name = Durran
+    dynasty = 800
+    father = 5086
+    religion = old_gods
+    culture = durrandonfm
+   
+    6025.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6093.1.1 = { death=yes }
+}
+
+5086 = {
+    name = Erich
+    dynasty = 800
+    father = 5087
+    religion = old_gods
+    culture = durrandonfm
+   
+    6002.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6065.1.1 = { death=yes }
+}
+
+5087 = {
+    name = Erich
+    dynasty = 800
+    father = 5088
+    religion = old_gods
+    culture = durrandonfm
+   
+    5980.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6001.1.1 = { give_nickname = nick_the_sailmaker }
+    6041.1.1 = { death=yes }
+}
+
+5088 = {
+    name = Erich
+    dynasty = 800
+    father = 5089
+    religion = old_gods
+    culture = durrandonfm
+   
+    5954.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6017.1.1 = { death=yes }
+}
+
+5089 = {
+    name = Erich
+    dynasty = 800
+    father = 5090
+    religion = old_gods
+    culture = durrandonfm
+   
+    5933.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    6000.1.1 = { death=yes }
+}
+
+5090 = {
+    name = Morden
+    dynasty = 800
+    father = 5091
+    religion = old_gods
+    culture = durrandonfm
+   
+    5900.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5967.1.1 = { death=yes }
+}
+
+5091 = {
+    name = Monfryd
+    dynasty = 800
+    father = 5092
+    religion = old_gods
+    culture = durrandonfm
+   
+    5880.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5944.1.1 = { death=yes }
+}
+
+5092 = {
+    name = Monfryd
+    dynasty = 800
+    father = 5093
+    religion = old_gods
+    culture = durrandonfm
+   
+    5854.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5917.1.1 = { death=yes }
+}
+
+5093 = {
+    name = Maldon
+    dynasty = 800
+    father = 5094
+    religion = old_gods
+    culture = durrandonfm
+   
+    5824.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5894.1.1 = { death=yes }
+}
+
+5094 = {
+    name = Durran
+    dynasty = 800
+    father = 5095
+    religion = old_gods
+    culture = durrandonfm
+   
+    5800.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5862.1.1 = { death=yes }
+}
+
+5095 = {
+    name = Durran
+    dynasty = 800
+    father = 5096
+    religion = old_gods
+    culture = durrandonfm
+   
+    5780.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5843.1.1 = { death=yes }
+}
+
+5096 = {
+    name = Durran
+    dynasty = 800
+    father = 5097
+    religion = old_gods
+    culture = durrandonfm
+   
+    5756.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5817.1.1 = { death=yes }
+}
+
+5097 = {
+    name = Durran
+    dynasty = 800
+    father = 5098
+    religion = old_gods
+    culture = durrandonfm
+   
+    5730.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5790.1.1 = { death=yes }
+}
+
+5098 = {
+    name = Durran
+    dynasty = 800
+    father = 5099
+    religion = old_gods
+    culture = durrandonfm
+   
+    5700.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5759.1.1 = { death=yes }
+}
+
+5099 = {
+    name = Maldon
+    dynasty = 800
+    father = 5100
+    religion = old_gods
+    culture = durrandonfm
+   
+    5670.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5731.1.1 = { death=yes }
+}
+
+5100 = {
+    name = Maldon
+    dynasty = 800
+    father = 5101
+    religion = old_gods
+    culture = durrandonfm
+   
+    5641.1.1 = { 
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5700.1.1 = { death=yes }
+}
+
+5101 = {
+    name = Durran
+    dynasty = 800
+    father = 5102
+    religion = old_gods
+    culture = durrandonfm
+   
+    5620.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5679.1.1 = { death=yes }
+}
+
+5102 = {
+    name = Durran
+    dynasty = 800
+    father = 5103
+    religion = old_gods
+    culture = durrandonfm
+   
+    5600.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5660.1.1 = { death=yes }
+}
+
+5103 = {
+    name = Durran
+    dynasty = 800
+    father = 5104
+    religion = old_gods
+    culture = durrandonfm
+   
+    5579.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5648.1.1 = { death=yes }
+}
+
+
+5104 = {
+    name = Durran
+    dynasty = 800
+    father = 5105
+    religion = old_gods
+    culture = durrandonfm
+   
+    5550.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5617.1.1 = { death=yes }
+}
+
+5105 = {
+    name = Durran
+    dynasty = 800
+    father = 5106
+    religion = old_gods
+    culture = durrandonfm
+   
+    5526.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5600.1.1 = { death=yes }
+}
+
+5106 = {
+    name = Durran
+    dynasty = 800
+    father = 5107
+    religion = old_gods
+    culture = durrandonfm
+   
+    5500.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5561.1.1 = { death=yes }
+}
+
+5107 = {
+    name = Ormund
+    dynasty = 800
+    father = 5108
+    religion = old_gods
+    culture = durrandonfm
+   
+    5480.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5552.1.1 = { death=yes }
+}
+
+5108 = {
+    name = Ormund
+    dynasty = 800
+    father = 5109
+    religion = old_gods
+    culture = durrandonfm
+   
+    5454.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5519.1.1 = { death=yes }
+}
+
+5109 = {
+    name = Durran
+    dynasty = 800
+    father = 5110
+    religion = old_gods
+    culture = durrandonfm
+   
+    5430.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5500.1.1 = { death=yes }
+}
+
+5110 = {
+    name = Durran
+    dynasty = 800
+    father = 5111
+    religion = old_gods
+    culture = durrandonfm
+   
+    5400.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5465.1.1 = { death=yes }
+}
+
+5111 = {
+    name = "Line of Durran"
+    dynasty = 800
+    father = 5121
+    religion = old_gods
+    culture = durrandonfm
+    occluded = yes
+    50.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    5449.1.1 = { death=yes }
+}
+
+5121 = {
+    name = Durran
+    dynasty = 800
+    religion = old_gods
+    culture = durrandonfm
+    dna="bd0af0eaa00"
+    properties = "ce0dbd00000000"
+    martial = 14
+    fertility = 20
+    health = 10
+    trait = dueling_legend
+    trait = brilliant_strategist
+    trait = strong
+    trait = brave
+    trait = ambitious
+    trait = just
+    trait = diligent
+    trait = zealous
+    trait = wroth
+    1.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = stormmen
+		}
+	}
+    27.4.14 = {add_spouse=5122}
+	29.1.1 = { 
+		give_nickname=nick_godsgrief
+		create_bloodline = {
+			type = bloodline_durrandon
+			has_dlc = "Holy Fury"
+		}
+	}
+    78.1.1 = { death=yes }
+}
+
+5122 = {
+    name = Elenei
+    female = yes
+    
+    religion = old_gods
+    culture = stormmen
+    dna="0jfbi0hie00"
+    properties="do0p0b00000000"
+    diplomacy = 20
+    fertility = 20
+    health = 10
+    trait = fair
+    trait = quick
+    trait = kind
+    trait = honest
+    trait = diligent
+    trait = trusting
+    trait = patient
+    trait = strong
+    5.1.1 = { birth=yes }
+    27.4.14 = {add_spouse=5121}
+    90.11.2 = {
+		death = { death_reason = death_missing }
+	} 
+}
+
+
+###################
+### House Royce ###
+###################
+
+5125 = {
+    name = Yorwyck
+    dynasty = 172
+    father = 5126
+    religion = old_gods
+    culture = bronzemen
+   
+    6360.1.1 = { birth=yes }
+    6414.1.1 = { death=yes }
+}
+
+5126 = {
+    name = Yorwyck
+    dynasty = 172
+    father = 5127
+    religion = old_gods
+    culture = bronzemen
+   
+    6340.1.1 = { birth=yes }
+    6400.1.1 = { death=yes }
+}
+
+5127 = {
+    name = Yorwyck
+    dynasty = 172
+    father = 5128
+    religion = old_gods
+    culture = bronzemen
+   
+    6318.1.1 = { birth=yes }
+    6380.1.1 = { death=yes }
+}
+
+5128 = {
+    name = Yorwyck
+    dynasty = 172
+    father = 5129
+    religion = old_gods
+    culture = bronzemen
+   
+    6300.1.1 = { birth=yes }
+    6358.1.1 = { death=yes }
+}
+
+5129 = {
+    name = Yorwyck
+    dynasty = 172
+    father = 5130
+    religion = old_gods
+    culture = bronzemen
+   
+    6276.1.1 = { birth=yes }
+    6338.1.1 = { death=yes }
+}
+
+5130 = {
+    name = Yorwyck
+    dynasty = 172
+    father = 5131
+    religion = old_gods
+    culture = bronzemen
+	
+    6250.1.1 = { birth=yes }
+    6309.1.1 = { death=yes }
+}
+
+5131 = {
+    name = Robar
+    dynasty = 172
+    father = 5132
+    religion = old_gods
+    culture = bronzemen
+	
+    trait = skilled_tactician 
+	trait = strong
+	trait = ambitious
+	trait = zealous
+	trait = wroth
+	trait = tall
+	trait = dueling_legend
+    6220.1.1 = { birth=yes }
+	6250.1.1 = {
+		create_bloodline = {
+			type = bloodline_royce
+			has_dlc = "Holy Fury"
+		}
+	}
+    6271.1.1 = { death=yes }
+}
+
+5132 = {
+    name = Yorwyck
+    religion = old_gods
+    culture = bronzemen
+   
+    6200.1.1 = { birth=yes }
+    6260.1.1 = { death=yes }
+}
+
+
+
+
+
+####################
+### House Bolton ###
+####################
+
+
+5134 = {
+    name = Royce
+    dynasty = 2
+    father = 5135
+    religion = old_gods
+    culture = northmen
+   
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5135 = {
+    name = Royce
+    dynasty = 2
+    father = 5136
+    religion = old_gods
+    culture = northmen
+   
+
+    6475.1.1 = { birth=yes }
+    6500.1.1 = { give_nickname=nick_the_bane_of_winterfell }
+    6536.1.1 = { death=yes }
+}
+
+5136 = {
+    name = Roose
+    dynasty = 2
+    father = 5137
+    religion = old_gods
+    culture = northmen
+   
+    6450.1.1 = { birth=yes }
+    6512.1.1 = { death=yes }
+}
+
+5137 = {
+    name = Royce
+    dynasty = 2
+    father = 5138
+    religion = old_gods
+    culture = northmen
+   
+    6430.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+
+5138 = {
+    name = Domeric
+    dynasty = 2
+    father = 5139
+    religion = old_gods
+    culture = northmen
+   
+    6400.1.1 = { birth=yes }
+    6462.1.1 = { death=yes }
+}
+
+5139 = {
+    name = Domeric
+    dynasty = 2
+    father = 5140
+    religion = old_gods
+    culture = northmen
+   
+    6367.1.1 = { birth=yes }
+    6430.1.1 = { death=yes }
+}
+
+5140 = {
+    name = Roose
+    dynasty = 2
+    father = 5141
+    religion = old_gods
+    culture = northmen
+   
+    6350.1.1 = { birth=yes }
+    6410.1.1 = { death=yes }
+}
+
+5141 = {
+    name = Ramsay
+    dynasty = 2
+    father = 5142
+    religion = old_gods
+    culture = northmen
+   
+    6327.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+5142 = {
+    name = Royce
+    dynasty = 2
+    father = 5143
+    religion = old_gods
+    culture = northmen
+   
+    6300.1.1 = { birth=yes }
+    6330.1.1 = { give_nickname=nick_wolfkiller }
+    6354.1.1 = { death=yes }
+}
+
+5143 = {
+    name = Rodrik
+    dynasty = 2
+    father = 5144
+    religion = old_gods
+    culture = northmen
+   
+    6276.1.1 = { birth=yes }
+    6333.1.1 = { give_nickname=nick_the_flayed_man }
+    6334.1.1 = { death=yes }
+}
+
+5144 = {
+    name = Roose
+    dynasty = 2
+    father = 5145
+    religion = old_gods
+    culture = northmen
+   
+    6250.1.1 = { birth=yes }
+    6312.1.1 = { death=yes }
+}
+
+5145 = {
+    name = Domeric
+    dynasty = 2
+    father = 5146
+    religion = old_gods
+    culture = northmen
+    
+    6225.1.1 = { birth=yes }
+    6250.1.1 = { give_nickname=nick_the_flayer }
+    6287.1.1 = { death=yes }
+}
+
+5146 = {
+    name = Domeric
+    dynasty = 2
+    father = 5147
+    religion = old_gods
+    culture = northmen
+   
+    6200.1.1 = { birth=yes }
+    6264.1.1 = { death=yes }
+}
+
+5147 = {
+    name = Roose
+    dynasty = 2
+    father = 5148
+    religion = old_gods
+    culture = northmen
+   
+    6173.1.1 = { birth=yes }
+    6221.1.1 = { death=yes }
+}
+
+5148 = {
+    name = Rodrik
+    dynasty = 2
+    father = 5149
+    religion = old_gods
+    culture = northmen
+   
+    6150.1.1 = { birth=yes }
+    6205.1.1 = { death=yes }
+}
+
+5149 = {
+    name = Ramsay
+    dynasty = 2
+    father = 5150
+    religion = old_gods
+    culture = northmen
+   
+    6121.1.1 = { birth=yes }
+    6187.1.1 = { death=yes }
+}
+
+5150 = {
+    name = Royce
+    dynasty = 2
+    father = 41501
+    religion = old_gods
+    culture = northmen
+    
+    6097.1.1 = { birth=yes }
+    6130.1.1 = { give_nickname=nick_the_dreaded }
+    6162.1.1 = { death=yes }
+}
+
+
+########################
+### House Hightower ####
+########################
+
+5231 = {
+    name = Uthor
+    dynasty = 602 
+    father = 5232
+    religion = old_gods
+    culture = wynemen
+    
+    6507.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5232 = {
+    name = Dorian
+    dynasty = 602 
+    father = 5233
+    religion = old_gods
+    culture = wynemen
+    
+    6480.1.1 = { birth=yes }
+    6530.1.1 = { death=yes }
+}
+
+5233 = {
+    name = Urrigon
+    dynasty = 602 
+    father = 5234
+    religion = old_gods
+    culture = wynemen
+    
+    6454.1.1 = { birth=yes }
+	6480.1.1 = { give_nickname=nick_knightsbane }
+    6512.1.1 = { death=yes }
+}
+
+5234 = {
+    name = Peremore
+    dynasty = 602 
+    father = 5235
+    religion = old_gods
+    culture = wynemen
+    
+    6426.1.1 = { birth=yes }
+    6487.1.1 = { death=yes }
+}
+
+5235 = {
+    name = Uthor
+    dynasty = 602 
+    father = 5236
+    religion = old_gods
+    culture = wynemen
+    
+    6400.1.1 = { birth=yes }
+    6457.1.1 = { death=yes }
+}
+
+5236 = {
+    name = Bryndon
+    dynasty = 602 
+    father = 5237
+    religion = old_gods
+    culture = wynemen
+    
+    6376.1.1 = { birth=yes }
+    6431.1.1 = { death=yes }
+}
+
+5237 = {
+    name = Hugo
+    dynasty = 602 
+    father = 5238
+    religion = old_gods
+    culture = wynemen
+    
+    6350.1.1 = { birth=yes }
+    6408.1.1 = { death=yes }
+}
+
+5238 = {
+    name = Urrigon
+    dynasty = 602 
+    father = 5239
+    religion = old_gods
+    culture = wynemen
+    
+    6325.1.1 = { birth=yes }
+    6387.1.1 = { death=yes }
+}
+
+5239 = {
+    name = Jeremy
+    dynasty = 602 
+    father = 5240
+    religion = old_gods
+    culture = wynemen
+    
+    6302.1.1 = { birth=yes }
+    6361.1.1 = { death=yes }
+}
+
+5240 = {
+    name = Hugo
+    dynasty = 602  
+    father = 5241
+    religion = old_gods
+    culture = wynemen
+    
+    6280.1.1 = { birth=yes }
+    6332.1.1 = { death=yes }
+}
+
+5241 = {
+    name = Jason
+    dynasty = 602 
+    father = 5242
+    religion = old_gods
+    culture = wynemen
+    
+    6260.1.1 = { birth=yes }
+    6322.1.1 = { death=yes }
+}
+
+5242 = {
+    name = Urrigon
+    dynasty = 602 
+    father = 5243
+    religion = old_gods
+    culture = wynemen
+    
+    6235.1.1 = { birth=yes }
+    6294.1.1 = { death=yes }
+}
+
+5243 = {
+    name = Uthor
+    father = 5544
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    6200.1.1 = { birth=yes }
+    6257.1.1 = { death=yes }
+}
+
+5544 = {
+    name = Jason
+    dynasty = 602 
+    father = 5543
+    religion = old_gods
+    culture = wynemen
+    
+    6177.1.1 = { birth=yes }
+    6213.1.1 = { death=yes }
+}
+
+5543 = {
+    name = Jeremy
+    dynasty = 602 
+    father = 5542
+    religion = old_gods
+    culture = wynemen
+    
+    6140.1.1 = { birth=yes }
+    6199.1.1 = { death=yes }
+}
+
+5542 = {
+    name = Lymond
+    dynasty = 602 
+    father = 5541
+    religion = old_gods
+    culture = wynemen
+	trait = strong
+	trait = tough_soldier
+	trait = cruel
+    
+    6099.1.1 = { birth=yes }
+    6156.1.1 = { death=yes }
+}
+
+5541 = {
+    name = Otho
+    father = 5540
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    6065.1.1 = { birth=yes }
+    6101.1.1 = { death=yes }
+}
+
+5540 = {
+    name = Urrigon
+    father = 5539
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    6032.1.1 = { birth=yes }
+    6091.1.1 = { death=yes }
+}
+
+5539 = {
+    name = Urragon
+    father = 5538
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5993.1.1 = { birth=yes }
+    6073.1.1 = { death=yes }
+}
+
+5538 = {
+    name = Garth
+    father = 5537
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5949.1.1 = { birth=yes }
+    6011.1.1 = { death=yes }
+    
+}
+
+5537 = {
+    name = Urrigon
+    father = 5536
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+	
+    5901.1.1 = { birth=yes }
+    5960.1.1 = { death=yes }
+	
+}
+
+5536 = {
+    name = Lymond
+    father = 5535
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+	trait = brave
+	trait = brilliant_strategist
+
+    
+    5851.1.1 = { birth=yes }
+	5867.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = shrewd
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = quick
+			}
+		}
+}
+    5884.1.1 = { give_nickname=nick_the_sea_lion }
+    5920.1.1 = { death=yes }
+}
+
+5535 = {
+    name = Uthor
+    father = 5534
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5830.1.1 = { birth=yes }
+    5901.1.1 = { death=yes }
+}
+
+5534 = {
+    name = Otho
+    father = 5533
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5799.1.1 = { birth=yes }
+    5855.1.1 = { death=yes }
+}
+
+5533 = {
+    name = Urrigon
+    father = 5532
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5763.1.1 = { birth=yes }
+    5801.1.1 = { death=yes }
+}
+
+5532 = {
+    name = Otho
+    father = 5531
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5740.1.1 = { birth=yes }
+    5799.1.1 = { death=yes }
+}
+
+5531 = {
+    name = Uthor
+    father = 5530
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5711.1.1 = { birth=yes }
+    5774.1.1 = { death=yes }
+}
+
+5530 = {
+    name = Otto
+    father = 5529
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5682.1.1 = { birth=yes }
+    5749.1.1 = { death=yes }
+}
+
+5529 = {
+    name = Gwayne
+    father = 5551
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    5630.1.1 = { birth=yes }
+    5690.1.1 = { death=yes }
+}
+
+
+#####################
+### House Redwyne ###
+#####################
+
+5254 = {
+    name = Gilbert
+    dynasty = 600 
+    father = 5255
+    religion = old_gods
+    culture = wynemen
+    
+    6501.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5255 = {
+    name = Gilbert
+    dynasty = 600 
+    father = 5256
+    religion = old_gods
+    culture = wynemen
+    
+    6480.1.1 = { birth=yes }
+    6531.1.1 = { death=yes }
+}
+
+5256 = {
+    name = Paxter
+    dynasty = 600 
+    father = 5257
+    religion = old_gods
+    culture = wynemen
+    
+    6453.1.1 = { birth=yes }
+    6512.1.1 = { death=yes }
+}
+
+5257 = {
+    name = Hobber
+    dynasty = 600 
+    father = 5258
+    religion = old_gods
+    culture = wynemen
+    
+    6430.1.1 = { birth=yes }
+    6494.1.1 = { death=yes }
+}
+
+5258 = {
+    name = Hobber
+    dynasty = 600 
+    father = 5259
+    religion = old_gods
+    culture = wynemen
+    
+    6405.1.1 = { birth=yes }
+    6467.1.1 = { death=yes }
+}
+
+5259 = {
+    name = Horas
+    dynasty = 600 
+    father = 5260
+    religion = old_gods
+    culture = wynemen
+    
+    6383.1.1 = { birth=yes }
+    6445.1.1 = { death=yes }
+}
+
+5260 = {
+    name = Horas
+    dynasty = 600 
+    father = 5261
+    religion = old_gods
+    culture = wynemen
+    
+    6350.1.1 = { birth=yes }
+    6414.1.1 = { death=yes }
+}
+
+5261 = {
+    name = Hobber
+    dynasty = 600 
+    father = 5262
+    religion = old_gods
+    culture = wynemen
+    
+    6325.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+5262 = {
+    name = Paxter
+    dynasty = 600 
+    father = 5263
+    religion = old_gods
+    culture = wynemen
+    
+    6301.1.1 = { birth=yes }
+    6364.1.1 = { death=yes }
+}
+
+5263 = {
+    name = Gilbert
+    dynasty = 600 
+    father = 5264
+    religion = old_gods
+    culture = wynemen
+    
+    6273.1.1 = { birth=yes }
+    6337.1.1 = { death=yes }
+}
+
+5264 = {
+    name = Gilbert
+    dynasty = 600 
+    father = 5265
+    religion = old_gods
+    culture = wynemen
+    
+    6250.1.1 = { birth=yes }
+    6312.1.1 = { death=yes }
+}
+
+5265 = {
+    name = Gilbert
+    dynasty = 600 
+    father = 5266
+    religion = old_gods
+    culture = wynemen
+    
+    6232.1.1 = { birth=yes }
+    6294.1.1 = { death=yes }
+}
+
+5266 = {
+    name = Paxter
+    dynasty = 600 
+    father = 5267
+    religion = old_gods
+    culture = wynemen
+    
+    6204.1.1 = { birth=yes }
+    6271.1.1 = { death=yes }
+}
+
+5267 = {
+    name = Hobber
+    dynasty = 600 
+    father = 5268
+    religion = old_gods
+    culture = wynemen
+    
+    6180.1.1 = { birth=yes }
+    6237.1.1 = { death=yes }
+}
+
+5268 = {
+    name = Horas
+    dynasty = 600 
+    father = 5269
+    religion = old_gods
+    culture = wynemen
+    
+    6150.1.1 = { birth=yes }
+    6208.1.1 = { death=yes }
+}
+
+5269 = {
+    name = Gilbert
+    dynasty = 600 
+    father = 5270
+    religion = old_gods
+    culture = wynemen
+    
+    6125.1.1 = { birth=yes }
+    6192.1.1 = { death=yes }
+}
+
+5270 = {
+    name = Gilbert
+    dynasty = 600 
+    #father = 5271 - no char with this ID
+    religion = old_gods
+    culture = wynemen
+    
+    6102.1.1 = {
+		birth=yes
+		create_bloodline = {
+			type = bloodline_redwyne
+			has_dlc = "Holy Fury"
+		}
+	}
+    6170.1.1 = { death=yes }
+}
+
+
+###################
+### House Reyne ###
+###################
+
+5318 = {
+    name = Roger
+    dynasty = 730
+    father = 5289
+    religion = old_gods
+    culture = westermen
+   
+    6503.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+
+5289 = {
+    name = Reynard
+    dynasty = 730
+    father = 5290
+    religion = old_gods
+    culture = westermen
+   
+    6480.1.1 = { birth=yes }
+    6537.1.1 = { death=yes }
+}
+
+5290 = {
+    name = Reynard
+    dynasty = 730
+    father = 5291
+    religion = old_gods
+    culture = westermen
+   
+    6454.1.1 = { birth=yes }
+    6521.1.1 = { death=yes }
+}
+
+5291 = {
+    name = Burton
+    dynasty = 730
+    father = 5292
+    religion = old_gods
+    culture = westermen
+   
+    6428.1.1 = { birth=yes }
+    6492.1.1 = { death=yes }
+}
+
+5292 = {
+    name = Reynald
+    dynasty = 730
+    father = 5293
+    religion = old_gods
+    culture = westermen
+   
+    6379.1.1 = { birth=yes }
+    6437.1.1 = { death=yes }
+}
+
+5293 = {
+    name = Roger
+    dynasty = 730
+    father = 5294
+    religion = old_gods
+    culture = westermen
+   
+    6350.1.1 = { birth=yes }
+    6411.1.1 = { death=yes }
+}
+
+5294 = {
+    name = Robert
+    dynasty = 730
+    father = 5295
+    religion = old_gods
+    culture = westermen
+   
+    6326.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+5295 = {
+    name = Reynard
+    dynasty = 730
+    father = 5296
+    religion = old_gods
+    culture = westermen
+   
+    6300.1.1 = { birth=yes }
+    6364.1.1 = { death=yes }
+}
+
+5296 = {
+    name = Burton
+    dynasty = 730
+    father = 5297
+    religion = old_gods
+    culture = westermen
+   
+    6280.1.1 = { birth=yes }
+    6347.1.1 = { death=yes }
+}
+
+5297 = {
+    name = Robert
+    dynasty = 730
+    father = 5298
+    religion = old_gods
+    culture = westermen
+   
+    6256.1.1 = { birth=yes }
+    6312.1.1 = { death=yes }
+}
+
+5298 = {
+    name = Reynald
+    dynasty = 730
+    father = 5299
+    religion = old_gods
+    culture = westermen
+   
+    6230.1.1 = { birth=yes }
+    6300.1.1 = { death=yes }
+}
+
+5299 = {
+    name = Roger
+    dynasty = 730
+    father = 5300
+    religion = old_gods
+    culture = westermen
+   
+    6201.1.1 = { birth=yes }
+    6268.1.1 = { death=yes }
+}
+
+5300 = {
+    name = Roger
+    dynasty = 730
+    father = 5301
+    religion = old_gods
+    culture = westermen
+   
+    6180.1.1 = { birth=yes }
+    6234.1.1 = { death=yes }
+}
+
+5301 = {
+    name = Reynard
+    dynasty = 730
+    father = 5302
+    religion = old_gods
+    culture = westermen
+   
+    6159.1.1 = { birth=yes }
+    6212.1.1 = { death=yes }
+}
+
+5302 = {
+    name = Robert
+    dynasty = 730
+    father = 5303
+    religion = old_gods
+    culture = westermen
+   
+    6140.1.1 = { birth=yes }
+    6200.1.1 = { death=yes }
+}
+
+5303 = {
+    name = Reynard
+    dynasty = 730
+    father = 5304
+    religion = old_gods
+    culture = westermen
+   
+    6121.1.1 = { birth=yes }
+    6170.1.1 = { death=yes }
+}
+
+5304 = {
+    name = Roger
+    dynasty = 730
+    father = 5305
+    religion = old_gods
+    culture = westermen
+   
+    6100.1.1 = { birth=yes }
+    6161.1.1 = { death=yes }
+}
+
+5305 = {
+    name = Reynard
+    dynasty = 730
+    father = 5306
+    religion = old_gods
+    culture = westermen
+   
+    6078.1.1 = { birth=yes }
+    6141.1.1 = { death=yes }
+}
+
+5306 = {
+    name = Robb
+    dynasty = 730
+    father = 5307
+    religion = old_gods
+    culture = westermen
+   
+    6050.1.1 = { birth=yes }
+    6111.1.1 = { death=yes }
+}
+
+5307 = {
+    name = Robb
+    dynasty = 730
+    father = 5308
+    religion = old_gods
+    culture = westermen
+   
+    6026.1.1 = { birth=yes }
+    6091.1.1 = { death=yes }
+}
+
+5308 = {
+    name = Reynard
+    dynasty = 730
+    father = 5309
+    religion = old_gods
+    culture = westermen
+   
+    6000.1.1 = { birth=yes }
+    6058.1.1 = { death=yes }
+}
+
+5309 = {
+    name = Reynard
+    dynasty = 730
+    father = 5310
+    religion = old_gods
+    culture = westermen
+   
+    5974.1.1 = { birth=yes }
+    6029.1.1 = { death=yes }
+}
+
+5310 = {
+    name = Reynard
+    dynasty = 730
+    father = 5311
+    religion = old_gods
+    culture = westermen
+   
+    5950.1.1 = { birth=yes }
+    5999.1.1 = { death=yes }
+}
+
+5311 = {
+    name = Roger
+    dynasty = 730
+    father = 5312
+    religion = old_gods
+    culture = westermen
+   
+    5925.1.1 = { birth=yes }
+    5982.1.1 = { death=yes }
+}
+
+5312 = {
+    name = Roger
+    dynasty = 730
+    father = 5313
+    religion = old_gods
+    culture = westermen
+   
+    5902.1.1 = { birth=yes }
+    5962.1.1 = { death=yes }
+}
+
+5313 = {
+    name = Robert
+    dynasty = 730
+    father = 5314
+    religion = old_gods
+    culture = westermen
+   
+    5880.1.1 = { birth=yes }
+    5900.1.1 = { give_nickname=nick_the_bloody_king }
+    5936.1.1 = { death=yes }
+}
+
+5314 = {
+    name = Burton
+    dynasty = 730
+    father = 5315
+    religion = old_gods
+    culture = westermen
+   
+    5832.1.1 = { birth=yes }
+    5850.1.1 = { give_nickname=nick_the_red_champion }
+    5898.1.1 = { death=yes }
+}
+
+5315 = {
+    name = Reynald
+    dynasty = 730
+    father = 5316
+    religion = old_gods
+    culture = westermen
+   
+    5800.1.1 = { birth=yes }
+    5801.1.1 = { give_nickname=nick_the_red_ruler }
+    5867.1.1 = { death=yes }
+}
+
+5316 = {
+    name = Robert
+    dynasty = 730
+    father = 5317
+    religion = old_gods
+    culture = westermen
+   
+    5780.1.1 = { birth=yes }
+    5800.1.1 = { give_nickname=nick_the_red_bane }
+    5831.1.1 = { death=yes }
+}
+
+5317 = {
+    name = Roger
+    
+    
+    religion = old_gods
+    culture = westermen
+   
+    5740.1.1 = { birth=yes }
+	5765.1.1 = {
+		create_bloodline = {
+			type = bloodline_reyne
+			has_dlc = "Holy Fury"
+		}
+		give_nickname=nick_the_lion_tamer
+	}
+    5801.1.1 = { death=yes }
+}
+
+
+###################
+### House Dayne ###
+###################
+
+5319 = {
+	name = Arthur
+	dynasty = 500 # Dayne
+	father = 5320
+    dna="acaf00gb0b0"
+    properties="mg0b0b00000000"
+    religion = old_gods
+	culture = daynefm
+	trait = dueling_master
+	trait = brave
+	trait = just
+	trait= honourable
+	trait = diligent
+	trait = skilled_tactician
+	6500.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6530.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	6560.1.1 = { death=yes }
+}
+
+5320 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5321
+	religion = old_gods
+	culture= daynefm
+	6476.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6538.1.1 = { death=yes }
+}
+
+5321 = {
+	name = Ulrick
+	dynasty = 500 # Dayne
+	father = 5322
+	religion = old_gods
+	culture= daynefm
+	trait = dueling_legend
+	trait = brave
+	trait = just
+	trait= patient
+	trait = diligent
+	trait = skilled_tactician
+	6450.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6475.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	6507.1.1 = { death=yes }
+}
+
+5322 = {
+	name = Ulrick
+	dynasty = 500 # Dayne
+	father = 5323
+	religion = old_gods
+	culture= daynefm
+	6426.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6480.1.1 = { death=yes }
+}
+
+5323 = {
+	name = Edric
+	dynasty = 500 # Dayne
+	father = 5324
+	religion = old_gods
+	culture= daynefm
+	6400.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6457.1.1 = { death=yes }
+}
+
+5324 = {
+	name = Edric
+	dynasty = 500 # Dayne
+	father = 5325
+	religion = old_gods
+	culture= daynefm
+	6380.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6442.1.1 = { death=yes }
+}
+
+5325 = {
+	name = Barristan
+	dynasty = 500 # Dayne
+	father = 5326
+	religion = old_gods
+	culture= daynefm
+	trait = dueling_legend
+	trait = brave
+	trait = just
+	trait= kind
+	trait = diligent
+	trait = tough_soldier
+	6354.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6400.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	6421.1.1 = { death=yes }
+}
+
+5326 = {
+	name = Arthur
+	dynasty = 500 # Dayne
+	father = 5327
+	religion = old_gods
+	culture= daynefm
+	6325.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6390.1.1 = { death=yes }
+}
+
+5327 = {
+	name = Uthor
+	dynasty = 500 # Dayne
+	father = 5328
+	religion = old_gods
+	culture= daynefm
+	6302.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6360.1.1 = { death=yes }
+}
+
+5328 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5329
+	religion = old_gods
+	culture= daynefm
+	6280.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6347.1.1 = { death=yes }
+}
+
+5329 = {
+	name = Ulrick
+	dynasty = 500 # Dayne
+	father = 5330
+	religion = old_gods
+	culture= daynefm
+	trait = dueling_master
+	trait = brave
+	trait = patient
+	trait = just
+	trait= kind
+	trait = diligent
+	trait = skilled_tactician
+	6256.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6280.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	6310.1.1 = { death=yes }
+}
+
+5330 = {
+	name = Arthur
+	dynasty = 500 # Dayne
+	father = 5331
+	religion = old_gods
+	culture= daynefm
+	6232.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6300.1.1 = { death=yes }
+}
+
+5331 = {
+	name = Samwell
+	dynasty = 500 # Dayne
+	father = 5332
+	religion = old_gods
+	culture= daynefm
+	6202.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6240.1.1 = { give_nickname=nick_starfire }
+	6260.1.1 = { death=yes }
+}
+
+5332 = {
+	name = Edric
+	dynasty = 500 # Dayne
+	father = 5333
+	religion = old_gods
+	culture= daynefm
+	6175.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6237.1.1 = { death=yes }
+}
+
+5333 = {
+	name = Barristan
+	dynasty = 500 # Dayne
+	father = 5334
+	religion = old_gods
+	culture= daynefm
+	6151.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6212.1.1 = { death=yes }
+}
+
+
+5334 = {
+	name = Uthor
+	dynasty = 500 # Dayne
+	father = 5335
+	religion = old_gods
+	culture= daynefm
+	6125.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6200.1.1 = { death=yes }
+}
+
+5335 = {
+	name = Samwell
+	dynasty = 500 # Dayne
+	father = 5336
+	religion = old_gods
+	culture= daynefm
+	6101.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6158.1.1 = { death=yes }
+}
+
+5336 = {
+	name = Davos
+	dynasty = 500 # Dayne
+	father = 5337
+	religion = old_gods
+	culture= daynefm
+	6080.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6110.1.1 = { give_nickname=nick_the_daring }
+	6136.1.1 = { death=yes }
+}
+
+5337 = {
+	name = Davos
+	dynasty = 500 # Dayne
+	father = 5338
+	religion = old_gods
+	culture= daynefm
+	6056.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6080.1.1 = { give_nickname=nick_the_defiant }
+        6112.1.1 = { death=yes }
+}
+
+5338 = {
+	name = Davos
+	dynasty = 500 # Dayne
+	father = 5339
+	religion = old_gods
+	culture= daynefm
+	6030.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	6050.1.1 = { give_nickname=nick_the_deadly }
+        6100.1.1 = { death=yes }
+}
+
+5339 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5340
+	religion = old_gods
+	culture= daynefm
+	6000.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+        6064.1.1 = { death=yes }
+}
+
+5340 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5341
+	religion = old_gods
+	culture= daynefm
+	5974.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+        6039.1.1 = { death=yes }
+}
+
+5341 = {
+	name = Edric
+	dynasty = 500 # Dayne
+	father = 5342
+	trait = dueling_master
+	trait = brave
+	trait = patient
+	trait = just
+	trait= kind
+	trait = diligent
+	trait = skilled_tactician
+	religion = old_gods
+	culture= daynefm
+	5950.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+    5978.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	6021.1.1 = { death=yes }
+}
+
+5342 = {
+	name = Joffrey
+	dynasty = 500 # Dayne
+	father = 5343
+	religion = old_gods
+	culture= daynefm
+	5921.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5978.1.1 = { give_nickname=nick_the_fallen_star}
+	5990.1.1 = { death=yes }
+}
+
+5343 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5344
+	religion = old_gods
+	culture= daynefm
+	5900.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5960.1.1 = { death=yes }
+}
+
+5344 = {
+	name = Alester
+	dynasty = 500 # Dayne
+	father = 5345
+	religion = old_gods
+	culture= daynefm
+	5881.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5908.1.1 = { give_nickname=nick_the_sword_of_palestone}
+	5930.1.1 = { death=yes }
+}
+
+5345 = {
+	name = Alaric
+	dynasty = 500 # Dayne
+	father = 5346
+	religion = old_gods
+	culture= daynefm
+	5850.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5911.1.1 = { death=yes }
+}
+
+5346 = {
+	name = Ulrick
+	dynasty = 500 # Dayne
+	father = 5347
+	religion = old_gods
+	culture= daynefm
+	5822.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5890.1.1 = { death=yes }
+}
+
+5347 = {
+	name = Barristan
+	dynasty = 500 # Dayne
+	father = 5348
+	religion = old_gods
+	culture= daynefm
+	5800.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5844.1.1 = { give_nickname=nick_the_sword_of_the_hour}
+	5860.1.1 = { death=yes }
+}
+
+5348 = {
+	name = Arthur
+	dynasty = 500 # Dayne
+	father = 5349
+	religion = old_gods
+	culture= daynefm
+	5773.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5831.1.1 = { death=yes }
+}
+
+5349 = {
+	name = Edric
+	dynasty = 500 # Dayne
+	father = 5350
+	religion = old_gods
+	culture= daynefm
+	5750.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5800.1.1 = { death=yes }
+}
+
+5350 = {
+	name = Ulrick
+	dynasty = 500 # Dayne
+	father = 5351
+	religion = old_gods
+	culture= daynefm
+	trait = dueling_legend
+	trait = kind
+	trait = tough_soldier
+	trait = just
+	trait = honourable
+	trait = patient
+	5731.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5760.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	5794.1.1 = { death=yes }
+}
+
+5351 = {
+	name = Joffrey
+	dynasty = 500 # Dayne
+	father = 5352
+	religion = old_gods
+	culture= daynefm
+	5724.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5780.1.1 = { death=yes }
+}
+
+5352 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5353
+	religion = old_gods
+	culture= daynefm
+	5700.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5752.1.1 = { death=yes }
+}
+
+5353 = {
+	name = Gerold
+	dynasty = 500 # Dayne
+	father = 5354
+	religion = old_gods
+	culture= daynefm
+	5677.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5697.1.1 = { give_nickname=nick_the_sword_of_the_night }
+	5739.1.1 = { death=yes }
+}
+
+5354 = {
+	name = Arthur
+	dynasty = 500 # Dayne
+	father = 5355
+	religion = old_gods
+	culture= daynefm
+	5650.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5710.1.1 = { death=yes }
+}
+
+5355 = {
+	name = Joffrey
+	dynasty = 500 # Dayne
+	father = 5356
+	religion = old_gods
+	culture= daynefm
+	5621.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5692.1.1 = { death=yes }
+}
+
+5356 = {
+	name = Samwell
+	dynasty = 500 # Dayne
+	father = 5357
+	religion = old_gods
+	culture = daynefm
+	trait = dueling_master
+	5600.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5630.1.1 = { give_nickname=nick_the_sword_of_the_morning }
+	5673.1.1 = { death=yes }
+}
+
+5357 = {
+	name = Arthur
+	dynasty = 500 # Dayne
+	father = 5358
+	religion = old_gods
+	culture = daynefm
+	martial = 8
+	trait = brilliant_strategist
+	trait = quick
+	trait = kind
+	trait = just
+	trait = diligent
+	trait = patient
+	trait = dueling_legend
+	trait = honourable
+	5570.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5600.1.1 = { give_nickname=nick_the_sword_dawn }
+	5640.1.1 = { death=yes }
+}
+
+5358 = {
+	name = Samwell
+	dynasty = 500
+	father = 41102
+	religion = old_gods
+	culture = daynefm
+	5550.1.1 = {
+		birth=yes
+		effect_even_if_dead = {
+			culture = torrentine
+		}
+	}
+	5600.1.1 = { death=yes }
+}
+
+#####################
+### House Vhassar ###
+#####################
+
+#5359 removed, duplicate to 3602
+
+5360={
+	name="Viserys"
+	dynasty=1602
+	father = 5361
+	culture=high_valyrian
+	religion=valyrian
+	6468.1.1={birth=yes}
+	6532.1.1={death=yes}
+}
+
+5361={
+	name="Vhagar"
+	dynasty=1602
+    father = 19089
+	culture=high_valyrian
+	religion=valyrian
+	6444.1.1={birth=yes}
+	6500.1.1={death=yes}
+}
+
+
+###################
+### House Rowan ###
+###################
+
+5362={
+	name="Gyles"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5363
+	6500.1.1={birth=yes}
+	6560.1.1={death=yes}
+}
+
+5363={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5364
+	6473.1.1={birth=yes}
+	6545.1.1={death=yes}
+}
+
+5364={
+	name="Hobber"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5365
+	6452.1.1={birth=yes}
+	6500.1.1={death=yes}
+}
+
+5365={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5366
+	6425.1.1={birth=yes}
+	6475.1.1={death=yes}
+}
+
+5366={
+	name="Gyles"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5367
+	6400.1.1={birth=yes}
+	6458.1.1={death=yes}
+}
+
+5367={
+	name="Bryan"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5368
+	6369.1.1={birth=yes}
+	6421.1.1={death=yes}
+}
+
+5368={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5369
+	6332.1.1={birth=yes}
+	6382.1.1={death=yes}
+}
+
+5369={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5370
+	6300.1.1={birth=yes}
+	6356.1.1={death=yes}
+}
+
+5370={
+	name="Garth"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5371
+	6276.1.1={birth=yes}
+	6345.1.1={death=yes}
+}
+
+5371={
+	name="Luthor"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5372
+	6242.1.1={birth=yes}
+	6300.1.1={death=yes}
+}
+
+5372={
+	name="Gyles"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5373
+	6220.1.1={birth=yes}
+	6273.1.1={death=yes}
+}
+
+5373={
+	name="Luthor"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5374
+	6185.1.1={birth=yes}
+	6252.1.1={death=yes}
+}
+
+5374={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5375
+	6153.1.1={birth=yes}
+	6234.1.1={death=yes}
+}
+
+5375={
+	name="Randyll"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5376
+	6138.1.1={birth=yes}
+	6203.1.1={death=yes}
+}
+
+5376={
+	name="Bryan"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5377
+	6101.1.1={birth=yes}
+	6167.1.1={death=yes}
+}
+
+5377={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5378
+	6078.1.1={birth=yes}
+	6145.1.1={death=yes}
+}
+
+5378={
+	name="Gyles"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5379
+	6049.1.1={birth=yes}
+	6107.1.1={death=yes}
+}
+
+5379={
+	name="Hobber"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5380
+	6010.1.1={birth=yes}
+	6075.1.1={death=yes}
+}
+
+5380={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5381
+	5980.1.1={birth=yes}
+	6030.1.1={death=yes}
+}
+
+5381={
+	name="Kyle"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5382
+	5969.1.1={birth=yes}
+	6011.1.1={death=yes}
+}
+
+5382={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5383
+	5932.1.1={birth=yes}
+	5983.1.1={death=yes}
+}
+
+5383={
+	name="Jon"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5384
+	5908.1.1={birth=yes}
+	5965.1.1={death=yes}
+}
+
+5384={
+	name="Bryan"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	father=5385
+	5874.1.1={birth=yes}
+	5921.1.1={death=yes}
+}
+
+5385={
+	name="Robert"
+	dynasty=610
+	culture=north_marcher
+	religion=old_gods
+	5852.1.1={birth=yes}
+	5903.1.1={death=yes}
+}
+
+
+#####################
+### House Darklyn ###
+#####################
+
+5386={
+	name="Jarmen"
+	dynasty=900
+	father = 5387
+	culture=dusklander
+	religion=old_gods
+	6496.1.1={birth=yes}
+	6560.1.1={death=yes}
+}
+
+5387={
+	name="Steffon"
+	dynasty=900
+	father = 5388
+	culture=dusklander
+	religion=old_gods
+	6479.1.1={birth=yes}
+	6538.1.1={death=yes}
+}
+
+5388={
+	name="Ulmer"
+	dynasty=900
+	father = 5389
+	culture=dusklander
+	religion=old_gods
+	6456.1.1={birth=yes}
+	6507.1.1={death=yes}
+}
+
+5389={
+	name="Triston"
+	dynasty=900
+	father = 5390
+	culture=dusklander
+	religion=old_gods
+	6424.1.1={birth=yes}
+	6490.1.1={death=yes}
+}
+
+5390={
+	name="Alyn"
+	dynasty=900
+	father = 5391
+	culture=dusklander
+	religion=old_gods
+	6400.1.1={birth=yes}
+	6457.1.1={death=yes}
+}
+
+5391={
+	name="Godry"
+	dynasty=900
+	father = 5392
+	culture=dusklander
+	religion=old_gods
+	6380.1.1={birth=yes}
+	6439.1.1={death=yes}
+}
+
+5392={
+	name="Damon"
+	dynasty=900
+	father = 5393
+	culture=dusklander
+	religion=old_gods
+	6359.1.1={birth=yes}
+	6425.1.1={death=yes}
+}
+
+5393={
+	name="Brynden"
+	dynasty=900
+	father = 5394
+	culture=dusklander
+	religion=old_gods
+	6333.1.1={birth=yes}
+	6400.1.1={death=yes}
+}
+
+5394={
+	name="Adrian"
+	dynasty=900
+	father = 5395
+	culture=dusklander
+	religion=old_gods
+	6309.1.1={birth=yes}
+	6370.1.1={death=yes}
+}
+
+5395={
+	name="Edmund"
+	dynasty=900
+	father = 5396
+	culture=dusklander
+	religion=old_gods
+	6281.1.1={birth=yes}
+	6341.1.1={death=yes}
+}
+
+5396={
+	name="Monford"
+	dynasty=900
+	father = 5397
+	culture=dusklander
+	religion=old_gods
+	6260.1.1={birth=yes}
+	6309.1.1={death=yes}
+}
+
+5397={
+	name="Denys"
+	dynasty=900
+	father = 5398
+	culture=dusklander
+	religion=old_gods
+	6232.1.1={birth=yes}
+	6300.1.1={death=yes}
+}
+
+5398={
+	name="Lucifer"
+	dynasty=900
+	father = 5399
+	culture=dusklander
+	religion=old_gods
+	6210.1.1={birth=yes}
+	6276.1.1={death=yes}
+}
+
+5399={
+	name="Lothor"
+	dynasty=900
+	father = 5400
+	culture=dusklander
+	religion=old_gods
+	6185.1.1={birth=yes}
+	6247.1.1={death=yes}
+}
+
+5400={
+	name="Brynden"
+	dynasty=900
+	father = 5401
+	culture=dusklander
+	religion=old_gods
+	6159.1.1={birth=yes}
+	6220.1.1={death=yes}
+}
+
+5401={
+	name="Devan"
+	dynasty=900
+	father = 5402
+	culture=dusklander
+	religion=old_gods
+	6130.1.1={birth=yes}
+	6200.1.1={death=yes}
+}
+
+5402={
+	name="Florian"
+	dynasty=900
+	father = 5403
+	culture=dusklander
+	religion=old_gods
+	6101.1.1={birth=yes}
+	6170.1.1={death=yes}
+}
+
+5403={
+	name="Davos"
+	dynasty=900
+	father = 5404
+	culture=dusklander
+	religion=old_gods
+	6080.1.1={birth=yes}
+	6136.1.1={death=yes}
+}
+
+5404={
+	name="Duncan"
+	dynasty=900
+	father = 5405
+	culture=dusklander
+	religion=old_gods
+	6057.1.1={birth=yes}
+	6108.1.1={death=yes}
+}
+
+5405={
+	name="Urlos"
+	dynasty=900
+	father = 5406
+	culture=dusklander
+	religion=old_gods
+	6030.1.1={birth=yes}
+	6090.1.1={death=yes}
+}
+
+5406={
+	name="Danos"
+	dynasty=900
+	father = 5407
+	culture=dusklander
+	religion=old_gods
+	6001.1.1={birth=yes}
+	6067.1.1={death=yes}
+}
+
+5407={
+	name="Athos"
+	dynasty=900
+	mother=5408
+	culture=dusklander
+	religion=old_gods
+	5980.1.1={birth=yes}
+	6047.1.1={death=yes}
+}
+
+5408={
+	name="Serala"
+	dynasty=900
+	father=5409
+	female = yes
+	culture=dusklander
+	religion=old_gods
+	trait = lustful
+	trait = elusive_shadow
+	trait = fair
+	trait = deceitful
+	trait = cruel
+	trait = envious
+	5960.1.1={birth=yes}
+	5980.1.1 = { give_nickname=nick_shadowbitch }
+	6020.1.1={death=yes}
+}
+
+5409={
+	name="Edmund"
+	dynasty=900
+	father=5410
+	culture=dusklander
+	religion=old_gods
+	trait = just
+	trait = kind
+	trait = charitable
+	5940.1.1={birth=yes}
+	5960.1.1 = { give_nickname=nick_the_good }
+	5980.1.1={
+		death = {
+			death_reason = death_murder_unknown_poison
+			killer = 5408
+		}
+	}
+}
+
+5410={
+	name="Jon"
+	dynasty=900
+	father=5411
+	culture=dusklander
+	religion=old_gods
+	5900.1.1={birth=yes}
+	5960.1.1={death=yes}
+}
+
+5411={
+	name="Drake"
+	dynasty=900
+	father=5412
+	culture=dusklander
+	religion=old_gods
+	5876.1.1={birth=yes}
+	5931.1.1={death=yes}
+}
+
+5412={
+	name="Alliser"
+	dynasty=900
+	father=5413
+	culture=dusklander
+	religion=old_gods
+	5850.1.1={birth=yes}
+	5911.1.1={death=yes}
+}
+
+5413={
+	name="Devran"
+	dynasty=900
+	father=5415
+	culture=dusklander
+	religion=rhllor
+	5825.1.1={birth=yes}
+	5860.1.1 = { give_nickname=nick_the_heathen }
+	5882.1.1={death=yes}
+}
+
+5415={
+	name="Urlon"
+	dynasty=900
+	father=5416
+	culture=dusklander
+	religion=old_gods
+	5800.1.1={birth=yes}
+	5821.1.1 = { give_nickname=nick_the_unfortunate }
+	5847.1.1={
+		death = {
+			death_reason = death_accident_fall
+		}
+	}
+}
+5416={
+	name="Duncan"
+	dynasty=900
+	father=5417
+	culture=dusklander
+	religion=old_gods
+	5776.1.1={birth=yes}
+	5846.1.1={death=yes}
+}
+
+5417={
+	name="Belgrave"
+	dynasty=900
+	father=5418
+	culture=dusklander
+	religion=old_gods
+	5750.1.1={birth=yes}
+	5811.1.1={death=yes}
+}
+
+5418={
+	name="Wallard"
+	dynasty=900
+	father=5419
+	culture=dusklander
+	religion=old_gods
+	5725.1.1={birth=yes}
+	5791.1.1={death=yes}
+}
+
+5419={
+	name="Damon"
+	dynasty=900
+	father=5420
+	culture=dusklander
+	religion=old_gods
+	martial = 10
+	trait = brilliant_strategist
+	trait = dueling_master
+	trait = genius
+	trait = deceitful
+	trait = cynical
+	trait = patient
+	trait = lustful
+	trait = hedonist
+	5700.1.1={birth=yes}
+	5720.1.1 = { give_nickname=nick_blackseed }
+	5762.1.1={death=yes}
+}
+
+5420={
+	name="Damon"
+	dynasty=900
+	father=5421
+	mother=5422
+	culture=dusklander
+	religion=old_gods
+	intrigue = 10
+	martial = 16
+	trait = elusive_shadow
+	trait = genius
+	trait = dueling_legend
+	trait = ambitious
+	trait = brave
+	trait = diligent
+	trait = patient
+	trait = cynical
+	trait = deceitful
+	
+	5670.1.1={birth=yes}
+	5671.1.1 = { give_nickname=nick_shadowborne}
+	5739.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 5421
+		}
+	}
+}
+
+5421={
+	name=""
+	
+	culture=dusklander
+	religion=old_gods
+	intrigue = 30
+	martial = 12
+	trait = elusive_shadow
+	trait = quick
+	trait = dueling_legend
+	trait = ambitious
+	trait = sociopath
+	trait = dishonourable
+	trait = heartless
+	trait = diligent
+	trait = deceitful
+	trait = lustful
+	trait = hedonist
+	4000.1.1={
+		birth=yes
+		create_bloodline = {
+			type = bloodline_darklyn
+			has_dlc = "Holy Fury"
+		}
+	}
+	4001.1.1 = { give_nickname=nick_the_shadow }
+	5739.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 5420
+		}
+	}
+}
+
+5422={
+	name=""
+	
+	culture=riverlander
+	religion=old_gods
+	female = yes
+	dna="0a0gh0jh000"
+	properties="qe0d0k00000000"
+	trait = grey_eminence
+	trait = fair
+	trait = quick
+	trait = content
+	trait = chaste
+	trait = kind
+	trait = patient
+	5650.1.1={birth=yes}
+	5651.1.1 = { give_nickname=nick_fair_maid }
+	5670.1.2={
+		death = {
+			death_reason = death_suicide_hanging
+		}
+	}
+}
+
+#####################
+### House Corbray ###
+#####################
+
+5423 = {
+    name = Gwayne
+    dynasty = 182 # Corbray
+    father = 5424
+    religion = the_seven
+    culture = lowland_valemen
+    6360.1.1 = { birth=yes }
+    6410.1.1 = { death=yes }
+}
+
+5424 = {
+    name = Gwayne
+    dynasty = 182 # Corbray
+    father = 5425
+    religion = the_seven
+    culture = lowland_valemen
+    6340.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+5425 = {
+    name = Gwayne
+    dynasty = 182 # Corbray
+    father = 5426
+    religion = the_seven
+    culture = lowland_valemen
+   
+    6300.1.1 = { birth=yes }
+    6357.1.1 = { death=yes }
+}
+
+5426 = {
+    name = Corwyn
+    dynasty = 182 # Corbray
+    father = 5427
+    religion = the_seven
+    culture = lowland_valemen
+    trait = elusive_shadow
+    trait = quick
+    trait = dueling_legend
+    trait = deceitful
+    trait = cynical
+    trait = diligent
+    trait = patient
+    6275.1.1 = { birth=yes }
+    6280.1.1 = { give_nickname=nick_ravensword}
+    6348.1.1 = { death=yes }
+}
+
+5427 = {
+    name = Corwyn
+    dynasty = 182 # Corbray
+   
+    religion = the_seven
+    culture = lowland_valemen
+    trait = quick
+    trait = dueling_legend
+    trait = just
+    trait = zealous
+    trait = diligent
+    trait = lustful
+    trait = brave
+    trait = ambitious
+    6250.1.1 = { birth=yes }
+	6267.1.1 = {
+		give_nickname=nick_lord_five_fingers
+		create_bloodline = {
+			type = bloodline_corbray
+			has_dlc = "Holy Fury"
+		}
+	}
+    6310.1.1 = { death=yes }
+}
+
+###################
+### House Tarly ###
+###################
+
+5428 = {
+    name = Randyll
+    dynasty = 617
+    father = 5429
+    religion = the_seven
+    culture = reachmen
+    
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5429 = {
+    name = Samwyle
+    dynasty = 617
+    father = 5430
+    religion = old_gods
+    culture = reachmen
+    
+    6478.1.1 = { birth=yes }
+    6531.1.1 = { death=yes }
+}
+
+5430 = {
+    name = Samwell
+    dynasty = 617
+    father = 5431
+    religion = old_gods
+    culture = reachmen
+    
+    6451.1.1 = { birth=yes }
+    6512.1.1 = { death=yes }
+}
+
+5431 = {
+    name = Terrence
+    dynasty = 617
+    father = 5432
+    religion = old_gods
+    culture = reachmen
+    
+    6424.1.1 = { birth=yes }
+    6491.1.1 = { death=yes }
+}
+
+5432 = {
+    name = Randyll
+    dynasty = 617
+    father = 5433
+    religion = old_gods
+    culture = reachmen
+    
+    6401.1.1 = { birth=yes }
+    6457.1.1 = { death=yes }
+}
+
+5433 = {
+    name = Samwell
+    dynasty = 617
+    father = 5434
+    religion = old_gods
+    culture = reachmen
+    
+    6380.1.1 = { birth=yes }
+    6444.1.1 = { death=yes }
+}
+
+5434 = {
+    name = Roger
+    dynasty = 617
+    father = 5435
+    religion = old_gods
+    culture = reachmen
+    
+    6354.1.1 = { birth=yes }
+    6420.1.1 = { death=yes }
+}
+
+5435 = {
+    name = Gwayne
+    dynasty = 617
+    father = 5436
+    religion = old_gods
+    culture = reachmen
+    
+    6330.1.1 = { birth=yes }
+    6390.1.1 = { death=yes }
+}
+
+5436 = {
+    name = Loras
+    dynasty = 617
+    father = 5437
+    religion = old_gods
+    culture = reachmen
+    
+    6301.1.1 = { birth=yes }
+    6359.1.1 = { death=yes }
+}
+
+5437 = {
+    name = Loras
+    dynasty = 617
+    father = 5438
+    religion = old_gods
+    culture = reachmen
+    
+    6280.1.1 = { birth=yes }
+    6341.1.1 = { death=yes }
+}
+
+5438 = {
+    name = Garth
+    dynasty = 617
+    father = 5439
+    religion = old_gods
+    culture = reachmen
+    
+    6256.1.1 = { birth=yes }
+    6320.1.1 = { death=yes }
+}
+
+5439 = {
+    name = John
+    dynasty = 617
+    father = 5440
+    religion = old_gods
+    culture = reachmen
+    
+    6231.1.1 = { birth=yes }
+    6300.1.1 = { death=yes }
+}
+
+5440 = {
+    name = Horas
+    dynasty = 617
+    father = 5441
+    religion = old_gods
+    culture = reachmen
+    
+    6205.1.1 = { birth=yes }
+    6267.1.1 = { death=yes }
+}
+
+5441 = {
+    name = Gerold
+    dynasty = 617
+    father = 5442
+    religion = old_gods
+    culture = reachmen
+    
+    6180.1.1 = { birth=yes }
+    6240.1.1 = { death=yes }
+}
+
+5442 = {
+    name = Samwell
+    dynasty = 617
+    father = 5443
+    religion = old_gods
+    culture = reachmen
+    
+    6151.1.1 = { birth=yes }
+    6200.1.1 = { death=yes }
+}
+
+5443 = {
+    name = Samwell
+    dynasty = 617
+    father = 5445
+    religion = old_gods
+    culture = reachmen
+    
+    6125.1.1 = { birth=yes }
+    6180.1.1 = { death=yes }
+}
+
+
+5445 = {
+    name = Randyll
+    dynasty = 617
+
+    religion = old_gods
+    culture = reachmen
+    trait = quick
+    trait = brilliant_strategist
+    trait = dueling_legend
+    trait = wroth
+    trait = zealous
+    trait = drunkard
+    6101.1.1 = {
+		birth=yes
+		create_bloodline = {
+			type = bloodline_tarly
+			has_dlc = "Holy Fury"
+		}
+	}
+    6130.1.1 = { give_nickname=nick_the_hunter }
+    6167.1.1 = { death=yes }
+}
+
+######################
+### House Manderly ###
+######################
+
+5446 = {
+    name = Marlon
+    dynasty = 608
+    father = 5447
+    religion = old_gods
+    culture = manderish
+    
+    6499.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5447 = {
+    name = Merlyn
+    dynasty = 608
+    father = 5448
+    religion = old_gods
+    culture = manderish
+    
+    6480.1.1 = { birth=yes }
+    6534.1.1 = { death=yes }
+}
+
+5448 = {
+    name = Loras
+    dynasty = 608
+    father = 5449
+    religion = old_gods
+    culture = manderish
+    
+    6457.1.1 = { birth=yes }
+    6511.1.1 = { death=yes }
+}
+
+5449 = {
+    name = Marlon
+    dynasty = 608
+    father = 5450
+    religion = old_gods
+    culture = manderish
+    
+    6435.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+
+5450 = {
+    name = Wyman
+    dynasty = 608
+    father = 5451
+    religion = old_gods
+    culture = manderish
+    
+    6411.1.1 = { birth=yes }
+    6473.1.1 = { death=yes }
+}
+
+5451 = {
+    name = Wyman
+    dynasty = 608
+    father = 5452
+    religion = old_gods
+    culture = manderish
+    
+    6390.1.1 = { birth=yes }
+    6440.1.1 = { death=yes }
+}
+
+5452 = {
+    name = Wyman
+    dynasty = 608
+    father = 5453
+    religion = old_gods
+    culture = manderish
+    
+    6366.1.1 = { birth=yes }
+    6421.1.1 = { death=yes }
+}
+
+5453 = {
+    name = Wyman
+    dynasty = 608
+    father = 5454
+    religion = old_gods
+    culture = manderish
+    
+    6346.1.1 = { birth=yes }
+    6407.1.1 = { death=yes }
+}
+
+5454 = {
+    name = Alester
+    dynasty = 608
+    father = 5455
+    religion = old_gods
+    culture = manderish
+    
+    6321.1.1 = { birth=yes }
+    6379.1.1 = { death=yes }
+}
+
+5455 = {
+    name = Alester
+    dynasty = 608
+    father = 5456
+    religion = old_gods
+    culture = manderish
+    
+    6300.1.1 = { birth=yes }
+    6362.1.1 = { death=yes }
+}
+
+5456 = {
+    name = Wyman
+    dynasty = 608
+    father = 5457
+    religion = old_gods
+    culture = manderish
+    
+    6280.1.1 = { birth=yes }
+    6335.1.1 = { death=yes }
+}
+
+5457 = {
+    name = Marlon
+    dynasty = 608
+    father = 5458
+    religion = old_gods
+    culture = manderish
+    
+    6257.1.1 = { birth=yes }
+    6314.1.1 = { death=yes }
+}
+
+5458 = {
+    name = Marlon
+    dynasty = 608
+    father = 5459
+    religion = old_gods
+    culture = manderish
+    
+    6232.1.1 = { birth=yes }
+    6300.1.1 = { death=yes }
+}
+
+5459 = {
+    name = Merlyn
+    dynasty = 608
+    father = 5460
+    religion = old_gods
+    culture = manderish
+    
+    6210.1.1 = { birth=yes }
+    6270.1.1 = { death=yes }
+}
+
+5460 = {
+    name = Wylis
+    dynasty = 608
+    father = 5461
+    religion = old_gods
+    culture = manderish
+    
+    6187.1.1 = { birth=yes }
+    6250.1.1 = { death=yes }
+}
+
+5461 = {
+    name = Wylis
+    dynasty = 608
+    father = 5462
+    religion = old_gods
+    culture = manderish
+    
+    6159.1.1 = { birth=yes }
+    6221.1.1 = { death=yes }
+}
+
+5462 = {
+    name = Wyman
+    dynasty = 608
+    father = 5463
+    religion = old_gods
+    culture = manderish
+    
+    6135.1.1 = { birth=yes }
+    6200.1.1 = { death=yes }
+}
+
+5463 = {
+    name = Marlon
+    dynasty = 608
+    father = 5464
+    religion = old_gods
+    culture = manderish
+    
+    6111.1.1 = { birth=yes }
+    6173.1.1 = { death=yes }
+}
+
+5464 = {
+    name = Marlon
+    dynasty = 608
+    father = 5465
+    religion = old_gods
+    culture = manderish
+    
+    6086.1.1 = { birth=yes }
+    6149.1.1 = { death=yes }
+}
+
+5465 = {
+    name = Merlyn
+    dynasty = 608
+    father = 5466
+    religion = old_gods
+    culture = manderish
+    
+    6061.1.1 = { birth=yes }
+    6128.1.1 = { death=yes }
+}
+
+5466 = {
+    name = Loras
+    dynasty = 608
+    father = 5467
+    religion = old_gods
+    culture = manderish
+    
+    6033.1.1 = { birth=yes }
+    6100.1.1 = { death=yes }
+}
+
+5467 = {
+    name = Loras
+    dynasty = 608
+    father = 5468
+    religion = old_gods
+    culture = manderish
+    
+    6013.1.1 = { birth=yes }
+    6074.1.1 = { death=yes }
+}
+
+5468 = {
+    name = Marlon
+    dynasty = 608
+    father = 5469
+    religion = old_gods
+    culture = manderish
+    
+    5987.1.1 = { birth=yes }
+    6050.1.1 = { death=yes }
+}
+
+5469 = {
+    name = Marlon
+    dynasty = 608
+    father = 5470
+    religion = old_gods
+    culture = manderish
+    
+    5962.1.1 = { birth=yes }
+    6025.1.1 = { death=yes }
+}
+
+5470 = {
+    name = Marlon
+    dynasty = 608
+    father = 5471
+    religion = old_gods
+    culture = manderish
+    
+    5940.1.1 = { birth=yes }
+    6007.1.1 = { death=yes }
+}
+
+5471 = {
+    name = Marlos
+    dynasty = 608
+    father = 5472
+    religion = old_gods
+    culture = manderish
+    
+    5920.1.1 = { birth=yes }
+    5982.1.1 = { death=yes }
+}
+
+5472 = {
+    name = Wyman
+    dynasty = 608
+    father = 5473
+    religion = old_gods
+    culture = manderish
+    
+    5896.1.1 = { birth=yes }
+    5960.1.1 = { death=yes }
+}
+
+5473 = {
+    name = Marlon
+    dynasty = 608
+    father = 5474
+    mother = 5475
+    religion = old_gods
+    culture = manderish
+    
+    5868.1.1 = { birth=yes }
+    5934.1.1 = { death=yes }
+}
+
+5474 = {
+    name = ""
+    religion = old_gods
+    culture = manderish
+    
+    5736.1.1 = { 
+		birth=yes
+		create_bloodline = {
+			type = bloodline_manderly
+			has_dlc = "Holy Fury"
+		}
+	}
+    5800.1.1 = { give_nickname=nick_the_merman }
+    6000.11.2 = {
+		death = { death_reason = death_missing }
+	} 
+}
+
+5475 = {
+    name = ""
+    female = yes
+    religion = old_gods
+    culture = manderish
+    
+    5758.1.1 = { birth=yes }
+    5800.1.1 = { give_nickname=nick_the_mermaid }
+    6000.11.2 = {
+		death = { death_reason = death_missing }
+	} 
+}
+
+####################
+### House Osgrey ###
+####################
+
+5476 = {
+    name = Owain
+    dynasty = 606
+    father = 5477
+    religion = old_gods
+    culture = north_marcher
+    
+    6502.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5477 = {
+    name = Ormond
+    dynasty = 606
+    father = 5478
+    religion = old_gods
+    culture = north_marcher
+    
+    6479.1.1 = { birth=yes }
+    6532.1.1 = { death=yes }
+}
+
+5478 = {
+    name = Othor
+    dynasty = 606
+    father = 5479
+    religion = old_gods
+    culture = north_marcher
+    
+    6455.1.1 = { birth=yes }
+    6518.1.1 = { death=yes }
+}
+
+5479 = {
+    name = Perwyn
+    dynasty = 606
+    father = 5480
+    religion = old_gods
+    culture = north_marcher
+    
+    6431.1.1 = { birth=yes }
+    6501.1.1 = { death=yes }
+}
+
+5480 = {
+    name = Ormond
+    dynasty = 606
+    father = 5481
+    religion = old_gods
+    culture = north_marcher
+    
+    6406.1.1 = { birth=yes }
+    6464.1.1 = { death=yes }
+}
+
+5481 = {
+    name = Edwyn
+    dynasty = 606
+    father = 5482
+    religion = old_gods
+    culture = north_marcher
+    
+    6382.1.1 = { birth=yes }
+    6447.1.1 = { death=yes }
+}
+
+5482 = {
+    name = Edwyn
+    dynasty = 606
+    father = 5483
+    religion = old_gods
+    culture = north_marcher
+    
+    6360.1.1 = { birth=yes }
+    6421.1.1 = { death=yes }
+}
+
+5483 = {
+    name = Harrold
+    dynasty = 606
+    father = 5484
+    religion = old_gods
+    culture = north_marcher
+    
+    6340.1.1 = { birth=yes }
+    6400.1.1 = { death=yes }
+}
+
+5484 = {
+    name = Owain
+    dynasty = 606
+    father = 5485
+    religion = old_gods
+    culture = north_marcher
+    
+    6317.1.1 = { birth=yes }
+    6370.1.1 = { death=yes }
+}
+
+5485 = {
+    name = Knuckey
+    dynasty = 606
+    father = 5486
+    trait = wroth
+    trait = envious
+    trait = cynical
+    trait = heartless
+    trait = elusive_shadow
+    trait = dueling_legend
+    religion = old_gods
+    culture = north_marcher
+    
+    6296.1.1 = { birth=yes }
+    6360.1.1 = { death=yes }
+}
+
+5486 = {
+    name = Ormond
+    dynasty = 606
+    father = 5488
+    religion = old_gods
+    culture = north_marcher
+    
+    6273.1.1 = { birth=yes }
+    6333.1.1 = { death=yes }
+}
+
+
+5488 = {
+    name = Perwyn
+    dynasty = 606
+    father = 5489
+    religion = old_gods
+    culture = north_marcher
+    trait = midas_touched
+    trait = temperate
+    trait = just
+    trait = quick
+    6250.1.1 = { birth=yes }
+    6310.1.1 = { death=yes }
+}
+
+5489 = {
+    name = Othor
+    dynasty = 606
+    father = 5299
+    religion = old_gods
+    culture = westermen
+    trait = bastard 
+    trait = tough_soldier
+    trait = dueling_skilled
+    trait = brave
+    trait = ambitious
+	6231.1.1 = {
+		birth=yes
+		create_bloodline = {
+			type = bloodline_osgrey
+			has_dlc = "Holy Fury"
+		}
+	}
+    6240.1.1 = { give_nickname=nick_chequy_lion }
+    6300.1.1 = { death=yes }
+}
+
+###################
+### House Umber ###
+###################
+
+5492 = {
+    name = Mors
+    father = 5493
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6502.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5493 = {
+    name = Mors
+    father = 5494
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6480.1.1 = { birth=yes }
+    6537.1.1 = { death=yes }
+}
+
+5494 = {
+    name = Hother
+    father = 5495
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6459.1.1 = { birth=yes }
+    6512.1.1 = { death=yes }
+}
+
+5495 = {
+    name = Harmond
+    father = 5496
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6433.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+
+5496 = {
+    name = Jon
+    father = 5497
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6410.1.1 = { birth=yes }
+    6469.1.1 = { death=yes }
+}
+
+5497 = {
+    name = Mors
+    father = 5498
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6389.1.1 = { birth=yes }
+    6444.1.1 = { death=yes }
+}
+
+5498 = {
+    name = Hother
+    father = 5499
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6359.1.1 = { birth=yes }
+    6417.1.1 = { death=yes }
+}
+
+5499 = {
+    name = Hother
+    father = 5500
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6330.1.1 = { birth=yes }
+    6400.1.1 = { death=yes }
+}
+
+5500 = {
+    name = Jon
+    father = 5501
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = tall
+    trait = strong
+    6302.1.1 = { birth=yes }
+    6368.1.1 = { death=yes }
+}
+
+5501 = {
+    name = Mors
+    
+    dynasty = 5
+    culture = clansmen
+    religion = old_gods
+    trait = dueling_legend
+    trait = tall
+    trait = strong
+    trait = ambitious
+    trait = zealous
+    trait = wroth
+    trait = brave
+    6278.1.1 = { birth=yes }
+    6300.1.1 = { give_nickname=nick_the_giant_slayer }
+    6350.1.1 = { death=yes }
+}
+
+###################
+### House Peake ###
+###################
+
+5502 = {
+    name = Unwin
+    father = 5503
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6500.1.1 = { birth=yes }
+    6560.1.1 = { death=yes }
+}
+
+5503 = {
+    name = Lorimar
+    father = 5504
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6480.1.1 = { birth=yes }
+    6536.1.1 = { death=yes }
+}
+
+5504 = {
+    name = Gormon
+    father = 5505
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6458.1.1 = { birth=yes }
+    6519.1.1 = { death=yes }
+}
+
+5505 = {
+    name = Gormon
+    father = 5506
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6436.1.1 = { birth=yes }
+    6500.1.1 = { death=yes }
+}
+
+5506 = {
+    name = Lorimar
+    father = 5507
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6411.1.1 = { birth=yes }
+    6470.1.1 = { death=yes }
+}
+
+5507 = {
+    name = Unwin
+    father = 5508
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6390.1.1 = { birth=yes }
+    6447.1.1 = { death=yes }
+}
+
+5508 = {
+    name = Gormon
+   
+    dynasty = 616
+    culture = south_marcher
+    religion = old_gods
+    
+    6360.1.1 = {
+		birth=yes
+		create_bloodline = {
+			type = bloodline_peake
+			has_dlc = "Holy Fury"
+		}
+	}
+    6421.1.1 = { death=yes }
+}
+
+###################
+### House Shett ###
+###################
+
+5509 = {
+    name = Osgood
+    father = 5510
+    dynasty = 166
+    culture = bronzemen
+    religion = old_gods
+    
+    6350.1.1 = { birth=yes }
+    6402.1.1 = { death=yes }
+}
+
+5510 = {
+    name = Osgood
+    dynasty = 166
+    culture = bronzemen
+    religion = old_gods
+    
+    6325.1.1 = { birth=yes }
+    6380.1.1 = { death=yes }
+}
+
+5511 = {
+    name = Marq
+	father = 5509
+    dynasty = 166
+    culture = bronzemen
+    religion = the_seven
+	trait = flamboyant_schemer
+	trait = craven
+	trait = greedy
+	trait = deceitful
+    
+    6384.1.1 = { birth=yes }
+    6425.1.1 = { death=yes }
+}
+
+5512 = {
+    name = Yorwyck
+	father = 5511
+    dynasty = 166
+    culture = bronzemen
+    religion = the_seven
+	trait = intricate_webweaver
+	trait = paranoid
+	trait = patient
+	trait = quick
+    
+    6423.1.1 = { birth=yes }
+    6467.1.1 = { death=yes }
+}
+
+5513 = {
+    name = Yoren
+	father = 5512
+    dynasty = 166
+    culture = bronzemen
+    religion = the_seven
+	trait = zealous
+	trait = kind
+	trait = patient
+	trait = content
+    
+    6443.1.1 = { birth=yes }
+    6491.1.1 = { death=yes }
+}
+
+5514 = {
+    name = Raymar
+	father = 5513
+    dynasty = 166
+    culture = bronzemen
+    religion = the_seven
+	trait = hedge_knight
+	trait = brilliant_strategist
+	trait = cynical
+	trait = deceitful
+	trait = gregarious
+	trait = drunkard
+	trait = dueling_legend
+	trait = strong
+    
+    6473.1.1 = { birth=yes }
+	6489.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = shrewd
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = quick
+			}
+		}
+	}
+	6511.1.1 = { effect = { give_minor_title = title_generic_ser } }
+    6523.1.1 = { death=yes }
+}
+
+#######################
+### House Dustin ###
+#######################
+
+5525={
+name=""
+dna="mbggiaklpad"
+culture=barrowmen
+religion=old_gods
+martial=15
+diplomacy=17
+stewardship=8
+intrigue=5
+learning=7
+trait = grey_eminence
+trait = dueling_legend
+trait = strong
+trait = tall
+trait = brave
+trait = inspiring_leader
+1.1.1={
+	birth=yes
+	create_bloodline = {
+		type = bloodline_dustin
+		has_dlc = "Holy Fury"
+	}
+}
+50.1.1 = { give_nickname=nick_the_first_man }
+73.1.1= { death=yes }
+}
+
+5524={
+name="Ondrew"
+dynasty=8
+dna="mdagiakugyd"
+culture=barrowmen
+religion=old_gods
+martial=12
+diplomacy=10
+stewardship=4
+intrigue=3
+learning=2
+trait = brilliant_strategist
+trait = dueling_legend
+trait = strong
+trait = brave
+trait = patient
+trait = cruel
+trait = ambitious
+trait = sociopath
+trait = inspiring_leader
+father=5525
+6320.1.1={birth=yes}
+6414.1.1= {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+5523={
+name="Errold"
+dynasty=8
+dna="mdbysakhiad"
+culture=barrowmen
+religion=old_gods
+martial=1
+diplomacy=4
+stewardship=2
+intrigue=1
+learning=1
+trait = underhanded_rogue
+trait = drunkard
+trait = charitable
+trait = hedonist
+trait = lustful
+trait = proud
+father=5524
+6339.1.1={birth=yes}
+6418.1.1= { death=yes }
+}
+
+5522={
+name="Aethan"
+dynasty=8
+dna="mdbdsakggad"
+culture=barrowmen
+religion=old_gods
+martial=5
+diplomacy=8
+stewardship=11
+intrigue=3
+learning=2
+trait = midas_touched
+trait = greedy
+trait = temperate
+trait = dueling_novice
+trait = gregarious
+trait = dishonourable
+trait = deceitful
+father=5523
+6361.1.1={birth=yes}
+	6377.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = shrewd
+				add_trait = administrator
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = quick
+			}
+		}
+}
+6431.1.1= { death=yes }
+}
+
+5521={
+name="Cregan"
+dynasty=8
+dna="asfgsakghid"
+culture=barrowmen
+religion=old_gods
+martial=6
+diplomacy=9
+stewardship=2
+intrigue=1
+learning=12
+trait = detached_priest
+trait = just
+trait = bleeding_heart
+trait = charitable
+trait = chaste
+trait = temperate
+trait = dueling_adept
+trait = shy
+trait = honourable
+trait = zealous
+trait = honest
+father=5522
+6390.1.1={birth=yes}
+6440.1.1= { death=yes }
+}
+
+5520={
+name="Farlen"
+dynasty=8
+dna="mabdjwkodad"
+culture=barrowmen
+religion=old_gods
+martial=6
+diplomacy=8
+stewardship=4
+intrigue=1
+learning=4
+trait = skilled_tactician
+trait = just
+trait = brave
+trait = kind
+father=5521
+6414.1.1={birth=yes}
+6481.1.1= { death=yes }
+}
+
+5519={
+name="Aethan"
+dynasty=8
+dna="mahdeokodfd"
+culture=barrowmen
+religion=old_gods
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=2
+learning=3
+trait = charismatic_negotiator
+trait = chaste
+trait = humble
+trait = kind
+trait = brave
+trait = trusting
+trait = honourable
+trait = dueling_skilled
+trait = twin
+father=5520
+6454.1.1={birth=yes}
+6482.1.1={ death = {
+			death_reason = death_murder_poison
+			killer = 5518
+		}
+	}
+}
+
+5518={
+name="Noryn"
+dynasty=8
+dna="mdhdewkodfd"
+culture=barrowmen
+religion=old_gods
+martial=1
+diplomacy=6
+stewardship=8
+intrigue=11
+learning=4
+trait = elusive_shadow
+trait = deceitful
+trait = paranoid
+trait = envious
+trait = dueling_novice
+trait = craven
+trait = dishonourable
+trait = arbitrary
+trait = ambitious
+trait = twin
+father=5520
+6454.1.1={birth=yes}
+6482.1.1 = { give_nickname=nick_the_kinslayer }
+6483.1.1={ death = {
+			death_reason = death_rabble
+		}
+	}
+}
+
+5517={
+name="Thorum"
+dynasty=8
+dna="mdhddwkjdfd"
+culture=barrowmen
+religion=old_gods
+martial=8
+diplomacy=5
+stewardship=3
+intrigue=2
+learning=1
+health = 8
+trait = tough_soldier
+trait = black_brother
+trait = strong
+trait = zealous
+trait = dueling_expert
+trait = brave
+trait = diligent
+trait = content
+father=5518
+6480.1.1={birth=yes}
+	6496.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_handed
+				add_trait = one_eyed
+				add_trait = one_legged
+				add_trait = disfigured
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = maimed
+			}
+		}
+}
+6566.1.1={employer=1400}
+6578.1.1= { death=yes }
+}
+
+5516={
+name="Yoren"
+dynasty=8
+dna="mfhbeopodlg"
+culture=barrowmen
+religion=old_gods
+martial=9
+diplomacy=5
+stewardship=3
+intrigue=2
+learning=4
+trait = thrifty_clerk
+trait = dueling_adept
+trait = greedy
+trait = gregarious
+trait = diligent
+trait = paranoid
+trait = patient
+father=5519
+6482.1.1={birth=yes}
+6530.1.1 = { death=yes }
+}
+
+
+5515={
+name="Yoren"
+dynasty=8
+dna="mfhbeopodlg"
+culture=barrowmen
+religion=old_gods
+martial=9
+diplomacy=5
+stewardship=3
+intrigue=2
+learning=4
+trait = strong
+trait = tall
+trait = misguided_warrior
+trait = wroth
+trait = arbitrary
+trait = brave
+trait = proud
+trait = inspiring_leader
+trait = dueling_master
+father=5516
+6511.7.1={birth=yes}
+	6527.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = dull
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Reapers" } }
+				add_trait = slow
+			}
+		}
+}
+6532.1.1 = { give_nickname=nick_the_red }
+6564.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 200
+		}
+	}
+}
+
+
+#######################
+### House Hightower ###
+#######################
+
+
+
+5528 = {
+    name = Urrigon
+    father = 41200
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    
+    75.1.1 = { birth=yes }
+    151.1.1 = { death=yes }
+}
+
+5527 = {
+    name = Peremore
+    father = 41200
+    dynasty = 602 
+    
+    religion = old_gods
+    culture = wynemen
+    trait = mastermind_theologian
+    trait = hunchback
+    trait = lunatic
+    trait = genius
+    trait = weak
+    
+    76.1.1 = { birth=yes }
+    106.1.1 = { give_nickname=nick_the_twisted }
+    136.1.1 = { death=yes }
+}
+
+5551 = {
+    name = "Line of Urrigon"
+    father = 5528
+    dynasty = 602 
+    occluded = yes
+    religion = old_gods
+    culture = wynemen
+    
+    100.1.1 = { birth=yes }
+    5650.1.1 = { death=yes }
+}
+

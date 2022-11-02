@@ -1,0 +1,21 @@
+# c_kiper
+
+# County Title
+title = c_kiper
+
+# Settlements
+max_settlements = 2
+
+b_kiper = castle
+#b_kiper_2 = city
+#b_kiper_3 = temple
+#b_kiper_4 = castle
+#b_kiper_5 = city
+#b_kiper_6 = temple
+#b_kiper_7 = castle
+
+# Misc
+culture = myrmen
+religion = rhllor
+terrain = forest
+#History
