@@ -1,5 +1,5 @@
 name="The Seven Kingdoms Midway"
-archive="mod/Seven-Kingdoms-Fan-Fork"
+archive="mod/Seven-Kingdoms-Fan-Fork-main"
 replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="history/wars"
